@@ -46,7 +46,7 @@ def header_error(lineno, line):
 error_count = 0
 for i, line in enumerate(sys.stdin, 1):
     line = line.rstrip()
-    
+
     # Skip blanks and comments
     if line == '' or line.startswith('#'):
         continue
@@ -65,7 +65,7 @@ for i, line in enumerate(sys.stdin, 1):
             star_error(i, month)
         elif not re.match(r'\d+', date) or int(date) < 1 or int(date) > 31:
             star_error(i, date)
-        elif year != '2014':
+        elif year != '2016':
             star_error(i, year)
 
     elif line.startswith('+'):
@@ -73,7 +73,7 @@ for i, line in enumerate(sys.stdin, 1):
             _, timerange, title = line.split(' ', 2)
             if not re.match(TIMERANGE_REGEXP, timerange):
                 timerange_error(i, timerange)
-                
+
         except ValueError:
             plus_error(i, line)
 
@@ -89,6 +89,6 @@ for i, line in enumerate(sys.stdin, 1):
 
         if re.match(r'\d', timerange) and not re.match(TIMERANGE_REGEXP, timerange):
             timerange_error(i, timerange)
-            
+
 print "Found %d errors" % (error_count)
 sys.exit(error_count)
