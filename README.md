@@ -275,7 +275,27 @@ session:
     178  # Negation Focus Identification with Contextual Discourse Information
     ...  
 
-## Missing features
+# External Dependencies
+
+In addition to containing information about the papers and the schedule, there are many other pieces that should be pulled in to a proper handbook. These require lots of coordination with other members of the organizing committee. Here is a list (perhaps incomplete):
+
+- A cover, ideally subcontracted to a graphic designer, which is then provided as a PDF.
+
+- Pictures, biographies, and abstracts for all invited speakers and their talks (each gets her/his own page in the book). You can get these from the Program Chairs (PCs).
+
+- A welcome message from the General Chair (GC) and the PC chairs, which goes in the front of the handbook
+
+- Pages for special events: student lunches, business meetings, banquets, and so on. Each of these should have their own page, a picture if possible, a description, and time and venue information. They should be placed chronologically within the book and should stick out to folks when they are flipping through it.
+
+- Hotel maps (usually provided by Priscilla)
+
+- Typically, there is a local guide that is included at the back of the handbook, with city maps and directions to local restaurants and attractions. This is the responsibility of the local arrangements chair. 
+
+- A complete list of sponsors, their logos, and their sponsorship levels (Priscilla). This is typically put onto the back page, and also on their own pages near the back of the handbook (full page for platinum, down to quarter-page for lower levels of sponsorship)
+
+- Other ads and so on that have been purchased. These are often provided as PDFs.
+
+# Missing features
 
 In START, the code used to verify the order file is not suited to the
 handbook. Their verification ensures only that each paper in the final
