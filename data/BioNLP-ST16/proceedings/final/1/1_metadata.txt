@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#1
+FinalPaperTitle#=%=#A dictionary- and rule-based system for identification of bacteria and habitats in text
+ShortPaperTitle#=%=#A dictionary- and rule-based system for identification of bacteria and habitats in text
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Helen Cook
+JobTitle#==#
+Organization#==#Novo Nordisk Foundation Center for Protein Research
+University of Copenhagen
+Blegdamsvej 3B
+2200 Copenhagen N
+Denmark
+Abstract#==#The number of scientific papers published each year is growing exponentially
+and given the rate of this growth, automated information extraction is needed
+to efficiently extract information from this corpus. A critical first step in
+this process is to accurately recognize the names of entities in text. Previous
+efforts, such as SPECIES, have identified bacteria strain names, among other
+taxonomic groups, but have been limited to those names present in NCBI
+taxonomy. We have implemented a dictionary-based named entity tagger, TagIt,
+that is followed by a rule based expansion system to identify bacteria strain
+names and habitats and resolve them to the closest match possible in the NCBI
+taxonomy and the OntoBiotope ontology respectively. The rule based post
+processing steps expand acronyms, and extend strain names according to a set of
+rules, which captures additional aliases and strains that are not present in
+the dictionary. TagIt has the best performance out of three entries to
+BioNLP-ST BB3 cat+ner, with an overall SER of 0.628 on the independent test
+set.
+Author{1}{Firstname}#=%=#Helen V
+Author{1}{Lastname}#=%=#Cook
+Author{1}{Email}#=%=#helen.cook@cpr.ku.dk
+Author{1}{Affiliation}#=%=#Novo Nordisk Foundation Center for Protein Research, University of Copenhagen
+Author{2}{Firstname}#=%=#Evangelos
+Author{2}{Lastname}#=%=#Pafilis
+Author{2}{Email}#=%=#pafilis@hcmr.gr
+Author{2}{Affiliation}#=%=#Institute of Marine Biology, Biotechnology and Aquaculture, Hellenic Centre for Marine Research
+Author{3}{Firstname}#=%=#Lars Juhl
+Author{3}{Lastname}#=%=#Jensen
+Author{3}{Email}#=%=#lars.juhl.jensen@cpr.ku.dk
+Author{3}{Affiliation}#=%=#Novo Nordisk Foundation Center for Protein Research, University of Copenhagen
+
+==========

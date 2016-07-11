@@ -1,0 +1,49 @@
+SubmissionNumber#=%=#43
+FinalPaperTitle#=%=#Alignment-Based Neural Machine Translation
+ShortPaperTitle#=%=#Alignment-Based Neural Machine Translation
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Tamer Alkhouli
+JobTitle#==#
+Organization#==#RWTH Aachen University
+Templergraben 55,
+52062 Aachen,
+Germany
+Abstract#==#Neural machine translation (NMT) has emerged recently as a promising 
+statistical machine translation approach. In NMT, neural networks (NN) are
+directly used to produce translations, without relying on a pre-existing
+translation framework. In this work, we take a step towards bridging the gap
+between conventional word alignment models and NMT. We follow the hidden Markov
+model (HMM) approach that separates the alignment and lexical models. We
+propose a neural alignment model and combine it with a lexical neural
+model in a log-linear framework. The models are used in a standalone word-based
+decoder
+that explicitly hypothesizes alignments during search. We demonstrate that our
+system outperforms attention-based NMT on two tasks: IWSLT 2013
+German-to-English and BOLT Chinese-to-English. We also show promising results
+for re-aligning the training data using neural models.
+Author{1}{Firstname}#=%=#Tamer
+Author{1}{Lastname}#=%=#Alkhouli
+Author{1}{Email}#=%=#alkhouli@cs.rwth-aachen.de
+Author{1}{Affiliation}#=%=#RWTH Aachen University
+Author{2}{Firstname}#=%=#Gabriel
+Author{2}{Lastname}#=%=#Bretschner
+Author{2}{Email}#=%=#gabriel.bretschner@rwth-aachen.de
+Author{2}{Affiliation}#=%=#RWTH Aachen University
+Author{3}{Firstname}#=%=#Jan-Thorsten
+Author{3}{Lastname}#=%=#Peter
+Author{3}{Email}#=%=#peter@cs.rwth-aachen.de
+Author{3}{Affiliation}#=%=#RWTH Aachen University
+Author{4}{Firstname}#=%=#Mohammed
+Author{4}{Lastname}#=%=#Hethnawi
+Author{4}{Email}#=%=#mohammed.hethnawi@rwth-aachen.de
+Author{4}{Affiliation}#=%=#RWTH Aachen University
+Author{5}{Firstname}#=%=#Andreas
+Author{5}{Lastname}#=%=#Guta
+Author{5}{Email}#=%=#guta@cs.rwth-aachen.de
+Author{5}{Affiliation}#=%=#RWTH Aachen University
+Author{6}{Firstname}#=%=#Hermann
+Author{6}{Lastname}#=%=#Ney
+Author{6}{Email}#=%=#ney@cs.rwth-aachen.de
+Author{6}{Affiliation}#=%=#RWTH Aachen University
+
+==========

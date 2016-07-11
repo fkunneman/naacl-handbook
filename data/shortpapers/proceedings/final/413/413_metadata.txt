@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#413
+FinalPaperTitle#=%=#Weakly Supervised Part-of-speech Tagging Using Eye-tracking Data
+ShortPaperTitle#=%=#Weakly Supervised Part-of-speech Tagging Using Eye-tracking Data
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Maria Barrett
+JobTitle#==#
+Organization#==#
+Abstract#==#For many of the world’s languages, there are no or very few linguistically
+annotated resources. On the other hand, raw text, and often also dictionaries,
+can be harvested from the web for many of these languages, and part-of-speech
+taggers can be trained with these resources. At the same time, previous
+research shows that eye-tracking data, which can be obtained without explicit
+annotation, contains clues to part-of-speech information. In this work, we
+bring these two ideas together and show that given raw text, a dictionary, and
+eye-tracking data obtained from naive participants reading text, we can train a
+weakly supervised PoS tagger using a second-order HMM with maximum entropy
+emissions. The best model use type-level aggregates of eye-tracking data and
+significantly outperforms a baseline that does not have access to eye-tracking
+data.
+Author{1}{Firstname}#=%=#Maria
+Author{1}{Lastname}#=%=#Barrett
+Author{1}{Email}#=%=#dtq912@hum.ku.dk
+Author{1}{Affiliation}#=%=#University og Copenhagen
+Author{2}{Firstname}#=%=#Joachim
+Author{2}{Lastname}#=%=#Bingel
+Author{2}{Email}#=%=#joabingel@gmail.com
+Author{2}{Affiliation}#=%=#University of Copenhagen
+Author{3}{Firstname}#=%=#Frank
+Author{3}{Lastname}#=%=#Keller
+Author{3}{Email}#=%=#keller@inf.ed.ac.uk
+Author{3}{Affiliation}#=%=#University of Edinburgh
+Author{4}{Firstname}#=%=#Anders
+Author{4}{Lastname}#=%=#Søgaard
+Author{4}{Email}#=%=#soegaard@hum.ku.dk
+Author{4}{Affiliation}#=%=#University of Copenhagen
+
+==========

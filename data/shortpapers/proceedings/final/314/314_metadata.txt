@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#314
+FinalPaperTitle#=%=#Deep multi-task learning with low level tasks supervised at lower layers
+ShortPaperTitle#=%=#Deep multi-task learning with low level tasks supervised at lower layers
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Anders Søgaard
+JobTitle#==#
+Organization#==#
+Abstract#==#In all previous work on deep multi-task learning we are aware of, all task
+supervisions are on the same (outermost) layer. We present a multi-task
+learning architecture with deep bi-directional RNNs, where different tasks
+supervision can happen at different layers. We present experiments in syntactic
+chunking and CCG supertagging, coupled with the additional task of POS-tagging.
+We show that it is consistently better to have POS supervision at the innermost
+rather than the outermost layer. We argue that this is because ``low-level''
+tasks are better kept at the lower layers, enabling enabling the higher-level
+tasks make use of the shared representation of the lower-level tasks. Finally,
+we also show how this architecture can be used for domain adaptation.
+Author{1}{Firstname}#=%=#Anders
+Author{1}{Lastname}#=%=#Søgaard
+Author{1}{Email}#=%=#soegaard@hum.ku.dk
+Author{1}{Affiliation}#=%=#University of Copenhagen
+Author{2}{Firstname}#=%=#Yoav
+Author{2}{Lastname}#=%=#Goldberg
+Author{2}{Email}#=%=#yoav.goldberg@gmail.com
+Author{2}{Affiliation}#=%=#Bar Ilan University
+
+==========

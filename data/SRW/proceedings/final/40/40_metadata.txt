@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#40
+FinalPaperTitle#=%=#From Extractive to Abstractive Summarization: A Journey
+ShortPaperTitle#=%=#From Extractive to Abstractive Summarization: A Journey
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Parth Mehta
+JobTitle#==#Student
+Organization#==#CEP-003,
+DAIICT, Near TCS Garima Park, 
+Gandhinagar, 382007, India
+Abstract#==#The availability of large document-summary corpora have opened up new
+possibilities for using statistical text generation techniques for abstractive
+summarization. Progress in Extractive text summarization has become stagnant
+for a while now and in this work we compare the two possible alternates to it.
+We present an argument in favor of abstractive summarization compared to an
+ensemble of extractive techniques. Further we explore the possibility of using
+statistical machine translation as a generative text summarization technique
+and present possible research questions in this direction. We also report our
+initial findings and future direction of research.
+Author{1}{Firstname}#=%=#Parth
+Author{1}{Lastname}#=%=#Mehta
+Author{1}{Email}#=%=#parth.mehta126@gmail.com
+Author{1}{Affiliation}#=%=#Dhirubhai Ambani Institute of Information and Communication Technology
+
+==========

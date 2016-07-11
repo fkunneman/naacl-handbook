@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#528
+FinalPaperTitle#=%=#Scalable Semi-Supervised Query Classification Using Matrix Sketching
+ShortPaperTitle#=%=#Scalable Semi-Supervised Query Classification Using Matrix Sketching
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Young-Bum Kim
+JobTitle#==#scientist
+Organization#==#Microsoft and Redmond, WA
+Abstract#==#The enormous scale of unlabeled text available today necessitates scalable
+schemes for representation learning in natural language processing. For
+instance, in this paper we are interested in classifying the intent of a user
+query. While our labeled data is quite limited, we have access to virtually an
+unlimited amount of unlabeled queries, which could be used to induce useful
+representations: for instance by principal component analysis(PCA). However, it
+is prohibitive to even store the data in memory due to its sheer
+size, let alone apply conventional batch algorithms. In this work, we apply the
+recently proposed matrix sketching algorithm to entirely obviate the problem
+with
+scalability (Liberty, 2013). This algorithm approximates the data within a
+specified memory bound while preserving the covariance structure necessary for
+PCA. Using matrix sketching, we significantly improve the user intent
+classification accuracy by leveraging large amounts of unlabeled queries.
+Author{1}{Firstname}#=%=#Young-Bum
+Author{1}{Lastname}#=%=#Kim
+Author{1}{Email}#=%=#ybkim@microsoft.com
+Author{1}{Affiliation}#=%=#Microsoft
+Author{2}{Firstname}#=%=#Karl
+Author{2}{Lastname}#=%=#Stratos
+Author{2}{Email}#=%=#stratos@cs.columbia.edu
+Author{2}{Affiliation}#=%=#Columbia University
+Author{3}{Firstname}#=%=#Ruhi
+Author{3}{Lastname}#=%=#Sarikaya
+Author{3}{Email}#=%=#ruhi_sarikaya@yahoo.com
+Author{3}{Affiliation}#=%=#Microsoft
+
+==========

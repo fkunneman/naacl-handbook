@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#20
+FinalPaperTitle#=%=#Modelling the Combination of Generic and Target Domain Embeddings in a Convolutional Neural Network for Sentence Classification
+ShortPaperTitle#=%=#Modelling the Combination of Generic and Target Domain Embeddings in a Convolutional Neural Network for Sentence Classification
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Nut Limsopatham
+JobTitle#==#
+Organization#==#
+Abstract#==#Word embeddings have been successfully exploited in systems for NLP tasks, such
+as parsing and text classification. It is intuitive that word embeddings
+created from a larger corpus would provide a better coverage of vocabulary.
+Meanwhile, word embeddings trained on a corpus related to the given task or
+target domain would more effectively represent the semantics of terms. However,
+in some emerging domains (e.g. bio-surveillance using social media data), it
+may be difficult to find a domain corpus that is large enough for creating
+effective word embeddings. To deal with this problem, we propose novel
+approaches that use both word embeddings created from generic and target domain
+corpora. Our experimental results on sentence classification tasks show that
+our approaches significantly improve the performance of an existing
+convolutional neural network that achieved state-of-the-art performances on
+several text classification tasks.
+Author{1}{Firstname}#=%=#Nut
+Author{1}{Lastname}#=%=#Limsopatham
+Author{1}{Email}#=%=#nl347@cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Nigel
+Author{2}{Lastname}#=%=#Collier
+Author{2}{Email}#=%=#nhc30@cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+
+==========

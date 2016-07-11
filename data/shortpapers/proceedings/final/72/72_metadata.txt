@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#72
+FinalPaperTitle#=%=#Single-Model Encoder-Decoder with Explicit Morphological Representation for Reinflection
+ShortPaperTitle#=%=#Single-Model Encoder-Decoder with Explicit Morphological Representation for Reinflection
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Katharina Kann
+JobTitle#==#Researcher/PhD student
+Organization#==#Centrum für Informations- und Sprachverarbeitung
+LMU Munich
+Oettingenstraße 67
+80538 Munich
+Germany
+Abstract#==#Morphological reinflection is the task of generating a target form given a
+source form, a source tag and a target tag.  We propose a new way of modeling
+this task with neural encoder-decoder models.  Our approach reduces the amount
+of required training data for this architecture and achieves state-of-the-art
+results, making
+encoder-decoder models applicable to morphological reinflection even for
+low-resource languages.  
+We further present a new automatic correction method for the outputs
+based on edit trees.
+Author{1}{Firstname}#=%=#Katharina
+Author{1}{Lastname}#=%=#Kann
+Author{1}{Email}#=%=#kann@cis.lmu.de
+Author{1}{Affiliation}#=%=#LMU Munich
+Author{2}{Firstname}#=%=#Hinrich
+Author{2}{Lastname}#=%=#Schütze
+Author{2}{Email}#=%=#inquiries@cislmu.org
+Author{2}{Affiliation}#=%=#Center for Information and Language Processing, University of Munich
+
+==========

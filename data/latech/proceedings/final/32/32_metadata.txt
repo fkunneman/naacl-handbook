@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#32
+FinalPaperTitle#=%=#Searching Four-Millenia-Old Digitized Documents: A Text Retrieval System for Egyptologists
+ShortPaperTitle#=%=#A Text Retrieval System for Egyptologists
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Jesús Vilares
+JobTitle#==#
+Organization#==#University of A Coruña; A Coruña (Spain)
+Abstract#==#Progress made in recent years has led to a growing interest in Digital
+Heritage. This article focuses on Egyptology and, more specifically, the study
+and preservation of ancient Egyptian scripts. We present a Text Retrieval
+system developed specifically to work with hieroglyphic texts. We intend to
+make it freely available to the research community. To the best of our
+knowledge this is the first tool of its kind.
+Author{1}{Firstname}#=%=#Estíbaliz
+Author{1}{Lastname}#=%=#Iglesias-Franjo
+Author{1}{Email}#=%=#estibaliz.ifranjo@udc.es
+Author{1}{Affiliation}#=%=#Universidade da Coruña
+Author{2}{Firstname}#=%=#Jesús
+Author{2}{Lastname}#=%=#Vilares
+Author{2}{Email}#=%=#jvilares@udc.es
+Author{2}{Affiliation}#=%=#Universidade da Coruña
+
+==========

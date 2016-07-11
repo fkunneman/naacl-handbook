@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#124
+FinalPaperTitle#=%=#Leveraging Cognitive Features for Sentiment Analysis
+ShortPaperTitle#=%=#Leveraging Cognitive Features for Sentiment Analysis
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Diptesh Kanojia
+JobTitle#==#Research Scholar
+Organization#==#IITB-Monash Research Academy
+Abstract#==#Sentiments expressed in user-generated short text and sentences are nuanced by
+subtleties at lexical, syntactic, semantic and pragmatic levels. To address
+this, we propose to augment traditional features used for sentiment analysis
+and sarcasm detection, with cognitive features derived from the eye-movement
+patterns of readers.Statistical classification using our enhanced feature set
+improves the performance (F-score) of polarity detection by a maximum of 3.7%
+and 9.3% on two datasets, over the systems that use only traditional features.
+
+We perform feature significance analysis, and experiment on a held-out dataset,
+showing that cognitive features indeed empower sentiment analyzers to handle
+complex constructs.
+Author{1}{Firstname}#=%=#Abhijit
+Author{1}{Lastname}#=%=#Mishra
+Author{1}{Email}#=%=#abhijitmishra.530@gmail.com
+Author{1}{Affiliation}#=%=#Indian Institute of Technology Bombay
+Author{2}{Firstname}#=%=#Diptesh
+Author{2}{Lastname}#=%=#Kanojia
+Author{2}{Email}#=%=#dipteshkanojia@gmail.com
+Author{2}{Affiliation}#=%=#Indian Institute of Technology Bombay, Mumbai
+Author{3}{Firstname}#=%=#Seema
+Author{3}{Lastname}#=%=#Nagar
+Author{3}{Email}#=%=#senagar3@in.ibm.com
+Author{3}{Affiliation}#=%=#IBM Research
+Author{4}{Firstname}#=%=#Kuntal
+Author{4}{Lastname}#=%=#Dey
+Author{4}{Email}#=%=#kuntadey@in.ibm.com
+Author{4}{Affiliation}#=%=#IBM Research India
+Author{5}{Firstname}#=%=#Pushpak
+Author{5}{Lastname}#=%=#Bhattacharyya
+Author{5}{Email}#=%=#pushpakbh@gmail.com
+Author{5}{Affiliation}#=%=#CSE Department, IIT Bombay
+
+==========

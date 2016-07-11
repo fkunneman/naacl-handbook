@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#17
+FinalPaperTitle#=%=#Information-based Modeling of Diachronic Linguistic Change: from Typicality to Productivity
+ShortPaperTitle#=%=#Information-based Modeling of Diachronic Linguistic Change: from Typicality to Productivity
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Stefania Degaetano-Ortlieb
+JobTitle#==#
+Organization#==#Saarland University
+Campus A2.2
+66123 Saarbrücken
+Abstract#==#We present a new approach for modeling diachronic linguistic change in
+grammatical usage. We illustrate the approach on English scientific writing in
+Late Modern English, focusing on grammatical patterns that are potentially
+indicative of shifts in register, genre and/or style. 
+Commonly, diachronic change is characterized by the relative frequency of 
+typical linguistic features over time. However, to fully capture changing
+linguistic usage, feature productivity needs to be taken into account as well. 
+We introduce a data-driven approach for systematically detecting typical
+features and assessing their productivity over time, using
+information-theoretic measures of entropy and surprisal.
+Author{1}{Firstname}#=%=#Stefania
+Author{1}{Lastname}#=%=#Degaetano-Ortlieb
+Author{1}{Email}#=%=#s.degaetano@mx.uni-saarland.de
+Author{1}{Affiliation}#=%=#Saarland University
+Author{2}{Firstname}#=%=#Elke
+Author{2}{Lastname}#=%=#Teich
+Author{2}{Email}#=%=#e.teich@mx.uni-saarland.de
+Author{2}{Affiliation}#=%=#Saarland University
+
+==========

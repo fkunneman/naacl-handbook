@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#126
+FinalPaperTitle#=%=#WMT 2016 Multimodal Translation System Description based on Bidirectional Recurrent Neural Networks with Double-Embeddings
+ShortPaperTitle#=%=#WMT 2016 Multimodal Translation System Description based on Bidirectional Recurrent Neural Networks with Double-Embeddings
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Sergio Rodríguez Guasch
+JobTitle#==#
+Organization#==#Universitat Politècnica de Catalunya
+Campus nord
+Jordi girona
+08034 Barcelona, Spain
+Abstract#==#Bidirectional Recurrent Neural Networks
+(BiRNNs) have shown outstanding results
+on sequence-to-sequence learning tasks.
+This architecture becomes specially inter-
+esting for multimodal machine translation
+task, since BiRNNs can deal with images
+and text. On most translation systems
+the same word embedding is fed to both
+BiRNN units. In this paper, we present
+several experiments to enhance a base-
+line sequence-to-sequence system (Elliott
+et al., 2015), for example, by using dou-
+ble embeddings. These embeddings are
+trained on the forward and backward di-
+rection of the input sequence. Our sys-
+tem is trained, validated and tested on the
+Multi30K dataset (Elliott et al., 2016) in
+the context of the WMT 2016 Multimodal
+Translation Task. The obtained results
+show that the double-embedding approach
+performs significantly better than the tra-
+ditional single-embedding one.
+Author{1}{Firstname}#=%=#Sergio
+Author{1}{Lastname}#=%=#Rodríguez Guasch
+Author{1}{Email}#=%=#sergi9rr9r@gmail.com
+Author{1}{Affiliation}#=%=#UPC
+Author{2}{Firstname}#=%=#Marta R.
+Author{2}{Lastname}#=%=#Costa-jussà
+Author{2}{Email}#=%=#marta.ruiz@upc.edu
+Author{2}{Affiliation}#=%=#Universitat Politècnica de Catalunya
+
+==========

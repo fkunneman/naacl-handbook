@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#112
+FinalPaperTitle#=%=#Quick and Reliable Document Alignment via TF/IDF-weighted Cosine Distance
+ShortPaperTitle#=%=#Quick and Reliable Document Alignment via TF/IDF-weighted Cosine Distance
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Christian Buck
+JobTitle#==#
+Organization#==#University of Edinburgh
+School of Informatics
+10 Crichton Street
+Edinburgh, Scotland
+Abstract#==#This work describes our submission to the WMT16 Bilingual Document Alignment
+task. We show that a very simple distance metric, namely Cosine distance of
+tf/idf weighted document vectors provides a quick and reliable way to align
+documents. We compare many possible variants for constructing the document
+vectors. We also introduce a greedy algorithm that runs quicker and performs
+better in practice than the optimal solution to bipartite graph matching. Our
+approach shows competitive performance and can be improved even further through
+combination with URL based pair matching.
+Author{1}{Firstname}#=%=#Christian
+Author{1}{Lastname}#=%=#Buck
+Author{1}{Email}#=%=#christian.buck@lantis.de
+Author{1}{Affiliation}#=%=#University of Edinburgh
+Author{2}{Firstname}#=%=#Philipp
+Author{2}{Lastname}#=%=#Koehn
+Author{2}{Email}#=%=#phi@jhu.edu
+Author{2}{Affiliation}#=%=#Johns Hopkins University
+
+==========

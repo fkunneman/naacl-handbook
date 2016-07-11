@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#Using Word Embeddings for Improving Statistical Machine Translation of Phrasal Verbs
+ShortPaperTitle#=%=#Using Word Embeddings for Improving Statistical Machine Translation of Phrasal Verbs
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Kostadin Cholakov
+JobTitle#==#
+Organization#==#
+Abstract#==#We examine the employment of word embeddings for machine translation (MT) of
+phrasal verbs (PVs), a linguistic phenomenon with challenging semantics. Using
+word embeddings, we augment the translation model with two features: one
+modelling distributional semantic properties of the source and target phrase
+and another modelling the degree of compositionality of PVs.  We also obtain
+paraphrases to increase the amount of relevant training data. Our method leads
+to improved translation quality for PVs in a case study with English to
+Bulgarian MT system.
+Author{1}{Firstname}#=%=#Kostadin
+Author{1}{Lastname}#=%=#Cholakov
+Author{1}{Email}#=%=#kostadin.cholakov@anglistik.hu-berlin.de
+Author{1}{Affiliation}#=%=#Humboldt University Berlin
+Author{2}{Firstname}#=%=#Valia
+Author{2}{Lastname}#=%=#Kordoni
+Author{2}{Email}#=%=#evangelia.kordoni@anglistik.hu-berlin.de
+Author{2}{Affiliation}#=%=#Humboldt-Universität zu Berlin
+
+==========

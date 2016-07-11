@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#29
+FinalPaperTitle#=%=#Exploring Long-Term Temporal Trends in the Use of Multiword Expressions
+ShortPaperTitle#=%=#Exploring Long-Term Temporal Trends in the Use of MWEs
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Tal Daniel
+JobTitle#==#
+Organization#==#Ben-Gurion University of the Negev, 
+Beer Sheva, Israel
+Abstract#==#Differentiating between outdated expressions and current expressions is not a
+trivial task for foreign language learners, and could be beneficial for
+lexicographers, as they examine expressions.
+Assuming that the usage of expressions over time can be represented by a
+time-series of their periodic frequencies over a large lexicographic corpus, we
+test the hypothesis that there exists an old-new relationship between the
+time-series of some synonymous expressions, a hint that a later expression has
+replaced an earlier one. Another hypothesis we test is that MWEs can be simply
+characterized by sparsity & frequency thresholds.
+
+In order to find trends in MWE usage, we search for Multiword Expressions
+(MWEs) of 2-3 words in English that match a ready-made list of MWEs, within a
+dataset that is based on 1 million books. Using a historical thesaurus, we
+manually identify synonyms of expressions with the most positive, or negative,
+trends, use the resulting expression pairs to identify and visualize the
+relationship between synonymous expressions.
+
+As hypothesized, we found evidence that old-new relationships do exist between
+expressions, and that candidate expressions can be found by simple means, when
+we take the history of an expression into account.
+Author{1}{Firstname}#=%=#Tal
+Author{1}{Lastname}#=%=#Daniel
+Author{1}{Email}#=%=#dantal@post.bgu.ac.il
+Author{1}{Affiliation}#=%=#Ben-Gurion University of the Negev
+Author{2}{Firstname}#=%=#Mark
+Author{2}{Lastname}#=%=#Last
+Author{2}{Email}#=%=#mlast@bgu.ac.il
+Author{2}{Affiliation}#=%=#Ben-Gurion University of the Negev
+
+==========

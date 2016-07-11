@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#10
+FinalPaperTitle#=%=#Building a Bagpipe with a Bag and a Pipe: Exploring Conceptual Combination in Vision
+ShortPaperTitle#=%=#Building a Bagpipe with a Bag and a Pipe: Exploring Conceptual Combination in Vision
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Sandro Pezzelle
+JobTitle#==#
+Organization#==#CIMeC - Center for Mind/Brain Sciences
+Corso Bettini, 31
+38068 Rovereto (TN)
+Italy
+Abstract#==#This preliminary study investigates whether, and to what extent, conceptual
+combination is conveyed by vision. Working with noun-noun compounds we show
+that, for some cases, the composed visual vector built with a simple additive
+model is effective in approximating the visual vector representing the complex
+concept.
+Author{1}{Firstname}#=%=#Sandro
+Author{1}{Lastname}#=%=#Pezzelle
+Author{1}{Email}#=%=#sandro.pezzelle@unitn.it
+Author{1}{Affiliation}#=%=#University of Trento
+Author{2}{Firstname}#=%=#Ravi
+Author{2}{Lastname}#=%=#Shekhar
+Author{2}{Email}#=%=#ravi.shekhar@unitn.it
+Author{2}{Affiliation}#=%=#University of Trento
+Author{3}{Firstname}#=%=#Raffaella
+Author{3}{Lastname}#=%=#Bernardi
+Author{3}{Email}#=%=#bernardi@disi.unitn.it
+Author{3}{Affiliation}#=%=#University of Trento
+
+==========

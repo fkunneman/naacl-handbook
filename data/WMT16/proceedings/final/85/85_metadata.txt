@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#85
+FinalPaperTitle#=%=#Unbabel's Participation in the WMT16 Word-Level Translation Quality Estimation Shared Task
+ShortPaperTitle#=%=#Unbabel's Participation in the WMT16 Word-Level Translation Quality Estimation Shared Task
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Chris Hokamp
+JobTitle#==#
+Organization#==#Dublin City University
+Glasnevin, Dublin 9, Ireland
+Abstract#==#This paper presents the contribution of the Unbabel team to the WMT 2016 Shared
+Task on Word-Level Translation Quality Estimation. We describe our two
+submitted systems: (i) UNBABEL-LINEAR, a feature-rich sequential linear model
+with syntactic features, and (ii) UNBABEL-ENSEMBLE, a stacked combination of
+the linear system with three different deep neural networks, mixing
+feedforward, convolutional, and recurrent layers. Our systems achieved
+F1OK*F1BAD scores of 46.29% and 49.52%, respectively, which were the two
+highest scores in the challenge.
+Author{1}{Firstname}#=%=#André F. T.
+Author{1}{Lastname}#=%=#Martins
+Author{1}{Email}#=%=#afm@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Priberam, Instituto de Telecomunicacoes
+Author{2}{Firstname}#=%=#Ramón
+Author{2}{Lastname}#=%=#Astudillo
+Author{2}{Email}#=%=#ramon@astudillo.com
+Author{2}{Affiliation}#=%=#INESC-ID/L2F
+Author{3}{Firstname}#=%=#Chris
+Author{3}{Lastname}#=%=#Hokamp
+Author{3}{Email}#=%=#chris.hokamp@gmail.com
+Author{3}{Affiliation}#=%=#Dublin City University - CNGL
+Author{4}{Firstname}#=%=#Fabio
+Author{4}{Lastname}#=%=#Kepler
+Author{4}{Email}#=%=#fabio@kepler.pro.br
+Author{4}{Affiliation}#=%=#L2F/INESC-ID and UNIPAMPA
+
+==========

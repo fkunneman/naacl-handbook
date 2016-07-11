@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#28
+FinalPaperTitle#=%=#Learning Word Importance with the Neural Bag-of-Words Model
+ShortPaperTitle#=%=#Learning Word Importance with the Neural Bag-of-Words Model
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Sheikh Imran
+JobTitle#==#
+Organization#==#LORIA UMR 7503, Vandoeuvre-le`s-Nancy, F-54506, France
+Abstract#==#The Neural Bag-of-Words (NBOW) model performs classification with an average of
+the input word vectors and achieves an impressive performance. While the NBOW
+model learns word vectors targeted for the classification task it does not
+explicitly model 'which words are important for given task'. In this paper we
+propose an improved NBOW model with this ability to learn task specific word
+importance weights. The word importance weights are learned by introducing a
+new weighted sum composition of the word vectors. With experiments on standard
+topic and sentiment classification tasks, we show that (a) our proposed model
+learns meaningful word importance for a given task (b) our model gives best
+accuracies among the BOW approaches. We also show that the learned word
+importance weights are comparable to tf-idf based word weights when used as
+features in a BOW SVM classifier.
+Author{1}{Firstname}#=%=#Imran
+Author{1}{Lastname}#=%=#Sheikh
+Author{1}{Email}#=%=#imran.sheikh@loria.fr
+Author{1}{Affiliation}#=%=#LORIA/INRIA
+Author{2}{Firstname}#=%=#Irina
+Author{2}{Lastname}#=%=#Illina
+Author{2}{Email}#=%=#illina@loria.fr
+Author{2}{Affiliation}#=%=#LORIA/INRIA
+Author{3}{Firstname}#=%=#Dominique
+Author{3}{Lastname}#=%=#Fohr
+Author{3}{Email}#=%=#dominique.fohr@loria.fr
+Author{3}{Affiliation}#=%=#LORIA-INRIA
+Author{4}{Firstname}#=%=#Georges
+Author{4}{Lastname}#=%=#Linarès
+Author{4}{Email}#=%=#georges.linares@univ-avignon.fr
+Author{4}{Affiliation}#=%=#LIA, University of Avignon
+
+==========

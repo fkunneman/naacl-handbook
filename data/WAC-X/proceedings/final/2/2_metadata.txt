@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#UdS-(retrain|distributional|surface): Improving POS Tagging for OOV Words in German CMC and Web Data
+ShortPaperTitle#=%=#UdS-(retrain|distributional|surface): Improving POS Tagging for OOV Words in German CMC and Web Data
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Andrea Horbach
+JobTitle#==#
+Organization#==#Saarland University 
+Department for Computational Linguistics
+Campus C 7.4
+66123 Saarbrücken
+Abstract#==#We present in this paper our three system submissions for the POS tagging
+subtask of the Empirist Shared Task: our baseline system UdS-retrain extends a
+standard training data set with in-domain training data; UdS-distributional and
+UdS-surface add two different ways for handling OOV words on top of the
+baseline system by using either distributional information or a combination of
+surface similarity and language model information. We reach the best
+performance by the distributional model.
+Author{1}{Firstname}#=%=#Jakob
+Author{1}{Lastname}#=%=#Prange
+Author{1}{Email}#=%=#jprange@coli.uni-saarland.de
+Author{1}{Affiliation}#=%=#Saarland University
+Author{2}{Firstname}#=%=#Andrea
+Author{2}{Lastname}#=%=#Horbach
+Author{2}{Email}#=%=#andrea@coli.uni-saarland.de
+Author{2}{Affiliation}#=%=#Saarland University
+Author{3}{Firstname}#=%=#Stefan
+Author{3}{Lastname}#=%=#Thater
+Author{3}{Email}#=%=#stth@coli.uni-saarland.de
+Author{3}{Affiliation}#=%=#Universität des Saarlandes
+
+==========

@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#52
+FinalPaperTitle#=%=#Why "Blow Out"? A Structural Analysis of the Movie Dialog Dataset
+ShortPaperTitle#=%=#Why "Blow Out"? A Structural Analysis of the Movie Dialog Dataset
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Richard Searle
+JobTitle#==#
+Organization#==#Eccentric Data Limited, c/o Mills & Reeve LLP, Botanic House, 100 Hills Road, Cambridge, CB2 1PH, United Kingdom.
+Abstract#==#A long-term goal of machine learning is to build an intelligent dialogue agent
+that is capable of learning associations within data and using them to
+understand and answer questions and make relevant recommendations. The Facebook
+Movie DialogDataset (MDD) was recently proposed in Dodge et al. (2016) to
+evaluate the comparative performance of dialogue agent systems. However, a
+structural analysis of the data for the recommendation tasks suggests that
+there may be some flaws in the design of the dataset.
+Author{1}{Firstname}#=%=#Richard
+Author{1}{Lastname}#=%=#Searle
+Author{1}{Email}#=%=#richard@eccentricdata.com
+Author{1}{Affiliation}#=%=#eccentric data limited
+Author{2}{Firstname}#=%=#Megan
+Author{2}{Lastname}#=%=#Bingham-Walker
+Author{2}{Email}#=%=#megan@eccentricdata.com
+Author{2}{Affiliation}#=%=#eccentric data limited
+
+==========

@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#33
+FinalPaperTitle#=%=#Explaining Predictions of Non-Linear Classifiers in NLP
+ShortPaperTitle#=%=#Explaining Predictions of Non-Linear Classifiers in NLP
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Grégoire Montavon
+JobTitle#==#
+Organization#==#Technische Universität Berlin
+10623 Berlin
+Germany
+Abstract#==#Layer-wise relevance propagation (LRP) is a recently proposed technique for
+explaining predictions of complex non-linear classifiers in terms of input
+variables. In this paper, we apply LRP for the first time to natural language
+processing (NLP). More precisely, we use it to explain the predictions of a
+convolutional neural network (CNN) trained on a topic categorization task. Our
+analysis highlights which words are relevant for a specific prediction of the
+CNN. We compare our technique to standard sensitivity analysis, both
+qualitatively and quantitatively, using a "word deleting" perturbation
+experiment, a PCA analysis, and various visualizations. All experiments
+validate the suitability of LRP for explaining the CNN predictions, which is
+also in line with results reported in recent image classification studies.
+Author{1}{Firstname}#=%=#Leila
+Author{1}{Lastname}#=%=#Arras
+Author{1}{Email}#=%=#kheira.l.arras@campus.tu-berlin.de
+Author{1}{Affiliation}#=%=#Fraunhofer Heinrich Hertz Institute
+Author{2}{Firstname}#=%=#Franziska
+Author{2}{Lastname}#=%=#Horn
+Author{2}{Email}#=%=#franziska.horn@campus.tu-berlin.de
+Author{2}{Affiliation}#=%=#Technische Universität Berlin
+Author{3}{Firstname}#=%=#Grégoire
+Author{3}{Lastname}#=%=#Montavon
+Author{3}{Email}#=%=#gregoire.montavon@tu-berlin.de
+Author{3}{Affiliation}#=%=#Technische Universität Berlin
+Author{4}{Firstname}#=%=#Klaus-Robert
+Author{4}{Lastname}#=%=#Müller
+Author{4}{Email}#=%=#klaus-robert.mueller@tu-berlin.de
+Author{4}{Affiliation}#=%=#Technische Universität Berlin
+Author{5}{Firstname}#=%=#Wojciech
+Author{5}{Lastname}#=%=#Samek
+Author{5}{Email}#=%=#wojciech.samek@hhi.fraunhofer.de
+Author{5}{Affiliation}#=%=#Fraunhofer Heinrich Hertz Institute
+
+==========

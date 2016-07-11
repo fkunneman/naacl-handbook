@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#37
+FinalPaperTitle#=%=#Accounting ngrams and multi-word terms can improve topic models
+ShortPaperTitle#=%=#Accounting ngrams and multi-word terms can improve topic models
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Michael Nokel
+JobTitle#==#
+Organization#==#
+Abstract#==#The paper presents an empirical study of integrating ngrams and multi-word
+terms into topic models, while maintaining similarities between them and words
+based on their component structure. First, we adapt the PLSA-SIM algorithm to
+the more widespread LDA model and ngrams. Then we propose a novel algorithm
+LDA-ITER that allows the incorporation of the most suitable ngrams into topic
+models. The experiments of integrating ngrams and multi-word terms conducted on
+five text collections in different languages and domains demonstrate a
+significant improvement in all the metrics under consideration.
+Author{1}{Firstname}#=%=#Michael
+Author{1}{Lastname}#=%=#Nokel
+Author{1}{Email}#=%=#mnokel@gmail.com
+Author{1}{Affiliation}#=%=#Lomonosov Moscow State University
+Author{2}{Firstname}#=%=#Natalia
+Author{2}{Lastname}#=%=#Loukachevitch
+Author{2}{Email}#=%=#louk_nat@mail.ru
+Author{2}{Affiliation}#=%=#Lomonosov Moscow State University
+
+==========

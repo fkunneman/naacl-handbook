@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#55
+FinalPaperTitle#=%=#Incremental Prediction of Sentence-final Verbs: Humans versus Machines
+ShortPaperTitle#=%=#Incremental Prediction of Sentence-final Verbs
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Alvin C Grissom II
+JobTitle#==#
+Organization#==#College of Engineering and Applied Science
+University of Colorado Boulder
+1111 Engineering Drive
+ECOT 717, 430 UCB
+Boulder, CO 80309-0430 USA
+Abstract#==#Verb prediction is important in human sentence processing and, practically, in
+simultaneous machine translation. In verb-final languages, speakers select the
+final verb before it is uttered, and listeners predict it before it is uttered.
+Simultaneous interpreters must do the same to translate in real-time. Motivated
+by the problem of SOV-SVO simultaneous machine translation, we provide a study
+of incremental verb prediction in verb-final languages. As a basis of
+comparison, we examine incremental verb prediction with human participants in a
+multiple choice setting using crowdsourcing to gain insight into incremental
+human performance in a constrained setting. We then examine a computational
+approach to incremental verb prediction using discriminative classification
+with shallow features. Both humans and machines predict verbs more accurately
+as more of a sentence is available, and case markers—when available—help
+humans and
+sometimes machines predict final verbs.
+Author{1}{Firstname}#=%=#Alvin
+Author{1}{Lastname}#=%=#Grissom II
+Author{1}{Email}#=%=#Alvin.Grissom@colorado.edu
+Author{1}{Affiliation}#=%=#University of Colorado at Boulder
+Author{2}{Firstname}#=%=#Naho
+Author{2}{Lastname}#=%=#Orita
+Author{2}{Email}#=%=#naho@ecei.tohoku.ac.jp
+Author{2}{Affiliation}#=%=#Tohoku University
+Author{3}{Firstname}#=%=#Jordan
+Author{3}{Lastname}#=%=#Boyd-Graber
+Author{3}{Email}#=%=#jordan.boyd.graber@colorado.edu
+Author{3}{Affiliation}#=%=#University of Colorado
+
+==========

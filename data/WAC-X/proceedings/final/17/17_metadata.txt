@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#17
+FinalPaperTitle#=%=#Topically-focused Blog Corpora for Multiple Languages
+ShortPaperTitle#=%=#Topically-focused Blog Corpora for Multiple Languages
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Andrew Salway
+JobTitle#==#
+Organization#==#Uni Research Computing
+Nygårdsgaten 112-114
+5008 Bergen
+Norway
+Abstract#==#This paper describes the construction of three corpora, intended for use in
+social science research, comprising English-language, French-language and
+Norwegian-language blogs related to the topic of climate change. The approach,
+techniques and lessons learnt should be applicable for creating other
+topically-focused blog corpora.
+Author{1}{Firstname}#=%=#Andrew
+Author{1}{Lastname}#=%=#Salway
+Author{1}{Email}#=%=#andrew.salway@uni.no
+Author{1}{Affiliation}#=%=#Uni Research
+Author{2}{Firstname}#=%=#Dag
+Author{2}{Lastname}#=%=#Elgesem
+Author{2}{Email}#=%=#Dag.Elgesem@uib.no
+Author{2}{Affiliation}#=%=#University of Bergen
+Author{3}{Firstname}#=%=#Knut
+Author{3}{Lastname}#=%=#Hofland
+Author{3}{Email}#=%=#Knut.Hofland@uni.no
+Author{3}{Affiliation}#=%=#Uni Research
+Author{4}{Firstname}#=%=#Øystein
+Author{4}{Lastname}#=%=#Reigem
+Author{4}{Email}#=%=#oystein.reigem@uni.no
+Author{4}{Affiliation}#=%=#Uni Research
+Author{5}{Firstname}#=%=#Lubos
+Author{5}{Lastname}#=%=#Steskal
+Author{5}{Email}#=%=#Lubos.Steskal@uib.no
+Author{5}{Affiliation}#=%=#University of Bergen
+
+==========

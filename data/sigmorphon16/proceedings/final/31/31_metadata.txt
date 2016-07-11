@@ -1,0 +1,22 @@
+SubmissionNumber#=%=#31
+FinalPaperTitle#=%=#Evaluating Sequence Alignment for Learning Inflectional Morphology
+ShortPaperTitle#=%=#Evaluating Sequence Alignment for Learning Inflectional Morphology
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#David L. King
+JobTitle#==#
+Organization#==#108A Ohio Stadium East
+1961 Tuttle Park Place
+Columbus, OH 43210, USA
+Abstract#==#This work examines CRF-based sequence alignment models for learning natural
+language morphology. Although these systems have performed well for a limited
+number of languages, this work, as part of the SigMorPhon 2016 shared task,
+specifically sets out to determine whether these models handle
+non-concatenative morphology as well as previous work might suggest. Results,
+however, indicate a strong preference for simpler, concatenative morphological
+systems.
+Author{1}{Firstname}#=%=#David
+Author{1}{Lastname}#=%=#King
+Author{1}{Email}#=%=#king.david.lee@gmail.com
+Author{1}{Affiliation}#=%=#The Ohio State University
+
+==========

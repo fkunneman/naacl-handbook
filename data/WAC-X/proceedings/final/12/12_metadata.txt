@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Automatic Classification by Topic Domain for Meta Data Generation, Web Corpus Evaluation, and Corpus Comparison
+ShortPaperTitle#=%=#Automatic Classification by Topic Domain for Meta Data Generation, Web Corpus Evaluation, and Corpus Comparison
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Roland Schäfer
+JobTitle#==#
+Organization#==#Freie Universität Berlin
+Habelschwerdter Allee 45
+14195 Berlin, Germany
+Abstract#==#In this paper, we describe preliminary results from an ongoing experiment
+wherein we classify two large unstructured text corpora – a web corpus and a
+newspaper corpus – by topic domain (or subject area). Our primary goal is to
+develop a method that allows for the reliable annotation of large crawled web
+corpora with meta data required by many corpus linguists. Since we use data
+from a web corpus and a more traditional corpus, we also contribute to the
+important field of corpus comparison and corpus evaluation. Technically, we use
+(unsupervised) topic modelling (LSI and LDA) to automatically induce topic
+distributions over gold standard corpora that were manually annotated for 13
+coarse-grained topic domains. In a second step, we apply supervised machine
+learning (SVMs) to learn the manually annotated topic domains using the
+previously induced topics as features. We achieve around 70% accuracy in
+10-fold cross validations. An analysis of the errors clearly indicates,
+however, that a revised classification scheme and larger gold standard corpora
+will likely lead to a dramatic increase in accuracy.
+Author{1}{Firstname}#=%=#Roland
+Author{1}{Lastname}#=%=#Schäfer
+Author{1}{Email}#=%=#roland.schaefer@fu-berlin.de
+Author{1}{Affiliation}#=%=#Freie Universität Berlin
+Author{2}{Firstname}#=%=#Felix
+Author{2}{Lastname}#=%=#Bildhauer
+Author{2}{Email}#=%=#felix.bildhauer@fu-berlin.de
+Author{2}{Affiliation}#=%=#Freie Universität Berlin
+
+==========

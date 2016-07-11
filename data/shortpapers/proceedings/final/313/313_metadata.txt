@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#313
+FinalPaperTitle#=%=#Cross-lingual projection for class-based language models
+ShortPaperTitle#=%=#Cross-lingual projection for class-based language models
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Keith Hall
+JobTitle#==#
+Organization#==#Google Inc.
+Abstract#==#This paper presents a cross-lingual projection technique for training
+class-based language models.  We borrow from previous success in projecting POS
+tags and NER mentions to that of a trained class-based language model. We use a
+CRF to train a model to predict when a sequence of words is a member of a given
+class and use this to label our language model training data.  We show that we
+can successfully project the contextual cues for these classes across pairs of
+languages and retain a high quality class model in languages with no supervised
+class data.  We present empirical results that show the quality of the
+projected models as well as their effect on the down-stream speech recognition
+objective.  We are able to achieve over 70% of the WER reduction when using the
+projected class models as compared to models trained on human annotations.
+Author{1}{Firstname}#=%=#Beat
+Author{1}{Lastname}#=%=#Gfeller
+Author{1}{Email}#=%=#beatg@google.com
+Author{1}{Affiliation}#=%=#Google Inc.
+Author{2}{Firstname}#=%=#Vlad
+Author{2}{Lastname}#=%=#Schogol
+Author{2}{Email}#=%=#vlads@google.com
+Author{2}{Affiliation}#=%=#Google Inc.
+Author{3}{Firstname}#=%=#Keith
+Author{3}{Lastname}#=%=#Hall
+Author{3}{Email}#=%=#khallbobo@gmail.com
+Author{3}{Affiliation}#=%=#Google Research
+
+==========

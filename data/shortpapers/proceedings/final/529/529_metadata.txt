@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#529
+FinalPaperTitle#=%=#Improving cross-domain n-gram language modelling with skipgrams
+ShortPaperTitle#=%=#Improving cross-domain n-gram language modelling with skipgrams
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#louis onrust
+JobTitle#==#
+Organization#==#Centre for Language Studies
+Radboud University, P.O. Box 9103
+6500 HD Nijmegen, Netherlands
+Abstract#==#In this paper we improve over the hierarchical Pitman-Yor processes language
+model in a cross-domain setting by adding skipgrams as features.
+We find that adding skipgram features reduces the perplexity. This reduction is
+substantial when models are trained on a generic corpus and tested on
+domain-specific corpora. We also find that within-domain testing and
+cross-domain testing require different backoff strategies.
+We observe a 30-40% reduction in perplexity in a cross-domain language
+modelling task, and up to 6% reduction in a within-domain experiment, for both
+English and Flemish-Dutch.
+Author{1}{Firstname}#=%=#Louis
+Author{1}{Lastname}#=%=#Onrust
+Author{1}{Email}#=%=#l.onrust@let.ru.nl
+Author{1}{Affiliation}#=%=#Centre for Language Studies, Radboud University Nijmegen; ESAT-PSI, KU Leuven
+Author{2}{Firstname}#=%=#Antal
+Author{2}{Lastname}#=%=#van den Bosch
+Author{2}{Email}#=%=#a.vandenbosch@let.ru.nl
+Author{2}{Affiliation}#=%=#Radboud University Nijmegen
+Author{3}{Firstname}#=%=#Hugo
+Author{3}{Lastname}#=%=#Van hamme
+Author{3}{Email}#=%=#hugo.vanhamme@esat.kuleuven.be
+Author{3}{Affiliation}#=%=#KU Leuven
+
+==========

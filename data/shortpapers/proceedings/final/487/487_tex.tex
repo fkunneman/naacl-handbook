@@ -1,0 +1,306 @@
+%
+% File ACL2016.tex
+%
+
+\documentclass[11pt]{article}
+\usepackage{acl2016}
+\usepackage{times}
+\usepackage{latexsym}
+
+% Use the postscript times font!
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage{url}
+\usepackage{enumitem}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage{subfig}
+%\usepackage{enumerate}
+
+\aclfinalcopy % Uncomment this line for the final submission
+\def\aclpaperid{487} %  Enter the acl Paper ID here
+
+% To expand the titlebox for more authors, uncomment
+% below and set accordingly.
+% \addtolength\titlebox{.5in}    
+
+%\renewcommand\baselinestretch{0.98}
+
+\newcommand\BibTeX{B{\sc ib}\TeX}
+
+\title{Is This Post Persuasive? \\Ranking Argumentative Comments in the Online Forum}
+%\title{WANTED!! Persuasive Comments in Online Forum}
+
+% Author information can be set in various styles:
+% For several authors from the same institution:
+% \author{Author 1 \and ... \and Author n \\
+%         Address line \\ ... \\ Address line}
+% if the names do not fit well on one line use
+%         Author 1 \\ {\bf Author 2} \\ ... \\ {\bf Author n} \\
+% For authors from different institutions:
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \And  ... \And
+%         Author n \\ Address line \\ ... \\ Address line}
+% To start a seperate ``row'' of authors use \AND, as in
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \AND
+%         Author 2 \\ Address line \\ ... \\ Address line \And
+%         Author 3 \\ Address line \\ ... \\ Address line}
+% If the title and author information does not fit in the area allocated,
+% place \setlength\titlebox{<new height>} right after
+% at the top, where <new height> can be something larger than 2.25in
+\author{\\ \textbf{Zhongyu Wei$^{12}$}, \textbf{Yang Liu$^{2}$} and \textbf{Yi Li$^{2}$} \\
+$^1$School of Data Science, Fudan University, Shanghai, P.R.China\\
+$^2$Computer Science Department, The University of Texas at Dallas\\
+Richardson, Texas 75080, USA\\
+ {\tt \{zywei,yangl,yili\}@hlt.utdallas.edu}
+ }
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+In this paper we study how to identify persuasive posts in the online forum discussions, using data from Change My View sub-Reddit. Our analysis confirms that the users' voting score for a comment is highly correlated with its metadata information such as published time and author reputation. In this work, we propose and evaluate other features to rank comments for their persuasive scores, including textual information in the comments and social interaction related features. Our experiments show that the surface textual features do not perform well compared to the argumentation based features, and the social interaction based features are effective especially when more users participate in the discussion.
+\end{abstract}
+
+%on a dataset collected from a popular forum \emph{change my view} 
+
+\section{Introduction}
+
+With the popularity of online forums such as idebate\footnote{\url{http://idebate.org/}} and convinceme\footnote{\url{http://convinceme.net}}, researchers have been paying increasing attentions to analyzing persuasive content, including identification of arguing expressions in online debates~\cite{trabelsi2014finding}, recognition of stance in ideological online debates~\cite{somasundaran2010recognizing,hasan2014you,ranade2013stance}, and 
+debate summarization~\cite{ranade2013online}. However, how to automatically determine if a text is persuasive is still an unsolved problem. 
+
+Text quality and popularity evaluation has been studied in different domains in the past few years~\cite{louis2013makes,tan2014effect,park2016supporting,guerini2015echoes}. However, quality evaluation of argumentative text in the online forum has some unique characterisitcs. First, persuasive text contains argument that is not common in other genres. Second, beside the text itself, the interplay between a comment and what it responds to is crucial. Third, the community reaction to the comment also needs to be taken into consideration. 
+
+In this paper, we propose several sets of features to capture the above mentioned characteristics for persuasive comment identification in the online forum. We constructed a dataset from a sub-forum of Reddit\footnote{\url{https://www.reddit.com}}, namely \emph{change my view} (CMV)\footnote{\url{https://www.reddit.com/r/changemyview}} . We first analyze the corpus and show the correlation between the human voting score for an argumentative comment and its entry order and author reputation. Then for the comment ranking task, we propose three sets of features including surface text features, social interaction based features and argumentation based features. Our experimental results show that the argumentation based features work the best in the early stage of the discussion and the effectiveness of social interaction features increases when the number of comments in the discussion grows.
+
+\section{Dataset and Task}
+
+\subsection{Data}
+
+On CMV, people initiate a discussion thread with a post expressing their thoughts toward a specific topic and other users reply with arguments from the opposite side in order to change the initiator's mind. The writing quality on CVM is quite good since the discussions are monitored by moderators. Besides commenting, users can vote on different replies to indicate which one is more persuasive than others. The total amount of upvotes minus the down votes is called \emph{karma}, indicating the persuasiveness of the reply. Users can also give \emph{delta} to a comment if it changes their original mind about the topic. The comment is then named \emph{delta awarded comment} (DAC), and the thread containing a DAC is noted as \emph{delta awarded thread}. 
+
+%which one contains more valuable information than others
+
+\begin{table}
+\small
+\begin{center}
+\begin{tabular}{l|c}
+\hline
+Thread \# & 1,785 \\
+\hline
+Comment \# & 374,472\\
+Comment \# / Thread \# & 209.79\\
+Author \# & 32,639\\
+Unique Author \# / Thread \# & 70.67\\
+\hline
+Delta Awarded Thread \# & 886 (49.6\%)\\
+Delta Awarded Comment \# & 2,056 (0.5\%)\\
+%Delta Awarded Comment \# \textgreater Median Karma & 78.7\%\\ 
+\hline
+\end{tabular}
+\end{center}
+\caption{Statistics of the CMV dataset.}
+\label{tab:CMV-corpus}
+\end{table}
+
+
+\begin{figure*}
+\centering
+\begin{tabular}{ccc}
+\subfloat[Karma score distribution\label{subfig: Karma-value-score}]{\includegraphics[width=5cm]{./figures/karma-score-dis.eps}}&
+ \subfloat[Karma score vs entry order\label{subfig: Karma-value-pos}]{\includegraphics[width=5cm]{./figures/karma-pos-dis.eps}}&
+\subfloat[Karma score vs author reputation\label{subfig: Karma-value-author}]{\includegraphics[width=5cm]{./figures/karma-author-dis.eps}}
+\end{tabular}
+\caption{Karma value distributions in the CMV dataset.}
+\label{fig:karma-value-dis}
+\end{figure*}
+
+We use a corpus collected from CMV.\footnote{The data was shared with us by researchers at the University of Washington.} The original corpus contains all the threads published between Jan. 2014 and Jan. 2015. We kept the threads with more than 100 comments to form our experimental dataset\footnote{Please contact authors about sharing the data set.}. The basic statistics of the dataset can be seen in Table~\ref{tab:CMV-corpus}. %It includes 1,785 threads in total and the average number of comments and unique authors is 209.79 and 70.67 respectively. 
+
+%As we can see in Table~\ref{tab:CMV-corpus}, only half of posts have delta awarded comments and the percentage of comments obtained delta is as low as 0.5\%. 
+
+
+Figure~\ref{subfig: Karma-value-score} shows the distribution of the karma scores in the dataset. We can see that the karma score is highly skewed, similar to what is reported in \cite{jaech2015talking}. 42\% of comments obtain a karma score of exactly one (i.e., no votes beyond the author), and around 15\% of comments have a score less than one. Figure~\ref{subfig: Karma-value-pos} and ~\ref{subfig: Karma-value-author} show the correlation of the karma score with two metadata features, author reputation\footnote{This is the number of deltas the author has received.} and entry order, respectively. We can see the karma score of a comment is highly related to its entry order. In general, the earlier a comment is posted, the higher karma score it obtains. The average score is less than one when it is posted after 30 comments. Figure~\ref{subfig: Karma-value-author} shows that authors of comments with higher karma scores tend to have higher reputation on average. 
+
+\subsection{Task}
+
+Tan et al.~\shortcite{tan2016winning} explored the task of mind change by focusing on delta awarded comments using their CMV data. However, the percentage of delta awarded comments is quite low, as shown in Table~\ref{tab:CMV-corpus} (the percentage of comments obtained delta is as low as 0.5\%). In addition, a persuasive comment is not necessarily delta awarded. It can be of high quality but does not change other people's mind. Our research thus uses the karma score of a comment, instead of delta, as the reference to represent the persuasiveness of the comment. Our analysis also shows that delta awarded comments generally have high karma scores (78.7\% of DACs obtain a higher karma score than the median value in each delta awarded thread), indicating the karma score is correlated with the delta value. 
+
+Using karma scores as ground truth, Jaech et al.~\shortcite{jaech2015talking} proposed a comment ranking task on several sub-forums of Reddit. In order to reduce the impact of timing, they rank each set of 10 connective comments. However, their setting is not suitable for our task. First, at the later stage of the discussion, comments posted connectively in terms of time can belong to different sub-trees of the discussion, and thus can be viewed or reacted with great difference. Second, as shown in Figure~\ref{subfig: Karma-value-pos}, comments entered in later stage obtain little attention from audience. This makes their karma scores less reliable as the ground-truth of persuasiveness. 
+
+To further control the factor of timing, we define the task as ranking the first-N comments in each thread. The final karma scores of these N comments are used to determine their reference rank for evaluation. We study two setups for this ranking task. First we use information until the time point when the thread contains only these N comments.  Second we allow the system to access more comments than $N$. Our goal is to investigate if we can predict whether a comment is persuasive and how the community reacts to a comment in the future.
+
+\section{Methods}
+
+\begin{table*}[t]
+\small
+\begin{center}
+\begin{tabular}{l|l|l}
+\hline
+Feature Category& Feature Name& Feature Description\\
+%\hline
+%timing & timeoff & The time difference of the comment with the original post.\\
+%\hline
+%author & author delta & The history delta of author of \emph{c}.\\
+\hline
+\multirow{4}{*}{Surface Text Features} 
+&length& \# of the words, sentences and paragraphs in \emph{c}.\\
+&url& \# of urls contained in \emph{c}.\\
+&unique \# of words& \# of unique words in \emph{c}.\\
+&punctuation & \# of punctuation marks in \emph{c}.\\
+&unique \# of POS & \# of unique POS tags in \emph{c}.\\
+\hline
+\multirow{6}{*}{Social Interaction Features} 
+&tree\_size& The tree size generated by \emph{c} and \emph{rc}.\\
+&reply\_num&The number of replies obtained by \emph{c} and \emph{rc}.\\
+&tree\_height & The height of the tree generated by by \emph{c} and \emph{rc}.\\
+&Is\_root\_reply& Is \emph{c} a root reply of the post?\\
+&Is\_leaf& Is \emph{c} a leaf of the tree generated by \emph{rc}?\\
+&location & The position of \emph{c} in the tree generated by \emph{rc}. \\
+\hline
+\multirow{5}{*}{Argumentation Related Features} 
+%& \# of words with sentiment & Number of words with positive or negative sentiment.\\
+& connective words & Number of connective words in \emph{c}.\\
+& modal verbs & Number of modal verbs included in  \emph{c}.\\
+& argumentative sentence & Number and percentage of argumentative sentences.\\
+\cline{2-3}
+& argument relevance & Similarity with the original post and parent comment.\\
+& argument originality & Maximum similarity with comments published earlier.\\
+%& argument reference rate & Max. and Mean. similarity with comments published after.\\
+\hline
+\end{tabular}
+\end{center}
+\caption{Feature list (\emph{c}: the comment; \emph{rc}: the root comment of \emph{c}.)}
+\label{tab:feature}
+\end{table*}
+
+\subsection{Ranking Model}
+
+A pair-wise learning-to-rank model (Ranking SVM~\cite{joachims2002optimizing}) is used in our task. We first construct the training set including pairs of comments. In each pair, the first comment is more persuasive than the second one. Considering that two samples with similar karma scores might not be significantly different in terms of their persuasiveness, we propose to use a modified score to form training pairs in order to improve the learning efficacy. We group comments into 7 buckets based on their karma scores,  [-$\infty$, 0], (0, 1], (1, 5], (5, 10], (10, 20], (20, 50] and (50, +$\infty$]. We then use the bucket number (0 - 6) of each comment as its modified score. We use all the formed pairs to train our ranker. In order to be consistent, we use the first-N comments in the training threads to construct the training samples to predict the rank for the first-N comments in a test thread. 
+
+
+%\footnote{We used SVM$^{rank}$(\url{https://www.cs.cornell.edu/people/tj/svm_light/svm_rank.html)} for the implementation.}
+
+\subsection{Features}
+\label{sec:features}
+
+We propose several key features that we hypothesize are predictive of persuasive comments. The full feature list is given in Table~\ref{tab:feature}. 
+
+%We first explore the surface text features, including the length of comment, N-gram features and content diversity of the comment in terms of word usage, POS tag, url, named entity and punctuations. However, only length gives a good prediction in our task. We thus report 
+
+%[leftmargin=.25in]
+\begin{itemize}[leftmargin=.15in]
+%\itemsep-0.4em
+%         \item \textbf{Timing}: As shown in Figure.~\ref{fig:karma-value-dis}, the earlier a comment is posted, the higher its karma will be. We thus use the time off between the target comment and the post as a feature. 
+%	\item \textbf{Author}: In each discussion forum, it is possible that an author with better historical record can win more approval. Thus we use the historical delta value an author obtained as features here. 
+	\item \textbf{Surface Text Features\footnote{Stanford CoreNLP~\cite{manning-EtAl:2014:P14-5} was used to preprocess the text (i.e., comment splitting, sentence tokenization, POS tagging and NER recognition.).}}: In order to capture the basic textual information, we use the comment length  and content diversity represented as the number of words, POS tags, URLs, and punctuation marks. We also explored unigram features and named entity based features, but they did not improve system performance and are thus not included. 
+	
+	\item \textbf{Social Interaction Features}: We hypothesize that if a comment attracts more social attention from the community, it is more likely to be persuasive, therefore we propose several social interaction features to capture the community reaction to a comment. Besides the reply tree generated by the comment, we also consider the reply tree generated by the root comment\footnote{It is a comment that replies to the original post directly.} for feature computing.  The \emph{tree size} is the number of comments in the reply tree. The position of \emph{c} is its level in the reply tree (the level of root node is zero).%  %The intuition is, if the reply tree generated by its root comment is larger, the comment involved might obtain higher quality as well.
+	
+	\item \textbf{Argumentation Related Features}: We believe a comment's argumentation quality is a good indicator of its persuasiveness. In order to capture the argumentation related information, we propose two sub-groups of features based on the comment itself and the interplay between the comment and other comments in the discussion. \textbf{a) Local features:} we trained a binary classifier to classify sentences as argumentative and non-argumentative using features proposed in~\cite{stab2014identifying}. We then use the number and percentage of argumentative sentences predicted by the classifier as features. Besides, we include some features used in the classifier directly (i.e. number of connective words\footnote{We constructed a list of connective words including 55 entries (e.g., because, therefore etc.). } and modal verbs). \textbf{b) Interactive features:} for these features, we consider the similarity of a comment and its parent comment, the original post, and all the previously published comments. We use cosine similarity computed based on the term frequency vector representation. Intuitively a comment needs to be relevant to the discussed topic and possibly have some original convincing opinions or arguments to receive a high karma score. 
+	
+% computed as the minus maximum similarity of the comment with all the comments presented before
+%, such as connective words presences, modal verbs presences, pronoun presences
+% as its originality. 
+	
+%We thus propose some interactive features. In general, the current comment is a reply to its parent comment and it might also state some points related to the original post.
+%the originality of the argument within the discussion is assumed to be important to the evaluation of its quality. 
+
+\end{itemize}
+
+\section{Experimental Results}
+
+We use 5-fold cross-validation in our experiments. Normalized discounted cumulative gain (NDCG) score~\cite{jarvelin2000ir} is used as the evaluation metric for our First-N comments ranking task. 
+In this study, $N$ is10.
+
+\subsection{Experiment I: Using N Comments for Ranking}
+
+\begin{table}
+\begin{center}
+\small
+
+\begin{tabular}{l|c|c|c}
+\hline
+Approach & NDCG@1 & NDCG@5 & NDCG@10\\
+\hline
+\hline
+random& 0.258 & 0.440 &0.564\\
+\hline
+%reply \# & 0.708 &0.634\\
+%treesize & 0.725&0.670\\
+%length & 0.368 & 0.562 & 0.660\\
+author & 0.382 & 0.567 & 0.664 \\
+entry-order & 0.460 & 0.600 &0.689\\
+\hline
+LTR$_{text}$ & 0.372 &0.558  &0.658 \\
+LTR$_{social}$ & 0.475$^\dagger$ &0.650$^\dagger$  &0.718$^\dagger$\\
+LTR$_{arg}$ &0.475$^\dagger$ & 0.652$^\dagger$&0.725$^\dagger$\\
+\hline
+LTR$_{text+social}$ & 0.494$^\dagger$ &0.666$^\dagger$  &0.733$^\dagger$ \\
+LTR$_{text+arg}$ & 0.485$^\dagger$ &0.654$^\dagger$  &0.729$^\dagger$\\
+LTR$_{social+arg}$ &0.502$^\dagger$$^\ddagger$ & 0.674$^\dagger$$^\ddagger$&0.740$^\dagger$\\
+\hline
+LTR$_{T+S+A}$& 0.508$^\dagger$$^\ddagger$ &0.676$^\dagger$$^\ddagger$ &0.743$^\dagger$$^\ddagger$\\
+\hline
+LTR$_{all}$& \textbf{0.521}$^\dagger$$^\ddagger$ &\textbf{0.685}$^\dagger$$^\ddagger$ &\textbf{0.752}$^\dagger$$^\ddagger$\\
+\hline 
+\end{tabular}
+\end{center} 
+\caption{Performance of first-10 comments ranking (\emph{T+S+A}: the combination of the three sets of features we proposed; \emph{all}: the combination of two meta-data features and our features; \textbf{bold}: the best performance in each column; $\dagger$: the approach is significantly better than both metadata baselines (p \textless 0.01); $\ddagger$: the approach is significantly better than LTR approaches using a single category of features (p \textless 0.01).).}
+\label{tab:overall-performance}
+\end{table}
+
+Table~\ref{tab:overall-performance} shows the results for first-10 comments ranking
+using information from only these 10 comments. As shown in Figure~\ref{fig:karma-value-dis}, metadata features, entry order and author's reputation are correlated with the karma score of a comment. We thus use these two values as baselines. We also include the performance of the random baseline for comparison\footnote{The performance of random baseline is high because of the tie of reference karma scores.}. For our ranking based models (\emph{LTR$_{*}$}), we compare using the three sets of features described in Section.~\ref{sec:features} (noted as \emph{text}, \emph{social} and \emph{arg} respectively), individually or in combination. We report NDCG scores for position 1, 5 and 10 respectively. The followings are some findings.
+
+%[leftmargin=.25in]
+\begin{itemize}[leftmargin=.15in]
+%\itemsep-0.4em
+	\item Both metadata based baselines generate significantly\footnote{Significance is computed by two tailed t-test.} better results compared to the random baseline. Baseline \emph{entry-order} performs much better than \emph{author}, suggesting that the entry order is more indicative for the karma score of a comment. 
+
+	\item The surface text features are least effective among the three sets of features, and  the performance using them is even worse than the two metadata baselines. This might be because the general writing quality of the comments in CMV is high because of the policy of the forum. Therefore,  the surface text features we used are not very discriminative for comment ranking. A further analysis of features in this category shows that \emph{length} is the most effective feature. 
+
+	\item Argumentation based features have the best performance among the three categories. Its performance is significantly better than surface text features, consistent with our expectation that argumentation related features are useful for persuasiveness evaluation. Our additional experiments show that \emph{interactive features} are more effective than \emph{local features}. This might be because the argumentation features and models we use are not perfect. Future research is still needed to better represent argumentation information in the text. 
+	
+	\item When combining two categories of features, the performance of the ranker increases consistently. The performance can be further improved by combining all the three categories of features we proposed (the improvement compared to using a single feature category is significant). The best results are achieved by \emph{LTR$_{all}$}, i.e., combining two metadata features and features we proposed.
+\end{itemize}
+
+\subsection{Experiment II: Using Varying Numbers of Comments for Ranking}
+
+With the evolving discussion, there will be more comments joining the thread providing more information for social interaction based features. In order to show the impact of different features at different discussion stage, we conduct another experiment by ranking first-10 comments with varying numbers of comments in the test thread for feature computing. The result of the experiment is shown in Figure~\ref{fig:comment-num}. The performance of \emph{LTR$_{text}$} and \emph{LTR$_{arg}$} remain the same since their feature values are not affected by the new coming comments. The performance of \emph{LTR$_{social}$} increases consistently when the number of comments grows,  and it outperforms \emph{LTR$_{arg}$} when the number of comments is more than 20.   \emph{LTR$_{T+S+A}$} has always the best performance, benefiting from the combination of different types of features. 
+
+\begin{figure}
+\centering
+\includegraphics[width=7.5cm]{./figures/comment-num.eps}
+\caption{Results using various number of comments in the thread for ranking.}
+\label{fig:comment-num}
+\end{figure}
+
+\section{Related Work}
+Our work is most related to two lines of work, including text quality evaluation and research on Reddit.com.
+
+\textbf{Text quality:} Text quality and popularity evaluation has been studied in different domains in the past few years. Louis and Nenkova~\shortcite{louis2013makes} implemented features to capture aspects of great writing in science journalism domain. Tan et al.~\shortcite{tan2014effect} looked into the effect of wording while predicting the popularity of social media content. Park et al.~\shortcite{park2016supporting} developed an interactive system to assist human moderators to select high quality news. Guerini et al.~\shortcite{guerini2015echoes} modeled a notion of euphony and explored the impact of sounds on different forms of persuasiveness. Their research focused on the phonetic aspect instead of language usage. 
+
+\textbf{Reddit based research:} Reddit has been used recently for research on social news analysis and recommendation (e.g., \cite{buntain2014identifying}). Researchers also analyzed the language use on Reddit. Jaech et al.~\shortcite{jaech2015talking} studied how language use affects community reaction to comments in Reddit. Tan et al.~\shortcite{tan2016winning} analyzed the interaction dynamics and persuasion strategies in CMV. 
+
+\section{Conclusion}
+
+In this paper, we studied the impact of different sets of features on the identification of persuasive comments in the online forum. Our experiment results show that argumentation based features work the best in the early stage of the discussion, while the effectiveness of social interaction based features increases when the number of comments in the thread grows. 
+
+There are three major future directions for this research. First, the approach for argument modeling in this paper is lexical based, which limits the effectiveness of argumentation related features for our task. It is thus crucial to study more effective ways for argument modeling. Second, we will explore persuasion behavior of the argumentative comments and study the correlation between the strength of the argument and different persuasion behaviors. Third, we plan to automatically construct an argumentation corpus including pairs of arguments from two opposite sides of the topic from CMV, and use this for automatic disputing argument generation. 
+
+
+\section*{Acknowledgments}
+We thank the anonymous reviewers for their detailed and insightful comments on this paper. The work is partially supported by DARPA Contract No. FA8750-13-2-0041 and AFOSR award No. FA9550-15-1-0346. Any opinions, findings, and conclusions or recommendations expressed are those of the authors and do not necessarily reflect the views of the funding agencies. We thank Trang Tran, Hao Fang and Mari Ostendorf at University of Washington for sharing the Reddit data they collected.
+
+\bibliography{acl2016}
+\bibliographystyle{acl2016}
+
+
+\end{document}
+

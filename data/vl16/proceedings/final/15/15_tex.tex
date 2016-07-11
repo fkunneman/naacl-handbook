@@ -1,0 +1,359 @@
+
+\documentclass[11pt]{article}
+\usepackage{acl2016}
+\usepackage{times}
+\usepackage{url}
+\usepackage{latexsym}
+
+\aclfinalcopy 
+
+\usepackage{amsmath}
+\usepackage{graphicx,url,booktabs}
+\usepackage{xcolor}
+
+% To expand the titlebox for more authors, uncomment
+% below and set accordingly.
+% \addtolength\titlebox{.5in}    
+
+
+\newcommand{\etal}{et~al.~}
+\newcommand{\julia}[1]{{\marginpar{\textcolor{red}{\footnotesize#1}}}}
+\newcommand{\checkme}[1]{\textcolor{red}{#1}}
+\newcommand{\REF}{\textcolor{red}{[?]}}
+
+\title{Focused Evaluation for Image Description with Binary Forced-Choice Tasks}
+
+\author{Micah Hodosh \and Julia Hockenmaier\\	   
+          Department of Computer Science, University of Illinois\\
+          Urbana, IL 61801, USA\\
+  {\tt \{mhodosh2, juliahmr\}@illinois.edu}}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+ Current evaluation metrics for image description may be
+ too coarse. We therefore propose a series of binary forced-choice tasks that each focus on a different
+ aspect of the captions. We evaluate a number of different off-the-shelf image description systems.
+Our results indicate  strengths and shortcomings of both generation and ranking based approaches. 
+\end{abstract}
+
+\section{Introduction}
+\label{sec:introduction}
+Image description, i.e. the task of automatically associating photographs with sentences that describe what is depicted in them, has been framed in two different ways: as a natural language generation problem (where each system produces novel captions, see e.g. \newcite{Kulkarni}), and as a ranking task (where each system is required to rank the same pool of unseen test captions for each test image, see e.g. \newcite{hodoshJAIR}).  
+
+But although the numbers reported in the literature make it seem as though this task is quickly approaching being solved  (on the recent MSCOCO challenge,\footnote{\tiny\url{http://mscoco.org/dataset/#captions-challenge2015}} the best models outperformed humans according to some metrics), evaluation remains problematic for both approaches \cite{Hodosh15}. 
+
+Caption generation requires either automated metrics  \cite{papineni-EtAl:2002:ACL,lin:2004:ACLsummarization,denkowski:lavie:meteor-wmt:2014,DBLP:conf/cvpr/VedantamZP15}, most of which have been shown to correlate poorly with human judgments \cite{hodoshJAIR,elliott-keller:2014:P14-2,Hodosh15} and fail to capture the variety in human captions, while human evaluation is subjective (especially when reduced to simple questions such as ``Which is a better caption?''), expensive, and difficult to replicate. Ranking-based evaluation suffers from the problem that the pool of candidate captions may,  on the one hand, be too small to contain many meaningful and interesting distractors, and may, on the other hand, contain other sentences that are equally valid descriptions of the image.  
+
+To illustrate just how much is still to be done in this field, this paper examines a series of binary forced-choice tasks that are each designed to evaluate a particular aspect of image description. Items in each task consist of one image, paired with one correct and one incorrect caption; the system has to choose the correct caption over the distractor. These tasks are inspired both by ranking-based evaluations of image description as well as by more recent work on visual question answering (e.g. \newcite{DBLP:conf/iccv/AntolALMBZP15}), but differ from these in that the negatives are far more restricted and focused than in the generic ranking task.
+Since most of our tasks are simple enough that they could be solved by a very simple decision rule, our aim is not to examine whether models could be trained specifically for these tasks. Instead, we wish to use these tasks to shed light on which aspects of image captions these models actually ``understand'', and how models trained for generation differ from models trained for ranking. 
+The models we compare consist of a number of simple baselines, as well as some publicly available models that each had close to state-of-the-art performance on standard tasks when they were published. More details and discussion can be found in \newcite{Hodosh15}.
+
+
+
+
+
+
+\begin{figure}[tb] 
+\centering \includegraphics[width=\columnwidth]{ImagesNew/SwitchPeople.pdf} \vspace{-.5in}
+\caption{The \textbf{``switch people''} task}
+\label{fig:SwitchPeople} 
+\end{figure}
+
+
+
+
+
+\section{A framework for focused evaluation}
+In this paper, we evaluate image description systems with a series of binary (two-alternative) forced choice tasks. The items in each task consist of one image from the test or development part of the Flickr30K dataset \cite{young2014image}, paired with one correct and one incorrect caption, and the system has to choose (i.e. assign a higher score to) the correct caption over the distractor. 
+
+The correct caption is either an original caption or a part of an original caption for the image. Distractors are shorter phrases that occur in the original caption, complete captions for different images that share some aspect of the correct caption, or are artificially constructed sentences based on the original caption. 
+While all distractors are constructed around the people or scene mentions in the original caption, each task is designed to focus on a particular aspect of image description.  We focus on scene and people mentions because both occur frequently in Flickr30K. Unlike MSCOCO, all images in Flickr30K focus on events and activities involving people or animals.  Scene terms (\textit{``beach'', ``city'', ``office'', ``street'', ``park''}) tend to describe very visual, unlocalized components that can often be identified by the overall layout or other global properties of the image. At the same time, they restrict what kind of entities and events are likely to occur in the image. For instance, people do not ``run'' , ``jump'', or ``swim'' in an ``office''. Hence, models trained and tested on standard caption datasets do not necessarily need to model what ``jumping in an office'' might look like. We therefore  suspect that much of the generic ranking task can be solved by identifying the visual appearance of scene terms. 
+
+Some tasks require the system to choose between two captions that provide similar descriptions of the main actor or the scene. In others, the distractor is not a full sentence, but consists only of the main actor or scene description. We also evaluate a converse task in which the distractor describes the scene correctly (but everything else in the sentence is wrong), while the correct answer consists only of the NP that describes the scene. Finally, we consider a task in which the distractor swaps two people mentions, reversing their corresponding semantic roles while keeping the same vocabulary. 
+
+
+
+
+
+
+\begin{figure}[tb] 
+\centering \includegraphics[width=\columnwidth]{ImagesNew/ReplaceScene.pdf} \vspace{-.5in}
+\caption{The \textbf{``replace scene''} task}
+\label{fig:ReplaceScene} 
+\end{figure}
+
+\section{Our tasks}
+\label{sec:task}
+
+Our first task (\textbf{switch people}, Fig.~\ref{fig:SwitchPeople}) identifies the extent to which models are able to distinguish sentences that share the same vocabulary but convey different semantic information. In this task,  the correct sentences contain one person mention as the main actor and another person mention that occupies a different semantic role (e.g. ``\textit{A man holding a child}''). The distractors (``\textit{A child holding a man}'') are artificially constructed sentences in which those two people mentions are swapped. This allows us to evaluate whether models can capture semantically important differences in word order, even when the bag-of-words representation of two captions is identical (and bag-of-words-based evaluation metrics such as BLEU1, ROUGE1 or CIDER would not be able to capture the difference
+ either). 
+
+In the \textbf{replace person} and \textbf{replace scene} task (Fig.~\ref{fig:ReplaceScene}), distractors are artificially constructed sentences in which the main actor (the first person mention) or the scene chunk (which typically occurs at the end of the sentence) were replaced by different people or scene mentions. These tasks aim to elicit how much systems are able to identify correct person or scene descriptions.  Models should be able to understand when a person is being described incorrectly, even when the rest of the sentence remains correct.  Similarly, since the scene is important to the overall understanding of the a caption, we wanted to make sure models grasp that changing the scene terms of a caption can drastically change its meaning. 
+
+The \textbf{share person} and \textbf{share scene} distractors (Fig.~\ref{fig:ShareScene}) are complete sentences  from the training portion of  Flickr30K whose actor or scene mentions share the same headword as the correct description for the test image. These tasks aim to elicit the extent to which systems focus only on the person or scene descriptions, while ignoring the rest of the sentence. 
+
+We also evaluate whether models are able to identify when a complete sentence is a better description of an image than a single NP.  The {\bf just person} and {\bf just scene} distractors (Figs.~\ref{fig:JustPerson} and~\ref{fig:JustScene}) are NPs that consist only of the person or scene mentions of the correct description, and aim to identify whether systems prefer more detailed (correct) descriptions over shorter (but equally correct) ones. Finally, since systems can perform well on these tasks by simply preferring longer captions, we also developed a converse {\bf just scene (+)} task, which pairs the (short, but correct) scene description with a (longer, but incorrect) sentence that shares the same scene. 
+
+
+
+\begin{figure}[tb]
+\centering \includegraphics[width=\columnwidth]{ImagesNew/ShareScene.pdf} \vspace{-1in}
+\caption{The \textbf{``share scene''} task}
+\label{fig:ShareScene} 
+\end{figure}
+
+\begin{figure}[tb] 
+\centering \includegraphics[width=\columnwidth]{ImagesNew/JustPerson1column.pdf} \vspace{-.5in}
+\caption{The \textbf{``just person''} task}
+\label{fig:JustPerson} 
+\end{figure}
+
+
+\subsection{Task construction}
+All our tasks are constructed around people and scene mentions, based on the chunking and the dictionaries provided in \newcite{Plummer_2015_ICCV}. Person mentions are NP chunks whose head noun refer to people (\textit{``a tall man''}) or groups of people (\textit{``a football team''}), or ``NP1-of-NP2'' constructions where the head of the first NP is a collective noun and the head of the second NP refers to people (\textit{``a group of protesters''}). Subsequent NP chunks that refer to clothing are also included (\textit{``a girl in jeans''}, \textit{``a team in blue''}. Scene mentions are NP chunks whose head noun refers to locations (e.g. \textit{``beach'', ``city'', ``office'', ``street'', ``park''}).
+
+\paragraph{Switch people task}
+We start with all captions of the 1000 development images that contain two distinct people mentions (excluding near-identical phrase pairs such as \textit{``one man''/``another man''}). We filtered out examples in which the grammatical role reversal is semantically equivalent to the original (\textit{``A man talking with a woman''}). Since we wished to maintain identical bag-of-words representations (to avoid differences between the captions that are simply due to different token frequencies) while focusing on examples that still remain grammatically correct (to minimize the effect of evaluating just how well a model generates or scores grammatically correct English text), we also excluded captions where one mention (e.g. the subject) is singular and the other (e.g. an object) is plural.  When swapping two mentions, we also include the subsequent clothing chunks (e.g. \textit{``man in red sweater''}) in addition to other premodifiers (\textit{``a tall man''}).  We automatically generate and hand prune a list of the possible permutations of the person chunks, resulting in 296 sentence pairs to use for evaluation.
+
+
+\begin{figure}[t]
+\centering \includegraphics[width=\columnwidth]{ImagesNew/JustScenes.pdf} \vspace{-0.5in}
+\caption{The \textbf{``just scene''} task}
+\label{fig:JustScene} 
+\end{figure}
+
+
+\paragraph{Replace person/scene tasks}
+For the ``replace person'' task, we isolate person chunks, in both the training and development data. For each development sentence, we create a distractor by replacing each person chunk with a random chunk from the training data, resulting in 5816 example pairs to evaluate. 
+For the ``replace scene'' task we created negative examples by replacing the scene chunk of a caption with another scene chunk from the data. Because multiple surface strings can describe the same overall scene, we use the training corpus to calculate which scene chunk's headwords can co-occur in the training corpus. We avoid all such replacements in order to ensure that the negative sentence does not actually still describe the image. In theory, this should be a baseline that all state-of-the-art image description models excel at.
+
+\paragraph{Share person/scene tasks}
+Here, the distractors consist of  sentences from the Flickr30K training data  which describe a similar main actor or scene as the correct caption.  For each sentence in the development data, we chose a random training sentence that shares the same headword for its ``actor'' chunk, resulting in 4595 items to evaluate. We did the same for development sentences that mention a scene term, resulting in 2620 items. 
+
+\paragraph{Just person/scene tasks}
+Finally, the ``just person'' and ``just scene'' tasks require the models to pick a complete sentence (again taken from the development set) over a shorter noun phrase that is a substring of the correct answer, consisting of either the main actor or the scene description. Although the distractors are not wrong, they typically only convey a very limited amount of information about the image, and models should prefer the more detailed descriptions provided by the complete sentences, as long as they are also correct. But since these tasks can be solved perfectly by any model that consistently prefers longer captions over shorter ones, we also investigate a converse  ``just scene (+)'' task; here the correct answer is a noun phrase describing the scene, while the distractor is another full sentence that contains the same scene word (as in the ``share scene'' task).  Taken together, these tasks allow us to evaluate the extent to which models rely solely on the person or scene description and ignore the rest of the sentence.
+
+
+\section{The Models}
+\label{sec:models}
+
+We evaluate generation and ranking models that were publicly available and relatively close in performance to state of the art, as well as two simple baselines.
+
+\paragraph{Generation models} Our baseline model for generation (\textbf{Bigram LM}) ignores the image entirely. It returns the caption that has a higher probability according to an unsmoothed bigram language model estimated over the sentences in the training portion of the Flickr30K corpus. 
+
+As an example of an actual generation model for image description, we evaluate a publicly available implementation\footnote{\tiny\url{http://cs.stanford.edu/people/karpathy/neuraltalk/}} of the generation model originally presented by \newcite{VinyalsTBE15} (\textbf{Generation}). This model uses an LSTM \cite{Hochreiter:1997:LSM:1246443.1246450} conditioned on the image to generate new captions. The particular instance we evaluate
+was trained on the MSCOCO dataset \cite{LMBHPRDZ:ECCV:2014}, not Flickr30K (leading to a possible decrease in performance on our tasks) and uses VGGNet \cite{Simonyan14c} image features (which should account for a significant jump in performance over the previously published results of \newcite{VinyalsTBE15}).
+ Works such as \newcite{VinyalsTBE15} and \newcite{DBLP:journals/corr/MaoXYWY14a} present models that are developed for the generation task, but renormalize the probability that their models assign to sentences when they apply them to ranking tasks (even though their models include stop probabilities that should enable them to directly compare sentences of different lengths).  To examine the effect of such normalization schemes, we also consider normalized variants of our two generation models in which we replace the original sentence probabilities by their  harmonic mean.
+We will see that the unnormalized versions of these models tend to perform poorly when the gold caption is measurably
+longer than the distractor term, and well in the reverse case, while normalization attempts to counteract this trend.
+
+\paragraph{Ranking models}
+Ranking models learn embeddings of images and captions in the same space, and score the affinity of images and captions in terms of their Euclidian distance in this space. 
+We compare the performance of these generation models with two (updated) versions of  the ranking model originally presented by 
+\newcite{DBLP:journals/corr/KirosSZ14}\footnote{\tiny \url{https://github.com/ryankiros/visual-semantic-embedding}} (\textbf{LSTM Ranking}), one trained on MSCOCO, and the other on Flickr30K. This model uses an LSTM to learn the embedding of the captions. While the Flickr30K trained model should be more appropriate for our test data, the MSCOCO trained model might be more directly comparable to the generation model of Vinyals \etal A comparison between the two variants can offer insight into the degree of domain shift between the two datasets.
+
+Our ranking baseline model (\textbf{BOW Ranking}) replaces the LSTM of \newcite{DBLP:journals/corr/KirosSZ14} with a simple bag-of-words text representation, allowing us to examine whether the expressiveness of LSTMs is required for this task.  We use the average of the tokens' GloVe embeddings \cite{pennington2014glove}  as input to a fully connected neural network layer that produces the final 
+ learned text embedding\footnote{Deeper and more complex representations showed no
+   conclusive benefit}.   More formally, for a sentence consisting of tokens $w_1... w_n$, GloVe embeddings $\phi()$, and a non-linear activation function $\sigma_w$, we define the learned sentence embedding as $F(w_1... w_n) = \sigma_w(W_w\cdot(\frac{1}{n})\sum_i{\phi(w_i)}+b_w)$. 
+Similarly, the embedding of an image represented as a vector  $p$ is defined 
+ as $G(p) = \sigma_i( W_i\cdot p+b_i)$. 
+We use a ranking loss  similar to \newcite{DBLP:journals/corr/KirosSZ14} to train the parameters of our model, $\theta = (W_w,W_i,b_w,b_i)$.
+We define the distance of the embeddings of image $i$ and sentence $s$ as $\Delta(i,s) = \cos(F(i), G(s))$. Using $S$ to refer to the set of sentences in the training data, $S_i$ for the training sentences  associated with image $i$,  $S_{-i}$ for the set of sentences not associated with $i$, $I$ for the set of training images, $I_s$ for the image associated with sentence $s$, and $I_{-s}$ for the set of all  other training images, and employing a free parameter $m$ for the margin of the ranking, our  loss
+ function is:
+
+\begin{footnotesize}
+\begin{align*}
+L(\theta) & =\sum_{i\in I,s\in S_i ,s' \in S_{-i}}\max(0,m\!-\!\Delta(i,s) \!+\!\Delta(i,s')) \\
+& \!\!\!\ +\sum_{s \in S, i \in I_s ,i'\in I_{-s}}\max(0,m\!-\!\Delta(i,s)) \!+\! \Delta(i',s)))
+\end{align*}\end{footnotesize}
+
+As input image features, we used the 19 layer VGGNet features \cite{Simonyan14c}, applied as  by \newcite{Plummer_2015_ICCV}.
+ We first process the GloVe embeddings by performing whitening through zero-phase component analysis (ZCA)
+\cite{DBLP:series/lncs/CoatesN12} based on every token appearance in our training corpus. We set $\sigma_w$ to be a ReLU and simply use the identity function for
+ $\sigma_i$ (i.e. no non-linearity)  as that resulted in the best validation
+ performance. We train this model on the Flickr30K training data via stochastic gradient descent,  randomly sampling either 50 images (or sentences), and randomly sampling one of the other training sentences (images). We  adjust the learning rate of each parameter using Adagrad \cite{Duchi:EECS-2010-24} with an initial learning rate of 0.01, a momentum value of 0.8, and a parameter decay value of 0.0001 for regularization.
+
+\begin{table*}[!t]
+\centering
+\begin{footnotesize}
+\begin{tabular}{lrrrrrrrr}
+\toprule                                
+& \multicolumn{1}{c}{\bfseries  Switch}
+& \multicolumn{1}{c}{\bfseries   Replace}   
+& \multicolumn{1}{c}{\bfseries   Replace}  
+& \multicolumn{1}{c}{\bfseries   Share} 
+& \multicolumn{1}{c}{\bfseries   Share} 
+& \multicolumn{1}{c}{\bfseries   Just}
+& \multicolumn{1}{c}{\bfseries   Just}
+& \multicolumn{1}{c}{\bfseries   Just}
+\\
+& \multicolumn{1}{c}{\bfseries  People}
+& \multicolumn{1}{c}{\bfseries  Person }
+& \multicolumn{1}{c}{\bfseries Scene }
+& \multicolumn{1}{c}{\bfseries  Person }
+& \multicolumn{1}{c}{\bfseries   Scene}
+& \multicolumn{1}{c}{\bfseries   Person }
+& \multicolumn{1}{c}{\bfseries  Scene}
+& \multicolumn{1}{c}{\bfseries  Scene(+)}
+\\
+\bfseries \# of pairs 
+&\multicolumn{1}{c}{296} 
+& \multicolumn{1}{c}{5816}  
+&\multicolumn{1}{c}{2513 }
+&\multicolumn{1}{c}{4595}
+&\multicolumn{1}{c}{2620}
+&\multicolumn{1}{c}{5811 }
+&\multicolumn{1}{c}{2624}
+&\multicolumn{1}{c}{2620}
+ 
+\\ \midrule
+\bfseries  Bigram LM                  
+& \bf 69.8 
+& 83.0
+& 77.5 
+& 49.6   
+& 47.9   
+& 1.1 
+& 0.0 
+& \bf 99.6      \\
+  \bfseries Normalized Bigram LM 
+& \bf 69.8 
+& 69.9
+& 76.5
+& 50.2 
+   & 50.9    
+& 31.3
+& 28.2   
+& 71.0   \\
+\bfseries Generation   (COCO)                          
+& 69.3  
+& \bf 85.2 
+& 85.2 
+& 56.5  
+& 54.7  
+& 3.8 
+& 7.4 
+& 94.2  \\
+\bfseries  Normalized Generation (COCO)              
+& 68.9   
+& 74.0 
+& 85.5
+& 61.6   
+& 59.2
+& 79.5 
+& \bf 97.3  
+& 5.5      \\
+\midrule
+\bfseries  BOW Ranking (Flickr30K) 
+& 50.0 
+& 84.9
+& \bf 89.3
+& \bf 93.6   
+& \bf 89.9
+& 81.2 
+& 84.6
+& 71.3 \\
+\bfseries  LSTM Ranking (COCO)                             
+& 52.0
+& 79.4 
+& 86.6
+& 89.9  
+& 88.0
+& 79.8 
+& 86.5
+& 58.2      \\
+\bfseries  LSTM Ranking (Flickr30K)                             
+& 52.0 
+& 81.1 
+& 87.0
+& 92.5    
+& 89.3 
+&\bf 82.6 
+& 78.8 
+& 75.5  
+  \\
+
+\bottomrule
+\end{tabular}
+\caption{Accuracies of the different models on our tasks }
+\label{tab:Results}
+\end{footnotesize}
+\end{table*}
+
+\section{Results}
+\label{sec:results}
+
+Results for all tasks can be found in Table~\ref{tab:Results}.
+
+\paragraph{The ``switch people'' task}
+The generation models are much better than the ranking models at capturing the difference in word order that distinguishes the correct answer from the distractor in this task. 
+At 52\% accuracy, the ranking models perform only marginally better than the ranking baseline model, which ignores word order, and therefore performs at chance.
+But the 69\% accuracy obtained by the  generation models  is about the same as the performance of the bigram baseline that ignores the image. This indicates that neither of the models actually ``understands''  the sentences (e.g. the difference between men carrying children and children carrying men), although generation models perform significantly better than chance because they are often able to distinguish the more common phrases that occur in the correct answers (``man carries  child'') from those that appear in the constructed sentences that serve as distractors here (``child carries man'').  It seems that localization of entities \cite{Plummer_2015_ICCV,DBLP:journals/corr/XuBKCCSZB15} may be required to address this issue and go beyond baseline performance.
+
+\paragraph{The ``replace person/scene'' tasks}
+On the ``replace person'' task, the  (unnormalized) bigram baseline has a relatively high accuracy of 83\%, perhaps because the distractors are again artifically constructed sentences. The ranking baseline model and the (unnormalized) generation model outperform this baseline somewhat at around 85\%, while the ranking models perform below the bigram baseline. The ranking model trained on Flickr30K has a slight advantage over the same  model trained on MSCOCO, an (unsurprising) difference that also manifests itself in the remaining tasks, but both models perform below the ranking baseline. Normalization hurts both generation models significantly. 
+It is instructive to compare performance on this task with the ``replace scene'' task. We see again that normalization hurts for generation, while the baseline ranking model outperforms the more sophisticated version. But here,  all models that consider the image outperform the bigram model by a very clear eight to almost twelve percent. This indicates that all image description models that we consider here rely heavily on scene or global image features. It would be interesting to see whether models that use explicit object detectors could overcome this bias. 
+
+
+\paragraph{The ``share person/scene'' tasks}
+The distractors in these tasks are captions for other images that share the same actor or scene head noun. Since the bigram language models ignore the image, they cannot distinguish the two cases (it is unclear why the unnormalized bigram model's accuracy on the ``share scene'' task is not closer to fifty percent). And while normalization helps the generation model a little, its accuracies of 61.6\% and 59.2\% are far below those of the ranking models, indicating that the latter are much better at distinguishing between the correct caption and an equally fluent, but incorrect one.
+This is perhaps not surprising, since this task is closest to the ranking loss that these models are trained to optimize. By focusing on an adversarial  ranking loss between training captions, the ranking model may be able to more correctly pick up important subtle differences between in-domain images, while the generation model is not directly optimized for this task (and instead has to also capture other properties of the captions, e.g. fluency). 
+With an accuracy of 93.6\% and 89.9\%, the bag-of-word ranking baseline model again outperforms the more complex LSTM.
+But examining its errors is informative. In general, it appears that it makes errors when examples require more subtle understanding or are atypical images for the words in the caption, as shown in Figure \ref{fig:SceneShare2}.
+
+\begin{figure*}[!tb]
+\centering \includegraphics[width=.8\textwidth]{ImagesNew/ShareScenes_AvgWrong.pdf} 
+\caption{Examples from the  ``share scene''  task that the BOW ranking model gets wrong, together with its scores for each of the captions.} 
+\label{fig:SceneShare2} 
+\end{figure*}
+
+ 
+
+\paragraph{The ``just person/scene'' tasks}
+The ``just person'' and ``just scene'' tasks differ from all other tasks we consider in that the distractors are also correct descriptions of the image, although they are consistently shorter.  To actually solve these tasks, models should be able to identify that the additional information provided in the longer caption is correct.  By contrast, the ``just scene (+)'' task requires them to identify that the additional information provided in the longer caption is not correct. But a simple preference for longer or shorter captions can also go a long way towards ``solving'' these tasks. In this case, we would expect to see a model's performance on the ``just scene'' task to be close to the complement of its performance on the converse``just scene (+)'' task. This is indeed the case for the bigram and the generation models (but not for the ranking models).
+This preference is particularly obvious in the case of the unnormalized bigram model (which does not take the image into account), and, to a slightly lesser extent, by the unnormalized generation model (which does). Both models have near perfect accuracy on the ``just scene (+)'' task, and near complete failure on the other two tasks.  Length normalization reduces this preference for shorter captions somewhat in the case of the bigram model, and seems to simply reverse it for the generation model. None of the ranking models show such a marked preference for either long or short captions. But although each model has similar accuracies on the ``just scene'' and on the ``just scene (+)'' task, accuracies on the ``just scene'' task are higher than on the ``just scene (+)'' task. This indicates that they are not always able to identify when the additional information is incorrect (as in the ``just scene (+)'' task). Accuracies on the ``just person'' task tend to be lower, but are otherwise generally comparable to those on the ``just scene'' task. We see the biggest drops for the length-normalized generation model, whose accuracy goes down from 97.3\% on the scene task to 79.5\% (indicating that something else besides a preference for longer captions is at play), and the MSCOCO-trained ranking model which goes down from 86.5\% to 79.8\%. 
+
+It is unclear why the performance on the ``just person'' task tends to be lower than on the ``just scene'' task. Since scenes correspond to global image properties, we stipulate that models are better at identifying them than most people terms. Although some people descriptions (e.g. ``baseball player'', ``audience'') are highly indicative of the scene, this is not the case for very generic terms (``man'', ``woman''). We also note that identifying when the additional information is correct can be quite difficult. For example, in the second example in Figure~\ref{fig:JustPerson}, the phrase ``huddled and having a serious discussion'' has to be understood in the context of soccer. While the dataset contains other images of  discussions, there are no other instances of discussions taking place on soccer fields, and the people in those cases tend to occupy a much larger portion of the image.  Further analyzing and isolating these examples (and similar ones) is key for future progress. 
+Figure \ref{fig:JustScenes2} shows items from the ``just scene'' task that the BOW model gets right, paired with items for the same image where it makes a mistake. For the first item, it seems that the model associates the terms  ``crowd'' or ``crowded'' with this image (while not understanding that ``busy'' is synonymous with ``crowded'' in this context).  The error on the second item may be due to the word ``rock'' in the correct answer (Flickr30K contains a lot of images of rock climbing), while the error on the fourth item may be due to the use of words like ``parents''  rather than the more generic ``people.''
+
+
+\begin{figure*}[!h]
+\centering \includegraphics[width=.8\textwidth]{ImagesNew/JustScenes_responses.pdf} 
+\caption{Items from the ``Just Scene''  task 
+  with the scores from the BOW ranking model in parentheses (bold = the caption preferred by the model).}%@% 
+\label{fig:JustScenes2} 
+\end{figure*}
+
+
+\subsection{Discussion}
+We compared generation models for image description, which are trained to produce fluent descriptions of the image, with ranking-based models, which learn to embed images and captions in a common space in such a way that captions appear near the images they describe. 
+Among the models we were able to evaluate, ranking-based approaches outperformed generation-based ones on most tasks, and a simple bag-of-words models performed similarly to a comparable LSTM model. 
+
+
+The ``switch people''  results indicate that ranking models may not capture subtle semantic differences created by changing the word order of the original caption (i.e. swapping subjects and objects). But although generation models seem to perform much better on this task, their accuracy is only as good as, or even slightly lower than, that of a simple bigram language model that ignores the image. This indicates that generation models may have simply learned to distinguish between plausible and implausible sentences. 
+
+The ``share person/scene'' and ``just person/scene''  results indicate that ranking models may be better at capturing subtle details of the image than generation models. But our results also indicate that both kinds of models still have a long way to before they are able to describe images accurately with a ``human level of detail.'' 
+
+Our comparison of the LSTM-based model of \newcite{DBLP:journals/corr/KirosSZ14} against our bag-of-words baseline model indicates that the former may not be taking advantage of the added representational power of LSTMs (in fact, most of the recent improvements on this task may be largely due to the use of better vision features  and dense word embeddings trained on large corpora). However, RNNs \cite{Elman90findingstructure} and LSTMs offer convenient ways to define a probability distribution across the space of all possible image captions that cannot be modeled as easily with a bag-of-words style approach. The question remains if that convenience comes at a cost of no longer being able to easily train a model that understands the language to an acceptable amount of detail. It is also important to note that we were unable to evaluate a model that combines a generation model with a reranker such \newcite{DBLP:journals/corr/FangGISDDGHMPZZ14} and the follow up work in \newcite{DBLP:conf/acl/DevlinCFGDHZM15}. In theory, if the generation models are able produce a significantly enough diverse set of captions, the reranking can make up the gap in performance while still being able to generate novel captions easily.
+
+ \section{Conclusion}
+It is  clear that evaluation still remains a difficult issue for image description. The community needs to develop metrics that are more sensitive than the ranking task while being more directly correlated to human judgement than current automated metrics used for generation.  In this paper, we developed a sequence of binary forced-choice tasks to evaluate and compare different models for image description. Our results indicate that generation and ranking-based approaches are both far from having ``solved'' this task, and that each approach has different advantages and deficiencies. But the aim of this study was less to analyze the behavior of specific models (we simply used models whose performance was close to state of the art, and whose implementations were available to us) than to highlight issues that are not apparent under current evaluation metrics, and to stimulate a discussion about what kind of evaluation methods are appropriate for this burgeoning area. Our data is available,\footnote{\tiny\url{http://nlp.cs.illinois.edu/HockenmaierGroup/data.html}} and will allow others to evaluate their models directly. 
+
+\section*{Acknowledgments}
+This paper is based upon work supported by the National Science Foundation under Grants No. 
+1205627, 1405883 and 1053856. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+
+\bibliographystyle{acl2016}
+\bibliography{vl16finalbib}
+\end{document}
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

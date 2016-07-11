@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#94
+FinalPaperTitle#=%=#LIMSI's Contribution to the WMT'16 Biomedical Translation Task
+ShortPaperTitle#=%=#LIMSI's Contribution to the WMT'16 Biomedical Translation Task
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Ive
+JobTitle#==#
+Organization#==#LIMSI, CNRS, Univ. Paris-Sud, Université Paris-Saclay, 91 403 Orsay, France; Cochrane France, INSERM U1153, 75181 Paris, France
+Abstract#==#The article describes LIMSI's submission to the first WMT'16 shared
+biomedical translation task, focusing on the sole English-French
+translation direction. Our main submission is the output of a
+Moses-based statistical machine translation (SMT) system, rescored
+with Structured OUtput Layer (SOUL) neural network models. We also
+present an attempt to circumvent syntactic complexity: our proposal
+combines the outputs of PBSMT systems trained either to translate
+entire source sentences or specific syntactic constructs extracted
+from those sentences. The approach is implemented using
+Confusion Network (CN) decoding. The quality of the combined output
+is comparable to the quality of our main system.
+Author{1}{Firstname}#=%=#Julia
+Author{1}{Lastname}#=%=#Ive
+Author{1}{Email}#=%=#julia.ive@limsi.fr
+Author{1}{Affiliation}#=%=#LIMSI-CNRS
+Author{2}{Firstname}#=%=#Aurélien
+Author{2}{Lastname}#=%=#Max
+Author{2}{Email}#=%=#aurelien.max@limsi.fr
+Author{2}{Affiliation}#=%=#LIMSI-CNRS & Univ. Paris Sud
+Author{3}{Firstname}#=%=#François
+Author{3}{Lastname}#=%=#Yvon
+Author{3}{Email}#=%=#yvon@limsi.fr
+Author{3}{Affiliation}#=%=#LIMSI/CNRS
+
+==========

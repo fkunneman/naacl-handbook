@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#299
+FinalPaperTitle#=%=#How Naked is the Naked Truth? A Multilingual Lexicon of Nominal Compound Compositionality
+ShortPaperTitle#=%=#How Naked is the Naked Truth? A Multilingual Lexicon of Nominal Compound Compositionality
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Carlos Ramisch
+JobTitle#==#Lecturer
+Organization#==#LIF-TALEP
+    Parc Scientifique et Technologique de Luminy
+    163, avenue de Luminy - Case 901
+    13288 MARSEILLE CEDEX 9
+    France
+Abstract#==#We introduce a new multilingual resource containing judgments about nominal
+compound  compositionality in English, French and Portuguese. It covers 3
+x 180 noun-noun and adjective-noun compounds for which we provide
+numerical compositionality scores for the head word, for the modifier and for
+the compound as a whole, along with possible paraphrases. This resource was
+constructed by native speakers via crowdsourcing. It can serve as basis for
+evaluating tasks such as lexical substitution and compositionality prediction.
+Author{1}{Firstname}#=%=#Carlos
+Author{1}{Lastname}#=%=#Ramisch
+Author{1}{Email}#=%=#carlosramisch@gmail.com
+Author{1}{Affiliation}#=%=#LIF, Aix-Marseille Université
+Author{2}{Firstname}#=%=#Silvio
+Author{2}{Lastname}#=%=#Cordeiro
+Author{2}{Email}#=%=#silvioricardoc@gmail.com
+Author{2}{Affiliation}#=%=#Institute of Informatics - UFRGS
+Author{3}{Firstname}#=%=#Leonardo
+Author{3}{Lastname}#=%=#Zilio
+Author{3}{Email}#=%=#ziliotradutor@gmail.com
+Author{3}{Affiliation}#=%=#UFRGS
+Author{4}{Firstname}#=%=#Marco
+Author{4}{Lastname}#=%=#Idiart
+Author{4}{Email}#=%=#marco.idiart@gmail.com
+Author{4}{Affiliation}#=%=#UFRGS
+Author{5}{Firstname}#=%=#Aline
+Author{5}{Lastname}#=%=#Villavicencio
+Author{5}{Email}#=%=#alinev@gmail.com
+Author{5}{Affiliation}#=%=#Institute of Informatics, Federal University of Rio Grande do Sul
+
+==========

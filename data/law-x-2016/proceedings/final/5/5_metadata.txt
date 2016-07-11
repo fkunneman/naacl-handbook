@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#5
+FinalPaperTitle#=%=#Annotating the Little Prince with Chinese AMRs
+ShortPaperTitle#=%=#Annotating the Little Prince with Chinese AMRs
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Bin Li
+JobTitle#==#
+Organization#==#Nanjing Normal University.
+#122 Ninghai Road, Gulou District, Nanjing, Jiangsu, China.
+Abstract#==#Abstract Meaning Representation (AMR) is an annotation framework in which the
+meaning of a full sentence is represented as a rooted, acyclic, directed graph.
+In this paper, we describe a  project in which we develop specifications
+for the annotation of a Chinese AMR corpus: the Chinese translation of the
+Little Prince. The inter-agreement smatch score between the two annotators is
+0.83. We also propose to integrate alignment into Chinese AMR annotation.
+Author{1}{Firstname}#=%=#Bin
+Author{1}{Lastname}#=%=#Li
+Author{1}{Email}#=%=#gothere@126.com
+Author{1}{Affiliation}#=%=#Nanjing Normal University
+Author{2}{Firstname}#=%=#Yuan
+Author{2}{Lastname}#=%=#Wen
+Author{2}{Email}#=%=#wenyuan.njnu@gmail.com
+Author{2}{Affiliation}#=%=#Nanjing Normal University
+Author{3}{Firstname}#=%=#Weiguang
+Author{3}{Lastname}#=%=#QU
+Author{3}{Email}#=%=#wgqu@njnu.edu.cn
+Author{3}{Affiliation}#=%=#Nanjing Normal University
+Author{4}{Firstname}#=%=#Lijun
+Author{4}{Lastname}#=%=#Bu
+Author{4}{Email}#=%=#blj_njnu@163.com
+Author{4}{Affiliation}#=%=#Nanjing Normal University
+Author{5}{Firstname}#=%=#Nianwen
+Author{5}{Lastname}#=%=#Xue
+Author{5}{Email}#=%=#xuen@brandeis.edu
+Author{5}{Affiliation}#=%=#Brandeis University
+
+==========

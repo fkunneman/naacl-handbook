@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#Converting SynTagRus Dependency Treebank into Penn Treebank Style
+ShortPaperTitle#=%=#Converting SynTagRus Dependency Treebank into Penn Treebank Style
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Alex Luu
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper presents the conversion of SynTagRus dependency structures (DS) into
+English Penn Treebank style phrase structures (PS), whose resulting data will
+be used to train a statistical PS parser for Russian and create a large-scale
+PS-parsed corpus. The implemented DS-to-PS conversion includes various
+innovative features in order to create PS trees that are closest to Penn
+Treebank style while optimally preserving information present in the original
+DS annotations. We believe that the newly converted PS treebank will be not
+only an adequate training dataset for our ongoing project but also a valuable
+resource for traditional and computational linguistic research.
+Author{1}{Firstname}#=%=#Alex
+Author{1}{Lastname}#=%=#Luu
+Author{1}{Email}#=%=#alexluu@brandeis.edu
+Author{1}{Affiliation}#=%=#Brandeis University
+Author{2}{Firstname}#=%=#Sophia A.
+Author{2}{Lastname}#=%=#Malamud
+Author{2}{Email}#=%=#smalamud@brandeis.edu
+Author{2}{Affiliation}#=%=#Brandeis University
+Author{3}{Firstname}#=%=#Nianwen
+Author{3}{Lastname}#=%=#Xue
+Author{3}{Email}#=%=#xuen@brandeis.edu
+Author{3}{Affiliation}#=%=#Brandeis University
+
+==========

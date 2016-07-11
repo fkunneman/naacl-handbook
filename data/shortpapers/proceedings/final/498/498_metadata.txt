@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#498
+FinalPaperTitle#=%=#IBC-C: A Dataset for Armed Conflict Analysis
+ShortPaperTitle#=%=#IBC-C: A Dataset for Armed Conflict Analysis
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Andrej Zukov-Gregoric
+JobTitle#==#
+Organization#==#Department of Computer Science
+Royal Holloway, University of London
+Egham TW20 0EX
+United Kingdom
+Abstract#==#We describe the Iraq Body Count Corpus (IBC-C) dataset, the first substantial
+armed conflict-related dataset which can be used for conflict analysis. IBC-C
+provides a ground-truth dataset for conflict specific named entity recognition,
+slot filling, and event de-duplication. IBC-C is constructed using data
+collected by the Iraq Body Count project  which has been recording casualties
+resulting from the ongoing war in Iraq since 2003. We describe the dataset's
+creation, how it can be used for the above three tasks and provide initial
+baseline results for the first task (named entity recognition) using Hidden
+Markov Models, Conditional Random Fields, and Recursive Neural Networks.
+Author{1}{Firstname}#=%=#Andrej
+Author{1}{Lastname}#=%=#Zukov Gregoric
+Author{1}{Email}#=%=#andrejzukovgregoric@gmail.com
+Author{1}{Affiliation}#=%=#Royal Holloway, University of London
+Author{2}{Firstname}#=%=#Zhiyuan
+Author{2}{Lastname}#=%=#Luo
+Author{2}{Email}#=%=#zhiyuan@cs.rhul.ac.uk
+Author{2}{Affiliation}#=%=#Royal Holloway, University of London
+Author{3}{Firstname}#=%=#Bartal
+Author{3}{Lastname}#=%=#Veyhe
+Author{3}{Email}#=%=#bartal.veyhe.2014@rhul.ac.uk
+Author{3}{Affiliation}#=%=#Royal Holloway, University of London
+
+==========

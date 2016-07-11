@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#365
+FinalPaperTitle#=%=#Improving Argument Overlap for Proposition-Based Summarisation
+ShortPaperTitle#=%=#Improving Argument Overlap for Proposition-Based Summarisation
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Yimai Fang
+JobTitle#==#
+Organization#==#University of Cambridge Computer Laboratory
+15 JJ Thomson Avenue
+Cambridge CB3 0FD
+United Kingdom
+Abstract#==#We present improvements to our incremental proposition-based summariser, which
+is inspired by Kintsch and van Dijk's (1978) text comprehension model. Argument
+overlap is a central concept in this summariser. Our new model replaces the old
+overlap method based on distributional similarity with one based on lexical
+chains. We evaluate on a new corpus of 124 summaries of educational texts, and
+show that our new system outperforms the old method and several
+state-of-the-art non-proposition-based summarisers. The experiment also
+verifies that the incremental nature of memory cycles is beneficial in itself,
+by comparing it to a non-incremental algorithm using the same underlying
+information.
+Author{1}{Firstname}#=%=#Yimai
+Author{1}{Lastname}#=%=#Fang
+Author{1}{Email}#=%=#Yimai.Fang@cl.cam.ac.uk
+Author{1}{Affiliation}#=%=#Computer Laboratory, University of Cambridge, 15 JJ Thomson Avenue, Cambridge CB3 0FD, United Kingdom
+Author{2}{Firstname}#=%=#Simone
+Author{2}{Lastname}#=%=#Teufel
+Author{2}{Email}#=%=#Simone.Teufel@cl.cam.ac.uk
+Author{2}{Affiliation}#=%=#Computer Laboratory, University of Cambridge, 15 JJ Thomson Avenue, Cambridge CB3 0FD, United Kingdom
+
+==========

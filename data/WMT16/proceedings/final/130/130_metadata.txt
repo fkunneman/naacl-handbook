@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#130
+FinalPaperTitle#=%=#NYU-MILA Neural Machine Translation Systems for WMT’16
+ShortPaperTitle#=%=#NYU-MILA Neural Machine Translation Systems for WMT’16
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Junyoung Chung
+JobTitle#==#PhD Student
+Organization#==#Université de Montréal
+
+Pavillon André-Aisenstadt,
+2920 Chemin de la Tour, Room 3256,
+Montreal, QC, Canada
+H3T 1J4
+Abstract#==#We describe the neural machine translation system of New York University (NYU)
+and University of Montreal (MILA) for the translation tasks of WMT’16. The
+main goal of NYU-MILA submission to WMT’16 is to evaluate a new
+character-level decoding approach in neural machine translation on various
+language pairs. The proposed neural machine translation system is an
+attention-based encoder–decoder with a subword-level en- coder and a
+character-level decoder. The decoder of the neural machine translation system
+does not require explicit segmentation, when characters are used as to- kens.
+The character-level decoding approach provides benefits especially when
+translating a source language into other morphologically rich languages.
+Author{1}{Firstname}#=%=#Junyoung
+Author{1}{Lastname}#=%=#Chung
+Author{1}{Email}#=%=#junyoung.chung@umontreal.ca
+Author{1}{Affiliation}#=%=#University of Montreal
+Author{2}{Firstname}#=%=#Kyunghyun
+Author{2}{Lastname}#=%=#Cho
+Author{2}{Email}#=%=#kyunghyun.cho@nyu.edu
+Author{2}{Affiliation}#=%=#New York University
+Author{3}{Firstname}#=%=#Yoshua
+Author{3}{Lastname}#=%=#Bengio
+Author{3}{Email}#=%=#yoshua.bengio@gmail.com
+Author{3}{Affiliation}#=%=#University of Montreal
+
+==========

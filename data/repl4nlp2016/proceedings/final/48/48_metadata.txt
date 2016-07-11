@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#48
+FinalPaperTitle#=%=#Adjusting Word Embeddings with Semantic Intensity Orders
+ShortPaperTitle#=%=#Adjusting Word Embeddings with Semantic Intensity Orders
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Joo-Kyunf Kim
+JobTitle#==#
+Organization#==#The Ohio State University,
+Columbus, Ohio 43210, USA
+Abstract#==#Semantic lexicons such as WordNet and PPDB have been used to improve the
+vector-based semantic representations of words by adjusting the word vectors.
+However, such lexicons lack semantic intensity information, inhibiting
+adjustment
+of vector spaces to better represent semantic intensity scales. In this work,
+we adjust word vectors using the semantic intensity information in addition to
+synonyms and antonyms from WordNet and PPDB, and show improved performance on
+judging semantic intensity orders of adjective pairs on three different human
+annotated datasets.
+Author{1}{Firstname}#=%=#Joo-Kyung
+Author{1}{Lastname}#=%=#Kim
+Author{1}{Email}#=%=#kimjook@cse.ohio-state.edu
+Author{1}{Affiliation}#=%=#The Ohio State University
+Author{2}{Firstname}#=%=#Marie-Catherine
+Author{2}{Lastname}#=%=#de Marneffe
+Author{2}{Email}#=%=#mcdm@ling.ohio-state.edu
+Author{2}{Affiliation}#=%=#The Ohio State University
+Author{3}{Firstname}#=%=#Eric
+Author{3}{Lastname}#=%=#Fosler-Lussier
+Author{3}{Email}#=%=#fosler@cse.ohio-state.edu
+Author{3}{Affiliation}#=%=#The Ohio State University
+
+==========

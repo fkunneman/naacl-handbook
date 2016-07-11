@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#A Global Analysis of Emoji Usage
+ShortPaperTitle#=%=#A Global Analysis of Emoji Usage
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Nikola Ljubešić
+JobTitle#==#
+Organization#==#Jožef Stefan Institute
+Jamova cesta 39
+SI-1000 Ljubljana, Slovenia
+Abstract#==#Emojis are a quickly spreading and rather unknown communication phenomenon
+which occasionally receives attention in the mainstream press, but lacks the
+scientific exploration it deserves. This paper is a first attempt at
+investigating the global distribution of emojis. We perform our analysis of the
+spatial distribution of emojis on a dataset of ~17 million (and growing)
+geo-encoded tweets containing emojis by running a cluster analysis over
+countries represented as emoji distributions and performing correlation
+analysis of emoji distributions and World Development Indicators. We show that
+emoji usage tends to draw quite a realistic picture of the living conditions in
+various parts of our world.
+Author{1}{Firstname}#=%=#Nikola
+Author{1}{Lastname}#=%=#Ljubešić
+Author{1}{Email}#=%=#nljubesi@ffzg.hr
+Author{1}{Affiliation}#=%=#University of Zagreb
+Author{2}{Firstname}#=%=#Darja
+Author{2}{Lastname}#=%=#Fišer
+Author{2}{Email}#=%=#darja.fiser@ff.uni-lj.si
+Author{2}{Affiliation}#=%=#University of Ljubljana
+
+==========

@@ -1,0 +1,14 @@
+SubmissionNumber#=%=#190
+FinalPaperTitle#=%=#Computational Natural Language Learning: +-20years +-Data +-Features +-Multimodal +-Bioplausible
+ShortPaperTitle#=%=#Computational Natural Language Learning: +-20years +-Data +-Features +-Multimodal +-Bioplausible
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#NA
+JobTitle#==#
+Organization#==#NA
+Abstract#==#
+Author{1}{Firstname}#=%=#David
+Author{1}{Lastname}#=%=#Powers
+Author{1}{Email}#=%=#david.powers@flinders.edu.au
+Author{1}{Affiliation}#=%=#Flinders University
+
+==========

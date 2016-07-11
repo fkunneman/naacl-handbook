@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#5
+FinalPaperTitle#=%=#Pair Distance Distribution: A Model of Semantic Representation
+ShortPaperTitle#=%=#Pair Distance Distribution: A Model of Semantic Representation
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Yonatan Ramni
+JobTitle#==#
+Organization#==#Tel-Aviv University,
+Tel-Aviv, Israel
+Abstract#==#We introduce PDD (Pair Distance Distribution), a novel corpus-based model of
+semantic representation. Most corpus-based models are VSMs (Vector Space
+Models), which while being successful, suffer from both practical and
+theoretical shortcomings. VSM models produce very large, sparse matrices, and
+dimensionality reduction is usually performed, leading to high computational
+complexity, and obscuring the meaning of the dimensions. Similarity in VSMs is
+constrained to be both symmetric and transitive, contrary to evidence from
+human subject tests. PDD is feature-based, created automatically from corpora
+without producing large, sparse matrices. The dimensions along which words are
+compared are meaningful, enabling better understanding of the model and
+providing an explanation as to how any two words are similar. Similarity is
+neither symmetric nor transitive. The model achieved accuracy of 97.6% on a
+published semantic similarity test
+Author{1}{Firstname}#=%=#Yonatan
+Author{1}{Lastname}#=%=#Ramni
+Author{1}{Email}#=%=#yona5@post.tau.ac.il
+Author{1}{Affiliation}#=%=#Tel Aviv University
+Author{2}{Firstname}#=%=#Oded
+Author{2}{Lastname}#=%=#Maimon
+Author{2}{Email}#=%=#Maimon@post.tau.ac.il
+Author{2}{Affiliation}#=%=#Tel Aviv University
+Author{3}{Firstname}#=%=#Evgeni
+Author{3}{Lastname}#=%=#Khmelnitsky
+Author{3}{Email}#=%=#xmel@post.tau.ac.il
+Author{3}{Affiliation}#=%=#Tel Aviv University
+
+==========

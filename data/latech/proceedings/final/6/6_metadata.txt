@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#Nomen Omen. Enhancing the Latin Morphological Analyser Lemlat with an Onomasticon
+ShortPaperTitle#=%=#Nomen Omen. Enhancing the Latin Morphological Analyser Lemlat with an Onomasticon
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Marco Budassi
+JobTitle#==#
+Organization#==#Università di Pavia - Corso Strada Nuova, 65 - 27100 Pavia, Italy
+Abstract#==#Lemlat is a morphological analyser for Latin, which shows a remarkably wide
+coverage of the Latin lexicon. However, the performance of the tool is limited
+by the absence of proper names in its lexical basis. In this paper we present
+the extension of Lemlat with a large Onomasticon for Latin. First, we describe
+and motivate the automatic and manual procedures for including the proper names
+in Lemlat. Then, we compare the new version of Lemlat with the previous one, by
+evaluating their lexical coverage of four Latin texts of different era and
+genre.
+Author{1}{Firstname}#=%=#Marco
+Author{1}{Lastname}#=%=#Budassi
+Author{1}{Email}#=%=#marcobudassi@hotmail.it
+Author{1}{Affiliation}#=%=#Università di Pavia
+Author{2}{Firstname}#=%=#Marco
+Author{2}{Lastname}#=%=#Passarotti
+Author{2}{Email}#=%=#marco.passarotti@unicatt.it
+Author{2}{Affiliation}#=%=#Università Cattolica del Sacro Cuore, Milan
+
+==========

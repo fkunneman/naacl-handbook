@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#Measuring the State of the Art of Automated Pathway Curation Using Graph Algorithms - A Case Study of the mTOR Pathway
+ShortPaperTitle#=%=#Measuring the State of the Art of Automated Pathway Curation Using Graph Algorithms - A Case Study of the mTOR Pathway
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Michael Spranger
+JobTitle#==#
+Organization#==#Sony Computer Science Laboratories Inc.
+Takanawa Muse Bldg, 3F 
+3-14-13 Higashi Gotanda
+Tokyo 141-0022
+Japan
+Abstract#==#This paper evaluates the difference between human pathway curation and current
+NLP systems. We propose graph analysis methods for quantifying              the gap
+between
+human curated pathway maps and the output of state-of-the-art automatic NLP
+systems. Evaluation is performed on the popular mTOR pathway. Based on
+analyzing where current systems perform well and where they fail, we identify
+possible avenues for progress.
+Author{1}{Firstname}#=%=#Michael
+Author{1}{Lastname}#=%=#Spranger
+Author{1}{Email}#=%=#michael.spranger@gmail.com
+Author{1}{Affiliation}#=%=#Sony Computer Science Laboratories Inc.
+Author{2}{Firstname}#=%=#Sucheendra
+Author{2}{Lastname}#=%=#Palaniappan
+Author{2}{Email}#=%=#sucheendra.palaniappan@inria.fr
+Author{2}{Affiliation}#=%=#INRIA, Rennes, France
+Author{3}{Firstname}#=%=#Samik
+Author{3}{Lastname}#=%=#Gosh
+Author{3}{Email}#=%=#ghosh@sbi.jp
+Author{3}{Affiliation}#=%=#The Systems Biology Institute, Tokyo, Japan
+
+==========

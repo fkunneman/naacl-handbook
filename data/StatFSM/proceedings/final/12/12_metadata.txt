@@ -1,0 +1,19 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Pynini: A Python library for weighted finite-state grammar compilation
+ShortPaperTitle#=%=#Pynini: A Python library for weighted finite-state grammar compilation
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Kyle Gorman
+JobTitle#==#
+Organization#==#Google Inc.
+Abstract#==#We present Pynini, an open-source library for the compilation of weighted
+finite-state transducers (WFSTs) and pushdown transducers (PDTs) from strings,
+context-dependent rewrite rules, and recursive transition networks. Pynini uses
+the OpenFst library for encoding, modifying, and applying WFSTs and PDTs. We
+describe the design of this library and the algorithms and interfaces used for
+compilation, optimization, and application, and illustrate its use.
+Author{1}{Firstname}#=%=#Kyle
+Author{1}{Lastname}#=%=#Gorman
+Author{1}{Email}#=%=#kbg@google.com
+Author{1}{Affiliation}#=%=#Google, Inc.
+
+==========

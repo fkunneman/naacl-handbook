@@ -1,0 +1,53 @@
+SubmissionNumber#=%=#79
+FinalPaperTitle#=%=#Extract Domain-specific Paraphrase from Monolingual Corpus for Automatic Evaluation of Machine Translation
+ShortPaperTitle#=%=#Extract Domain-specific Paraphrase from Monolingual Corpus for Automatic MT Evaluation
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#LIlin Zhang
+JobTitle#==#
+Organization#==#School of Computer Information Engineering, Jiangxi Normal University, 99 Ziyang Rd, Nanchang, Jiangxi 330022, China
+Abstract#==#Paraphrase can help match synonyms or match phrases with the same or similar
+meaning, thus it plays an important role in automatic evaluation of machine
+translation. The traditional approaches extract paraphrase in general domain
+from bilingual corpus. Because the WMT16 metrics task consists of three
+sub-tasks, namely news domain, medical domain, and IT domain, we propose to
+extract domain-specific paraphrase tables from monolingual corpus to replace
+the general paraphrase table. We utilize the M-L approach to filter the large
+scale general monolingual corpus into a domain-specific sub-corpus, and exploit
+Markov Network model to extract paraphrase tables from the sub-corpus. The
+experimental results on WMT15 Metrics task show that METEOR metric using the
+domain-specific paraphrase tables outperforms that using the paraphrase table
+in general domain extracted from the bi-lingual corpus.
+Author{1}{Firstname}#=%=#Lilin
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Email}#=%=#1006806747@qq.com
+Author{1}{Affiliation}#=%=#Jiangxi Normal University
+Author{2}{Firstname}#=%=#Zhen
+Author{2}{Lastname}#=%=#Weng
+Author{2}{Email}#=%=#1091013334@qq.com
+Author{2}{Affiliation}#=%=#Jiangxi Normal University
+Author{3}{Firstname}#=%=#Wenyan
+Author{3}{Lastname}#=%=#Xiao
+Author{3}{Email}#=%=#51852710@qq.com
+Author{3}{Affiliation}#=%=#Jiangxi Normal University
+Author{4}{Firstname}#=%=#Jianyi
+Author{4}{Lastname}#=%=#Wan
+Author{4}{Email}#=%=#1363955817@qq.com
+Author{4}{Affiliation}#=%=#Jiangxi Normal University
+Author{5}{Firstname}#=%=#Zhiming
+Author{5}{Lastname}#=%=#Chen
+Author{5}{Email}#=%=#1547752401@qq.com
+Author{5}{Affiliation}#=%=#Jiangxi Normal University
+Author{6}{Firstname}#=%=#Yiming
+Author{6}{Lastname}#=%=#Tan
+Author{6}{Email}#=%=#403468660@qq.com
+Author{6}{Affiliation}#=%=#Jiangxi Normal University
+Author{7}{Firstname}#=%=#Maoxi
+Author{7}{Lastname}#=%=#Li
+Author{7}{Email}#=%=#mosesli@jxnu.edu.cn
+Author{7}{Affiliation}#=%=#Jiangxi Normal University
+Author{8}{Firstname}#=%=#Mingwen
+Author{8}{Lastname}#=%=#Wang
+Author{8}{Email}#=%=#mwwang@jxnu.edu.cn
+Author{8}{Affiliation}#=%=#Jiangxi Normal University
+
+==========

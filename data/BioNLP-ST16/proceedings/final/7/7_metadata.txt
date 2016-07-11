@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Extraction of Regulatory Events using Kernel-based Classifiers and Distant Supervision
+ShortPaperTitle#=%=#Extraction of Regulatory Events using Kernel-based Classifiers and Distant Supervision
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Andre Lamurias
+JobTitle#==#
+Organization#==#LaSIGE, Faculdade de Ciências, Universidade de Lisboa
+Abstract#==#This paper describes our system to extract binary regulatory relations from
+text, used to participate in the SeeDev task of BioNLP-ST 2016.
+Our system was based on machine learning, using support vector machines with
+a shallow linguistic kernel to identify each type of relation.
+Additionally, we employed a distant supervised approach to increase the size
+of the training data.
+Our submission obtained the third best precision of the SeeDev-binary task.
+Although the distant supervised approach did not significantly improve the
+results, we expect that by exploring other techniques to use unlabeled data
+should lead to better results.
+Author{1}{Firstname}#=%=#Andre
+Author{1}{Lastname}#=%=#Lamurias
+Author{1}{Email}#=%=#alamurias@lasige.di.fc.ul.pt
+Author{1}{Affiliation}#=%=#LaSIGE, Faculdade de Ciências, Universidade de Lisboa
+Author{2}{Firstname}#=%=#Miguel J.
+Author{2}{Lastname}#=%=#Rodrigues
+Author{2}{Email}#=%=#mrodrigues@lasige.di.fc.ul.pt
+Author{2}{Affiliation}#=%=#University of Lisbon
+Author{3}{Firstname}#=%=#Luka A.
+Author{3}{Lastname}#=%=#Clarke
+Author{3}{Email}#=%=#laclarke@fc.ul.pt
+Author{3}{Affiliation}#=%=#BioISI: Biosystems & Integrative Sciences Institute, Faculdade de Ciências,  Universidade de Lisboa, Portugal
+Author{4}{Firstname}#=%=#Francisco M.
+Author{4}{Lastname}#=%=#Couto
+Author{4}{Email}#=%=#fcouto@di.fc.ul.pt
+Author{4}{Affiliation}#=%=#University of Lisbon
+
+==========

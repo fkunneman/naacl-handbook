@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#118
+FinalPaperTitle#=%=#TÜBİTAK SMT System Submission for WMT2016
+ShortPaperTitle#=%=#TÜBİTAK SMT System Submission for WMT2016
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Emre Bektaş
+JobTitle#==#Researcher
+Organization#==#TÜBİTAK-BİLGEM
+Gebze 41470, Kocaeli, Turkey
+Abstract#==#We describe the TÜBİTAK Turkish-English machine translation systems
+submissions in both directions for the WMT 2016: News Translation Task. We
+experiment with phrase-based and hierarchical phrase-based systems for both
+directions using word-level and morpheme-level representations for the Turkish
+side. Finally we perform system combination which results in 0.5 BLEU increase
+for Turkish-to-English and 0.3 BLEU increase for English-to-Turkish.
+Author{1}{Firstname}#=%=#Emre
+Author{1}{Lastname}#=%=#Bektaş
+Author{1}{Email}#=%=#emre.bektas@tubitak.gov.tr
+Author{1}{Affiliation}#=%=#TUBITAK
+Author{2}{Firstname}#=%=#Ertugrul
+Author{2}{Lastname}#=%=#Yilmaz
+Author{2}{Email}#=%=#yilmaz.ertugrul@tubitak.gov.tr
+Author{2}{Affiliation}#=%=#TUBITAK
+Author{3}{Firstname}#=%=#Coskun
+Author{3}{Lastname}#=%=#Mermer
+Author{3}{Email}#=%=#coskun.mermer@tubitak.gov.tr
+Author{3}{Affiliation}#=%=#TUBITAK
+Author{4}{Firstname}#=%=#İlknur
+Author{4}{Lastname}#=%=#Durgar El-Kahlout
+Author{4}{Email}#=%=#ilknur.durgar@tubitak.gov.tr
+Author{4}{Affiliation}#=%=#TUBITAK-BILGEM
+
+==========

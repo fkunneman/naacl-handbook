@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#49
+FinalPaperTitle#=%=#MeTA: A Unified Toolkit for Text Retrieval and Analysis
+ShortPaperTitle#=%=#MeTA: A Unified Toolkit for Text Retrieval and Analysis
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Sean Massung
+JobTitle#==#
+Organization#==#University of Illinois at Urbana-Champaign
+Department of Computer Science
+201 N Goodwin Ave, Urbana, IL 61801
+Abstract#==#MeTA is developed to unite machine
+learning, information retrieval, and natural language processing in one
+easy-to-use
+toolkit. Its focus on indexing allows it to
+perform well on large datasets, supporting
+online classification and other out-of-core
+algorithms. MeTAs liberal open source
+license encourages contributions, and its
+extensive online documentation, forum,
+and tutorials make this process straightforward. We run experiments and show
+MeTA's performance is competitive with
+or better than existing software.
+Author{1}{Firstname}#=%=#Sean
+Author{1}{Lastname}#=%=#Massung
+Author{1}{Email}#=%=#massung1@illinois.edu
+Author{1}{Affiliation}#=%=#University of Illinois at Urbana-Champaign
+Author{2}{Firstname}#=%=#Chase
+Author{2}{Lastname}#=%=#Geigle
+Author{2}{Email}#=%=#geigle1@illinois.edu
+Author{2}{Affiliation}#=%=#University of Illinois at Urbana-Champaign
+Author{3}{Firstname}#=%=#ChengXiang
+Author{3}{Lastname}#=%=#Zhai
+Author{3}{Email}#=%=#czhai@illinois.edu
+Author{3}{Affiliation}#=%=#University of Illinois at Urbana-Champaign
+
+==========

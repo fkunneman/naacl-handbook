@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Deep Learning with Minimal Training Data: TurkuNLP Entry in the BioNLP Shared Task 2016
+ShortPaperTitle#=%=#Deep Learning with Minimal Training Data
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Sampo Pyysalo
+JobTitle#==#
+Organization#==#University of Cambridge
+Abstract#==#We present the TurkuNLP entry to the BioNLP Shared Task 2016 Bacteria Biotope
+event extraction (BB3-event) subtask. We propose a deep learning-based approach
+to event extraction using a combination of Long Short-Term Memory (LSTM)
+networks over syntactic depen- dency graphs. Features for the proposed neural
+network are generated based on the shortest path connecting the two candidate
+entities in the dependency graph. We fur- ther detail how this network can be
+efficiently trained to have good generalization performance even when only a
+very limited number of training examples are avail- able and part-of-speech
+(POS) and dependency type feature representations must be learned from scratch.
+Our method ranked second among the entries to the shared task, achieving an
+F-score of 52.1% with 62.3% precision and 44.8% recall.
+Author{1}{Firstname}#=%=#Farrokh
+Author{1}{Lastname}#=%=#Mehryary
+Author{1}{Email}#=%=#farmeh@utu.fi
+Author{1}{Affiliation}#=%=#University of Turku
+Author{2}{Firstname}#=%=#Jari
+Author{2}{Lastname}#=%=#Björne
+Author{2}{Email}#=%=#jari.bjorne@utu.fi
+Author{2}{Affiliation}#=%=#University of Turku
+Author{3}{Firstname}#=%=#Sampo
+Author{3}{Lastname}#=%=#Pyysalo
+Author{3}{Email}#=%=#sampo.pyysalo@gmail.com
+Author{3}{Affiliation}#=%=#University of Cambridge
+Author{4}{Firstname}#=%=#Tapio
+Author{4}{Lastname}#=%=#Salakoski
+Author{4}{Email}#=%=#tapio.salakoski@utu.fi
+Author{4}{Affiliation}#=%=#University of Turku
+Author{5}{Firstname}#=%=#Filip
+Author{5}{Lastname}#=%=#Ginter
+Author{5}{Email}#=%=#ginter@cs.utu.fi
+Author{5}{Affiliation}#=%=#University of Turku
+
+==========

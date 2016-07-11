@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#Extracting Biomedical Event Using Feature Selection and Word Representation
+ShortPaperTitle#=%=#Extracting Biomedical Event Using Feature Selection and Word Representation
+NumberOfPages#=%=#1
+CopyrightSigned#=%=#Xinyu He, Lishuang Li, Jieqiong Zheng, Meiyue Qin
+JobTitle#==#
+Organization#==#Name:Dalian University of Technology
+Address:No.2 Linggong Road, Ganjingzi District, Dalian City, Liaoning Province
+Abstract#==#We participate in the BB3 and GE4 tasks of BioNLP-ST 2016. In the BB3 task, we
+adopt word representation methods to improve the feature-based Biomedical Event
+Extraction System, and take the 4th place. In the GE4 task, based on the Uturku
+system, a two-stage method is proposed for trigger detection, which divides
+trigger detection into recognition stage and classification stage, using
+different features in each stage. In the edge detection, we adopt
+Passive-aggressive (PA) online algorithm, then we constitute events by
+post-processing of TEES.
+Author{1}{Firstname}#=%=#Xinyu
+Author{1}{Lastname}#=%=#He
+Author{1}{Email}#=%=#444801898@qq.com
+Author{1}{Affiliation}#=%=#Dalian University of Technology
+Author{2}{Firstname}#=%=#Lishuang
+Author{2}{Lastname}#=%=#Li
+Author{2}{Email}#=%=#lilishuang314@163.com
+Author{2}{Affiliation}#=%=#Dalian University of Technology
+Author{3}{Firstname}#=%=#Jieqiong
+Author{3}{Lastname}#=%=#Zheng
+Author{3}{Email}#=%=#1392469835@qq.com
+Author{3}{Affiliation}#=%=#Dalian University of Technology
+Author{4}{Firstname}#=%=#Meiyue
+Author{4}{Lastname}#=%=#Qin
+Author{4}{Email}#=%=#541792972@qq.com
+Author{4}{Affiliation}#=%=#Dalian University of Technology
+
+==========

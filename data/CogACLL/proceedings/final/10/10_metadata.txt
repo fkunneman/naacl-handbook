@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#10
+FinalPaperTitle#=%=#Generalization in Artificial Language Learning: Modelling the Propensity to Generalize
+ShortPaperTitle#=%=#Generalization in Artificial Language Learning: Modelling the Propensity to Generalize
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Experiments in Artificial Language Learning have revealed much about the
+cognitive mechanisms underlying sequence and language learning in human adults,
+in infants and in non-human animals. This paper focuses on their ability to
+generalize to novel grammatical instances (i.e., instances consistent with a
+familiarization pattern). Notably, the propensity to generalize appears to be
+negatively correlated with the amount of exposure to the artificial language, a
+fact that has been claimed to be contrary to the predictions of statistical
+models (Peña et al. (2002); Endress and Bonatti (2007)). In this paper, we
+propose to model generalization as a threestep process, and we                       
+ 
+demonstrate
+that the use of statistical models for the first two steps, contrary to
+widespread intuitions in the ALL-field, can explain the observed decrease of
+the propensity to generalize with exposure time.
+Author{1}{Firstname}#=%=#Raquel
+Author{1}{Lastname}#=%=#Garrido Alhama
+Author{1}{Email}#=%=#rgalhama@gmail.com
+Author{1}{Affiliation}#=%=#University of Amsterdam
+Author{2}{Firstname}#=%=#Willem
+Author{2}{Lastname}#=%=#Zuidema
+Author{2}{Email}#=%=#w.h.zuidema@uva.nl
+Author{2}{Affiliation}#=%=#University of Amsterdam
+
+==========

@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#68
+FinalPaperTitle#=%=#Pronoun Prediction with Latent Anaphora Resolution
+ShortPaperTitle#=%=#Pronoun Prediction with Latent Anaphora Resolution
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Christian Hardmeier
+JobTitle#==#
+Organization#==#Uppsala University
+Department of Linguistics and Philology
+Box 635
+751 26 Uppsala
+Sweden
+Abstract#==#This paper describes the UU-Hardmeier submissions to the WMT~2016 shared task
+on
+cross-lingual pronoun prediction. Our model is a system combination of two
+different approaches, one based on a neural network with latent anaphora
+resolution and the other one on an n-gram model with an additional dependency
+on the source pronoun. The combination of the two models results in an
+improvement over each individual system, but it appears that the contribution
+of
+the neural network is more likely due to its context modelling capacities than
+to the anaphora resolution subnetwork.
+Author{1}{Firstname}#=%=#Christian
+Author{1}{Lastname}#=%=#Hardmeier
+Author{1}{Email}#=%=#christian.hardmeier@lingfil.uu.se
+Author{1}{Affiliation}#=%=#Uppsala universitet
+
+==========

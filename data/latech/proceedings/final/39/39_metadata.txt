@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#39
+FinalPaperTitle#=%=#Towards a text analysis system for political debates
+ShortPaperTitle#=%=#Towards a text analysis system for political debates
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Dieu Thu Le
+JobTitle#==#
+Organization#==#IMS, University of Stuttgart
+Abstract#==#Social scientists and journalists nowadays have to deal with an increasingly
+large amount of data. It usually requires expensive searching and annotation
+effort to find insight in a sea of information. Our goal is to build a
+discourse analysis system which can be applied to large text collections. This
+system can help social scientists and journalists to analyze data and validate
+their research theories by providing them with tailored machine learning
+methods to alleviate the annotation effort and exploratory facilities and
+visualization tools. We report initial experimental results in a case study
+related to discourse analysis in political debates.
+Author{1}{Firstname}#=%=#Dieu-Thu
+Author{1}{Lastname}#=%=#Le
+Author{1}{Email}#=%=#dieu.thu@gmail.com
+Author{1}{Affiliation}#=%=#IMS, University of Stuttgart
+Author{2}{Firstname}#=%=#Ngoc Thang
+Author{2}{Lastname}#=%=#Vu
+Author{2}{Email}#=%=#thang.vu@ims.uni-stuttgart.de
+Author{2}{Affiliation}#=%=#IMS, University of Stuttgart
+Author{3}{Firstname}#=%=#Andre
+Author{3}{Lastname}#=%=#Blessing
+Author{3}{Email}#=%=#andre.blessing@ims.uni-stuttgart.de
+Author{3}{Affiliation}#=%=#IMS, University of Stuttgart
+
+==========

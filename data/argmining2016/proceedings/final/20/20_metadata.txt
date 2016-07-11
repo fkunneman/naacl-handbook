@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#20
+FinalPaperTitle#=%=#The CASS Technique for Evaluating the Performance of Argument Mining
+ShortPaperTitle#=%=#The CASS Technique for Evaluating the Performance of Argument Mining
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Rory Duthie
+JobTitle#==#
+Organization#==#Centre for Argument Technology, School of Science and Engineering, University of Dundee. Scotland
+Abstract#==#Argument mining integrates many distinct computational linguistics tasks, and
+as a result, reporting agreement between annotators or between automated output
+and gold standard is particularly challenging. More worrying  for the field,
+agreement and performance are also reported in a wide variety of different
+ways, making comparison between approaches difficult. To solve this  problem,
+we propose the CASS technique for combining metrics covering different parts of
+the argument mining task. CASS delivers a justified method of integrating
+results yielding confusion  matrices from which CASS-k and CASS-F1  scores can
+be calculated.
+Author{1}{Firstname}#=%=#Rory
+Author{1}{Lastname}#=%=#Duthie
+Author{1}{Email}#=%=#rwduthie@dundee.ac.uk
+Author{1}{Affiliation}#=%=#University of Dundee
+Author{2}{Firstname}#=%=#John
+Author{2}{Lastname}#=%=#Lawrence
+Author{2}{Email}#=%=#johnlawrence@computing.dundee.ac.uk
+Author{2}{Affiliation}#=%=#University of Dundee
+Author{3}{Firstname}#=%=#Katarzyna
+Author{3}{Lastname}#=%=#Budzynska
+Author{3}{Email}#=%=#budzynska.argdiap@gmail.com
+Author{3}{Affiliation}#=%=#Polish Academy of Sciences
+Author{4}{Firstname}#=%=#Chris
+Author{4}{Lastname}#=%=#Reed
+Author{4}{Email}#=%=#c.a.reed@dundee.ac.uk
+Author{4}{Affiliation}#=%=#University of Dundee
+
+==========

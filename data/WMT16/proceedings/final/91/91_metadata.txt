@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#91
+FinalPaperTitle#=%=#First Steps Towards Coverage-Based Document Alignment
+ShortPaperTitle#=%=#First Steps Towards Coverage-Based Document Alignment
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Luís Gomes
+JobTitle#==#
+Organization#==#NOVA-LINCS
+Departamento de Informática, FCT-UNL
+Quinta da Torre, 2829-516
+Caparica, Portugal
+Abstract#==#In this paper we describe a method for selecting pairs of parallel documents
+(documents that are a translation of each other) from a large collection of
+documents obtained from the web.
+Our approach is based on a coverage score that reflects the number of distinct
+bilingual phrase pairs found in each pair of documents, normalized by the total
+number of unique phrases found in them. Since parallel documents tend to share
+more bilingual phrase pairs than non-parallel documents, our alignment
+algorithm selects pairs of documents with the maximum coverage score from all
+possible pairings involving either one of the two documents.
+Author{1}{Firstname}#=%=#Luís
+Author{1}{Lastname}#=%=#Gomes
+Author{1}{Email}#=%=#luismsgomes@gmail.com
+Author{1}{Affiliation}#=%=#Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa
+Author{2}{Firstname}#=%=#Gabriel
+Author{2}{Lastname}#=%=#Pereira Lopes
+Author{2}{Email}#=%=#gpl@di.fct.unl.pt
+Author{2}{Affiliation}#=%=#Faculdade de Ciências e Tecnologia, Universidade Nova de Lisboa
+
+==========

@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#44
+FinalPaperTitle#=%=#MediaGist: A Cross-lingual Analyser of Aggregated News and Commentaries
+ShortPaperTitle#=%=#MediaGist: A Cross-lingual Analyser of Aggregated News and Commentaries
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Josef Steinberger
+JobTitle#==#Associate professor
+Organization#==#University of West Bohemia
+Univerzitni 8, 30614 Plzen, Czech Republic
+Abstract#==#We introduce MediaGist, an online system for crosslingual analysis of
+aggregated news and commentaries based on summarization and sentiment analysis
+technologies. 
+It is designed to assist journalists to detect and explore news topics, which
+are controversially reported or discussed in different countries.
+News articles from current week are clustered separately in currently 5
+languages and the clusters are then linked across languages. 
+Sentiment analysis provides a basis to compute controversy scores and summaries
+help to explore the differences.
+Recognized entities play an important role in most of the system's modules and
+provide another way to explore the data.
+We demonstrate the capabilities of MediaGist by listing highlights from the
+last week and present a rough evaluation of the system.
+Author{1}{Firstname}#=%=#Josef
+Author{1}{Lastname}#=%=#Steinberger
+Author{1}{Email}#=%=#jstein@kiv.zcu.cz
+Author{1}{Affiliation}#=%=#University of West Bohemia
+
+==========

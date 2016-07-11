@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#72
+FinalPaperTitle#=%=#USAAR: An Operation Sequential Model for Automatic Statistical Post-Editing
+ShortPaperTitle#=%=#USAAR: An Operation Sequential Model for Automatic Statistical Post-Editing
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Santanu Pal
+JobTitle#==#
+Organization#==#Institute for Applied Linguistics and Translation and Interpreting (FR 4.6)
+Saarland University
+Campus A2.2, Room 1:25
+D-66123 Saarbrücken, Germany
+Abstract#==#This paper presents an automatic post-editing (APE) method to improve the
+translation quality produced by an English--German (EN--DE) statistical machine
+translation (SMT) system. Our system is based on Operation Sequential Model
+(OSM) combined with phrased-based statistical MT (PB-SMT) system. The system is
+trained on monolingual settings between MT outputs ($TL_{MT}$) produced by a
+black-box MT system and their corresponding post-edited version ($TL_{PE}$).
+Our system achieves considerable improvement over $TL_{MT}$ on a held-out
+development set. The reported system achieves 64.10 BLEU (1.99 absolute points
+and 3.2% relative improvement in BLEU over raw MT output) and 24.14 TER  and a
+TER score of 24.14 (0.66 absolute points and 0.25% relative improvement in TER
+over raw MT output) in the official test set.
+Author{1}{Firstname}#=%=#Santanu
+Author{1}{Lastname}#=%=#Pal
+Author{1}{Email}#=%=#santanu.pal@uni-saarland.de
+Author{1}{Affiliation}#=%=#Saarland University
+Author{2}{Firstname}#=%=#Marcos
+Author{2}{Lastname}#=%=#Zampieri
+Author{2}{Email}#=%=#marcos.zampieri@uni-saarland.de
+Author{2}{Affiliation}#=%=#Saarland University
+Author{3}{Firstname}#=%=#Josef
+Author{3}{Lastname}#=%=#van Genabith
+Author{3}{Email}#=%=#josef.van_genabith@dfki.de
+Author{3}{Affiliation}#=%=#DFKI
+
+==========

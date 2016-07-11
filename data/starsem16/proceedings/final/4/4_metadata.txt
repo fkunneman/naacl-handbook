@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Automatic Identification of Aspectual Classes across Verbal Readings
+ShortPaperTitle#=%=#Automatic Identification of Aspectual Classes across Verbal Readings
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Ingrid Falk
+JobTitle#==#
+Organization#==#University of Stuttgart
+Abstract#==#The automatic prediction of aspectual class is very challenging for verbs whose
+aspectual value varies across readings, which are the rule rather than the
+exception. This paper sheds a new perspective on this problem by using a
+machine learning approach and a rich morpho-syntactic and semantic valency
+lexicon.
+In contrast to previous work, where the aspectual value of corpus clauses is
+determined on the basis of features retrieved from the corpus, we use features
+extracted from the lexicon, and aim to predict the aspectual value of verbal
+\textit{readings} rather than verbs.
+Studying the performance of the classifiers on a set of manually annotated
+verbal readings,  we found that our lexicon provided enough information to
+reliably predict the aspectual value of verbs across their different readings.
+We additionally tested our predictions for unseen predicates through a task
+based evaluation, by using them in the automatic detection of temporal relation
+types in TempEval 2007 tasks for French. These experiments also confirmed the
+reliability of our aspectual predictions, even for unseen verbs.
+Author{1}{Firstname}#=%=#Ingrid
+Author{1}{Lastname}#=%=#Falk
+Author{1}{Email}#=%=#ingrid.falk@ling.uni-stuttgart.de
+Author{1}{Affiliation}#=%=#University of Stuttgart, Germany
+Author{2}{Firstname}#=%=#Fabienne
+Author{2}{Lastname}#=%=#Martin
+Author{2}{Email}#=%=#fabienne.martin@ling.uni-stuttgart.de
+Author{2}{Affiliation}#=%=#University of Stuttgart, Germany
+
+==========

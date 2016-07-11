@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#76
+FinalPaperTitle#=%=#Pronoun Prediction with Linguistic Features and Example Weighing
+ShortPaperTitle#=%=#Pronoun Prediction with Linguistic Features and Example Weighing
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Michal Novák
+JobTitle#==#
+Organization#==#Faculty of Mathematics and Physics
+Charles University in Prague
+Malostranské náměstí 25
+118 00 Praha
+Czech Republic
+Abstract#==#We present a system submitted to the WMT16 shared task in cross-lingual pronoun
+prediction, in particular, to the English-to-German and German-to-English
+sub-tasks. The system is based on a linear classifier making use of features
+both from the target language model and from linguistically analyzed source and
+target texts. Furthermore, we apply example weighing in classifier learning,
+which proved to be beneficial for recall in less frequent pronoun classes.
+Compared to other shared task participants, our best
+English-to-German system is able to rank just below the top performing
+submissions.
+Author{1}{Firstname}#=%=#Michal
+Author{1}{Lastname}#=%=#Novák
+Author{1}{Email}#=%=#mnovak@ufal.mff.cuni.cz
+Author{1}{Affiliation}#=%=#Charles University in Prague, Faculty of Mathematics and Physics
+
+==========

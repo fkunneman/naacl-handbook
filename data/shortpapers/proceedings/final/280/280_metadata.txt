@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#280
+FinalPaperTitle#=%=#The Social Impact of Natural Language Processing
+ShortPaperTitle#=%=#The Social Impact of Natural Language Processing
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Dirk Hovy
+JobTitle#==#
+Organization#==#
+Abstract#==#Medical sciences have long since established an ethics code for experiments, to
+minimize the risk of harm to subjects.
+Natural language processing (NLP) used to involve mostly anonymous corpora,
+with the goal of enriching linguistic analysis, and was therefore unlikely to
+raise ethical concerns.
+As NLP becomes increasingly wide-spread and uses more data from social media,
+however, the situation has changed: the outcome of NLP experiments and
+applications can now have a direct effect on individual users' lives.
+Until now, the discourse on this topic in the field has not followed the
+technological development, while public discourse was often focused on
+exaggerated dangers. 
+This position paper tries to take back the initiative and start a discussion.
+We identify a number of social implications of NLP and discuss their ethical
+significance, as well as ways to address them.
+Author{1}{Firstname}#=%=#Dirk
+Author{1}{Lastname}#=%=#Hovy
+Author{1}{Email}#=%=#mail@dirkhovy.com
+Author{1}{Affiliation}#=%=#Center for Language Technology, University of Copenhagen
+Author{2}{Firstname}#=%=#Shannon L.
+Author{2}{Lastname}#=%=#Spruit
+Author{2}{Email}#=%=#s.l.spruit@tudelft.nl
+Author{2}{Affiliation}#=%=#Delft University of Technology
+
+==========

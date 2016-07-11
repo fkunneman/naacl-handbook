@@ -1,0 +1,56 @@
+SubmissionNumber#=%=#27
+FinalPaperTitle#=%=#Using Factored Word Representation in Neural Network Language Models
+ShortPaperTitle#=%=#Using Factored Word Representation in Neural Network Language Models
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Jan Niehues
+JobTitle#==#
+Organization#==#KIT
+Kaiserstraße 12
+76131 Karlsruhe
+Abstract#==#Neural network language and translation
+models have recently shown their great potentials
+in improving the performance of
+phrase-based machine translation. At the
+same time, word representations using different
+word factors have been translation
+quality and are part of many state-of-theart
+machine translation systems. used in
+many state-of-the-art machine translation
+systems, in order to support better translation
+quality.
+In this work, we combined these two ideas
+by investigating the combination of both
+techniques. By representing words in neural
+network language models using different
+factors, we were able to improve the
+models themselves as well as their impact
+on the overall machine translation performance.
+This is especially helpful for morphologically
+rich languages due to their
+large vocabulary size. Furthermore, it is
+easy to add additional knowledge, such as
+source side information, to the model.
+Using this model we improved the translation
+quality of a state-of-the-art phrasebased
+machine translation system by 0.7
+BLEU points. We performed experiments
+on three language pairs for the news translation
+task of the WMT 2016 evaluation.
+Author{1}{Firstname}#=%=#Jan
+Author{1}{Lastname}#=%=#Niehues
+Author{1}{Email}#=%=#jan.niehues@kit.edu
+Author{1}{Affiliation}#=%=#Karlsruhe Institute of Technology
+Author{2}{Firstname}#=%=#Thanh-Le
+Author{2}{Lastname}#=%=#Ha
+Author{2}{Email}#=%=#thanh-le.ha@kit.edu
+Author{2}{Affiliation}#=%=#Karlsruhe Institute of Technology
+Author{3}{Firstname}#=%=#Eunah
+Author{3}{Lastname}#=%=#Cho
+Author{3}{Email}#=%=#eunah.cho@kit.edu
+Author{3}{Affiliation}#=%=#Karlsruhe Institute of Technology
+Author{4}{Firstname}#=%=#Alex
+Author{4}{Lastname}#=%=#Waibel
+Author{4}{Email}#=%=#alex.waible@kit.edu
+Author{4}{Affiliation}#=%=#Karlsruhe Institute of Technology
+
+==========

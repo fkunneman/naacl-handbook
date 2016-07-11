@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#Using Learning-To-Rank to Enhance NLM Medical Text Indexer Results
+ShortPaperTitle#=%=#Using Learning-To-Rank to Enhance NLM Medical Text Indexer Results
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#ILYA ZAVORIN
+JobTitle#==#
+Organization#==#National Library of Medicine
+Bethesda, Maryland, USA
+Abstract#==#For almost 15 years, the NLM Medical Text Indexer (MTI) system has been
+providing assistance to NLM Indexers, Catalogers, and the History of Medicine
+Division (HMD) in the task of indexing              the ever increasing number of
+MEDLINE
+citations, with MTI's  role continuously expanding by providing more extensive
+and specialized coverage of the MEDLINE collection. The BioASQ Challenge has
+been a tremendous benefit by expanding the knowledge of leading-edge indexing
+research. In this paper we present an indexing approach based on the Learning
+to Rank methodology which was successfully applied to the indexing task by
+several participants of recent Challenges. The proposed solution is designed to
+enhance the results that come from MTI by combining strengths of MTI with
+additional sources of evidence to produce a more accurate list of top MeSH
+Heading candidates for a MEDLINE citation being indexed. It incorporates novel
+Learning to Rank features and other enhancements to produce performance
+superior to that of MTI, both overall and for two specific classes of MeSH
+Headings for which MTI has shown poor performance.
+Author{1}{Firstname}#=%=#Ilya
+Author{1}{Lastname}#=%=#Zavorin
+Author{1}{Email}#=%=#zavorinia@mail.nlm.nih.gov
+Author{1}{Affiliation}#=%=#National Library of Medicine, US
+Author{2}{Firstname}#=%=#James
+Author{2}{Lastname}#=%=#Mork
+Author{2}{Email}#=%=#jmork@mail.nlm.nih.gov
+Author{2}{Affiliation}#=%=#National Library of Medicine, US
+Author{3}{Firstname}#=%=#Dina
+Author{3}{Lastname}#=%=#Demner-Fushman
+Author{3}{Email}#=%=#ddemner@mail.nih.gov
+Author{3}{Affiliation}#=%=#National Library of Medicine, US
+
+==========

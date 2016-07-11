@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#77
+FinalPaperTitle#=%=#The UU Submission to the Machine Translation Quality Estimation Task
+ShortPaperTitle#=%=#The UU Submission to the Machine Translation Quality Estimation Task
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Oscar Sagemo
+JobTitle#==#
+Organization#==#Uppsala universitet
+Institutionen för lingvistik och filologi
+BOX 635
+75126 Uppsala
+Sweden
+Abstract#==#This paper outlines the UU-SVM system
+for Task 1 of the WMT16 Shared Task in
+Quality Estimation. Our system uses Sup-
+port Vector Machine Regression to investi-
+gate the impact of a series of features aim-
+ing to convey translation quality. We pro-
+pose novel features measuring reordering
+and noun translation errors. We show that
+we can outperform the baseline when we
+combine it with a subset of our new fea-
+tures.
+Author{1}{Firstname}#=%=#Oscar
+Author{1}{Lastname}#=%=#Sagemo
+Author{1}{Email}#=%=#osagemo@gmail.com
+Author{1}{Affiliation}#=%=#Uppsala University
+Author{2}{Firstname}#=%=#Sara
+Author{2}{Lastname}#=%=#Stymne
+Author{2}{Email}#=%=#sara.stymne@lingfil.uu.se
+Author{2}{Affiliation}#=%=#Uppsala University
+
+==========

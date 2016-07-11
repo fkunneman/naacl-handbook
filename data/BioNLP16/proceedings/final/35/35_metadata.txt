@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#35
+FinalPaperTitle#=%=#Syntactic analyses and named entity recognition for PubMed and PubMed Central — up-to-the-minute
+ShortPaperTitle#=%=#Syntactic analyses and named entity recognition for PubMed and PubMed Central — up-to-the-minute
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Kai Hakala
+JobTitle#==#
+Organization#==#Department of Information Technology,
+University of Turku
+
+Address:
+Department of Information Technology, FI-20014 Turun yliopisto, Finland.
+Abstract#==#Although advanced text mining methods specifically adapted to the biomedical
+domain are continuously being developed, their applications on large scale have
+been scarce. One of the main reasons for this is the lack of computational
+resources and workforce required for processing large text corpora.
+
+In this paper we present a publicly available resource distributing
+preprocessed biomedical literature including sentence splitting, tokenization,
+part-of-speech tagging, syntactic parses and named entity recognition. The aim
+of this work is to support the future development of large-scale text mining
+resources by eliminating the time consuming but necessary preprocessing steps.
+This resource covers the whole of PubMed and PubMed Central Open Access
+section, currently containing 26M abstracts and 1.4M full articles,
+constituting over 388M analyzed sentences. The resource is based on a fully
+automated pipeline, guaranteeing that the distributed data is always
+up-to-date. The resource is available at (blinded for review).
+Author{1}{Firstname}#=%=#Kai
+Author{1}{Lastname}#=%=#Hakala
+Author{1}{Email}#=%=#kahaka@utu.fi
+Author{1}{Affiliation}#=%=#Department of Information Technology, University of Turku
+Author{2}{Firstname}#=%=#Suwisa
+Author{2}{Lastname}#=%=#Kaewphan
+Author{2}{Email}#=%=#sukaew@utu.fi
+Author{2}{Affiliation}#=%=#University of Turku
+Author{3}{Firstname}#=%=#Tapio
+Author{3}{Lastname}#=%=#Salakoski
+Author{3}{Email}#=%=#tapio.salakoski@utu.fi
+Author{3}{Affiliation}#=%=#University of Turku
+Author{4}{Firstname}#=%=#Filip
+Author{4}{Lastname}#=%=#Ginter
+Author{4}{Email}#=%=#ginter@cs.utu.fi
+Author{4}{Affiliation}#=%=#University of Turku
+
+==========

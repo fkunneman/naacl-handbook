@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#367
+FinalPaperTitle#=%=#An Entity-Focused Approach to Generating Company Descriptions
+ShortPaperTitle#=%=#An Entity-Focused Approach to Generating Company Descriptions
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Gavin Saldanha
+JobTitle#==#
+Organization#==#
+Abstract#==#Finding quality descriptions on the web, such as those found in Wikipedia
+articles, of newer companies can be difficult: search engines show many pages
+with varying relevance, while multi-document summarization algorithms find it
+difficult to distinguish between core facts and other information such as news
+stories. In this paper, we propose an entity-focused, hybrid generation
+approach to automatically produce descriptions of previously unseen companies,
+and show that it outperforms a strong summarization baseline.
+Author{1}{Firstname}#=%=#Gavin
+Author{1}{Lastname}#=%=#Saldanha
+Author{1}{Email}#=%=#gvs2106@columbia.edu
+Author{1}{Affiliation}#=%=#Columbia University
+Author{2}{Firstname}#=%=#Or
+Author{2}{Lastname}#=%=#Biran
+Author{2}{Email}#=%=#orb@cs.columbia.edu
+Author{2}{Affiliation}#=%=#Columbia University
+Author{3}{Firstname}#=%=#Kathleen
+Author{3}{Lastname}#=%=#McKeown
+Author{3}{Email}#=%=#kathy@cs.columbia.edu
+Author{3}{Affiliation}#=%=#Columbia University
+Author{4}{Firstname}#=%=#Alfio
+Author{4}{Lastname}#=%=#Gliozzo
+Author{4}{Email}#=%=#gliozzo@us.ibm.com
+Author{4}{Affiliation}#=%=#IBM Watson Center
+
+==========

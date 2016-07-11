@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#159
+FinalPaperTitle#=%=#Implicit Polarity and Implicit Aspect Recognition in Opinion Mining
+ShortPaperTitle#=%=#Implicit Polarity and Implicit Aspect Recognition in Opinion Mining
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Hsin-Hsi Chen
+JobTitle#==#Professor
+Organization#==#National Taiwan University,
+No. 1, Sec. 4, Roosevelt Rd., Taipei 10617, Taiwan
+Abstract#==#This paper deals with a double-implicit problem in opinion mining and sentiment
+analysis. We aim at identifying aspects and polarities of opinionated
+statements not consisting of opinion words and aspect terms. As a case study,
+opinion words and aspect terms are first extracted from Chinese hotel reviews,
+and then grouped into positive (negative) clusters and aspect term clusters. We
+observe that an implicit opinion and its neighbor explicit opinion tend to have
+the same aspect and polarity. Under the observation, we construct an implicit
+opinions corpus annotated with aspect class labels and polarity automatically.
+Aspect and polarity classifiers trained by using this corpus is used to
+recognize aspect and polarity of implicit opinions.
+Author{1}{Firstname}#=%=#Huan-Yuan
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Email}#=%=#r04922009@ntu.edu.tw
+Author{1}{Affiliation}#=%=#National Taiwan University
+Author{2}{Firstname}#=%=#Hsin-Hsi
+Author{2}{Lastname}#=%=#Chen
+Author{2}{Email}#=%=#hhchen@ntu.edu.tw
+Author{2}{Affiliation}#=%=#National Taiwan University
+
+==========

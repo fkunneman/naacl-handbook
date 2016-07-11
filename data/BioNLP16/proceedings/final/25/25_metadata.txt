@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#25
+FinalPaperTitle#=%=#Feature Derivation for Exploitation of Distant Annotation via Pattern Induction against Dependency Parses
+ShortPaperTitle#=%=#Distant Annotation for Pattern Induction against Dependency Parses
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Dayne Freitag
+JobTitle#==#
+Organization#==#SRI International
+9988 Hibert Street, Suite 203
+San Diego, CA 92131
+USA
+Abstract#==#We consider the use of distant supervision for biological information
+extraction (BioIE), and introduce two understudied corpora of this form, the
+Biological Expression Language (BEL) Large Corpus and the Pathway Logic (PL)
+Datum Corpus.  Each resource eschews annotation at the sentence constituent
+level, and the PL corpus requires synthesis of information across multiple
+sentences to construct composite knowledge frames.  Decomposing this problem
+into feature induction for slot-level attributes, followed by event assembly
+over this space of features, we introduce a novel, general-purpose pattern
+induction procedure, evaluating it against these two corpora, demonstrating its
+ability to induce effective detection against dependency parses.
+Author{1}{Firstname}#=%=#Dayne
+Author{1}{Lastname}#=%=#Freitag
+Author{1}{Email}#=%=#freitag@ai.sri.com
+Author{1}{Affiliation}#=%=#SRI International
+Author{2}{Firstname}#=%=#John
+Author{2}{Lastname}#=%=#Niekrasz
+Author{2}{Email}#=%=#niekrasz@ai.sri.com
+Author{2}{Affiliation}#=%=#SRI International
+
+==========

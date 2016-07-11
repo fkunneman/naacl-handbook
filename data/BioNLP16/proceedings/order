@@ -1,0 +1,39 @@
+* Friday, August 12, 2016
++ 8:30--8:40 Opening remarks
+= Session 1: Entity extraction and representation
+23 8:40--9:00  # A Machine Learning Approach to Clinical Terms Normalization
+13 9:00--9:20  # Improved Semantic Representation for Domain-Specific Entities
+3 9:20--9:40  # Identification, characterization, and grounding of gradable terms in clinical text
+7 9:40--10:00  # Graph-based Semi-supervised Gene Mention Tagging
+! 10:00--10:30 Invited Talk: "The BioNLP-ST challenges on information extraction and knowledge acquisition in biology"   -- Robert Bossy and Jin-Dong Kim
++ 10:30--11:00 Coffee Break
+= Session 2: Event and Relation Extraction
+25 11:00--11:20  # Feature Derivation for Exploitation of Distant Annotation via Pattern Induction against Dependency Parses
+11 11:40--12:00  # Inferring Implicit Causal Relationships in Biomedical Literature
+22 12:00--12:20  # SnapToGrid: From Statistical to Interpretable Models for Biomedical Information Extraction
+24 12:20--12:40  # Character based String Kernels for Bio-Entity Relation Detection
++ 12:40--14:00 Lunch break
+= Session 3: Disambiguation, Classification, and more
+21 14:00--14:20  # Disambiguation of entities in MEDLINE abstracts by combining MeSH terms with knowledge
+10 14:20--14:40  # Using Distributed Representations to Disambiguate Biomedical and Clinical Concepts
+5 14:40--15:00  # Unsupervised Document Classification with Informed Topic Models
+30 15:00--15:20  # Vocabulary Development To Support Information Extraction of Substance Abuse from Psychiatry Notes
+35 15:20--15:40  # Syntactic analyses and named entity recognition for PubMed and PubMed Central ___ up-to-the-minute
++ 15:40--16:00 Coffee Break
+! 16:00--16:30 Invited Talk: "BioASQ: A challenge on large-scale biomedical semantic indexing and question answering"  -- Anastasia Krithara
++ 16:30--17:30 Poster Session
+8   # Improving Temporal Relation Extraction with Training Instance Augmentation
+1   # Using Centroids of Word Embeddings and Word Mover's Distance for Biomedical Document Retrieval in Question Answering
+14   # Measuring the State of the Art of Automated Pathway Curation Using Graph Algorithms - A Case Study of the mTOR Pathway
+16   # Construction of a Personal Experience Tweet Corpus for Health Surveillance
+20   # Modelling the Combination of Generic and Target Domain Embeddings in a Convolutional Neural Network for Sentence Classification
+40   # PubTermVariants: biomedical term variants and their use for PubMed search
+26   # This before That: Causal Precedence in the Biomedical Domain
+41   # Syntactic methods for negation detection in radiology reports in Spanish
+42   # How to Train good Word Embeddings for Biomedical NLP
+38   # An Information Foraging Approach to Determining the Number of Relevant Features
+39   # Assessing the Feasibility of an Automated Suggestion System for Communicating Critical Findings from Chest Radiology Reports to Referring Physicians
+27   # Building a dictionary of lexical variants for phenotype descriptors
+2   # Applying deep learning on electronic health records in Swedish to predict healthcare-associated infections
+4   # Identifying First Episodes of Psychosis in Psychiatric Patient Records using Machine Learning
+28   # Relation extraction from clinical texts using domain invariant convolutional neural network

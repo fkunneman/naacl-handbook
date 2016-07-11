@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#16
+FinalPaperTitle#=%=#Combining Phonology and Morphology for the Normalization of Historical Texts
+ShortPaperTitle#=%=#Combining Phonology and Morphology for the Normalization of Historical Texts
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Inaki Alegria
+JobTitle#==#
+Organization#==#University of the Basque Country
+Informatika Fakultatea
+Lardizabal, 1
+20018 Donostia
+Abstract#==#This paper presents a proposal for the normalization of word-forms in
+historical texts. To perform this task, we extend on our previous research on
+induction of phonology and adapt it to the task of normalization. In
+particular, we combine our earlier models with models for learning morphology
+(without additional supervision). The results are mixed: induction of the
+segmentation of morphemes fails to directly offer significant improvements
+while including known morpheme boundaries in standard texts do improve results.
+Author{1}{Firstname}#=%=#Izaskun
+Author{1}{Lastname}#=%=#Etxeberria
+Author{1}{Email}#=%=#izaskun.etxeberria@ehu.eus
+Author{1}{Affiliation}#=%=#University of the Basque Country (UPV/EHU)
+Author{2}{Firstname}#=%=#Iñaki
+Author{2}{Lastname}#=%=#Alegria
+Author{2}{Email}#=%=#i.alegria@ehu.es
+Author{2}{Affiliation}#=%=#University of the Basque Country (UPV/EHU)
+Author{3}{Firstname}#=%=#Larraitz
+Author{3}{Lastname}#=%=#Uria
+Author{3}{Email}#=%=#larraitz.uria@ehu.eus
+Author{3}{Affiliation}#=%=#University of the Basque Country (UPV/EHU)
+Author{4}{Firstname}#=%=#Mans
+Author{4}{Lastname}#=%=#Hulden
+Author{4}{Email}#=%=#mhulden@email.arizona.edu
+Author{4}{Affiliation}#=%=#University of Colorado Boulder
+
+==========

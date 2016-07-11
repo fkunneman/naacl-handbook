@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#100
+FinalPaperTitle#=%=#The TALP–UPC Spanish–English WMT Biomedical Task: Bilingual Embeddings and Char-based Neural Language Model Rescoring in a Phrase-based System
+ShortPaperTitle#=%=#The TALP–UPC Spanish–English WMT Biomedical Task: Bilingual Embeddings and Char-based Neural Language Model Rescoring in a Phrase-based System
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Marta R. Costa-jussà
+JobTitle#==#
+Organization#==#Universitat Politècnica de Catalunya
+Campus Nord D5 C/Jordi Girona, 1-3
+08034 Barcelona
+Abstract#==#This paper describes the TALP–UPC system in the Spanish–English WMT 2016
+biomedical shared task. Our system is a standard phrase-based system enhanced
+with vocabulary expansion using bilingual word embeddings and a characterbased
+neural language model with rescoring. The former focuses on resolving
+out-of-vocabulary words, while the latter enhances the fluency of the system.
+The two modules progressively improve the final translation as measured by a
+combination of several lexical metrics.
+Author{1}{Firstname}#=%=#Marta R.
+Author{1}{Lastname}#=%=#Costa-jussà
+Author{1}{Email}#=%=#marta.ruiz@upc.edu
+Author{1}{Affiliation}#=%=#Universitat Politècnica de Catalunya
+Author{2}{Firstname}#=%=#Cristina
+Author{2}{Lastname}#=%=#España-Bonet
+Author{2}{Email}#=%=#cristinae@cs.upc.edu
+Author{2}{Affiliation}#=%=#Universitat Politècnica de Catalunya -- BarcelonaTech
+Author{3}{Firstname}#=%=#Pranava
+Author{3}{Lastname}#=%=#Madhyastha
+Author{3}{Email}#=%=#pranava.madhyastha@gmail.com
+Author{3}{Affiliation}#=%=#UPC
+Author{4}{Firstname}#=%=#Carlos
+Author{4}{Lastname}#=%=#Escolano
+Author{4}{Email}#=%=#carlos.escolano@est.fib.upc.edu
+Author{4}{Affiliation}#=%=#UPC
+Author{5}{Firstname}#=%=#José A. R.
+Author{5}{Lastname}#=%=#Fonollosa
+Author{5}{Email}#=%=#jose.fonollosa@upc.edu
+Author{5}{Affiliation}#=%=#Universitat Politècnica de Catalunya
+
+==========

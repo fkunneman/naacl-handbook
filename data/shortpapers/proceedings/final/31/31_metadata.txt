@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#31
+FinalPaperTitle#=%=#Improved Parsing for Argument-Clusters Coordination
+ShortPaperTitle#=%=#Improved Parsing for Argument-Clusters Coordination
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Jessica Ficler
+JobTitle#==#
+Organization#==#
+Abstract#==#Syntactic parsers perform poorly in prediction of Argument-Cluster Coordination
+(ACC).
+We change the PTB representation of ACC to be more suitable for learning by a
+statistical PCFG parser, affecting 125 trees in the training set.
+Training on the modified trees yields a slight improvement in EVALB scores on
+sections 22 and 23. The main evaluation is on a corpus of 4th grade science
+exams, in which ACC structures are prevalent.  On this corpus, we obtain an
+impressive $\times$2.7 improvement in recovering ACC structures compared to a
+parser trained on the original PTB trees.
+Author{1}{Firstname}#=%=#Jessica
+Author{1}{Lastname}#=%=#Ficler
+Author{1}{Email}#=%=#jessica.ficler@gmail.com
+Author{1}{Affiliation}#=%=#Bar Ilan Univerdity
+Author{2}{Firstname}#=%=#Yoav
+Author{2}{Lastname}#=%=#Goldberg
+Author{2}{Email}#=%=#yoav.goldberg@gmail.com
+Author{2}{Affiliation}#=%=#Bar Ilan University
+
+==========

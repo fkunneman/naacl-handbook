@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#5
+FinalPaperTitle#=%=#Unsupervised Document Classification with Informed Topic Models
+ShortPaperTitle#=%=#Unsupervised Document Classification with Informed Topic Models
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Timothy A Miller
+JobTitle#==#
+Organization#==#Boston Children's Hospital Informatics Program
+Enders 144
+300 Longwood Ave
+BCH3092
+Boston, MA 02115
+Abstract#==#Document classification is an important and common application in natural
+language processing. Scaling classification approaches to many targets faces a
+bottleneck in acquiring gold standard labels. In this work, we develop and
+evaluate a method for using informed topic models to noisily label documents,
+creating a noisy but usable set of labels for training discriminative
+classifiers. We investigate multiple ways to train this noisy classifier, and
+the best performing method uses Wikipedia-seeded topic models to approximately
+label training instances without any supervision. We evaluate these methods on
+the classification task as well as in an active learning setting, in which they
+are shown to improve learning rates over traditional active learning.
+Author{1}{Firstname}#=%=#Timothy
+Author{1}{Lastname}#=%=#Miller
+Author{1}{Email}#=%=#timothy.miller@childrens.harvard.edu
+Author{1}{Affiliation}#=%=#Boston Children's Hospital and Harvard Medical School
+Author{2}{Firstname}#=%=#Dmitriy
+Author{2}{Lastname}#=%=#Dligach
+Author{2}{Email}#=%=#ddligach@luc.edu
+Author{2}{Affiliation}#=%=#Loyola University Chicago
+Author{3}{Firstname}#=%=#Guergana
+Author{3}{Lastname}#=%=#Savova
+Author{3}{Email}#=%=#guergana.savova@childrens.harvard.edu
+Author{3}{Affiliation}#=%=#Harvard
+
+==========

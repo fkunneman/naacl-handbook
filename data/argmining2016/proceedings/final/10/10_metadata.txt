@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#10
+FinalPaperTitle#=%=#Summarising the points made in online political debates
+ShortPaperTitle#=%=#Summarising the points made in online political debates
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Advaith Siddharthan
+JobTitle#==#
+Organization#==#University of Aberdeen
+Abstract#==#Online communities host growing numbers of discussions amongst large groups of
+participants on all manner of topics. This user-generated content contains
+millions of statements of opinions and ideas. 
+We propose an abstractive approach to summarize such argumentative discussions,
+making key content accessible through `point' extraction, where a point is a
+verb and its syntactic arguments. Our approach uses both dependency parse
+information and verb case frames to identify and extract valid points, and
+generates an abstractive summary that discusses the key points being made in
+the debate. We performed a human evaluation of our approach using a corpus of
+online political debates and report significant improvements over a
+high-performing extractive summarizer.
+Author{1}{Firstname}#=%=#Charlie
+Author{1}{Lastname}#=%=#Egan
+Author{1}{Email}#=%=#c@egan.co
+Author{1}{Affiliation}#=%=#University of Aberdeen
+Author{2}{Firstname}#=%=#Advaith
+Author{2}{Lastname}#=%=#Siddharthan
+Author{2}{Email}#=%=#advaith@abdn.ac.uk
+Author{2}{Affiliation}#=%=#University of Aberdeen
+Author{3}{Firstname}#=%=#Adam
+Author{3}{Lastname}#=%=#Wyner
+Author{3}{Email}#=%=#azwyner@abdn.ac.uk
+Author{3}{Affiliation}#=%=#University of Aberdeen
+
+==========

@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#``Look, some Green Circles!'': Learning to Quantify from Images
+ShortPaperTitle#=%=#``Look, some Green Circles!'': Learning to Quantify from Images
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Raffaella Bernardi
+JobTitle#==#
+Organization#==#University of Trento, Via Sommarive 9, Povo (TN), 38123, Italy.
+Abstract#==#In this paper, we investigate whether a neural network model can learn the
+meaning of natural language quantifiers (no, some and all) from their use in
+visual contexts. We show that memory networks perform well in this task, and 
+that explicit counting is not necessary to the system's performance, supporting
+psycholinguistic evidence on the acquisition of quantifiers.
+Author{1}{Firstname}#=%=#Ionut
+Author{1}{Lastname}#=%=#Sorodoc
+Author{1}{Email}#=%=#ionut.sorodoc@gmail.com
+Author{1}{Affiliation}#=%=#Center for Mind/Brain Sciences, University of Trento
+Author{2}{Firstname}#=%=#Angeliki
+Author{2}{Lastname}#=%=#Lazaridou
+Author{2}{Email}#=%=#angeliki.lazaridou@unitn.it
+Author{2}{Affiliation}#=%=#University of Trento
+Author{3}{Firstname}#=%=#Gemma
+Author{3}{Lastname}#=%=#Boleda
+Author{3}{Email}#=%=#gemma.boleda@unitn.it
+Author{3}{Affiliation}#=%=#University of Trento
+Author{4}{Firstname}#=%=#Aurélie
+Author{4}{Lastname}#=%=#Herbelot
+Author{4}{Email}#=%=#aurelie.herbelot@cantab.net
+Author{4}{Affiliation}#=%=#University of Trento
+Author{5}{Firstname}#=%=#Sandro
+Author{5}{Lastname}#=%=#Pezzelle
+Author{5}{Email}#=%=#sandro.pezzelle@unitn.it
+Author{5}{Affiliation}#=%=#University of Trento
+Author{6}{Firstname}#=%=#Raffaella
+Author{6}{Lastname}#=%=#Bernardi
+Author{6}{Email}#=%=#bernardi@disi.unitn.it
+Author{6}{Affiliation}#=%=#University of Trento
+
+==========

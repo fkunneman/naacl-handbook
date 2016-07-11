@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#124
+FinalPaperTitle#=%=#Referential Translation Machines for Predicting Translation Performance
+ShortPaperTitle#=%=#Referential Translation Machines for Predicting Translation Performance
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#MEHMET ERGUN BICICI
+JobTitle#==#
+Organization#==#bicici.github.com
+Abstract#==#Referential translation machines (RTMs) pioneer a language independent approach
+for predicting translation performance and to all similarity tasks with top
+performance in both bilingual and monolingual settings and remove the need to
+access any task or domain specific information or resource.
+RTMs achieve to become 1st in document-level, 4th system at sentence-level
+according to mean absolute error, and 4th in phrase-level prediction of
+translation quality in quality estimation task.
+Author{1}{Firstname}#=%=#Ergun
+Author{1}{Lastname}#=%=#Bicici
+Author{1}{Email}#=%=#bicici.ku@gmail.com
+Author{1}{Affiliation}#=%=#
+
+==========

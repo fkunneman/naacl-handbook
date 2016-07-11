@@ -1,0 +1,50 @@
+SubmissionNumber#=%=#34
+FinalPaperTitle#=%=#A Corpus of Preposition Supersenses
+ShortPaperTitle#=%=#A Corpus of Preposition Supersenses
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Nathan Schneider
+JobTitle#==#
+Organization#==#School of Informatics
+University of Edinburgh
+10 Crichton Street
+Edinburgh EH8 9AB
+United Kingdom
+Abstract#==#We present the first corpus annotated with preposition supersenses,
+unlexicalized categories for semantic functions that can be marked by English
+prepositions (Schneider et al., 2015). The preposition supersenses are
+organized hierarchically and designed to facilitate comprehensive manual
+annotation. Our dataset is publicly released on the web.
+Author{1}{Firstname}#=%=#Nathan
+Author{1}{Lastname}#=%=#Schneider
+Author{1}{Email}#=%=#nschneid@inf.ed.ac.uk
+Author{1}{Affiliation}#=%=#University of Edinburgh
+Author{2}{Firstname}#=%=#Jena D.
+Author{2}{Lastname}#=%=#Hwang
+Author{2}{Email}#=%=#jhwang@ihmc.us
+Author{2}{Affiliation}#=%=#IHMC
+Author{3}{Firstname}#=%=#Vivek
+Author{3}{Lastname}#=%=#Srikumar
+Author{3}{Email}#=%=#svivek@cs.utah.edu
+Author{3}{Affiliation}#=%=#University of Utah
+Author{4}{Firstname}#=%=#Meredith
+Author{4}{Lastname}#=%=#Green
+Author{4}{Email}#=%=#laura.green@colorado.edu
+Author{4}{Affiliation}#=%=#University of Colorado at Boulder
+Author{5}{Firstname}#=%=#Abhijit
+Author{5}{Lastname}#=%=#Suresh
+Author{5}{Email}#=%=#abhijit.suresh@colorado.edu
+Author{5}{Affiliation}#=%=#University of Colorado at Boulder
+Author{6}{Firstname}#=%=#Kathryn
+Author{6}{Lastname}#=%=#Conger
+Author{6}{Email}#=%=#kathryn.conger@colorado.edu
+Author{6}{Affiliation}#=%=#Universitiy of Colorado, Boulder
+Author{7}{Firstname}#=%=#Tim
+Author{7}{Lastname}#=%=#O'Gorman
+Author{7}{Email}#=%=#timjogorman@gmail.com
+Author{7}{Affiliation}#=%=#University of Colorado Boulder
+Author{8}{Firstname}#=%=#Martha
+Author{8}{Lastname}#=%=#Palmer
+Author{8}{Email}#=%=#martha.palmer@colorado.edu
+Author{8}{Affiliation}#=%=#University of Colorado
+
+==========

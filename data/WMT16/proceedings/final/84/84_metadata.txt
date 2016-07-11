@@ -1,0 +1,80 @@
+SubmissionNumber#=%=#84
+FinalPaperTitle#=%=#SMT and Hybrid systems of the QTLeap project in the WMT16 IT-task
+ShortPaperTitle#=%=#SMT and Hybrid systems of the QTLeap project in the WMT16 IT-task
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Rosa Del Gaudio
+JobTitle#==#
+Organization#==#Higher Functions, Lda
+Estrada Nacional 18, Quilómetro 6
+6230-463 Fundão
+Portugal
+Abstract#==#This paper presents the description of 12 systems  submitted to the WMT16
+IT-task, covering six different languages, namely Basque, Bulgarian, Dutch,
+Czech, Portuguese and Spanish. All these systems were developed under the scope
+of the QTLeap project, presenting a common strategy. For each language two
+different systems were submitted, namely a phrase-based MT system built using
+Moses, and a system exploiting deep language engineering approaches, that in
+all the languages but Bulgarian was implemented using TectoMT. For 4 of the 6
+languages, the TectoMT-based system performs better than the Moses-based one.
+Author{1}{Firstname}#=%=#Rosa
+Author{1}{Lastname}#=%=#Gaudio
+Author{1}{Email}#=%=#rosa.gaudio@pcmedic.pt
+Author{1}{Affiliation}#=%=#Higher Functions, Lda
+Author{2}{Firstname}#=%=#Gorka
+Author{2}{Lastname}#=%=#Labaka
+Author{2}{Email}#=%=#gorka.labaka@ehu.eus
+Author{2}{Affiliation}#=%=#University of the Basque Country (UPV/EHU)
+Author{3}{Firstname}#=%=#Eneko
+Author{3}{Lastname}#=%=#Agirre
+Author{3}{Email}#=%=#e.agirre@ehu.eus
+Author{3}{Affiliation}#=%=#University of the Basque Country (UPV/EHU)
+Author{4}{Firstname}#=%=#Petya
+Author{4}{Lastname}#=%=#Osenova
+Author{4}{Email}#=%=#petya@bultreebank.org
+Author{4}{Affiliation}#=%=#Sofia University and IICT-BAS
+Author{5}{Firstname}#=%=#Kiril
+Author{5}{Lastname}#=%=#Simov
+Author{5}{Email}#=%=#kivs@bultreebank.org
+Author{5}{Affiliation}#=%=#Linguistic Modeling Department, IICT-BAS
+Author{6}{Firstname}#=%=#Martin
+Author{6}{Lastname}#=%=#Popel
+Author{6}{Email}#=%=#popel@ufal.mff.cuni.cz
+Author{6}{Affiliation}#=%=#Charles University in Prague, Faculty of Mathematics and Physics, UFAL
+Author{7}{Firstname}#=%=#Dieke
+Author{7}{Lastname}#=%=#Oele
+Author{7}{Email}#=%=#d.oele@rug.nl
+Author{7}{Affiliation}#=%=#Rijksuniversiteit Groningen
+Author{8}{Firstname}#=%=#Gertjan
+Author{8}{Lastname}#=%=#van Noord
+Author{8}{Email}#=%=#g.j.m.van.noord@rug.nl
+Author{8}{Affiliation}#=%=#University of Groningen
+Author{9}{Firstname}#=%=#Luís
+Author{9}{Lastname}#=%=#Gomes
+Author{9}{Email}#=%=#luismsgomes@gmail.com
+Author{9}{Affiliation}#=%=#Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa
+Author{10}{Firstname}#=%=#João
+Author{10}{Lastname}#=%=#António Rodrigues
+Author{10}{Email}#=%=#joao.antonio.verdade@gmail.com
+Author{10}{Affiliation}#=%=#University of Lisbon
+Author{11}{Firstname}#=%=#Steven
+Author{11}{Lastname}#=%=#Neale
+Author{11}{Email}#=%=#steven.neale@di.fc.ul.pt
+Author{11}{Affiliation}#=%=#University of Lisbon
+Author{12}{Firstname}#=%=#João
+Author{12}{Lastname}#=%=#Silva
+Author{12}{Email}#=%=#jsilva@di.fc.ul.pt
+Author{12}{Affiliation}#=%=#University of Lisbon
+Author{13}{Firstname}#=%=#Andreia
+Author{13}{Lastname}#=%=#Querido
+Author{13}{Email}#=%=#andreia.querido@di.fc.ul.pt
+Author{13}{Affiliation}#=%=#University of Lisbon
+Author{14}{Firstname}#=%=#Nuno
+Author{14}{Lastname}#=%=#Rendeiro
+Author{14}{Email}#=%=#nuno.rendeiro@di.fc.ul.pt
+Author{14}{Affiliation}#=%=#University of Lisbon
+Author{15}{Firstname}#=%=#António
+Author{15}{Lastname}#=%=#Branco
+Author{15}{Email}#=%=#antonio.branco@di.fc.ul.pt
+Author{15}{Affiliation}#=%=#University of Lisbon
+
+==========

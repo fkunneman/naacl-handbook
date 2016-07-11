@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#Automated Discourse Analysis of Narrations by Adolescents with Autistic Spectrum Disorder
+ShortPaperTitle#=%=#Automated Discourse Analysis of Narrations by Adolescents with Autistic Spectrum Disorder
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Michaela Regneri
+JobTitle#==#
+Organization#==#SPIEGEL-Verlag
+Ericusspitze 1
+20457 Hamburg
+Germany
+Abstract#==#We present a study about automated discourse analysis of oral narrative
+language in adolescents with autistic spectrum disorder (ASD). The basis of
+this evaluation is an existing dataset of fictional narrations of individuals
+with ASD and two matched comparison groups. We use three robust measures for
+quantifying different aspects of text cohesion on this corpus. These measures
+and several combinations of them correlate strongly with human cohesion
+annotations. Our evaluation will show which of these also distinguish the ASD
+group from the two comparison  groups, which do not, and which differences are
+related to language competence rather than to factors specific to ASD.
+Author{1}{Firstname}#=%=#Michaela
+Author{1}{Lastname}#=%=#Regneri
+Author{1}{Email}#=%=#regneri@googlemail.com
+Author{1}{Affiliation}#=%=#SPIEGEL-Verlag
+Author{2}{Firstname}#=%=#Diane
+Author{2}{Lastname}#=%=#King
+Author{2}{Email}#=%=#d.king@nfer.ac.uk
+Author{2}{Affiliation}#=%=#National Foundation for Educational Research
+
+==========

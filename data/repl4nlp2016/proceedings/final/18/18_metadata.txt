@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#Assisting Discussion Forum Users using Deep Recurrent Neural Networks
+ShortPaperTitle#=%=#Assisting Discussion Forum Users using Deep Recurrent Neural Networks
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Olof Mogren
+JobTitle#==#
+Organization#==#Chalmers University of Technology
+Department of Computer Science and Engineering
+41296 Göteborg, Sweden
+Abstract#==#We present a discussion forum assistant based on deep recurrent  neural
+networks (RNNs).
+The assistant is trained to perform three different tasks when faced with a
+question from a user.
+Firstly, to recommend related posts.
+Secondly, to recommend other users that might be able to help.
+Thirdly, it recommends other channels in the forum where people may discuss
+related topics.
+Our recurrent forum assistant is evaluated experimentally by prediction
+accuracy for the end--to--end trainable parts, as well as by performing an
+end-user study.
+We conclude that the model generalizes well, and is helpful for the users.
+Author{1}{Firstname}#=%=#Jacob
+Author{1}{Lastname}#=%=#Hagstedt P Suorra
+Author{1}{Email}#=%=#jacob.hagstedt@gmail.com
+Author{1}{Affiliation}#=%=#Chalmers University of Technology
+Author{2}{Firstname}#=%=#Olof
+Author{2}{Lastname}#=%=#Mogren
+Author{2}{Email}#=%=#mogren@chalmers.se
+Author{2}{Affiliation}#=%=#Chalmers University of Technology
+
+==========

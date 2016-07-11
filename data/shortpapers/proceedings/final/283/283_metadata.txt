@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#283
+FinalPaperTitle#=%=#Empty element recovery by spinal parser operations
+ShortPaperTitle#=%=#Empty element recovery by spinal parser operations
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper presents a parsing algorithm that can jointly detect empty elements.
+This method uses the spinal Tree Adjoining Grammar formalism of (Carreras, et.
+al. 08).
+In this paper, we define a transition-based algorithm together with several
+operations
+to combine the spinal elementary trees for constructing a full parse tree with
+empty elements.
+We conduct experiments on the English Penn and the Japanese Keyaki Treebank
+datasets.
+The experimental results show that our proposed method outperforms the previous
+systems.
+Author{1}{Firstname}#=%=#Katsuhiko
+Author{1}{Lastname}#=%=#Hayashi
+Author{1}{Email}#=%=#katsuhiko-h@is.naist.jp
+Author{1}{Affiliation}#=%=#NTT CS Lab
+Author{2}{Firstname}#=%=#Masaaki
+Author{2}{Lastname}#=%=#Nagata
+Author{2}{Email}#=%=#nagata.masaaki@lab.ntt.co.jp
+Author{2}{Affiliation}#=%=#NTT CS Lab
+
+==========

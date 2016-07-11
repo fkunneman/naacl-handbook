@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#3
+FinalPaperTitle#=%=#Data-Driven Spelling Correction using Weighted Finite-State Methods
+ShortPaperTitle#=%=#Data-Driven Spelling Correction using Weighted Finite-State Methods
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Miikka Silfverberg
+JobTitle#==#
+Organization#==#The Department of Modern Languages
+PO Box 24
+00014 University of Helsinki
+Unioninkatu 40 B, 6th floor
+Abstract#==#This paper presents two systems for spelling correction formulated as a
+sequence labeling task. One of the systems is an unstructured classifier and
+the other one is structured. Both systems are implemented using weighted
+finite-state methods. The structured system delivers state-of-the-art results
+on the task of tweet normalization when compared with the recent AliSeTra
+system introduced by \newcite{Eger2016} even though the system presented in the
+paper is simpler than AliSeTra because it does not include a model for input
+segmentation. In addition to experiments on tweet normalization, we present
+experiments on OCR post-processing using an Early Modern Finnish corpus of OCR
+processed newspaper text.
+Author{1}{Firstname}#=%=#Miikka
+Author{1}{Lastname}#=%=#Silfverberg
+Author{1}{Email}#=%=#miikka.silfverberg@helsinki.fi
+Author{1}{Affiliation}#=%=#University of Helsinki
+Author{2}{Firstname}#=%=#Pekka
+Author{2}{Lastname}#=%=#Kauppinen
+Author{2}{Email}#=%=#pekka.kauppinen@helsinki.fi
+Author{2}{Affiliation}#=%=#University of Helsinki
+Author{3}{Firstname}#=%=#Krister
+Author{3}{Lastname}#=%=#Lindén
+Author{3}{Email}#=%=#krister.linden@helsinki.fi
+Author{3}{Affiliation}#=%=#University of Helsinki
+
+==========

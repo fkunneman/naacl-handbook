@@ -1,0 +1,934 @@
+%
+% File ACL2016.tex
+%
+
+\documentclass[11pt]{article}
+\usepackage{acl2016}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[dvipdfmx]{graphicx}
+
+\aclfinalcopy % Uncomment this line for the final submission
+%\def\aclpaperid{***} %  Enter the acl Paper ID here
+
+% To expand the titlebox for more authors, uncomment
+% below and set accordingly.
+% \addtolength\titlebox{.5in}    
+
+\newcommand\BibTeX{B{\sc ib}\TeX}
+%\newcommand\figref[1]{\textbf{Table ~\ref{fig:#1}}}
+%\newcommand\tabref[1]{\textbf{Figure ~\ref{tab:#1}}}
+\newcommand{\tabref}[1]{Table~\ref{#1}}
+\newcommand{\figref}[1]{Figure~\ref{#1}}
+
+\makeatletter
+\newcommand\footnoteref[1]{\protected@xdef\@thefnmark{\ref{#1}}\@footnotemark}
+\makeatother
+
+\title{Comparison of Annotating Methods for Named Entity Corpora}
+
+% Author information can be set in various styles:
+% For several authors from the same institution:
+% \author{Author 1 \and ... \and Author n \\
+%         Address line \\ ... \\ Address line}
+% if the names do not fit well on one line use
+%         Author 1 \\ {\bf Author 2} \\ ... \\ {\bf Author n} \\
+% For authors from different institutions:
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \And  ... \And
+%         Author n \\ Address line \\ ... \\ Address line}
+% To start a seperate ``row'' of authors use \AND, as in
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \AND
+%         Author 2 \\ Address line \\ ... \\ Address line \And
+%         Author 3 \\ Address line \\ ... \\ Address line}
+% If the title and author information does not fit in the area allocated,
+% place \setlength\titlebox{<new height>} right after
+% at the top, where <new height> can be something larger than 2.25in
+%\author{Kanako Komiya\\
+%	    XYZ Company\\
+%	    111 Anywhere Street\\
+%	    Mytown, NY 10000, USA\\
+%	    {\tt author1@xyz.org}
+%	  \And
+%	Author 2\\
+%  	ABC University\\
+%  	900 Main Street\\
+%  	Ourcity, PQ, Canada A1A 1T2\\
+%  {\tt author2@abc.ca}}
+\author{Kanako Komiya$^{1}$ \ Masaya Suzuki$^{1}$ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \    \\
+  Ibaraki University$^{1}$ \\
+  4-12-1 Nakanarusawa, Hitachi-shi, \\
+  Ibaraki, 316-8511 JAPAN \\
+\And
+  Tomoya Iwakura$^{2}$ \ Minoru Sasaki$^{1}$\ Hiroyuki Shinnou$^{1}$ \ \  \\
+  Fujitsu Laboratories Ltd.$^{2}$ \\
+  1-1, Kamikodanaka 4-chome, Nakahara-ku, \\
+  Kawasaki, Kanagawa, 211-8588 JAPAN\\
+{\tt \{kanako.komiya.nlp, 13t4038a\}@vc.ibaraki.ac.jp,}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \\
+{\tt iwakura.tomoya@jp.fujitsu.com,} \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \\
+{\tt \{minoru.sasaki.01, hiroyuki.shinnou.0828\}@vc.ibaraki.ac.jp}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \\}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+We compared two methods to annotate a corpus via non-expert annotators for named entity (NE) recognition task, which are 
+(1) revising the results of the existing NE recognizer and (2) annotating NEs only by hand.  
+We investigated the annotation time, the degrees of agreement, and the performances based on the gold standard. 
+As we have two annotators for one file of each method, we evaluated the two performances, which are 
+the averaged performances over the two annotators and the performances deeming the annotations correct when either of them is correct.  
+The experiments revealed that the semi-automatic annotation was faster and showed better agreements and higher performances on average.  
+However they also indicated that sometimes fully manual annotation should be used for some texts whose genres are far from its training data.  
+In addition, the experiments using the annotated corpora via semi-automatic and fully manual annotation as training data for machine learning indicated that 
+the F-measures sometimes could be better for some texts when we used manual annotation than when we used semi-automatic annotation. 
+%また，BCCWJコーパスのジャンルごとにこれらの値を比較したところ，
+%白書，Yahoo!\label{Yahoo!} ブログ，新聞については，既存のシステムを利用したほうが良いことが分かった．
+%Yahoo!\label{Yahoo!} 知恵袋，書籍，雑誌については，マクロ平均においては，既存のシステムを利用しないほうが，F値が高かった．このことから，
+%新聞コーパスとの相違点の多いコーパスにタグ付けする際には既存のシステムを利用せずに人手だけでタグ付けした方がよい場合があることが分かった．
+\end{abstract}
+
+\section{Introduction}
+
+The crowdsourcing made annotation of the training data cheaper and faster \cite{Snow}. 
+Snow et al. evaluated non-expert annotations but they did not discuss the difference in the annotation qualities depending on how to give them the corpus. 
+Therefore, we compared the two methods to annotate a corpus, which are 
+%(1) revising the results of the existing system and (2) annotating tags only by hand, 
+semi-automatic and fully manual annotations, 
+to examine the method to generate high quality corpora by non-experts. 
+We investigate Japanese named entity (NE) recognition task using a corpus that consists of six genres to examine the annotation qualities depending on the genres. 
+
+The annotation of NE task is difficult for non-experts because its definition has many rules, and some of them are complicated. 
+Therefore, the semi-automatic annotation seems a good way to decrease the annotation errors. 
+However, sometimes the existing system also can make mistakes, especially on corpora in other genres but newswires, because it is trained only from the newswire corpus. 
+Therefore, we compare the two methods to annotate a corpus, which are the semi-automatic and fully manual annotations and discuss them, 
+from the point of view of time, agreement, and performance based on the gold standard to generate high quality corpora by non-experts. 
+We also discuss the difference in performances according to the genres of the target corpus as we used the multi-genre corpus for analysis. 
+
+\section{Related Work}
+%固有表現抽出のエラー分析があるよ（市原） <- 『error』で参照可能(URLはne.bib参照)
+%EMNLP 2008 Snowの論文もあるよ．
+%コーパスの作成手法を論じる論文はあまりないが，そのことに意義がある
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcite{Snow} evaluated non-expert annotations through comparing with expert annotations from the point of view of time, quality, and cost. 
+\newcite{Alex} proposed agile data annotation, which is iterative, and compared it with the traditional linear annotation method.  
+\newcite{Plas} described the method to annotate semantic roles to the French corpus using English template to investigate the cross-lingual validity.  
+\newcite{treebank} compared the semi-automatic and fully manual annotations to develop the Penn Treebank on the POS tagging task and the bracketing task. 
+However, as far as we know, there is no paper which compared the semi-automatic and fully manual annotations to develop high quality corpora via non-expert annotators. 
+
+We investigate the named entity recognition (NER) task. NER involves seeking to locate and classify elements in text into predefined categories, 
+such as the names of people, organizations, and locations, and has been studied for a long time. 
+Information Retrieval and Extraction Exercise (IREX)\footnote{http://nlp.cs.nyu.edu/irex/index-j.html} defined the nine tags including eight types of NEs, 
+i.e., organization, person, artifact, date, time, money, and percent as well as the option tag for shared task of Japanese NER.
+However, only newswires were used for this task. 
+For the researches of NER, \newcite{ex_corpus} generated extended NE corpus based on the Balanced Corpus of Contemporary Japanese (BCCWJ) \cite{BCCWJ}\footnote{http://pj.ninjal.ac.jp/corpus\_center/bccwj/} . 
+\newcite{Tokunaga} analyzed the eye-tracking data of annotators of NER task. 
+\newcite{Sasada} proposed the NE recognizer which is trainable from partially annotated data. 
+
+In 2014, researchers analyzed the errors of Japanese NER using the newly tagged NE corpus of BCCWJ,
+ which consists of six genres 
+as Japanese NLP Project Next \footnote{https://sites.google.com/site/projectnextnlp/} \cite{Iwakura,Hirata,errorE}.
+\newcite{errorE} investigated the performance of the existing NE recognizer and showed that the errors increased in the genres far from the training data of the NE recognizer. 
+This paper indicates that the semi-automatic annotation can make some errors on the corpus far from the training data. 
+
+We evaluate the semi-automatic and fully manual annotations for Japanese NER task, 
+%We compare and discuss the two methods to annotate a corpus %, which is
+%(1) revising the results of the existing NE recognizer and (2) annotating NEs only by hand,  
+from the point of view of time, agreement, and performance based on the gold standard to generate high quality corpora by non-experts.  
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Comparison of Annotating Method}
+%手法は2つ．1つ目は，既存の固有表現抽出器であるKNPを利用して，その結果に人手で修正をほどこし，コーパスを作成する手法である． <- done
+%2つ目は，既存のシステムを利用せず，人手でいちからコーパスを作成する手法である． <- done
+%この二つの手法を用いて，コーパス作成にかかる時間，および，タグの一致率，およびGold Standardとの比較による <- done
+%正解率を測った． <- done
+%*タグの一致率の式 <- done
+%*正解率の式（マクロ，マイクロ，F値） <- done
+
+%タグのずれ
+This paper compared the following two methods to annotate a corpus.
+\begin{description}
+ \item[{\bf KNP+M}] Semi-automatic annotation, which is revising the results of the existing NE recognizer: KNP \cite{Sasano2} \footnote{http://nlp.ist.i.kyoto-u.ac.jp/index.php?KNP}
+ \item[{\bf Manual}] Fully manual annotation, whichi is annotating NEs only by hand
+\end{description}
+We investigated the annotation time for each text, the observed agreement and Kappa coefficient of annotations, and the precision, the recall, and the F-measure based on the gold standard. 
+
+%本研究では,2つの手法の比較を行った.1つ目は,日本語構文・格・照応解析システムKNP\footnote{http://nlp.ist.i.kyoto-u.ac.jp/index.php?KNP}によるタグ付けを行い,
+%その結果に対し,人手による修正を加えることで,コーパスを作成する手法(手法KNP+Manual)であり,2つ目は,既存のシステムを利用せず,人手でコーパスを作成する手法(手法Manual)である.\\
+%　これらの手法に対し,コーパス作成にかかる時間,タグの一致率(見かけ上の一致率,カッパ係数),および,Gold Standardとの比較による正解率(適合率,再現率,F値)の3つの指標を導出した\footnote{一致率と正解率に関しては,マクロ平均とマイクロ平均を算出している.}.\\
+%タグの一致率に関して,2つの手法の間で一致したタグの個数が\tabref{一致率}のようになっていたとする.
+\begin{table}[t]
+\small
+%\ecaption{The number of tag matching between two method}
+\begin{tabular}{c|c|ccccc}
+\hline
+\hline
+\multicolumn{2}{c|}{}                                & \multicolumn{5}{|c}{Method X}                     \\ \cline{3-7}
+\multicolumn{2}{c|}{}                                & Tag $1$  & Tag $2$  & ... & Tag $n$  & Sum      \\ \hline
+                                           & Tag $1$ & $a_{11}$ & $a_{21}$ & ... & $a_{n1}$ & $a_{01}$ \\ 
+                                           & Tag $2$ & $a_{12}$ & $a_{22}$ & ... & $a_{n2}$ & $a_{02}$ \\ 
+                                           & ...     & ...      & ...      & ... & ...      & ...      \\ 
+                                           & Tag $n$ & $a_{1n}$ & $a_{2n}$ & ... & $a_{nn}$ & $a_{0n}$ \\ 
+\raisebox{1em}[0pt]{\hbox{\tate Method Y}} & Sum     & $a_{10}$ & $a_{20}$ & ... & $a_{n0}$ & $a_{00}$ \\ \hline
+\end{tabular}
+\caption{The number of tag matching between two annotaters}\label{一致率}
+\end{table}
+%このとき,見かけ上の一致率とカッパ係数は,それぞれ式(\ref{見かけ上の一致率}),式(\ref{カッパ係数})によって導出できる.
+The observed agreement and Kappa coefficient are calculated as equ. (\ref{見かけ上の一致率}) and equ. (\ref{カッパ係数}) respectively 
+when the numbers of tag matching between two annotaters are as shown in \tabref{一致率}. 
+\begin{eqnarray}
+d&=&\frac{\displaystyle \sum_{i=1}^n a_{ii}}{a_{00}} \label{見かけ上の一致率} \\
+\kappa&=&\frac{\displaystyle a_{00}\sum_{i=1}^n a_{ii}-\sum_{i=1}^n a_{i0}a_{0i}}{\displaystyle (a_{00})^2-\sum_{i=1}^n a_{i0}a_{0i}} \label{カッパ係数}
+\end{eqnarray}
+%　Gold Standardとの比較による正解率に関して,\figref{タグの集合}のようにタグの集合があるとする.
+\begin{figure}[tb]
+\begin{center}
+\includegraphics[clip,width=8.0cm]{accuracyrate}
+\end{center}
+\caption{Example of a set of tags}
+\label{タグの集合}
+\end{figure}
+The precisions, the recalls, and the F-measures are calculated as equ. (\ref{適合率}), equ. (\ref{再現率}), and equ. (\ref{F値}) when we have the set of tags as \figref{タグの集合}.
+%The answer and compare data in this figure are the gold standard and the non-expart annotations, respectively.
+%このとき,適合率,再現率,F値は,それぞれ式(\ref{適合率}),式(\ref{再現率}),式(\ref{F値})によって導出できる\cite{IREX}.
+\begin{eqnarray}
+p&=&\frac{n(x)}{n(c)} \label{適合率} \\
+r&=&\frac{n(x)}{n(a)} \label{再現率} \\
+f&=&\frac{2pr}{p+r} \label{F値}
+\end{eqnarray}
+
+\section{Experiment}
+%BCCWJコーパスを用いた．BCCWJとは．ジャンルがいくつ．OWは白書で， <- done
+%実験は16人でやった． <- done
+%半分はKNPから半分は人手から行うことで，バイアスをなくした <- done
+%また時間を計った <- done
+We used 136 texts extracted from BCCWJ, which are available as ClassA\footnote{http://plata.ar.media.kyoto-u.ac.jp/mori/research/NLR/JDC/ClassA-1.list}. 
+BCCWJ consists of six genres, ``Q \& A sites" (OC), ``white papers" (OW), ``blogs" (OY), ``books" (PB), ``magazines" (PM), and ``newswires" (PN).
+Table \ref{tab:Docs_and_Tags} shows the summary of the numbers of documents and tags of each genre. 
+
+\begin{table*}[tb]
+\small
+\begin{center}
+\hbox to\hsize{\hfil
+\begin{tabular}{l|c|ccccccccc|c}\hline\hline
+Genre&	Doc&	Artifact&	Date&	Location&	Money&	Organization&	Percent&	Person&	Time&	Optional&	All\\\hline
+OC&	74&	44&	18&	65&	9&	18&	0&	6&	0&	8&	168\\
+OW&	8&	86&	143&	147&	9&	136&	33&	15&	0&	26&	595\\
+OY&	34&	23&	61&	59&	7&	64&	10&	79&	3&	17&	323\\
+PB&	5&	32&	49&	100&	0&	19&	5&	174&	9&	20&	408\\
+PM&	2&	9&	24&	36&	5&	18&	1&	216&	3&	1&	313\\
+PN&	13&	24&	166&	192&	60&	123&	37&	78&	22&	20&	722\\\hline
+ALL&	136&	218&	461&	599&	90&	378&	86&	568&	37&	92&	2,529\\\hline
+\end{tabular}\hfil}
+\end{center}
+\caption{Summary of number of documents and tags} \label{tab:Docs_and_Tags}
+\end{table*}
+
+Sixteen non-experts assigned the nine types of NE tag of IREX to the plain texts after reading the definitions \footnote{KNP does not extract optional tags.}.  
+Every annotator annotated 34 texts, which is 17 texts via {\bf KNP+M} and {\bf Manual}, respectively, 
+which makes two sets of corpus for each method. Eight annotators began with {\bf KNP+M}, and the rest began with {\bf Manual} to address the bias of the proficiency. 
+Annotation time is recorded for each text. 
+We calculated the averaged annotation time for one set of corpus, i.e., 136 texts, for each method. 
+Therefore, the documents matched in size when the annotation times were compared. 
+We used the newest corpus of BCCWJ by 2016/2/11 \cite{NEWS} \footnote{https://sites.google.com/site/projectnextnlpne/en} as the gold standard. 
+We used KNP Ver. 4.11 and JUMAN Ver. 7.0 for windows \footnote{http://nlp.ist.i.kyoto-u.ac.jp/EN/index.php?JUMAN}. %Ver. 4.11
+%本実験では,現代日本語書き言葉均衡コーパス(BCCWJ)\footnote{http://pj.ninjal.ac.jp/corpus\_center/bccwj/}（\cite{BCCWJ}）%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%からランダムにサンプリングした136個のテキスト(Yahoo!\footnote{\label{Yahoo!} Yahoo! は,米国Yahoo! Inc.の商標または登録商標である.} 
+%知恵袋(OC),白書(OW),Yahoo!\footnoteref{Yahoo!} ブログ(OY),書籍(PB),雑誌(PM),新聞(PN)の6種類のジャンルから構成される)から生成した平文に対し,
+%16人の被験者がコーパス作成を行った.被験者は自然言語処理が専門の学生13名と，教員3名であり，IREXの定義を読み上げた後にタグ付けを行った．
+%各被験者の担当テキストの振り分けは,作成された全てのコーパスを集約すると,1つの手法につき,2人でコーパスを作成した形となるように行われている.
+%また,被験者は自分の担当テキストに対し,前述の手法を半分ずつ適用しており，また，8人は手法Manualを，残りの8人は手法KNP+Manualを先に先に行う%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%ことで,習熟度のバイアスがかかりにくくした.
+%なお,この実験では,コーパス作成に要した時間に関しても測定している.
+%また，Gold Standardには，岩倉らの作成したコーパス\cite{corpus}の最新版（2016,02,11現在）を利用した．
+%利用したKNPはVer.4.11であり，JUMANはVer.7.0である．
+
+The performances were evaluated based on the rules defined for IREX. 
+In other words, the annotations were deemed correct if and only if both the tag and its extent were correct except for the cases of the optional tags. 
+When the optional tag was assigned to some words in the gold standard, the annotations were deemed correct if (1) the words were not annotated by any tags or 
+(2) a word or some words in that extent were annotated by any tags including the optional tag. 
+%オプショナルタグが正解についている場合、オプショナルタグまたは別のタグがその範囲以内についているか、または何もついていないときに正解。
+%その範囲の外側にオプショナルタグや別のタグがついているときには不正解とした
+
+As we have two annotators for one file of each method, we evaluated the two performances based on golden standard, which are 
+the averaged performances over the two annotators and the performances deeming the annotations correct when either of them is correct. 
+We investigate the latter performances since we usually integrate the results of two annotators when we generate corpora. 
+
+In addition, we used the corpora which are annotated via {\bf Manual} or {\bf KNP+M} as the training data for supervised learning of NER 
+to test the quality of the annotations for the machine learning.  
+The training mode of KNP was used for the experiments. Therefore, the features for training are the same as the original KNP, which are the morpheme itself, 
+character type, POS tag, category if it exists, cache features, syntactic features, and caseframe features \cite{Sasano2}. 
+We used KNP Ver. 4.16 and JUMAN Ver. 7.01 for Linux for training-mode. 
+We used the five-fold cross validation. Since two persons annotated each file for each method, we used two annotations for the training data of each method. 
+Every test set of each validation includes the texts from as many genres as possible. 
+
+
+
+
+\section{Result}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Tables \ref{tab:icchi_i_all} and \ref{tab:icchi_a_all} show the micro and macro-averaged observed agreement (Observed) and Kappa coefficients (Kappa) of each method 
+of all the genres. 
+Tables \ref{tab:icchi_i_each} and \ref{tab:icchi_a_each} summarize those of each genre. 
+{\bf KNP+M} and {\bf Manual} in the tables are the agreement values between the two annotators of each method, respectively. 
+{\bf Both} in the tables are averaged values of every combination pairs in the four annotators of the both two methods.
+\tabref{time} shows the averaged annotation time for one text according to each method.
+
+Tables \ref{マイクロ平均ALL} and \ref{マクロ平均ALL} show the averaged precisions (P), recalls (R), and F-measures (F) of each method of all the genres. 
+They are average over the two annotators. 
+Tables \ref{マイクロ平均各手法} and \ref{マクロ平均各手法} summarize those of each genre. 
+The fully automatic annotation, which is the results of original KNP without revising are also shown in these tables as {\bf KNP}.
+{\bf Avg.} in the tables indicates the average of {\bf KNP+M} and {\bf Manual}.
+The higher observed agreements, Kappa coefficients, precisions, recalls, and F-measures among the two methods are written in bold.  
+%\tabref{tab:icchi_i_all}と\tabref{tab:icchi_a_all}にそれぞれ，見かけ上の一致率とカッパ係数のマイクロ平均とマクロ平均を示す．
+%また，\tabref{tab:icchi_i_each}と\tabref{tab:icchi_a_each}にそれぞれのジャンルにおける見かけ上の一致率とカッパ係数のマイクロ平均とマクロ平均を示す．
+%また，それぞれの手法による，1つのテキストをタグ付するのにかかった時間を\tabref{time}に示す．
+%さらに，全データに対する,各手法の適合率，再現率，F値のマイクロ平均とマクロ平均を,それぞれ\tabref{マイクロ平均ALL},\tabref{マクロ平均ALL}に示す.
+%また，\tabref{マイクロ平均各手法}と\tabref{マクロ平均各手法}にそれぞれのジャンルにおけるの適合率，再現率，F値のマイクロ平均とマクロ平均を示す．
+%手法KNP+Personと手法Personのうち，より高い適合率，再現率，F値，および見かけ上の一致率とカッパ係数を太字で示した．
+%なお，表中の「Both」は手法KNP+Personと手法Personの平均を表す．
+
+\begin{table}[tb]
+\small
+\begin{center}
+\hbox to\hsize{\hfil
+\begin{tabular}{lll}\hline\hline
+Method &		Observed&	Kappa\\\hline
+KNP+M&	\textbf{0.79}&	\textbf{0.75}\\
+Manual&	0.57&	0.50\\
+Both&	0.64&	0.58\\\hline
+\end{tabular}\hfil}
+\end{center}
+\caption{Micro-averaged observed agreement and Kappa coefficient of each method (All)} 
+\label{tab:icchi_i_all}
+\end{table}
+
+\begin{table}[tb] 
+\small
+\begin{center}
+\hbox to\hsize{\hfil
+\begin{tabular}{lll}\hline\hline		
+Method &		Observed&	Kappa\\\hline
+KNP+M&	\textbf{0.66}&	\textbf{0.48}\\
+Manual&	0.52&	0.29\\
+Both&	0.52&	0.31\\\hline
+\end{tabular}\hfil}
+\end{center}
+\caption{Macro-averaged observed agreement and Kappa coefficient of each method (All)} \label{tab:icchi_a_all}
+\end{table}
+
+\begin{table}[tb] 
+\small
+\begin{center}
+\hbox to\hsize{\hfil
+\begin{tabular}{llll}\hline\hline
+Genre &Method &		Observed&	Kappa\\\hline
+OC&	KNP+M&	\textbf{0.62}&	\textbf{0.54}\\
+OC&	Manual&	0.47&	0.34\\
+OC&	Both&	0.52&	0.41\\\hline
+OW&	KNP+M&	\textbf{0.78}&	\textbf{0.73}\\
+OW&	Manual&	0.41&	0.28\\
+OW&	Both&	0.55&	0.46\\\hline
+OY&	KNP+M&	\textbf{0.69}&	\textbf{0.63}\\
+OY&	Manual&	0.58&	0.50\\
+OY&	Both&	0.57&	0.49\\\hline
+PB&	KNP+M&	\textbf{0.76}&	\textbf{0.68}\\
+PB&	Manual&	0.67&	0.56\\
+PB&	Both&	0.71&	0.61\\\hline
+PM&	KNP+M&	\textbf{0.87}&	\textbf{0.84}\\
+PM&	Manual&	0.61&	0.55\\
+PM&	Both&	0.69&	0.64\\\hline
+PN&	KNP+M&	\textbf{0.86}&	\textbf{0.75}\\
+PN&	Manual&	0.81&	0.65\\
+PN&	Both&	0.80&	0.65\\\hline
+\end{tabular}\hfil}
+\end{center}
+\caption{Micro-averaged observed agreement and Kappa coefficient of each method} \label{tab:icchi_i_each}
+\end{table}
+
+\begin{table}[tb] 
+\begin{center}
+\small
+\hbox to\hsize{\hfil
+\begin{tabular}{llll}\hline\hline
+Genre &Method &		Observed&	Kappa\\\hline
+OC&	KNP+M&	\textbf{0.58}&	\textbf{0.27}\\
+OC&	Manual&	0.50&	0.15\\
+OC&	Both&	0.47&	0.14\\\hline
+OW&	KNP+M&	\textbf{0.80}&	\textbf{0.73}\\
+OW&	Manual&	0.45&	0.36\\
+OW&	Both&	0.59&	0.50\\\hline
+OY&	KNP+M&	\textbf{0.63}&	\textbf{0.47}\\
+OY&	Manual&	0.50&	0.29\\
+OY&	Both&	0.47&	0.30\\\hline
+PB&	KNP+M&	\textbf{0.63}&	\textbf{0.54}\\
+PB&	Manual&	0.60&	0.43\\
+PB&	Both&	0.62&	0.48\\\hline
+PM&	KNP+M&	\textbf{0.87}&	\textbf{0.83}\\
+PM&	Manual&	0.62&	0.55\\
+PM&	Both&	0.69&	0.63\\\hline
+PN&	KNP+M&	\textbf{0.88}&	\textbf{0.74}\\
+PN&	Manual&	0.74&	0.56\\
+PN&	Both&	0.77&	0.59\\\hline
+\end{tabular}\hfil}
+\end{center}
+\caption{Macro-averaged observed agreement and Kappa coefficient of each method} \label{tab:icchi_a_each}
+\end{table}
+
+\begin{table}[tb] 
+\small
+\begin{center}
+\hbox to\hsize{\hfil
+\begin{tabular}{lc}\hline\hline
+Method&	Averaged time\\\hline
+KNP+M&	0:03:19\\
+Manual&	0:05:23\\
+\hline
+\end{tabular}\hfil}
+\end{center}
+\caption{Tagging time for each method} \label{time}
+\end{table}
+
+\begin{table}[t]
+\small
+\begin{center}
+\begin{tabular}{crrr}
+\hline
+\hline
+Method & \multicolumn{1}{c}{P} & \multicolumn{1}{c}{R} & \multicolumn{1}{c}{F} \\ \hline
+KNP & 77.64\%&	68.09\%& 72.55\%\\
+KNP+M & \textbf{84.03\%} & \textbf{81.41\%} & \textbf{82.70\%} \\
+Manual & 75.22\% & 72.74\% & 73.96\% \\
+Avg. & 79.63\% & 77.07\% & 78.33\% \\ \hline
+\end{tabular}
+\end{center}
+\caption{Micro-averaged precision, recall, and F-measure of each method (All)}\label{マイクロ平均ALL}
+\end{table}
+
+
+\begin{table}[t]
+\small
+\begin{center}
+\begin{tabular}{crrr}
+\hline
+\hline
+Method & \multicolumn{1}{c}{P} & \multicolumn{1}{c}{R} & \multicolumn{1}{c}{F} \\ \hline
+KNP & 	47.43\% &	39.81\% &	43.29\%\\
+KNP+M & \textbf{55.30\%} & \textbf{54.72\%} & \textbf{55.01\%} \\
+Manual & 52.54\% & 51.06\% & 51.77\% \\
+Avg. & 53.92\% & 52.87\% & 53.39\% \\ \hline
+\end{tabular}
+\end{center}
+\caption{Macro-averaged precision, recall, and F-measure of each method (All)}\label{マクロ平均ALL}
+\end{table}
+
+
+\begin{table}[t]
+\small
+\begin{tabular}{ccrrr}
+\hline
+\hline
+Genre& Method & \multicolumn{1}{c}{P} & \multicolumn{1}{c}{R} & \multicolumn{1}{c}{F} \\ \hline
+OC& 	KNP& 	72.38\% &	47.50\% &	57.36\%\\
+OC& KNP+M & *\textbf{77.74\%} & 75.31\% & \textbf{76.51\%} \\
+OC& Manual & 66.93\% & \textbf{80.06\%} & 72.91\% \\
+OC& Avg. & 71.76\% & 77.69\% & 74.61\% \\ \hline
+OW&	KNP&	78.87\% &	78.60\% &	78.73\%\\
+OW& KNP+M & *\textbf{81.68\%} & *\textbf{84.62\%} & \textbf{83.12\%} \\
+OW& Manual & 64.62\% & 67.22\% & 65.90\% \\
+OW& Avg. & 73.11\% & 75.90\% & 74.48\% \\ \hline
+OY&	KNP&	73.42\% &	56.86\% &	64.09\%\\
+OY& KNP+M & *\textbf{85.47\%} & *\textbf{75.00\%} & \textbf{79.90\%} \\
+OY& Manual & 79.81\% & 68.13\% & 73.51\% \\
+OY& Avg. & 82.67\% & 71.56\% & 76.71\% \\ \hline
+PB&	KNP&	75.00\% &	59.54\% &	66.38\%\\
+PB& KNP+M & \textbf{78.54\%} & \textbf{73.58\%} & \textbf{75.98\%} \\
+PB& Manual & 77.85\% & 72.84\% & 75.27\% \\
+PB& Avg. & 78.20\% & 73.21\% & 75.62\% \\ \hline
+PM&	KNP&	60.61\% &	57.69\% &	59.11\%\\
+PM& KNP+M & 88.51\% & \textbf{86.38\%} & \textbf{87.43\%} \\
+PM& Manual & \textbf{89.68\%} & 84.94\% & 87.24\% \\
+PM& Avg. & 89.08\% & 85.66\% & 87.34\% \\ \hline
+PN&	KNP&	88.44\% &	78.49\% &	83.17\%\\
+PN& KNP+M & *\textbf{87.87\%} & *\textbf{85.11\%} & \textbf{86.47\%} \\
+PN& Manual & 77.46\% & 72.12\% & 74.70\% \\
+PN& Avg. & 82.77\% & 78.61\% & 80.64\% \\ \hline
+\end{tabular}
+\caption{Micro-averaged precision, recall, and F-measure of each method}\label{マイクロ平均各手法}
+\end{table}
+
+\begin{table}[t]
+\small
+\begin{tabular}{ccrrr}
+\hline
+\hline
+Genre& Method & \multicolumn{1}{c}{P} & \multicolumn{1}{c}{R} & \multicolumn{1}{c}{F} \\ \hline
+OC&	KNP&	30.74\% &	25.55\% &	27.91\%\\
+OC& KNP+M & 38.83\% & 40.75\% & 39.77\% \\
+OC& Manual & \textbf{41.80\%} & \textbf{43.84\%} & \textbf{42.79\%} \\
+OC& Avg. & 40.31\% & 42.29\% & 41.28\% \\ \hline
+OW&	KNP&	76.84\% &	80.45\% &	78.60\%\\
+OW& KNP+M & \textbf{82.98\%} & \textbf{85.47\%} & \textbf{84.21\%} \\
+OW& Manual & 69.91\% & 72.65\% & 71.25\% \\
+OW& Avg. & 76.45\% & 79.06\% & 77.73\% \\ \hline
+OY&	KNP&	57.99\% &	44.37\% &	50.27\%\\
+OY& KNP+M & \textbf{68.33\%} & \textbf{62.94\%} & \textbf{65.53\%} \\
+OY& Manual & 55.79\% & 49.32\% & 52.36\% \\
+OY& Avg. & 62.06\% & 56.13\% & 58.95\% \\ \hline
+PB&	KNP&	66.04\% &	45.84\% &	54.12\%\\
+PB& KNP+M & 71.02\% & 64.63\% & 67.67\% \\
+PB& Manual & \textbf{81.37\%} & \textbf{67.48\%} & \textbf{73.77\%} \\
+PB& Avg. & 76.19\% & 66.05\% & 70.76\% \\ \hline
+PM&	KNP&	60.31\% &	66.37\% &	63.19\%\\
+PM& KNP+M & 82.34\% & \textbf{87.00\%} & 84.61\% \\
+PM& Manual & \textbf{85.64\%} & 83.94\% & \textbf{84.78\%} \\
+PM& Avg. & 83.99\% & 85.47\% & 84.73\% \\ \hline
+PN&	KNP&	87.51\% &	77.70\% &	82.31\%\\
+PN& KNP+M & \textbf{87.76\%} & \textbf{85.06\%} & \textbf{86.39\%} \\
+PN& Manual & 78.37\% & 71.60\% & 74.83\% \\
+PN& Avg. & 83.06\% & 78.33\% & 80.63\% \\ \hline
+\end{tabular}
+\caption{Macro-averaged precision, recall, and F-measure of each method}\label{マクロ平均各手法}
+\end{table}
+
+
+%\begin{table}[t]
+%\caption{各手法のマイクロ平均}
+%\ecaption{Micro average of each method}
+%\label{マイクロ平均Yahoo! 知恵袋}
+%\begin{tabular}{ccrrr}
+%\hline
+%\hline
+%Genre& Method & \multicolumn{1}{c}{Precision} & \multicolumn{1}{c}{Recall} & \multicolumn{1}{c}{F-measure} \\ \hline
+%Q\&A sites& KNP+M & \textbf{77.74\%} & 75.31\% & \textbf{76.51\%} \\
+%Q\&A sites& Manual & 66.93\% & \textbf{80.06\%} & 72.91\% \\
+%Q\&A sites& Both & 71.76\% & 77.69\% & 74.61\% \\ \hline
+%White papers& KNP+M & \textbf{81.68\%} & \textbf{84.62\%} & \textbf{83.12\%} \\
+%White papers& Manual & 64.62\% & 67.22\% & 65.90\% \\
+%White papers& Both & 73.11\% & 75.90\% & 74.48\% \\ \hline
+%Weblogs& KNP+M & \textbf{85.47\%} & \textbf{75.00\%} & \textbf{79.90\%} \\
+%Weblogs& Manual & 79.81\% & 68.13\% & 73.51\% \\
+%Weblogs& Both & 82.67\% & 71.56\% & 76.71\% \\ \hline
+%Publications& KNP+M & \textbf{78.54\%} & \textbf{73.58\%} & \textbf{75.98\%} \\
+%Publications& Manual & 77.85\% & 72.84\% & 75.27\% \\
+%Publications& Both & 78.20\% & 73.21\% & 75.62\% \\ \hline
+%Magagines& KNP+M & 88.51\% & \textbf{86.38\%} & \textbf{87.43\%} \\
+%Magagines& Manual & \textbf{89.68\%} & 84.94\% & 87.24\% \\
+%Magagines& Both & 89.08\% & 85.66\% & 87.34\% \\ \hline
+%Newswires& KNP+M & \textbf{87.87\%} & \textbf{85.11\%} & \textbf{86.47\%} \\
+%Newswires& Manual & 77.46\% & 72.12\% & 74.70\% \\
+%Newswires& Both & 82.77\% & 78.61\% & 80.64\% \\ \hline
+%\end{tabular}
+%\end{table}
+
+%\begin{table}[t]
+%\caption{各手法のマクロ平均}
+%\ecaption{Macro average of each method}
+%\label{マクロ平均Yahoo! 知恵袋}
+%\begin{tabular}{ccrrr}
+%\hline
+%\hline
+%Genre& Method & \multicolumn{1}{c}{Precision} & \multicolumn{1}{c}{Recall} & \multicolumn{1}{c}{F-measure} \\ \hline
+%Q\&A sites& KNP+M & 38.83\% & 40.75\% & 39.77\% \\
+%Q\&A sites& Manual & \textbf{41.80\%} & \textbf{43.84\%} & \textbf{42.79\%} \\
+%Q\&A sites& Both & 40.31\% & 42.29\% & 41.28\% \\ \hline
+%White papers& KNP+M & \textbf{82.98\%} & \textbf{85.47\%} & \textbf{84.21\%} \\
+%White papers& Manual & 69.91\% & 72.65\% & 71.25\% \\
+%White papers& Both & 76.45\% & 79.06\% & 77.73\% \\ \hline
+%Weblogs& KNP+M & \textbf{68.33\%} & \textbf{62.94\%} & \textbf{65.53\%} \\
+%Weblogs& Manual & 55.79\% & 49.32\% & 52.36\% \\
+%Weblogs& Both & 62.06\% & 56.13\% & 58.95\% \\ \hline
+%Publications& KNP+M & 71.02\% & 64.63\% & 67.67\% \\
+%Publications& Manual & \textbf{81.37\%} & \textbf{67.48\%} & \textbf{73.77\%} \\
+%Publications& Both & 76.19\% & 66.05\% & 70.76\% \\ \hline
+%Magagines& KNP+M & 82.34\% & \textbf{87.00\%} & 84.61\% \\
+%Magagines& Manual & \textbf{85.64\%} & 83.94\% & \textbf{84.78\%} \\
+%Magagines& Both & 83.99\% & 85.47\% & 84.73\% \\ \hline
+%Newswires& KNP+M & \textbf{87.76\%} & \textbf{85.06\%} & \textbf{86.39\%} \\
+%Newswires& Manual & 78.37\% & 71.60\% & 74.83\% \\
+%Newswires& Both & 83.06\% & 78.33\% & 80.63\% \\ \hline
+%\end{tabular}
+%\end{table}
+
+Next, we investigated the performances deeming the annotations correct when either of the two annotators is correct.
+%実際には複数人数のタグ付け結果を総合してひとつのコーパスを作ることが多いと考えられるので，同手法の二人のうち，
+%どちらかが正解していた場合の適合率，再現率，F値について調べた
+Tables \ref{みなしマイクロ平均ALL} and \ref{みなしマクロ平均ALL} show the precisions (P), the recalls (R), and the F-measures (F) of each method of all the genres. 
+Tables \ref{みなしマイクロ平均各手法} and \ref{みなしマクロ平均各手法} summarize those of each genre. 
+The fully automatic annotation, which is the results of KNP without revising are also shown in these tables as {\bf KNP} here again.
+
+\begin{table}[t]
+\small
+\begin{center}
+\begin{tabular}{crrr}
+\hline
+\hline
+Method & \multicolumn{1}{c}{P} & \multicolumn{1}{c}{R} & \multicolumn{1}{c}{F} \\ \hline
+KNP & 77.64\%&	68.09\%& 72.55\%\\
+KNP+M &	{\bf 91.34\%}&	{\bf 88.92\%}&	{\bf 90.11\%}\\
+Manual&	86.76\%&	88.28\%&	87.53\%\\ \hline
+\end{tabular}
+\end{center}
+\caption{Micro-averaged precision, recall, and F-measure of each method (All) deeming the annotations correct when either of two annotators is correct}\label{みなしマイクロ平均ALL}
+\end{table}
+
+
+\begin{table}[t]
+\small
+\begin{center}
+\begin{tabular}{crrr}
+\hline
+\hline
+Method & \multicolumn{1}{c}{P} & \multicolumn{1}{c}{R} & \multicolumn{1}{c}{F} \\ \hline
+KNP & 	47.43\% &	39.81\% &	43.29\%\\
+KNP+M &	{\bf 63.48\%} &	{\bf 62.37\%} &	{\bf 62.92\%}\\
+Manual &	61.96\% &	62.22\% &	62.09\%\\ \hline
+\end{tabular}
+\end{center}
+\caption{Macro-averaged precision, recall, and F-measure of each method (All) deeming the annotations correct when either of two annotators is correct}\label{みなしマクロ平均ALL}
+\end{table}
+
+\begin{table}[t]
+\small
+\begin{tabular}{ccrrr}
+\hline
+\hline
+Genre& Method & \multicolumn{1}{c}{P} & \multicolumn{1}{c}{R} & \multicolumn{1}{c}{F} \\ \hline
+OC& 	KNP& 	72.38\% &	47.50\% &	57.36\%\\
+OC&	KNP+Manual&	{\bf 86.79\%} &	86.25\% &	86.52\%\\
+OC&	Manual&	85.63\% &	{\bf 90.51\%} &	{\bf 88.00\%}\\ \hline
+OW&	KNP&	78.87\% &	78.60\% &	78.73\%\\
+OW&	KNP+Manual&	*{\bf 91.20\%} &	{\bf 91.20\%} &	{\bf 91.20\%}\\
+OW&	Manual&	75.71\% &	89.07\% &	81.85\%\\ \hline
+OY&	KNP&	73.42\% &	56.86\% &	64.09\%\\
+OY&	KNP+Manual&	{\bf 93.62\%} &	{\bf 87.13\%} &	{\bf 90.26\%}\\
+OY&	Manual&	92.91\% &	85.90\% &	89.27\%\\ \hline
+PB&	KNP&	75.00\% &	59.54\% &	66.38\%\\
+PB&	KNP+Manual&	87.05\% &	81.87\% &	84.38\%\\
+PB&	Manual&	{\bf 89.86\%} &	{\bf 86.32\%} &	{\bf 88.05\%}\\ \hline
+PM&	KNP&	60.61\% &	57.69\% &	59.11\%\\
+PM&	KNP+Manual&	92.65\% &	{\bf 93.55\%} &	93.10\%\\
+PM&	Manual&	*{\bf 97.26\%} &	92.81\% &	{\bf 94.98\%}\\ \hline
+PN&	KNP&	88.44\% &	78.49\% &	83.17\%\\
+PN&	KNP+Manual&	*{\bf 93.29\% }&	{\bf 90.33\%} &	{\bf 91.79\%}\\
+PN&	Manual&	89.19\% &	87.25\% &	88.21\% \\ \hline
+\end{tabular}
+\caption{Micro-averaged precision, recall, and F-measure of each method deeming the annotations correct when either of two annotators is correct}\label{みなしマイクロ平均各手法}
+\end{table}
+
+\begin{table}[t]
+\small
+\begin{tabular}{ccrrr}
+\hline
+\hline
+Genre& Method & \multicolumn{1}{c}{P} & \multicolumn{1}{c}{R} & \multicolumn{1}{c}{F} \\ \hline
+OC&	KNP&	30.74\% &	25.55\% &	27.91\%\\
+OC&	KNP+M&	46.30\% &	47.35\% &	46.82\%\\
+OC&	Manual&	{\bf 49.16\%} &	{\bf 50.88\%} &	{\bf 50.01\%}\\\hline
+OW&	KNP&	76.84\% &	80.45\% &	78.60\%\\
+OW&	KNP+M&	{\bf 91.09\%} &	90.96\% &	{\bf 91.02\%}\\
+OW&	Manual&	82.55\% &	{\bf 91.39\%} &	86.74\%\\\hline
+OY&	KNP&	57.99\% &	44.37\% &	50.27\%\\
+OY&	KNP+M&	{\bf 78.69\%} &	{\bf 73.63\%} &	{\bf 76.07\%}\\
+OY&	Manual&	67.84\% &	65.47\% &	66.63\%\\\hline
+PB&	KNP&	66.04\% &	45.84\% &	54.12\%\\
+PB&	KNP+M&	83.51\% &	77.94\% &	80.63\%\\
+PB&	Manual&	{\bf 93.98\%} &	{\bf 85.91\%} &	{\bf 89.76\%}\\\hline
+PM&	KNP&	60.31\% &	66.37\% &	63.19\%\\
+PM&	KNP+M&	85.74\% &	93.17\% &	89.30\%\\
+PM&	Manual&	{\bf 97.58\%} &	{\bf 93.45\%} &	{\bf 95.47\%}\\\hline
+PN&	KNP&	87.51\% &	77.70\% &	82.31\%\\
+PN&	KNP+M&	{\bf 93.36\%} &	{\bf 90.09\%} &	{\bf 91.70\%}\\
+PN&	Manual&	88.94\% &	86.39\% &	87.64\%\\ \hline
+\end{tabular}
+\caption{Macro-averaged precision, recall, and F-measure of each method deeming the annotations correct when either of two annotators is correct}\label{みなしマクロ平均各手法}
+\end{table}
+
+In addition, we examined the performances of the system trained with the corpora annotated via {\bf KNP+M} and {\bf Manual}. 
+%これらの手法により作成したコーパスから，固有表現抽出器を作成した場合の新しいテキストに対するシステムの性能についても調査した
+Tables \ref{学習マイクロ平均ALL} and \ref{学習マクロ平均ALL} show the precisions (P), the recalls (R), and the F-measures (F) of each method of all the genres. 
+Tables \ref{学習マイクロ平均各手法} and \ref{学習マクロ平均各手法} summarize those of each genre. 
+The results of original KNP are also shown in these tables as {\bf KNP} here again. 
+
+\begin{table}[t]
+\small
+\begin{center}
+\begin{tabular}{crrr}
+\hline
+\hline
+Method & \multicolumn{1}{c}{P} & \multicolumn{1}{c}{R} & \multicolumn{1}{c}{F} \\ \hline
+KNP & 77.64\%&	68.09\%& 72.55\%\\
+KNP+M & {\bf 74.14\%}&	{\bf 38.11\%}&	{\bf 50.34\%}\\
+Manual & 67.21\%&	28.52\%&	40.05\%\\ \hline
+%Avg. & 71.01\%&	33.31\%&	45.35\%\\ \hline
+\end{tabular}
+\end{center}
+\caption{Micro-averaged precision, recall, and F-measure of each method (All) when the annotated data were used for training}\label{学習マイクロ平均ALL}
+\end{table}
+
+
+\begin{table}[t]
+\small
+\begin{center}
+\begin{tabular}{crrr}
+\hline
+\hline
+Method & \multicolumn{1}{c}{P} & \multicolumn{1}{c}{R} & \multicolumn{1}{c}{F} \\ \hline
+KNP & 	47.43\% &	39.81\% &	43.29\%\\
+KNP+M & 	{\bf 40.41\%}&	{\bf 23.55\%}&	{\bf 29.76\%}\\
+Manual & 	31.44\%&	16.16\%&	21.34\%\\ \hline
+%Avg. & 	35.92\%&	19.85\%&	25.57\%\\ \hline
+\end{tabular}
+\end{center}
+\caption{Macro-averaged precision, recall, and F-measure of each method (All) when the annotated data were used for training}\label{学習マクロ平均ALL}
+\end{table}
+
+\begin{table}[t]
+\small
+\begin{tabular}{ccrrr}
+\hline
+\hline
+Genre& Method & \multicolumn{1}{c}{P} & \multicolumn{1}{c}{R} & \multicolumn{1}{c}{F} \\ \hline
+OC &	KNP &	72.38\%& 	47.50\%& 	57.36\%\\
+OC &	KNP+M &	{\bf 88.46\%}& 	{\bf 28.75\%}& 	{\bf 43.40\%}\\
+OC &	Manual &	84.21\%& 	20.00\%& 	32.32\%\\\hline
+%OC &	Avg. &	86.67\%&  	24.38\%& 	38.05\%\\
+OW &	KNP &	78.87\%& 	78.60\%& 	78.73\%\\
+OW &	KNP+M &	*{\bf 74.45\%}& 	*{\bf 53.16\%}& 	{\bf 62.03\%}\\
+OW &	Manual &	54.69\%& 	35.85\%& 	43.31\%\\\hline
+%OW &	Avg. &	65.00\%& 	44.51\%& 	52.84\%\\
+OY &	KNP &	73.42\%& 	56.86\%& 	64.09\%\\
+OY &	KNP+M &	{\bf 83.62\%}& 	*{\bf 31.70\%}&	{\bf 45.97\%}\\
+OY &	Manual &	80.00\%& 	18.30\%& 	29.79\%\\\hline
+%OY &	Avg. &	82.26\%& 	25.00\%& 	38.35\%\\
+PB &	KNP &	75.00\%& 	59.54\%& 	66.38\%\\
+PB &	KNP+M &	70.41\%& 	{\bf 30.67\%}& 	{\bf 42.73\%}\\
+PB &	Manual &	{\bf 73.29\%}& 	27.58\%& 	40.07\%\\\hline
+%PB &	Avg. &	71.75\%& 	29.12\%& 	41.43\%\\
+PM &	KNP &	60.61\%& 	57.69\%& 	59.11\%\\
+PM &	KNP+M &	{\bf 55.05\%}& 	{\bf 19.23\%}& 	{\bf 28.50\%}\\
+PM &	Manual &	51.76\%& 	14.10\%& 	22.17\%\\\hline
+%PM &	Avg. &	53.61\%& 	16.67\%& 	25.43\%\\
+PN &	KNP &	88.44\%& 	78.49\%& 	83.17\%\\
+PN &	KNP+M &	76.00\%& 	*{\bf 43.30\%}& 	{\bf 55.17\%}\\
+PN &	Manual &	{\bf 78.26\%}& 	35.90\%& 	49.22\%\% \\ \hline
+%PN &	Avg. &	77.01\%& 	39.60\%& 	52.30\%\\\hline
+\end{tabular}
+\caption{Micro-averaged precision, recall, and F-measure of each method when the annotated data were used for training}\label{学習マイクロ平均各手法}
+\end{table}
+
+\begin{table}[t]
+\small
+\begin{tabular}{ccrrr}
+\hline
+\hline
+Genre& Method & \multicolumn{1}{c}{P} & \multicolumn{1}{c}{R} & \multicolumn{1}{c}{F} \\ \hline
+OC &	KNP &	30.74\%&	25.55\%&	27.91\%\\
+OC &	KNP+M &	{\bf 24.32\%}&	{\bf 15.88\%}&	{\bf 19.22\%}\\
+OC &	Manual &	17.34\%&	12.24\%&	14.35\%\\\hline
+%OC &	Avg. &	20.83\%&	14.06\%&	16.79\%\\
+OW &	KNP &	76.84\%&	80.45\%&	78.60\%\\
+OW &	KNP+M &	{\bf 71.59\%}&	{\bf 56.71\%}&	{\bf 63.29\%}\\
+OW &	Manual &	62.55\%&	42.52\%&	50.63\%\\\hline
+%OW &	Avg. &	67.07\%&	49.62\%&	57.04\%\\
+OY &	KNP &	57.99\%&	44.37\%&	50.27\%\\
+OY &	KNP+M &	{\bf 52.32\%}&	{\bf 24.40\%}&	{\bf 33.28\%}\\
+OY &	Manual &	30.82\%&	9.184\%&	14.15\%\\\hline
+%OY &	Avg. &	41.57\%&	16.79\%&	23.92\%\\
+PB &	KNP &	66.04\%&	45.84\%&	54.12\%\\
+PB &	KNP+M &	51.46\%&	{\bf 23.63\%}&	32.39\%\\
+PB &	Manual &	{\bf 64.93\%}&	21.65\%&	{\bf 32.47\%}\\\hline
+%PB &	Avg. &	58.19\%&	22.64\%&	32.60\%\\	
+PM &	KNP &	60.31\%&	66.37\%&	63.19\%\\
+PM &	KNP+M &	{\bf 54.56\%}&	{\bf 29.20\%}&	{\bf 38.04\%}\\
+PM &	Manual &	53.43\%&	24.63\%&	33.72\%\\\hline
+%PM &	Avg. &	54.00\%&	26.92\%&	35.92\%\\
+PN &	KNP &	87.51\%&	77.70\%&	82.31\%\\
+PN &	KNP+M &	75.21\%&	{\bf 43.71\%}&	{\bf 55.28\%}\\
+PN &	Manual &	{\bf 77.88}\%&	37.01\%&	50.17\%\\\hline
+%PN &	Avg. &	76.54\%&	40.36\%&	52.85\%\\
+\end{tabular}
+\caption{Macro-averaged precision, recall, and F-measure of each method when the annotated data were used for training}\label{学習マクロ平均各手法}
+\end{table}
+
+The differences between {\bf KNP} and {\bf KNP+Manual}, {\bf KNP} and {\bf Manual}, and {\bf Manual} and {\bf KNP+Manual} of the precisions and the recalls in Tables \ref{マイクロ平均ALL} and \ref{学習マイクロ平均ALL} 
+and those of the precisions in Table \ref{みなしマイクロ平均各手法} are statistically significant according to chi-square test. 
+However, the differences between {\bf KNP} and {\bf KNP+Manual} and {\bf KNP} and {\bf Manual} are statistically significant but
+that between {\bf Manual} and {\bf KNP+Manual} is not significant according to chi-square test when we compared the recalls of Table \ref{みなしマイクロ平均ALL}. 
+%The differences between {\bf KNP} and{\bf KNP+Manual}, {\bf KNP} and {\bf Manual}, and {\bf Manual} and {\bf KNP+Manual} in Table \ref{学習マイクロ平均ALL} are statistically significant according to chi-square test. 
+In addition, the asterisk in the tables of micro-averaged accuracies for each genre, i.e., Tables  \ref{マイクロ平均各手法}, \ref{みなしマイクロ平均各手法}, and \ref{学習マイクロ平均各手法}, 
+means the difference between presicions or recalls of {\bf Manual} and {\bf KNP+Manual} is statistically significant according to a chi-square test. 
+The level of significance in the test was 0.05. When macro-averaged accuracies were compared, the differences were not significant due to the decrease of the samples of the test. 
+
+\section{Discussion}
+\subsection{Agreements and Time}
+First, Tables \ref{tab:icchi_i_all} and \ref{tab:icchi_a_all} show that the observed agreements and Kappa coefficients of {\bf KNP+M} are higher 
+than those of {\bf Manual} in both micro and macro averages. 
+This is similar in every genre according to Tables \ref{tab:icchi_i_each} and \ref{tab:icchi_a_each}. 
+We think this is because that the tags assigned by KNP still remain after the annotators revised the results of KNP. 
+%まず，\tabref{tab:icchi_i_all}と\tabref{tab:icchi_a_all}から，見かけ上の一致率とカッパ係数は，全体としては,マクロ平均でもマイクロ平均でも手法KNP+Manualが手法Manualよりも高いことが分かる．
+%また，\tabref{tab:icchi_i_each}と\tabref{tab:icchi_a_each}より，全てのジャンルにおいて，同様の傾向があることが分かる．
+%これは，KNPの結果という統一的なタグ付けをその後に修正したことで，答えが同じものになりやすかったからであると考えられる．
+%（一致率　マクロマイクロ　なぜかPM（雑誌）が高い。
+%対談と、新聞的なものの2ファイルだった。
+%見てみたら、マクロマイクロ両方ともわりとFも高い。）
+%
+The agreement values of {\bf Both} are usually higher than or similar to those of {\bf Manual} 
+but the macro-averaged Kappa coefficient of {\bf Both} (0.14) is lower than that of {\bf Manual} (0.15) more than one point (0.01) in OC, which indicates the results of annotators greatly vary. 
+These results indicate that there can be some NEs which require more rules to extract in OC because the definition we used was developed for only the newswires. 
+%大抵、Bothは二手法の間の値を取るか、それほどManualと違わないが、OCはManualを1ポイント以上下回った。
+%それぞれがばらばらにつけている。
+In addition, Table \ref{tab:icchi_i_all} shows that Kappa coefficients indicate good agreement for {\bf KNP+M} and moderate agreement for {\bf Manual} 
+when they are micro-averaged, and Table \ref{tab:icchi_a_all} shows that they indicate moderate agreement for {\bf KNP+M} and poor agreement for {\bf Manual} 
+when they are macro-averaged. 
+Since micro average is an average over NEs, and macro average is that over texts, 
+it means that the agreement values of some texts which include a few NEs were low. 
+
+In addition, \tabref{time} shows that the annotation time for one text of {\bf KNP+M} is approximately two minutes shorter on average than that of {\bf Manual}.
+These results indicate that {\bf KNP+M} is faster and shows better agreement than {\bf Manual}. 
+The difference in time was significant according to F test. The level of significance is 0.01. 
+%また，\tabref{time}から，手法KNP+Manualのほうが，手法Manualに比べて，1つのテキストをタグ付けするのに，およそ2分短縮できることが分かる．
+%これらの結果から，手法KNP+Manualは手法Manualに比べて，早く，タグ付けの結果にばらつきが少ない手法であることが分かる．
+
+\subsection{Performances Averaged over Annotators}
+Next, we evaluate the performances of the methods based on the gold standard. 
+First, we evaluate the average over the two annotators. 
+
+We can see the precisions, the recalls, and the F-measures of {\bf KNP+M} are higher than those of {\bf Manual} in both micro and macro averages, 
+according to Tables \ref{マイクロ平均ALL} and \ref{マクロ平均ALL}. 
+This is similar in every genre in micro average according to \tabref{マイクロ平均各手法}, except the recall of OC and the precision of PM. 
+When we see these two exceptions, we can see that those of {\bf KNP} are considerably lower than those of other genres. 
+The topic of OC was far from newswires, and a name of person was mis-recognized as name of location many times in PM. %(OCは新聞と遠く、PMは嵐山がひびいた)
+This fact indicates that the performances of {\bf KNP+M} directly depend on those of {\bf KNP}. 
+
+\tabref{マクロ平均各手法} shows that the macro-averaged precisions, recalls, and F-measurs of {\bf KNP+M} are better than those of {\bf Manual} 
+in OW, OY, and PN but those of {\bf Manual} are better in OC, PB, and PM, except the recall of PM. 
+We think this is because {\bf KNP} are better than {\bf Manual} in the precisions, the recalls, and the F-measures in OW and PN and the precisions in OY.   
+OW and PN are similar to the training data set of KNP, i.e., newswires, which makes the performances in them better \cite{errorE}. 
+%次に，Gold Standardとの比較について見る．
+%\tabref{マイクロ平均ALL}および\tabref{マクロ平均ALL}より,マイクロ平均でも，マクロ平均でも，
+%全体としては,手法KNP+Manualが手法Manualよりも適合率，再現率，ひいてはF値が高いことが見て取れる.
+%また，\tabref{マイクロ平均各手法}と\tabref{マクロ平均各手法}より，ジャンルごとに見てみると，
+%全てのジャンルにおいて，マイクロ平均では，同様の結果であることが見て取れる.
+%micro
+%F値は、PNとOWはManualよりもKNPが高い
+%OCのPも。OWのP、R、PNのP、R
+%KNP＋HかManualかという選択は、KNPの性能に大きく依存する
+%KNPはOCのRは結構低い。新聞と遠いから。だから、OCのRはManual＞KNP+M
+%KNPはPMのPが低い。嵐山がひびいた。だから、OCのRはManual＞KNP+M
+%
+%これに対し，マクロ平均では，白書，Yahoo!\footnoteref{Yahoo!} ブログ，新聞のデータに関して,手法KNP+Manualのほうが良いが，
+%Yahoo!\footnoteref{Yahoo!}知恵袋，書籍，雑誌においては手法ManualのほうがF値が高いことが分かる.
+%雑誌の再現率が手法KNP+Manualのほうが良いことを除けば，適合率，再現率も手法Manualのほうが良い．
+%macro
+%OWのP、R、F、 OYのP、PNのP、R,F
+%だから、OWとOYとPNがManual＜KNP+M
+%新聞，および白書は訓練コーパスと近い文章であるため，KNPの正解率がそもそも高く\cite{errorE}，その結果，良い結果となっていると考えられる．
+%Yahoo!\footnoteref{Yahoo!} ブログについては，電気回路の本の宣伝や，芸能関係の記事，また人の目から見ても文脈的には人名ともとれる地名
+%が，ManualよりKNP+Manualのほうが良かった．
+These results indicate that {\bf KNP+M} is better than {\bf Manual} to annotate corpora by non-experts, in particular, the texts in some genres similar to the training data of KNP.  
+However, sometimes {\bf Manual} should be used for some texts, whose genres are far from newswires.
+
+
+%In addition, when we compare Tables \ref{マイクロ平均各手法} and \ref{マクロ平均各手法}, we can see that the micro-averaged performances are higher than the macro-averaged performances 
+%in OC, OY and PB when we focus on the performances of {\bf KNP}. They are comparable to each other in PN and OW and PM is the exception 
+%\footnote{ We have only two texts in PM. One is a long interview article and the other is article like newspaper. 
+%We think that the reason why the macro-averaged performance was better in PM was the performance of the latter is better.}. 
+%Since micro average is an average over NEs, and macro average is that over texts, 
+%the results of texts that have many NEs are better by KNP when the genres of texts are far from the training data of KNP (OC, OY, and PB). 
+%We think that this is because KNP outputs better results when it uses many clues in the texts. 
+%{\bf Manual} also prefers the texts that have many NEs in OC and OY but there are little differences in the other genres. 
+%The texts of Q \& A sites and blogs are sometimes short and the topics of them vary and we think that it is the reason of the results in OC and OY.
+%KNPは分野によって（PNとOWは変わらない。PMは逆）はマクロが低くてマイクロが高い
+%PMはマイクロにするRが下がる。対談と新聞的なものの2ファイルのうち、長いのは対談。
+%不得意なものが多い。
+%ファイル中にたくさんNEがあるものの正解率が高い。
+%手掛かりがある。素性的にそうだから。
+%人間もやっぱり、OC、OYはマクロが低いが、他の分野はそう違いがない。
+%話題が広い上に、短いと何の話かわからないからかな。
+%KNPが学習しきれなかったデータに対して人間が修正していく手法がよいが、
+%KNPが弱い分野については、はじめから人間がタグ付けを行った方がいいこと
+%が分かる。
+%これらから，たいていの場合には，手法KNP+Manualを利用したほうがGold　Standardと一致した回答が得られるが，
+%新聞コーパスとの相違点の多いコーパスにタグ付けする際には既存のシステムを利用せずに人手だけでタグ付けしたほうがよい場合があることが分かった．
+
+
+\subsection{Sum-Set Performances of Two annotators}
+
+Next, we investigate the performances deeming the annotations correct when either of the two annotators is correct. 
+Tables \ref{みなしマイクロ平均ALL} and \ref{みなしマクロ平均ALL} show that the precision, the recall, and F-measure of {\bf KNP+M} are also better than 
+those of {\bf Manual} even if we deemed the annotations correct when either of the two annotators was correct. 
+However, the difference greatly decreased comparing with Tables \ref{マイクロ平均ALL} and \ref{マクロ平均ALL}, i.e., the performances averaged over the annotators. 
+In particular, the difference between {\bf KNP+M} (62.92\%) and {\bf Manual} (62.09\%) was less than one point when the macro-averaged F-measures were compared. 
+We think this is because the manual annotations vary and one of the two annotators usually annotates the NEs correctly. 
+As Tables \ref{マイクロ平均ALL} and \ref{マクロ平均ALL} showed, the non-expert annotators often make mistakes 
+because the definitions of NEs for IREX include so many rules and therefore, 
+the annotators sometimes overlooked some rules when they annotated the texts. 
+However, the experimental results revealed that the performances of the fully manual annotations were almost comparable to those of the semi-automatically annotations 
+when we have two annotators. 
+Moreover, Tables \ref{みなしマイクロ平均各手法} and \ref{みなしマクロ平均各手法} indicate that the F-measures of {\bf Manual} are better than those of {\bf KNP+M} 
+in OC, PB, and PM. 
+These results are like those in Table \ref{マクロ平均各手法} but not like those in Table \ref{マイクロ平均各手法}, which means that the better method varies depending on the genres 
+even if the performances were micro-averaged when we deemed the results correct when either of two annotator was correct. 
+
+Furthermore, we compared Table \ref{マイクロ平均ALL} with Table \ref{みなしマイクロ平均ALL} and 
+Table \ref{マクロ平均ALL} with Table \ref{みなしマクロ平均ALL} to compare the performances of annotations by one annotator and those by two annotators. 
+The results in Tables \ref{マイクロ平均ALL} and \ref{マクロ平均ALL} could be considered as the annotations by one annotator because they are averages over annotators. 
+These four tables show that the results of annotations by two annotators are always better than those by one annotator. 
+In particular, the performances by two annotators of {\bf Manual} are always better than those by one annotator of {\bf KNP+M}. 
+Since the better methods varies depending on the genres in both micro and macro averages when the performances of annotations by two annotators are compared, 
+these results indicate that we should use not only {\bf KNP+M} but also {\bf Manual} in real situation. 
+%Therefore, like Section we should use {\bf Manual} for OC, PB, and PM, 
+%which are the genres far from the training data of KNP. 
+
+\subsection{Annotated Corpora as Training Data}
+Finally, we evaluate the performances of machine learning when we used the annotated corpora via {\bf KNP+M} and {\bf Manual} as the training data. 
+Tables \ref{学習マイクロ平均ALL} and \ref{学習マクロ平均ALL} show that the precision, the recall, and F-measure of {\bf KNP+M} are better than 
+those of {\bf Manual} when we used the annotated corpora as the training data for KNP. 
+However, Tables \ref{学習マイクロ平均各手法} and \ref{学習マクロ平均各手法} show that the micro-averaged precisions in PB and PN, 
+the macro-averaged precisions in PB and PN, and the macro-averaged F-measure in PB were not the case. 
+The exception of the macro-averaged F-measure shows that sometimes the annotation of {\bf Manual} is better training data than {\bf KNP+M}. 
+
+Tables \ref{学習マイクロ平均ALL} and \ref{学習マクロ平均ALL} show the difference in the precisions between the original KNP and other methods 
+are not so large comparing with those of the recalls. 
+In particular, {\bf KNP+M} and {\bf Manual} were better than the original KNP when the micro-averaged precisions in OC and OY were compared according to Table \ref{学習マイクロ平均各手法}. 
+The performances of {\bf KNP+M} and {\bf Manual} were low because the amount of the training data was so small comparing with the original KNP. 
+However, these results show that the precisions will be better than original KNP even if we use a small training data in some genres. 
+
+\section{Conclusion}
+We compared the semi-automatic and fully manual annotations to investigate the annotation qualities by non-experts.
+The methods we investigated were {\bf KNP+M}, which was revising the results of the existing NE recognizer, and {\bf Manual}, which was annotating NEs only by hand. 
+We investigated Japanese NER task. 
+We evaluated the annotation time, the observed agreement, Kappa coefficients, and the precisions, 
+the recalls, and the F-measures based on the gold standard. As two annotators annotated each text for each method, we evaluated the precisions, 
+the recalls, and the F-measures averaged over annotators and those deeming the results correct when either of them was correct. 
+The experiments revealed that {\bf KNP+M} was faster and showed better agreements and higher performances than {\bf Manual} on average 
+but sometimes {\bf Manual} should have been used for some texts whose genres were far from newswires. 
+Finally the experiments using the annotated corpora via {\bf KNP+M} or {\bf Manual} indicated that the F-measures sometimes could be better for some texts when we used {\bf Manual} than when we used {\bf KNP+M}. 
+
+
+ 
+%本稿では，固有表現のコーパスを作成するための手法として，既存の固有表現抽出システムを利用した結果に対して人手で修正を加える方法（手法KNP+Manual）と
+%既存の固有表現抽出システムを利用しないで人手だけでタグ付けを行う方法(手法Manual)を，タグ付けの時間，タグの見かけ上の一致率とカッパ係数，
+%Gold Standardと比較した際の適合率，再現率，F値の観点から比較した．
+%その結果，タグ付けの時間については，手法KNP+Manualのほうが，手法Manualより1テキストにつき平均およそ2分早いことが分かった．
+%また，タグの見かけ上の一致率と，カッパ係数は，手法KNP+Manualのほうが，手法Manualより高く，手法KNP+Manualのほうが，手法Manualより
+%タグ付けの結果にばらつきがないことが分かった．
+%さらに，全体の平均で見ると，マイクロ平均でもマクロ平均でも，適合率，再現率，ひいてはF値は，手法KNP+Manualのほうが，手法Manualより高いこと，
+%ジャンルごとに見ると，マイクロ平均では全てのジャンルで手法KNP+Manualのほうが，手法Manualより適合率，再現率，ひいてはF値が高いが，
+%マクロ平均で見ると，KNPの訓練コーパスである新聞と性質の異なる文章である，Yahoo!\footnoteref{Yahoo!}知恵袋，書籍，雑誌においては手法ManualのほうがF値が高いことが
+%分かった．このことから，たいていの場合には，手法KNP+Manualを利用したほうがGold　Standardと一致した回答が得られるが，
+%新聞コーパスとの相違点の多いコーパスにタグ付けする際には既存のシステムを利用せずに人手だけでタグ付けしたほうがよい場合があることが分かった．
+
+\section*{Acknowledgments}
+This work was supported by JSPS KAKENHI Grant Number 15K16046 and contribution from Fujitsu Laboratories Ltd. 
+
+%\clearpage
+\bibliography{neE2}
+\bibliographystyle{acl2016}
+
+\end{document}

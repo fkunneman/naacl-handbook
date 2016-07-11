@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#193
+FinalPaperTitle#=%=#One model, two languages: training bilingual parsers with harmonized treebanks
+ShortPaperTitle#=%=#One model, two languages: training bilingual parsers with harmonized treebanks
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#David Vilares
+JobTitle#==#
+Organization#==#Universidade da Coruña
+
+Departamento de Computación, Campus de Elviña, s/n, 15071, A Coruña, Spain
+Abstract#==#We introduce an approach to train lexicalized parsers using bilingual corpora
+obtained by merging harmonized treebanks of different languages, producing
+parsers that can analyze sentences in either of the learned languages, or even
+sentences that mix both. We test the approach on the Universal Dependency
+Treebanks, training with MaltParser and MaltOptimizer. The results show that
+these bilingual parsers are more than competitive, as most combinations not
+only preserve accuracy, but some even achieve significant improvements over the
+corresponding monolingual parsers. Preliminary experiments also show the
+approach to be promising on texts with code-switching and when more languages
+are added.
+Author{1}{Firstname}#=%=#David
+Author{1}{Lastname}#=%=#Vilares
+Author{1}{Email}#=%=#david.vilares@udc.es
+Author{1}{Affiliation}#=%=#Universidade da Coruña
+Author{2}{Firstname}#=%=#Carlos
+Author{2}{Lastname}#=%=#Gómez-Rodríguez
+Author{2}{Email}#=%=#cgomezr@udc.es
+Author{2}{Affiliation}#=%=#Universidade da Coruña
+Author{3}{Firstname}#=%=#Miguel A.
+Author{3}{Lastname}#=%=#Alonso
+Author{3}{Email}#=%=#miguel.alonso@udc.es
+Author{3}{Affiliation}#=%=#Universidade da Coruña
+
+==========

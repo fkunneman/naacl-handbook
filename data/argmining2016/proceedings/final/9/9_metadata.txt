@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#Unshared Task at the 3rd Workshop on Argument Mining: Perspective Based Local Agreement and Disagreement in Online Debate
+ShortPaperTitle#=%=#Unshared Task at the 3rd Workshop on Argument Mining: Perspective Based Local Agreement and Disagreement in Online Debate
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Chantal van Son
+JobTitle#==#
+Organization#==#Vrije Universiteit Amsterdam
+De Boelelaan 1105, 1081 HV Amsterdam, The Netherlands
+Abstract#==#This paper proposes a new task in argument mining in online debates. The task
+includes three annotations steps that result in fine-grained annotations of
+agreement and disagreement at a propositional level. We report on the results
+of a pilot annotation task on identifying sentences that are directly addressed
+in the comment.
+Author{1}{Firstname}#=%=#Chantal
+Author{1}{Lastname}#=%=#van Son
+Author{1}{Email}#=%=#c.m.van.son@vu.nl
+Author{1}{Affiliation}#=%=#VU Amsterdam
+Author{2}{Firstname}#=%=#Tommaso
+Author{2}{Lastname}#=%=#Caselli
+Author{2}{Email}#=%=#t.caselli@vu.nl
+Author{2}{Affiliation}#=%=#VU Amsterdam
+Author{3}{Firstname}#=%=#Antske
+Author{3}{Lastname}#=%=#Fokkens
+Author{3}{Email}#=%=#antske.fokkens@vu.nl
+Author{3}{Affiliation}#=%=#VU Amsterdam
+Author{4}{Firstname}#=%=#Isa
+Author{4}{Lastname}#=%=#Maks
+Author{4}{Email}#=%=#e.maks@vu.nl
+Author{4}{Affiliation}#=%=#Vu university amsterdam
+Author{5}{Firstname}#=%=#Roser
+Author{5}{Lastname}#=%=#Morante
+Author{5}{Email}#=%=#r.morantevallejo@vu.nl
+Author{5}{Affiliation}#=%=#Vrije Universiteit Amsterdam
+Author{6}{Firstname}#=%=#Lora
+Author{6}{Lastname}#=%=#Aroyo
+Author{6}{Email}#=%=#lora.aroyo@vu.nl
+Author{6}{Affiliation}#=%=#VU Amsterdam
+Author{7}{Firstname}#=%=#Piek
+Author{7}{Lastname}#=%=#Vossen
+Author{7}{Email}#=%=#piek.vossen@vu.nl
+Author{7}{Affiliation}#=%=#VU University Amsterdam
+
+==========

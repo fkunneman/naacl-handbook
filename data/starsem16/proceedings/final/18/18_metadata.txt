@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#Improving Text-to-Pictograph Translation Through Word Sense Disambiguation
+ShortPaperTitle#=%=#Improving Text-to-Pictograph Translation Through Word Sense Disambiguation
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Leen Sevens
+JobTitle#==#
+Organization#==#Centre for Computational Linguistics KU Leuven
+Blijde Inkomststraat 13
+3000 Leuven (BELGIUM)
+Abstract#==#We describe the implementation of a Word Sense Disambiguation (WSD) tool in a
+Dutch Text-to-Pictograph translation system, which converts textual messages
+into sequences of pictographic images. The system is used in an online platform
+for Augmentative and Alternative Communication (AAC). In the original
+translation process, the appropriate sense of a word was not disambiguated
+before converting it into a pictograph. This often resulted in incorrect
+translations. The implementation of a WSD tool provides a better semantic
+understanding of the textual input messages.
+Author{1}{Firstname}#=%=#Leen
+Author{1}{Lastname}#=%=#Sevens
+Author{1}{Email}#=%=#leen@ccl.kuleuven.be
+Author{1}{Affiliation}#=%=#Centre for Computational Linguistics KU Leuven
+Author{2}{Firstname}#=%=#Gilles
+Author{2}{Lastname}#=%=#Jacobs
+Author{2}{Email}#=%=#gillesm.jacobs@ugent.be
+Author{2}{Affiliation}#=%=#Language and Translation Technology Team UGent
+Author{3}{Firstname}#=%=#Vincent
+Author{3}{Lastname}#=%=#Vandeghinste
+Author{3}{Email}#=%=#vincent@ccl.kuleuven.be
+Author{3}{Affiliation}#=%=#Centre for Computational Linguistics KU Leuven
+Author{4}{Firstname}#=%=#Ineke
+Author{4}{Lastname}#=%=#Schuurman
+Author{4}{Email}#=%=#ineke@ccl.kuleuven.be
+Author{4}{Affiliation}#=%=#Centre for Computational Linguistics KU Leuven
+Author{5}{Firstname}#=%=#Frank
+Author{5}{Lastname}#=%=#Van Eynde
+Author{5}{Email}#=%=#frank@ccl.kuleuven.be
+Author{5}{Affiliation}#=%=#Centre for Computational Linguistics KU Leuven
+
+==========

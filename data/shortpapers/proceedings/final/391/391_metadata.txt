@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#391
+FinalPaperTitle#=%=#Recognizing Salient Entities in Shopping Queries
+ShortPaperTitle#=%=#Recognizing Salient Entities in Shopping Queries
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Zornitsa Kozareva
+JobTitle#==#
+Organization#==#Yahoo, 701 1st Ave, Sunnyvale
+Abstract#==#Over the past decade, e-Commerce has rapidly grown enabling customers to
+purchase products with the click of a button. But to be able to do so, one has
+to understand the semantics of a user query and identify that in "digital
+lifestyle tv", "digital lifestyle" is a brand and "tv" is a product. 
+
+In this paper, we develop a series of structured prediction algorithms for
+semantic tagging of shopping queries with the "product", "brand", "model" and
+"product family" types. We model wide variety of features and show an
+alternative way to capture knowledge base information using embeddings. We
+conduct an extensive study over 37,000 manually annotated queries and report
+performance of 90.92 F1 independent of the query length.
+Author{1}{Firstname}#=%=#Zornitsa
+Author{1}{Lastname}#=%=#Kozareva
+Author{1}{Email}#=%=#zkozareva@gmail.com
+Author{1}{Affiliation}#=%=#Yahoo!
+Author{2}{Firstname}#=%=#Qi
+Author{2}{Lastname}#=%=#Li
+Author{2}{Email}#=%=#liqiearth@gmail.com
+Author{2}{Affiliation}#=%=#Yahoo Labs
+Author{3}{Firstname}#=%=#Ke
+Author{3}{Lastname}#=%=#Zhai
+Author{3}{Email}#=%=#zhaikedavy@gmail.com
+Author{3}{Affiliation}#=%=#Yahoo Labs
+Author{4}{Firstname}#=%=#Weiwei
+Author{4}{Lastname}#=%=#Guo
+Author{4}{Email}#=%=#wguo.cu@gmail.com
+Author{4}{Affiliation}#=%=#Yahoo Labs
+
+==========

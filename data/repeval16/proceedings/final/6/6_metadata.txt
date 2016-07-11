@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#Evaluating word embeddings with fMRI and eye-tracking
+ShortPaperTitle#=%=#Evaluating word embeddings with fMRI and eye-tracking
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Anders Søgaard
+JobTitle#==#
+Organization#==#
+Abstract#==#The workshop CfP assumes that down-stream evaluation of word embeddings is
+impractical, and that a valid evaluation metric for pairs of word embeddings
+can be found. I argue below that if so, the only meaningful evaluation
+procedure is comparison with measures of human word processing in the wild.
+Such evaluation is non-trivial, but I present a practical procedure here,
+evaluating word embeddings as features in a multi-dimensional regression model
+predicting brain imaging or eye-tracking word-level aggregate statistics.
+Author{1}{Firstname}#=%=#Anders
+Author{1}{Lastname}#=%=#Søgaard
+Author{1}{Email}#=%=#soegaard@hum.ku.dk
+Author{1}{Affiliation}#=%=#University of Copenhagen
+
+==========

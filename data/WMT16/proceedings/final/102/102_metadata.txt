@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#102
+FinalPaperTitle#=%=#A Linear Baseline Classifier for Cross-Lingual Pronoun Prediction
+ShortPaperTitle#=%=#A Linear Baseline Classifier for Cross-Lingual Pronoun Prediction
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Jörg Tiedemann
+JobTitle#==#
+Organization#==#University of Helsinki
+P.O. Box 24
+FI-00014 University of Helsinki
+Finland
+Abstract#==#This paper presents baseline models using linear classifiers for the pronoun
+translation task at WMT 2016. We explore various local context features and
+include history features of potential antecedents extracted by means of a
+simple PoS-matching strategy. The results show the difficulties of the task in
+general but also represent valuable baselines to compare other more-informed
+systems with. Our experiments reveal that the predictions of English
+correspondences for given ambiguous pronouns in French and German is easier
+than the other way around. This seems to verify that predictions, which need to
+follow more complex agreement constraints, require more reliable information
+about the referential links of the tokens to be inserted.
+Author{1}{Firstname}#=%=#Jörg
+Author{1}{Lastname}#=%=#Tiedemann
+Author{1}{Email}#=%=#jorg.tiedemann@helsinki.fi
+Author{1}{Affiliation}#=%=#University of Helsinki
+
+==========

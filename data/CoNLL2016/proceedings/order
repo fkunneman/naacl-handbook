@@ -1,0 +1,52 @@
+* Thursday, August 11, 2016
++ 9:00--9:10 Opening
++ 9:10--10:30 Session 1: Word-Level Semantics
+14   # Generating Sentences from a Continuous Space
+25   # Identifying Temporal Orientation of Word Senses
+29   # Semi-supervised Clustering for Short Text via Deep Representation Learning
+92   # Neighborhood Mixture Model for Knowledge Base Completion
++ 10:30--11:00 Break
++ 11:00--12:20 Session 2: Sentence-Level Semantics
+78   # context2vec: Learning Generic Context Embedding with Bidirectional LSTM
+145   # Learning to Jointly Predict Ellipsis and Comparison Structures
+148   # Event Embeddings for Semantic Script Modeling
+170   # Beyond Centrality and Structural Features: Learning Information Importance for Text Summarization
++ 12:20--12:50 SIGNLL Business Meeting
++ 12:50--14:00 Lunch Break
++ 14:00--15:40 Session 3: Human Language Processing
+55   # Incremental Prediction of Sentence-final Verbs: Humans versus Machines
+126   # A Data-driven Investigation of Corrective Feedback on Subject Omission Errors in First Language Acquisition
+163   # Redefining part-of-speech classes with distributional semantic models
+171   # Analyzing Learner Understanding of Novel L2 Vocabulary
+185   # Modeling language evolution with codes that utilize context and phonetic features
++ 15:40--16:00 Break
+! 16:00--17:15 Keynote 1: Human Processing of Disfluent Speech: Basic Findings, Theoretical Approaches, and Implications for Natural Language Processing %by Fernanda Ferreira
++ 17:15--18:15 Session 4: Sarcasm / Sentiment
+8   # Harnessing Sequence Labeling for Sarcasm Detection in Dialogue from TV Series `Friends'
+124   # Leveraging Cognitive Features for Sentiment Analysis
+186   # Modelling Context with User Embeddings for Sarcasm Detection in Social Media
+* Friday, August 12, 2016
++ 9:00--9:15 SIGNLL Steering Committee Address
+! 9:15--10:30 Keynote 2: RNNaissance %by Jürgen Schmidhuber
++ 10:30--11:00 Break
++ 11:00--12:40 Session 5: Syntax, Named Entities, and Machine Translation
+12   # Learning when to trust distant supervision: An application to low-resource POS tagging using cross-lingual projection
+66   # Greedy, Joint Syntactic-Semantic Parsing with Stack LSTMs
+105   # Beyond Prefix-Based Interactive Translation Prediction
+142   # Exploring Prediction Uncertainty in Machine Translation Quality Estimation
+166   # Cross-Lingual Named Entity Recognition via Wikification
++ 12:40--14:00 Lunch Break
++ 14:00--15:30 Session 6: Shared Task on Shallow Discourse Parsing
++ 15:30--16:00 Break
++ 16:00--16:20 Session 7: Spotlight Presentations
++ 16:20--17:20 Session 8: Posters
+11   # Coreference in Wikipedia: Main Concept Resolution
+13   # Event Linking with Sentential Features from Convolutional Neural Networks
+17   # Joint Learning of the Embedding of Words and Entities for Named Entity Disambiguation
+21   # Entity Disambiguation by Knowledge and Text Jointly Embedding
+36   # Substring-based unsupervised transliteration with phonetic and contextual knowledge
+76   # Abstractive Text Summarization using Sequence-to-sequence RNNs and Beyond
+91   # Compression of Neural Machine Translation Models via Pruning
+128   # Modelling the Usage of Discourse Connectives as Rational Speech Acts
+129   # Semi-supervised Convolutional Networks for Translation Adaptation with Tiny Amount of In-domain Data
++ 17:20--18:00 Session 9: Best Paper Awards + Closing

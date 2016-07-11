@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#108
+FinalPaperTitle#=%=#Yandex School of Data Analysis approach to English-Turkish translation at WMT16 News Translation Task
+ShortPaperTitle#=%=#YSDA approach to English-Turkish WMT16 News Translation Task
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Gubanov Sergey
+JobTitle#==#
+Organization#==#Yandex, 16 Leo Tolstoy St., Moscow 119021, Russia
+Abstract#==#We describe the English-Turkish and Turkish-English translation systems
+submitted by Yandex School of Data Analysis team to WMT16 news translation
+task.
+
+We successfully applied hand-crafted morphological (de-)segmentation of
+Turkish, syntax-based pre-ordering of English in English-Turkish and
+post-ordering of English in Turkish-English. We perform desegmentation using
+SMT and propose a
+simple yet efficient modification of postordering.
+
+We also show that Turkish morphology and word order can be handled in a
+fully-automatic manner with only a small loss of BLEU.
+Author{1}{Firstname}#=%=#Anton
+Author{1}{Lastname}#=%=#Dvorkovich
+Author{1}{Email}#=%=#dvorkanton@yandex-team.ru
+Author{1}{Affiliation}#=%=#Yandex School of Data Analysis, Yandex
+Author{2}{Firstname}#=%=#Sergey
+Author{2}{Lastname}#=%=#Gubanov
+Author{2}{Email}#=%=#esgv@yandex-team.ru
+Author{2}{Affiliation}#=%=#Yandex
+Author{3}{Firstname}#=%=#Irina
+Author{3}{Lastname}#=%=#Galinskaya
+Author{3}{Email}#=%=#galinskaya@yandex-team.ru
+Author{3}{Affiliation}#=%=#Yandex
+
+==========

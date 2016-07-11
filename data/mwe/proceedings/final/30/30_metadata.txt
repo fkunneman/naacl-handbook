@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#30
+FinalPaperTitle#=%=#Extraction and Recognition of Polish Multiword Expressions using Wikipedia and Finite-State Automata
+ShortPaperTitle#=%=#Extraction and Recognition of Polish Multiword Expressions using Wikipedia and Finite-State Automata
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Paweł Chrząszcz
+JobTitle#==#
+Organization#==#Jagiellonian University
+Gołębia 24
+31-007 Kraków
+Poland
+Abstract#==#Linguistic resources for Polish are often missing multiword expressions (MWEs)
+-- idioms, compound nouns and other expressions which have their own distinct
+meaning as a whole. This paper describes an effort to extract and recognize
+nominal MWEs in Polish text using Wikipedia, inflection dictionaries and
+finite-state automata. Wikipedia is used as a lexicon of MWEs and as a corpus
+annotated with links to articles. Incoming links for each article are used to
+determine the inflection pattern of the headword -- this approach helps
+eliminate invalid inflected forms. The goal is to recognize known MWEs as well
+as to find more expressions sharing similar grammatical structure and occurring
+in similar context.
+Author{1}{Firstname}#=%=#Paweł
+Author{1}{Lastname}#=%=#Chrząszcz
+Author{1}{Email}#=%=#p.chrzaszcz@uj.edu.pl
+Author{1}{Affiliation}#=%=#Jagiellonian University in Kraków
+
+==========

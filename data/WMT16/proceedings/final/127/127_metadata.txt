@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#127
+FinalPaperTitle#=%=#The JHU Machine Translation Systems for WMT 2016
+ShortPaperTitle#=%=#The JHU Machine Translation Systems for WMT 2016
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Shuoyang Ding
+JobTitle#==#
+Organization#==#Johns Hopkins University
+Abstract#==#This paper describes the submission of Johns Hopkins University for the shared
+translation task of ACL 2016 First Conference on Machine Translation (WMT
+2016). We set up phrase-based, hierarchical phrase-based and syntax-based
+systems for all 12 language pairs of this year’s evaluation campaign. Novel
+research directions we investigated include: neural probabilistic language
+models, bilingual neural network language models, morphological segmentation,
+and the attention-based neural machine translation model as reranking feature.
+Author{1}{Firstname}#=%=#Shuoyang
+Author{1}{Lastname}#=%=#Ding
+Author{1}{Email}#=%=#dings@jhu.edu
+Author{1}{Affiliation}#=%=#Johns Hopkins University
+Author{2}{Firstname}#=%=#Kevin
+Author{2}{Lastname}#=%=#Duh
+Author{2}{Email}#=%=#kevinduh@cs.jhu.edu
+Author{2}{Affiliation}#=%=#Johns Hopkins University
+Author{3}{Firstname}#=%=#Huda
+Author{3}{Lastname}#=%=#Khayrallah
+Author{3}{Email}#=%=#huda@jhu.edu
+Author{3}{Affiliation}#=%=#Johns Hopkins University
+Author{4}{Firstname}#=%=#Philipp
+Author{4}{Lastname}#=%=#Koehn
+Author{4}{Email}#=%=#phi@jhu.edu
+Author{4}{Affiliation}#=%=#Johns Hopkins University
+Author{5}{Firstname}#=%=#Matt
+Author{5}{Lastname}#=%=#Post
+Author{5}{Email}#=%=#post@cs.jhu.edu
+Author{5}{Affiliation}#=%=#Johns Hopkins University
+
+==========

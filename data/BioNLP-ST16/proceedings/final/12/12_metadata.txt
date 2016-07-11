@@ -1,0 +1,49 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Ontology-Based Categorization of Bacteria and Habitat Entities using Information Retrieval Techniques
+ShortPaperTitle#=%=#Bacteria and Habitat Entity Categorization
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Arzucan Özgür
+JobTitle#==#
+Organization#==#Bogazici University, Istanbul, Turkey
+Abstract#==#A database which provides information
+about bacteria and their habitats in a comprehensive
+and normalized way is crucial
+for applied microbiology studies. Having
+this information spread through textual resources
+such as scientific articles and web
+pages leads to a need for automatically
+detecting bacteria and habitat entities in
+text, semantically tagging them using ontologies,
+and finally extracting the events
+among them. These are the challenges
+set forth by the Bacteria Biotopes Task
+of the BioNLP Shared Task 2016. This
+paper describes a system for habitat and
+bacteria entity normalization through the
+OntoBiotope ontology and the NCBI taxonomy,
+respectively. The system, which
+obtained promising results on the shared
+task data set, utilizes basic information retrieval
+techniques.
+Author{1}{Firstname}#=%=#Mert
+Author{1}{Lastname}#=%=#Tiftikci
+Author{1}{Email}#=%=#merttiftikci@gmail.com
+Author{1}{Affiliation}#=%=#Bogazici University
+Author{2}{Firstname}#=%=#Hakan
+Author{2}{Lastname}#=%=#Şahin
+Author{2}{Email}#=%=#hakansahin993@gmail.com
+Author{2}{Affiliation}#=%=#Bogazici University
+Author{3}{Firstname}#=%=#Berfu
+Author{3}{Lastname}#=%=#Büyüköz
+Author{3}{Email}#=%=#berfu.buyukoz@gmail.com
+Author{3}{Affiliation}#=%=#Bogazici University
+Author{4}{Firstname}#=%=#Alper
+Author{4}{Lastname}#=%=#Yayıkçı
+Author{4}{Email}#=%=#alper.yayikci@boun.edu.tr
+Author{4}{Affiliation}#=%=#Bogazici University
+Author{5}{Firstname}#=%=#Arzucan
+Author{5}{Lastname}#=%=#Özgür
+Author{5}{Email}#=%=#arzucan.ozgur@boun.edu.tr
+Author{5}{Affiliation}#=%=#Bogazici University
+
+==========

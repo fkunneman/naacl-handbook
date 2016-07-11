@@ -1,0 +1,236 @@
+%
+% File ACL2016.tex
+%
+
+\documentclass[11pt]{article}
+\usepackage{acl2016}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{multirow}
+
+\aclfinalcopy % Uncomment this line for the final submission
+%\def\aclpaperid{***} %  Enter the acl Paper ID here
+
+% To expand the titlebox for more authors, uncomment
+% below and set accordingly.
+% \addtolength\titlebox{.5in}    
+
+\newcommand\BibTeX{B{\sc ib}\TeX}
+
+\newcommand{\splitcell}[2][c]{%
+  \begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+
+\title{DOCAL - Vicomtech's Participation in the WMT16 Shared Task on Bilingual Document Alignment}
+
+\author{Andoni Azpeitia \and Thierry Etchegoyhen\\
+	    Vicomtech-IK4\\
+	    Mikeletegi Pasalekua, 57\\
+	    Donostia / San Sebastian, Gipuzkoa, Spain\\
+	    {\tt \{aazpeitia, tetchegoyhen\}@vicomtech.org}}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+
+This article presents the \textsc{docal} system for document alignment, which took part in the WMT 2016 shared task on bilingual document alignment. The system is meant to offer a portable solution for varied document alignment scenarios, from parallel to comparable corpora, with minimal deployment effort. Its main goal is to provide an optimal balance between alignment precision and recall using minimal resources and adaptation across alignment scenarios. We describe and discuss the performance of the system in the recall-oriented shared task.
+
+\end{abstract}
+
+\section{Introduction}
+
+Parallel corpora are essential to the development of data-driven approaches to translation such as statistical machine translation \cite{brown1990smt}. As it feeds further processes in the creation of bitexts, multilingual document alignment plays an important role in building accurate resources. 
+
+This article presents the \textsc{docal} system for document alignment, which took part in the WMT 2016 shared task on bilingual document alignment. The system is meant to offer a portable solution for varied document alignment scenarios, from parallel to comparable corpora.
+
+The alignment of multilingual documents has been performed with a variety of techniques over the years, with alternatives targeting various scenarios, from parallel to weakly comparable corpora. 
+
+Simple approaches based on file name matching can provide fast document pairing, as they do not rely on any analysis of the content of documents. Unfortunately, these approaches rely on consistent file naming conventions, an assumption which is often defeated in practice  \cite{Tiedemann2011bitext}. This approach is thus often complemented with content-based alignment methods, as in \cite{chen2004discovering}, whose system includes a filename-based module and a semantic similarity component based on a vector space model with frequency-weighted term vectors.
+
+The usefulness of document metadata for document alignment has been explored in depth by \cite{resnik2003web}, who exploit URL properties and structural tags to gather bilingual corpora from HTML pages on the Web. \cite{Chen2000ptminer} is another example of an approach that exploits URL properties, along with document size and language identifiers. \cite{munteanu2005comp} use date-aligned documents as input for their binary classification approach to comparable sentence alignment. 
+
+To address comparable corpora specifically, different types of content-based approaches have been proposed. \cite{fung2004mining}, for instance, present the first exploration of very non-parallel corpora using a document similarity measure based on bilingual lexical matching defined over mutual information scores on word pairs. \cite{Patry2005par} present a feature-based method based on an Ada-Boost classifier that includes features such as length, entities, and punctuation, along with a filtering component to remove alignment duplicates. The \textsc{bits} system is another alternative proposed by \cite{ma1999bits} for bilingual text mining on the Web, measuring content similarity by counting the ratio of token translation pairs over the total number of tokens in the source document, where translation pairs are determined within fixed windows of text. 
+
+Other general methods include \cite{ion2011em}, who propose an approach based on expectation-maximization using bilingual lexicons, and  \cite{li2013exploiting}, whose comparability metric measures the overall proportion of words for which a translation can be found in a comparable corpus using bilingual dictionaries. 
+
+The Jaccard coefficient \cite{Jaccard1901}, which is a core component of \textsc{docal},  has been used for instance by \cite{paramita2013ccmethods} whose comparable document similarity measure is partially based on this metric computed over a subset of sentence pairs in the documents. 
+
+\textsc{docal} \cite{etche2016docal} is a simple method to measure multilingual document similarity, whose main goal is to provide an optimal balance between alignment precision and recall with minimal resources and adaptation across alignment scenarios. The next sections describe the system and its performance in the recall-oriented shared task.
+
+\section{\textsc{docal}}
+\label{docal}
+
+The core of the \textsc{docal} approach relies on expanded lexical translation sets, defined at the document level, and the Jaccard coefficient computed on those sets. Two token sets are thus extracted from each pair of documents, along with two corresponding sets containing lexical translations of the tokens. The translation sets are then augmented through set expansion operations, described below, and similarity is computed as the ratio of intersection over union on the original token sets and their corresponding translation sets. 
+
+Formally, the following components are generated for each document pair: 
+
+\begin{itemize}
+
+\item $d_i$ and $d_j$: tokenised documents in languages $l_1$ and $l_2$, respectively.
+
+\item $S_i$: set of tokens in $d_i$.
+
+\item $S_j$: set of tokens in $d_j$.
+
+\item $T_{ij}$: set of expanded lexical translations into $l_2$ for all tokens in $S_i$.
+
+\item $T_{ji}$: set of expanded lexical translations into $l_1$ for all tokens in $S_j$.
+
+\end{itemize}
+
+From these elements, the similarity score is computed as in Equation~\ref{docal_score}:
+
+\begin{equation} \label{docal_score} 
+sim_{docal} = \frac{\frac{|T_{ij} \cap S_j|}{|T_{ij} \cup  S_j|} + \frac{|T_{ji}  \cap S_i|}{|T_{ji}  \cup S_i|}}{2} 
+\end{equation}
+
+In other words, the score is defined as the average of the document-level Jaccard similarity coefficients computed in both translation directions. 
+
+Lexical translations are extracted from seed parallel corpora, with translation probabilities computed according to \textsc{ibm} models \cite{brown1993mathsmt}.\footnote{We use \textsc{giza++} \cite{och2003compalign} to extract lexical translation tables.} For each token, the $k$-best translation options are selected among the alternatives ranked according to their lexical translation probability. The actual probability values are not used beyond the ranking they enable, i.e. all selected translations are equally considered in the computation of similarity. This is meant to abstract away from differences in lexical distributions between the seed corpora used to create translation tables and the data in the domain at hand, which is often of a different nature.
+
+No filtering is performed on the token sets, leaving punctuation marks alongside functional and content words, and the text is preserved with its original capitalisation. Pre-processing is thus reduced to the minimal operation of tokenisation. 
+
+We now describe in turn the aforementioned set expansion operations, the retrieval of alignment candidates, and the available optimisations of the core method. 
+
+\subsection{Set Expansion} 
+\label{expa}
+
+Since lexical translation tables cannot be expected to cover a given domain satisfactorily, the translation sets are expanded with tokens that may be indicators of similarity, although absent from translation tables. First, all capitalised tokens are added to the sets if they are not found in the translation tables.\footnote{Checking for their presence in lexical translation tables allows one to distinguish between out-of-vocabulary tokens and entities with an existing translation, e.g. \textit{Germany} translated into Spanish \textit{Alemania}.} This simple operation, which we perform at set creation time, provides coverage for named entities, which can be viewed as important indicators of content similarity given their low relative frequency. The same process applies to numbers as well, which can also be strong indicators of similarity, in particular when they denote dates.
+
+\textsc{docal} includes an additional set expansion operation based on longest common prefixes (\textsc{lcp}), which are computed over the minimal sets of elements that may have a common stem, defined to be the following two set differences: $T'_{ij} = T_{ij} - S_j$ and $T'_{ji} = T_{ji} - S_i$. For each element in $T'_{ij}$ (respectively $T'_{ji}$) and each element in $S_j$ (respectively $S_i$), if a common prefix is found with an empirically set minimal length of $n$ characters, the prefix is added to both sets. This specific expansion operation is not included by default in the actual usage of the system, as it increases the overall computational cost and its benefits are largely dependent on the specifics of the corpora and language pairs at hand.
+
+\subsection{Alignment Candidates} 
+\label{cands}
+
+Alignments are computed from source to target documents, with the additional filtering described in Section~\ref{alfilt}.
+
+In some document alignment scenarios, an alignment process based on the Cartesian product of the document sets might be the optimal approach, as the alignment space is guaranteed to be searched exhaustively. Since this approach has quadratic complexity, it is however computationally prohibitive if the volumes of documents reach a certain amount. 
+
+For scenarios where the volume of documents renders an exhaustive comparison unsustainable, a standard cross-linguistic information retrieval (\textsc{clir}) approach is provided. Target documents are first indexed using the Lucene search engine\footnote{https://lucene.apache.org.} and retrieved by building a query over the expanded translation sets created from each source document. This strategy drastically reduces the overall processing time and resource consumption, at the cost of missing some correct alignment pairs.\footnote{In experiments on different datasets, the loss of correct alignment pairs was minimal, at around 1\% per test set.}
+
+\subsection{Alignment Filtering}
+\label{alfilt}
+
+As the alignment process is executed from source to target documents, a given target document can be selected as the best alignment for more than one source document. This results in hidden correct alignments, often with scores that are marginally lower than the top alignment scores assigned by the similarity metric. 
+
+A simple solution to this issue consists in removing all alignments between a source document and a target if the latter is aligned to a different source document with a better similarity score. That is, we remove alignment tuples $(d_i, d_j, sim_{ij})$ between any two documents $d_i$ and $d_j$ if there exists a different tuple $(d_k, d_j, sim_{kj})$ such that $sim_{kj} > sim_{ij}$.
+
+This process often produces large improvements, as it allows previously hidden correct alignments to surface, and is included by default in \textsc{docal}.
+
+\section{WMT 2016 Bilingual Document Alignment Task}
+
+The WMT 2016 shared task on multilingual document alignment\footnote{http://www.statmt.org/wmt16/bilingual-task.html.} consists in identifying pairs of English and French documents from a given collection of documents such that one document is the translation of the other. Candidate pairs were defined as all pairs of documents from the same web domain for which the source side has been identified as mostly English and the target side as mostly French.   
+
+Participants were to submit a list of possible pairings, with each source URL matched with at most one target URL and vice-versa. The evaluation metric was selected to be recall on the test set, i.e. the percentage of the test-set pairs that a participating system could find after enforcing the 1-1 alignment rule.
+
+Our participation in the shared task was meant to check the effectiveness of \textsc{docal} in a new large-scale document alignment task with no task-specific adaptation, in accordance with our stated aim at portability and ease of deployment across document alignment scenarios. Thus, the system was applied in its default configuration and the provided training datasets were not used beyond testing the processing tools provided for the task. Document metadata or URL properties were not exploited either, to strictly measure our content-based approach to document alignment. 
+
+In the next section, we describe the setup for our system, with results presented in Section~\ref{sres}. 
+
+\subsection{System Setup}
+
+As mentioned above, \textsc{docal} was applied in its default configuration. Lexical translation tables were created with \textsc{giza++} on the JRC-Acquis Communautaire corpus.\footnote{We used the latest available version of the corpus, as of November 2015, in the \textsc{opus} repository: http://opus.lingfil.uu.se/JRC-Acquis.php.} For the English-French pair, the training corpus consisted in 708.896 aligned sentences. No experiments were made with different translation tables, larger or more varied, although we view this research path as worth exploring in future work.
+
+We set $k$ = 5 to define the range of $k$-best lexical translations, as a compromise between larger sets with less reliable translation candidates and smaller sets which may miss translation alternatives. Note that this value could have been tuned on the provided training data, thus optimising the setting to this specific task. However, as previously mentioned, our goal was to evaluate the approach with portability in mind, where no particular adaptation is performed; we therefore used this default value for the $k$ parameter.
+
+Document content was tokenised using the scripts provided in the Moses toolkit \cite{koehn2007moses}. For all but four web domains in the test set, the set of possible alignment pairs was computed using the Cartesian product of source-target documents, as this guaranteed an exhaustive search in the alignment space and the computation was deemed practical for up to 260 million possible pairings.\footnote{The documents were processed on a single server with 64G of RAM and 16 cores.} The remaining four domains featured potential pairs above the 300 million mark and the \textsc{clir} approach using Lucene was used in those cases.\footnote{The domains were: www.domainepechlaurier.com; www.desmarais-robitaille.com; italiasullarete.it; and: egodesign.ca.}
+
+Finally, \textsc{docal} was used with alignment filtering, as described in Section~\ref{alfilt}, and without the set expansion operation based on longest common prefixes described in Section~\ref{expa}.
+
+\subsection{Results and Discussion}
+\label{sres}
+
+Overall, \textsc{docal} ranked in 5th place on the official test set, with 2128 pairs retrieved out of 2402 for a recall score of 88.59\%. It is interesting to note that several systems, and in particular all four systems with better scores, have submitted a significantly larger number of pairs than \textsc{docal}, which is indicative of underlying differences in terms of precision and f-measure. However, without knowing the correctness of the alignments outside the test set pairs, it is obviously not possible to determine whether these differences show better precision on the part of \textsc{docal} or not.
+
+
+While performing an error analysis of the cases where our system had retrieved the incorrect pair according to the test set, we found 100 cases where the test set contained what we consider to be incorrect alignments. That is, in all 100 cases, shown in Table~\ref{err},\footnote{As many of the erroneous cases came from a single domain, namely www.lalettrediplomatique.fr, we indicate the URL structure once where replacing the place-holder X with one of the values in the last line forms the actual URL. Note also that we indicate ranges with a dash, e.g., X = 15-17 indicates that all values from 15 to 17 (included) lead to a URL that is in the set of identified errors.} the target pair found by \textsc{docal} seems to us to be the correct one. In most of these cases, the French documents in the test set and the one retrieved by \textsc{docal} were nearly identical, with only minor differences where the test set document was missing a small portion of information from the source document.\footnote{For instance, 94 of the cases came from the domain www.lalettrediplomatique.fr, where the English source document content contains a date which is accurately translated in the document retrieved by \textsc{docal}, and incorrect in the target document in the test set.}
+
+\begin{table*}
+	\small
+	\centering
+
+	\begin{tabular}{| l | l |}
+	\hline	
+ 	\textit{Source}: & http://artfactories.net/Espace-Linga-Tere.html \\
+ 	\textit{Test set}: & http://artfactories.net/-Republique-centrafricaine-.html \\
+	\textit{Correct}: &  http://artfactories.net/Espace-Linga-Tere-Bangui.html \\
+	\hline		    	          
+	\hline		    	          
+ 	\textit{Source}: &  http://www.ipu.org/hr-e/169/Co121.htm \\
+ 	\textit{Test set}: &  http://www.ipu.org/hr-f/168/Co121.htm\\
+	\textit{Correct}: & http://www.ipu.org/hr-f/169/Co121.htm\\
+	\hline		    	          					
+	\hline		    	          
+ 	\textit{Source}: & http://www.lifegrid.fr/en/projets/projects/biomedicale-search.html \\
+ 	\textit{Test set}: &  http://www.lifegrid.fr/fr/projets/appel-a-projets-e-nnovergne-lifegrid-2006/recherche-biomedicale.html \\
+	\textit{Correct}: & http://www.lifegrid.fr/fr/projets/31-recherche-biomedicale.html \\
+	\hline		    	          					
+	\hline		    	          
+ 	\textit{Source}: & http://www.nserc-crsng.gc.ca/Prizes-Prix/Excellence-Excellence/Profiles-Profils\_eng.asp?ID=1008 \\
+ 	\textit{Test set}: & http://www.nserc-crsng.gc.ca/Prizes-Prix/Herzberg-Herzberg/Profiles-Profils\_fra.asp?ID=1003 \\
+	\textit{Correct}: & http://www.nserc-crsng.gc.ca/Prizes-Prix/Excellence-Excellence/Profiles-Profils\_fra.asp?ID=1008 \\
+	\hline		    	          					
+	\hline		    	          
+ 	\textit{Source}: & http://www.rfimusique.com/musiqueen/articles/060/article\_6465.asp \\
+ 	\textit{Test set}: & http://www.rfimusique.com/musiquefr/articles/060/article\_14625.asp \\
+	\textit{Correct}: & http://www.rfimusique.com/musiquefr/articles/060/article\_13250.asp \\
+	\hline		    	          					
+	\hline		    	          
+ 	\textit{Source}: & http://www.rfimusique.com/musiqueen/articles/129/article\_8397.asp \\
+ 	\textit{Test set}: & http://www.rfimusique.com/musiquefr/articles/128/article\_18057.asp \\
+	\textit{Correct}: & http://www.rfimusique.com/musiquefr/articles/129/article\_18094.asp \\
+	\hline		    	          					
+	\hline		    	          
+ 	\textit{Source}: & http://www.lalettrediplomatique.fr/contribution.php?choixlang=2\&id=10\&idrub=\textbf{X} \\
+ 	\textit{Test set}: & http://www.lalettrediplomatique.fr/contribution.php?id=10\&idrub=\textbf{X} \\
+	\textit{Correct}: & http://www.lalettrediplomatique.fr/contribution.php?choixlang=1\&id=10\&idrub=\textbf{X} \\
+	\textit{\textbf{X} = } & 5, 7, 11-12, 15-17, 23, 28-31, 35, 37-39, 43, 45-46, 50-52, 56-58, 61-65, 69, 83-84, 86, 89, 91-94, 96-100,\\  
+	& 103-107, 109-111, 114-115, 119-120, 123-125, 127-130, 133-135, 137-141, 144, 146, 149-152, 155-156, \\ 
+	& 158, 160-163, 165-167, 169, 173, 175, 177, 194, 197\\
+	\hline		    	          							
+	\end{tabular}
+	\caption{Identified likely errors in the test set}	 
+	\label{err}		
+
+\end{table*}
+
+These cases account for 4.16\% of the test, and impact the final results, as shown in Table~\ref{dres}.\footnote{\textit{wmt2016\_corr} denotes the corrected version of the test set.} On the corrected test set, \textsc{docal} reaches a score of 92.76\%, significantly better than its result on the original test set.
+
+\begin{table*}
+	\small
+	\centering
+	\begin{tabular}{| c | c | c | c | c | c | c |}
+	\hline	
+		  \textsc{test sets}  & \textsc{found pairs} & \textsc{submitted pairs}  & \textsc{pairs after 1-1 rule}  &  \textsc{recall}   \\
+	\hline		    	          
+		wmt2016 	 &  2.128 & 191.993  & 191.993 & 88.592839  \\
+	\hline		    	          
+		wmt2016\_corr 	 &  2.228 & 191.993  & 191.993 & 92.756037  \\
+	\hline		    	          					
+	\end{tabular}
+	\caption{\textsc{docal} results}	 
+	\label{dres}		
+\end{table*}
+
+It is of course entirely possible that other participating systems had actually retrieved the correct target documents as well in those cases, and that the final ranking of systems would thus be unaffected. Whether this is actually the case or not is unknown to us at the time of this writing. 
+
+\section{Conclusion}
+\label{conc}
+
+Overall, we found the results obtained by \textsc{docal} on the shared task to be satisfactory, in particular as a test case for the portability of the default method in a new large-scale alignment scenario. 
+
+The system was developed to seek an optimal balance between precision and recall, and has shown promising results along these lines in different scenarios involving both parallel and comparable corpora \cite{etche2016docal}. In future tasks, it would be interesting to compare our approach to alternatives in terms of f-measure as well, to fully assess the usefulness of available methods for multilingual document alignment.
+
+\section*{Acknowledgments}
+
+This work was partially funded by the Spanish Ministry of Economy and Competitiveness and the Department of Economic Development and Competitiveness of the Basque Government through the AdapTA (RTC-2015-3627-7) and TRADIN (IG-2015/0000347) projects. We would like to thank MondragonLingua Translation \& Communication for their support as coordinator of these projects, and the organisers of the shared task for their work and support.
+
+\bibliography{tebiblio}
+\bibliographystyle{acl2016}
+
+
+\end{document}

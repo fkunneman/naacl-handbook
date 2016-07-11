@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#17
+FinalPaperTitle#=%=#Quantifying the Vanishing Gradient and Long Distance Dependency Problem in Recursive Neural Networks and Recursive {LSTM}s
+ShortPaperTitle#=%=#Quantifying the Vanishing Gradient and Long Distance Dependency Problem in Recursive Neural Networks and Recursive {LSTM}s
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Phong Le
+JobTitle#==#
+Organization#==#University of Amsterdam
+Abstract#==#Recursive neural networks (RNN) and their recently proposed extension recursive
+
+long short term memory networks (RLSTM) are models that compute representations
+
+for sentences, by recursively combining word embeddings according to an
+externally 
+provided parse tree. Both models thus, unlike recurrent networks, explicitly
+make 
+use of the hierarchical structure of a sentence. In this paper, we demonstrate
+that RNNs nevertheless suffer from the vanishing gradient and long distance 
+dependency problem, and that RLSTMs greatly improve over RNN's on these
+problems. 
+We present an artificial learning task that allows us to quantify the severity
+of 
+these problems for both models. We further show that a ratio of gradients (at
+the 
+root node and a focal leaf node) is highly indicative of the success of
+backpropagation
+at optimizing the relevant weights low in the tree. This paper thus provides an
+
+explanation for existing, superior results of RLSTMs on tasks such as sentiment
+
+analysis, and suggests that the benefits of including hierarchical structure
+and of 
+including LSTM-style gating are complementary.
+Author{1}{Firstname}#=%=#Phong
+Author{1}{Lastname}#=%=#Le
+Author{1}{Email}#=%=#lephong.xyz@gmail.com
+Author{1}{Affiliation}#=%=#University of Amsterdam
+Author{2}{Firstname}#=%=#Willem
+Author{2}{Lastname}#=%=#Zuidema
+Author{2}{Email}#=%=#w.h.zuidema@uva.nl
+Author{2}{Affiliation}#=%=#University of Amsterdam
+
+==========

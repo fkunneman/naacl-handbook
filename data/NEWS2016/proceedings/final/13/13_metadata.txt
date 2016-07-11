@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#Multi-source named entity typing for social media
+ShortPaperTitle#=%=#Multi-source named entity typing for social media
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Einat Minkov
+JobTitle#==#
+Organization#==#
+Abstract#==#Typed lexicons that encode knowledge about the semantic types of an entity
+name, e.g., that ‘Paris’ denotes a geolocation, product, or person, have
+proven useful for many text processing tasks. While lexicons may be derived
+from large-scale knowledge bases (KBs), KBs are inherently imperfect, in
+particular they lack coverage with respect to long tail entity names. We infer
+the types of a given entity name using multi-source learning, considering
+information obtained by alignment to the Freebase knowledge base, Web-scale
+distributional patterns, and global semi-structured contexts retrieved by means
+of Web search. Evaluation in the challenging domain of social media shows that
+multi-source learning improves performance compared with rule-based KB lookups,
+boosting typing results for some semantic categories.
+Author{1}{Firstname}#=%=#Reuth
+Author{1}{Lastname}#=%=#Vexler
+Author{1}{Email}#=%=#reuthvex@gmail.com
+Author{1}{Affiliation}#=%=#University of Haifa
+Author{2}{Firstname}#=%=#Einat
+Author{2}{Lastname}#=%=#Minkov
+Author{2}{Email}#=%=#einatm@gmail.com
+Author{2}{Affiliation}#=%=#Univ. of Haifa
+
+==========

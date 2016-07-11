@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#Explicit Causal Connections between the Acquisition of Linguistic Tiers:\\ Evidence from Dynamical Systems Modeling
+ShortPaperTitle#=%=#Explicit Causal Connections between the Acquisition of Linguistic Tiers:\\ Evidence from Dynamical Systems Modeling
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#In this study, we model the causal links between the complexities of different
+macroscopic aspects of child language. We consider pairs of sequences of
+measurements of the quantity and diversity of the lexical and grammatical
+properties. Each pair of sequences is taken as the trajectory of a
+high-dimensional dynamical system, some of whose dimensions are unknown. We use
+Multispatial Convergent Cross Mapping to ascertain the directions of causality
+between the pairs of sequences. Our results provide support for the hypothesis
+that  children learn grammar through distributional learning, where the
+generalization of smaller structures enables generalizations at higher levels,
+consistent with the proposals of construction-based approaches to language.
+Author{1}{Firstname}#=%=#Daniel
+Author{1}{Lastname}#=%=#Spokoyny
+Author{1}{Email}#=%=#dspoka@gmail.com
+Author{1}{Affiliation}#=%=#University of California, Santa Barbara
+Author{2}{Firstname}#=%=#Jeremy
+Author{2}{Lastname}#=%=#Irvin
+Author{2}{Email}#=%=#jirvin@umail.ucsb.edu
+Author{2}{Affiliation}#=%=#University of California, Santa Barbara
+Author{3}{Firstname}#=%=#Fermin
+Author{3}{Lastname}#=%=#Moscoso del Prado Martin
+Author{3}{Email}#=%=#fermosc@gmail.com
+Author{3}{Affiliation}#=%=#University of California, Santa Barbara
+
+==========

@@ -1,0 +1,21 @@
+SubmissionNumber#=%=#123
+FinalPaperTitle#=%=#ParFDA for Instance Selection for Statistical Machine Translation
+ShortPaperTitle#=%=#ParFDA for Instance Selection for Statistical Machine Translation
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#MEHMET ERGUN BICICI
+JobTitle#==#
+Organization#==#bicici.github.com
+Abstract#==#We build parallel feature decay algorithms (ParFDA) Moses statistical machine
+translation (SMT) systems for English to target translation directions in the
+translation task at the first conference on statistical machine
+translation~\cite{WMT2016} (WMT16). ParFDA obtains results close to the top
+constrained 
+phrase-based SMT with an average of 2.99 BLEU points difference using
+significantly less computation for building SMT systems than the computation
+that would be spent using all available corpora.
+Author{1}{Firstname}#=%=#Ergun
+Author{1}{Lastname}#=%=#Bicici
+Author{1}{Email}#=%=#bicici.ku@gmail.com
+Author{1}{Affiliation}#=%=#
+
+==========

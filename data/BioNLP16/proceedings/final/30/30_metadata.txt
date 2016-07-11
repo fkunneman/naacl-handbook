@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#30
+FinalPaperTitle#=%=#Vocabulary Development To Support Information Extraction of Substance Abuse from Psychiatry Notes
+ShortPaperTitle#=%=#Vocabulary Development To Support Information Extraction of Substance Abuse from Psychiatry Notes
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Sumithra Velupillai
+JobTitle#==#
+Organization#==#
+Abstract#==#Extracting information from mental health records can be useful for large-scale
+clinical studies (e.g., to predict medication adherence or to understand
+medication effects) in this clinical specialty largely underserved by the
+Natural Language Processing (NLP) community. Vocabularies that contain medical
+terms for specific clinical use-cases, such as signs, symptoms, histories,
+social risk factors, are valuable resources for the development of NLP systems
+that aid clinicians in extracting information from text. Substance abuse is an
+important variable for many clinical use-cases, but, to our knowledge, there
+are no publicly available vocabularies that cover these types of terms. In this
+study, we apply and combine three methods for generating vocabularies related
+to substance abuse. We propose a simple and systematic method to generate
+highly relevant vocabularies and evaluate these vocabularies with respect to
+size and content, as well as coverage and relevance when applied to authentic
+psychiatric notes.
+Author{1}{Firstname}#=%=#Sumithra
+Author{1}{Lastname}#=%=#Velupillai
+Author{1}{Email}#=%=#sumithra@kth.se
+Author{1}{Affiliation}#=%=#School of Computer Science and Communication, KTH, Stockholm
+Author{2}{Firstname}#=%=#Danielle L
+Author{2}{Lastname}#=%=#Mowery
+Author{2}{Email}#=%=#danielle.mowery@utah.edu
+Author{2}{Affiliation}#=%=#University of Utah at Salt Lake City
+Author{3}{Firstname}#=%=#Mike
+Author{3}{Lastname}#=%=#Conway
+Author{3}{Email}#=%=#michaelambroseconway@gmail.com
+Author{3}{Affiliation}#=%=#University of Utah
+Author{4}{Firstname}#=%=#John
+Author{4}{Lastname}#=%=#Hurdle
+Author{4}{Email}#=%=#john.hurdle@utah.edu
+Author{4}{Affiliation}#=%=#University of Utah
+Author{5}{Firstname}#=%=#Brent
+Author{5}{Lastname}#=%=#Kious
+Author{5}{Email}#=%=#brent.kious@hsc.utah.edu
+Author{5}{Affiliation}#=%=#University of Utah
+
+==========

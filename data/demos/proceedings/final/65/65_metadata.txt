@@ -1,0 +1,60 @@
+SubmissionNumber#=%=#65
+FinalPaperTitle#=%=#new/s/leak – Information Extraction and Visualization for Investigative Data Journalists
+ShortPaperTitle#=%=#new/s/leak – Information Extraction and Visualization for Investigative Data Journalists
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Seid Muhie Yimam
+JobTitle#==#
+Organization#==#Fachgebiet Sprachtechnologie / Language Technology 
+Hochschulstr. 10
+64289 Darmstadt 
+Deutschland
+Abstract#==#We present new/s/leak, a novel tool developed for and with the help of
+journalists, which enables the automatic analysis and discovery of newsworthy
+stories from large textual datasets. We rely on different NLP preprocessing
+steps such named entity tagging, extraction of time expressions, entity
+networks, relations and metadata. The system features an intuitive web-based
+user interface based on network visualization combined with data exploring
+methods and various search and faceting mechanisms. We report the current state
+of the software and exemplify it with the WikiLeaks PlusD (Cablegate) data.
+Author{1}{Firstname}#=%=#Seid Muhie
+Author{1}{Lastname}#=%=#Yimam
+Author{1}{Email}#=%=#seidymam@gmail.com
+Author{1}{Affiliation}#=%=#TU Darmstadt, Language Technology
+Author{2}{Firstname}#=%=#Heiner
+Author{2}{Lastname}#=%=#Ulrich
+Author{2}{Email}#=%=#heiner.ulrich@spiegel.de
+Author{2}{Affiliation}#=%=#Spiegel-Verlag Rudolf Augstein GmbH & Co. KG
+Author{3}{Firstname}#=%=#Tatiana
+Author{3}{Lastname}#=%=#von Landesberger
+Author{3}{Email}#=%=#tatiana.von.landesberger@gris.tu-darmstadt.de
+Author{3}{Affiliation}#=%=#GRIS Department of Interactive Graphics Systems  Technische Universität Darmstadt
+Author{4}{Firstname}#=%=#Marcel
+Author{4}{Lastname}#=%=#Rosenbach
+Author{4}{Email}#=%=#marcel.rosenbach@spiegel.de
+Author{4}{Affiliation}#=%=#Spiegel-Verlag Rudolf Augstein GmbH & Co. KG
+Author{5}{Firstname}#=%=#Michaela
+Author{5}{Lastname}#=%=#Regneri
+Author{5}{Email}#=%=#michaela.regneri@spiegel.de
+Author{5}{Affiliation}#=%=#Spiegel-Verlag Rudolf Augstein GmbH & Co. KG
+Author{6}{Firstname}#=%=#Alexander
+Author{6}{Lastname}#=%=#Panchenko
+Author{6}{Email}#=%=#panchenko.alexander@gmail.com
+Author{6}{Affiliation}#=%=#TU Darmstadt
+Author{7}{Firstname}#=%=#Franziska
+Author{7}{Lastname}#=%=#Lehmann
+Author{7}{Email}#=%=#franzilehmann@gmx.net
+Author{7}{Affiliation}#=%=#GRIS Department of Interactive Graphics Systems Technische Universität Darmstadt
+Author{8}{Firstname}#=%=#Uli
+Author{8}{Lastname}#=%=#Fahrer
+Author{8}{Email}#=%=#mail@uli-fahrer.de
+Author{8}{Affiliation}#=%=#FG LT Lab Technische Universität Darmstadt
+Author{9}{Firstname}#=%=#Chris
+Author{9}{Lastname}#=%=#Biemann
+Author{9}{Email}#=%=#biem@cs.tu-darmstadt.de
+Author{9}{Affiliation}#=%=#TU Darmstadt
+Author{10}{Firstname}#=%=#Kathrin
+Author{10}{Lastname}#=%=#Ballweg
+Author{10}{Email}#=%=#kathrin.ballweg@gris.informatik.tu-darmstadt.de
+Author{10}{Affiliation}#=%=#GRIS Department of Interactive Graphics Systems Technische Universität Darmstadt
+
+==========

@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#5
+FinalPaperTitle#=%=#Distributed representation and estimation of WFST-based n-gram models
+ShortPaperTitle#=%=#Distributed representation and estimation of WFST-based n-gram models
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Brian Roark
+JobTitle#==#
+Organization#==#Google, Inc.
+111 8th Ave
+New York, NY 10011
+Abstract#==#We present methods for partitioning a weighted finite-state transducer (WFST)
+representation of an n-gram language model into multiple blocks or shards, each
+of which is a stand-alone WFST n-gram model in its own right, allowing
+processing with existing algorithms. After independent estimation, including
+normalization, smoothing and pruning on each shard, the shards can be
+reassembled into a single WFST that is identical to the model that would have
+resulted from estimation without sharding. We then present an approach that
+uses data partitions in conjunction with WFST sharding to estimate models on
+orders-of-magnitude more data than would have otherwise been feasible with a
+single process. We present some numbers on shard characteristics when large
+models are trained from a very large data set.                                     
+Functionality
+to
+support
+distributed n-gram modeling has been added to the open-source OpenGrm library.
+Author{1}{Firstname}#=%=#Cyril
+Author{1}{Lastname}#=%=#Allauzen
+Author{1}{Email}#=%=#allauzen@google.com
+Author{1}{Affiliation}#=%=#Google Research
+Author{2}{Firstname}#=%=#Michael
+Author{2}{Lastname}#=%=#Riley
+Author{2}{Email}#=%=#riley@google.com
+Author{2}{Affiliation}#=%=#Google
+Author{3}{Firstname}#=%=#Brian
+Author{3}{Lastname}#=%=#Roark
+Author{3}{Email}#=%=#roarkbr@gmail.com
+Author{3}{Affiliation}#=%=#Google Inc.
+
+==========

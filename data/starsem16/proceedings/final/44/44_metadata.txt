@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#44
+FinalPaperTitle#=%=#When Hyperparameters Help: Beneficial Parameter Combinations in Distributional Semantic Models
+ShortPaperTitle#=%=#When Hyperparameters Help: Beneficial Parameter Combinations in Distributional Semantic Models
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Denis Paperno
+JobTitle#==#
+Organization#==#CIMeC - Center for Mind/Brain Sciences
+University of Trento
+Palazzo Fedrigotti - corso Bettini 31, 38068 Rovereto (TN) Italy
+Abstract#==#Distributional semantic models are able to predict many linguistic phenomena,
+including word similarity, lexical ambiguity, and semantic priming, or even to
+pass TOEFL synonymy and analogy tests (Landauer and Dumais, 1997; Griffiths et
+al., 2007; Turney and Pantel, 2010). But what does it take to create a
+competitive distributional model? Levy et al. (2015) argue that the key to
+success lies largely in hyperparameter tuning rather than in the model’s
+architecture. More parameters trivially lead to potential performance
+improvements, but what do they actually do to improve the models? Are
+individual parameters’ contributions independent of each other? Or are only
+specific parameter combinations beneficial? To answer these questions, we
+perform a quantitative and qualitative evaluation of major hyperparameters as
+identified in previous research.
+Author{1}{Firstname}#=%=#Alicia
+Author{1}{Lastname}#=%=#Krebs
+Author{1}{Email}#=%=#alicia.krebs@hotmail.fr
+Author{1}{Affiliation}#=%=#University of Trento
+Author{2}{Firstname}#=%=#Denis
+Author{2}{Lastname}#=%=#Paperno
+Author{2}{Email}#=%=#denis.paperno@unitn.it
+Author{2}{Affiliation}#=%=#University of Trento
+
+==========

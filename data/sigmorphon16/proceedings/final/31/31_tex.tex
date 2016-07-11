@@ -1,0 +1,325 @@
+%
+% File acl2016.tex
+%
+%% Based on the style files for ACL-2015, with some improvements
+%%  taken from the NAACL-2016 style
+%% Based on the style files for ACL-2014, which were, in turn,
+%% Based on the style files for ACL-2013, which were, in turn,
+%% Based on the style files for ACL-2012, which were, in turn,
+%% based on the style files for ACL-2011, which were, in turn, 
+%% based on the style files for ACL-2010, which were, in turn, 
+%% based on the style files for ACL-IJCNLP-2009, which were, in turn,
+%% based on the style files for EACL-2009 and IJCNLP-2008...
+
+%% Based on the style files for EACL 2006 by 
+%%e.agirre@ehu.es or Sergi.Balari@uab.es
+%% and that of ACL 08 by Joakim Nivre and Noah Smith
+
+\documentclass[11pt]{article}
+\usepackage{acl2016}
+\usepackage{times}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{tabularx}
+\usepackage{listings}
+\usepackage{latexsym}
+
+\aclfinalcopy % Uncomment this line for the final submission
+\def\aclpaperid{31X-E3J6B8A3C6} %  Enter the acl Paper ID here
+
+%\setlength\titlebox{5cm}
+% You can expand the titlebox if you need extra space
+% to show all the authors. Please do not make the titlebox
+% smaller than 5cm (the original size); we will check this
+% in the camera-ready version and ask you to change it back.
+
+\newcommand\BibTeX{B{\sc ib}\TeX}
+
+\title{Evaluating Sequence Alignment for Learning Inflectional Morphology}
+
+\author{David L. King\\
+  The Ohio State University\\
+  {\tt king.2138@osu.edu}}
+\date{}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+This work examines CRF-based sequence alignment models for learning natural language morphology. Although these systems have performed well for a limited number of languages, this work, as part of the SIGMORPHON 2016 shared task, specifically sets out to determine whether these models handle non-concatenative morphology as well as previous work might suggest. Results, however, indicate a strong preference for simpler, concatenative morphological systems.
+\end{abstract}
+
+\section*{Introduction}
+% motivation 
+Morphologically-rich languages pose a challenge for the natural language processing and generation community. 
+Computationally mapping inflected wordforms to a baseform has been standard practice in semantics and generation.
+Traditionally, hand-coding these as rule-based systems required extensive engineering overhead, but has produced high quality resolution between base and inflected wordforms. 
+This work extends work by Durrett and DeNero \shortcite{durrett2013supervised} to automatically learn morphological paradigms by comparing edit operations between a lemma and baseform and tests a similar algorithm on other morphologically-rich langauges and those which exhibit more extensive use of non-concatenative morphology. 
+
+\section*{Background}
+% explain previous work
+Morphological reinflection and lemma generation are not trivial tasks, and have been the subject of much research and engineering. 
+Traditionally, rule-based and finite-state methods \cite{minnen2001applied,koskenniemi1984general} have been used, particularly when no training data is available. 
+Although these handcrafted systems perform with a high level of accuracy, creating them is difficult and requires a great deal of engineering overhead. 
+
+Recently, more automatic, machine learning methods have been utilized. 
+These systems have required far less handcrafting of rules, but also do not perform as well. 
+Specifically, work by Durrett and DeNero \shortcite{durrett2013supervised} exploits sequence alignment systems across strings, a technique originally developed for DNA analysis. They showed that by computing minimum edit operations between two strings and having a semi-markov conditional random field (CRF) \cite{sarawagi2004semi} predict when wordform edits rules were to be used, a system could achieve state-of-the-art performance in completing morphological paradigms for English and German. 
+
+% hypothesis -- Durret and DeNero's system would work well with non-concatenative morpholoy
+English and German, along with other Germanic languages, have a somewhat rarer tendency towards \emph{ablauting}, that is changing or deleting segments from the lemma of a wordform as part of its inflection.
+In some circles, morphology is thought of in the purely \emph{concatenative} sense (i.e. \emph{give} + \emph{-s} $\to$ \emph{gives}).
+Durrent and DeNero's work shows promise in that they already account for non-concatenative morphonology in English and German.
+Using a similar system, this work hypothesizes that such an approach will perform well on languages with more prolific non-concatenative morphology, such as Arabic and Maltese. 
+ 
+% introduction -- shared task, explain task
+\section*{Shared Task}
+The 2016 SIGMORPHON \cite{cotterell-sigmorphon2016} shared task on morphological reinflection consisted of multiple tracks for discerning fully inflected wordforms in ten languages, two of which were surprise languages whose data was not released until a week before the submission deadline.
+In task 1, participants were given a lemma and a target word's grammatical information with which to guess the fully inflected target wordform.
+In task 2, participants were supplied with two fully inflected wordforms---one source and one target---and their grammatical features.
+Task 3 was the same as task 2, except that no source grammatical information was supplied. 
+
+Additionally, participants were allowed to choose standard, restricted, or bonus training sets. 
+The standard training allowed for any task to use training data from a task lower than it. 
+Restricted training only allowed for training on data for that given data set (i.e. task 1 can only train on task 1, task 2 on task 2, and task 3 on task 3).
+A system attempting a certain task number and training on a higher task number (e.g. attempting task 1 and additionally using task 2 training data) constituted using bonus training.
+
+For the purposes of testing this work's hypothesis, task 1 was chosen as being the most analogous and direct means of evaluation.
+Additionally, restricted training was used to minimize variance between the training sets of the ten languages in question. 
+As seen in table \ref{tab:training}, although generally most training sets have about 12,000 items, Navajo, Maltese, and Hungarian are the exceptions.
+
+\begin{table}
+\begin{center}
+	\begin{tabular}{|l r|}
+    \hline
+    Language	&	Training Items \\\hline
+    Arabic       &      12254\\
+    Finnish      &      12693\\
+    Georgian     &      11576\\
+    German       &      12490\\
+    Hungarian    &      16219\\
+    Maltese      &      18975\\
+    Navajo       &       6012\\
+    Russian      &      12390\\
+    Spanish      &      12575\\
+    Turkish      &      12336\\\hline
+    \end{tabular}
+    \caption{Training items available for restricted task 1.}
+    \label{tab:training}
+\end{center}
+\end{table}
+
+% technicals: CRF and feature set
+\section*{Implementation}
+This work exploits string sequence alignment algorithms such as Hirschberg's algorithm \cite{hirschberg1975linear} and the Ratciff/Obershelp algorithm \cite{black2004ratcliff} in the same vein as recent work by Durrett and DeNero \shortcite{durrett2013supervised} and Nicolai et al. \shortcite{nicolai2015inflection}.
+In these frameworks, the fewest number of edits required to convert one string to another are considered to be morphological \emph{rules}. 
+As shown in figure \ref{fig:edits}, source and target words are aligned to minimize edit operations required to make them the same. 
+This minimal list of edit operations is converted into an edit rule at the character level (i.e. this work does not predict word level edit operations).
+These segment edits are fed with a feature set to be trained on by a linear chain CRF \cite{sutton2011introduction} using online passive-aggressive training \cite{crammer2006online}.
+\begin{figure}
+	\begin{flushleft}give $\to$ gave\end{flushleft}
+	\begin{tabular}{l|l|l|l|l|l}
+        \hline
+		&	g	&	i	&	v	&	e	& \\
+        &	g	&	a	&	v	&	e	& \\\hline
+        Rule	&&	-i+a	&		&		& \\        
+    \end{tabular}\\
+    
+    \begin{flushleft}kitab $\to$ kutub \end{flushleft}
+    \begin{tabular}{l|l|l|l|l|l|l}
+	\hline
+      &	k	&	i	&	t	&	a	&	b&\\
+      &	k	&	u	&	t	&	u	&	b&\\\hline
+      Rule	&&	-i+u	&		&	-a+u	&	&\\        
+    \end{tabular}\\
+    
+    \begin{flushleft}springen $\to$ gesprungen\end{flushleft}
+	\begin{tabular}{l|l|l|l|l|l|l|l|l|l|l}
+    \hline
+     &  & s	&	p	&	r	&i	&	n	&	g	&	e	&	n&\\
+     & ge & s	&	p	&	r &	u	&	n	&	g	&	e	& n&\\\hline
+      Rule &	+g+e&		& &		&-i +u	&  &  &\\        
+    \end{tabular}
+
+    \caption{Sample edits for English \emph{give} $\to$ \emph{gave}, Arabic \emph{kitab} $to$ \emph{kutub} (`book' singular $\to$ plural), and German \emph{springen} $\to$ \emph{gesprungen} (`to jump' infinitival $\to$ past participle). Note that edit rules are applied in a character-by-character manner across the lemma.}
+	\label{fig:edits}
+\end{figure}
+
+% figures to be make
+
+% feature set
+Features for the CRF included a mix of data provided by the task data and surface features from the uninflected lemmas.
+All features were shared across all segments (i.e. at the word level) except for features specific to the the current segment and listed in table \ref{tab:segfeats}.
+Outputs from the CRF were edit operations for each segment of the input lemma.
+After these operations were carried out on their respective segments within the lemma, a fully inflected wordform was the final output from the system.
+The feature set was chosen with insight from previous work.\\
+
+\noindent Full feature set:
+	\begin{itemize}
+      \item Grammatical information -- concatenated
+      \item Grammatical information -- factored
+      \item Character level bigram information -- forwards and backwards
+      \item Character level trigram information -- forwards and backwards
+      \item Character indexes from beginning and end
+      \item Distance from the current character to the beginning of the lemma
+      \item Distance from the current character to the end of the lemma
+      \item Affix type (prefixing, infixing, or suffixing -- circumfixing was not explicitly encoded into the feature set)
+  \end{itemize}
+% sample edit sequence
+\begin{table}
+    \resizebox{0.5\textwidth}{!}{
+	\begin{tabular}{l l l l l}
+    Current	&	Edit	&	Affix 	&	Distance	& Distance\\
+        	&			&	 type	&	 from 		&  from \\   
+            &			&	 		&  beginning	&   end\\\hline
+	start	&	+g+e	&	prefixing	&	0		&	8\\
+	s		&	empty	&	infixing	&	1		&	7\\
+    p		&	empty	&	infixing	&	2		&	6\\
+    r		&	empty	&	infixing	&	3		&	5\\
+    i		&	-u+i	&	infixing	&	4		&	4\\
+    n		&	empty	&	infixing	&	5		&	3\\
+    g		&	empty	&	infixing	&	6		&	2\\
+    e		&	empty	&	infixing	&	7		&	1\\
+    n		&	empty	&	suffixing	&	8		&	0\\
+    \end{tabular}
+    }\\~\\
+    spring $\to$ gesprungen
+    \caption{An example of character-specific features as used by the CRF -- all other features are shared across the entire edit sequence.}
+    \label{tab:segfeats}
+\end{table}
+
+\section*{Results}
+Overall the system performed far better on the development set than the test set.
+It is easiest to summarize the results from table \ref{tab:scores} in terms of the number of edit rules the system had to learn. 
+Languages with under 500 edit rules for the system to learn performed best and only experienced moderate dropoff between the development and test sets.
+Languages with over 500 edit rules to be learned both performed worse and experienced extreme drop offs in some instances. 
+The exception, Turkish, will be discussed below and in the next section.
+
+Languages traditionally used in these tasks, such as German, performed best, while those less often tested in these systems, such as Maltese, seem to be more difficult for the system to accurately predict.
+There was a drastic drop in Navajo, which the task organizers claim to be caused by a dialectal shift between the training, development, and testing data sets, among other reasons. 
+Maltese was not able to be tested since the CRF took 15 days to train, which did not fit within the time allotted for training on the surprise languages.
+The jump in training time for Maltese was not unexpected, given how many unique affixes the training set had, and taking into account the effect that increasing the number of classes a CRF must predict increases its asymptotic complexity quadratically by some measures \cite{cohn2007scaling}. 
+Hungarian, the other surprise language, did not drop as drastically.
+
+\begin{table}
+	\centering
+	\begin{tabular}{l|c c}
+Affix Data Set & Dev & Test\\\hline
+Train	&	-0.764	&	-0.707	\\
+Dev	&	-0.694	&	-0.603	\\
+    \end{tabular}
+    \caption{Correlations of the number of affixes per language in a given data set and the system's accuracy of that language.}
+    \label{tab:correlation}
+\end{table}
+
+\begin{figure}
+	\centering
+      \includegraphics[scale=0.5]{DevAcc}
+      \caption{Aggregate Accuracy over the Development Set}
+      \label{fig:devchart}
+\end{figure}
+\begin{figure}
+	\centering
+      \includegraphics[scale=0.5]{TestAcc}
+      \caption{Aggregate Accuracy over the Test Set}
+      \label{fig:testchart}
+\end{figure}
+\begin{table}
+	\centering
+    \begin{tabular}{l l l}
+        Language    &   Train   &   Dev \\\hline
+        Arabic    &   3.249    &   3.170    \\
+        Finnish    &   1.835    &   1.775    \\
+        Georgian    &   1.464    &   1.474    \\
+        German    &   1.042    &   1.035    \\
+        Hungarian    &   1.559    &   1.536    \\
+        Maltese    &   3.184    &   3.103 \\
+        Navajo    &   3.260    &   3.283 \\
+        Russian    &   1.803    &   1.775    \\
+        Spanish    &   1.495    &   1.474    \\
+        Turkish    &   2.131 &   2.058    \\
+    \end{tabular}
+  \caption{Entropy over affix counts in the training and development data sets.}
+  \label{tab:entropy}
+\end{table}
+
+\section*{Discussion}
+% Discussion -- data sparsity and lack of frequency affects
+The difference in system performance between  development and testing could be interpreted as overfitting.
+That said, overfitting to the development set would show a more universal drop in scores from development to testing than is exhibited here.
+Table \ref{tab:affixes} shows the number of unique affixes the system had to learn.
+As expected, languages traditionally thought to have less complex morphological structure had fewer unique affixes in both training and development sets. 
+This is echoed in table \ref{tab:entropy}, where entropy over the unique affix counts was calculated. 
+
+In addition to a non-uniform drop in accuracy, a strong negative correlation--as seen in table \ref{tab:correlation}--between the number of affixes in the training set and accuracy seems to indicate that data sparsity might explain this phenomenon more fully.
+It appears that data sparsity has a greater effect as the number of affixes increases. 
+
+Certain languages did appear to drop between development and testing more drastically than others. 
+While Finnish, German, Hungarian, Russian, Spanish, and Turkish fell less that 10\%, Navajo and Arabic fell more than 30\% each. 
+Navajo's drop can be explained by the lack of training data. In 6012 training items, there were 684 edit rules that the system had to learn. 
+This ratio of edit rules to wordforms is more than 1:10, which is higher than almost any other language in the task, second only to Maltese. 
+What is particularly interesting is the number of affixes between Turkish and Arabic. 
+
+Although Arabic fell more drastically, Turkish clearly has more affixes in the data set, both by ratio and sheer count, and should perform worse given the previously-mentioned observations about an overall negative correlation between affix number and system performance. 
+It should be taken into consideration that the kinds of morphology in Arabic and Turkish are not entirely analogous.
+Turkish, although agglutinative, is also primarily a suffixing language \cite{lewis2000turkish}, while Modern Standard Arabic is comparatively more non-concatenative. 
+Arabic and Maltese, both of which have high entropies as seen in table \ref{tab:entropy} in additional more non-concatenative morphological structures, also performed worse than Turkish in the development results, which had an entropy more akin to Russian and Finnish.
+This points to the likelihood that non-contatenative morphology is still an issue for sequence alignment algorithms.
+Whether this problem can be solved by using a different algorithm, increasing training data, or by altering the underlying machine learning is beyond the scope of this task.
+
+It should also be noted that, as far as this work is aware, the data sets were not balanced for frequency. 
+Language learners often rotely memorize irregular forms because they do not fit a productive inflectional pattern.
+Luckily, irregular forms usually occur more frequently than wordforms subject to productive morphological rules \cite{bybee1997three,grabowski1995corpus}.
+Since the algorithm ostensibly treats productive and lexicalized forms equally, it would be interesting to see if there were any difference in performance between these datasets and others balanced to account for irregular form frequency.
+
+\begin{table}
+	\centering
+\begin{tabular}{l l l}
+    Language    &   Train   &   Dev \\\hline
+Arabic      &   668     &   260 \\
+Finnish     &   433     &   228 \\
+Georgian    &   149     &   88  \\
+German      &   153     &   83  \\
+Hungarian   &   460     &   279 \\
+Maltese     &   2113    &   787 \\
+Navajo      &   684     &   386 \\
+Russian     &   417     &   170 \\
+Spanish     &   133     &   88  \\
+Turkish     &   823     &   438 \\
+	\end{tabular}
+    \caption{Number of unique affixes in each data set.}
+    \label{tab:affixes}
+
+\end{table}
+\begin{table}
+	\centering
+	\begin{tabular}{l l l}
+Language    & 	Dev    &   Test\\\hline
+Arabic      &0.665     &   0.358\\
+Finnish     &0.759     &   0.728\\
+Georgian    &0.962     &   0.949\\
+German      &0.925     &   0.894\\
+Hungarian   &0.918     &   0.849\\
+Maltese     &0.635     &   N/A\\
+Navajo      &0.865     &   0.279\\
+Russian     &0.824     &   0.761\\
+Spanish     &0.965     &   0.949\\
+Turkish     &0.825     &   0.776\\
+	\end{tabular}
+	\caption{Aggregate Accuracy Across Languages. Maltese required 15 days to train, and was unable to finish before the results were due.}
+	\label{tab:scores}
+\end{table}
+\section*{Conclusion}
+% conclusion -- faster system and more efficient complexity
+Sequence alignment algorithms have proven useful in automatically learning natural language morphology.
+That said, supervised models require exceptional amounts of training data to overcome data sparsity. 
+Given a lack of training data, more traditional finite-state methods might be preferable given enough time to engineer such systems.
+This work has shown that CRF-based sequence alignment models do perform well for languages with lower affix to wordform ratios and unique affix count entropy values. 
+Although there is not enough evidence to overtly reject this work's hypothesis, the evidence does indicate a preference for concatenative morphology by CRF-based sequence alignment models.
+
+\section*{Acknowledgments}
+This work acknowledges the contributions of Micha Elsner for advising and assisting both technically and theoretically, without which this would not have come together.
+This work also thanks the anonymous reviewers for their guidance and insight.
+\bibliographystyle{acl2016}
+\bibliography{bibliography}
+\end{document}

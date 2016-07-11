@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#3
+FinalPaperTitle#=%=#Read my points: Effect of animation type when speech-reading from EMA data
+ShortPaperTitle#=%=#Effect of animation type when speech-reading from EMA data
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Kristy James
+JobTitle#==#
+Organization#==#
+Abstract#==#Three popular vocal-tract animation paradigms were tested for intelligibility
+when displaying videos of pre-recorded Electromagnetic Articulography (EMA)
+data in an online experiment. EMA tracks the position of sensors attached to
+the tongue.
+The conditions were dots with tails (where only the coil location is
+presented), 2D animation (where the dots are connected to form 2D
+representations of the lips, tongue surface and chin), and a 3D model with coil
+locations driving facial and tongue rigs.
+The 2D animation (recorded in VisArtico) showed the highest identification of
+the prompts.
+Author{1}{Firstname}#=%=#Kristy
+Author{1}{Lastname}#=%=#James
+Author{1}{Email}#=%=#kristypjames@gmail.com
+Author{1}{Affiliation}#=%=#University of Groningen
+Author{2}{Firstname}#=%=#Martijn
+Author{2}{Lastname}#=%=#Wieling
+Author{2}{Email}#=%=#wieling@gmail.com
+Author{2}{Affiliation}#=%=#University of Groningen
+
+==========

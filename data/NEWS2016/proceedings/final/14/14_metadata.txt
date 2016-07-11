@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#Evaluating and Combining Name Entity Recognition Systems
+ShortPaperTitle#=%=#Evaluating and Combining Name Entity Recognition Systems
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Ridong Jiang
+JobTitle#==#
+Organization#==#Institute for Infocomm Research (I²R)
+1 Fusionopolis Way, #21-01 Connexis (South Tower), Singapore 138632
+Abstract#==#Name entity recognition (NER) is an important subtask in natural language
+processing. Various NER systems have been developed in the last decade. They
+may target for different domains, employ different methodologies, work on
+different languages, detect different types of entities, and support different
+inputs and output formats. These conditions make it difficult for a user to
+select the right NER tools for a specific task. Motivated by the need of NER
+tools in our research work, we select several publicly available and
+well-established NER tools to validate their outputs against both Wikipedia
+gold standard corpus and a small set of manually annotated documents. All the
+evaluations show consistent results on the selected tools. Finally, we
+constructed a hybrid NER tool by combining the best performing tools for the
+domains of our interest.
+Author{1}{Firstname}#=%=#Ridong
+Author{1}{Lastname}#=%=#Jiang
+Author{1}{Email}#=%=#rjiang@i2r.a-star.edu.sg
+Author{1}{Affiliation}#=%=#Institute for Infocomm Research
+Author{2}{Firstname}#=%=#Rafael E.
+Author{2}{Lastname}#=%=#Banchs
+Author{2}{Email}#=%=#rembanchs@i2r.a-star.edu.sg
+Author{2}{Affiliation}#=%=#Institute for Infocomm Research
+Author{3}{Firstname}#=%=#Haizhou
+Author{3}{Lastname}#=%=#Li
+Author{3}{Email}#=%=#hli@i2r.a-star.edu.sg
+Author{3}{Affiliation}#=%=#Institute for Infocomm Research
+
+==========

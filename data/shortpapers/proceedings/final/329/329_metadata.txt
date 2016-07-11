@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#329
+FinalPaperTitle#=%=#An Unsupervised Method for Automatic Translation Memory Cleaning
+ShortPaperTitle#=%=#An Unsupervised Method for Automatic Translation Memory Cleaning
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Matteo Negri
+JobTitle#==#
+Organization#==#Fondazione Bruno Kessler - FBK, Via Sommarive, 18, 38123 Trento
+Abstract#==#We address the problem of automatically cleaning a large-scale Translation
+Memory (TM) in a fully unsupervised fashion, i.e. without human-labelled data.
+We approach the task by: i) designing a set of features that capture the
+similarity between two text segments in different languages, ii) use them to
+induce reliable training labels for a subset of the translation units
+(TUs) contained in the TM, and iii) use the automatically labelled data to
+train an
+ensemble of binary classifiers. We apply our method to clean a test set
+composed of 1,000 TUs randomly extracted from the English-Italian version of
+MyMemory, the world's largest public TM. Our results show competitive
+performance not only against a strong baseline that exploits machine
+translation, but also against a state-of-the-art method that relies on
+human-labelled data.
+Author{1}{Firstname}#=%=#Masoud
+Author{1}{Lastname}#=%=#Jalili Sabet
+Author{1}{Email}#=%=#jalili.masoud@ut.ac.ir
+Author{1}{Affiliation}#=%=#School of Electrical and Computer Engineering, University of Tehran, Iran
+Author{2}{Firstname}#=%=#Matteo
+Author{2}{Lastname}#=%=#Negri
+Author{2}{Email}#=%=#negri@fbk.eu
+Author{2}{Affiliation}#=%=#Fondazione Bruno Kessler
+Author{3}{Firstname}#=%=#Marco
+Author{3}{Lastname}#=%=#Turchi
+Author{3}{Email}#=%=#marco.turchi@gmail.com
+Author{3}{Affiliation}#=%=#Fondazione Bruno Kessler
+Author{4}{Firstname}#=%=#Eduard
+Author{4}{Lastname}#=%=#Barbu
+Author{4}{Email}#=%=#eduard_barbu@yahoo.com
+Author{4}{Affiliation}#=%=#Translated.net
+
+==========

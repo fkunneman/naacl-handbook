@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#Domain Adaptation for Neural Networks by Parameter Augmentation
+ShortPaperTitle#=%=#Domain Adaptation for Neural Networks by Parameter Augmentation
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Yusuke Watanabe
+JobTitle#==#
+Organization#==#1-7-1 Konan Minato-ku,
+Tokyo, Japan
+Abstract#==#We propose a simple domain adaptation method for neural networks in a
+supervised setting. Supervised domain adaptation is a way of improving the
+generalization performance on the target domain by using the source domain
+dataset, assuming that both of the datasets are labeled. Recently, recurrent
+neural networks have been shown to be successful on a variety of NLP tasks such
+as caption generation; however, the existing domain adaptation techniques are
+limited to (1) tune the model parameters by the target dataset after the
+training by the source dataset, or (2) design the network to have dual output,
+one for the source domain and the other for the target domain. Reformulating
+the idea of the domain adaptation technique proposed by Daume (2007), we
+propose a simple domain adaptation method, which can be applied to neural
+networks trained with a cross-entropy loss. On captioning datasets, we show
+performance improvements over other domain adaptation methods.
+Author{1}{Firstname}#=%=#Yusuke
+Author{1}{Lastname}#=%=#Watanabe
+Author{1}{Email}#=%=#yusukeb.watanabe@jp.sony.com
+Author{1}{Affiliation}#=%=#SONY
+Author{2}{Firstname}#=%=#Kazuma
+Author{2}{Lastname}#=%=#Hashimoto
+Author{2}{Email}#=%=#hassy@logos.t.u-tokyo.ac.jp
+Author{2}{Affiliation}#=%=#University of Tokyo
+Author{3}{Firstname}#=%=#Yoshimasa
+Author{3}{Lastname}#=%=#Tsuruoka
+Author{3}{Email}#=%=#tsuruoka@logos.t.u-tokyo.ac.jp
+Author{3}{Affiliation}#=%=#University of Tokyo
+
+==========

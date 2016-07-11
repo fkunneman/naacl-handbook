@@ -1,0 +1,50 @@
+SubmissionNumber#=%=#1
+FinalPaperTitle#=%=#KSAnswer: Question-answering System of Kangwon National University and Sogang University in the 2016 BioASQ Challenge
+ShortPaperTitle#=%=#KSAnswer: Question-answering System of Kangwon National University and Sogang University in the 2016 BioASQ Challenge
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Harksoo Kim
+JobTitle#==#
+Organization#==#Kangwon National Unicersity, 1 Gangwondaehak-gil, Chuncheon-si, Republic of Korea
+Abstract#==#This paper describes a question–answering system that returns relevant
+documents and snippets (with particular emphasis on snippets) from a large
+medical document collection. The system is implemented as part of our
+participation to Phase A of Task 4b in the 2016 BioASQ Challenge. The proposed
+system retrieves candidate answer sentences using a cluster–based language
+model. Then, it re–ranks the retrieved top-n sentences using five independent
+similarity models based on shallow semantic analysis. The experimental results
+show that the proposed system is the first to find snippets in batches 2 (MAP
+0.0604), 3 (MAP 0.0728), 4 (MAP 0.1182), and 5 (MAP 0.1187).
+Author{1}{Firstname}#=%=#Hyeon-gu
+Author{1}{Lastname}#=%=#Lee
+Author{1}{Email}#=%=#nlphglee@kangwon.ac.kr
+Author{1}{Affiliation}#=%=#Kangwon National University
+Author{2}{Firstname}#=%=#Minkyoung
+Author{2}{Lastname}#=%=#Kim
+Author{2}{Email}#=%=#kmink0817@kangwon.ac.kr
+Author{2}{Affiliation}#=%=#Kangwon National University
+Author{3}{Firstname}#=%=#Harksoo
+Author{3}{Lastname}#=%=#Kim
+Author{3}{Email}#=%=#nlpdrkim@kangwon.ac.kr
+Author{3}{Affiliation}#=%=#Kangwon National University
+Author{4}{Firstname}#=%=#Juae
+Author{4}{Lastname}#=%=#Kim
+Author{4}{Email}#=%=#jju75474@gmail.com
+Author{4}{Affiliation}#=%=#Sogang University
+Author{5}{Firstname}#=%=#Sunjae
+Author{5}{Lastname}#=%=#Kwon
+Author{5}{Email}#=%=#soon91jae@gmail.com
+Author{5}{Affiliation}#=%=#Sogang University
+Author{6}{Firstname}#=%=#Jungyun
+Author{6}{Lastname}#=%=#Seo
+Author{6}{Email}#=%=#seojy@sogang.ac.kr
+Author{6}{Affiliation}#=%=#Sogang University
+Author{7}{Firstname}#=%=#Yi-Reun
+Author{7}{Lastname}#=%=#Kim
+Author{7}{Email}#=%=#yireun.kim@lge.com
+Author{7}{Affiliation}#=%=#LG Electronics
+Author{8}{Firstname}#=%=#Jung-Kyu
+Author{8}{Lastname}#=%=#Choi
+Author{8}{Email}#=%=#stanley.choi@lge.com
+Author{8}{Affiliation}#=%=#LG Electronics
+
+==========

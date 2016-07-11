@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#Correlation-based Intrinsic Evaluation of Word Vector Representations
+ShortPaperTitle#=%=#Correlation-based Intrinsic Evaluation of Word Vector Representations
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Yulia Tsvetkov
+JobTitle#==#
+Organization#==#Carnegie Mellon University
+Abstract#==#We introduce QVEC-CCA—an intrinsic evaluation metric for word vector
+representations based on correlations of learned vectors with features
+extracted from linguistic resources. We show that QVEC-CCA scores are an
+effective proxy for a range of extrinsic semantic and syntactic tasks. We also
+show that the proposed evaluation obtains higher and more consistent
+correlations with downstream tasks, compared to existing approaches to
+intrinsic evaluation of word vectors that are based on word similarity.
+Author{1}{Firstname}#=%=#Yulia
+Author{1}{Lastname}#=%=#Tsvetkov
+Author{1}{Email}#=%=#yulia.tsvetkov@gmail.com
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Manaal
+Author{2}{Lastname}#=%=#Faruqui
+Author{2}{Email}#=%=#manaalfar@gmail.com
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Chris
+Author{3}{Lastname}#=%=#Dyer
+Author{3}{Email}#=%=#cdyer@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

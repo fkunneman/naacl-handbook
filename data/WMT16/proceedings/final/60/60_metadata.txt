@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#60
+FinalPaperTitle#=%=#Bitextor's participation in WMT'16: shared task on document alignment
+ShortPaperTitle#=%=#Document alignment with Bitextor at WMT'16
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Miquel Esplà-Gomis
+JobTitle#==#
+Organization#==#Departament of Software and Computing Systems
+University of Alacant, Carretera de Sant Vicent s/n
+03690 Sant Vicent del Raspeig, Alacant (Spain)
+Abstract#==#This paper describes the participation of Prompsit Language Engineering and the
+Universitat d’Alacant in the shared task on document alignment at the First
+Conference on Machine Translation (WMT 2016). Two systems have been submitted,
+corresponding to two different versions of the tool Bitextor: the last stable
+release, version 4.1, and the newest one, version 5.0. The paper describes the
+main features of each version of the tool and discusses the results obtained on
+the datasets published for the shared task.
+Author{1}{Firstname}#=%=#Miquel
+Author{1}{Lastname}#=%=#Esplà-Gomis
+Author{1}{Email}#=%=#mespla@dlsi.ua.es
+Author{1}{Affiliation}#=%=#Universitat d'Alacant
+Author{2}{Firstname}#=%=#Mikel
+Author{2}{Lastname}#=%=#Forcada
+Author{2}{Email}#=%=#mlf@dlsi.ua.es
+Author{2}{Affiliation}#=%=#Universitat d'Alacant
+Author{3}{Firstname}#=%=#Sergio
+Author{3}{Lastname}#=%=#Ortiz Rojas
+Author{3}{Email}#=%=#sergio@prompsit.com
+Author{3}{Affiliation}#=%=#
+Author{4}{Firstname}#=%=#Jorge
+Author{4}{Lastname}#=%=#Ferrández-Tordera
+Author{4}{Email}#=%=#jferrandez@prompsit.com
+Author{4}{Affiliation}#=%=#Prompsit Language Engineering
+
+==========

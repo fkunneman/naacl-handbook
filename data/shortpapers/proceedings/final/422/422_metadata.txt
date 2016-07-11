@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#422
+FinalPaperTitle#=%=#Coarse-grained Argumentation Features for Scoring Persuasive Essays
+ShortPaperTitle#=%=#Coarse-grained Argumentation Features for Scoring Persuasive Essays
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Debanjan Ghosh
+JobTitle#==#
+Organization#==#
+Abstract#==#Scoring the quality of persuasive essays is an important goal of discourse
+analysis, addressed most recently with high-level persuasion-related features
+such as thesis clarity, or opinions and their targets.              We investigate
+whether
+argumentation features derived from a coarse-grained argumentative structure of
+essays can help predict essays scores. We introduce a set of argumentation
+features related to argument components (e.g., the number of claims and
+premises), argument relations (e.g., the number of supported claims) and
+typology of argumentative structure (chains, trees). We show that these
+features are good predictors of human scores for TOEFL essays, both when the
+coarse-grained argumentative structure is manually annotated and automatically
+predicted.
+Author{1}{Firstname}#=%=#Debanjan
+Author{1}{Lastname}#=%=#Ghosh
+Author{1}{Email}#=%=#debanjan.ghosh@rutgers.edu
+Author{1}{Affiliation}#=%=#Rutgers University
+Author{2}{Firstname}#=%=#Aquila
+Author{2}{Lastname}#=%=#Khanam
+Author{2}{Email}#=%=#ak3654@columbia.edu
+Author{2}{Affiliation}#=%=#Columbia University
+Author{3}{Firstname}#=%=#Yubo
+Author{3}{Lastname}#=%=#Han
+Author{3}{Email}#=%=#yh2635@columbia.edu
+Author{3}{Affiliation}#=%=#Columbia University
+Author{4}{Firstname}#=%=#Smaranda
+Author{4}{Lastname}#=%=#Muresan
+Author{4}{Email}#=%=#smara@ccls.columbia.edu
+Author{4}{Affiliation}#=%=#Columbia University
+
+==========

@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#51
+FinalPaperTitle#=%=#Analysis of Policy Agendas: Lessons Learned from Automatic Topic Classification of Croatian Political Texts
+ShortPaperTitle#=%=#Analysis of Policy Agendas: Lessons Learned from Automatic Topic Classification of Croatian Political Texts
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Jan Snajder
+JobTitle#==#
+Organization#==#University of Zagreb
+Faculty of Electrical Engineering and Computing
+Unska 3
+10000 Zagreb
+Croatia
+Abstract#==#Policy agenda research is concerned with measuring the policymaker activities.
+Topic classification has proven a valuable tool for policy agenda research.
+However, manual topic coding is extremely costly and time-consuming. Supervised
+topic classification offers a cost-effective and reliable alternative, yet it
+introduces new challenges, the most significant of which are the training set
+coding, classifier design, and accuracy-efficiency trade-off.  In this work, we
+address these challenges in the context of the recently launched Croatian
+Policy Agendas project. We describe a new policy agenda dataset, explore the
+many system design choices, and report on the insights gained. Our
+best-performing model reaches 77% and 68% of F1-score for major topics and
+subtopics, respectively.
+Author{1}{Firstname}#=%=#Mladen
+Author{1}{Lastname}#=%=#Karan
+Author{1}{Email}#=%=#mladen.karan@fer.hr
+Author{1}{Affiliation}#=%=#University of Zagreb, Faculty of Electrical Engineering and Computing, Zagreb, Croatia
+Author{2}{Firstname}#=%=#Jan
+Author{2}{Lastname}#=%=#Šnajder
+Author{2}{Email}#=%=#jan.snajder@fer.hr
+Author{2}{Affiliation}#=%=#University of Zagreb, Faculty of Electrical Engineering and Computing, Unska 3, 10000 Zagreb
+Author{3}{Firstname}#=%=#Daniela
+Author{3}{Lastname}#=%=#Sirinic
+Author{3}{Email}#=%=#dsirinic@gmail.com
+Author{3}{Affiliation}#=%=#University of Zagreb
+Author{4}{Firstname}#=%=#Goran
+Author{4}{Lastname}#=%=#Glavaš
+Author{4}{Email}#=%=#gogo.glavas@gmail.com
+Author{4}{Affiliation}#=%=#University of Zagreb
+
+==========

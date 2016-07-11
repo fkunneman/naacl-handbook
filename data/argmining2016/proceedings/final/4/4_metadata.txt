@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Unshared task: (Dis)agreement in online debates
+ShortPaperTitle#=%=#Unshared task: (Dis)agreement in online debates
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Maria Skeppstedt
+JobTitle#==#
+Organization#==#
+Abstract#==#Topic-independent expressions for conveying agreement and disagreement were
+annotated in a corpus of web forum debates, in order to evaluate a classifier
+trained to detect these two categories.  Among the 175              expressions
+annotated
+in the evaluation set, 163 were unique, which shows that there is large
+variation in expressions used. This variation might be one of the reasons why
+the task of automatically detecting the categories was difficult. F-scores of
+0.44 and 0.37 were achieved by a classifier trained on 2,000 debate sentences
+for detecting sentence-level agreement and disagreement.
+Author{1}{Firstname}#=%=#Maria
+Author{1}{Lastname}#=%=#Skeppstedt
+Author{1}{Email}#=%=#mariask@dsv.su.se
+Author{1}{Affiliation}#=%=#Gavagai, Linnaeus University
+Author{2}{Firstname}#=%=#Magnus
+Author{2}{Lastname}#=%=#Sahlgren
+Author{2}{Email}#=%=#mange@gavagai.se
+Author{2}{Affiliation}#=%=#Gavagai
+Author{3}{Firstname}#=%=#Carita
+Author{3}{Lastname}#=%=#Paradis
+Author{3}{Email}#=%=#carita.paradis@englund.lu.se
+Author{3}{Affiliation}#=%=#Centre for Languages and Literature, Lund University
+Author{4}{Firstname}#=%=#Andreas
+Author{4}{Lastname}#=%=#Kerren
+Author{4}{Email}#=%=#andreas.kerren@lnu.se
+Author{4}{Affiliation}#=%=#Computer Science Department, Linnaeus University
+
+==========

@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#Automatic Detection of Intra-Word Code-Switching
+ShortPaperTitle#=%=#Automatic Detection of Intra-Word Code-Switching
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Dong Nguyen
+JobTitle#==#
+Organization#==#University of Twente
+Department EWI
+Researchgroup Human Media Interaction (HMI)
+Zilverling, room 2047 (secretary)
+PO Box 217
+7500 AE Enschede
+The Netherlands
+Abstract#==#Many people are multilingual and they may draw from multiple language varieties
+when writing their messages. This paper is a first step towards analyzing and
+detecting code-switching within words.
+We first segment words into smaller units. Then, words are identified that are
+composed of sequences of subunits associated with different languages. We
+demonstrate our method on Twitter data in which both Dutch and dialect
+varieties labeled  as Limburgish, a minority language, are used.
+Author{1}{Firstname}#=%=#Dong
+Author{1}{Lastname}#=%=#Nguyen
+Author{1}{Email}#=%=#dong.p.ng@gmail.com
+Author{1}{Affiliation}#=%=#University of Twente
+Author{2}{Firstname}#=%=#Leonie
+Author{2}{Lastname}#=%=#Cornips
+Author{2}{Email}#=%=#leonie.cornips@meertens.knaw.nl
+Author{2}{Affiliation}#=%=#Meertens Institute
+
+==========

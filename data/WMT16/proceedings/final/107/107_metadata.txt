@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#107
+FinalPaperTitle#=%=#CobaltF: A Fluent Metric for MT Evaluation
+ShortPaperTitle#=%=#CobaltF: A Fluent Metric for MT Evaluation
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Marina Fomicheva
+JobTitle#==#
+Organization#==#Universitat Pompeu Fabra
+Roc Boronat, 138 
+08018
+Barcelona, Spain
+Abstract#==#The vast majority of Machine Translation (MT) evaluation approaches are based
+on the idea that the closer the MT output is to a human reference translation,
+the higher its quality. While translation quality has two important aspects,
+adequacy and fluency, the existing reference-based metrics are largely focused
+on the former. In this work we combine our metric UPF-Cobalt, originally
+presented at the WMT15 Metrics Task, with a number of features intended to
+capture translation fluency. Experiments show that the integration of
+fluency-oriented features significantly improves the results, rivalling the
+best-performing evaluation metrics on the WMT15  data.
+Author{1}{Firstname}#=%=#Marina
+Author{1}{Lastname}#=%=#Fomicheva
+Author{1}{Email}#=%=#marina.fomicheva@upf.edu
+Author{1}{Affiliation}#=%=#Universitat Pompeu Fabra
+Author{2}{Firstname}#=%=#Núria
+Author{2}{Lastname}#=%=#Bel
+Author{2}{Email}#=%=#nuria.bel@upf.edu
+Author{2}{Affiliation}#=%=#Universitat Pompeu Fabra
+Author{3}{Firstname}#=%=#Lucia
+Author{3}{Lastname}#=%=#Specia
+Author{3}{Email}#=%=#l.specia@sheffield.ac.uk
+Author{3}{Affiliation}#=%=#University of Sheffield
+Author{4}{Firstname}#=%=#Iria
+Author{4}{Lastname}#=%=#da Cunha
+Author{4}{Email}#=%=#iria.dacunha@upf.edu
+Author{4}{Affiliation}#=%=#University Institute for Applied Linguistics (Universitat Pompeu Fabra)
+Author{5}{Firstname}#=%=#Anton
+Author{5}{Lastname}#=%=#Malinovskiy
+Author{5}{Email}#=%=#amalinovskiy@gmail.com
+Author{5}{Affiliation}#=%=#Nuroa Internet S. L.
+
+==========

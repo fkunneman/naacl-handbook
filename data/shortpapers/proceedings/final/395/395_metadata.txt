@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#395
+FinalPaperTitle#=%=#Natural Language Inference by Tree-Based Convolution and Heuristic Matching
+ShortPaperTitle#=%=#Natural Language Inference by Tree-Based Convolution and Heuristic Matching
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Lili Mou
+JobTitle#==#
+Organization#==#
+Abstract#==#In this paper, we propose the TBCNN-pair model to recognize entailment and
+contradiction between two sentences. In our model, a tree-based convolutional
+neural network (TBCNN) captures sentence-level semantics; then heuristic
+matching layers like concatenation, element-wise product/difference combine the
+information in individual sentences. Experimental results show that our model
+outperforms existing sentence encoding-based approaches by a large margin.
+Author{1}{Firstname}#=%=#Lili
+Author{1}{Lastname}#=%=#Mou
+Author{1}{Email}#=%=#doublepower.mou@gmail.com
+Author{1}{Affiliation}#=%=#Peking University
+Author{2}{Firstname}#=%=#Rui
+Author{2}{Lastname}#=%=#Men
+Author{2}{Email}#=%=#menruimr@gmail.com
+Author{2}{Affiliation}#=%=#Peking University
+Author{3}{Firstname}#=%=#Ge
+Author{3}{Lastname}#=%=#Li
+Author{3}{Email}#=%=#lige@sei.pku.edu.cn
+Author{3}{Affiliation}#=%=#Peking University
+Author{4}{Firstname}#=%=#Yan
+Author{4}{Lastname}#=%=#Xu
+Author{4}{Email}#=%=#xuyan14@pku.edu.cn
+Author{4}{Affiliation}#=%=#PKU
+Author{5}{Firstname}#=%=#Lu
+Author{5}{Lastname}#=%=#Zhang
+Author{5}{Email}#=%=#zhanglu@sei.pku.edu.cn
+Author{5}{Affiliation}#=%=#Peking University
+Author{6}{Firstname}#=%=#Rui
+Author{6}{Lastname}#=%=#Yan
+Author{6}{Email}#=%=#rui.yan.pku@gmail.com
+Author{6}{Affiliation}#=%=#Baidu Inc.
+Author{7}{Firstname}#=%=#Zhi
+Author{7}{Lastname}#=%=#Jin
+Author{7}{Email}#=%=#zhijin@sei.pku.edu.cn
+Author{7}{Affiliation}#=%=#Peking University
+
+==========

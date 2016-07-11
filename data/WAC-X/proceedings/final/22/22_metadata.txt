@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#22
+FinalPaperTitle#=%=#EmpiriST 2015: A Shared Task on the Automatic Linguistic Annotation of Computer-Mediated Communication and Web Corpora
+ShortPaperTitle#=%=#Results of the EmpiriST 2015 Shared Task
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Stefan Evert
+JobTitle#==#
+Organization#==#FAU Erlangen-Nürnberg
+Bismarckstr. 6
+91054 Erlangen, Germany
+Abstract#==#This paper describes the goals, design and results of a shared task on the
+automatic linguistic annotation of German language data from genres of
+computer-mediated communication (CMC), social media interactions and Web
+corpora. The two subtasks of tokenization and part-of-speech tagging were
+performed on two data sets: (i) a genuine CMC data set with samples from
+several CMC genres, and (ii) a Web corpora data set of CC-licensed Web pages
+which represents the data found in large corpora crawled from the Web. The
+teams participating in shared task achieved a substantial improvement over
+current off-the-shelf tools for German. The best tokenizer reached an F-score
+of 99.57% (vs. 98.95% off-the-shelf baseline), while the best tagger reached an
+accuracy of 90.44% (vs. 84.86% baseline). The gold standard (more than 20,000
+tokens of training and test data) is freely available online together with
+detailed annotation guidelines.
+Author{1}{Firstname}#=%=#Michael
+Author{1}{Lastname}#=%=#Beißwenger
+Author{1}{Email}#=%=#michael.beisswenger@tu-dortmund.de
+Author{1}{Affiliation}#=%=#TU Dortmund
+Author{2}{Firstname}#=%=#Sabine
+Author{2}{Lastname}#=%=#Bartsch
+Author{2}{Email}#=%=#bartsch@linglit.tu-darmstadt.de
+Author{2}{Affiliation}#=%=#Technische Universität Darmstadt
+Author{3}{Firstname}#=%=#Stefan
+Author{3}{Lastname}#=%=#Evert
+Author{3}{Email}#=%=#stefan.evert@fau.de
+Author{3}{Affiliation}#=%=#FAU Erlangen-Nürnberg
+Author{4}{Firstname}#=%=#Kay-Michael
+Author{4}{Lastname}#=%=#Würzner
+Author{4}{Email}#=%=#wuerzner@bbaw.de
+Author{4}{Affiliation}#=%=#Berlin-Brandenburgische Akademie der Wissenschaften
+
+==========

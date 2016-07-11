@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#327
+FinalPaperTitle#=%=#The red one!: On learning to refer to things based on discriminative properties
+ShortPaperTitle#=%=#The red one!: On learning to refer to things based on discriminative properties
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Angeliki Lazaridou
+JobTitle#==#PhD student
+Organization#==#Palazzo Fedrigotti, C.so Bettini 31, 38068 Rovereto, Italy.
+Abstract#==#As a first step towards agents learning to
+communicate about their visual environment, 
+we propose a system that, given visual representations 
+of a referent (cat) and a context (sofa), identifies their discriminative
+attributes, i.e., properties that distinguish them (has_tail). Moreover, 
+despite the lack of direct supervision at the attribute level, the model
+learns to assign plausible attributes to objects (sofa-has_cushion). Finally,
+we present a preliminary experiment confirming the referential success of the
+predicted discriminative attributes.
+Author{1}{Firstname}#=%=#Angeliki
+Author{1}{Lastname}#=%=#Lazaridou
+Author{1}{Email}#=%=#angeliki.lazaridou@unitn.it
+Author{1}{Affiliation}#=%=#University of Trento
+Author{2}{Firstname}#=%=#Nghia The
+Author{2}{Lastname}#=%=#Pham
+Author{2}{Email}#=%=#thenghia.pham@unitn.it
+Author{2}{Affiliation}#=%=#University of Trento
+Author{3}{Firstname}#=%=#Marco
+Author{3}{Lastname}#=%=#Baroni
+Author{3}{Email}#=%=#marco.baroni@unitn.it
+Author{3}{Affiliation}#=%=#University of Trento
+
+==========

@@ -1,0 +1,48 @@
+SubmissionNumber#=%=#92
+FinalPaperTitle#=%=#Phrase-Based SMT for Finnish with More Data, Better Models and Alternative Alignment and Translation Tools
+ShortPaperTitle#=%=#Phrase-Based SMT for Finnish with More Data, Better Models and Alternative Alignment and Translation Tools
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Jörg Tiedemann
+JobTitle#==#
+Organization#==#University of Helsinki
+P.O. Box 24
+FI-00014 University of Helsinki
+Finland
+Abstract#==#This paper summarises the contributions of the teams at the University of
+Helsinki, Uppsala University and the University of Turku to the news
+translation tasks for translating from and to Finnish. Our models address the
+problem of treating morphology and data coverage in various ways. We introduce
+a new efficient tool for word alignment and discuss factorisations, gappy
+language models and re-inflection techniques for generating proper Finnish
+output. The results demonstrate once again that training data is the most
+effective way to increase translation performance.
+Author{1}{Firstname}#=%=#Jörg
+Author{1}{Lastname}#=%=#Tiedemann
+Author{1}{Email}#=%=#jorg.tiedemann@helsinki.fi
+Author{1}{Affiliation}#=%=#University of Helsinki
+Author{2}{Firstname}#=%=#Fabienne
+Author{2}{Lastname}#=%=#Cap
+Author{2}{Email}#=%=#fabienne.cap@lingfil.uu.se
+Author{2}{Affiliation}#=%=#Uppsala University
+Author{3}{Firstname}#=%=#Jenna
+Author{3}{Lastname}#=%=#Kanerva
+Author{3}{Email}#=%=#jmnybl@utu.fi
+Author{3}{Affiliation}#=%=#University of Turku
+Author{4}{Firstname}#=%=#Filip
+Author{4}{Lastname}#=%=#Ginter
+Author{4}{Email}#=%=#ginter@cs.utu.fi
+Author{4}{Affiliation}#=%=#University of Turku
+Author{5}{Firstname}#=%=#Sara
+Author{5}{Lastname}#=%=#Stymne
+Author{5}{Email}#=%=#sara.stymne@lingfil.uu.se
+Author{5}{Affiliation}#=%=#Uppsala University
+Author{6}{Firstname}#=%=#Robert
+Author{6}{Lastname}#=%=#Östling
+Author{6}{Email}#=%=#robert.ostling@helsinki.fi
+Author{6}{Affiliation}#=%=#Department of Modern Languages, University of Helsinki
+Author{7}{Firstname}#=%=#Marion
+Author{7}{Lastname}#=%=#Weller-Di Marco
+Author{7}{Email}#=%=#wellermn@ims.uni-stuttgart.de
+Author{7}{Affiliation}#=%=#Universität Stuttgart
+
+==========

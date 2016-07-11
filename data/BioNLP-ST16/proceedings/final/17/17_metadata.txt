@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#17
+FinalPaperTitle#=%=#Refactoring the Genia Event Extraction Shared Task Toward a General Framework for IE-Driven KB Development
+ShortPaperTitle#=%=#Refactoring the Genia Event Extraction Shared Task Toward a General Framework for IE-Driven KB Development
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Jin-Dong Kim
+JobTitle#==#
+Organization#==#Database Center for Life Science, Research Organization of Information and Science
+Abstract#==#For its fourth organization as a shared task, the Genia event extraction (GE)
+task is refactored toward a general platform for shared information extraction
+(IE) tasks, and for a IE-driven knowledge base (KB) system. On the newly
+implemented shared task system, the GE task is run as an experimental task.
+Final submissions were made by two systems, through which the functionality of
+the system is thoroughly tested. The paper presents the new shared task system
+and discusses on the final submissions.
+Author{1}{Firstname}#=%=#Jin-Dong
+Author{1}{Lastname}#=%=#Kim
+Author{1}{Email}#=%=#jdkim@dbcls.rois.ac.jp
+Author{1}{Affiliation}#=%=#Database Center for Life Science
+Author{2}{Firstname}#=%=#Yue
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Email}#=%=#wang@dbcls.rois.ac.jp
+Author{2}{Affiliation}#=%=#Database Center for Life Science
+Author{3}{Firstname}#=%=#Nicola
+Author{3}{Lastname}#=%=#Colic
+Author{3}{Email}#=%=#ncolic@access.uzh.ch
+Author{3}{Affiliation}#=%=#University of Zurich
+Author{4}{Firstname}#=%=#Seung Han
+Author{4}{Lastname}#=%=#Beak
+Author{4}{Email}#=%=#tourintocell@gmail.com
+Author{4}{Affiliation}#=%=#Yonsei University
+Author{5}{Firstname}#=%=#Yong Hwan
+Author{5}{Lastname}#=%=#Kim
+Author{5}{Email}#=%=#kimyonghwan81@gmail.com
+Author{5}{Affiliation}#=%=#Yonsei University
+Author{6}{Firstname}#=%=#Min
+Author{6}{Lastname}#=%=#Song
+Author{6}{Email}#=%=#min.song@yonsei.ac.kr
+Author{6}{Affiliation}#=%=#Yonsei University
+
+==========

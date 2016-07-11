@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#64
+FinalPaperTitle#=%=#The RWTH Aachen University English-Romanian Machine Translation System for WMT 2016
+ShortPaperTitle#=%=#The RWTH Aachen University English-Romanian Machine Translation System for WMT 2016
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Jan-Thorsten Peter
+JobTitle#==#
+Organization#==#Human Language Technology and Pattern Recognition, Computer Science Department
+RWTH Aachen University
+52056 Aachen
+Germany
+Abstract#==#This paper describes the statistical machine translation system developed at
+RWTH Aachen University for the English-to-Romanian translation task of the ACL
+2016 First Conference on Machine Translation (WMT 2016).
+We combined three different state-of-the-art systems in a system combination: A
+phrase-based system, a hierarchical phrase-based system and an attention-based
+neural machine translation system. The phrase-based and the hierarchical
+phrase-based systems make use of a language model trained on all available
+data, a language model trained on the bilingual data and a word class language
+model. In addition, we utilized a recurrent neural network language model and a
+bidirectional recurrent neural network translation model for reranking the
+output of both systems. The attention-based neural machine translation system
+was trained using all bilingual data together with the back-translated data
+from the News Crawl 2015 corpora.
+Author{1}{Firstname}#=%=#Jan-Thorsten
+Author{1}{Lastname}#=%=#Peter
+Author{1}{Email}#=%=#peter@cs.rwth-aachen.de
+Author{1}{Affiliation}#=%=#RWTH Aachen University
+Author{2}{Firstname}#=%=#Tamer
+Author{2}{Lastname}#=%=#Alkhouli
+Author{2}{Email}#=%=#alkhouli@cs.rwth-aachen.de
+Author{2}{Affiliation}#=%=#RWTH Aachen University
+Author{3}{Firstname}#=%=#Andreas
+Author{3}{Lastname}#=%=#Guta
+Author{3}{Email}#=%=#guta@cs.rwth-aachen.de
+Author{3}{Affiliation}#=%=#RWTH Aachen University
+Author{4}{Firstname}#=%=#Hermann
+Author{4}{Lastname}#=%=#Ney
+Author{4}{Email}#=%=#ney@cs.rwth-aachen.de
+Author{4}{Affiliation}#=%=#RWTH Aachen University
+
+==========

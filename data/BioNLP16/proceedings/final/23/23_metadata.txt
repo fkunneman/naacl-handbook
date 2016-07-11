@@ -1,0 +1,75 @@
+SubmissionNumber#=%=#23
+FinalPaperTitle#=%=#A Machine Learning Approach to Clinical Terms Normalization
+ShortPaperTitle#=%=#A Machine Learning Approach to Clinical Terms Normalization
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Jose Castano
+JobTitle#==#
+Organization#==#Departamento de Computación, FECyN, UBA
+Abstract#==#We propose a machine learning approach
+for semantic recognition and normalization of clinical term descriptions.
+Clinical terms considered here are noisy descriptions in Spanish language
+written by
+health care professionals in our electronic
+health record system. These description
+terms contain clinical findings, family history, suspected disease, among other
+categories of concepts. Descriptions are
+usually very short texts presenting high
+lexical variability containing synonymy,
+acronyms, abbreviations and typographical errors. Mapping description terms to
+normalized descriptions requires medical
+expertise which makes it difficult to develop a rule-based knowledge
+engineering approach. In order to build a training
+dataset we use those descriptions that have
+been previously matched by terminologists to the hospital thesaurus database.
+We generate a set of feature vectors based
+on pairs of descriptions involving their individual and joint characteristics.
+We propose an unsupervised learning approach to
+discover term equivalence classes including synonyms, abbreviations, acronyms
+and frequent typographical errors. We
+evaluate different combinations of features
+to train MaxEnt and XGBoost models.
+Our system achieves an F 1 score of 89%
+on the Hospital Italiano de Buenos Aires
+(HIBA) problem list.
+Author{1}{Firstname}#=%=#Jose
+Author{1}{Lastname}#=%=#Castano
+Author{1}{Email}#=%=#jcastano@dc.uba.ar
+Author{1}{Affiliation}#=%=#Computer Sciene Dept. , FCEyN, Buenos Aires University
+Author{2}{Firstname}#=%=#María Laura
+Author{2}{Lastname}#=%=#Gambarte
+Author{2}{Email}#=%=#laura.gambarte@hospitalitaliano.org.ar
+Author{2}{Affiliation}#=%=#Hospital Italiano, Buenos Aires
+Author{3}{Firstname}#=%=#Hee Joon
+Author{3}{Lastname}#=%=#Park
+Author{3}{Email}#=%=#hee.park@hospitalitaliano.org.ar
+Author{3}{Affiliation}#=%=#Hospital Italiano, Buenos Aires
+Author{4}{Firstname}#=%=#Maria del Pilar
+Author{4}{Lastname}#=%=#Avila Williams
+Author{4}{Email}#=%=#mariad.avila@hospitalitaliano.org.ar
+Author{4}{Affiliation}#=%=#Hospital Italiano, Buenos Aires
+Author{5}{Firstname}#=%=#David
+Author{5}{Lastname}#=%=#Perez
+Author{5}{Email}#=%=#david.perez@hospitalitaliano.org.ar
+Author{5}{Affiliation}#=%=#Hospital Italiano, Buenos Aires
+Author{6}{Firstname}#=%=#Fernando
+Author{6}{Lastname}#=%=#Campos
+Author{6}{Email}#=%=#fernando.campos@hospitalitaliano.org.ar
+Author{6}{Affiliation}#=%=#Hospital Italiano, Buenos Aires
+Author{7}{Firstname}#=%=#Daniel
+Author{7}{Lastname}#=%=#Luna
+Author{7}{Email}#=%=#daniel.luna@hospitalitaliano.org.ar
+Author{7}{Affiliation}#=%=#Hospital Italiano, Buenos Aires
+Author{8}{Firstname}#=%=#Sonia
+Author{8}{Lastname}#=%=#Benitez
+Author{8}{Email}#=%=#sonia.benitez@hospitalitaliano.org.ar
+Author{8}{Affiliation}#=%=#Hospital Italiano, Buenos Aires
+Author{9}{Firstname}#=%=#Hernan
+Author{9}{Lastname}#=%=#Berinsky
+Author{9}{Email}#=%=#hernan.berinsky@hospitalitaliano.org.ar
+Author{9}{Affiliation}#=%=#Hospital Italiano
+Author{10}{Firstname}#=%=#Sofía
+Author{10}{Lastname}#=%=#Zanetti
+Author{10}{Email}#=%=#sofia.zanetti@hospitalitaliano.org.ar
+Author{10}{Affiliation}#=%=#Hospital Italiano, Buenos Aires
+
+==========

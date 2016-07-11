@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#96
+FinalPaperTitle#=%=#Using Sequence Similarity Networks to Identify Partial Cognates in Multilingual Wordlists
+ShortPaperTitle#=%=#Partial Cognate Detection
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Johann-Mattis List
+JobTitle#==#
+Organization#==#
+Abstract#==#Increasing amounts of digital data in historical linguistics necessitate the
+development of automatic methods for the detection of cognate words across
+languages.  Recently developed methods work well on language families with
+moderate time depths, but they are not capable of identifying cognate morphemes
+in words which are only partially related. Partial cognacy, however, is a
+frequently recurring phenomenon, especially in language families with
+productive derivational morpho- logy. This paper presents a pilot approach for
+partial cognate detection in which networks are used to represent similarities
+between word parts and cognate morphemes are identified with help of
+state-of-the-art algorithms for network partitioning.  The approach is tested
+on a newly created benchmark dataset with data from three sub-branches of
+Sino-Tibetan and yields very promising results, outperforming all algorithms
+which are not sensible to partial cognacy.
+Author{1}{Firstname}#=%=#Johann-Mattis
+Author{1}{Lastname}#=%=#List
+Author{1}{Email}#=%=#mattis.list@lingpy.org
+Author{1}{Affiliation}#=%=#Centre des Recherches Linguistiques sur l'Asie Orientale
+Author{2}{Firstname}#=%=#Philippe
+Author{2}{Lastname}#=%=#Lopez
+Author{2}{Email}#=%=#philippe.lopez@upmc.fr
+Author{2}{Affiliation}#=%=#Université Pierre et Marie Curie
+Author{3}{Firstname}#=%=#Eric
+Author{3}{Lastname}#=%=#Bapteste
+Author{3}{Email}#=%=#epbapteste@gmail.com
+Author{3}{Affiliation}#=%=#Université Pierre et Marie Curie
+
+==========

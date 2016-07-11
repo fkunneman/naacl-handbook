@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#487
+FinalPaperTitle#=%=#Is This Post Persuasive? Ranking Argumentative Comments in Online Forum
+ShortPaperTitle#=%=#Is This Post Persuasive? Ranking Argumentative Comments in Online Forum
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Zhongyu Wei
+JobTitle#==#
+Organization#==#Computer Science Department, The University of Texas at Dallas, Richardson, Texas 75080, USA
+Abstract#==#In this paper we study how to identify persuasive posts in online forum
+discussions, using data from Change My View sub-Reddit. Our analysis confirms
+that the users' voting score for a comment is highly correlated with its
+metadata information such as published time and author reputation. In this
+work, we propose and evaluate other features to rank comments based on their
+persuasive scores, including textual information in the comment and social
+interaction related features. Our experiments show that the surface textual
+features do not perform well compared to the argumentation based features, and
+the social interaction based features are effective especially when more users
+participate in the discussion.
+Author{1}{Firstname}#=%=#Zhongyu
+Author{1}{Lastname}#=%=#Wei
+Author{1}{Email}#=%=#zywei@hlt.utdallas.edu
+Author{1}{Affiliation}#=%=#The University of Texas at Dallas
+Author{2}{Firstname}#=%=#Yang
+Author{2}{Lastname}#=%=#Liu
+Author{2}{Email}#=%=#yangl@hlt.utdallas.edu
+Author{2}{Affiliation}#=%=#University of Texas at Dallas
+Author{3}{Firstname}#=%=#Yi
+Author{3}{Lastname}#=%=#Li
+Author{3}{Email}#=%=#yili@hlt.utdallas.edu
+Author{3}{Affiliation}#=%=#University of Texas at Dallas
+
+==========

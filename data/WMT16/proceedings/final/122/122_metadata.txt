@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#122
+FinalPaperTitle#=%=#CUNI-LMU Submissions in WMT2016: Chimera Constrained and Beaten
+ShortPaperTitle#=%=#CUNI-LMU Submissions in WMT2016: Chimera Constrained and Beaten
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Roman Sudarikov
+JobTitle#==#
+Organization#==#Institute of Formal and Applied Linguistics, Charles University in Prague, Faculty of Mathematics and Physics
+Malostranské náměstí 25 
+118 00 Praha 
+Czech Republic
+Abstract#==#This paper describes the phrase-based systems jointly submitted by CUNI and LMU
+to English-Czech and English-Romanian News translation tasks of WMT16. In 
+contrast to previous years, we strictly limited our training data to the
+constraint datasets, to allow for a reliable comparison with other research
+systems. We experiment with using several additional models in our system,
+including a feature-rich discriminative model of phrasal translation.
+Author{1}{Firstname}#=%=#Aleš
+Author{1}{Lastname}#=%=#Tamchyna
+Author{1}{Email}#=%=#tamchyna@ufal.mff.cuni.cz
+Author{1}{Affiliation}#=%=#Charles University in Prague, UFAL MFF
+Author{2}{Firstname}#=%=#Roman
+Author{2}{Lastname}#=%=#Sudarikov
+Author{2}{Email}#=%=#sudarikov@ufal.mff.cuni.cz
+Author{2}{Affiliation}#=%=#Charles University in Prague, Faculty of Mathematics and Physics
+Author{3}{Firstname}#=%=#Ondřej
+Author{3}{Lastname}#=%=#Bojar
+Author{3}{Email}#=%=#bojar@ufal.mff.cuni.cz
+Author{3}{Affiliation}#=%=#Charles University in Prague, Faculty of Mathematics and Physics
+Author{4}{Firstname}#=%=#Alexander
+Author{4}{Lastname}#=%=#Fraser
+Author{4}{Email}#=%=#fraser@cis.uni-muenchen.de
+Author{4}{Affiliation}#=%=#Ludwig-Maximilians-Universität München
+
+==========

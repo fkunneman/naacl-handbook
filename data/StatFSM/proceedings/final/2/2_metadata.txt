@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#EM-Training for Weighted Aligned Hypergraph Bimorphisms
+ShortPaperTitle#=%=#EM-Training for Weighted Aligned Hypergraph Bimorphisms
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Kilian Gebhardt
+JobTitle#==#
+Organization#==#Department of Computer Science
+Technische Universität Dresden
+D-01062 Dresden
+Abstract#==#We develop the concept of weighted aligned hypergraph bimorphism where the
+weights may, in particular, represent probabilities. Such a bimorphism consists
+of an bilities. Such a bimorphism consists of an R≥0-weighted regular tree
+grammar, two hypergraph algebras that interpret the generated trees, and a
+family of alignments between the two interpretations. Semantically, this yields
+a set of bihypergraphs each consisting of two hypergraphs and an explicit
+alignment between them; e.g., discontinuous phrase structures and
+non-projective dependency structures are bihypergraphs. We present an
+EM-training algorithm which takes a corpus of bihypergraphs and an aligned
+hypergraph bimorphism as input and generates a sequence of weight assignments
+which converges to a local maximum or saddle point of the likelihood function
+of the corpus.
+Author{1}{Firstname}#=%=#Frank
+Author{1}{Lastname}#=%=#Drewes
+Author{1}{Email}#=%=#drewes@cs.umu.se
+Author{1}{Affiliation}#=%=#Umeå University
+Author{2}{Firstname}#=%=#Kilian
+Author{2}{Lastname}#=%=#Gebhardt
+Author{2}{Email}#=%=#kilian.gebhardt@tu-dresden.de
+Author{2}{Affiliation}#=%=#Technische Universität Dresden
+Author{3}{Firstname}#=%=#Heiko
+Author{3}{Lastname}#=%=#Vogler
+Author{3}{Email}#=%=#heiko.vogler@tu-dresden.de
+Author{3}{Affiliation}#=%=#Technische Universitaet Dresden
+
+==========

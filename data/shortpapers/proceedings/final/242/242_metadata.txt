@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#242
+FinalPaperTitle#=%=#Improving Statistical Machine Translation Performance by Oracle-BLEU Model Re-estimation
+ShortPaperTitle#=%=#Improving Statistical Machine Translation Performance by Oracle-BLEU Model Re-estimation
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#PRAVEEN DAKWALE
+JobTitle#==#
+Organization#==#Informatics Institute, University of Amsterdam, Science Park 904, Amsterdam, The Netherlands
+Abstract#==#We present a novel technique for training translation models for statistical
+machine translation by aligning source sentences to their oracle-BLEU
+translations. In contrast to previous approaches which are constrained to
+phrase training, our method also allows the re-estimation of re-ordering models
+along with the translation model. Experiments show an improvement of up to 0.8
+BLEU for our approach over a competitive Arabic-English baseline trained
+directly on the word-aligned bitext using heuristic extraction. As an
+additional benefit, the phrase table size is reduced dramatically to only 3% of
+the original size.
+Author{1}{Firstname}#=%=#Praveen
+Author{1}{Lastname}#=%=#Dakwale
+Author{1}{Email}#=%=#P.Dakwale@uva.nl
+Author{1}{Affiliation}#=%=#University of Amsterdam
+Author{2}{Firstname}#=%=#Christof
+Author{2}{Lastname}#=%=#Monz
+Author{2}{Email}#=%=#c.monz@uva.nl
+Author{2}{Affiliation}#=%=#University of Amsterdam
+
+==========

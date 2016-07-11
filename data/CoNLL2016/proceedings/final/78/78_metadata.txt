@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#78
+FinalPaperTitle#=%=#context2vec: Learning Generic Context Embedding with Bidirectional LSTM
+ShortPaperTitle#=%=#context2vec: Learning Generic Context Embedding with Bidirectional LSTM
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Oren Melamud
+JobTitle#==#PhD student
+Organization#==#Bar Ilan University
+Abstract#==#Context representations are central to various NLP tasks, such as word sense
+disambiguation, named entity recognition, co-reference resolution, and many
+more. In this work we present a neural model for efficiently learning a generic
+context embedding function from large corpora, using bidirectional LSTM. With a
+very simple application of our context representations, we manage to surpass or
+nearly reach state-of-the-art results on sentence completion, lexical
+substitution and word sense disambiguation tasks, while substantially
+outperforming the popular context representation of averaged word embeddings.
+We release our code and pre-trained models, suggesting they could be useful in
+a wide variety of NLP tasks.
+Author{1}{Firstname}#=%=#Oren
+Author{1}{Lastname}#=%=#Melamud
+Author{1}{Email}#=%=#melamuo@cs.biu.ac.il
+Author{1}{Affiliation}#=%=#Bar Ilan University
+Author{2}{Firstname}#=%=#Jacob
+Author{2}{Lastname}#=%=#Goldberger
+Author{2}{Email}#=%=#jacob.goldberger@biu.ac.il
+Author{2}{Affiliation}#=%=#Bar-Ilan University
+Author{3}{Firstname}#=%=#Ido
+Author{3}{Lastname}#=%=#Dagan
+Author{3}{Email}#=%=#dagan@cs.biu.ac.il
+Author{3}{Affiliation}#=%=#Bar-Ilan University
+
+==========

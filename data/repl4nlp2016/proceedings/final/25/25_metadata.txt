@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#25
+FinalPaperTitle#=%=#Learning Semantic Relatedness in Community Question Answering Using Neural Models
+ShortPaperTitle#=%=#Learning Semantic Relatedness in Community Question Answering Using Neural Models
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Henry Nassif
+JobTitle#==#
+Organization#==#MIT Computer Science and Artificial Intelligence Lab, Cambridge, MA 02139
+Abstract#==#Community Question Answering forums, such as Quora and Stackoverflow contain
+millions of questions and answers. Automatically finding the relevant questions
+from the existing questions and finding the relevant answers to a new question
+are Natural Language Processing tasks. In this paper, we aim to address these
+tasks, which we refer to as similar-Question Retrieval and Answer Selection. We
+present a neural-based model with stacked bidirectional LSTMs and MLPs to
+address these tasks. The model generates the vector representations of the
+question-question or question-answer pairs and computes their semantic
+similarity scores, which are then employed to rank and predict relevancies.
+Extensive experiments demonstrate our results outperform the baselines.
+Author{1}{Firstname}#=%=#Henry
+Author{1}{Lastname}#=%=#Nassif
+Author{1}{Email}#=%=#hnassif@mit.edu
+Author{1}{Affiliation}#=%=#MIT
+Author{2}{Firstname}#=%=#Mitra
+Author{2}{Lastname}#=%=#Mohtarami
+Author{2}{Email}#=%=#mitra@csail.mit.edu
+Author{2}{Affiliation}#=%=#MIT Computer Science and Artificial Intelligence Lab
+Author{3}{Firstname}#=%=#James
+Author{3}{Lastname}#=%=#Glass
+Author{3}{Email}#=%=#glass@mit.edu
+Author{3}{Affiliation}#=%=#Massachusetts Institute of Technology
+
+==========

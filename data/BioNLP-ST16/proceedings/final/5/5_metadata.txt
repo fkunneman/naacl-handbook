@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#5
+FinalPaperTitle#=%=#VERSE: Event and Relation Extraction in the BioNLP 2016 Shared Task
+ShortPaperTitle#=%=#VERSE: Event and Relation Extraction in the BioNLP 2016 Shared Task
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Jake Lever
+JobTitle#==#
+Organization#==#University of British Columbia, 2329 West Mall, Vancouver, BC V6T 1Z4
+Abstract#==#We present the Vancouver Event and Relation System for Extraction (VERSE) as a
+competing system for three subtasks of the BioNLP Shared Task 2016. VERSE
+performs full event extraction including entity, relation and modification
+extraction using a feature-based approach with a linear support vector machine
+(SVM).It achieved the highest F1-score in the Bacteria Biotope (BB3)
+event subtask and the third highest F1-score in the Seed Development (SeeDev)
+binary subtask.
+Author{1}{Firstname}#=%=#Jake
+Author{1}{Lastname}#=%=#Lever
+Author{1}{Email}#=%=#jake.lever@gmail.com
+Author{1}{Affiliation}#=%=#University of British Columbia
+Author{2}{Firstname}#=%=#Steven JM
+Author{2}{Lastname}#=%=#Jones
+Author{2}{Email}#=%=#sjones@bcgsc.ca
+Author{2}{Affiliation}#=%=#Canada's Michael Smith Genome Science Centre
+
+==========

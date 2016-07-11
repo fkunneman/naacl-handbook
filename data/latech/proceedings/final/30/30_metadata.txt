@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#30
+FinalPaperTitle#=%=#Dealing with word-internal modification and spelling variation in data-driven lemmatization
+ShortPaperTitle#=%=#Word-internal modification and spelling variation in lemmatization
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Fabian Barteld
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper describes our contribution to two challenges in data-driven
+lemmatization. We approach lemmatization in the framework of a two-stage
+process, where first lemma candidates are generated and afterwards a ranker
+chooses the most probable lemma from these candidates. The first challenge is
+that languages with rich morphology like Modern German can feature
+morphological changes of different kinds, in particular word-internal
+modification. This makes the generation of the correct lemma a harder task than
+just removing suffixes (stemming). The second challenge that we address is
+spelling variation as it appears in non-standard texts. We experiment with
+different generators that
+are specifically tailored to deal with these two challenges. We show in an
+oracle
+setting that there is a possible increase in lemmatization accuracy of 14% with
+our methods to generate lemma candidates on Middle Low German, a group of
+historical dialects of German (1200–1650 AD). Using a log-linear model to
+choose the correct lemma from the set, we obtain an actual increase of 5.56%.
+Author{1}{Firstname}#=%=#Fabian
+Author{1}{Lastname}#=%=#Barteld
+Author{1}{Email}#=%=#fabian.barteld@uni-hamburg.de
+Author{1}{Affiliation}#=%=#Universität Hamburg
+Author{2}{Firstname}#=%=#Ingrid
+Author{2}{Lastname}#=%=#Schröder
+Author{2}{Email}#=%=#ingrid.schroeder@uni-hamburg.de
+Author{2}{Affiliation}#=%=#Universität Hamburg
+Author{3}{Firstname}#=%=#Heike
+Author{3}{Lastname}#=%=#Zinsmeister
+Author{3}{Email}#=%=#heike.zinsmeister@uni-hamburg.de
+Author{3}{Affiliation}#=%=#University of Hamburg
+
+==========

@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#17
+FinalPaperTitle#=%=#Exploring Different Preposition Sets, Models and Feature Sets in Automatic Generation of Spatial Image Descriptions
+ShortPaperTitle#=%=#Exploring Different Preposition Sets, Models and Feature Sets in Automatic Generation of Spatial Image Descriptions
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#A Belz
+JobTitle#==#
+Organization#==#
+Abstract#==#In this paper we look at the question of how to create good automatic meth- ods
+for generating descriptions of spatial relationships between objects in images.
+In particular, we investigate the impact of varying different aspects of
+automatic method development, including using dif- ferent preposition sets,
+models and feature sets. We find that optimising the preposi- tion set improves
+previous best Accuracy from 46.2 to 50.2. Feature set optimisa- tion further
+improves best Accuracy from 50.2 to 53.25. Naive Bayes models out- perform SVMs
+and decision trees under all conditions tested. The utility of individual
+features depends on the model used, but the most useful features tend to
+capture a property pertaining to both objects jointly.
+Author{1}{Firstname}#=%=#Anja
+Author{1}{Lastname}#=%=#Belz
+Author{1}{Email}#=%=#a.s.belz@brighton.ac.uk
+Author{1}{Affiliation}#=%=#University of Brighton
+Author{2}{Firstname}#=%=#Adrian
+Author{2}{Lastname}#=%=#Muscat
+Author{2}{Email}#=%=#adrian.muscat@um.edu.mt
+Author{2}{Affiliation}#=%=#University of Malta
+Author{3}{Firstname}#=%=#Brandon
+Author{3}{Lastname}#=%=#Birmingham
+Author{3}{Email}#=%=#a.s.belz@brighton.ac.uk
+Author{3}{Affiliation}#=%=#University of Malta
+
+==========

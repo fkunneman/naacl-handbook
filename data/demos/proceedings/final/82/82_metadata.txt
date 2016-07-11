@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#82
+FinalPaperTitle#=%=#ccg2lambda: A Compositional Semantics System
+ShortPaperTitle#=%=#ccg2lambda: A Compositional Semantics System
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Pascual Martinez-Gomez
+JobTitle#==#
+Organization#==#Artificial Intelligence Research Center, National Institute of Advanced Industrial Science and Technology
+Abstract#==#We demonstrate a simple and easy-to-use system to produce logical semantic
+representations of sentences. Our software operates by composing semantic
+formulas bottom-up given a CCG parse tree. It uses flexible semantic templates
+to specify semantic patterns. Templates for English and Japanese accompany our
+software, and they are easy to understand, use and extend to cover other
+linguistic phenomena or languages.  We also provide scripts to use our semantic
+representations in a textual entailment task, and a visualization tool to
+display semantically augmented CCG trees in HTML.
+Author{1}{Firstname}#=%=#Pascual
+Author{1}{Lastname}#=%=#Martínez-Gómez
+Author{1}{Email}#=%=#pascual.mg@aist.go.jp
+Author{1}{Affiliation}#=%=#National Institute of Advanced Industrial Science and Technology (AIST)
+Author{2}{Firstname}#=%=#Koji
+Author{2}{Lastname}#=%=#Mineshima
+Author{2}{Email}#=%=#mineshima.koji@ocha.ac.jp
+Author{2}{Affiliation}#=%=#Ochanomizu University
+Author{3}{Firstname}#=%=#Yusuke
+Author{3}{Lastname}#=%=#Miyao
+Author{3}{Email}#=%=#yusuke@nii.ac.jp
+Author{3}{Affiliation}#=%=#National Instutite of Informatics
+Author{4}{Firstname}#=%=#Daisuke
+Author{4}{Lastname}#=%=#Bekki
+Author{4}{Email}#=%=#bekki@is.ocha.ac.jp
+Author{4}{Affiliation}#=%=#Ochanomizu University
+
+==========

@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#40
+FinalPaperTitle#=%=#Conversion from Paninian Karakas to Universal Dependencies for Hindi Dependency Treebank
+ShortPaperTitle#=%=#Conversion from Paninian Karakas to Universal Dependencies for Hindi Dependency Treebank
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Riyaz Ahmad Bhat
+JobTitle#==#
+Organization#==#Language Technologies Research Centre, International Institute of Information Technology, Hyderabad 500 032, India
+Abstract#==#Universal Dependencies (UD) are gaining much attention of late, for systematic
+evaluation of cross-lingual techniques for cross-lingual dependency parsing. In
+this paper we present our work in line with UD. Our contribution to this, is
+manifold.
+ We extend UD to Indian languages through translation of Paninian Dependencies
+to UD for Hindi Dependency Treebank (HDTB). We discuss the differences in
+annotation in both the schemes, present parsing experiments for both the
+formalisms and empirically evaluate their weaknesses and strengths for Hindi.
+We produce an automatically converted Hindi Treebank conforming to the
+international standard UD scheme, making it useful as a resource for
+multilingual language technology.
+Author{1}{Firstname}#=%=#Juhi
+Author{1}{Lastname}#=%=#Tandon
+Author{1}{Email}#=%=#juhitandon0@gmail.com
+Author{1}{Affiliation}#=%=#Language Technologies Research Center, International Institute of Information Technology, Gachibowli, Hyderabad, India 500 032
+Author{2}{Firstname}#=%=#Himani
+Author{2}{Lastname}#=%=#Chaudhry
+Author{2}{Email}#=%=#himanic@gmail.com
+Author{2}{Affiliation}#=%=#International Institute of Information Technology-Hyderabad
+Author{3}{Firstname}#=%=#Riyaz Ahmad
+Author{3}{Lastname}#=%=#Bhat
+Author{3}{Email}#=%=#riyaz.ah.bhat@gmail.com
+Author{3}{Affiliation}#=%=#LTRC, IIIT Hyderabad, Andhra Pradesh
+Author{4}{Firstname}#=%=#Dipti
+Author{4}{Lastname}#=%=#Sharma
+Author{4}{Email}#=%=#diptims@gmail.com
+Author{4}{Affiliation}#=%=#IIIT, Hyderabad
+
+==========

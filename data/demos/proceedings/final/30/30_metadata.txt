@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#30
+FinalPaperTitle#=%=#POLYGLOT: Multilingual Semantic Role Labeling with Unified Labels
+ShortPaperTitle#=%=#POLYGLOT: Multilingual Semantic Role Labeling with Unified Labels
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Alan Akbik
+JobTitle#==#
+Organization#==#IBM Research Almaden, 650 Harry Rd, San Jose, CA 95120
+Abstract#==#Semantic role labeling (SRL) identifies the predicate-argument structure in
+text with semantic labels. It plays a key role in understanding natural
+language. In this paper, we present POLYGLOT, a multilingual semantic role
+labeling system capable of semantically parsing sentences in 9 different
+languages from 4 different language groups. The core of POLYGLOT are SRL models
+for individual languages trained with automatically generated Proposition Banks
+(Akbik et al., 2015). The key feature of the system is that it treats the
+semantic labels of the English Proposition Bank as “universal semantic
+labels”: Given a sentence in any of the supported languages, POLYGLOT applies
+the corresponding SRL and predicts English PropBank frame and role annotation.
+The results are then visualized to facilitate the understanding of multilingual
+SRL with this unified semantic representation.
+Author{1}{Firstname}#=%=#Alan
+Author{1}{Lastname}#=%=#Akbik
+Author{1}{Email}#=%=#alanweissbart@gmail.com
+Author{1}{Affiliation}#=%=#IBM Research
+Author{2}{Firstname}#=%=#Yunyao
+Author{2}{Lastname}#=%=#Li
+Author{2}{Email}#=%=#yunyaoli@us.ibm.com
+Author{2}{Affiliation}#=%=#IBM Research - Almaden
+
+==========

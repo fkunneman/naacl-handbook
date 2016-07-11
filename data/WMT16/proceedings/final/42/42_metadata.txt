@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#42
+FinalPaperTitle#=%=#English-French Document Alignment Based on Keywords and Statistical Translation
+ShortPaperTitle#=%=#English-French Document Alignment Based on Keywords and Statistical Translation
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Marek Medveď
+JobTitle#==#corpus specialist
+Organization#==#Lexical Computing CZ s.r.o., Botanická 68a 602 00 Brno
+Abstract#==#In this paper we present our approach to the Bilingual Document Alignment Task
+(WMT16), where the main
+goal was to reach the best recall on extracting aligned pages within the
+provided data. 
+
+Our approach consists of tree main parts: data preprocessing, keyword
+extraction and text pairs scoring based on keyword matching. 
+
+For text preprocessing we use the TreeTagger pipeline that contains the Unitok
+tool for tokenization and the TreeTagger morphological analyzer.
+
+After keywords extraction from the texts according TF-IDF scoring our system
+searches for comparable English-French pairs. Using a statistical 
+dictionary created from a large English-French parallel corpus, the system is
+able to find comaparable documents.
+
+At the end this procedure is combined with the baseline algorithm and best
+one-to-one pairing is selected. The result
+reaches 91.6% recall on provided training data.
+
+After a deep error analysis the recall reached 97.4%.
+Author{1}{Firstname}#=%=#Marek
+Author{1}{Lastname}#=%=#Medveď
+Author{1}{Email}#=%=#marek.medved3@gmail.com
+Author{1}{Affiliation}#=%=#Faculty of Informatics, Masaryk University
+Author{2}{Firstname}#=%=#Miloš
+Author{2}{Lastname}#=%=#Jakubícek
+Author{2}{Email}#=%=#milos.jakubicek@sketchengine.co.uk
+Author{2}{Affiliation}#=%=#Lexical Computing CZ
+Author{3}{Firstname}#=%=#Vojtech
+Author{3}{Lastname}#=%=#Kovár
+Author{3}{Email}#=%=#vojtech.kovar@sketchengine.co.uk
+Author{3}{Affiliation}#=%=#Lexical Computing CZ
+
+==========

@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#89
+FinalPaperTitle#=%=#Cross-Lingual Pronoun Prediction with Deep Recurrent Neural Networks
+ShortPaperTitle#=%=#Cross-Lingual Pronoun Prediction with Deep Recurrent Neural Networks
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Juhani Luotolahti
+JobTitle#==#
+Organization#==#University Of Turku, FI-20014 TURKU, FINLAND
+Abstract#==#In this paper we present our winning system in the WMT16 Shared Task on Cross-
+Lingual Pronoun Prediction, where the objective is to predict a missing target
+language pronoun based on the target and source sentences. Our system is a deep
+recurrent neural network, which reads both the source language and target
+language context with a softmax layer making the final prediction. Our system
+achieves the best macro recall on all four languages. The margin to the next
+best system ranges between less than 1pp and almost 12pp depending on the
+language pair.
+Author{1}{Firstname}#=%=#Juhani
+Author{1}{Lastname}#=%=#Luotolahti
+Author{1}{Email}#=%=#mjluot@utu.fi
+Author{1}{Affiliation}#=%=#University Of Turku
+Author{2}{Firstname}#=%=#Jenna
+Author{2}{Lastname}#=%=#Kanerva
+Author{2}{Email}#=%=#jmnybl@utu.fi
+Author{2}{Affiliation}#=%=#University of Turku
+Author{3}{Firstname}#=%=#Filip
+Author{3}{Lastname}#=%=#Ginter
+Author{3}{Email}#=%=#ginter@cs.utu.fi
+Author{3}{Affiliation}#=%=#University of Turku
+
+==========

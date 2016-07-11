@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Functional Distributional Semantics
+ShortPaperTitle#=%=#Functional Distributional Semantics
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Guy Emerson
+JobTitle#==#
+Organization#==#
+Abstract#==#Vector space models have become popular in distributional semantics, despite
+the challenges they face in capturing various semantic phenomena. We propose a
+novel probabilistic framework which draws on both formal semantics and recent
+advances in machine learning. In particular, we separate predicates from the
+entities they refer to, allowing us to perform Bayesian inference based on
+logical forms. We describe an implementation of this framework using a
+combination of Restricted Boltzmann Machines and feedforward neural networks.
+Finally, we demonstrate the feasibility of this approach by training it on a
+parsed corpus and evaluating it on established similarity datasets.
+Author{1}{Firstname}#=%=#Guy
+Author{1}{Lastname}#=%=#Emerson
+Author{1}{Email}#=%=#gete2@cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Ann
+Author{2}{Lastname}#=%=#Copestake
+Author{2}{Email}#=%=#ann.copestake@cl.cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+
+==========

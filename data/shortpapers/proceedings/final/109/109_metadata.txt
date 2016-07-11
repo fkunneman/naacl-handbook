@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#109
+FinalPaperTitle#=%=#Unsupervised morph segmentation and statistical language models for vocabulary expansion
+ShortPaperTitle#=%=#Unsupervised morph segmentation and statistical language models for vocabulary expansion
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Matti Varjokallio
+JobTitle#==#
+Organization#==#Department of Signal Processing and Acoustics
+School of Electrical Engineering
+Otakaari 5
+Espoo, Finland
+Abstract#==#This work explores the use of unsupervised morph segmentation along with
+statistical language models for the task of vocabulary expansion. Unsupervised
+vocabulary expansion has large potential for improving vocabulary coverage and
+performance in different natural language processing tasks, especially in
+less-resourced settings on morphologically rich languages. We propose a
+combination of unsupervised morph segmentation and statistical language models
+and evaluate on languages from the Babel corpus. The method is shown to perform
+well for all the evaluated languages when compared to the previous work on the
+task.
+Author{1}{Firstname}#=%=#Matti
+Author{1}{Lastname}#=%=#Varjokallio
+Author{1}{Email}#=%=#matti.varjokallio@aalto.fi
+Author{1}{Affiliation}#=%=#Aalto University
+Author{2}{Firstname}#=%=#Dietrich
+Author{2}{Lastname}#=%=#Klakow
+Author{2}{Email}#=%=#dietrich.klakow@lsv.uni-saarland.de
+Author{2}{Affiliation}#=%=#Saarland University
+
+==========

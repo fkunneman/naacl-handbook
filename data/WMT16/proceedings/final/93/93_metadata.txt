@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#93
+FinalPaperTitle#=%=#The ILSP/ARC submission to the WMT 2016 Bilingual Document Alignment Shared Task
+ShortPaperTitle#=%=#The ILSP/ARC submission to the WMT 2016 Bilingual Document Alignment Shared Task
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Prokopis Prokopidis
+JobTitle#==#Scientific Associate
+Organization#==#Institute for Language and Speech Processing
+Athena Research and Innovation Center
+Artemidos 6 & Epidavrou
+GR-151 25 Maroussi, Athens
+Greece
+Abstract#==#This paper describes ILSP-ARC-pv42, the Institute for Language and Speech
+Processing/Athena Research and Innovation Center submission for the WMT 2016
+Bilingual Document Alignment shared task. We describe several document and
+collection-aware features that our system explored in the context of the task.
+On the test dataset, our submission achieved a recall of 84.93%, even though it
+does not make use of any language-specific resources like bilingual lexica or
+MT output. Instead, our system is based on shallow features (including links to
+documents in the same webdomain, URLs, digits, image filenames and HTML
+structure) that can be easily extracted from web documents. We also present
+examples to show that when de-duplication issues in the test dataset are
+properly addressed, our system reaches a significantly higher recall of 92.5%.
+Author{1}{Firstname}#=%=#Vassilis
+Author{1}{Lastname}#=%=#Papavassiliou
+Author{1}{Email}#=%=#vpapa@ilsp.gr
+Author{1}{Affiliation}#=%=#Institute for Language and Speech Processing/Athena RC
+Author{2}{Firstname}#=%=#Prokopis
+Author{2}{Lastname}#=%=#Prokopidis
+Author{2}{Email}#=%=#prokopis@ilsp.gr
+Author{2}{Affiliation}#=%=#Institute for Language and Speech Processing/Athena RC
+Author{3}{Firstname}#=%=#Stelios
+Author{3}{Lastname}#=%=#Piperidis
+Author{3}{Email}#=%=#spip@ilsp.gr
+Author{3}{Affiliation}#=%=#Athena RC/ILSP
+
+==========

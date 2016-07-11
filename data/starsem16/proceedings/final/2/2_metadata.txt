@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#Quantificational features in distributional word representations
+ShortPaperTitle#=%=#Quantificational features in distributional word representations
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Tal Linzen
+JobTitle#==#
+Organization#==#Ecole Normale Superieure
+Abstract#==#Do distributional word representations encode the linguistic regularities that
+theories of meaning argue they should encode? We address this question in the
+case of the logical properties (monotonicity, force) of quantificational words
+such as "everything" (in the object domain) and "always" (in the time domain).
+Using the vector offset approach to solving word analogies, we find that the
+skip-gram model of distributional semantics behaves in a way that is remarkably
+consistent with encoding these features in some domains, with accuracy
+approaching 100%, especially with medium-sized context windows. Accuracy in
+others domains was less impressive. We compare the performance of the model to
+the behavior of human participants, and find that humans performed well even
+where the models struggled.
+Author{1}{Firstname}#=%=#Tal
+Author{1}{Lastname}#=%=#Linzen
+Author{1}{Email}#=%=#tal.linzen@ens.fr
+Author{1}{Affiliation}#=%=#Laboratoire de Sciences Cognitives et Psycholinguistique & Institut Jean Nicod, ENS, PSL Research University
+Author{2}{Firstname}#=%=#Emmanuel
+Author{2}{Lastname}#=%=#Dupoux
+Author{2}{Email}#=%=#emmanuel.dupoux@gmail.com
+Author{2}{Affiliation}#=%=#Ecole des Hautes Etudes en Sciences Sociales
+Author{3}{Firstname}#=%=#Benjamin
+Author{3}{Lastname}#=%=#Spector
+Author{3}{Email}#=%=#benjamin.spector@ens.fr
+Author{3}{Affiliation}#=%=#Institut Jean Nicod
+
+==========

@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#57
+FinalPaperTitle#=%=#Translation Quality Estimation using Recurrent Neural Network
+ShortPaperTitle#=%=#Translation Quality Estimation using Recurrent Neural Network
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Raj Nath Patel
+JobTitle#==#
+Organization#==#Centre for Development of Advanced Computing. Gulmohar Cross Road No. 9, Juhu, Mumbai- 400049
+Abstract#==#This paper describes our submission to the shared task on word/phrase level
+Quality Estimation (QE) in the First Conference on Statistical Machine
+Translation (WMT16).
+The objective of the shared task was to predict if the given word/phrase is a
+correct/incorrect (OK/BAD) translation in the given sentence.
+In this paper, we propose a novel approach for word level Quality Estimation
+using Recurrent Neural Network Language Model (RNN-LM) architecture.
+RNN-LMs have been found very effective in different Natural Language Processing
+(NLP) applications. RNN-LM is mainly used for vector space language modeling
+for different NLP problems.
+For this task, we modify the architecture of RNN-LM.
+The modified system predicts a label (OK/BAD) in the slot rather than
+predicting the word. The input to the system is a word sequence, similar to the
+standard RNN-LM.
+The approach is language independent and requires only the translated text for
+QE.
+To estimate the phrase level quality, we use the output of the word level QE
+system.
+Author{1}{Firstname}#=%=#Raj Nath
+Author{1}{Lastname}#=%=#Patel
+Author{1}{Email}#=%=#rajnathp@cdac.in
+Author{1}{Affiliation}#=%=#CDAC Mumbai, India
+Author{2}{Firstname}#=%=#Sasikumar
+Author{2}{Lastname}#=%=#M
+Author{2}{Email}#=%=#sasi@cdac.in
+Author{2}{Affiliation}#=%=#CDAC Mumbai, India
+
+==========

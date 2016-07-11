@@ -1,0 +1,97 @@
+SubmissionNumber#=%=#134
+FinalPaperTitle#=%=#Findings of the 2016 Conference on Machine Translation
+ShortPaperTitle#=%=#Findings of the 2016 Conference on Machine Translation
+NumberOfPages#=%=#69
+CopyrightSigned#=%=#Philipp Koehn
+JobTitle#==#
+Organization#==#JHU, Baltimore, MD
+Abstract#==#This paper presents the results of the WMT16 shared tasks, which included a
+standard news translation task, a biomedical translation task, a information
+technology translation task, a task for run-time estimation of machine
+translation quality, and an automatic post-editing task.
+Author{1}{Firstname}#=%=#Ondřej
+Author{1}{Lastname}#=%=#Bojar
+Author{1}{Email}#=%=#bojar@ufal.mff.cuni.cz
+Author{1}{Affiliation}#=%=#Charles University in Prague, Faculty of Mathematics and Physics
+Author{2}{Firstname}#=%=#Rajen
+Author{2}{Lastname}#=%=#Chatterjee
+Author{2}{Email}#=%=#chatterjee@fbk.eu
+Author{2}{Affiliation}#=%=#Fondazione Bruno Kessler
+Author{3}{Firstname}#=%=#Christian
+Author{3}{Lastname}#=%=#Federmann
+Author{3}{Email}#=%=#chrife@microsoft.com
+Author{3}{Affiliation}#=%=#Microsoft
+Author{4}{Firstname}#=%=#Yvette
+Author{4}{Lastname}#=%=#Graham
+Author{4}{Email}#=%=#graham.yvette@gmail.com
+Author{4}{Affiliation}#=%=#Dublin City University
+Author{5}{Firstname}#=%=#Barry
+Author{5}{Lastname}#=%=#Haddow
+Author{5}{Email}#=%=#bhaddow@inf.ed.ac.uk
+Author{5}{Affiliation}#=%=#University of Edinburgh
+Author{6}{Firstname}#=%=#Matthias
+Author{6}{Lastname}#=%=#Huck
+Author{6}{Email}#=%=#mhuck@cis.lmu.de
+Author{6}{Affiliation}#=%=#LMU Munich
+Author{7}{Firstname}#=%=#Antonio
+Author{7}{Lastname}#=%=#Jimeno Yepes
+Author{7}{Email}#=%=#antonio.jimeno@gmail.com
+Author{7}{Affiliation}#=%=#IBM
+Author{8}{Firstname}#=%=#Philipp
+Author{8}{Lastname}#=%=#Koehn
+Author{8}{Email}#=%=#phi@jhu.edu
+Author{8}{Affiliation}#=%=#Johns Hopkins University
+Author{9}{Firstname}#=%=#Varvara
+Author{9}{Lastname}#=%=#Logacheva
+Author{9}{Email}#=%=#varvara.logacheva@gmail.com
+Author{9}{Affiliation}#=%=#University of Sheffield
+Author{10}{Firstname}#=%=#Christof
+Author{10}{Lastname}#=%=#Monz
+Author{10}{Email}#=%=#c.monz@uva.nl
+Author{10}{Affiliation}#=%=#University of Amsterdam
+Author{11}{Firstname}#=%=#Matteo
+Author{11}{Lastname}#=%=#Negri
+Author{11}{Email}#=%=#negri@fbk.eu
+Author{11}{Affiliation}#=%=#Fondazione Bruno Kessler
+Author{12}{Firstname}#=%=#Aurelie
+Author{12}{Lastname}#=%=#Neveol
+Author{12}{Email}#=%=#neveol@limsi.fr
+Author{12}{Affiliation}#=%=#LIMSI-CNRS
+Author{13}{Firstname}#=%=#Mariana
+Author{13}{Lastname}#=%=#Neves
+Author{13}{Email}#=%=#marianalaraneves@gmail.com
+Author{13}{Affiliation}#=%=#Hasso-Plattner Institut
+Author{14}{Firstname}#=%=#Martin
+Author{14}{Lastname}#=%=#Popel
+Author{14}{Email}#=%=#popel@ufal.mff.cuni.cz
+Author{14}{Affiliation}#=%=#Charles University in Prague, Faculty of Mathematics and Physics, UFAL
+Author{15}{Firstname}#=%=#Matt
+Author{15}{Lastname}#=%=#Post
+Author{15}{Email}#=%=#post@cs.jhu.edu
+Author{15}{Affiliation}#=%=#Johns Hopkins University
+Author{16}{Firstname}#=%=#Raphael
+Author{16}{Lastname}#=%=#Rubino
+Author{16}{Email}#=%=#raphael.rubino@gmail.com
+Author{16}{Affiliation}#=%=#Universität des Saarlandes
+Author{17}{Firstname}#=%=#Carolina
+Author{17}{Lastname}#=%=#Scarton
+Author{17}{Email}#=%=#carol.scarton@gmail.com
+Author{17}{Affiliation}#=%=#University of Sheffield
+Author{18}{Firstname}#=%=#Lucia
+Author{18}{Lastname}#=%=#Specia
+Author{18}{Email}#=%=#l.specia@sheffield.ac.uk
+Author{18}{Affiliation}#=%=#University of Sheffield
+Author{19}{Firstname}#=%=#Marco
+Author{19}{Lastname}#=%=#Turchi
+Author{19}{Email}#=%=#marco.turchi@gmail.com
+Author{19}{Affiliation}#=%=#Fondazione Bruno Kessler
+Author{20}{Firstname}#=%=#Karin
+Author{20}{Lastname}#=%=#Verspoor
+Author{20}{Email}#=%=#karin.verspoor@unimelb.edu.au
+Author{20}{Affiliation}#=%=#The University of Melbourne
+Author{21}{Firstname}#=%=#Marcos
+Author{21}{Lastname}#=%=#Zampieri
+Author{21}{Email}#=%=#marcos.zampieri@uni-saarland.de
+Author{21}{Affiliation}#=%=#Saarland University
+
+==========

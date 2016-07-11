@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#392
+FinalPaperTitle#=%=#Multiplicative Representations for Unsupervised Semantic Role Induction
+ShortPaperTitle#=%=#Multiplicative Representations for Unsupervised Semantic Role Induction
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Yi Luan
+JobTitle#==#
+Organization#==#University of Washington
+Abstract#==#In unsupervised semantic role labeling, identifying the role of an argument is
+usually informed by its dependency relation with the predicate.  
+In this work, we propose a neural model to learn argument embeddings from the
+context by explicitly incorporating dependency relations as multiplicative
+factors, which bias argument embeddings according to their dependency roles.
+Our model outperforms existing state-of-the-art embeddings in unsupervised
+semantic role induction on the CoNLL 2008 dataset. Qualitative results
+demonstrate our model can effectively bias argument embeddings based on their
+dependency role.
+Author{1}{Firstname}#=%=#Yi
+Author{1}{Lastname}#=%=#Luan
+Author{1}{Email}#=%=#luanyi@uw.edu
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Yangfeng
+Author{2}{Lastname}#=%=#Ji
+Author{2}{Email}#=%=#jiyfeng@gatech.edu
+Author{2}{Affiliation}#=%=#School of Interactive Computing, Georgia Institute of Technology
+Author{3}{Firstname}#=%=#Hannaneh
+Author{3}{Lastname}#=%=#Hajishirzi
+Author{3}{Email}#=%=#hannaneh@washington.edu
+Author{3}{Affiliation}#=%=#University of Washington
+Author{4}{Firstname}#=%=#Boyang
+Author{4}{Lastname}#=%=#Li
+Author{4}{Email}#=%=#albert.li@disneyresearch.com
+Author{4}{Affiliation}#=%=#Disney Research
+
+==========

@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#31
+FinalPaperTitle#=%=#Singleton Detection using Word Embeddings and Neural Networks
+ShortPaperTitle#=%=#Singleton Detection using Word Embeddings and Neural Networks
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Hessel Haagsma
+JobTitle#==#
+Organization#==#
+Abstract#==#Singleton (or non-coreferential) mentions are a problem for coreference
+resolution systems, and identifying singletons before mentions are linked
+improves resolution performance. Here, a singleton detection system based on
+word embeddings and neural networks is presented, which achieves
+state-of-the-art performance (79.6% accuracy) on the CoNLL-2012 shared task
+development set. Extrinsic evaluation with the Stanford and Berkeley
+coreference resolution systems shows significant improvement for the first, but
+not for the latter. The results show the potential of using neural networks and
+word embeddings for improving both singleton detection and coreference
+resolution.
+Author{1}{Firstname}#=%=#Hessel
+Author{1}{Lastname}#=%=#Haagsma
+Author{1}{Email}#=%=#hessel.haagsma@rug.nl
+Author{1}{Affiliation}#=%=#University of Groningen
+
+==========

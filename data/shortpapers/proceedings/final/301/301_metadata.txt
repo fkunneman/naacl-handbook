@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#301
+FinalPaperTitle#=%=#Metrics for Evaluation of Word-level Machine Translation Quality Estimation
+ShortPaperTitle#=%=#Metrics for Evaluation of Word-level Machine Translation Quality Estimation
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Varvara Logacheva
+JobTitle#==#
+Organization#==#Department of Computer Science
+The University of Sheffield
+Regent Court
+211 Portobello
+Sheffield
+S1 4DP
+UK
+Abstract#==#The aim of this paper is to investigate suitable evaluation strategies for the
+task of word-level quality estimation of machine translation. 
+We suggest various metrics to replace $F_1$-score for the ``BAD'' class, which
+is currently used as main metric.
+We compare the metrics' performance on real system outputs and synthetically
+generated datasets and suggest a reliable alternative to the $F_1$-BAD score
+--- the multiplication of $F_1$-scores for different classes. Other metrics
+have lower discriminative power and are biased by unfair labellings.
+Author{1}{Firstname}#=%=#Varvara
+Author{1}{Lastname}#=%=#Logacheva
+Author{1}{Email}#=%=#varvara.logacheva@gmail.com
+Author{1}{Affiliation}#=%=#University of Sheffield
+Author{2}{Firstname}#=%=#Michal
+Author{2}{Lastname}#=%=#Lukasik
+Author{2}{Email}#=%=#m.lukasik@shef.ac.uk
+Author{2}{Affiliation}#=%=#University of Sheffield
+Author{3}{Firstname}#=%=#Lucia
+Author{3}{Lastname}#=%=#Specia
+Author{3}{Email}#=%=#l.specia@sheffield.ac.uk
+Author{3}{Affiliation}#=%=#University of Sheffield
+
+==========

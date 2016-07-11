@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#125
+FinalPaperTitle#=%=#UGENT-LT3 SCATE Submission for WMT16 Shared Task on Quality Estimation
+ShortPaperTitle#=%=#UGENT-LT3 SCATE Submission for WMT16 Shared Task on Quality Estimation
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Arda Tezcan
+JobTitle#==#
+Organization#==#LT3, Language and Translation Technology Team
+Department of Translation, Interpreting and Communication
+Ghent University
+Groot-Brittannielaan 45, 9000 Ghent, Belgium
+Abstract#==#This paper describes the submission of the UGENT-LT3 SCATE system to the WMT16
+Shared Task on Quality Estimation (QE), viz. English-German word and
+sentence-level QE. Based on the observation that the data set is homogeneous
+(all sentences belong to the IT domain), we performed bilingual terminology
+extraction and added features derived from the result-ing term list to the
+well-performing features of the word-level QE task of last year. For
+sentence-level QE, we analyzed the importance of the features and based on
+those insights extended the feature set of last year. We also experimented with
+different learning methods and ensembles. We present our observations from the
+different experiments we conducted and our submissions for both tasks.
+Author{1}{Firstname}#=%=#Arda
+Author{1}{Lastname}#=%=#Tezcan
+Author{1}{Email}#=%=#arda.tezcan@ugent.be
+Author{1}{Affiliation}#=%=#LT3, Language and Translation Technology Team, Ghent University
+Author{2}{Firstname}#=%=#Véronique
+Author{2}{Lastname}#=%=#Hoste
+Author{2}{Email}#=%=#veronique.hoste@ugent.be
+Author{2}{Affiliation}#=%=#LT3, Language and Translation Technology Team, Ghent University
+Author{3}{Firstname}#=%=#Lieve
+Author{3}{Lastname}#=%=#Macken
+Author{3}{Email}#=%=#lieve.macken@ugent.be
+Author{3}{Affiliation}#=%=#Ghent University
+
+==========

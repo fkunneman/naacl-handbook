@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#34
+FinalPaperTitle#=%=#The Columbia University - New York University Abu Dhabi SIGMORPHON 2016 Morphological Reinflection Shared Task Submission
+ShortPaperTitle#=%=#The CU-NYUAD SIGMORPHON 2016 Shared Task Submission
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Nizar Habash
+JobTitle#==#
+Organization#==#New York University Abu Dhabi
+Saadiyat Island
+Abu Dhabi, UAE
+Abstract#==#We present a high-level description and error analysis of the Columbia-NYUAD
+system for morphological reinflection, which builds on previous work on
+supervised morphological paradigm completion. Our system improved over the
+shared task baseline on some of the languages, reaching up to 31\% absolute
+increase.  Our ranking on average was 5th in Track~1, 8th in Track~2, and 3rd
+in Track~3.
+Author{1}{Firstname}#=%=#Dima
+Author{1}{Lastname}#=%=#Taji
+Author{1}{Email}#=%=#dima.taji@nyu.edu
+Author{1}{Affiliation}#=%=#New York University Abu Dhabi
+Author{2}{Firstname}#=%=#Ramy
+Author{2}{Lastname}#=%=#Eskander
+Author{2}{Email}#=%=#rnd2110@columbia.edu
+Author{2}{Affiliation}#=%=#Columbia University
+Author{3}{Firstname}#=%=#Nizar
+Author{3}{Lastname}#=%=#Habash
+Author{3}{Email}#=%=#nizar.habash@nyu.edu
+Author{3}{Affiliation}#=%=#New York University Abu Dhabi
+Author{4}{Firstname}#=%=#Owen
+Author{4}{Lastname}#=%=#Rambow
+Author{4}{Email}#=%=#rambow@ccls.columbia.edu
+Author{4}{Affiliation}#=%=#Columbia University
+
+==========

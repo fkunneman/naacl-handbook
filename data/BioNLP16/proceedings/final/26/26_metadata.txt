@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#26
+FinalPaperTitle#=%=#This before That: Causal Precedence in the Biomedical Domain
+ShortPaperTitle#=%=#This before That: Causal Precedence in the Biomedical Domain
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Gustave Von Hahn-Powell
+JobTitle#==#
+Organization#==#University of Arizona
+c/o Department of Linguistics
+Communication Building, Room 109
+Tucson, AZ 85721
+USA
+Abstract#==#Causal precedence between biochemical interactions is crucial in the biomedical
+domain, because it transforms collections of individual interactions, e.g.,
+bindings and phosphorylations, into the causal mechanisms needed to inform
+meaningful search and inference. Here, we analyze causal precedence in the
+biomedical domain as distinct from open-domain, temporal precedence. 
+First, we describe a novel, hand-annotated text corpus of causal precedence in
+the biomedical domain. Second, we use this corpus to investigate a battery of
+models of precedence, covering rule-based, feature-based, and latent
+representation models.
+The highest-performing individual model achieved a micro F1 of 43 points,
+approaching the best performers on the simpler temporal-only precedence tasks.
+Feature-based and latent representation models each outperform the rule-based
+models, but their performance is complementary to one another. We apply a
+sieve-based architecture to capitalize on this lack of overlap, achieving a
+micro F1 score of 46 points.
+Author{1}{Firstname}#=%=#Gus
+Author{1}{Lastname}#=%=#Hahn-Powell
+Author{1}{Email}#=%=#gushahnpowell@gmail.com
+Author{1}{Affiliation}#=%=#University of Arizona
+Author{2}{Firstname}#=%=#Dane
+Author{2}{Lastname}#=%=#Bell
+Author{2}{Email}#=%=#dane@email.arizona.edu
+Author{2}{Affiliation}#=%=#University of Arizona
+Author{3}{Firstname}#=%=#Marco A.
+Author{3}{Lastname}#=%=#Valenzuela-Escárcega
+Author{3}{Email}#=%=#marcov@email.arizona.edu
+Author{3}{Affiliation}#=%=#University of Arizona
+Author{4}{Firstname}#=%=#Mihai
+Author{4}{Lastname}#=%=#Surdeanu
+Author{4}{Email}#=%=#surdeanu@gmail.com
+Author{4}{Affiliation}#=%=#University of Arizona
+
+==========

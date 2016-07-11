@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#246
+FinalPaperTitle#=%=#Deep Neural Networks for Syntactic Parsing of Morphologically Rich Languages
+ShortPaperTitle#=%=#Deep Neural Networks for Syntactic Parsing of MRL
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Joël Legrand
+JobTitle#==#
+Organization#==#Idiap Research Institute
+Rue Marconi 19, Martigny, Switzerland
+Abstract#==#Morphologically rich languages (MRL) are languages in which much of the
+structural information is contained at the word-level, leading to high level
+word-form variation. Historically, syntactic parsing has been mainly tackled
+using generative models. These models assume input features to be conditionally
+independent, making difficult to incorporate arbitrary features. 
+In this paper, we investigate the greedy discriminative parser described in
+(Legrand and Collobert, 2015), which relies on word embeddings, in the context
+of MRL. We propose to learn morphological embeddings and propagate
+morphological information through the tree using a recursive composition
+procedure. 
+Experiments show that such embeddings can dramatically improve the average
+performance on different languages. Moreover, it yields state-of-the art
+performance for a majority of languages.
+Author{1}{Firstname}#=%=#Joël
+Author{1}{Lastname}#=%=#Legrand
+Author{1}{Email}#=%=#joel.legrand@idiap.ch
+Author{1}{Affiliation}#=%=#Idiap Research Institute
+Author{2}{Firstname}#=%=#Ronan
+Author{2}{Lastname}#=%=#Collobert
+Author{2}{Email}#=%=#ronan@collobert.com
+Author{2}{Affiliation}#=%=#Facebook AI Research
+
+==========

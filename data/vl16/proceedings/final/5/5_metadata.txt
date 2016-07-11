@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#5
+FinalPaperTitle#=%=#Automatic Annotation of Structured Facts in Images
+ShortPaperTitle#=%=#Automatic Annotation of Structured Facts in Images
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Motivated by the application of fact-level image understanding, we present an
+automatic method for data collection of structured visual facts from images
+with captions. Example structured facts include attributed objects (e.g.,
+<flower, red>), actions (e.g., <baby, smile>), interactions (e.g., <man,
+walking, dog>), and positional information (e.g., <vase, on, table>). The
+collected annotations are in the form of fact-image pairs (e.g.,<man, walking,
+dog> and an image region containing this fact). With a language approach, the
+proposed method is able to collect hundreds of                                       
+     
+
+thousands of visual fact annotations  with accuracy of 83\% according to human
+judgment.  
+Our method automatically collected more than 380,000 visual fact annotations
+and more than 110,000 unique visual facts from images with captions and
+localized them in images in less than one day of processing time on standard
+CPU platforms. We will make the data publically available.
+Author{1}{Firstname}#=%=#Mohamed
+Author{1}{Lastname}#=%=#Elhoseiny
+Author{1}{Email}#=%=#m.elhoseiny@cs.rutgers.edu
+Author{1}{Affiliation}#=%=#Rutgers University
+Author{2}{Firstname}#=%=#Scott
+Author{2}{Lastname}#=%=#Cohen
+Author{2}{Email}#=%=#scohen@adobe.com
+Author{2}{Affiliation}#=%=#Adobe Research
+Author{3}{Firstname}#=%=#Walter
+Author{3}{Lastname}#=%=#Chang
+Author{3}{Email}#=%=#wachang@adobe.com
+Author{3}{Affiliation}#=%=#Adobe Research
+Author{4}{Firstname}#=%=#Brian
+Author{4}{Lastname}#=%=#Price
+Author{4}{Email}#=%=#bprice@adobe.com
+Author{4}{Affiliation}#=%=#Adobe Research
+Author{5}{Firstname}#=%=#Ahmed
+Author{5}{Lastname}#=%=#Elgammal
+Author{5}{Email}#=%=#elgammal@cs.rutgers.edu
+Author{5}{Affiliation}#=%=#Rutgers University
+
+==========

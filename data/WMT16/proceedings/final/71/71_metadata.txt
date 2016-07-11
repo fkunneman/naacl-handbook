@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#71
+FinalPaperTitle#=%=#Pronoun Language Model and Grammatical Heuristics for Aiding Pronoun Prediction
+ShortPaperTitle#=%=#Pronoun Language Model and Grammatical Heuristics for Aiding Pronoun Prediction
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#NGOC QUANG LUONG
+JobTitle#==#
+Organization#==#IDIAP Research Institute, Martigny, Switzerland
+Abstract#==#The cross-lingual pronoun prediction task at WMT 2016 requires to restore the
+missing target pronouns  from source text and target lemmatized and POS-tagged
+translations.  We propose to use a specific Language Model, which captures the
+likelihood of a pronoun given the gender and number of its preceding
+(pro)nouns, to select the best candidate in English-to-French subtask. Besides,
+we apply some heuristics on pronouns of less dependence on their antecedent's
+gender and number, which are specifically based on French and English grammars.
+Author{1}{Firstname}#=%=#Ngoc Quang
+Author{1}{Lastname}#=%=#Luong
+Author{1}{Email}#=%=#quangngocluong@gmail.com
+Author{1}{Affiliation}#=%=#Idiap Research Institute
+Author{2}{Firstname}#=%=#Andrei
+Author{2}{Lastname}#=%=#Popescu-Belis
+Author{2}{Email}#=%=#andrei.popescu-belis@idiap.ch
+Author{2}{Affiliation}#=%=#Idiap Research Institute
+
+==========

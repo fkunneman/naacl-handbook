@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#33
+FinalPaperTitle#=%=#pigeo: A Python Geotagging Tool
+ShortPaperTitle#=%=#pigeo: A Python Geotagging Tool
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Afshin Rahimi
+JobTitle#==#
+Organization#==#The University of Melbourne
+Abstract#==#screencast in youtube: https://youtu.be/QiV_ow7k2J4
+system online at: http://hum.csse.unimelb.edu.au:5000/
+
+Abstract
+We present pigeo, a Python geolocation
+prediction tool that predicts a location for
+a given text input or Twitter user. We dis-
+cuss the design, implementation and appli-
+cation of pigeo, and empirically evaluate
+it. pigeo is able to geolocate informal
+text and is a very useful tool for users who
+require a free and easy-to-use, yet accurate
+geolocation service based on pre-trained
+models. Additionally, users can train their
+own models easily using pigeo’s API.
+Author{1}{Firstname}#=%=#Afshin
+Author{1}{Lastname}#=%=#Rahimi
+Author{1}{Email}#=%=#afshinrahimi@gmail.com
+Author{1}{Affiliation}#=%=#The University of Melbourne
+Author{2}{Firstname}#=%=#Trevor
+Author{2}{Lastname}#=%=#Cohn
+Author{2}{Email}#=%=#tcohn@unimelb.edu.au
+Author{2}{Affiliation}#=%=#University of Melbourne
+Author{3}{Firstname}#=%=#Timothy
+Author{3}{Lastname}#=%=#Baldwin
+Author{3}{Email}#=%=#tb@ldwin.net
+Author{3}{Affiliation}#=%=#The University of Melbourne
+
+==========

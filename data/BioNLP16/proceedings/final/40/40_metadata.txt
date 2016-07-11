@@ -1,0 +1,51 @@
+SubmissionNumber#=%=#40
+FinalPaperTitle#=%=#PubTermVariants: biomedical term variants and their use for PubMed search
+ShortPaperTitle#=%=#PubTermVariants: biomedical term variants and their use for PubMed search
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Lana Yeganova
+JobTitle#==#Staff Scientist
+Organization#==#NCBI, NLM, NIH
+Abstract#==#Term normalization is frequently used in information retrieval task to reduce
+variant word forms to a common form. The most general term normalization
+technique used in practice is stemming, however it has been found to not be
+completely reliable.  Here we present PubTermVariants, a high-quality
+data-driven resource of term variant pairs that can improve search results in
+PubMed. For a given pair, we consider two terms to be variants if they stem to
+the same form, pass the hypergeometric test, and pass the morpho-semantic test.
+We per-form manual evaluation of a subset of PubTermVariants that confirms the
+high quality of the candidate pairs. We fur-ther present experiments that
+demonstrate their usefulness for PubMed search.
+Author{1}{Firstname}#=%=#Lana
+Author{1}{Lastname}#=%=#Yeganova
+Author{1}{Email}#=%=#yeganova@mail.nih.gov
+Author{1}{Affiliation}#=%=#NLM/NIH
+Author{2}{Firstname}#=%=#Won
+Author{2}{Lastname}#=%=#Kim
+Author{2}{Email}#=%=#wonkim@ncbi.nlm.nih.gov
+Author{2}{Affiliation}#=%=#NCBI/NLM/NIH
+Author{3}{Firstname}#=%=#Sun
+Author{3}{Lastname}#=%=#Kim
+Author{3}{Email}#=%=#sun.kim@nih.gov
+Author{3}{Affiliation}#=%=#NCBI/NLM/NIH
+Author{4}{Firstname}#=%=#Rezarta
+Author{4}{Lastname}#=%=#Islamaj Doğan
+Author{4}{Email}#=%=#islamaj@ncbi.nlm.nih.gov
+Author{4}{Affiliation}#=%=#NCBI/NLM/NIH
+Author{5}{Firstname}#=%=#Wanli
+Author{5}{Lastname}#=%=#Liu
+Author{5}{Email}#=%=#liu15@ncbi.nlm.nih.gov
+Author{5}{Affiliation}#=%=#NCBI/NLM/NIH
+Author{6}{Firstname}#=%=#Donald C
+Author{6}{Lastname}#=%=#Comeau
+Author{6}{Email}#=%=#comeau@ncbi.nlm.nih.gov
+Author{6}{Affiliation}#=%=#NCBI/NLM/NIH
+Author{7}{Firstname}#=%=#Zhiyong
+Author{7}{Lastname}#=%=#Lu
+Author{7}{Email}#=%=#luzh@ncbi.nlm.nih.gov
+Author{7}{Affiliation}#=%=#NCBI/NLM/NIH
+Author{8}{Firstname}#=%=#W John
+Author{8}{Lastname}#=%=#Wilbur
+Author{8}{Email}#=%=#wilbur@ncbi.nlm.nih.gov
+Author{8}{Affiliation}#=%=#NCBI/NLM/NIH
+
+==========

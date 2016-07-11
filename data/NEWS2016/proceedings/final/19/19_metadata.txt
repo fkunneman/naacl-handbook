@@ -1,0 +1,14 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#Linguistic Issues in the Machine Transliteration of Chinese, Japanese and Arabic Names
+ShortPaperTitle#=%=#Linguistic Issues in the Machine Transliteration of Chinese, Japanese and Arabic Names
+NumberOfPages#=%=#2
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#The key note speech of NEWS 2016.
+Author{1}{Firstname}#=%=#Jack
+Author{1}{Lastname}#=%=#Halpern
+Author{1}{Email}#=%=#jack@cjki.org
+Author{1}{Affiliation}#=%=#The CJK Dictionary Institute, Niiza, Japan
+
+==========

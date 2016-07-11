@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#35
+FinalPaperTitle#=%=#Mapping Unseen Words to Task-Trained Embedding Spaces
+ShortPaperTitle#=%=#Mapping Unseen Words to Task-Trained Embedding Spaces
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Pranava Swaroop Madhyastha
+JobTitle#==#
+Organization#==#Universitat Politècnica de Catalunya
+S107, Edifici Omega, C/Jordi Girona 1-3
+Campus Nord UPC,
+Barcelona, 08034, Spain
+Abstract#==#We consider the supervised training setting in which we learn task-specific
+word embeddings. We assume that we start with initial embeddings learned from
+unlabelled data and update them to learn task-specific embeddings for words in
+the supervised training data. However, for new words in the test set, we must
+use either their initial embeddings or a single unknown embedding, which often
+leads to errors. We address this by learning a neural network to map from
+initial embeddings to the task-specific embedding space, via a multi-loss
+objective function. The technique is general, but here we demonstrate its use
+for improved dependency parsing (especially for sentences with
+out-of-vocabulary words), as well as for downstream improvements on sentiment
+analysis.
+Author{1}{Firstname}#=%=#Pranava Swaroop
+Author{1}{Lastname}#=%=#Madhyastha
+Author{1}{Email}#=%=#pranava@cs.upc.edu
+Author{1}{Affiliation}#=%=#Universitat Politècnica de Catalunya
+Author{2}{Firstname}#=%=#Mohit
+Author{2}{Lastname}#=%=#Bansal
+Author{2}{Email}#=%=#mbansal@ttic.edu
+Author{2}{Affiliation}#=%=#Toyota Technological Institute at Chicago
+Author{3}{Firstname}#=%=#Kevin
+Author{3}{Lastname}#=%=#Gimpel
+Author{3}{Email}#=%=#kgimpel@ttic.edu
+Author{3}{Affiliation}#=%=#Toyota Technological Institute at Chicago
+Author{4}{Firstname}#=%=#Karen
+Author{4}{Lastname}#=%=#Livescu
+Author{4}{Email}#=%=#klivescu@ttic.edu
+Author{4}{Affiliation}#=%=#TTI-Chicago
+
+==========

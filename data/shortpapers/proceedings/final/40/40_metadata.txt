@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#40
+FinalPaperTitle#=%=#Using mention accessibility to improve coreference resolution
+ShortPaperTitle#=%=#Using mention accessibility to improve coreference resolution
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Kellie Webster
+JobTitle#==#
+Organization#==#University of Sydney
+Abstract#==#Modern coreference resolution systems require linguistic and general knowledge
+typically sourced from costly, manually curated resources. Despite their
+intuitive appeal, results have been mixed. In this work, we instead implement
+fine-grained surface-level features motivated by cognitive theory. Our novel
+fine-grained feature specialisation approach significantly improves the
+performance of a strong baseline, achieving state-of-the-art results of 65.29
+and 61.13% on CoNLL 2012 using gold and automatic preprocessing, with system
+extracted mentions.
+Author{1}{Firstname}#=%=#Kellie
+Author{1}{Lastname}#=%=#Webster
+Author{1}{Email}#=%=#kellie.m.webster@gmail.com
+Author{1}{Affiliation}#=%=#University of Sydney
+Author{2}{Firstname}#=%=#Joel
+Author{2}{Lastname}#=%=#Nothman
+Author{2}{Email}#=%=#joel.nothman@gmail.com
+Author{2}{Affiliation}#=%=#University of Melbourne
+
+==========

@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#41
+FinalPaperTitle#=%=#Using Embedding Masks for Word Categorization
+ShortPaperTitle#=%=#Using Embedding Masks for Word Categorization
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Stefan Ruseti
+JobTitle#==#
+Organization#==#University Politehnica of Bucharest
+Abstract#==#Word embeddings are widely used nowadays
+for many NLP tasks. They reduce the
+dimensionality of the vocabulary space,
+but most importantly they should capture
+(part of) the meaning of words. The new
+vector space used by the embeddings allows
+computation of semantic distances
+between words, while some word embeddings
+also permit simple vector operations
+(e.g. summation, difference) resembling
+analogical reasoning. This paper proposes
+a new operation on word embeddings
+aimed to capturing categorical information
+by first learning and then applying
+an embedding mask for each analyzed
+category. Thus, we conducted a series
+of experiments related to categorization of
+words based on their embeddings. Several
+classical approaches were compared
+together with the one introduced in the paper
+which uses different embedding masks
+learnt for each category.
+Author{1}{Firstname}#=%=#Stefan
+Author{1}{Lastname}#=%=#Ruseti
+Author{1}{Email}#=%=#stefan.ruseti@cs.pub.ro
+Author{1}{Affiliation}#=%=#University Politehnica of Bucharest
+Author{2}{Firstname}#=%=#Traian
+Author{2}{Lastname}#=%=#Rebedea
+Author{2}{Email}#=%=#traian.rebedea@cs.pub.ro
+Author{2}{Affiliation}#=%=#University Politehnica of Bucharest
+Author{3}{Firstname}#=%=#Stefan
+Author{3}{Lastname}#=%=#Trausan-Matu
+Author{3}{Email}#=%=#stefan.trausan@cs.pub.ro
+Author{3}{Affiliation}#=%=#University Politehnica of Bucharest
+
+==========

@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#73
+FinalPaperTitle#=%=#Recurrent Neural Network based Translation Quality Estimation
+ShortPaperTitle#=%=#Recurrent Neural Network based Translation Quality Estimation
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Hyun Kim
+JobTitle#==#Ph.D Candidate
+Organization#==#POSTECH.
+77 Cheongam-Ro. Nam-Gu. Pohang. Gyeongbuk. Korea 37673
+Abstract#==#This paper describes the recurrent neural network based model for translation
+quality estimation. Recurrent neural network based quality estimation model
+consists of two parts. The first part using two bidirectional recurrent neural
+networks generates the quality information about whether each word in
+translation is properly translated. The second part using another recurrent
+neural network predicts the final quality of translation. We apply this model
+to sentence, word and phrase level of WMT16 Quality Estimation Shared Task. Our
+results achieve the excellent performance especially in sentence and
+phrase-level QE.
+Author{1}{Firstname}#=%=#Hyun
+Author{1}{Lastname}#=%=#Kim
+Author{1}{Email}#=%=#hkim.postech@gmail.com
+Author{1}{Affiliation}#=%=#POSTECH
+Author{2}{Firstname}#=%=#Jong-Hyeok
+Author{2}{Lastname}#=%=#Lee
+Author{2}{Email}#=%=#jhlee@postech.ac.kr
+Author{2}{Affiliation}#=%=#POSTECH
+
+==========

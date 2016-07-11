@@ -3,6 +3,7 @@
 *.idx
 *.xml
 *.out
+*.tgz
 handbook.aux
 handbook.bcf
 handbook.dep

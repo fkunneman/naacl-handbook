@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#54
+FinalPaperTitle#=%=#A Study of Suggestions in Opinionated Texts and their Automatic Detection
+ShortPaperTitle#=%=#A Study of Suggestion Detection
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Sapna Negi
+JobTitle#==#
+Organization#==#Insight Centre for Data Analytics, IDA Business Park, Lower Dangan, Galway, Ireland
+Abstract#==#We study the automatic detection of suggestion expressing text among the
+opinionated text. The examples of such suggestions in online reviews would be,
+customer suggestions about improvement in a commercial entity, and advice to
+the fellow customers. We present a qualitative and quantitative analysis of
+suggestions present in the text samples obtained from social media platforms.
+Suggestion mining from social media is an emerging research area, and thus
+problem definition and datasets are still evolving; this work also contributes
+towards the same. The problem has been formulated as a sentence classification
+task, and we compare the results of some popular supervised learning approaches
+in this direction. We also evaluate different kinds of features with these
+classifiers. The experiments indicate that deep learning based approaches tend
+to be promising for this task.
+Author{1}{Firstname}#=%=#Sapna
+Author{1}{Lastname}#=%=#Negi
+Author{1}{Email}#=%=#sapna.negi@insight-centre.org
+Author{1}{Affiliation}#=%=#National University of Ireland Galway
+Author{2}{Firstname}#=%=#Kartik
+Author{2}{Lastname}#=%=#Asooja
+Author{2}{Email}#=%=#kartik.asooja@insight-centre.org
+Author{2}{Affiliation}#=%=#Insight Centre for Data Analytics, Galway
+Author{3}{Firstname}#=%=#Shubham
+Author{3}{Lastname}#=%=#Mehrotra
+Author{3}{Email}#=%=#shubhammehrotra94@gmail.com
+Author{3}{Affiliation}#=%=#Indian Institute of Information Technology, Allahabad, Insight Centre for Data Analytics, NUI Galway
+Author{4}{Firstname}#=%=#Paul
+Author{4}{Lastname}#=%=#Buitelaar
+Author{4}{Email}#=%=#paul.buitelaar@deri.org
+Author{4}{Affiliation}#=%=#INSIGHT, National University of Ireland, Galway
+
+==========

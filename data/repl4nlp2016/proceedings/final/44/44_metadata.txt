@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#44
+FinalPaperTitle#=%=#Joint Learning of Sentence Embeddings for Relevance and Entailment
+ShortPaperTitle#=%=#Joint Learning of Sentence Embeddings for Relevance and Entailment
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Petr Baudis
+JobTitle#==#
+Organization#==#FEE CTU Prague
+Department of Cybernetics
+Technicka 2, Prague,
+Czech Republic
+Abstract#==#We consider the problem of Recognizing Textual Entailment within an Information
+Retrieval context, where we must simultaneously determine the relevancy as well
+as degree of entailment for individual pieces of evidence to determine a yes/no
+answer to a binary natural language question.
+
+We compare several variants of neural networks for sentence embeddings in a
+setting of decision-making based on evidence of varying relevance.  We propose
+a basic model to integrate evidence for entailment, show that joint training of
+the sentence embeddings to model relevance and entailment is feasible even with
+no explicit per-evidence supervision, and show the importance of evaluating
+strong baselines.  We also demonstrate the benefit of carrying over text
+comprehension model trained on an unrelated task for our small datasets.
+
+Our research is motivated primarily by a new open dataset we introduce,
+consisting of binary questions and news-based evidence snippets.  We also apply
+the proposed relevance-entailment model on a similar task of ranking
+multiple-choice test answers, evaluating it on a preliminary dataset of school
+test questions as well as the standard MCTest dataset, where we improve the
+neural model state-of-art.
+Author{1}{Firstname}#=%=#Petr
+Author{1}{Lastname}#=%=#Baudiš
+Author{1}{Email}#=%=#pasky@ucw.cz
+Author{1}{Affiliation}#=%=#FEE CTU Prague; Ailao
+Author{2}{Firstname}#=%=#Silvestr
+Author{2}{Lastname}#=%=#Stanko
+Author{2}{Email}#=%=#stanksil@fel.cvut.cz
+Author{2}{Affiliation}#=%=#FEE CTU Prague
+Author{3}{Firstname}#=%=#Jan
+Author{3}{Lastname}#=%=#Šedivý
+Author{3}{Email}#=%=#jsedivy@gmail.com
+Author{3}{Affiliation}#=%=#FEE CTU Prague
+
+==========

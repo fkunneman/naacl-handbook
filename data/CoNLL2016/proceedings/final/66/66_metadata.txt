@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#66
+FinalPaperTitle#=%=#Greedy, Joint Syntactic-Semantic Parsing with Stack LSTMs
+ShortPaperTitle#=%=#Greedy, Joint Syntactic-Semantic Parsing with Stack LSTMs
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Swabha Swayamdipta
+JobTitle#==#
+Organization#==#Carnegie Mellon University
+Abstract#==#We present a transition-based parser that jointly produces syntactic and
+semantic dependencies. It learns a representation of the entire algorithm
+state, using stack long short-term memories. Our greedy inference algorithm has
+linear time, including feature extraction. On the CoNLL 2008--9 English shared
+tasks, we obtain the best published parsing performance among models that
+jointly learn syntax and semantics.
+Author{1}{Firstname}#=%=#Swabha
+Author{1}{Lastname}#=%=#Swayamdipta
+Author{1}{Email}#=%=#swabha@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Miguel
+Author{2}{Lastname}#=%=#Ballesteros
+Author{2}{Email}#=%=#miguel.ballesteros@upf.edu
+Author{2}{Affiliation}#=%=#Pompeu Fabra University
+Author{3}{Firstname}#=%=#Chris
+Author{3}{Lastname}#=%=#Dyer
+Author{3}{Email}#=%=#cdyer@google.com
+Author{3}{Affiliation}#=%=#Google DeepMind
+Author{4}{Firstname}#=%=#Noah A.
+Author{4}{Lastname}#=%=#Smith
+Author{4}{Email}#=%=#nasmith@cs.washington.edu
+Author{4}{Affiliation}#=%=#University of Washington
+
+==========

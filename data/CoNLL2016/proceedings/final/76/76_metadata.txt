@@ -1,0 +1,48 @@
+SubmissionNumber#=%=#76
+FinalPaperTitle#=%=#Abstractive Text Summarization using Sequence-to-sequence RNNs and Beyond
+ShortPaperTitle#=%=#Abstractive Text Summarization using Sequence-to-sequence RNNs and Beyond
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Ramesh Nallapati
+JobTitle#==#Research Staff Member
+Organization#==#IBM Watson
+1101 Kitchawan Road, Yorktown Heights, NY 10598, USA
+Abstract#==#In this work, we model abstractive
+text summarization using Attentional
+Encoder-Decoder Recurrent Neural Networks,
+and show that they achieve state-of-
+the-art performance on two different
+corpora. We propose several novel models
+that address critical problems in summarization
+that are not adequately modeled
+by the basic architecture, such as modeling
+key-words, capturing the hierarchy
+of sentence-to-word structure, and emiting
+words that are rare or unseen at training
+time. Our work shows that many of our
+proposed models contribute to further improvement
+in performance. We also propose
+a new dataset consisting of multisentence
+summaries, and establish performance
+benchmarks for further research.
+Author{1}{Firstname}#=%=#Ramesh
+Author{1}{Lastname}#=%=#Nallapati
+Author{1}{Email}#=%=#nallapati@us.ibm.com
+Author{1}{Affiliation}#=%=#IBM T. J. Watson Research Center
+Author{2}{Firstname}#=%=#Bowen
+Author{2}{Lastname}#=%=#Zhou
+Author{2}{Email}#=%=#zhou@us.ibm.com
+Author{2}{Affiliation}#=%=#IBM Research
+Author{3}{Firstname}#=%=#Cicero
+Author{3}{Lastname}#=%=#dos Santos
+Author{3}{Email}#=%=#cicerons@us.ibm.com
+Author{3}{Affiliation}#=%=#IBM Watson
+Author{4}{Firstname}#=%=#Caglar
+Author{4}{Lastname}#=%=#Gulcehre
+Author{4}{Email}#=%=#gulcehrc@iro.umontreal.ca
+Author{4}{Affiliation}#=%=#Universite de Montreal
+Author{5}{Firstname}#=%=#Bing
+Author{5}{Lastname}#=%=#Xiang
+Author{5}{Email}#=%=#bxiang05@gmail.com
+Author{5}{Affiliation}#=%=#IBM
+
+==========

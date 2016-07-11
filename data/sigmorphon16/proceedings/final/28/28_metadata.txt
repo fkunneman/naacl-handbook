@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#28
+FinalPaperTitle#=%=#Morphological Reinflection via Discriminative String Transduction
+ShortPaperTitle#=%=#Morphological Reinflection via Discriminative String Transduction
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Grzegorz Kondrak
+JobTitle#==#
+Organization#==#University of Alberta
+Abstract#==#We describe our approach and experiments in the context of the SIGMORPHON
+2016 Shared Task on Morphological Reinflection. The results show that the
+methods of Nicolai et al. (2015) perform well on typologically diverse
+languages. We also discuss language-specific heuristics and errors.
+Author{1}{Firstname}#=%=#Garrett
+Author{1}{Lastname}#=%=#Nicolai
+Author{1}{Email}#=%=#nicolai@ualberta.ca
+Author{1}{Affiliation}#=%=#University of Alberta
+Author{2}{Firstname}#=%=#Bradley
+Author{2}{Lastname}#=%=#Hauer
+Author{2}{Email}#=%=#bmhauer@ualberta.ca
+Author{2}{Affiliation}#=%=#University of Alberta
+Author{3}{Firstname}#=%=#Adam
+Author{3}{Lastname}#=%=#St Arnaud
+Author{3}{Email}#=%=#ajstarna@ualberta.ca
+Author{3}{Affiliation}#=%=#University of Alberta
+Author{4}{Firstname}#=%=#Grzegorz
+Author{4}{Lastname}#=%=#Kondrak
+Author{4}{Email}#=%=#gkondrak@ualberta.ca
+Author{4}{Affiliation}#=%=#University of Alberta
+
+==========

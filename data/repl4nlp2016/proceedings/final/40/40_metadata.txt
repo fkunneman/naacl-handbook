@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#40
+FinalPaperTitle#=%=#On the Compositionality and Semantic Interpretation of {E}nglish Noun Compounds
+ShortPaperTitle#=%=#On the Compositionality and Semantic Interpretation of {E}nglish Noun Compounds
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Corina Dima
+JobTitle#==#
+Organization#==#University of Tuebingen, Wilhelmstr. 19, 72074, Tuebingen, Germany
+Abstract#==#In this paper we present a study covering the creation of compositional
+distributional representations for English noun compounds (e.g. computer
+science) using two compositional models proposed in the literature. The
+compositional representations are first evaluated based on their similarity to
+the corresponding corpus-learned representations and then on the task of
+automatic classification of semantic relations for English noun compounds. Our
+experiments show that compositional models are able to build meaningful
+representations for more than half of the test set compounds. However, using
+pre-trained compositional models does not lead to the expected performance
+gains for the semantic relation classification task. Models using compositional
+representations have a similar performance as a basic classification model,
+despite the advantage of being pre-trained on a large set of compounds.
+Author{1}{Firstname}#=%=#Corina
+Author{1}{Lastname}#=%=#Dima
+Author{1}{Email}#=%=#corina.dima@uni-tuebingen.de
+Author{1}{Affiliation}#=%=#University of Tübingen
+
+==========

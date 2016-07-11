@@ -1,0 +1,56 @@
+SubmissionNumber#=%=#131
+FinalPaperTitle#=%=#Findings of the 2016 WMT Shared Task on Cross-lingual Pronoun Prediction
+ShortPaperTitle#=%=#Findings of the 2016 WMT Shared Task on Cross-lingual Pronoun Prediction
+NumberOfPages#=%=#18
+CopyrightSigned#=%=#Liane Guillou
+JobTitle#==#
+Organization#==#
+Abstract#==#We describe the design, the evaluation setup, and the results of the 2016 WMT
+shared task on cross-lingual pronoun prediction. This is a classification task
+in which participants are asked to provide predictions on what pronoun class
+label should replace a placeholder value in the target-language text, provided
+in lemmatised and PoS-tagged form. We provided four subtasks, for the
+English–French and English–German language pairs, in both directions.
+Eleven teams participated in the shared task; nine for the English–French
+subtask, five for French–English, nine for English–German, and six for
+German–English. Most of the submissions outperformed two strong
+language-model-based baseline systems, with systems using deep recurrent neural
+networks outperforming those using other architectures for most language pairs.
+Author{1}{Firstname}#=%=#Liane
+Author{1}{Lastname}#=%=#Guillou
+Author{1}{Email}#=%=#s1052008@sms.ed.ac.uk
+Author{1}{Affiliation}#=%=#University of Edinburgh
+Author{2}{Firstname}#=%=#Christian
+Author{2}{Lastname}#=%=#Hardmeier
+Author{2}{Email}#=%=#christian.hardmeier@lingfil.uu.se
+Author{2}{Affiliation}#=%=#Uppsala universitet
+Author{3}{Firstname}#=%=#Preslav
+Author{3}{Lastname}#=%=#Nakov
+Author{3}{Email}#=%=#preslav.nakov@gmail.com
+Author{3}{Affiliation}#=%=#Qatar Computing Research Institute, HBKU
+Author{4}{Firstname}#=%=#Sara
+Author{4}{Lastname}#=%=#Stymne
+Author{4}{Email}#=%=#sara.stymne@lingfil.uu.se
+Author{4}{Affiliation}#=%=#Uppsala University
+Author{5}{Firstname}#=%=#Jörg
+Author{5}{Lastname}#=%=#Tiedemann
+Author{5}{Email}#=%=#jorg.tiedemann@helsinki.fi
+Author{5}{Affiliation}#=%=#University of Helsinki
+Author{6}{Firstname}#=%=#Yannick
+Author{6}{Lastname}#=%=#Versley
+Author{6}{Email}#=%=#versley@cl.uni-heidelberg.de
+Author{6}{Affiliation}#=%=#University of Heidelberg
+Author{7}{Firstname}#=%=#Mauro
+Author{7}{Lastname}#=%=#Cettolo
+Author{7}{Email}#=%=#cettolo@fbk.eu
+Author{7}{Affiliation}#=%=#FBK
+Author{8}{Firstname}#=%=#Bonnie
+Author{8}{Lastname}#=%=#Webber
+Author{8}{Email}#=%=#bonnie.webber@ed.ac.uk
+Author{8}{Affiliation}#=%=#University of Edinburgh
+Author{9}{Firstname}#=%=#Andrei
+Author{9}{Lastname}#=%=#Popescu-Belis
+Author{9}{Email}#=%=#andrei.popescu-belis@idiap.ch
+Author{9}{Affiliation}#=%=#Idiap Research Institute
+
+==========

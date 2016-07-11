@@ -1,0 +1,50 @@
+SubmissionNumber#=%=#72
+FinalPaperTitle#=%=#LiMoSINe Pipeline: Multilingual UIMA-based NLP Platform
+ShortPaperTitle#=%=#LiMoSINe Pipeline: Multilingual UIMA-based NLP Platform
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Olga Uryupina
+JobTitle#==#
+Organization#==#University of Trento
+Abstract#==#We present a robust and efficient parallelizable multilingual UIMA-based
+platform for automatically annotating textual inputs with different layers of
+linguistic description, ranging from surface level phenomena all the way to
+deep discourse-level information.
+In particular, given an input text, the pipeline extracts: a) sentences and
+tokens, b) entity mentions (named entities, nominals, personal pronouns), c)
+syntactic information (constituency and dependency trees), d) opinionated
+expressions, e) relations between entity mentions, f) co-reference chains and
+g) wikified entities.
+The system is available in two versions: a standalone distribution enables
+design and optimization of user-specific sub-modules, whereas a server-client
+distribution allows for straightforward high-performance NLP processing,
+reducing the engineering cost for higher-level tasks.
+Author{1}{Firstname}#=%=#Olga
+Author{1}{Lastname}#=%=#Uryupina
+Author{1}{Email}#=%=#uryupina@gmail.com
+Author{1}{Affiliation}#=%=#University of Trento
+Author{2}{Firstname}#=%=#Barbara
+Author{2}{Lastname}#=%=#Plank
+Author{2}{Email}#=%=#bplank@gmail.com
+Author{2}{Affiliation}#=%=#University of Groningen
+Author{3}{Firstname}#=%=#Gianni
+Author{3}{Lastname}#=%=#Barlacchi
+Author{3}{Email}#=%=#gianni.barlacchi@gmail.com
+Author{3}{Affiliation}#=%=#SKIL Lab Telecom Italia
+Author{4}{Firstname}#=%=#Francisco J
+Author{4}{Lastname}#=%=#Valverde-Albacete
+Author{4}{Email}#=%=#fva@tsc.uc3m.es
+Author{4}{Affiliation}#=%=#Multimedia Processing Group - UC3M
+Author{5}{Firstname}#=%=#Manos
+Author{5}{Lastname}#=%=#Tsagkias
+Author{5}{Email}#=%=#e.tsagkias@uva.nl
+Author{5}{Affiliation}#=%=#University of Amsterdam
+Author{6}{Firstname}#=%=#Antonio
+Author{6}{Lastname}#=%=#Uva
+Author{6}{Email}#=%=#antonio.uva@unitn.it
+Author{6}{Affiliation}#=%=#University of Trento
+Author{7}{Firstname}#=%=#Alessandro
+Author{7}{Lastname}#=%=#Moschitti
+Author{7}{Email}#=%=#amoschitti@gmail.com
+Author{7}{Affiliation}#=%=#Qatar Computing Research Institute (prof. in Computer Science at University of Trento)
+
+==========

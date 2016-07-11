@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#34
+FinalPaperTitle#=%=#OpenDial: A Toolkit for Developing Spoken Dialogue Systems with Probabilistic Rules
+ShortPaperTitle#=%=#OpenDial: A Toolkit for Developing Spoken Dialogue Systems with Probabilistic Rules
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Pierre Lison
+JobTitle#==#
+Organization#==#University of Oslo
+Postboks 1080 Blindern
+0316 Oslo
+Abstract#==#We present a new release of OpenDial, an open-source toolkit for building and
+evaluating spoken dialogue systems. The toolkit relies on an information-state
+architecture where the dialogue state is represented as a Bayesian network and
+acts as a shared memory for all system modules. The domain models are specified
+via probabilistic rules encoded in XML. OpenDial has been deployed in several
+application domains such as human-robot interaction, intelligent tutoring
+systems and multi-modal in-car driver assistants.
+Author{1}{Firstname}#=%=#Pierre
+Author{1}{Lastname}#=%=#Lison
+Author{1}{Email}#=%=#plison@ifi.uio.no
+Author{1}{Affiliation}#=%=#University of Oslo
+Author{2}{Firstname}#=%=#Casey
+Author{2}{Lastname}#=%=#Kennington
+Author{2}{Email}#=%=#ckennington@cit-ec.uni-bielefeld.de
+Author{2}{Affiliation}#=%=#Bielefeld University
+
+==========

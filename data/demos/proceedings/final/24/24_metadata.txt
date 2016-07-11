@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#24
+FinalPaperTitle#=%=#TranscRater: a Tool for Automatic Speech Recognition Quality Estimation
+ShortPaperTitle#=%=#TranscRater: a Tool for Automatic Speech Recognition Quality Estimation
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Matteo Negri
+JobTitle#==#
+Organization#==#Fondazione Bruno Kessler - FBK, Via Sommarive 18 Povo, Trento, Italy
+Abstract#==#We present TranscRater, an open-source tool for  automatic speech recognition
+(ASR) quality estimation (QE). The tool allows users to perform ASR evaluation
+bypassing the need of reference transcripts and confidence information, which
+is common to current assessment protocols. TranscRater includes: i) methods to
+extract a variety of quality indicators from (signal, transcription) pairs and
+ii) machine  learning algorithms which make possible to build ASR QE models
+exploiting the extracted features. Confirming the positive results of previous
+evaluations, new experiments with TranscRater indicate its effectiveness both
+in WER prediction and transcription ranking tasks.
+Author{1}{Firstname}#=%=#Shahab
+Author{1}{Lastname}#=%=#Jalalvand
+Author{1}{Email}#=%=#jalalvand@fbk.eu
+Author{1}{Affiliation}#=%=#Fondazione Bruno Kessler, Trento
+Author{2}{Firstname}#=%=#Matteo
+Author{2}{Lastname}#=%=#Negri
+Author{2}{Email}#=%=#negri@fbk.eu
+Author{2}{Affiliation}#=%=#Fondazione Bruno Kessler
+Author{3}{Firstname}#=%=#Marco
+Author{3}{Lastname}#=%=#Turchi
+Author{3}{Email}#=%=#marco.turchi@gmail.com
+Author{3}{Affiliation}#=%=#Fondazione Bruno Kessler
+Author{4}{Firstname}#=%=#José G.
+Author{4}{Lastname}#=%=#C. de Souza
+Author{4}{Email}#=%=#jose.camargo.souza@gmail.com
+Author{4}{Affiliation}#=%=#eBay Inc.
+Author{5}{Firstname}#=%=#Falavigna
+Author{5}{Lastname}#=%=#Daniele
+Author{5}{Email}#=%=#falavi@fbk.eu
+Author{5}{Affiliation}#=%=#Fondazione Bruno Kessler
+Author{6}{Firstname}#=%=#Mohammed R. H.
+Author{6}{Lastname}#=%=#Qwaider
+Author{6}{Email}#=%=#qwaider@fbk.eu
+Author{6}{Affiliation}#=%=#Fondazione Bruno Kessler
+
+==========

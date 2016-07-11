@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#63
+FinalPaperTitle#=%=#High-Fidelity Lexical Axiom Construction from Verb Glosses
+ShortPaperTitle#=%=#High-Fidelity Lexical Axiom Construction from Verb Glosses
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Gene Kim
+JobTitle#==#
+Organization#==#University of Rochester
+Department of Computer Science
+734 Computer Studies Building
+Box 270226
+University of Rochester
+Rochester, NY 14627
+Abstract#==#This paper presents a rule-based approach to constructing lexical axioms from
+WordNet verb entries in an expressive semantic representation, Episodic Logic
+(EL). EL differs from other representations in being syntactically close to
+natural language and covering phenomena such as generalized quantification,
+modification, and intensionality while still allowing highly effective
+inference. The presented approach uses a novel preprocessing technique to
+improve parsing precision of coordinators and incorporates frames, hand-tagged
+word senses, and examples from WordNet to achieve highly consistent semantic
+interpretations. EL allows the full content of glosses to be incorporated into
+  the formal lexical axioms, without sacrificing interpretive accuracy, or
+verb-to-verb inference accuracy on a standard test set.
+
+Evaluation of semantic parser performance is based on \textit{EL-match},
+introduced here as a generalization of the \textit{smatch} metric for semantic
+structure accuracy. On gloss  parses, the approach achieves an
+\textit{EL-match} F1 score of 0.83, and a whole-axiom F1 score of 0.45; verb
+entailment identification based on extracted axioms is competitive with the
+state-of-the-art.
+Author{1}{Firstname}#=%=#Gene
+Author{1}{Lastname}#=%=#Kim
+Author{1}{Email}#=%=#gkim21@cs.rochester.edu
+Author{1}{Affiliation}#=%=#University of Rochester
+Author{2}{Firstname}#=%=#Lenhart
+Author{2}{Lastname}#=%=#Schubert
+Author{2}{Email}#=%=#schubert@cs.rochester.edu
+Author{2}{Affiliation}#=%=#University of Rochester
+
+==========

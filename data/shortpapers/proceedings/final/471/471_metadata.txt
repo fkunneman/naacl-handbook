@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#471
+FinalPaperTitle#=%=#Exploring Stylistic Variation with Age and Income on Twitter
+ShortPaperTitle#=%=#Exploring Stylistic Variation with Age and Income on Twitter
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Lucie Flekova
+JobTitle#==#
+Organization#==#Ubiquitous Knowledge Processing Lab
+Technische Universitat Darmstadt
+Germany
+Abstract#==#Writing style allows NLP tools to adjust to the traits of an author.
+In this paper, we explore the relation between stylistic and syntactic features
+and authors' age and income. We confirm our hypothesis that for numerous
+feature types writing style is predictive of income even beyond age.
+We analyze the predictive power of writing style features in a regression task
+on two data sets of around 5,000 Twitter users each. Additionally, we use our
+validated features to study daily variations in writing style of users from
+distinct income groups. Temporal stylistic patterns not only provide novel
+psychological insight into user behavior, but are useful for future research
+and applications in social media.
+Author{1}{Firstname}#=%=#Lucie
+Author{1}{Lastname}#=%=#Flekova
+Author{1}{Email}#=%=#flekova@ukp.informatik.tu-darmstadt.de
+Author{1}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+Author{2}{Firstname}#=%=#Daniel
+Author{2}{Lastname}#=%=#Preoţiuc-Pietro
+Author{2}{Email}#=%=#danielpr@gmail.com
+Author{2}{Affiliation}#=%=#University of Pennsylvania
+Author{3}{Firstname}#=%=#Lyle
+Author{3}{Lastname}#=%=#Ungar
+Author{3}{Email}#=%=#ungar@cis.upenn.edu
+Author{3}{Affiliation}#=%=#University of Pennsylvania
+
+==========

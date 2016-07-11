@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#26
+FinalPaperTitle#=%=#Taking the best from the Crowd:Learning Question Passage Classification from Noisy Data
+ShortPaperTitle#=%=#Taking the best from the Crowd:Learning Question Passage Classification from Noisy Data
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Azad Abad
+JobTitle#==#
+Organization#==#University of Trento, 
+Via Sommarive, 9 I-38123 Povo, Trento
+Abstract#==#In this paper, we propose methods to take into account the disagreement between
+crowd annotators as well as their skills for weighting instances in learning
+algorithms.
+The latter can thus better deal with noise in the annotation and produce higher
+accuracy. We created two passage reranking datasets: one with crowdsource
+platform,
+and the second with an expert who completely revised the crowd annotation.
+Our experiments show that our weighting approach reduces noise improving
+passage
+reranking up to 1.47% and 1.85% on MRR and P@1, respectively.
+Author{1}{Firstname}#=%=#Azad
+Author{1}{Lastname}#=%=#Abad
+Author{1}{Email}#=%=#azad.abad@unitn.it
+Author{1}{Affiliation}#=%=#University of Trento
+Author{2}{Firstname}#=%=#Alessandro
+Author{2}{Lastname}#=%=#Moschitti
+Author{2}{Email}#=%=#amoschitti@gmail.com
+Author{2}{Affiliation}#=%=#Qatar Computing Research Institute (prof. in Computer Science at University of Trento)
+
+==========

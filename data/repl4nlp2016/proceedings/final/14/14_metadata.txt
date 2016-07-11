@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#Making Sense of Word Embeddings
+ShortPaperTitle#=%=#Making Sense of Word Embeddings
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Alexander Panchenko
+JobTitle#==#Postdoctoral Researcher
+Organization#==#TU Darmstadt
+Abstract#==#We present a simple yet effective approach for learning word sense embeddings.
+In contrast to existing techniques, which either directly learn sense
+representations from corpora or rely on sense inventories from lexical
+resources, our approach induces a sense inventory using existing word
+embeddings via clustering of ego-networks of related words. An integrated WSD
+mechanism enables labeling of word occurrences in context with the learned
+sense vectors, which gives rise to downstream applications. Experiments show
+that the performance of our method is comparable to  state-of-the-art
+unsupervised WSD systems.
+Author{1}{Firstname}#=%=#Maria
+Author{1}{Lastname}#=%=#Pelevina
+Author{1}{Email}#=%=#m.pelevina@gmail.com
+Author{1}{Affiliation}#=%=#TU Darmstadt
+Author{2}{Firstname}#=%=#Nikolay
+Author{2}{Lastname}#=%=#Arefiev
+Author{2}{Email}#=%=#ezhick179@gmail.com
+Author{2}{Affiliation}#=%=#Moscow State University
+Author{3}{Firstname}#=%=#Chris
+Author{3}{Lastname}#=%=#Biemann
+Author{3}{Email}#=%=#biem@cs.tu-darmstadt.de
+Author{3}{Affiliation}#=%=#TU Darmstadt
+Author{4}{Firstname}#=%=#Alexander
+Author{4}{Lastname}#=%=#Panchenko
+Author{4}{Email}#=%=#panchenko.alexander@gmail.com
+Author{4}{Affiliation}#=%=#TU Darmstadt
+
+==========

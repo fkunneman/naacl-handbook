@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#340
+FinalPaperTitle#=%=#Semantic classifications for detection of verb metaphors
+ShortPaperTitle#=%=#Semantic classifications for detection of verb metaphors
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Beata Beigman Klebanov
+JobTitle#==#
+Organization#==#
+Abstract#==#We investigate the effectiveness of semantic generalizations/classifications
+for capturing the regularities of the behavior of verbs in terms of their
+metaphoricity. Starting from orthographic word unigrams, we experiment with
+various ways of defining semantic classes for verbs (grammatical,
+resource-based, distributional) and measure the effectiveness of these classes
+for classifying all verbs in a running text as metaphor or nonmetaphor.
+Author{1}{Firstname}#=%=#Beata
+Author{1}{Lastname}#=%=#Beigman Klebanov
+Author{1}{Email}#=%=#bbeigmanklebanov@ets.org
+Author{1}{Affiliation}#=%=#Educational Testing Service
+Author{2}{Firstname}#=%=#Chee Wee
+Author{2}{Lastname}#=%=#Leong
+Author{2}{Email}#=%=#cleong@ets.org
+Author{2}{Affiliation}#=%=#Educational Testing Service
+Author{3}{Firstname}#=%=#E. Dario
+Author{3}{Lastname}#=%=#Gutierrez
+Author{3}{Email}#=%=#edg2103@gmail.com
+Author{3}{Affiliation}#=%=#University of California, San Diego
+Author{4}{Firstname}#=%=#Ekaterina
+Author{4}{Lastname}#=%=#Shutova
+Author{4}{Email}#=%=#es407@cam.ac.uk
+Author{4}{Affiliation}#=%=#University of Cambridge
+Author{5}{Firstname}#=%=#Michael
+Author{5}{Lastname}#=%=#Flor
+Author{5}{Email}#=%=#mflor@ets.org
+Author{5}{Affiliation}#=%=#Educational Testing Service
+
+==========

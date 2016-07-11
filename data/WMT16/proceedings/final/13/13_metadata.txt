@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#Improving Pronoun Translation by Modeling Coreference Uncertainty
+ShortPaperTitle#=%=#Improving Pronoun Translation by Modeling Coreference Uncertainty
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Ngoc Quang Luong
+JobTitle#==#
+Organization#==#
+Abstract#==#Information about the antecedents of pronouns is considered essential to solve
+certain translation divergencies of pronouns, such as those concerning the
+English "it" when translated into gendered languages, e.g. for French into
+"il", "elle", or several other options.  However, none of the machine
+translation (MT) systems using anaphora resolution has been able to outperform
+a phrase-based statistical MT baseline.  We address here one of the reasons for
+this failure: the imperfection of automatic anaphora resolution algorithms.  We
+learn from parallel data probabilistic correlations between target-side
+pronouns and the gender and number features of their (uncertain) antecedents,
+as hypothesized by the Stanford Coreference Resolution system on the source
+side.  We embody these correlations into a secondary translation model, which
+we invoke upon decoding with the Moses statistical MT system.  This solution
+outperforms a deterministic pronoun post-editing system, as well as a
+statistical MT baseline, on automatic and human evaluation metrics.
+Author{1}{Firstname}#=%=#Ngoc Quang
+Author{1}{Lastname}#=%=#Luong
+Author{1}{Email}#=%=#quangngocluong@gmail.com
+Author{1}{Affiliation}#=%=#Idiap Research Institute
+Author{2}{Firstname}#=%=#Andrei
+Author{2}{Lastname}#=%=#Popescu-Belis
+Author{2}{Email}#=%=#andrei.popescu-belis@idiap.ch
+Author{2}{Affiliation}#=%=#Idiap Research Institute
+
+==========

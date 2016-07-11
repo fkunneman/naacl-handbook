@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#15
+FinalPaperTitle#=%=#Old Swedish Part-of-Speech Tagging between Variation and External Knowledge
+ShortPaperTitle#=%=#Old Swedish Part-of-Speech Tagging between Variation and External Knowledge
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Yvonne Adesam
+JobTitle#==#
+Organization#==#University of Gothenburg, Gothenburg, Sweden
+Abstract#==#We present results on part-of-speech and morphological tagging for Old Swedish
+(1225–1526). In a set of experiments we look at the difference between
+within-corpus and across-corpus accuracy, and explore ways of mitigating the
+effects of variation and data sparseness by adding different types of
+dictionary information. Combining several methods, together with a simple
+approach to handle spelling variation, we achieve a major boost in tagger
+performance on a modest test collection.
+Author{1}{Firstname}#=%=#Yvonne
+Author{1}{Lastname}#=%=#Adesam
+Author{1}{Email}#=%=#yvonne.adesam@gu.se
+Author{1}{Affiliation}#=%=#Språkbanken, Dept of Swedish, University of Gothenburg
+Author{2}{Firstname}#=%=#Gerlof
+Author{2}{Lastname}#=%=#Bouma
+Author{2}{Email}#=%=#gerlof.bouma@gu.se
+Author{2}{Affiliation}#=%=#University of Gothenburg
+
+==========

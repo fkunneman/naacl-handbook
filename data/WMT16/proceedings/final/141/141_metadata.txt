@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#141
+FinalPaperTitle#=%=#MetaMind Neural Machine Translation System for WMT 2016
+ShortPaperTitle#=%=#MetaMind Neural Machine Translation System for WMT 2016
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#XXX
+JobTitle#==#
+Organization#==#XXX
+Abstract#==#Neural Machine Translation (NMT) systems,
+introduced only in 2013, have
+achieved state of the art results in many
+MT tasks. MetaMind’s submissions to
+WMT ’16 seek to push the state of the art
+in one such task, English!German newsdomain
+translation. We integrate promising
+recent developments in NMT, including
+subword splitting and back-translation
+for monolingual data augmentation, and
+introduce the Y-LSTM, a novel neural
+translation architecture.
+Author{1}{Firstname}#=%=#James
+Author{1}{Lastname}#=%=#Bradbury
+Author{1}{Email}#=%=#james.bradbury@salesforce.com
+Author{1}{Affiliation}#=%=#MetaMind - A Salesforce Company
+Author{2}{Firstname}#=%=#Richard
+Author{2}{Lastname}#=%=#Socher
+Author{2}{Email}#=%=#socherr@stanford.edu
+Author{2}{Affiliation}#=%=#Stanford University
+
+==========

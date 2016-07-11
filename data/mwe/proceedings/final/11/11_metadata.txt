@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Top a Splitter: Using Distributional Semantics for Improving Compound Splitting
+ShortPaperTitle#=%=#Top a Splitter
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Patrick Ziering
+JobTitle#==#
+Organization#==#Universität Stuttgart
+Institut für Maschinelle Sprachverarbeitung
+Pfaffenwaldring 5b
+70569 Stuttgart
+Deutschland
+Abstract#==#We present a flexible method that re-arranges the ranked output of compound
+splitters (i.e., decomposers of one-word compounds such as the German
+Kinderlied ‘children’s song’) using a distributional semantics model. In
+an experiment, we show that our re-ranker improves the quality of various
+compound splitters.
+Author{1}{Firstname}#=%=#Patrick
+Author{1}{Lastname}#=%=#Ziering
+Author{1}{Email}#=%=#patrick.ziering@ims.uni-stuttgart.de
+Author{1}{Affiliation}#=%=#Institute for Natural Language Processing, University of Stuttgart
+Author{2}{Firstname}#=%=#Stefan
+Author{2}{Lastname}#=%=#Müller
+Author{2}{Email}#=%=#stefan.mueller@ims.uni-stuttgart.de
+Author{2}{Affiliation}#=%=#Institute for Natural Language Processing, University of Stuttgart
+Author{3}{Firstname}#=%=#Lonneke
+Author{3}{Lastname}#=%=#van der Plas
+Author{3}{Email}#=%=#lonneke.vanderplas@um.edu.mt
+Author{3}{Affiliation}#=%=#University of Malta
+
+==========

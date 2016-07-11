@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#LitWay, Discriminative Extraction for Different Bio-Events
+ShortPaperTitle#=%=#LitWay, Discriminative Extraction for Different Bio-Events
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Zhiqiang Rao
+JobTitle#==#
+Organization#==#Xidian University, No. 2 South Taibai Road, Xi'an 710071, China.
+Abstract#==#Even a simple biological phenomenon may introduce a complex network of
+molecular interactions. Scientific literature is one of the trustful resources
+delivering knowledge of these networks. We propose LitWay, a system for
+extracting semantic relations from texts. LitWay utilizes a hybrid method that
+combines both a rule-based method and a machine learning-based method. It is
+tested on the SeeDev task of BioNLP-ST 2016, achieves the state-of-the-art
+performance with the F-score of 43.2\%, ranking first of all participating
+teams. To further reveal the linguistic characteristics of each event, we test
+the system solely with syntactic rules or machine learning, and different
+combinations of two methods. We find that it is difficult for one method to
+achieve good performance for all semantic relation types due to the
+complication of bio-events in the literatures.
+Author{1}{Firstname}#=%=#Chen
+Author{1}{Lastname}#=%=#Li
+Author{1}{Email}#=%=#cli@xjtu.edu.cn
+Author{1}{Affiliation}#=%=#Xi'an Jiaotong University, China; Massachusetts Institute of Technology, United States
+Author{2}{Firstname}#=%=#Zhiqiang
+Author{2}{Lastname}#=%=#Rao
+Author{2}{Email}#=%=#zhiqiangrao@foxmail.com
+Author{2}{Affiliation}#=%=#Xidian University, China
+Author{3}{Firstname}#=%=#Xiangrong
+Author{3}{Lastname}#=%=#Zhang
+Author{3}{Email}#=%=#xrzhang@mail.xidian.edu.cn
+Author{3}{Affiliation}#=%=#Xidian University, China; Massachusetts Institute of Technology, United States
+
+==========

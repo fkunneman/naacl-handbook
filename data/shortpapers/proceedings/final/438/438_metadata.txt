@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#438
+FinalPaperTitle#=%=#Tweet2Vec: Character-Based Distributed Representations for Social Media
+ShortPaperTitle#=%=#Tweet2Vec: Character-Based Distributed Representations for Social Media
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Bhuwan Dhingra
+JobTitle#==#
+Organization#==#Carnegie Mellon University
+5000 Forbes Ave
+Pittsburgh, PA-15213, USA
+Abstract#==#Text from social media provides a set of challenges that can cause traditional
+NLP approaches to fail. Informal language, spelling errors, abbreviations, and
+special characters are all commonplace in these posts, leading to a
+prohibitively large vocabulary size for word-level approaches. We propose a
+character composition model, tweet2vec, which finds vector-space
+representations of whole tweets by learning complex, non-local dependencies in
+character sequences. The proposed model outperforms a word-level baseline at
+predicting user-annotated hashtags associated with the posts, doing
+significantly better when the input contains many out-of-vocabulary words or
+unusual character sequences. Our tweet2vec encoder is publicly available.
+Author{1}{Firstname}#=%=#Bhuwan
+Author{1}{Lastname}#=%=#Dhingra
+Author{1}{Email}#=%=#bdhingra@andrew.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Zhong
+Author{2}{Lastname}#=%=#Zhou
+Author{2}{Email}#=%=#zhongzhou@cmu.edu
+Author{2}{Affiliation}#=%=#Heinz College, Carnegie Mellon University
+Author{3}{Firstname}#=%=#Dylan
+Author{3}{Lastname}#=%=#Fitzpatrick
+Author{3}{Email}#=%=#djfitzpa@andrew.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+Author{4}{Firstname}#=%=#Michael
+Author{4}{Lastname}#=%=#Muehl
+Author{4}{Email}#=%=#mmuehl@andrew.cmu.edu
+Author{4}{Affiliation}#=%=#Carnegie Mellon University
+Author{5}{Firstname}#=%=#William
+Author{5}{Lastname}#=%=#Cohen
+Author{5}{Email}#=%=#wcohen@cs.cmu.edu
+Author{5}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

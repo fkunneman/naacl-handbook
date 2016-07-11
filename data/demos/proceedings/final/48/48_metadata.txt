@@ -1,0 +1,46 @@
+SubmissionNumber#=%=#48
+FinalPaperTitle#=%=#Visualizing and Curating Knowledge Graphs over Time and Space
+ShortPaperTitle#=%=#Visualizing and Curating Knowledge Graphs over Time and Space
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Yafang Wang
+JobTitle#==#
+Organization#==#School of Computer Science and Technology, Shandong University
+Shunhua Road NO.1500, Jinan, China, 250101
+Abstract#==#Publicly available knowledge repositories, such as Wikipedia and Freebase,
+benefit
+significantly from volunteers, whose contributions ensure that the knowledge
+keeps
+expanding and is kept up-to-date and accurate. User interactions are often
+limited to
+hypertext, tabular, or graph visualization interfaces. 
+For spatio-temporal information, however, other interaction paradigms may
+be better-suited. We present an integrated system that combines crowdsourcing,
+automatic or semi-automatic knowledge harvesting from text, and visual
+analytics. It
+enables users to analyze large quantities of structured data and unstructured
+textual
+data from a spatio-temporal perspective and gain deep insights that are not
+easily
+observed in individual facts.
+Author{1}{Firstname}#=%=#Tong
+Author{1}{Lastname}#=%=#Ge
+Author{1}{Email}#=%=#tong@gmail.com
+Author{1}{Affiliation}#=%=#SDU
+Author{2}{Firstname}#=%=#Yafang
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Email}#=%=#wyf181@gmail.com
+Author{2}{Affiliation}#=%=#SDU
+Author{3}{Firstname}#=%=#Gerard
+Author{3}{Lastname}#=%=#de Melo
+Author{3}{Email}#=%=#gdm@demelo.org
+Author{3}{Affiliation}#=%=#Tsinghua University
+Author{4}{Firstname}#=%=#Haofeng
+Author{4}{Lastname}#=%=#Li
+Author{4}{Email}#=%=#hfl@gmail.com
+Author{4}{Affiliation}#=%=#SDU
+Author{5}{Firstname}#=%=#Baoquan
+Author{5}{Lastname}#=%=#Chen
+Author{5}{Email}#=%=#baoquan@sdu.edu.cn
+Author{5}{Affiliation}#=%=#SDU
+
+==========

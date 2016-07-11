@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#47
+FinalPaperTitle#=%=#Putting Sarcasm Detection into Context: The Effects of Class Imbalance and Manual Labelling on Supervised Machine Classification of Twitter Conversations
+ShortPaperTitle#=%=#Putting Sarcasm Detection into Context: The Effects of Class Imbalance and Manual Labelling on Supervised Machine Classification of Twitter Conversations
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Gavin Abercrombie
+JobTitle#==#
+Organization#==#Center for Lanhuage Technology
+University of Copenhagen
+Njalsgade 140, DK-2300 Copenhagen S, Denmrk
+Abstract#==#Sarcasm can radically alter or invert a phrase's meaning. Sarcasm detection can
+therefore help improve natural language processing (NLP) tasks.
+However, the majority of prior research has treated sarcasm detection as 
+classification, with three important limitations:  
+1. Balanced datasets, when sarcasm is actually rather rare. 
+2. Using Twitter users' self-declarations in the form of hashtags to label
+data, when sarcasm can take many forms. 
+To address these issues, we create an unbalanced corpus of manually annotated
+Twitter conversations. We compare human and machine ability to recognize
+sarcasm on this data under varying amounts of context. 
+Results indicate that both class imbalance and labelling method affect
+performance, and are factors that should be considered when designing automatic
+sarcasm detection systems. We conclude that for progress to be made in
+real-world sarcasm detection, we will require a new class labelling scheme that
+is able to access the `common ground' held between conversational parties.
+Author{1}{Firstname}#=%=#Gavin
+Author{1}{Lastname}#=%=#Abercrombie
+Author{1}{Email}#=%=#jst662@alumni.ku.dk
+Author{1}{Affiliation}#=%=#KU
+Author{2}{Firstname}#=%=#Dirk
+Author{2}{Lastname}#=%=#Hovy
+Author{2}{Email}#=%=#mail@dirkhovy.com
+Author{2}{Affiliation}#=%=#Center for Language Technology, University of Copenhagen
+
+==========

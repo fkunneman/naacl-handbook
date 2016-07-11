@@ -1,0 +1,62 @@
+SubmissionNumber#=%=#99
+FinalPaperTitle#=%=#Does Multimodality Help Human and Machine for Translation and Image Captioning?
+ShortPaperTitle#=%=#Does Multimodality Help Human and Machine for Translation and Image Captioning?
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Ozan Caglayan
+JobTitle#==#
+Organization#==#Laboratoire d'Informatique de l'Université du Maine (LIUM)
+Institut d'Informatique Claude Chappe
+Université du Maine, Avenue Laennec
+72085 LE MANS CEDEX 9
+Abstract#==#We submitted four systems for task 1 and two systems for task 2.
+The multimodal neural systems are a joint submission from LIUM and CVC
+(LIUMCVC).
+The phrase-based and monomodal NMT system have been submitted by LIUM.
+
+The phrase-based systems are based on Moses (14 standard features + OSM). They
+include rescoring with several models and more particularly with a continuous
+space language model integrating visual features as auxiliary data.
+We also developed a multimodal neural machine translation system with a shared
+attention mechanism. The text input is encoded by a bidirectional recurrent
+layer.
+The image is encoded by a very deep residual network (up to 152 layers).
+The attention weights are computed for each input word and each image feature
+map by a single fully-connected feed-forward network.
+The decoder is build upon a conditional gated recurrent unit (cGRU) and
+generates its output based on the multimodal input context (with attention),
+the previous output and the hidden state of the cGRU. 
+All our systems are constrained
+Author{1}{Firstname}#=%=#Ozan
+Author{1}{Lastname}#=%=#Caglayan
+Author{1}{Email}#=%=#ozancag@gmail.com
+Author{1}{Affiliation}#=%=#LIUM, University of Le Mans
+Author{2}{Firstname}#=%=#Walid
+Author{2}{Lastname}#=%=#Aransa
+Author{2}{Email}#=%=#walid.aransa@lium.univ-lemans.fr
+Author{2}{Affiliation}#=%=#LIUM, University of Le Mans
+Author{3}{Firstname}#=%=#Yaxing
+Author{3}{Lastname}#=%=#Wang
+Author{3}{Email}#=%=#yaxing@cvc.uab.es
+Author{3}{Affiliation}#=%=#CVC, Universitat Autonoma de Barcelona
+Author{4}{Firstname}#=%=#Marc
+Author{4}{Lastname}#=%=#Masana
+Author{4}{Email}#=%=#marc.masana@cvc.uab.es
+Author{4}{Affiliation}#=%=#CVC, Universitat Autonoma de Barcelona
+Author{5}{Firstname}#=%=#Mercedes
+Author{5}{Lastname}#=%=#García-Martínez
+Author{5}{Email}#=%=#mercedes.garcia_martinez@univ-lemans.fr
+Author{5}{Affiliation}#=%=#LIUM, University of Le Mans
+Author{6}{Firstname}#=%=#Fethi
+Author{6}{Lastname}#=%=#Bougares
+Author{6}{Email}#=%=#fethi.bougares@lium.univ-lemans.fr
+Author{6}{Affiliation}#=%=#LIUM- University of Le Mans
+Author{7}{Firstname}#=%=#Loïc
+Author{7}{Lastname}#=%=#Barrault
+Author{7}{Email}#=%=#loic.barrault@lium.univ-lemans.fr
+Author{7}{Affiliation}#=%=#LIUM, University of Le Mans
+Author{8}{Firstname}#=%=#Joost
+Author{8}{Lastname}#=%=#van de Weijer
+Author{8}{Email}#=%=#joost@cvc.uab.es
+Author{8}{Affiliation}#=%=#CVC, Universitat Autonoma de Barcelone
+
+==========

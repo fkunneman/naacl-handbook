@@ -1,0 +1,48 @@
+SubmissionNumber#=%=#97
+FinalPaperTitle#=%=#The Karlsruhe Institute of Technology Systems for the News Translation Task in WMT 2016
+ShortPaperTitle#=%=#The KIT Systems for the News Translation Task in WMT 2016
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Thanh-Le Ha
+JobTitle#==#
+Organization#==#Interactive System Labs, Institute of Anthropomatics and Robotics, Karlsruhe Institute of Technology,
+Adenauerring 2, 76131, Karlsruhe, Germany
+Abstract#==#In this paper, we present the KIT system as well as the KIT-LIMSI system for
+the ACL 2016 First Conference on Machine Translation. We participated in the
+shared task Machine Translation of News and submitted translation systems 
+for three different directions: English$\rightarrow$German,
+German$\rightarrow$English and English$\rightarrow$Romanian. 
+
+We used a phrase-based machine translation system and investigated several
+models to rescore the system. We used neural network language and translation
+models. Using these models, we could improve the translation performance in all
+tasks.
+Author{1}{Firstname}#=%=#Thanh-Le
+Author{1}{Lastname}#=%=#Ha
+Author{1}{Email}#=%=#thanh-le.ha@kit.edu
+Author{1}{Affiliation}#=%=#Karlsruhe Institute of Technology
+Author{2}{Firstname}#=%=#Eunah
+Author{2}{Lastname}#=%=#Cho
+Author{2}{Email}#=%=#eunah.cho@kit.edu
+Author{2}{Affiliation}#=%=#Karlsruhe Institute of Technology
+Author{3}{Firstname}#=%=#Jan
+Author{3}{Lastname}#=%=#Niehues
+Author{3}{Email}#=%=#jan.niehues@kit.edu
+Author{3}{Affiliation}#=%=#Karlsruhe Institute of Technology
+Author{4}{Firstname}#=%=#Mohammed
+Author{4}{Lastname}#=%=#Mediani
+Author{4}{Email}#=%=#mohammed.mediani@kit.edu
+Author{4}{Affiliation}#=%=#Karlsruhe Institute of Technology
+Author{5}{Firstname}#=%=#Matthias
+Author{5}{Lastname}#=%=#Sperber
+Author{5}{Email}#=%=#matthias.sperber@kit.edu
+Author{5}{Affiliation}#=%=#Karlsruhe Institute of Technology
+Author{6}{Firstname}#=%=#Alexandre
+Author{6}{Lastname}#=%=#Allauzen
+Author{6}{Email}#=%=#allauzen@limsi.fr
+Author{6}{Affiliation}#=%=#Université Paris-Sud / LIMSI-CNRS
+Author{7}{Firstname}#=%=#Alexander
+Author{7}{Lastname}#=%=#Waibel
+Author{7}{Email}#=%=#alex.waibel@kit.edu
+Author{7}{Affiliation}#=%=#Karlsruhe Institute of Technology
+
+==========

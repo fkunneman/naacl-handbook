@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#39
+FinalPaperTitle#=%=#Orthogonality regularizer for question answering
+ShortPaperTitle#=%=#Orthogonality regularizer for question answering
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Chunyang Xiao
+JobTitle#==#
+Organization#==#Xerox Research Centre Europe
+Abstract#==#Learning embeddings of words and
+knowledge base elements is a promising
+approach for open domain question
+answering. Based on the remark that
+relations and entities are distinct object
+types lying in the same embedding
+space, we analyze the benefit of adding
+a regularizer favoring the embeddings
+of entities to be orthogonal to those of
+relations. The main motivation comes
+from the observation that modifying the
+embeddings using prior knowledge often
+helps performances. The experiments
+show that incorporating the regularizer
+yields better results on a challenging
+question answering benchmark.
+Author{1}{Firstname}#=%=#Chunyang
+Author{1}{Lastname}#=%=#Xiao
+Author{1}{Email}#=%=#chunyangx@gmail.com
+Author{1}{Affiliation}#=%=#Xerox Research Center Europe
+Author{2}{Firstname}#=%=#Guillaume
+Author{2}{Lastname}#=%=#Bouchard
+Author{2}{Email}#=%=#guillaume.m.bouchard@gmail.com
+Author{2}{Affiliation}#=%=#UCL
+Author{3}{Firstname}#=%=#Marc
+Author{3}{Lastname}#=%=#Dymetman
+Author{3}{Email}#=%=#marc.dymetman@xrce.xerox.com
+Author{3}{Affiliation}#=%=#Xerox Research Centre Europe
+Author{4}{Firstname}#=%=#Claire
+Author{4}{Lastname}#=%=#Gardent
+Author{4}{Email}#=%=#claire.gardent@loria.fr
+Author{4}{Affiliation}#=%=#CNRS/LORIA, Nancy
+
+==========

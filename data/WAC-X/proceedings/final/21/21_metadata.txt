@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#21
+FinalPaperTitle#=%=#On Bias-free Crawling and Representative Web Corpora
+ShortPaperTitle#=%=#On Bias-free Crawling and Representative Web Corpora
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Roland Schäfer
+JobTitle#==#
+Organization#==#Freie Universität Berlin
+Habelschwerdter Allee 45
+14195 Berlin, Germany
+Abstract#==#In this paper, I present a specialized open-source crawler that can be used to
+obtain bias-reduced samples from the web. First, I briefly discuss the
+relevance of bias-reduced web corpus sampling for corpus linguistics. Then, I
+summarize theoretical results that show how commonly used crawling methods
+obtain highly biased samples from the web. The theoretical part of the paper is
+followed by a description my feature-complete and stable ClaraX crawler which
+performs so-called Random Walks, a form of crawling that allows for
+bias-reduced sampling if combined with methods of post-crawl rejection
+sampling. Finally, results from two large crawling experiments in the German
+web are reported. I show that bias reduction is feasible if certain technical
+and practical hurdles are overcome.
+Author{1}{Firstname}#=%=#Roland
+Author{1}{Lastname}#=%=#Schäfer
+Author{1}{Email}#=%=#roland.schaefer@fu-berlin.de
+Author{1}{Affiliation}#=%=#Freie Universität Berlin
+
+==========

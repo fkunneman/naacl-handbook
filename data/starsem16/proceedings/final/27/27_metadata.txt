@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#27
+FinalPaperTitle#=%=#Detecting Stance in Tweets And Analyzing its Interaction with Sentiment
+ShortPaperTitle#=%=#Detecting Stance in Tweets And Analyzing its Interaction with Sentiment
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Parinaz Sobhani
+JobTitle#==#Student
+Organization#==#University of 
+ottawa, ottawa, ontario, canada
+Abstract#==#One may express favor (or disfavor)
+towards a target by using  positive or negative language.
+Here for the first time we present a dataset of tweets annotated for whether
+the tweeter
+is in favor of or against pre-chosen targets, as well as for sentiment. These
+targets may or may not be referred to in the tweets,
+and they may or may not be the target of opinion in the tweets.
+We develop a simple stance detection system that outperforms all 19 teams that
+participated in a recent shared task competition on the same dataset.
+Additionally, access to both stance and sentiment annotations allows us to
+conduct several experiments 
+to tease out their interactions.
+We show that
+while sentiment features  are useful for stance classification, they alone are
+not sufficient.
+We also show the impacts of various features on detecting stance and sentiment,
+respectively.
+Author{1}{Firstname}#=%=#Parinaz
+Author{1}{Lastname}#=%=#Sobhani
+Author{1}{Email}#=%=#psobh090@uottawa.ca
+Author{1}{Affiliation}#=%=#School of Electrical Engineering and Computer Science, University of Ottawa
+Author{2}{Firstname}#=%=#Saif
+Author{2}{Lastname}#=%=#Mohammad
+Author{2}{Email}#=%=#saif.mohammad@nrc-cnrc.gc.ca
+Author{2}{Affiliation}#=%=#NRC
+Author{3}{Firstname}#=%=#Svetlana
+Author{3}{Lastname}#=%=#Kiritchenko
+Author{3}{Email}#=%=#svetlana.kiritchenko@nrc-cnrc.gc.ca
+Author{3}{Affiliation}#=%=#NRC
+
+==========

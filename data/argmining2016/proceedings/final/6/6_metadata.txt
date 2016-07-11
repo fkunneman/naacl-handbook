@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#What to Do with an Airport? Mining Arguments in the German Online Participation Project Tempelhofer Feld
+ShortPaperTitle#=%=#What to Do with an Airport? Mining Arguments in the German Online Participation Project Tempelhofer Feld
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Matthias Liebeck
+JobTitle#==#
+Organization#==#Heinrich Heine University Düsseldorf
+Institute of Computer Science
+Room 25.12.02.34
+Universitaetsstrasse 1
+D-40223 Düsseldorf, Germany
+Abstract#==#This paper focuses on the automated extraction of argument components from user
+content in the German online participation project Tempelhofer Feld. We adapt
+existing argumentation models into a new model for decision-oriented online
+participation. Our model consists of three categories: major positions,
+claims, and premises. We create a new German corpus for argument mining by
+annotating our dataset with our model. Afterwards, we focus on the two
+classification tasks of identifying argumentative sentences and predicting
+argument components in sentences. We achieve macro-averaged
+F_1 measures of 69.77% and 68.5%, respectively.
+Author{1}{Firstname}#=%=#Matthias
+Author{1}{Lastname}#=%=#Liebeck
+Author{1}{Email}#=%=#liebeck@cs.uni-duesseldorf.de
+Author{1}{Affiliation}#=%=#Heinrich Heine University Düsseldorf
+Author{2}{Firstname}#=%=#Katharina
+Author{2}{Lastname}#=%=#Esau
+Author{2}{Email}#=%=#katharina.esau@uni-duesseldorf.de
+Author{2}{Affiliation}#=%=#Heinrich Heine University Düsseldorf
+Author{3}{Firstname}#=%=#Stefan
+Author{3}{Lastname}#=%=#Conrad
+Author{3}{Email}#=%=#conrad@cs.uni-duesseldorf.de
+Author{3}{Affiliation}#=%=#Heinrich Heine University Düsseldorf
+
+==========

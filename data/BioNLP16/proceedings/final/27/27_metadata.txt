@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#27
+FinalPaperTitle#=%=#Building a dictionary of lexical variants for phenotype descriptors
+ShortPaperTitle#=%=#Building a dictionary of lexical variants for phenotype descriptors
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Simon Kocbek
+JobTitle#==#
+Organization#==#Kinghorn Center for Clinical Genomics, Garvan Institute of Medical Research, Darlinghurst, Sydney, NSW 2011, Australia
+Abstract#==#Detecting phenotype descriptors in text and linking them to ontology concepts
+is a challenging task. Current state-of-the art concept recognizers struggle
+with several issues due the variety of human expressiveness. Here we present
+initial results of creating a dictionary of lexical variants for the Human
+Phenotype Ontology. This work is a smaller but important part of a larger
+project with a goal to improve recall in phenotype concept recognizers.
+Author{1}{Firstname}#=%=#Simon
+Author{1}{Lastname}#=%=#Kocbek
+Author{1}{Email}#=%=#skocbek@gmail.com
+Author{1}{Affiliation}#=%=#Garvan Institute of Medical Research
+Author{2}{Firstname}#=%=#Tudor
+Author{2}{Lastname}#=%=#Groza
+Author{2}{Email}#=%=#t.groza@garvan.org.au
+Author{2}{Affiliation}#=%=#Garvan Institute of Medical Research
+
+==========

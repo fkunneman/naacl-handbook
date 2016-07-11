@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#311
+FinalPaperTitle#=%=#Semantics-Driven Recognition of Collocations Using Word Embeddings
+ShortPaperTitle#=%=#Semantics-Driven Recognition of Collocations Using Word Embeddings
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Sara Rodríguez Fernández
+JobTitle#==#
+Organization#==#Department of Information and Communication Technologies
+Universitat Pompeu Fabra
+C/ Roc Boronat, 138, 08018 Barcelona (Spain)
+Abstract#==#L2 learners often produce "ungrammatical" word combinations such as, e.g.,
+*give a suggestion or *make a walk. This is because of the "collocationality"
+of one of their items (the base) that limits the acceptance of collocates to
+express a specific meaning ('perform' above). We propose an algorithm that
+delivers, for a given base and the intended meaning of a collocate, the actual
+collocate lexeme(s) (make / take above). The algorithm exploits the linear
+mapping between bases and collocates from examples and generates a collocation
+transformation matrix which is then applied to novel unseen cases. The
+evaluation shows a promising line of research in collocation discovery.
+Author{1}{Firstname}#=%=#Sara
+Author{1}{Lastname}#=%=#Rodríguez-Fernández
+Author{1}{Email}#=%=#sara.rodriguez.fernandez@upf.edu
+Author{1}{Affiliation}#=%=#Universitat Pompeu Fabra
+Author{2}{Firstname}#=%=#Luis
+Author{2}{Lastname}#=%=#Espinosa Anke
+Author{2}{Email}#=%=#luis.espinosa@upf.edu
+Author{2}{Affiliation}#=%=#Universitat Pompeu Fabra
+Author{3}{Firstname}#=%=#Roberto
+Author{3}{Lastname}#=%=#Carlini
+Author{3}{Email}#=%=#roberto.carlini@upf.edu
+Author{3}{Affiliation}#=%=#Universitat Pompeu Fabra
+Author{4}{Firstname}#=%=#Leo
+Author{4}{Lastname}#=%=#Wanner
+Author{4}{Email}#=%=#leo.wanner@upf.edu
+Author{4}{Affiliation}#=%=#ICREA and Pompeu Fabra University
+
+==========

@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#78
+FinalPaperTitle#=%=#ILLC-UvA Adaptation System (Scorpio) at WMT'16 IT-DOMAIN Task
+ShortPaperTitle#=%=#ILLC-UvA Adaptation System (Scorpio) at WMT'16 IT-DOMAIN Task
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Cuong
+JobTitle#==#
+Organization#==#University of Amsterdam
+Abstract#==#This paper describes Scorpio, the ILLC-UvA Adaptation System
+submitted to the IT-DOMAIN translation task at WMT 2016, which participated
+with
+the language pair of English-Dutch. This system consolidates the ideas
+in our previous work on latent variable models for adaptation, and
+demonstrates their effectiveness in a competitive setting.
+Author{1}{Firstname}#=%=#Hoang
+Author{1}{Lastname}#=%=#Cuong
+Author{1}{Email}#=%=#hoangcuong2011@gmail.com
+Author{1}{Affiliation}#=%=#ILLC, University of Amsterdam
+Author{2}{Firstname}#=%=#Stella
+Author{2}{Lastname}#=%=#Frank
+Author{2}{Email}#=%=#s.c.frank@uva.nl
+Author{2}{Affiliation}#=%=#ILLC, University of Amsterdam
+Author{3}{Firstname}#=%=#Khalil
+Author{3}{Lastname}#=%=#Sima'an
+Author{3}{Email}#=%=#k.simaan@uva.nl
+Author{3}{Affiliation}#=%=#ILLC, University of Amsterdam
+
+==========

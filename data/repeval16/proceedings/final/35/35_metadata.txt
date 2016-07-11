@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#35
+FinalPaperTitle#=%=#Thematic fit evaluation: an aspect of selectional preferences
+ShortPaperTitle#=%=#Thematic fit evaluation: an aspect of selectional preferences
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Asad Sayeed
+JobTitle#==#
+Organization#==#Saarland University
+66123 Saarbrücken, Germany
+Abstract#==#In this paper, we discuss the human thematic fit judgement                     
+correlation task in the context of real-valued vector space word
+representations. Thematic fit is the extent to which an argument
+fulfils the selectional preference of a verb given a role: for
+example, how well "cake" fulfils the patient role of "cut".  In
+recent work, systems have been evaluated on this task by finding the
+correlations of their output judgements with human-collected judgement
+data.  This task is a representation-independent way of evaluating
+models that can be applied whenever a system score can be generated,
+and it is applicable wherever predicate-argument relations are
+significant to performance in end-user tasks. Significant progress has
+been made on this cognitive modeling task, leaving considerable space
+for future, more comprehensive types of evaluation.
+Author{1}{Firstname}#=%=#Asad
+Author{1}{Lastname}#=%=#Sayeed
+Author{1}{Email}#=%=#asayeed@mbl.ca
+Author{1}{Affiliation}#=%=#Saarland University
+Author{2}{Firstname}#=%=#Clayton
+Author{2}{Lastname}#=%=#Greenberg
+Author{2}{Email}#=%=#claytong@coli.uni-saarland.de
+Author{2}{Affiliation}#=%=#Saarland University
+Author{3}{Firstname}#=%=#Vera
+Author{3}{Lastname}#=%=#Demberg
+Author{3}{Email}#=%=#vera@coli.uni-saarland.de
+Author{3}{Affiliation}#=%=#Saarland University
+
+==========

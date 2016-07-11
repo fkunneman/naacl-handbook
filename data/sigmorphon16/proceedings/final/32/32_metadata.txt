@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#32
+FinalPaperTitle#=%=#Using longest common subsequence and character models to predict word forms
+ShortPaperTitle#=%=#Using longest common subsequence and character models to predict word forms
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Alexey Sorokin
+JobTitle#==#
+Organization#==#Moscow State University, Faculty of Mathematics and Mechanics; GSP-1, Leninskie Gory, 1, 119991, Moscow, Russia
+Moscow Institute of Physics and Technology, Faculty of Innovations and High Technologies; Institutskij per., 9, 141701, Dologoprudny, Moscow Region, Russia
+Abstract#==#This paper presents an algorithm for automatic word forms inflection. We use
+the method of longest common subsequence to extract abstract paradigms from
+given pairs of basic and inflected word forms, as well as suffix and prefix
+features to predict this paradigm automatically. We elaborate this algorithm
+using combination of affix feature-based and character ngram models, which
+substantially enhances performance especially for the languages possessing
+nonlocal phenomena such as vowel harmony. Our system took part in SIGMORPHON
+2016 Shared Task and took third place in 17 of 30 subtasks and fourth place in
+7 substasks among 7 participants.
+Author{1}{Firstname}#=%=#Alexey
+Author{1}{Lastname}#=%=#Sorokin
+Author{1}{Email}#=%=#alexey.sorokin@list.ru
+Author{1}{Affiliation}#=%=#Moscow State University
+
+==========

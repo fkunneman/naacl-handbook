@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#3
+FinalPaperTitle#=%=#LABDA at the 2016 BioASQ challenge task 4a: Semantic Indexing by using ElasticSearch
+ShortPaperTitle#=%=#LABDA at the 2016 BioASQ challenge task 4a: Semantic Indexing by using ElasticSearch
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Isabel Segura-Bedmar
+JobTitle#==#
+Organization#==#University Carlos III of Madrid, Avd. de la Universidad, Leganés, 28911, Madrid, Spain
+Abstract#==#This paper describes the participation of Labda team in the 2016 BioASQ task 4a
+on large-scale online biomedical semantic indexing. Our approach is based on
+the use of the open source search engine ElasticSearch. Experimental results
+show
+that our approach achieves high precision while keeping processing time low.
+Although more work needs to be done to improve our results, we can conclude
+that
+ElasticSearch is a competitive and scalable system for indexing biomedical
+literature.
+Author{1}{Firstname}#=%=#Isabel
+Author{1}{Lastname}#=%=#Segura-Bedmar
+Author{1}{Email}#=%=#isegura@inf.uc3m.es
+Author{1}{Affiliation}#=%=#Carlos III University of Madrid
+Author{2}{Firstname}#=%=#Adrián
+Author{2}{Lastname}#=%=#Carruana
+Author{2}{Email}#=%=#acarruan@inf.uc3m.es
+Author{2}{Affiliation}#=%=#Carlos III University of Madrid
+Author{3}{Firstname}#=%=#Paloma
+Author{3}{Lastname}#=%=#Martínez
+Author{3}{Email}#=%=#pmf@inf.uc3m.es
+Author{3}{Affiliation}#=%=#Carlos III University of Madrid
+
+==========

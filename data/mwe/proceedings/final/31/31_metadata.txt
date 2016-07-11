@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#31
+FinalPaperTitle#=%=#Modeling the Non-Substitutability of Multiword Expressions with Distributional Semantics and a Log-Linear Model
+ShortPaperTitle#=%=#Modeling the Non-Substitutability of Multiword Expressions with Distributional Semantics and a Log-Linear Model
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#MEGHDAD FARAHMAND
+JobTitle#==#
+Organization#==#University of Geneva
+Computer Science Department
+Centre Universitaire d'Informatique (CUI)
+Battelle - bâtiment A
+7, route de Drize
+CH-1227 Carouge
+Abstract#==#Non-substitutability is a property of Multiword Expressions (MWEs) that often
+causes lexical rigidity and is relevant for most types of MWEs. Efficient
+identification of this property can result in the efficient identification of
+MWEs. In this work we propose using distributional semantics, in the form of
+word embeddings, to identify candidate substitutions for a candidate MWE and
+model its substitutability. We use our models to rank MWEs based on their
+lexical rigidity and study their performance in comparison with association
+measures. We also study the interaction between our models and association
+measures. We show that one of our models can significantly improve over the
+association measure baselines, identifying collocations.
+Author{1}{Firstname}#=%=#Meghdad
+Author{1}{Lastname}#=%=#Farahmand
+Author{1}{Email}#=%=#meghdad.farahmand@gmail.com
+Author{1}{Affiliation}#=%=#University of Geneva
+Author{2}{Firstname}#=%=#James
+Author{2}{Lastname}#=%=#Henderson
+Author{2}{Email}#=%=#james.henderson@unige.ch
+Author{2}{Affiliation}#=%=#Xerox Research Centre Europe
+
+==========

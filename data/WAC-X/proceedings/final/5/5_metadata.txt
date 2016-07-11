@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#5
+FinalPaperTitle#=%=#LTL-UDE @ EmpiriST 2015: Tokenization and PoS Tagging of Social Media Text
+ShortPaperTitle#=%=#LTL-UDE @ EmpiriST 2015: Tokenization and PoS Tagging of Social Media Text
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Tobias Horsmann
+JobTitle#==#
+Organization#==#Language Technology Lab
+University of Duisburg-Essen
+Abstract#==#We present a detailed description of our submission to the EmpiriST shared task
+2015 for tokenization and part-of-speech tagging of German social media text.
+As relatively little training data is provided, neither tokenization nor PoS
+tagging can be learned from the data alone. For tokenization, our system uses
+regular expressions for general cases and word lists for exceptions. For PoS
+tagging, adding unsupervised knowledge beyond the available training data is
+the most important factor for reaching acceptable tagging accuracy. A learning
+curve experiment shows furthermore that more in-domain training data is very
+likely to further increase accuracy.
+Author{1}{Firstname}#=%=#Tobias
+Author{1}{Lastname}#=%=#Horsmann
+Author{1}{Email}#=%=#tobias.horsmann@uni-due.de
+Author{1}{Affiliation}#=%=#Language Technology Lab, University of Duisburg-Essen
+Author{2}{Firstname}#=%=#Torsten
+Author{2}{Lastname}#=%=#Zesch
+Author{2}{Email}#=%=#torsten.zesch@uni-due.de
+Author{2}{Affiliation}#=%=#Language Technology Lab, University of Duisburg-Essen
+
+==========

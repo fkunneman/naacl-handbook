@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#243
+FinalPaperTitle#=%=#Is "Universal Syntax" Universally Useful for Learning Distributed Word Representations?
+ShortPaperTitle#=%=#Is "Universal Syntax" Universally Useful for Learning Distributed Word Representations?
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Ivan Vulić
+JobTitle#==#
+Organization#==#Department of Theoretical and Applied Linguistics, University of Cambridge
+9 West Road, CB3 9DB, Cambridge, UK
+Abstract#==#Recent comparative studies have demonstrated the usefulness of dependency-based
+contexts (DEPS) for learning distributed word representations for similarity
+tasks. In English, DEPS tend to perform better than the more common, less
+informed bag-of-words contexts (BOW). In this paper, we present the first
+cross-linguistic comparison of different context types for three different
+languages. DEPS are extracted from ``universal parses'' without any
+language-specific optimization. Our results suggest that the universal DEPS
+(UDEPS) are useful for detecting functional similarity (e.g., verb similarity,
+solving syntactic analogies) among languages, but their advantage over BOW is
+not as prominent as previously reported on English. We also show that simple
+``post-parsing'' filtering of useful UDEPS contexts leads to consistent
+improvements across languages.
+Author{1}{Firstname}#=%=#Ivan
+Author{1}{Lastname}#=%=#Vulić
+Author{1}{Email}#=%=#iv250@cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Anna
+Author{2}{Lastname}#=%=#Korhonen
+Author{2}{Email}#=%=#anna.korhonen@cl.cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+
+==========

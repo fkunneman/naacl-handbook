@@ -1,0 +1,46 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#Improving Temporal Relation Extraction with Training Instance Augmentation
+ShortPaperTitle#=%=#Improving Temporal Relation Extraction with Training Instance Augmentation
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Chen Lin
+JobTitle#==#
+Organization#==#Boston Children's Hospital
+300 Longwood Ave. Boston, MA 02115
+Abstract#==#Temporal relation extraction is important for understanding ordering of events
+from
+a narrative text. In this work we describe a method for increasing the number
+of
+high-quality training instances available to a temporal relation extraction
+task, with
+an adaptation to different annotation styles in the clinical domain by taking
+advantage
+of the Unified Medical Language System (UMLS). This method notably improves
+clinical temporal relation extraction, works beyond featurizing or duplicating
+the
+same information, can generalize between argument signals in a more effective
+and
+robust fashion. We also report a new state-of-the-art result, which is a two
+point improvement
+over the best Clinical TempEval 2016 system.
+Author{1}{Firstname}#=%=#Chen
+Author{1}{Lastname}#=%=#Lin
+Author{1}{Email}#=%=#chen.lin@childrens.harvard.edu
+Author{1}{Affiliation}#=%=#Children's Hospital Informatics Program, Boston Children's Hospital
+Author{2}{Firstname}#=%=#Timothy
+Author{2}{Lastname}#=%=#Miller
+Author{2}{Email}#=%=#timothy.miller@childrens.harvard.edu
+Author{2}{Affiliation}#=%=#Boston Children's Hospital and Harvard Medical School
+Author{3}{Firstname}#=%=#Dmitriy
+Author{3}{Lastname}#=%=#Dligach
+Author{3}{Email}#=%=#ddligach@luc.edu
+Author{3}{Affiliation}#=%=#Loyola University Chicago
+Author{4}{Firstname}#=%=#Steven
+Author{4}{Lastname}#=%=#Bethard
+Author{4}{Email}#=%=#bethard@uab.edu
+Author{4}{Affiliation}#=%=#University of Alabama at Birmingham
+Author{5}{Firstname}#=%=#Guergana
+Author{5}{Lastname}#=%=#Savova
+Author{5}{Email}#=%=#guergana.savova@childrens.harvard.edu
+Author{5}{Affiliation}#=%=#Harvard
+
+==========

@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#41
+FinalPaperTitle#=%=#Phrase Representations for Multiword Expressions
+ShortPaperTitle#=%=#Phrase Representations for Multiword Expressions
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Joël Legrand
+JobTitle#==#
+Organization#==#Idiap Research Institute
+Rue Marconi 19
+1920 Salvan
+Martigny, Switzerland
+Abstract#==#Recent works in Natural Language Processing (NLP) using neural networks have
+focused on learning dense word representations to perform classification tasks.
+When dealing with phrase prediction problems, is is common practice to use
+special tagging schemes to identify segments boundaries. This allows these
+tasks to be expressed as common word tagging problems. In this paper, we
+propose to learn fixed-size representations for arbitrarily sized chunks. We
+introduce a model that takes advantage of such representations to perform
+phrase tagging by directly identifying and classifying phrases. We evaluate our
+approach on the task of multiword expression (MWE) tagging and show that our
+model outperforms the state-of-the-art model for this task.
+Author{1}{Firstname}#=%=#Joël
+Author{1}{Lastname}#=%=#Legrand
+Author{1}{Email}#=%=#joel.legrand@idiap.ch
+Author{1}{Affiliation}#=%=#Idiap Research Institute
+Author{2}{Firstname}#=%=#Ronan
+Author{2}{Lastname}#=%=#Collobert
+Author{2}{Email}#=%=#ronan@collobert.com
+Author{2}{Affiliation}#=%=#Facebook AI Research
+
+==========

@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#37
+FinalPaperTitle#=%=#Story Cloze Evaluator: Vector Space Representation Evaluation by Predicting What Happens Next
+ShortPaperTitle#=%=#Vector Space Representation Evaluation by Predicting What Happens Next
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Nasrin Mostafazadeh
+JobTitle#==#
+Organization#==#University of Rochester
+Abstract#==#The main intrinsic evaluation for vector space representation has been focused
+on textual similarity, where the task is to predict how semantically similar
+two words or sentences are. We propose a novel framework, Story Cloze
+Evaluator, for evaluating vector representations which goes beyond textual
+similarity and captures the notion of predicting what should happen next given
+a context. This evaluation methodology is simple to run, scalable, reproducible
+by the community, non-subjective and 100% agreeable by human, which makes it a
+promising new framework for further investment of the representation learning
+community.
+Author{1}{Firstname}#=%=#Nasrin
+Author{1}{Lastname}#=%=#Mostafazadeh
+Author{1}{Email}#=%=#nsrn.mostafazadeh@gmail.com
+Author{1}{Affiliation}#=%=#University of Rochester
+Author{2}{Firstname}#=%=#Lucy
+Author{2}{Lastname}#=%=#Vanderwende
+Author{2}{Email}#=%=#lucyv@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft Research
+Author{3}{Firstname}#=%=#Wen-tau
+Author{3}{Lastname}#=%=#Yih
+Author{3}{Email}#=%=#scottyih@microsoft.com
+Author{3}{Affiliation}#=%=#Microsoft Research
+Author{4}{Firstname}#=%=#Pushmeet
+Author{4}{Lastname}#=%=#Kohli
+Author{4}{Email}#=%=#pkohli@microsoft.com
+Author{4}{Affiliation}#=%=#Microsoft
+Author{5}{Firstname}#=%=#James
+Author{5}{Lastname}#=%=#Allen
+Author{5}{Email}#=%=#james@cs.rochester.edu
+Author{5}{Affiliation}#=%=#University of Rochester
+
+==========

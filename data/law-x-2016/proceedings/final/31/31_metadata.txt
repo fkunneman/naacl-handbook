@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#31
+FinalPaperTitle#=%=#Evaluating Inter-Annotator Agreement on Historical Spelling Normalization
+ShortPaperTitle#=%=#Evaluating Inter-Annotator Agreement on Historical Spelling Normalization
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Stefanie Dipper
+JobTitle#==#
+Organization#==#Sprachwissenschaftliches Institut
+Ruhr-University Bochum
+D - 44780 Bochum
+Abstract#==#This paper deals with means of evaluating inter-annotator agreement for a
+normalization task. This task differs from common annotation tasks in two
+important aspects: (i) the class of labels (the normalized wordforms) is open,
+and (ii) annotations can match to different degrees. We propose a new method to
+measure inter-annotator agreement for the normalization task. It integrates
+common chance-corrected agreement measures, such as Fleiss’s κ or
+Krippendorff’s α. The novelty of our proposed method lies in the way the
+annotated word forms are treated. First, they are evaluated character-wise;
+second, certain characters are mapped to more general categories.
+Author{1}{Firstname}#=%=#Marcel
+Author{1}{Lastname}#=%=#Bollmann
+Author{1}{Email}#=%=#bollmann@linguistics.rub.de
+Author{1}{Affiliation}#=%=#Department of Linguistics, Ruhr University Bochum
+Author{2}{Firstname}#=%=#Stefanie
+Author{2}{Lastname}#=%=#Dipper
+Author{2}{Email}#=%=#dipper@linguistics.rub.de
+Author{2}{Affiliation}#=%=#Ruhr-University Bochum
+Author{3}{Firstname}#=%=#Florian
+Author{3}{Lastname}#=%=#Petran
+Author{3}{Email}#=%=#florian.petran@gmail.com
+Author{3}{Affiliation}#=%=#Ruhr-Universität Bochum
+
+==========

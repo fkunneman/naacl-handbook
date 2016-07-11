@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#31
+FinalPaperTitle#=%=#Fill the Gap! Analyzing Implicit Premises between Claims from Online Debates
+ShortPaperTitle#=%=#Fill the Gap! Analyzing Implicit Premises between Claims from Online Debates
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Jan Snajder
+JobTitle#==#
+Organization#==#Faculty of Electrical Engineering and Computing
+University of Zagreb
+Unska 3
+10000 Zagreb
+Croatia
+Abstract#==#Identifying the main claims occurring across texts is important for large-scale
+argumentation mining from social media. However, the claims that users make are
+often unclear and build on implicit knowledge, effectively introducing a gap
+between the claims.  In this work, we study the problem of matching user claims
+to predefined main claims, using implicit premises to fill the gap. We build
+a dataset with implicit premises and analyze how human annotators fill the
+gaps.  We then experiment with computational claim matching models that utilize
+these premises. We show that using manually-compiled premises improves
+similarity-based claim matching and that premises generalize to unseen user
+claims.
+Author{1}{Firstname}#=%=#Filip
+Author{1}{Lastname}#=%=#Boltuzic
+Author{1}{Email}#=%=#filipbolt@gmail.com
+Author{1}{Affiliation}#=%=#
+Author{2}{Firstname}#=%=#Jan
+Author{2}{Lastname}#=%=#Šnajder
+Author{2}{Email}#=%=#jan.snajder@fer.hr
+Author{2}{Affiliation}#=%=#University of Zagreb, Faculty of Electrical Engineering and Computing, Unska 3, 10000 Zagreb
+
+==========

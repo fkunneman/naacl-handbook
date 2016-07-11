@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#75
+FinalPaperTitle#=%=#English-Portuguese Biomedical Translation Task Using a Genuine Phrase-Based Statistical Machine Translation Approach
+ShortPaperTitle#=%=#English-Portuguese Biomedical Translation Task Using a Genuine Phrase-Based Statistical Machine Translation Approach
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#José Aires
+JobTitle#==#
+Organization#==#NOVA LINCS, Faculdade de Ciências e Tecnologia, Universidade Nova de Lisboa, Portugal
+Abstract#==#Our approach to produce translations for the ACL-2016 Biomedical Translation
+Task on the English-Portuguese language pair, in both directions, is described.
+Own preliminary tests results and final results, measured by the shared task
+organizers, are also presented.
+Author{1}{Firstname}#=%=#José
+Author{1}{Lastname}#=%=#Aires
+Author{1}{Email}#=%=#jose.aires@istrionbox.com
+Author{1}{Affiliation}#=%=#Istrionbox - Translation & Revision, Lda.
+Author{2}{Firstname}#=%=#Gabriel
+Author{2}{Lastname}#=%=#Lopes
+Author{2}{Email}#=%=#gabriel.lopes@istrionbox.com
+Author{2}{Affiliation}#=%=#Istrionbox - Translation & Revision, Lda.
+Author{3}{Firstname}#=%=#Luís
+Author{3}{Lastname}#=%=#Gomes
+Author{3}{Email}#=%=#luismsgomes@gmail.com
+Author{3}{Affiliation}#=%=#Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa
+
+==========

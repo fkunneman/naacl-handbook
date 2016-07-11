@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#Learning to Answer Biomedical Questions: OAQA at BioASQ 4B
+ShortPaperTitle#=%=#Learning to Answer Biomedical Questions: OAQA at BioASQ 4B
+NumberOfPages#=%=#15
+CopyrightSigned#=%=#Zi Yang
+JobTitle#==#
+Organization#==#Language Technologies Institute
+School of Computer Science
+Carnegie Mellon University
+5000 Forbes Avenue, Pittsburgh, PA 15213, USA
+Abstract#==#This paper describes the OAQA system evaluated in the BioASQ 4B Question
+Answering track. The system extends the Yang et al. (2015) system and
+integrates additional biomedical and general-purpose NLP annotators, machine
+learning modules for search result scoring, collective answer reranking, and
+yes/no answer prediction. We first present the overall architecture of the
+system, and then focus on describing the main extensions to the Yang et al.
+(2015) approach. Before the official evaluation, we used the development
+dataset (excluding the 3B Batch 5 subset) for training. We present initial
+evaluation results on a subset of the development data set to demonstrate the
+effectiveness of the proposed new methods, and focus on performance analysis of
+yes/no question answering.
+Author{1}{Firstname}#=%=#Zi
+Author{1}{Lastname}#=%=#Yang
+Author{1}{Email}#=%=#ziy@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Yue
+Author{2}{Lastname}#=%=#Zhou
+Author{2}{Email}#=%=#yzhou3@andrew.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Eric
+Author{3}{Lastname}#=%=#Nyberg
+Author{3}{Email}#=%=#ehn@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

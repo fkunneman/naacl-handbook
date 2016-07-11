@@ -1,0 +1,51 @@
+SubmissionNumber#=%=#69
+FinalPaperTitle#=%=#The FBK Participation in the WMT 2016 Automatic Post-editing Shared Task
+ShortPaperTitle#=%=#The FBK Participation in the WMT 2016 Automatic Post-editing Shared Task
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Rajen Chatterjee
+JobTitle#==#
+Organization#==#Fondazione Bruno Kessler
+Trento, Italy
+Abstract#==#In this paper, we present a novel approach
+to combine the two variants of phrase-based
+APE (monolingual and context-aware)
+by a factored machine translation
+model that is able to leverage benefits
+from both. Our factored APE models includes
+part-of-speech-tag and class-based
+neural language models (LM) along with
+statistical word-based LM to improve the
+fluency of the post-edits. These models
+are build upon a data augmentation technique
+which helps to mitigate the problem
+of over-correction in phrase-based APE
+systems. Our primary APE system further
+incorporates a quality estimation (QE)
+model, which aims to select the best translation
+between the MT output and the
+automatic post-edit. According to the
+shared task results, our primary and contrastive
+(which does not include the QE
+module) submissions have similar performance
+and achieved significant improvement
+of 3.31% TER and 4.25% BLEU
+(relative) over the baseline MT system on
+the English-German evaluation set.
+Author{1}{Firstname}#=%=#Rajen
+Author{1}{Lastname}#=%=#Chatterjee
+Author{1}{Email}#=%=#chatterjee@fbk.eu
+Author{1}{Affiliation}#=%=#Fondazione Bruno Kessler
+Author{2}{Firstname}#=%=#José G.
+Author{2}{Lastname}#=%=#C. de Souza
+Author{2}{Email}#=%=#jose.camargo.souza@gmail.com
+Author{2}{Affiliation}#=%=#eBay Inc.
+Author{3}{Firstname}#=%=#Matteo
+Author{3}{Lastname}#=%=#Negri
+Author{3}{Email}#=%=#negri@fbk.eu
+Author{3}{Affiliation}#=%=#Fondazione Bruno Kessler
+Author{4}{Firstname}#=%=#Marco
+Author{4}{Lastname}#=%=#Turchi
+Author{4}{Email}#=%=#marco.turchi@gmail.com
+Author{4}{Affiliation}#=%=#Fondazione Bruno Kessler
+
+==========

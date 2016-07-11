@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Leveraging Captions in the Wild to Improve Object Detection
+ShortPaperTitle#=%=#Leveraging Captions in the Wild to Improve Object Detection
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Mert Kilickaya
+JobTitle#==#
+Organization#==#Hacettepe University Department of Computer Engineering Computer Vision Laboratories, Beytepe Campus, Ankara, Turkey
+Abstract#==#In this study, we explore whether the captions in the wild can boost the
+performance of object detection in images. Captions that accompany images
+usually provide significant information about the visual content of the image,
+making them an important resource for image understanding. However, captions in
+the wild are likely to include numerous types of noises which can hurt visual
+estimation. In this paper, we propose data-driven methods to deal with the
+noisy captions and utilize them to improve object detection. We show how a
+pre-trained state-of-the-art object detector can take advantage of noisy
+captions. Our experiments demonstrate that captions provide promising cues
+about the visual content of the images and can aid in improving object
+detection.
+Author{1}{Firstname}#=%=#Mert
+Author{1}{Lastname}#=%=#Kilickaya
+Author{1}{Email}#=%=#kilickayamert@gmail.com
+Author{1}{Affiliation}#=%=#Hacettepe University
+Author{2}{Firstname}#=%=#Nazli
+Author{2}{Lastname}#=%=#Ikizler-Cinbis
+Author{2}{Email}#=%=#nazli.ikizler@gmail.com
+Author{2}{Affiliation}#=%=#Hacettepe University
+Author{3}{Firstname}#=%=#Erkut
+Author{3}{Lastname}#=%=#Erdem
+Author{3}{Email}#=%=#erkut@cs.hacettepe.edu.tr
+Author{3}{Affiliation}#=%=#Hacettepe University
+Author{4}{Firstname}#=%=#Aykut
+Author{4}{Lastname}#=%=#Erdem
+Author{4}{Email}#=%=#aykut@cs.hacettepe.edu.tr
+Author{4}{Affiliation}#=%=#Hacettepe University
+
+==========

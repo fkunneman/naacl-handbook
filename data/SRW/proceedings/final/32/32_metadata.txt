@@ -1,0 +1,21 @@
+SubmissionNumber#=%=#32
+FinalPaperTitle#=%=#A Dataset for Joint Noun-Noun Compound Bracketing and Interpretation
+ShortPaperTitle#=%=#A Dataset for Joint Noun-Noun Compound Bracketing and Interpretation
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Murhaf Fares
+JobTitle#==#PhD fellow
+Organization#==#University of Oslo
+Gaustadalléen 23B, Ole-Johan Dahls hus, 0373 OSLO
+Abstract#==#We present a new, sizeable dataset of noun--noun compounds with their syntactic
+analysis (bracketing) and semantic relations. Derived from several established
+linguistic resources, such as the Penn Treebank, our dataset enables
+experimenting with new approaches towards a holistic analysis of noun--noun
+compounds, such as joint-learning of noun--noun compounds bracketing and
+interpretation, as well as integrating compound analysis with other tasks such
+as syntactic parsing.
+Author{1}{Firstname}#=%=#Murhaf
+Author{1}{Lastname}#=%=#Fares
+Author{1}{Email}#=%=#murhaff@ifi.uio.no
+Author{1}{Affiliation}#=%=#University of Oslo
+
+==========

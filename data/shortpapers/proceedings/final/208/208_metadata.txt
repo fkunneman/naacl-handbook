@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#208
+FinalPaperTitle#=%=#On the Linearity of Semantic Change: Investigating Meaning Variation via Dynamic Graph Models
+ShortPaperTitle#=%=#On the linearity of semantic change
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Steffen Eger
+JobTitle#==#
+Organization#==#Technische Universität Darmstadt
+Hochschulstrasse 10
+64289 Darmstadt, Germany
+Abstract#==#We consider two graph models of semantic change. The first is a time-series
+model that relates embedding vectors from one time period to embedding vectors
+of previous time periods. In the second, we construct one graph for each word:
+nodes
+in this graph correspond to time points and edge weights to the similarity of
+the
+word's meaning across two time points. We apply our two models to corpora
+across three different languages. We find that semantic change is linear in two
+senses. Firstly, today’s embedding vectors (= meaning) of words can be
+derived as
+linear combinations of embedding vectors of their neighbors in previous time
+periods. Secondly, self-similarity of words decays linearly in time. We
+consider both findings as new laws/hypotheses of semantic change.
+Author{1}{Firstname}#=%=#Steffen
+Author{1}{Lastname}#=%=#Eger
+Author{1}{Email}#=%=#eger.steffen@gmail.com
+Author{1}{Affiliation}#=%=#Goethe University Frankfurt am Main
+Author{2}{Firstname}#=%=#Alexander
+Author{2}{Lastname}#=%=#Mehler
+Author{2}{Email}#=%=#mehler@em.uni-frankfurt.de
+Author{2}{Affiliation}#=%=#Goethe-University Frankfurt am Main
+
+==========

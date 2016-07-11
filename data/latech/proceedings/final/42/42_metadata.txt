@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#42
+FinalPaperTitle#=%=#Brave New World: Uncovering Topical Dynamics in the ACL Anthology Reference Corpus Using Term Life Cycle Information
+ShortPaperTitle#=%=#Uncovering Topical Dynamics in the ACL ARC Using Term Life Cycles
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Anne-Kathrin Schumann
+JobTitle#==#
+Organization#==#
+Abstract#==#One of the main interests in the analysis of large document collections is to
+discover domains of discourse that are still actively developing, growing in
+interest and relevance, at a given point in time, and to distinguish them from
+those topics that are in stagnation or decline. The present paper describes a
+terminologically inspired approach to this kind of task. The inputs to the
+method are a corpus spanning several decades of research in computational
+linguistics and a set of single-word terms that frequently occur in that
+corpus. The diachronic development of these terms is modelled by means of term
+life cycle information, namely the parameters relative frequency and
+productivity. In a second step, k-means clustering is used to identify groups
+of terms with similar development patterns. The paper describes a mathematical
+approach to modelling term productivity and discusses what kind of information
+can be obtained from this measure. The results of the clustering experiment are
+promising and well motivate future research.
+Author{1}{Firstname}#=%=#Anne-Kathrin
+Author{1}{Lastname}#=%=#Schumann
+Author{1}{Email}#=%=#ak47schumann@gmail.com
+Author{1}{Affiliation}#=%=#
+
+==========

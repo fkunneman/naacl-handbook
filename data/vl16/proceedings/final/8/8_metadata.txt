@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#Pragmatic Factors in Image Description: The Case of Negations
+ShortPaperTitle#=%=#Pragmatic Factors in Image Description: The Case of Negations
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Emiel van Miltenburg
+JobTitle#==#
+Organization#==#Vrije Universiteit Amsterdam
+Abstract#==#We provide a qualitative analysis of the descriptions containing negations
+(\emph{no}, \emph{not}, \emph{n't}, \emph{nobody}, etc) in the Flickr30K
+corpus, and a categorization of negation uses. Based on this analysis, we
+provide a set of requirements that an image description system should have in
+order to generate negation sentences. As a pilot experiment, we used our
+categorization to manually annotate sentences containing negations in the
+Flickr30k corpus, with an agreement score of $\kappa$=0.67. With this paper, we
+hope to open up a broader discussion of subjective language in image
+descriptions.
+Author{1}{Firstname}#=%=#Emiel
+Author{1}{Lastname}#=%=#van Miltenburg
+Author{1}{Email}#=%=#emiel.van.miltenburg@vu.nl
+Author{1}{Affiliation}#=%=#Vrije Universiteit Amsterdam
+Author{2}{Firstname}#=%=#Roser
+Author{2}{Lastname}#=%=#Morante
+Author{2}{Email}#=%=#r.morantevallejo@vu.nl
+Author{2}{Affiliation}#=%=#Vrije Universiteit Amsterdam
+Author{3}{Firstname}#=%=#Desmond
+Author{3}{Lastname}#=%=#Elliott
+Author{3}{Email}#=%=#d.elliott@uva.nl
+Author{3}{Affiliation}#=%=#University of Amsterdam
+
+==========

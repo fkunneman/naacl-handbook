@@ -1,0 +1,65 @@
+SubmissionNumber#=%=#15
+FinalPaperTitle#=%=#Overview of the Regulatory Network of Plant Seed Development (SeeDev) Task at the BioNLP Shared Task 2016.
+ShortPaperTitle#=%=#Overview of the Regulatory Network of Plant Seed Development (SeeDev) Task at the BioNLP Shared Task 2016.
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Chaix
+JobTitle#==#
+Organization#==#MaIAGE, INRA, Université Paris-Saclay, 78350 Jouy-en-Josas, France
+Abstract#==#This paper presents the SeeDev Task of the BioNLP Shared Task 2016. The purpose
+of the SeeDev Task is the extraction from scientific articles of the
+descriptions of genetic and molecular mechanisms involved in seed development
+of the model plant, Arabidopsis thaliana. The SeeDev task consists in the
+extraction of many different events involving a wide range of entity types
+accurately reflecting the complexity of the biological mechanisms. The corpus
+is composed of paragraphs selected from the full-texts of relevant scientific
+papers. In this paper, we describe the organization of the SeeDev task, the
+corpus characteristics, and the metrics used for the evaluation of participant
+systems. We analyze and discuss the final results of the seven participant
+systems to the test. The best F-score is 0.432, which is similar to the scores
+achieved in similar tasks on molecular biology.
+Author{1}{Firstname}#=%=#Estelle
+Author{1}{Lastname}#=%=#Chaix
+Author{1}{Email}#=%=#estelle.chaix@jouy.inra.fr
+Author{1}{Affiliation}#=%=#INRA
+Author{2}{Firstname}#=%=#Bertrand
+Author{2}{Lastname}#=%=#Dubreucq
+Author{2}{Email}#=%=#Bertrand.Duberucq@versailles.inra.fr
+Author{2}{Affiliation}#=%=#INRA
+Author{3}{Firstname}#=%=#Abdelhak
+Author{3}{Lastname}#=%=#Fatihi
+Author{3}{Email}#=%=#Abdelhak.Fatihi@versailles.inra.fr
+Author{3}{Affiliation}#=%=#INRA
+Author{4}{Firstname}#=%=#Dialekti
+Author{4}{Lastname}#=%=#Valsamou
+Author{4}{Email}#=%=#Dialekti.Valsamou@jouy.inra.fr
+Author{4}{Affiliation}#=%=#INRA
+Author{5}{Firstname}#=%=#Robert
+Author{5}{Lastname}#=%=#Bossy
+Author{5}{Email}#=%=#robert.bossy@jouy.inra.fr
+Author{5}{Affiliation}#=%=#Instiut National de la Recherche Agronomique
+Author{6}{Firstname}#=%=#Mouhamadou
+Author{6}{Lastname}#=%=#Ba
+Author{6}{Email}#=%=#Mouhamadou.Ba@jouy.inra.fr
+Author{6}{Affiliation}#=%=#INRA
+Author{7}{Firstname}#=%=#Louise
+Author{7}{Lastname}#=%=#Deléger
+Author{7}{Email}#=%=#Louise.Deleger@jouy.inra.fr
+Author{7}{Affiliation}#=%=#INRA
+Author{8}{Firstname}#=%=#Pierre
+Author{8}{Lastname}#=%=#Zweigenbaum
+Author{8}{Email}#=%=#pz@limsi.fr
+Author{8}{Affiliation}#=%=#LIMSI-CNRS
+Author{9}{Firstname}#=%=#Philippe
+Author{9}{Lastname}#=%=#Bessières
+Author{9}{Email}#=%=#philippe.bessieres@jouy.inra.fr
+Author{9}{Affiliation}#=%=#INRA
+Author{10}{Firstname}#=%=#Loïc
+Author{10}{Lastname}#=%=#Lepiniec
+Author{10}{Email}#=%=#Loic.Lepiniec@versailles.inra.fr
+Author{10}{Affiliation}#=%=#INRA
+Author{11}{Firstname}#=%=#Claire
+Author{11}{Lastname}#=%=#Nédellec
+Author{11}{Email}#=%=#claire.nedellec@jouy.inra.fr
+Author{11}{Affiliation}#=%=#INRA
+
+==========

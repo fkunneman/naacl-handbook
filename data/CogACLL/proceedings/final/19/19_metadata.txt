@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#Leveraging Annotators' Gaze Behaviour for Coreference Resolution
+ShortPaperTitle#=%=#Leveraging Annotators' Gaze Behaviour for Coreference Resolution
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Joe Cheri Ross
+JobTitle#==#
+Organization#==#Indian Institute of Technology Bombay
+Powai
+Mumbai
+India
+Abstract#==#This paper aims at utilizing cognitive information obtained from the eye
+movements behavior of annotators for automatic co-reference resolution. We
+first record eye-movement behavior of 14 participants resolving co-references
+in 22 documents selected from a standard dataset. By inspecting the
+gaze-regression profiles of our participants, we observe how regressive
+saccades account for selection of potential antecedents. Based on this
+observation, we then propose heuristics to utilize gaze data to prune
+mention-pairs in  mention-pair model, a popular paradigm for automatic
+co-reference resolution. Significant improvement in accuracy across several
+classifiers is observed with our heuristics, demonstrating why cognitive data
+can be useful for a difficult task like co-reference resolution.
+Author{1}{Firstname}#=%=#Joe
+Author{1}{Lastname}#=%=#Cheri
+Author{1}{Email}#=%=#joe@cse.iitb.ac.in
+Author{1}{Affiliation}#=%=#IIT Bombay
+Author{2}{Firstname}#=%=#Abhijit
+Author{2}{Lastname}#=%=#Mishra
+Author{2}{Email}#=%=#abhijitmishra.530@gmail.com
+Author{2}{Affiliation}#=%=#Indian Institute of Technology Bombay
+Author{3}{Firstname}#=%=#Pushpak
+Author{3}{Lastname}#=%=#Bhattacharyya
+Author{3}{Email}#=%=#pushpakbh@gmail.com
+Author{3}{Affiliation}#=%=#CSE Department, IIT Bombay
+
+==========

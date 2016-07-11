@@ -1,0 +1,22 @@
+SubmissionNumber#=%=#148
+FinalPaperTitle#=%=#Event Embeddings for Semantic Script Modeling
+ShortPaperTitle#=%=#Semantic Script Modeling
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Ashutosh Modi
+JobTitle#==#
+Organization#==#
+Abstract#==#Semantic scripts is a conceptual representation which defines how events are
+organized into higher level activities. Practically all the previous approaches
+to inducing script knowledge from text relied on count-based techniques (e.g.,
+generative models) and have not attempted to compositionally model events. In
+this work, we introduce a neural network model which relies on distributed
+compositional representations of events. The model captures statistical
+dependencies between events in a scenario, overcomes some of the shortcomings
+of previous approaches (e.g., by more effectively dealing with data sparsity)
+and outperforms count-based counterparts on the narrative cloze task.
+Author{1}{Firstname}#=%=#Ashutosh
+Author{1}{Lastname}#=%=#Modi
+Author{1}{Email}#=%=#ashutosh@coli.uni-sb.de
+Author{1}{Affiliation}#=%=#University of Saarland
+
+==========

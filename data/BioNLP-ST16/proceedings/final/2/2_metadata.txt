@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#Identification of Mentions and Relations between Bacteria and Biotope from PubMed Abstracts
+ShortPaperTitle#=%=#Identification of Mentions and Relations between Bacteria and Biotope from PubMed Abstracts
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Cyril Grouin
+JobTitle#==#
+Organization#==#LIMSI, CNRS, Université Paris-Saclay
+Campus universitaire d'Orsay
+F-91405 Orsay
+France
+Abstract#==#This paper presents our participation in the Bacteria/Biotope track from the
+2016 BioNLP Shared-Task. Our methods rely on a combination of distinct
+machine-learning and rule-based systems. We used CRF and post-processing rules
+to identify mentions of bacteria and biotopes, a rule-based approach to
+normalize the concepts in the ontology and the taxonomy, and SVM to identify
+relations between bacteria and biotopes. On the test datasets, we achieved
+similar results to those obtained on the development datasets: on the
+categorization task, precision of 0.503 (gold standard entities) and SER of
+0.827 (both NER and categorization); on the event relation task, F-measure of
+0.485 (gold standard entities, ranking third out of 11) and of 0.192 (both NER
+and event relation, ranking first); on the knowledge-based task, mean
+references of 0.771 (gold standard entities) and of 0.202 (both NER,
+categorization and event relation).
+Author{1}{Firstname}#=%=#Cyril
+Author{1}{Lastname}#=%=#Grouin
+Author{1}{Email}#=%=#cyril.grouin@limsi.fr
+Author{1}{Affiliation}#=%=#LIMSI-CNRS
+
+==========

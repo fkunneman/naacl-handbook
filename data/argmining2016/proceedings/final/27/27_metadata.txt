@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#27
+FinalPaperTitle#=%=#Summarizing Multi-Party Argumentative Conversations in Reader Comment on News
+ShortPaperTitle#=%=#Summarizing Multi-Party Argumentative Conversations in Reader Comment on News
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Robert Gaizauskas
+JobTitle#==#
+Organization#==#University of Sheffield
+Western Bank
+Sheffield, S10 2TN
+UK
+Abstract#==#Existing approaches to summarizing multi-party argumentative conversations in
+reader comment are extractive and fail to capture the argumentative nature of
+these conversations. Work on argument mining proposes schemes for identifying
+argument elements and relations in text but has not yet addressed how summaries
+might be generated from a global analysis of a conversation based on these
+schemes. In this paper we: (1) propose an issue-centred scheme for analysing 
+and graphically representing argument in reader comment discussion in on-line
+news, and (2) show how summaries capturing the argumentative nature of reader
+comment can be generated from our graphical representation.
+Author{1}{Firstname}#=%=#Emma
+Author{1}{Lastname}#=%=#Barker
+Author{1}{Email}#=%=#e.barker@sheffield.ac.uk
+Author{1}{Affiliation}#=%=#University of Sheffield
+Author{2}{Firstname}#=%=#Robert
+Author{2}{Lastname}#=%=#Gaizauskas
+Author{2}{Email}#=%=#r.gaizauskas@sheffield.ac.uk
+Author{2}{Affiliation}#=%=#University of Sheffield
+
+==========

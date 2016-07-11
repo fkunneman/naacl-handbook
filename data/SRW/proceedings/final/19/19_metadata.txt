@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#Generating Natural Language Descriptions for Semantic Representations of Human Brain Activity
+ShortPaperTitle#=%=#Generating Natural Language Descriptions for Semantic Representations of Human Brain Activity
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Eri Matsuo
+JobTitle#==#
+Organization#==#Ochanomizu University
+2-1-1 Ohtsuka Bunkyo-ku Tokyo 112-8610 Japan
+Abstract#==#Quantitative analysis of human brain activity based on language
+representations, such as the semantic categories of words, have been actively
+studied in the field of brain and neuroscience. Our study aims to generate
+natural language descriptions for human brain activation phenomena caused by
+visual stimulus by employing deep learning methods, which have gained interest
+as an effective approach to automatically describe natural language expressions
+for various type of multi-modal information, such as images. We employed an
+image-captioning system based on a deep learning framework as the basis for our
+method by learning the relationship between the brain activity data and the
+features of an intermediate expression of the deep neural network owing to lack
+of training brain data. We conducted three experiments and were able to
+generate natural language sentences which enabled us to quantitatively
+interpret brain activity.
+Author{1}{Firstname}#=%=#Eri
+Author{1}{Lastname}#=%=#Matsuo
+Author{1}{Email}#=%=#g1220535@is.ocha.ac.jp
+Author{1}{Affiliation}#=%=#Ochanomizu University
+Author{2}{Firstname}#=%=#Ichiro
+Author{2}{Lastname}#=%=#Kobayashi
+Author{2}{Email}#=%=#koba@is.ocha.ac.jp
+Author{2}{Affiliation}#=%=#Ochanomizu University
+Author{3}{Firstname}#=%=#Shinji
+Author{3}{Lastname}#=%=#Nishimoto
+Author{3}{Email}#=%=#nishimoto@nict.go.jp
+Author{3}{Affiliation}#=%=#Center for Information and Neural Networks, National Institute of Information and Communications Technology
+Author{4}{Firstname}#=%=#Satoshi
+Author{4}{Lastname}#=%=#Nishida
+Author{4}{Email}#=%=#s-nishida@nict.go.jp
+Author{4}{Affiliation}#=%=#Center for Information and Neural Networks, National Institute of Information and Communications Technology
+Author{5}{Firstname}#=%=#Hideki
+Author{5}{Lastname}#=%=#Asoh
+Author{5}{Email}#=%=#h.asoh@aist.go.jp
+Author{5}{Affiliation}#=%=#Artificial Intelligence Research Center, National Institute of Advanced Industrial Science and Technology
+
+==========

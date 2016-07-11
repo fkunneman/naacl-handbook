@@ -1,0 +1,111 @@
+SubmissionNumber#=%=#59
+FinalPaperTitle#=%=#The QT21/HimL Combined Machine Translation System
+ShortPaperTitle#=%=#The QT21/HimL Combined Machine Translation System
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Jan-Thorsten Peter
+JobTitle#==#
+Organization#==#Human Language Technology and Pattern Recognition, Computer Science Department
+RWTH Aachen University
+52056 Aachen
+Germany
+Abstract#==#This paper describes the joint submission of the QT21 and HimL projects for the
+English-Romanian translation task of the ACL 2016 First Conference on Machine
+Translation (WMT 2016).
+The submission is a system combination which combines twelve different
+statistical machine translation systems provided by the different groups (RWTH
+Aachen University, LMU Munich, Charles University in Prague, University of
+Edinburgh, University of Sheffield, Karlsruhe Institute of Technology, LIMSI,
+University of Amsterdam, Tilde).
+The systems are combined using RWTH's system combination approach. The final
+submission shows an improvement of 1.0 \BLEU compared to the best single system
+on newstest2016.
+Author{1}{Firstname}#=%=#Jan-Thorsten
+Author{1}{Lastname}#=%=#Peter
+Author{1}{Email}#=%=#peter@cs.rwth-aachen.de
+Author{1}{Affiliation}#=%=#RWTH Aachen University
+Author{2}{Firstname}#=%=#Tamer
+Author{2}{Lastname}#=%=#Alkhouli
+Author{2}{Email}#=%=#alkhouli@cs.rwth-aachen.de
+Author{2}{Affiliation}#=%=#RWTH Aachen University
+Author{3}{Firstname}#=%=#Hermann
+Author{3}{Lastname}#=%=#Ney
+Author{3}{Email}#=%=#ney@cs.rwth-aachen.de
+Author{3}{Affiliation}#=%=#RWTH Aachen University
+Author{4}{Firstname}#=%=#Matthias
+Author{4}{Lastname}#=%=#Huck
+Author{4}{Email}#=%=#mhuck@cis.lmu.de
+Author{4}{Affiliation}#=%=#LMU Munich
+Author{5}{Firstname}#=%=#Fabienne
+Author{5}{Lastname}#=%=#Braune
+Author{5}{Email}#=%=#braune.fabienne@gmail.com
+Author{5}{Affiliation}#=%=#University of Stuttgart
+Author{6}{Firstname}#=%=#Alexander
+Author{6}{Lastname}#=%=#Fraser
+Author{6}{Email}#=%=#fraser@cis.uni-muenchen.de
+Author{6}{Affiliation}#=%=#Ludwig-Maximilians-Universität München
+Author{7}{Firstname}#=%=#Aleš
+Author{7}{Lastname}#=%=#Tamchyna
+Author{7}{Email}#=%=#tamchyna@ufal.mff.cuni.cz
+Author{7}{Affiliation}#=%=#Charles University in Prague, UFAL MFF
+Author{8}{Firstname}#=%=#Ondřej
+Author{8}{Lastname}#=%=#Bojar
+Author{8}{Email}#=%=#bojar@ufal.mff.cuni.cz
+Author{8}{Affiliation}#=%=#Charles University in Prague, Faculty of Mathematics and Physics
+Author{9}{Firstname}#=%=#Barry
+Author{9}{Lastname}#=%=#Haddow
+Author{9}{Email}#=%=#bhaddow@inf.ed.ac.uk
+Author{9}{Affiliation}#=%=#University of Edinburgh
+Author{10}{Firstname}#=%=#Rico
+Author{10}{Lastname}#=%=#Sennrich
+Author{10}{Email}#=%=#rico.sennrich@ed.ac.uk
+Author{10}{Affiliation}#=%=#University of Edinburgh
+Author{11}{Firstname}#=%=#Frédéric
+Author{11}{Lastname}#=%=#Blain
+Author{11}{Email}#=%=#f.blain@sheffield.ac.uk
+Author{11}{Affiliation}#=%=#University of Sheffield
+Author{12}{Firstname}#=%=#Lucia
+Author{12}{Lastname}#=%=#Specia
+Author{12}{Email}#=%=#l.specia@sheffield.ac.uk
+Author{12}{Affiliation}#=%=#University of Sheffield
+Author{13}{Firstname}#=%=#Jan
+Author{13}{Lastname}#=%=#Niehues
+Author{13}{Email}#=%=#jan.niehues@kit.edu
+Author{13}{Affiliation}#=%=#Karlsruhe Institute of Technology
+Author{14}{Firstname}#=%=#Alex
+Author{14}{Lastname}#=%=#Waibel
+Author{14}{Email}#=%=#alex.waibel@kit.edu
+Author{14}{Affiliation}#=%=#Karlsruhe Institute of Technology
+Author{15}{Firstname}#=%=#Alexandre
+Author{15}{Lastname}#=%=#Allauzen
+Author{15}{Email}#=%=#allauzen@limsi.fr
+Author{15}{Affiliation}#=%=#Université Paris-Sud / LIMSI-CNRS
+Author{16}{Firstname}#=%=#Lauriane
+Author{16}{Lastname}#=%=#Aufrant
+Author{16}{Email}#=%=#lauriane.aufrant@limsi.fr
+Author{16}{Affiliation}#=%=#LIMSI-CNRS, DGA
+Author{17}{Firstname}#=%=#Franck
+Author{17}{Lastname}#=%=#Burlot
+Author{17}{Email}#=%=#franck.burlot@limsi.fr
+Author{17}{Affiliation}#=%=#LIMSI-CNRS
+Author{18}{Firstname}#=%=#elena
+Author{18}{Lastname}#=%=#knyazeva
+Author{18}{Email}#=%=#knyazeva@limsi.fr
+Author{18}{Affiliation}#=%=#LIMSI CNRS
+Author{19}{Firstname}#=%=#Thomas
+Author{19}{Lastname}#=%=#Lavergne
+Author{19}{Email}#=%=#lavergne@limsi.fr
+Author{19}{Affiliation}#=%=#LIMSI/CNRS & Université Paris Sud
+Author{20}{Firstname}#=%=#François
+Author{20}{Lastname}#=%=#Yvon
+Author{20}{Email}#=%=#yvon@limsi.fr
+Author{20}{Affiliation}#=%=#LIMSI/CNRS
+Author{21}{Firstname}#=%=#Joachim
+Author{21}{Lastname}#=%=#Daiber
+Author{21}{Email}#=%=#daiber.joachim@gmail.com
+Author{21}{Affiliation}#=%=#ILLC, University of Amsterdam
+Author{22}{Firstname}#=%=#Mārcis
+Author{22}{Lastname}#=%=#Pinnis
+Author{22}{Email}#=%=#marcis.pinnis@tilde.lv
+Author{22}{Affiliation}#=%=#Tilde
+
+==========

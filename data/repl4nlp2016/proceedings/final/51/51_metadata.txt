@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#51
+FinalPaperTitle#=%=#Towards Abstraction from Extraction: Multiple Timescale Gated Recurrent Unit for Summarization
+ShortPaperTitle#=%=#Towards Abstraction from Extraction: MTGRU for Summarization
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Minho Lee
+JobTitle#==#
+Organization#==#Kyungpook National University, 80 Daehakro, Bukgu, Daegu, 41566, South Korea
+Abstract#==#In this work, we introduce temporal hierarchies to the sequence to sequence
+(seq2seq) model to tackle the problem of abstractive summarization of
+scientific articles. The proposed Multiple Timescale model of the Gated
+Recurrent Unit (MTGRU) is implemented in the encoder-decoder setting to better
+deal with the presence of multiple compositionalities in larger texts. The
+proposed model is compared to the conventional RNN encoder-decoder, and the
+results demonstrate that our model trains faster and shows significant
+performance gains. The results also show that the temporal hierarchies help
+improve the ability of seq2seq models to capture compositionalities better
+without the presence of highly complex architectural hierarchies.
+Author{1}{Firstname}#=%=#Minsoo
+Author{1}{Lastname}#=%=#Kim
+Author{1}{Email}#=%=#minsoo9574@gmail.com
+Author{1}{Affiliation}#=%=#Kyungpook National University
+Author{2}{Firstname}#=%=#Dennis Singh
+Author{2}{Lastname}#=%=#Moirangthem
+Author{2}{Email}#=%=#mdennissingh@gmail.com
+Author{2}{Affiliation}#=%=#Kyungpook National University
+Author{3}{Firstname}#=%=#Minho
+Author{3}{Lastname}#=%=#Lee
+Author{3}{Email}#=%=#mholee@gmail.com
+Author{3}{Affiliation}#=%=#Kyungpook National University
+
+==========

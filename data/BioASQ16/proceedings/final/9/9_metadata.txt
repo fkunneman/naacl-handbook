@@ -1,0 +1,53 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#HPI Question Answering System in BioASQ 2016
+ShortPaperTitle#=%=#HPI Question Answering System in BioASQ 2016
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Mariana Neves
+JobTitle#==#Senor researcher
+Organization#==#Hasso-Plattner Institute
+August-Bebel Strasse 88, 14482, Potsdam, Germany
+Abstract#==#Question answering (QA) systems are crucial when searching for exact answers
+for
+natural language questions in the biomedical domain. Answers to many of such
+questions can be extracted from the 26 millions biomedical publications
+currently
+included in MEDLINE when relying on appropriate natural language processing
+(NLP) tools. In this work we describe our participation in the task 4b of the
+BioASQ
+challenge using two QA systems that we developed for biomedicine. Preliminary
+results show that our systems achieved first and second positions in the
+snippet retrieval sub-task and for the generation of ideal answers.
+Author{1}{Firstname}#=%=#Frederik
+Author{1}{Lastname}#=%=#Schulze
+Author{1}{Email}#=%=#Frederik.Schulze@student.hpi.uni-potsdam.de
+Author{1}{Affiliation}#=%=#Hasso-Plattner Institute
+Author{2}{Firstname}#=%=#Ricarda
+Author{2}{Lastname}#=%=#Schüler
+Author{2}{Email}#=%=#Ricarda.Schueler@student.hpi.uni-potsdam.de
+Author{2}{Affiliation}#=%=#Hasso-Plattner Institute
+Author{3}{Firstname}#=%=#Tim
+Author{3}{Lastname}#=%=#Draeger
+Author{3}{Email}#=%=#Tim.Draeger@student.hpi.uni-potsdam.de
+Author{3}{Affiliation}#=%=#Hasso-Plattner Institute
+Author{4}{Firstname}#=%=#Daniel
+Author{4}{Lastname}#=%=#Dummer
+Author{4}{Email}#=%=#Daniel.Dummer@student.hpi.uni-potsdam.de
+Author{4}{Affiliation}#=%=#Hasso-Plattner Institute
+Author{5}{Firstname}#=%=#Alexander
+Author{5}{Lastname}#=%=#Ernst
+Author{5}{Email}#=%=#Alexander.Ernst@student.hpi.uni-potsdam.de
+Author{5}{Affiliation}#=%=#Hasso-Plattner Institute
+Author{6}{Firstname}#=%=#Pedro
+Author{6}{Lastname}#=%=#Flemming
+Author{6}{Email}#=%=#Pedro.Flemming@student.hpi.uni-potsdam.de
+Author{6}{Affiliation}#=%=#Hasso-Plattner Institute
+Author{7}{Firstname}#=%=#Cindy
+Author{7}{Lastname}#=%=#Perscheid
+Author{7}{Email}#=%=#Cindy.Perscheid@hpi.de
+Author{7}{Affiliation}#=%=#Hasso-Plattner Institute
+Author{8}{Firstname}#=%=#Mariana
+Author{8}{Lastname}#=%=#Neves
+Author{8}{Email}#=%=#marianalaraneves@gmail.com
+Author{8}{Affiliation}#=%=#Hasso-Plattner Institute
+
+==========

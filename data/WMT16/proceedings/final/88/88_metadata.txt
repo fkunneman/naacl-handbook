@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#88
+FinalPaperTitle#=%=#The Edit Distance Transducer in Action: The University of Cambridge English-German System at WMT16
+ShortPaperTitle#=%=#The Edit Distance Transducer in Action: The University of Cambridge English-German System at WMT16
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Felix Stahlberg
+JobTitle#==#
+Organization#==#University of Cambridge
+Department of Engineering
+Trumpington Street
+Cambridge CB2 1PZ
+United Kingdom
+Abstract#==#This paper presents the University of Cambridge submission to WMT16. Motivated
+by the complementary nature of syntactical machine translation and neural
+machine translation (NMT), we exploit the synergies of Hiero and NMT in
+different combination schemes. Starting out with a simple neural lattice
+rescoring approach, we show that the Hiero lattices are often too narrow for
+NMT ensembles. Therefore, instead of a hard restriction of the NMT search space
+to the lattice, we propose to loosely couple NMT and Hiero by composition with
+a modified version of the edit distance transducer. The loose combination
+outperforms lattice rescoring, especially when using multiple NMT systems in an
+ensemble.
+Author{1}{Firstname}#=%=#Felix
+Author{1}{Lastname}#=%=#Stahlberg
+Author{1}{Email}#=%=#fs439@cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge, Department of Engineering
+Author{2}{Firstname}#=%=#Eva
+Author{2}{Lastname}#=%=#Hasler
+Author{2}{Email}#=%=#ech57@cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge, Department of Engineering
+Author{3}{Firstname}#=%=#Bill
+Author{3}{Lastname}#=%=#Byrne
+Author{3}{Email}#=%=#bill.byrne@eng.cam.ac.uk
+Author{3}{Affiliation}#=%=#University of Cambridge, Department of Engineering
+
+==========

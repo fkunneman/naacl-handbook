@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#24
+FinalPaperTitle#=%=#Significance of an Accurate Sandhi-Splitter in Shallow Parsing of Dravidian Languages
+ShortPaperTitle#=%=#Role of Accurate Sandhi-Splitter in Shallow Parsing of Dravidian Languages
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Devadath V V
+JobTitle#==#
+Organization#==#Language Technology Research Centre
+International Institute of Information Technology - Hyderabad, India.
+Abstract#==#This paper evaluates the challenges in-
+volved in shallow parsing of Dravidian
+languages which are highly agglutinative
+and morphologically rich. Text processing
+tasks in these languages are not trivial be-
+cause multiple words concatenate to form
+a single string with morpho-phonemic
+changes at the point of concatenation. This
+phenomenon known as Sandhi, in turn
+complicates the individual word identifi-
+cation. Shallow parsing is the task of
+identification of correlated group of words
+given a raw sentence. The current work is
+an attempt to study the effect of Sandhi in
+building shallow parsers for Dravidian lan-
+guages by evaluating its effect on Malay-
+alam, one of the main languages from Dra-
+vidian family. We provide an in-depth
+analysis of effect of Sandhi in developing a
+robust shallow parser pipeline with exper-
+imental results emphasizing on how sen-
+sitive the individual components of shal-
+low parser are, towards the accuracy of a
+sandhi splitter. Our work can serve as a
+guiding light for building robust text pro-
+cessing systems in Dravidian language.
+Author{1}{Firstname}#=%=#Devadath
+Author{1}{Lastname}#=%=#V V
+Author{1}{Email}#=%=#devadathv.v@research.iiit.ac.in
+Author{1}{Affiliation}#=%=#International Institute of Information Technology - Hyderabad
+Author{2}{Firstname}#=%=#Dipti Misra
+Author{2}{Lastname}#=%=#Sharma
+Author{2}{Email}#=%=#dipti@iiit.ac.in
+Author{2}{Affiliation}#=%=#International Institute of Information Technology
+
+==========

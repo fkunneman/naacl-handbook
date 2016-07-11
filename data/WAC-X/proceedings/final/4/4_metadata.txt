@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#SoMaJo: State-of-the-art tokenization for German web and social media texts
+ShortPaperTitle#=%=#SoMaJo: State-of-the-art tokenization for German web and social media texts
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Thomas Proisl
+JobTitle#==#
+Organization#==#Friedrich-Alexander-Universität Erlangen-Nürnberg
+Professur für Korpuslinguistik
+Bismarckstr. 6
+91054 Erlangen, Germany
+Abstract#==#In this paper we describe SoMaJo, a rule-based tokenizer for German web and
+social media texts that was the best-performing system in the EmpiriST 2015
+shared task with an average $F_1$-score of 99.57. We give an overview of the
+system and the phenomena its rules cover, as well as a detailed error analysis.
+The tokenizer is available as free software.
+Author{1}{Firstname}#=%=#Thomas
+Author{1}{Lastname}#=%=#Proisl
+Author{1}{Email}#=%=#thomas.proisl@fau.de
+Author{1}{Affiliation}#=%=#FAU Erlangen-Nürnberg
+Author{2}{Firstname}#=%=#Peter
+Author{2}{Lastname}#=%=#Uhrig
+Author{2}{Email}#=%=#peter.uhrig@fau.de
+Author{2}{Affiliation}#=%=#FAU Erlangen-Nürnberg
+
+==========

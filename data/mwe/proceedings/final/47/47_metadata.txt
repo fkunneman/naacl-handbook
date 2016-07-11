@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#47
+FinalPaperTitle#=%=#Filtering and Measuring the Intrinsic Quality of Human Compositionality Judgments
+ShortPaperTitle#=%=#Filtering and Measuring the Intrinsic Quality of Human Compositionality Judgments
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Carlos Ramsch
+JobTitle#==#Enseignant chercheur
+Organization#==#Aix Marseille Université
+Abstract#==#This paper analyzes datasets with numerical scores that quantify the semantic
+compositionality of MWEs. We present the results of our analysis of
+crowdsourced compositionality judgments for noun compounds in three languages.
+Our goals are to look at the characteristics of the annotations in different
+languages; to examine intrinsic quality measures for such data; and to measure
+the impact of filters proposed in the literature on these measures. The
+cross-lingual results suggest that greater agreement is found for the extremes
+in the compositionality scale, and that outlier annotation removal is more
+effective than outlier annotator
+removal.
+Author{1}{Firstname}#=%=#Carlos
+Author{1}{Lastname}#=%=#Ramisch
+Author{1}{Email}#=%=#carlosramisch@gmail.com
+Author{1}{Affiliation}#=%=#LIF, Aix-Marseille Université
+Author{2}{Firstname}#=%=#Silvio
+Author{2}{Lastname}#=%=#Cordeiro
+Author{2}{Email}#=%=#silvioricardoc@gmail.com
+Author{2}{Affiliation}#=%=#Institute of Informatics - UFRGS
+Author{3}{Firstname}#=%=#Aline
+Author{3}{Lastname}#=%=#Villavicencio
+Author{3}{Email}#=%=#alinev@gmail.com
+Author{3}{Affiliation}#=%=#Institute of Informatics, Federal University of Rio Grande do Sul
+
+==========

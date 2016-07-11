@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#28
+FinalPaperTitle#=%=#Evaluating multi-sense embeddings for semantic resolution monolingually and in word translation
+ShortPaperTitle#=%=#Evaluating multi-sense embeddings
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Andras Kornai
+JobTitle#==#
+Organization#==#Hungarian Academy of Sciences Institute for Computer Science (MTA SZTAKI) H-1111 Budapest, Kende u 13-17
+Abstract#==#Multi-sense word embeddings (MSEs) model different meanings of word forms with
+different vectors. We propose two new methods for evaluating MSEs, one based on
+monolingual dictionaries, and the other exploiting the principle that words may
+be ambiguous as far as the postulated senses translate to different words in
+some other language
+Author{1}{Firstname}#=%=#Gábor
+Author{1}{Lastname}#=%=#Borbély
+Author{1}{Email}#=%=#gaebor@gmail.com
+Author{1}{Affiliation}#=%=#Budpest University of Technilogy and Economics
+Author{2}{Firstname}#=%=#Márton
+Author{2}{Lastname}#=%=#Makrai
+Author{2}{Email}#=%=#makrai.marton@nytud.mta.hu
+Author{2}{Affiliation}#=%=#Research Institute for Linguistics, Hungarian Academy of Sciences
+Author{3}{Firstname}#=%=#Dávid Márk
+Author{3}{Lastname}#=%=#Nemeskey
+Author{3}{Email}#=%=#nemeskey.david@gmail.com
+Author{3}{Affiliation}#=%=#MTA SZTAKI
+Author{4}{Firstname}#=%=#Andras
+Author{4}{Lastname}#=%=#Kornai
+Author{4}{Email}#=%=#andras@kornai.com
+Author{4}{Affiliation}#=%=#HAS Computer and Automation Research Institute
+
+==========

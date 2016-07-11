@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#20
+FinalPaperTitle#=%=#Language Muse: Automated Linguistic Activity Generation for English Language Learners
+ShortPaperTitle#=%=#Language Muse: Automated Activity Generation for ELLs
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Nitin Madnani
+JobTitle#==#
+Organization#==#
+Abstract#==#Current education standards in the U.S. require school students to read and
+understand complex texts from different subject areas (e.g., social studies).
+However, such texts usually contain figurative language, complex phrases and
+sentences, as well as unfamiliar discourse relations. This may present an
+obstacle to students whose native language is not English -- a growing
+sub-population in the US. One way to help such students is to create classroom
+activities centered around linguistic elements found in subject area texts
+(DelliCarpini, 2008). We present a web-based tool that uses NLP algorithms to
+automatically generate customizable linguistic activities that are grounded in
+language learning research.
+Author{1}{Firstname}#=%=#Nitin
+Author{1}{Lastname}#=%=#Madnani
+Author{1}{Email}#=%=#nmadnani@ets.org
+Author{1}{Affiliation}#=%=#Educational Testing Service
+Author{2}{Firstname}#=%=#Jill
+Author{2}{Lastname}#=%=#Burstein
+Author{2}{Email}#=%=#jburstein@ets.org
+Author{2}{Affiliation}#=%=#ETS
+Author{3}{Firstname}#=%=#John
+Author{3}{Lastname}#=%=#Sabatini
+Author{3}{Email}#=%=#jsabatini@ets.org
+Author{3}{Affiliation}#=%=#ETS
+Author{4}{Firstname}#=%=#Kietha
+Author{4}{Lastname}#=%=#Biggers
+Author{4}{Email}#=%=#kbiggers@ets.org
+Author{4}{Affiliation}#=%=#ETS
+Author{5}{Firstname}#=%=#Slava
+Author{5}{Lastname}#=%=#Andreyev
+Author{5}{Email}#=%=#sandreyev@ets.org
+Author{5}{Affiliation}#=%=#ETS
+
+==========

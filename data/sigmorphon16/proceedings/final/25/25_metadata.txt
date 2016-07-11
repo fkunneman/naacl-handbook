@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#25
+FinalPaperTitle#=%=#Morphological reinflection with convolutional neural networks
+ShortPaperTitle#=%=#Morphological reinflection with convolutional neural networks
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Robert Östling
+JobTitle#==#
+Organization#==#Department of Modern Languages
+University of Helsinki
+PL 24 (Unionsgatan 40)
+00014 Helsingfors universitet
+Finland
+Abstract#==#We present a system for morphological reinflection based on an
+encoder-decoder neural network model with extra convolutional layers. In spite
+of its simplicity, the method performs reasonably well on all the languages of
+the SIGMORPHON 2016 shared task, particularly for the most challenging task of
+limited-resources reinflection. We also find that using only convolution
+achieves surprisingly good results in this task, surpassing the accuracy of our
+encoder-decoder model for several languages.
+Author{1}{Firstname}#=%=#Robert
+Author{1}{Lastname}#=%=#Östling
+Author{1}{Email}#=%=#robert.ostling@helsinki.fi
+Author{1}{Affiliation}#=%=#Department of Modern Languages, University of Helsinki
+
+==========

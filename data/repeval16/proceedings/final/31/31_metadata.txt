@@ -1,0 +1,22 @@
+SubmissionNumber#=%=#31
+FinalPaperTitle#=%=#Subsumption Preservation as a Comparative Measure for Evaluating Sense-Directed Embeddings
+ShortPaperTitle#=%=#Subsumption Preservation as a Comparative Measure for Evaluating Sense-Directed Embeddings
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Seyed
+JobTitle#==#
+Organization#==#3M HIS
+Abstract#==#While there has been a growing body of work on word embeddings, and recent
+directions better reflect sense-level representations, evaluation remains a
+challenge. We propose a method of query inventory generation for embedding
+evaluation that recasts the principle of subsumption preservation, a desirable
+property of semantic graph-based similarity measures, as a comparative
+similarity measure as applied to existing lexical resources. We aim that this
+method is immediately applied to populate query inventories and perform
+evaluation with the ordered triple-based approach set forth, and inspires
+future refinements to existing notions of evaluating sense-directed embeddings.
+Author{1}{Firstname}#=%=#Ali
+Author{1}{Lastname}#=%=#Seyed
+Author{1}{Email}#=%=#apseyed@gmail.com
+Author{1}{Affiliation}#=%=#University of Maryland
+
+==========

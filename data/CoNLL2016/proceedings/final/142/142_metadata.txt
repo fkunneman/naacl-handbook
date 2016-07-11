@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#142
+FinalPaperTitle#=%=#Exploring Prediction Uncertainty in Machine Translation Quality Estimation
+ShortPaperTitle#=%=#Exploring Prediction Uncertainty in Machine Translation Quality Estimation
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Daniel Emilio Beck
+JobTitle#==#
+Organization#==#Department of Computer Science
+The University of Sheffield
+Regent Court
+211 Portobello
+Sheffield
+S1 4DP
+UK
+Abstract#==#Machine Translation Quality Estimation is a notoriously difficult task, which
+lessens its usefulness in real-world translation environments. Such scenarios
+can be improved if quality predictions are accompanied by a measure of
+uncertainty. However, models in this task are traditionally evaluated only in
+terms of point estimate metrics, which do not take prediction uncertainty into
+account. We investigate probabilistic methods for Quality Estimation that can
+provide well-calibrated uncertainty estimates and evaluate them in terms of
+their full posterior predictive distributions. We also show how this posterior
+information can be useful in an asymmetric risk scenario, which aims to capture
+typical situations in translation workflows.
+Author{1}{Firstname}#=%=#Daniel
+Author{1}{Lastname}#=%=#Beck
+Author{1}{Email}#=%=#daniel.e.beck@gmail.com
+Author{1}{Affiliation}#=%=#University of Sheffield
+Author{2}{Firstname}#=%=#Lucia
+Author{2}{Lastname}#=%=#Specia
+Author{2}{Email}#=%=#l.specia@sheffield.ac.uk
+Author{2}{Affiliation}#=%=#University of Sheffield
+Author{3}{Firstname}#=%=#Trevor
+Author{3}{Lastname}#=%=#Cohn
+Author{3}{Email}#=%=#tcohn@unimelb.edu.au
+Author{3}{Affiliation}#=%=#University of Melbourne
+
+==========

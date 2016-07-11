@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#137
+FinalPaperTitle#=%=#Science Question Answering using Instructional Materials
+ShortPaperTitle#=%=#Science Question Answering using Instructional Materials
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#MRINMAYA SACHAN
+JobTitle#==#
+Organization#==#Carnegie Mellon University
+5000 Forbes Avenue
+Pittsburgh
+PA 15217
+Abstract#==#We provide a solution for elementary science test using instructional
+materials. We posit that there is a hidden structure that explains the
+correctness of an answer given the question and instructional materials and
+present a unified max-margin framework that learns to find these hidden
+structures (given a corpus of question-answer pairs and instructional
+materials), and uses what it learns to answer novel elementary science
+questions. Our evaluation shows that our framework outperforms several strong
+baselines.
+Author{1}{Firstname}#=%=#Mrinmaya
+Author{1}{Lastname}#=%=#Sachan
+Author{1}{Email}#=%=#mrinmays@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Kumar
+Author{2}{Lastname}#=%=#Dubey
+Author{2}{Email}#=%=#avinava.dubey@gmail.com
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Eric
+Author{3}{Lastname}#=%=#Xing
+Author{3}{Email}#=%=#epxing@cs.cmu.edu
+Author{3}{Affiliation}#=%=#
+
+==========

@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#218
+FinalPaperTitle#=%=#A Domain Adaptation Regularization for Denoising Autoencoders
+ShortPaperTitle#=%=#A Domain Adaptation Regularization for Denoising Autoencoders
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Stéphane Clinchant
+JobTitle#==#
+Organization#==#Xerox Research Centre Europe
+6 chemin de Maupertuis ,38240 Meylan, FRANCE
+Abstract#==#Finding domain invariant features is critical for successful domain adaptation
+and transfer learning.
+However, in the case of unsupervised adaptation, there is a significant risk of
+overfitting on source training data.
+Recently, a regularization for domain adaptation was proposed for deep models
+by Ganin and Lempitsky.
+We build on their work by suggesting a more appropriate regularization for
+denoising autoencoders.
+Our model remains unsupervised and can be computed in closed form.
+On standard text classification adaptation tasks, our approach yield state of
+the art results, with an important reduction of the learning cost.
+Author{1}{Firstname}#=%=#Stephane
+Author{1}{Lastname}#=%=#Clinchant
+Author{1}{Email}#=%=#stephane.clinchant@xrce.xerox.com
+Author{1}{Affiliation}#=%=#Xerox Research Centre Europe
+Author{2}{Firstname}#=%=#Gabriela
+Author{2}{Lastname}#=%=#Csurka
+Author{2}{Email}#=%=#gabriela.csurka@xrce.xerox.com
+Author{2}{Affiliation}#=%=#Xerox Research Centre Europe
+Author{3}{Firstname}#=%=#Boris
+Author{3}{Lastname}#=%=#Chidlovskii
+Author{3}{Email}#=%=#boris.chidlovskii@xrce.xerox.com
+Author{3}{Affiliation}#=%=#Xerox Research Centre Europe
+
+==========

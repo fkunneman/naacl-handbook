@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#29
+FinalPaperTitle#=%=#Rhetorical structure and argumentation structure in monologue text
+ShortPaperTitle#=%=#Rhetorical structure and argumentation structure in monologue text
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Andreas Peldszus
+JobTitle#==#
+Organization#==#Applied Computational Linguistics, UFS Cognitive Science, University of Potsdam
+Abstract#==#On the basis of a new corpus of short "microtexts" with parallel manual
+annotations, we study the mapping from discourse structure (in terms of
+Rhetorical Structure Theory, RST) to argumentation structure. We first perform
+a qualitative analysis and discuss our findings on  correspondence patterns.
+Then we report on experiments with deriving argumentation structure from the
+(gold) RST trees, where we compare a tree transformation model, an aligner
+based on subgraph matching, and a more complex "evidence graph" model.
+Author{1}{Firstname}#=%=#Andreas
+Author{1}{Lastname}#=%=#Peldszus
+Author{1}{Email}#=%=#peldszus@uni-potsdam.de
+Author{1}{Affiliation}#=%=#University of Potsdam
+Author{2}{Firstname}#=%=#Manfred
+Author{2}{Lastname}#=%=#Stede
+Author{2}{Email}#=%=#stede@uni-potsdam.de
+Author{2}{Affiliation}#=%=#University of Potsdam
+
+==========

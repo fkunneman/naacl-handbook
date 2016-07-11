@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#104
+FinalPaperTitle#=%=#SHEF-MIME: Word-level Quality Estimation Using Imitation Learning
+ShortPaperTitle#=%=#SHEF-MIME: Word-level Quality Estimation Using Imitation Learning
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Daniel Emilio Beck
+JobTitle#==#
+Organization#==#Department of Computer Science
+The University of Sheffield
+Regent Court
+211 Portobello
+Sheffield
+S1 4DP
+UK
+Abstract#==#We describe University of Sheffield's submission to the word-level Quality
+Estimation shared task. Our system is based on imitation learning, an approach
+to structured prediction which relies on a classifier and artificially
+generated data. Compared to other traditional algorithms for the same problem,
+it allows the use of arbitrary information from previous tag predictions and
+the use of non-decomposable losses over the structure. We explore these two
+concepts in our submission while using the baseline features provided by the
+shared task organizers. Our system outperformed the baseline, even though it
+uses the same feature set.
+Author{1}{Firstname}#=%=#Daniel
+Author{1}{Lastname}#=%=#Beck
+Author{1}{Email}#=%=#daniel.e.beck@gmail.com
+Author{1}{Affiliation}#=%=#University of Sheffield
+Author{2}{Firstname}#=%=#Andreas
+Author{2}{Lastname}#=%=#Vlachos
+Author{2}{Email}#=%=#a.vlachos@sheffield.ac.uk
+Author{2}{Affiliation}#=%=#University of Sheffield
+Author{3}{Firstname}#=%=#Gustavo
+Author{3}{Lastname}#=%=#Paetzold
+Author{3}{Email}#=%=#ghpaetzold@outlook.com
+Author{3}{Affiliation}#=%=#University of Sheffield
+Author{4}{Firstname}#=%=#Lucia
+Author{4}{Lastname}#=%=#Specia
+Author{4}{Email}#=%=#l.specia@sheffield.ac.uk
+Author{4}{Affiliation}#=%=#University of Sheffield
+
+==========

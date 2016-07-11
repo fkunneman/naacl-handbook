@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#127
+FinalPaperTitle#=%=#Specifying and Annotating Reduced Argument Span Via QA-SRL
+ShortPaperTitle#=%=#Specifying and Annotating Reduced Argument Span Via QA-SRL
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Gabriel Stanovsky
+JobTitle#==#
+Organization#==#Bar Ilan University
+Abstract#==#Prominent semantic annotations take an inclusive approach to argument span
+annotation, marking arguments as full constituency subtrees. Some works,
+however, showed that identifying a reduced argument span can be beneficial for
+various semantic tasks. While certain practical methods do extract reduced
+argument spans, such as in Open-IE, these solutions are often ad-hoc and
+system-dependent, with no commonly accepted standards. In this paper we propose
+a generic argument reduction criterion, along with an annotation procedure, and
+show that it can be consistently and intuitively annotated using the recent
+QA-SRL paradigm.
+Author{1}{Firstname}#=%=#Gabriel
+Author{1}{Lastname}#=%=#Stanovsky
+Author{1}{Email}#=%=#gabriel.satanovsky@gmail.com
+Author{1}{Affiliation}#=%=#Bar Ilan University
+Author{2}{Firstname}#=%=#Ido
+Author{2}{Lastname}#=%=#Dagan
+Author{2}{Email}#=%=#ido.k.dagan@gmail.com
+Author{2}{Affiliation}#=%=#Bar Ilan University
+Author{3}{Firstname}#=%=#Meni
+Author{3}{Lastname}#=%=#Adler
+Author{3}{Email}#=%=#meni.adler@gmail.com
+Author{3}{Affiliation}#=%=#Bar Ilan University
+
+==========

@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#27
+FinalPaperTitle#=%=#SLEDDED: A Proposed Dataset of Event Descriptions for Evaluating Phrase Representations
+ShortPaperTitle#=%=#SLEDDED: A Proposed Dataset of Event Descriptions for Evaluating Phrase Representations
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Eva Maria Vecchi
+JobTitle#==#
+Organization#==#Computer Laboratory, University of Cambridge
+Abstract#==#Measuring the semantic relatedness of phrase pairs is important for evaluating
+compositional distributional semantic representations. Many existing phrase
+relatedness datasets are limited to either lexical or syntactic alternations
+between phrase pairs, which limits the power of the evaluation. We propose
+SLEDDED (Syntactically and LExically Divergent Dataset of Event Descriptions),
+a dataset of event descriptions in which related phrase pairs are designed to
+exhibit minimal lexical and syntactic overlap; for example, 'a decisive
+victory' -- 'won the match clearly'. We also propose a subset of the data aimed
+at distinguishing event descriptions from related but dissimilar phrases; for
+example, 'vowing to fight to the death' -- 'a new training regime for
+soldiers', which serves as a proxy for the tasks of narrative generation, event
+sequencing, and summarization. We describe a method for extracting candidate
+pairs from a corpus based on occurrences of event nouns (e.g. 'war') and a
+two-step annotation process consisting of expert annotation followed by
+crowdsourcing. We present examples from a pilot of the expert annotation step.
+Author{1}{Firstname}#=%=#Laura
+Author{1}{Lastname}#=%=#Rimell
+Author{1}{Email}#=%=#laura.rimell@cl.cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Eva Maria
+Author{2}{Lastname}#=%=#Vecchi
+Author{2}{Email}#=%=#evamariavecchi@gmail.com
+Author{2}{Affiliation}#=%=#University of Cambridge
+
+==========

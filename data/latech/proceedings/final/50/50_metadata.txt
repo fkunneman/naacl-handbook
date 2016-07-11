@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#50
+FinalPaperTitle#=%=#Whodunit... and to Whom? Subjects, Objects, and Actions in Research Articles on American Labor Unions
+ShortPaperTitle#=%=#Whodunit... and to Whom? Subjects, Objects, and Actions in Research Articles on American Labor Unions
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Vilja Hulden
+JobTitle#==#
+Organization#==#Department of History
+University of Colorado Boulder
+Boulder, CO 80309
+Abstract#==#This paper investigates whether sentence structure analysis - examining who
+appears in subject versus object position - can illuminate who academic
+articles portray as having agency in labor relations. We extract subjects and
+objects from a corpus of 3,800 academic articles,  and compare both the
+relative occurrence of different groups (workers, women, employers) in each
+position and the verbs that most commonly attach to each group. We conclude
+that agency, while elusive, can potentially be modeled by sentence structure
+analysis.
+Author{1}{Firstname}#=%=#Vilja
+Author{1}{Lastname}#=%=#Hulden
+Author{1}{Email}#=%=#vilja.hulden@colorado.edu
+Author{1}{Affiliation}#=%=#University of Colorado Boulder
+
+==========

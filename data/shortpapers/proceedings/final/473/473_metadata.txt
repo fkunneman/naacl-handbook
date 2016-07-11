@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#473
+FinalPaperTitle#=%=#A Fast Approach for Semantic Similar Short Texts Retrieval
+ShortPaperTitle#=%=#A Fast Approach for Semantic Similar Short Texts Retrieval
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Yanhui Gu
+JobTitle#==#
+Organization#==#
+Abstract#==#Retrieving similar short texts is crucial to many applications, e.g., web
+search, microblogging, ads matching, and so forth. Most of the traditional
+methods concentrate on how to improve the precision of the similarity
+measurement, while current real applications need to efficiently explore the
+top similar short texts semantically related to the query one. In this paper,
+we address the efficiency issue by investigating the similarity strategies and
+incorporating them into the FAST framework (efficient FrAmework for semantic
+similar Short Texts retrieval). We conduct comprehensive performance evaluation
+on real-life data which shows that our proposal outperforms the
+state-of-the-art techniques.
+Author{1}{Firstname}#=%=#Yanhui
+Author{1}{Lastname}#=%=#Gu
+Author{1}{Email}#=%=#gu@njnu.edu.cn
+Author{1}{Affiliation}#=%=#Nanjing Normal University
+Author{2}{Firstname}#=%=#Zhenglu
+Author{2}{Lastname}#=%=#Yang
+Author{2}{Email}#=%=#yangzl@nankai.edu.cn
+Author{2}{Affiliation}#=%=#Nankai University
+Author{3}{Firstname}#=%=#Junsheng
+Author{3}{Lastname}#=%=#Zhou
+Author{3}{Email}#=%=#zhoujs@njnu.edu.cn
+Author{3}{Affiliation}#=%=#Nanjing Normal University
+Author{4}{Firstname}#=%=#Weiguang
+Author{4}{Lastname}#=%=#QU
+Author{4}{Email}#=%=#wgqu@njnu.edu.cn
+Author{4}{Affiliation}#=%=#Nanjing Normal University
+Author{5}{Firstname}#=%=#Jinmao
+Author{5}{Lastname}#=%=#Wei
+Author{5}{Email}#=%=#weijm@nankai.edu.cn
+Author{5}{Affiliation}#=%=#Nankai University
+Author{6}{Firstname}#=%=#Xingtian
+Author{6}{Lastname}#=%=#Shi
+Author{6}{Email}#=%=#xingtian.shi@sap.com
+Author{6}{Affiliation}#=%=#SAP Labs China
+
+==========

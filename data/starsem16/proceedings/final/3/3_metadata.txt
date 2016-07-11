@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#3
+FinalPaperTitle#=%=#Adding Context to Semantic Data-Driven Paraphrasing
+ShortPaperTitle#=%=#Adding Context to Semantic Data-Driven Paraphrasing
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Vered Shwartz
+JobTitle#==#
+Organization#==#Bar-Ilan University, Ramat-Gan, Israel
+Abstract#==#Recognizing lexical inferences between pairs of terms is a common task in NLP
+applications, which should typically be performed within a given context. Such
+context-sensitive inferences have to consider both term meaning in context as
+well as the fine-grained relation holding between the terms. Hence, to develop
+suitable lexical inference methods, we need datasets that are annotated with
+fine-grained semantic relations in-context. Since existing datasets either
+provide out-of-context annotations or refer to coarse-grained relations, we
+propose a methodology for adding context-sensitive annotations. We demonstrate
+our methodology by applying it to phrase pairs from PPDB 2.0, creating a novel
+dataset of fine-grained lexical inferences in-context and showing its utility
+in developing context-sensitive methods.
+Author{1}{Firstname}#=%=#Vered
+Author{1}{Lastname}#=%=#Shwartz
+Author{1}{Email}#=%=#vered1986@gmail.com
+Author{1}{Affiliation}#=%=#Bar-Ilan University
+Author{2}{Firstname}#=%=#Ido
+Author{2}{Lastname}#=%=#Dagan
+Author{2}{Email}#=%=#dagan@cs.biu.ac.il
+Author{2}{Affiliation}#=%=#Bar-Ilan University
+
+==========

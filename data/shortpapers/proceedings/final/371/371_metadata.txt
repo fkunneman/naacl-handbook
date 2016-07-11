@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#371
+FinalPaperTitle#=%=#Joint part-of-speech and dependency projection from multiple sources
+ShortPaperTitle#=%=#Joint part-of-speech and dependency projection from multiple sources
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Anders Johannsen
+JobTitle#==#
+Organization#==#
+Abstract#==#Most previous work on annotation projection has been limited to a subset of
+Indo-European languages, using only a single source language, and projecting
+annotation for one task at a time. In contrast, we present an Integer Linear
+Programming (ILP) algorithm that simultaneously projects annotation for
+multiple tasks from multiple source languages, relying on parallel corpora
+available for hundreds of languages. When training POS taggers and dependency
+parsers on jointly projected POS tags and syntactic dependencies using our
+algorithm, we obtain better performance than a standard approach on 20/23
+languages using one parallel corpus; and 18/27 languages using another.
+Author{1}{Firstname}#=%=#Anders
+Author{1}{Lastname}#=%=#Johannsen
+Author{1}{Email}#=%=#anders@johannsen.com
+Author{1}{Affiliation}#=%=#Apple Inc
+Author{2}{Firstname}#=%=#Željko
+Author{2}{Lastname}#=%=#Agić
+Author{2}{Email}#=%=#zeljko.agic@gmail.com
+Author{2}{Affiliation}#=%=#University of Copenhagen
+Author{3}{Firstname}#=%=#Anders
+Author{3}{Lastname}#=%=#Søgaard
+Author{3}{Email}#=%=#soegaard@hum.ku.dk
+Author{3}{Affiliation}#=%=#University of Copenhagen
+
+==========

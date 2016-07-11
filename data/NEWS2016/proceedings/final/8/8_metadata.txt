@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#Leveraging Entity Linking and Related Language Projection to Improve Name Transliteration
+ShortPaperTitle#=%=#Leveraging Entity Linking and Related Language Projection to Improve Name Transliteration
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Ying Lin
+JobTitle#==#
+Organization#==#Rensselaer Polytechnic Institute,
+110 Eighth Street, Troy, NY USA 12180
+Abstract#==#Traditional name transliteration methods largely ignore source context
+information and inter-dependency among entities for entity disambiguation. We
+propose a novel approach to leverage state-of-the-art Entity Linking (EL)
+techniques to automatically correct name transliteration results, using
+collective inference from source contexts and additional evidence from
+knowledge base. Experiments on transliterating names from seven languages to
+English demonstrate that our approach achieves 2.6% to 15.7% absolute gain over
+the baseline model, and significantly advances state-of-the-art. When
+contextual information exists, our approach can achieve further gains (24.2%)
+by collectively transliterating and disambiguating multiple related entities.
+We also prove that combining Entity Linking and projecting resources from
+related languages obtained comparable performance as the method using the same
+amount of training pairs in the original languages without Entity Linking. The
+transliteration systems are publicly available for research purpose at
+http://nlp.cs.rpi.edu/transliteration/.
+Author{1}{Firstname}#=%=#Ying
+Author{1}{Lastname}#=%=#Lin
+Author{1}{Email}#=%=#liny9@rpi.edu
+Author{1}{Affiliation}#=%=#Rensselaer Polytechnic Institute
+Author{2}{Firstname}#=%=#Xiaoman
+Author{2}{Lastname}#=%=#Pan
+Author{2}{Email}#=%=#panx2@rpi.edu
+Author{2}{Affiliation}#=%=#Rensselaer Polytechnic Institute
+Author{3}{Firstname}#=%=#Aliya
+Author{3}{Lastname}#=%=#Deri
+Author{3}{Email}#=%=#aderi@isi.edu
+Author{3}{Affiliation}#=%=#USC Information Sciences Institute
+Author{4}{Firstname}#=%=#Heng
+Author{4}{Lastname}#=%=#Ji
+Author{4}{Email}#=%=#jih@rpi.edu
+Author{4}{Affiliation}#=%=#Rensselaer Polytechnic Institute
+Author{5}{Firstname}#=%=#Kevin
+Author{5}{Lastname}#=%=#Knight
+Author{5}{Email}#=%=#knight@isi.edu
+Author{5}{Affiliation}#=%=#USC/ISI
+
+==========

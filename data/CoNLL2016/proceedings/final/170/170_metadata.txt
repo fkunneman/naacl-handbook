@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#170
+FinalPaperTitle#=%=#Beyond Centrality and Structural Features: Learning Information Importance for Text Summarization
+ShortPaperTitle#=%=#Beyond Centrality and Structural Features: Learning Information Importance for Text Summarization
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Markus Zopf
+JobTitle#==#
+Organization#==#Research Training Group AIPHES / Knowledge Engineering Group
+Department of Computer Science, Technische Universität Darmstadt
+Hochschulstraße 10, 64289 Darmstadt, Germany
+Abstract#==#Most automatic text summarization systems proposed to date rely on centrality
+and structural features as indicators for information importance. In this
+paper, we argue that these features cannot reliably detect important
+information in heterogeneous document collections. Instead, we propose CPSum, a
+summarizer that learns the importance of information objects from a background
+source. Our hypothesis is tested on multi-document corpora with removed
+centrality and structural features. CPSum shows to be able to perform well in
+these corpora whereas reference systems fail.
+Author{1}{Firstname}#=%=#Markus
+Author{1}{Lastname}#=%=#Zopf
+Author{1}{Email}#=%=#zopf@aiphes.tu-darmstadt.de
+Author{1}{Affiliation}#=%=#AIPHES, Technische Universität Darmstadt
+Author{2}{Firstname}#=%=#Eneldo
+Author{2}{Lastname}#=%=#Loza Mencía
+Author{2}{Email}#=%=#eneldo@ke.tu-darmstadt.de
+Author{2}{Affiliation}#=%=#Knowledge Engineering Group, TU Darmstadt
+Author{3}{Firstname}#=%=#Johannes
+Author{3}{Lastname}#=%=#Fürnkranz
+Author{3}{Email}#=%=#juffi@ke.tu-darmstadt.de
+Author{3}{Affiliation}#=%=#Knowledge Engineering Group, TU Darmstadt
+
+==========

@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#42
+FinalPaperTitle#=%=#{LSTM}-Based Mixture-of-Experts for Knowledge-Aware Dialogues
+ShortPaperTitle#=%=#{LSTM}-Based Mixture-of-Experts for Knowledge-Aware Dialogues
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Phong Le
+JobTitle#==#
+Organization#==#University of Amsterdam
+Abstract#==#We introduce an LSTM-based method for dynamically integrating several
+word-prediction experts to obtain a conditional language model which can be
+good simultaneously at several subtasks. We illustrate this general approach
+with an application to dialogue where we integrate a neural chat model, good at
+conversational aspects, with a neural question-answering model, good at
+retrieving precise information from a knowledge-base, and show how the
+integration combines the strengths of the independent components. We hope
+that this focused contribution will attract attention on the benefits of using
+such mixtures of experts in NLP and dialogue systems specifically.
+Author{1}{Firstname}#=%=#Phong
+Author{1}{Lastname}#=%=#Le
+Author{1}{Email}#=%=#lephong.xyz@gmail.com
+Author{1}{Affiliation}#=%=#University of Amsterdam
+Author{2}{Firstname}#=%=#Marc
+Author{2}{Lastname}#=%=#Dymetman
+Author{2}{Email}#=%=#marc.dymetman@xrce.xerox.com
+Author{2}{Affiliation}#=%=#Xerox Research Centre Europe
+Author{3}{Firstname}#=%=#Jean-Michel
+Author{3}{Lastname}#=%=#Renders
+Author{3}{Email}#=%=#jean-michel.renders@xrce.xerox.com
+Author{3}{Affiliation}#=%=#Xerox Research Centre Europe
+
+==========

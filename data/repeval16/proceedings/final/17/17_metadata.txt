@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#17
+FinalPaperTitle#=%=#An Improved Crowdsourcing Based Evaluation Technique for Word Embedding Methods
+ShortPaperTitle#=%=#An Improved Crowdsourcing Based Evaluation Technique for Word Embedding Methods
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Farhana Ferdousi Liza
+JobTitle#==#
+Organization#==#University of Kent, Canterbury, CT2 7NY, UK.
+Abstract#==#In this proposal track paper, we have proposed a crowdsourcing based word
+embedding evaluation technique that will be reliable (unambiguous) and
+linguistically justified. The method is designed for intrinsic evaluation and
+is inspired by the proposed method in (Schnabel et al.,2015). We have
+recognised a methodological shortcoming of the approach provided in that paper,
+and proposed an improved evaluation techniques that will capture better word
+relatedness based on context.
+Author{1}{Firstname}#=%=#Farhana Ferdousi
+Author{1}{Lastname}#=%=#Liza
+Author{1}{Email}#=%=#farhana.ferdousi.liza@gmail.com
+Author{1}{Affiliation}#=%=#University of Kent
+Author{2}{Firstname}#=%=#Marek
+Author{2}{Lastname}#=%=#Grzes
+Author{2}{Email}#=%=#m.grzes@kent.ac.uk
+Author{2}{Affiliation}#=%=#School of Computing, University of Kent.
+
+==========

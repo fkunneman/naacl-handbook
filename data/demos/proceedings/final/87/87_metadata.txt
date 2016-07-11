@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#87
+FinalPaperTitle#=%=#Personalized Exercises for Preposition Learning
+ShortPaperTitle#=%=#Personalized Exercises for Preposition Learning
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#John Lee
+JobTitle#==#
+Organization#==#City University of Hong Kong, Tat Chee Avenue, Kowloon, Hong Kong
+Abstract#==#We present a computer-assisted language learning (CALL) system that generates
+fill-in-the-blank items for preposition usage.                          The system
+takes a
+set of
+carrier sentences as input, chooses a preposition in each sentence as the key,
+and then automatically generates distractors.  It personalizes item selection
+for the user in two ways.  First, it logs items to which the user previously
+gave incorrect answers, and offers similar items in a future session as review.
+ Second, it progresses from easier to harder sentences, to minimize any
+hindrance on preposition learning that might be posed by difficult vocabulary.
+Author{1}{Firstname}#=%=#John
+Author{1}{Lastname}#=%=#Lee
+Author{1}{Email}#=%=#jsylee@cityu.edu.hk
+Author{1}{Affiliation}#=%=#City University of Hong Kong
+Author{2}{Firstname}#=%=#Mengqi
+Author{2}{Lastname}#=%=#Luo
+Author{2}{Email}#=%=#mengqluo@cityu.edu.hk
+Author{2}{Affiliation}#=%=#City University of Hong Kong
+
+==========

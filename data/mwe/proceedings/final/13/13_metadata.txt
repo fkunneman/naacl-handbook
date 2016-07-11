@@ -1,0 +1,22 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#Representing Support Verbs in FrameNet
+ShortPaperTitle#=%=#Representing Support Verbs in FrameNet
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Miriam R L Petruck
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper presents FrameNet’s approach to the representation of Support
+Verbs, as one type of multiword expression (MWE) included in the database. In
+addition to motivating and illustrating FrameNet’s newly consistent
+annotation practice for Support Verb constructions, this work advocates
+adopting a broad view of what constitutes a multiword expression.
+Author{1}{Firstname}#=%=#Miriam R L
+Author{1}{Lastname}#=%=#Petruck
+Author{1}{Email}#=%=#miriamp@icsi.berkeley.edu
+Author{1}{Affiliation}#=%=#International Computer Science Institute
+Author{2}{Firstname}#=%=#Michael
+Author{2}{Lastname}#=%=#Ellsworth
+Author{2}{Email}#=%=#infinity@icsi.berkeley.edu
+Author{2}{Affiliation}#=%=#International Computer Science Institute
+
+==========

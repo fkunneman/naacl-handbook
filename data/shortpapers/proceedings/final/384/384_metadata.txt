@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#384
+FinalPaperTitle#=%=#Multilingual Part-of-Speech Tagging with Bidirectional Long Short-Term Memory Models and Auxiliary Loss
+ShortPaperTitle#=%=#Multilingual Part-of-Speech Tagging with Bidirectional Long Short-Term Memory Models and Auxiliary Loss
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Barbara Plank
+JobTitle#==#
+Organization#==#University of Groningen
+Abstract#==#Bidirectional long short-term memory (bi-LSTM) networks have recently proven
+successful for various NLP sequence modeling tasks, but little is known about
+their reliance to input representations, target languages, data set size, and
+label noise. 
+We address these issues and evaluate bi-LSTMs with word, character, and unicode
+byte embeddings for POS tagging. We compare bi-LSTMs to traditional POS taggers
+across languages and data sizes. We also present a novel bi-LSTM model, which
+combines the POS tagging loss function with an auxiliary loss function that
+accounts for rare words. The model obtains state-of-the-art performance across
+22 languages, and works especially well for morphologically complex languages.
+Our analysis suggests that bi-LSTMs are less sensitive to training data size
+and label corruptions (at small noise levels) than previously assumed.
+Author{1}{Firstname}#=%=#Barbara
+Author{1}{Lastname}#=%=#Plank
+Author{1}{Email}#=%=#bplank@gmail.com
+Author{1}{Affiliation}#=%=#University of Groningen
+Author{2}{Firstname}#=%=#Anders
+Author{2}{Lastname}#=%=#Søgaard
+Author{2}{Email}#=%=#soegaard@hum.ku.dk
+Author{2}{Affiliation}#=%=#University of Copenhagen
+Author{3}{Firstname}#=%=#Yoav
+Author{3}{Lastname}#=%=#Goldberg
+Author{3}{Email}#=%=#yoav.goldberg@gmail.com
+Author{3}{Affiliation}#=%=#Bar Ilan University
+
+==========

@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#27
+FinalPaperTitle#=%=#Improving Topic Model Clustering of Newspaper Comments for Summarisation
+ShortPaperTitle#=%=#Improving Topic Model Clustering of Newspaper Comments for Summarisation
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#clare llewellyn
+JobTitle#==#
+Organization#==#
+Abstract#==#Online newspaper articles can accumulate comments at volumes that prevent close
+reading. Summarisation of the comments allows interaction at a higher level and
+can lead to an understanding of the overall discussion. Comment summarisation
+requires topic clustering, comment ranking and extraction. Clustering must be
+robust as the subsequent extraction relies on a good set of clusters. Comment
+data, as with many social media datasets, contains very short documents and the
+number of words in the documents is a limiting factors on the performance of
+LDA clustering. We evaluate whether we can combine comments to form larger
+documents to improve the quality of clusters. We find that combining comments
+with comments that reply to them produce the highest quality clusters.
+Author{1}{Firstname}#=%=#Clare
+Author{1}{Lastname}#=%=#Llewellyn
+Author{1}{Email}#=%=#clarellewellyn@yahoo.com
+Author{1}{Affiliation}#=%=#University of Edinburgh
+Author{2}{Firstname}#=%=#Claire
+Author{2}{Lastname}#=%=#Grover
+Author{2}{Email}#=%=#grover@inf.ed.ac.uk
+Author{2}{Affiliation}#=%=#University of Edinburgh
+Author{3}{Firstname}#=%=#Jon
+Author{3}{Lastname}#=%=#Oberlander
+Author{3}{Email}#=%=#j.oberlander@ed.ac.uk
+Author{3}{Affiliation}#=%=#University of Edinburgh
+
+==========

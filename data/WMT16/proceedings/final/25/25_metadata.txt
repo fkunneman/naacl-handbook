@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#25
+FinalPaperTitle#=%=#Neural Network-based Word Alignment through Score Aggregation
+ShortPaperTitle#=%=#Neural Network-based Word Alignment through Score Aggregation
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Michael Auli
+JobTitle#==#
+Organization#==#Facebook
+1 Hacker Way, Menlo Park, CA
+Abstract#==#We present a simple neural network for word alignment that builds source and
+target word window representations to compute alignment scores for sentence
+pairs.
+To enable unsupervised training, we use an aggregation operation that
+summarizes
+the alignment scores for a given target word.
+A soft-margin objective increases scores for true target words while 
+decreasing scores for target words that are not present.
+Compared to the popular Fast Align model, our approach improves 
+alignment accuracy by 7 AER on English-Czech, by 6 AER on Romanian-English 
+and by 1.7 AER on English-French alignment.
+Author{1}{Firstname}#=%=#Joël
+Author{1}{Lastname}#=%=#Legrand
+Author{1}{Email}#=%=#joel.legrand@idiap.ch
+Author{1}{Affiliation}#=%=#Idiap Research Institute
+Author{2}{Firstname}#=%=#Michael
+Author{2}{Lastname}#=%=#Auli
+Author{2}{Email}#=%=#michael.auli@gmail.com
+Author{2}{Affiliation}#=%=#Facebook AI Research
+Author{3}{Firstname}#=%=#Ronan
+Author{3}{Lastname}#=%=#Collobert
+Author{3}{Email}#=%=#ronan@collobert.com
+Author{3}{Affiliation}#=%=#Facebook AI Research
+
+==========

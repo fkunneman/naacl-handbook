@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#21
+FinalPaperTitle#=%=#Universal Morphology for Old Hungarian
+ShortPaperTitle#=%=#Universal Morphology for Old Hungarian
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Eszter Simon
+JobTitle#==#
+Organization#==#Research Institute for Linguistics, Hungarian Academy of Sciences
+Benczúr u. 33.
+H-1068
+Budapest, Hungary
+Abstract#==#This paper provides a description of the automatic conversion of the
+morphologically
+annotated part of the Old Hungarian Corpus. These texts are in the format of
+the Humor analyzer, which does not follow any international standards. Since
+standardization always facilitates future research, even for researchers who do
+not know the Old Hungarian language, we opted for mapping the Humor formalism
+to a widely used universal tagset, namely the Universal Dependencies framework.
+The benefits of using a shared tagset across languages enable interlingual
+comparisons from a theoretical point of view and also multilingual NLP
+applications can profit from a unified annotation scheme. In this paper, we
+report the adaptation of the Universal Dependencies morphological annotation
+scheme to Old Hungarian, and we discuss the most important theoretical
+linguistic issues that had to be resolved during the process. We focus on the
+linguistic phenomena typical of Old Hungarian that required special treatment
+and we offer solutions to them.
+Author{1}{Firstname}#=%=#Eszter
+Author{1}{Lastname}#=%=#Simon
+Author{1}{Email}#=%=#simon.eszter@nytud.mta.hu
+Author{1}{Affiliation}#=%=#Research Institute for Linguistics, Hungarian Academy of Sciences
+Author{2}{Firstname}#=%=#Veronika
+Author{2}{Lastname}#=%=#Vincze
+Author{2}{Email}#=%=#vinczev@inf.u-szeged.hu
+Author{2}{Affiliation}#=%=#University of Szeged
+
+==========

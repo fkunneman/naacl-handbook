@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#297
+FinalPaperTitle#=%=#Learning Multiview Embeddings of Twitter Users
+ShortPaperTitle#=%=#Learning Multiview Embeddings of Twitter Users
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Adrian Benton
+JobTitle#==#
+Organization#==#Johns Hopkins University
+3400 North Charles Street
+Baltimore, MD 21218
+Abstract#==#Low-dimensional vector representations are widely used as stand-ins for the
+text of words, sentences, and entire documents. These embeddings are used to
+identify similar words or make predictions about documents. In this work, we
+consider embeddings for social media users and demonstrate that these can be
+used to identify users who behave similarly or to predict attributes of users.
+In order to capture information from all aspects of a user’s online life, we
+take a multiview approach, applying a weighted variant of Generalized Canonical
+Correlation Analysis (GCCA) to a collection of over 100,000 Twitter users. We
+demonstrate the utility of these multiview embeddings on three downstream
+tasks: user engagement, friend selection, and demographic attribute prediction.
+Author{1}{Firstname}#=%=#Adrian
+Author{1}{Lastname}#=%=#Benton
+Author{1}{Email}#=%=#adrian.benton@gmail.com
+Author{1}{Affiliation}#=%=#Johns Hopkins University
+Author{2}{Firstname}#=%=#Raman
+Author{2}{Lastname}#=%=#Arora
+Author{2}{Email}#=%=#arora@cs.jhu.edu
+Author{2}{Affiliation}#=%=#Johns Hopkins University
+Author{3}{Firstname}#=%=#Mark
+Author{3}{Lastname}#=%=#Dredze
+Author{3}{Email}#=%=#mdredze@cs.jhu.edu
+Author{3}{Affiliation}#=%=#Johns Hopkins University
+
+==========

@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Automatic discovery of Latin syntactic changes
+ShortPaperTitle#=%=#Automatic discovery of Latin syntactic changes
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Micha Elsner
+JobTitle#==#
+Organization#==#Department of Linguistics
+The Ohio State University
+Columbus, OH 43210
+Abstract#==#Syntactic change tends to affect constructions, but treebanks annotate
+lower-level structure: PCFG rules or dependency arcs. This paper
+extends prior work in native language identification, using Tree
+Substitution Grammars to discover constructions which can be tested
+for historical variability. In a case study comparing Classical and
+Medieval Latin, the system discovers several constructions
+corresponding to known historical differences, and learns to
+distinguish the two varieties with high accuracy. Applied to an
+intermediate text (the Vulgate Bible), it indicates which changes
+between the eras were already occurring at this earlier stage.
+Author{1}{Firstname}#=%=#Micha
+Author{1}{Lastname}#=%=#Elsner
+Author{1}{Email}#=%=#melsner@ling.osu.edu
+Author{1}{Affiliation}#=%=#The Ohio State University
+Author{2}{Firstname}#=%=#Emily
+Author{2}{Lastname}#=%=#Lane
+Author{2}{Email}#=%=#lane.434@osu.edu
+Author{2}{Affiliation}#=%=#The Ohio State University
+
+==========

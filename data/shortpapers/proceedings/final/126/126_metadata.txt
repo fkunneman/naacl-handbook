@@ -1,0 +1,48 @@
+SubmissionNumber#=%=#126
+FinalPaperTitle#=%=#Detecting Mild Cognitive Impairment by Exploiting Linguistic Information from Transcripts
+ShortPaperTitle#=%=#Detecting Mild Cognitive Impairment by Exploiting Linguistic Information from Transcripts
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Veronika Vincze
+JobTitle#==#
+Organization#==#
+Abstract#==#Here we seek to automatically identify Hungarian patients suffering from mild
+cognitive impairment (MCI) based on linguistic features collected from their
+speech transcripts. Our system uses machine learning techniques and is based on
+several linguistic features like characteristics of spontaneous speech as well
+as features exploiting morphological and syntactic parsing. Our results suggest
+that it is primarily morphological and speech-based features that help
+distinguish MCI patients from healthy controls.
+Author{1}{Firstname}#=%=#Veronika
+Author{1}{Lastname}#=%=#Vincze
+Author{1}{Email}#=%=#vinczev@inf.u-szeged.hu
+Author{1}{Affiliation}#=%=#University of Szeged
+Author{2}{Firstname}#=%=#Gábor
+Author{2}{Lastname}#=%=#Gosztolya
+Author{2}{Email}#=%=#ggabor@inf.u-szeged.hu
+Author{2}{Affiliation}#=%=#University of Szeged
+Author{3}{Firstname}#=%=#László
+Author{3}{Lastname}#=%=#Tóth
+Author{3}{Email}#=%=#tothl@inf.u-szeged.hu
+Author{3}{Affiliation}#=%=#MTA-SZTE Research Group on Artificial Intelligence
+Author{4}{Firstname}#=%=#Ildikó
+Author{4}{Lastname}#=%=#Hoffmann
+Author{4}{Email}#=%=#hoffmannildi@gmail.com
+Author{4}{Affiliation}#=%=#University of Szeged
+Author{5}{Firstname}#=%=#Gréta
+Author{5}{Lastname}#=%=#Szatlóczki
+Author{5}{Email}#=%=#szatloczkigreti@gmail.com
+Author{5}{Affiliation}#=%=#University of Szeged
+Author{6}{Firstname}#=%=#Zoltán
+Author{6}{Lastname}#=%=#Bánréti
+Author{6}{Email}#=%=#banreti.zoltan@nytud.mta.hu
+Author{6}{Affiliation}#=%=#Hungarian Academy of Sciences
+Author{7}{Firstname}#=%=#Magdolna
+Author{7}{Lastname}#=%=#Pákáski
+Author{7}{Email}#=%=#babikne.pakaski.magdolna@med.u-szeged.hu
+Author{7}{Affiliation}#=%=#University of Szeged
+Author{8}{Firstname}#=%=#János
+Author{8}{Lastname}#=%=#Kálmán
+Author{8}{Email}#=%=#kalman.janos@med.u-szeged.hu
+Author{8}{Affiliation}#=%=#University of Szeged
+
+==========

@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#126
+FinalPaperTitle#=%=#A Data-driven Investigation of Corrective Feedback on Subject Omission Errors in First Language Acquisition
+ShortPaperTitle#=%=#A Data-driven Investigation of Corrective Feedback on Subject Omission Errors in First Language Acquisition
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Raquel Fernandez
+JobTitle#==#
+Organization#==#University of Amsterdam
+P.O. Box 94242
+1090 GE Amsterdam, Netherlands
+Abstract#==#We investigate implicit corrections in the form of contrastive discourse in
+child-adult interaction, which have been argued to contribute to language
+learning. In contrast to previous work in psycholinguistics, we adopt a
+data-driven methodology, using comparably large amounts of data and  leveraging
+computational methods. We conduct a corpus study on the use of parental
+corrective feedback and show that its presence in child directed speech is
+associated with a reduction of child subject omission errors in English.
+Author{1}{Firstname}#=%=#Sarah
+Author{1}{Lastname}#=%=#Hiller
+Author{1}{Email}#=%=#sarah.hiller@posteo.de
+Author{1}{Affiliation}#=%=#ILLC, University of Amsterdam
+Author{2}{Firstname}#=%=#Raquel
+Author{2}{Lastname}#=%=#Fernandez
+Author{2}{Email}#=%=#raquel.fernandez@uva.nl
+Author{2}{Affiliation}#=%=#ILLC, University of Amsterdam
+
+==========

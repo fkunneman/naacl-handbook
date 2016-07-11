@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Terminology Extraction with Term Variant Detection
+ShortPaperTitle#=%=#Terminology Extraction with Term Variant Detection
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Daille
+JobTitle#==#
+Organization#==#University of Nantes - LINA
+Abstract#==#We introduce, TermSuite, a  JAVA and UIMA-based toolkit to build
+terminologies from corpora. TermSuite follows the classic two steps of
+terminology extraction tools, the identification of term candidates and their
+ranking, but implements new features. It is multilingually designed, scalable,
+and handles term variants. We focus on the main components: UIMA Token RegExp
+for defining term and variant patterns over word annotations, and the grouping
+component for clustering terms and variants that works both at morphological
+and syntactic levels.
+Author{1}{Firstname}#=%=#Damien
+Author{1}{Lastname}#=%=#Cram
+Author{1}{Email}#=%=#damien.cram@univ-nantes.fr
+Author{1}{Affiliation}#=%=#LINA
+Author{2}{Firstname}#=%=#Beatrice
+Author{2}{Lastname}#=%=#Daille
+Author{2}{Email}#=%=#beatrice.daille@univ-nantes.fr
+Author{2}{Affiliation}#=%=#Université de Nantes - LINA
+
+==========

@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#132
+FinalPaperTitle#=%=#A Shared Task on Multimodal Machine Translation and Crosslingual Image Description
+ShortPaperTitle#=%=#A Shared Task on Multimodal Machine Translation and Crosslingual Image Description
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#XXX
+JobTitle#==#XXX
+Organization#==#XXX
+Abstract#==#This paper introduces and summarises the findings of a new shared task at the
+intersection of Natural Language Processing and Computer Vision: the generation
+of image descriptions in a target language, given an image and/or one or more
+descriptions in a different (source) language. This challenge was organised
+along with the Conference on Machine Translation (WMT16), and called for system
+submissions for two task variants: (i) a translation task, in which a source
+language image description needs to be translated to a target language,
+(optionally) with additional cues from the corresponding image, and (ii) a
+description generation task, in which a target language description needs to be
+generated for an image, (optionally) with additional cues from source language
+descriptions of the same image. In this first edition of the shared task, 16
+systems were submitted for the translation task and seven for the image
+description task, from a total of 10 teams.
+Author{1}{Firstname}#=%=#Lucia
+Author{1}{Lastname}#=%=#Specia
+Author{1}{Email}#=%=#l.specia@sheffield.ac.uk
+Author{1}{Affiliation}#=%=#University of Sheffield
+Author{2}{Firstname}#=%=#Stella
+Author{2}{Lastname}#=%=#Frank
+Author{2}{Email}#=%=#s.c.frank@uva.nl
+Author{2}{Affiliation}#=%=#University of Amsterdam
+Author{3}{Firstname}#=%=#Khalil
+Author{3}{Lastname}#=%=#Sima'an
+Author{3}{Email}#=%=#k.simaan@uva.nl
+Author{3}{Affiliation}#=%=#ILLC, University of Amsterdam
+Author{4}{Firstname}#=%=#Desmond
+Author{4}{Lastname}#=%=#Elliott
+Author{4}{Email}#=%=#d.elliott@uva.nl
+Author{4}{Affiliation}#=%=#University of Amsterdam
+
+==========

@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#Towards Building a Political Protest Database to Explain Changes in the Welfare State
+ShortPaperTitle#=%=#Towards Building a Political Protest Database to Explain Changes in the Welfare State
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Cagil Sonmez
+JobTitle#==#
+Organization#==#Bogazici University
+Abstract#==#Despite considerable theoretical work in social sciences, ready to use
+resources are very limited compared to digitally available mass media
+resources. Thus, this project creates a political protest database from online
+news resources in Brazil that will be used to explain Brazilian welfare state
+policy changes. In this paper we present the preliminary results of a system
+that automatically crawls digital resources and produces a protest database,
+which includes events such as strikes, rallies, boycotts, protests, and riots,
+as well as their attributes such as location, participants, and ideology.
+Author{1}{Firstname}#=%=#Çağıl
+Author{1}{Lastname}#=%=#Sönmez
+Author{1}{Email}#=%=#cagilulusahin@gmail.com
+Author{1}{Affiliation}#=%=#Boğazici University
+Author{2}{Firstname}#=%=#Arzucan
+Author{2}{Lastname}#=%=#Özgür
+Author{2}{Email}#=%=#arzucan.ozgur@boun.edu.tr
+Author{2}{Affiliation}#=%=#Bogazici University
+Author{3}{Firstname}#=%=#Erdem
+Author{3}{Lastname}#=%=#Yörük
+Author{3}{Email}#=%=#eryoruk@ku.edu.tr
+Author{3}{Affiliation}#=%=#Koc University
+
+==========

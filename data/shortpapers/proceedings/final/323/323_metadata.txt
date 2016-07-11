@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#323
+FinalPaperTitle#=%=#Very quaffable and great fun: Applying NLP to wine reviews
+ShortPaperTitle#=%=#Very quaffable and great fun: Applying NLP to wine reviews
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Iris Hendrickx
+JobTitle#==#
+Organization#==#Centre for Language Studies
+Faculty of Arts
+Radboud University, P.O. Box 9103
+NL-6500 HD Nijmegen, Netherlands
+Abstract#==#We automatically predict properties of wines on the basis of smell and flavor
+descriptions from experts' wine reviews.We show wine experts are capable of
+describing their  smell and flavor experiences in wine reviews in a
+sufficiently consistent manner, such that we can use their descriptions to
+predict properties of a wine based solely on language. 
+The experimental results show promising F-scores when using lexical and
+semantic information to predict the color, grape variety, country of origin,
+and price of a wine. This demonstrates, contrary to popular opinion, that wine
+experts' reviews really are informative.
+Author{1}{Firstname}#=%=#Iris
+Author{1}{Lastname}#=%=#Hendrickx
+Author{1}{Email}#=%=#i.hendrickx@let.ru.nl
+Author{1}{Affiliation}#=%=#Center for Language Studies, Radboud University Nijmegen
+Author{2}{Firstname}#=%=#Els
+Author{2}{Lastname}#=%=#Lefever
+Author{2}{Email}#=%=#els.lefever@ugent.be
+Author{2}{Affiliation}#=%=#LT3, Ghent University
+Author{3}{Firstname}#=%=#Ilja
+Author{3}{Lastname}#=%=#Croijmans
+Author{3}{Email}#=%=#i.croijmans@let.ru.nl
+Author{3}{Affiliation}#=%=#Radboud University
+Author{4}{Firstname}#=%=#Asifa
+Author{4}{Lastname}#=%=#Majid
+Author{4}{Email}#=%=#asifa.majid@let.ru.nl
+Author{4}{Affiliation}#=%=#Radboud University Nijmegen
+Author{5}{Firstname}#=%=#Antal
+Author{5}{Lastname}#=%=#van den Bosch
+Author{5}{Email}#=%=#a.vandenbosch@let.ru.nl
+Author{5}{Affiliation}#=%=#Radboud University Nijmegen
+
+==========

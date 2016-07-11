@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#1
+FinalPaperTitle#=%=#Using Centroids of Word Embeddings and Word Mover's Distance for Biomedical Document Retrieval in Question Answering
+ShortPaperTitle#=%=#Using Word Embeddings for Biomedical Document Retrieval
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Prodromos Malakasiotis
+JobTitle#==#
+Organization#==#Department of Informatics, Athens University of Economics and Business, Greece
+Patission 76, GR-104 34 Athens, Greece
+Abstract#==#We propose a document retrieval method for question answering that represents
+documents and questions as weighted centroids of word embeddings and reranks
+the retrieved documents with a relaxation of Word Mover’s Distance. Using
+biomedical questions and documents from BIOASQ, we show that our method is
+competitive with PUBMED. With a top-k approximation, our method is fast, and
+easily portable to other domains and languages.
+Author{1}{Firstname}#=%=#Georgios-Ioannis
+Author{1}{Lastname}#=%=#Brokos
+Author{1}{Email}#=%=#g.brokos@gmail.com
+Author{1}{Affiliation}#=%=#Athens University of Economics and Business, Department of Informatics
+Author{2}{Firstname}#=%=#Prodromos
+Author{2}{Lastname}#=%=#Malakasiotis
+Author{2}{Email}#=%=#rulller@gmail.com
+Author{2}{Affiliation}#=%=#Athens University of Economics and Business, Department of Informatics
+Author{3}{Firstname}#=%=#Ion
+Author{3}{Lastname}#=%=#Androutsopoulos
+Author{3}{Email}#=%=#ionandr@gmail.com
+Author{3}{Affiliation}#=%=#Athens University of Economics and Business
+
+==========

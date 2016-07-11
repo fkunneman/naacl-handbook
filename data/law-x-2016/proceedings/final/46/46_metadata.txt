@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#46
+FinalPaperTitle#=%=#Annotating the discourse and dialogue structure of SMS message conversations
+ShortPaperTitle#=%=#Annotating the discourse and dialogue structure of SMS message conversations
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Nianwen Xue
+JobTitle#==#
+Organization#==#Brandeis University, 415 South Street,  Waltham, MA 02453
+Abstract#==#In this paper we present a framework for annotating the discourse and dialogue
+structure of SMS message conversations. The annotation specifications integrate
+elements of coherence-based discourse relations and communicative acts in
+conversational speech. We present annotation experiments that show reliable
+annotation can be achieved with this annotation framework.
+Author{1}{Firstname}#=%=#Nianwen
+Author{1}{Lastname}#=%=#Xue
+Author{1}{Email}#=%=#xuen@brandeis.edu
+Author{1}{Affiliation}#=%=#Brandeis University
+Author{2}{Firstname}#=%=#Qishen
+Author{2}{Lastname}#=%=#Su
+Author{2}{Email}#=%=#qsu@brandeis.edu
+Author{2}{Affiliation}#=%=#Brandeis University
+Author{3}{Firstname}#=%=#Sooyoung
+Author{3}{Lastname}#=%=#Jeong
+Author{3}{Email}#=%=#sjeong@brandeis.edu
+Author{3}{Affiliation}#=%=#Brandeis University
+
+==========

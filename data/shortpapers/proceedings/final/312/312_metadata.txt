@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#312
+FinalPaperTitle#=%=#Text Simplification as Tree Labeling
+ShortPaperTitle#=%=#Text Simplification as Tree Labeling
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Joachim Bingel
+JobTitle#==#
+Organization#==#Centre for Language Technology
+Njalsgade 140
+DK-2300 Copenhagen S
+Denmark
+Abstract#==#We present a new, structured approach to text simplification using conditional
+random fields over top-down traversals of dependency graphs that jointly
+predicts possible compressions and paraphrases. Our model reaches readability
+scores comparable to word-based compression approaches across a range of
+metrics and human judgements while maintaining more of the important
+information.
+Author{1}{Firstname}#=%=#Joachim
+Author{1}{Lastname}#=%=#Bingel
+Author{1}{Email}#=%=#joabingel@gmail.com
+Author{1}{Affiliation}#=%=#University of Copenhagen
+Author{2}{Firstname}#=%=#Anders
+Author{2}{Lastname}#=%=#Søgaard
+Author{2}{Email}#=%=#soegaard@hum.ku.dk
+Author{2}{Affiliation}#=%=#University of Copenhagen
+
+==========

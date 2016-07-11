@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#114
+FinalPaperTitle#=%=#SHEF-Multimodal: Grounding Machine Translation on Images
+ShortPaperTitle#=%=#SHEF-Multimodal: Grounding Machine Translation on Images
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Josiah Wang
+JobTitle#==#Research Associate
+Organization#==#Department of Computer Science
+The University of Sheffield
+Regent Court, 211 Portobello Street
+Sheffield, England 
+S1 4DP
+Abstract#==#This paper describes the University of Sheffield's submission for the WMT16
+Multimodal Machine Translation shared task, where we participated in Task 1 to
+develop German-to-English and English-to-German statistical machine translation
+(SMT) systems in the domain of image descriptions. Our proposed systems are
+standard phrase-based SMT systems based on the Moses decoder, trained only on
+the provided data. We investigate how image features can be used to re-rank the
+n-best list produced by the SMT model, with the aim of improving performance by
+grounding the translations on images. Our submissions are able to outperform
+the strong, text-only baseline system for both directions.
+Author{1}{Firstname}#=%=#Kashif
+Author{1}{Lastname}#=%=#Shah
+Author{1}{Email}#=%=#skashifshah@gmail.com
+Author{1}{Affiliation}#=%=#University of Sheffield
+Author{2}{Firstname}#=%=#Josiah
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Email}#=%=#j.k.wang@sheffield.ac.uk
+Author{2}{Affiliation}#=%=#University of Sheffield
+Author{3}{Firstname}#=%=#Lucia
+Author{3}{Lastname}#=%=#Specia
+Author{3}{Email}#=%=#l.specia@sheffield.ac.uk
+Author{3}{Affiliation}#=%=#University of Sheffield
+
+==========

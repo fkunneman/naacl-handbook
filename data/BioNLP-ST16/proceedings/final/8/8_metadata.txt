@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#DUTIR in BioNLP-ST 2016: Utilizing Convolutional Network and Distributed Representation to Extract Complicate Relations
+ShortPaperTitle#=%=#DUTIR in BioNLP-ST 2016: Utilizing Convolutional Network and Distributed Representation to Extract Complicate Relations
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Jian Wang
+JobTitle#==#
+Organization#==#School of Computer Science and Technology
+Dalian University of Technology
+116024 Dalian, China
+Abstract#==#We participate in the two event extraction tasks of BioNLP 2016 Shared Task:
+binary relation extraction of SeeDev task and localization relations extraction
+of Bacteria Biotope task. Convolutional neural network (CNN) is employed to
+model the sentences by convolution and max-pooling operation from raw input
+with word embedding. Then, full connected neural network is used to learn
+senior and significant features automatically. The proposed model mainly
+contains two modules: distributive semantic representation building, such as
+word embedding, POS embedding, distance embedding and entity type embedding,
+and CNN model training. The results with F-score of 0.370 and 0.478 in our
+participant tasks, which were evaluated on the test data set, show that our
+proposed method  contributes to binary relation extraction effectively and can
+reduce the impact of artificial feature engineering through automatically
+feature learning.
+Author{1}{Firstname}#=%=#Honglei
+Author{1}{Lastname}#=%=#Li
+Author{1}{Email}#=%=#201081023@mail.dlut.edu.cn
+Author{1}{Affiliation}#=%=#School of Computer Science and Technology, Dalian University of Technology
+Author{2}{Firstname}#=%=#Jianhai
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Email}#=%=#jianhai0527@mail.dlut.edu.cn
+Author{2}{Affiliation}#=%=#School of Computer Science and Technology, Dalian University of Technology
+Author{3}{Firstname}#=%=#Jian
+Author{3}{Lastname}#=%=#Wang
+Author{3}{Email}#=%=#wangjian@dlut.edu.cn
+Author{3}{Affiliation}#=%=#School of Computer Science and Technology, Dalian University of Technology
+Author{4}{Firstname}#=%=#Hongfei
+Author{4}{Lastname}#=%=#Lin
+Author{4}{Email}#=%=#hflin@dlut.edu.cn
+Author{4}{Affiliation}#=%=#School of Computer Science and Technology, Dalian University of Technology
+Author{5}{Firstname}#=%=#Zhihao
+Author{5}{Lastname}#=%=#Yang
+Author{5}{Email}#=%=#yangzh@dlut.edu.cn
+Author{5}{Affiliation}#=%=#School of Computer Science and Technology, Dalian University of Technology
+
+==========

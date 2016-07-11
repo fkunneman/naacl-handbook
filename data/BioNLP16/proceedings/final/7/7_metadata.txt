@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Graph-based Semi-supervised Gene Mention Tagging
+ShortPaperTitle#=%=#Graph-based Semi-supervised Gene Mention Tagging
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Golnar Sheikhshabbafghi
+JobTitle#==#
+Organization#==#
+Abstract#==#The rapidly growing biomedical literature has been a challenging target for
+natural language processing algorithms. One of the tasks these algorithms focus
+on is called named entity recognition (NER), often employed to tag gene
+mentions. Here we describe a new approach for this task, an approach that uses
+graph-based semi-supervised learning to train a Conditional Random Field (CRF)
+model. Benchmarking it on the BioCreative II Gene Mention tagging task, we
+achieved statistically significant improvements in F-measure over BANNER, a
+widely used biomedical NER system. We note that our tool is transductive and
+modular in nature, and can be integrated with other CRF-based supervised NER
+tools.
+Author{1}{Firstname}#=%=#Golnar
+Author{1}{Lastname}#=%=#Sheikhshab
+Author{1}{Email}#=%=#gsheikhs@sfu.ca
+Author{1}{Affiliation}#=%=#School of Computing Science, Simon Fraser University, Burnaby, BC V5A 1S6, Canada  &  Canada's Michael Smith Genome Sciences Centre, British Columbia Cancer Agency, Vancouver, BC V5Z 4S6, Canada
+Author{2}{Firstname}#=%=#Elizabeth
+Author{2}{Lastname}#=%=#Starks
+Author{2}{Email}#=%=#lstarks@bcgsc.ca
+Author{2}{Affiliation}#=%=#Canada's Michael Smith Genome Sciences Centre, British Columbia Cancer Agency, Vancouver, BC V5Z 4S6, Canada
+Author{3}{Firstname}#=%=#Aly
+Author{3}{Lastname}#=%=#Karsan
+Author{3}{Email}#=%=#akarsan@bcgsc.ca
+Author{3}{Affiliation}#=%=#Canada's Michael Smith Genome Sciences Centre, British Columbia Cancer Agency, Vancouver, BC V5Z 4S6, Canada
+Author{4}{Firstname}#=%=#Anoop
+Author{4}{Lastname}#=%=#Sarkar
+Author{4}{Email}#=%=#anoop@sfu.ca
+Author{4}{Affiliation}#=%=#School of Computing Science, Simon Fraser University, Burnaby, BC V5A 1S6, Canada
+Author{5}{Firstname}#=%=#Inanc
+Author{5}{Lastname}#=%=#Birol
+Author{5}{Email}#=%=#ibirol@bcgsc.ca
+Author{5}{Affiliation}#=%=#School of Computing Science, Simon Fraser University, Burnaby, BC V5A 1S6, Canada  &  Canada's Michael Smith Genome Sciences Centre, British Columbia Cancer Agency, Vancouver, BC V5Z 4S6, Canada
+
+==========

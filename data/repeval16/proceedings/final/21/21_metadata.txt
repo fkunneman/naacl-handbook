@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#21
+FinalPaperTitle#=%=#Evaluation of acoustic word embeddings
+ShortPaperTitle#=%=#Evaluation of acoustic word embeddings
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Sahar
+JobTitle#==#PHD student
+Organization#==#Laboratoire d'Informatique de l'Université du Maine (LIUM)
+Abstract#==#Recently, researchers in speech recognition have started to reconsider using
+whole words as the basic modeling unit, instead of phonetic units. These
+systems rely on a function that embeds an arbitrary or fixed dimensional speech
+segments to a vector in a fixed-dimensional space, named acoustic word
+embedding. Thus, speech segments of words that sound similarly will be
+projected in a close area in a continuous space. This paper focuses on the
+evaluation of acoustic word embeddings. We propose two approaches to evaluate
+the intrinsic performances of acoustic word embeddings in comparison to
+orthographic representations in order to evaluate whether they capture
+discriminative phonetic information. Since French language is targeted in
+experiments, a particular focus is made on homophone words.
+Author{1}{Firstname}#=%=#Sahar
+Author{1}{Lastname}#=%=#Ghannay
+Author{1}{Email}#=%=#sahar.ghannay@lium.univ-lemans.fr
+Author{1}{Affiliation}#=%=#LIUM, University of Le Mans
+Author{2}{Firstname}#=%=#Yannick
+Author{2}{Lastname}#=%=#Estève
+Author{2}{Email}#=%=#yannick.esteve@univ-lemans.fr
+Author{2}{Affiliation}#=%=#LIUM - University of Le Mans
+Author{3}{Firstname}#=%=#Nathalie
+Author{3}{Lastname}#=%=#Camelin
+Author{3}{Email}#=%=#nathalie.camelin@univ-lemans.fr
+Author{3}{Affiliation}#=%=#LIUM - University of Le Mans
+Author{4}{Firstname}#=%=#Paul
+Author{4}{Lastname}#=%=#Deleglise
+Author{4}{Email}#=%=#paul.deleglise@lium.univ-lemans.fr
+Author{4}{Affiliation}#=%=#LIUM Université du Maine
+
+==========

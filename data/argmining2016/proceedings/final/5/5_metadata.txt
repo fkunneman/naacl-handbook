@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#5
+FinalPaperTitle#=%=#“What Is Your Evidence?” A Study of Controversial Topics on Social Media
+ShortPaperTitle#=%=#“What Is Your Evidence?” A Study of Controversial Topics on Social Media
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Aseel Addawood
+JobTitle#==#
+Organization#==#
+Abstract#==#In recent years, social media has revolutionized how people communicate and
+share in-formation. One function of social media, besides connecting with
+friends, is sharing opinions with others. Microblogging sites, like Twitter,
+have often provided an online forum for social activism. When users debate
+about controversial topics on social media, they typically share different
+types of evidence to support their claims. Classifying these types of evidence
+can provide an estimate for how adequately the arguments have been supported.
+We first introduce a manually built gold standard dataset of 3000 tweets
+related to the recent FBI and Apple encryption debate. We develop a framework
+for automatically classifying six evidence types typically used on Twitter to
+discuss the debate. Our findings show that a Support Vector Machine (SVM)
+classifier trained with n-gram and additional features is capable of capturing
+the different forms of representing evidence on Twitter, and exhibits
+significant improvements over the unigram baseline, achieving an F1
+macro-averaged of 82.8%.
+Author{1}{Firstname}#=%=#Aseel
+Author{1}{Lastname}#=%=#Addawood
+Author{1}{Email}#=%=#aaddaw2@illinois.edu
+Author{1}{Affiliation}#=%=#UIUC
+Author{2}{Firstname}#=%=#Masooda
+Author{2}{Lastname}#=%=#Bashir
+Author{2}{Email}#=%=#mnb@illinois.edu
+Author{2}{Affiliation}#=%=#UIUC
+
+==========

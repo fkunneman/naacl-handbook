@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#21
+FinalPaperTitle#=%=#Disambiguation of entities in MEDLINE abstracts by combining MeSH terms with knowledge
+ShortPaperTitle#=%=#Disambiguation of entities in MEDLINE abstracts by combining MeSH terms with knowledge
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Amy Siu
+JobTitle#==#
+Organization#==#Max Planck Institute for Informatics
+Campus E1 4, 66123 Saarbruecken
+Germany
+Abstract#==#Entity disambiguation in the biomedical domain is an essential task in any text
+mining pipeline. Much existing work share one limitation, in that their model
+training prerequisite and/or runtime computation are too expensive to be
+applied to all ambiguous entities in real-time. We propose an automatic,
+light-weight method that processes MEDLINE abstracts at large-scale and with
+high-quality output. Our method exploits MeSH terms and knowledge in UMLS to
+first identify unambiguous anchor entities, and then disambiguate remaining
+entities via heuristics. Experiments showed that our method is 79.6% and 87.7%
+accurate under strict and relaxed rating schemes, respectively. When compared
+to MetaMap's disambiguation, our method is one order of magnitude faster with a
+slight advantage in accuracy.
+Author{1}{Firstname}#=%=#Amy
+Author{1}{Lastname}#=%=#Siu
+Author{1}{Email}#=%=#siu@mpi-inf.mpg.de
+Author{1}{Affiliation}#=%=#Max Planck Institute for Informatics
+Author{2}{Firstname}#=%=#Patrick
+Author{2}{Lastname}#=%=#Ernst
+Author{2}{Email}#=%=#pernst@mpi-inf.mpg.de
+Author{2}{Affiliation}#=%=#Max Planck Institute for Informatics
+Author{3}{Firstname}#=%=#Gerhard
+Author{3}{Lastname}#=%=#Weikum
+Author{3}{Email}#=%=#weikum@mpi-inf.mpg.de
+Author{3}{Affiliation}#=%=#Max Planck Institute for Informatics
+
+==========

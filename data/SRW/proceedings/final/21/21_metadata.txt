@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#21
+FinalPaperTitle#=%=#Improving Twitter Community Detection through Contextual Sentiment Analysis
+ShortPaperTitle#=%=#Improving Twitter Community Detection through Contextual Sentiment Analysis
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Alron Jan Lam
+JobTitle#==#
+Organization#==#College of Computer Studies
+De La Salle University
+2401 Taft Avenue, Malate, Manila, Philippines
+Abstract#==#Works on Twitter community detection have yielded new ways to extract valuable
+insights from social media. Through this technique, Twitter users can be
+grouped into different types of communities such as those who have the same
+interests, those who interact a lot, or those who have similar sentiments about
+certain topics. Computationally, information is represented as a graph, and
+community detection is the problem of partitioning the graph such that each
+community is more densely connected to each other than to the rest of the
+network. It has been shown that incorporating sentiment analysis can improve
+community detection when looking for sentiment-based communities. However, such
+works only perform sentiment analysis in isolation without considering the
+tweet's various contextual information. Examples of these contextual
+information are social network structure, and conversational, author, and topic
+contexts. Disregarding these information poses a problem because at times,
+context is needed to clearly infer the sentiment of a tweet. Thus, this
+research aims to improve detection of sentiment-based communities on Twitter by
+performing contextual sentiment analysis.
+Author{1}{Firstname}#=%=#Alron Jan
+Author{1}{Lastname}#=%=#Lam
+Author{1}{Email}#=%=#alron_lam@dlsu.edu.ph
+Author{1}{Affiliation}#=%=#De La Salle University - Manila
+
+==========

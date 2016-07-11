@@ -1,0 +1,47 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#Towards Feasible Guidelines for the Annotation of Argument Schemes
+ShortPaperTitle#=%=#Towards Feasible Guidelines for the Annotation of Argument Schemes
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#The annotation of argument schemes represents an important step for
+argumentation
+mining. General guidelines for the annotation of argument schemes, applicable
+to any topic, are still missing due to the lack of a suitable taxonomy in
+Argumentation
+Theory and the need for highly trained expert annotators. We present a set
+of guidelines for the annotation of argument schemes, taking as a framework the
+Argumentum Model of Topics (Rigotti and Morasso, 2010; Rigotti, 2009). We show
+that this approach can contribute to solving the theoretical problems, since it
+offers
+a hierarchical and finite taxonomy of argument schemes as well as systematic,
+linguistically-informed criteria to distinguish various types of argument
+schemes.
+We describe a pilot annotation study of 30 persuasive essays using multiple
+minimally
+trained non-expert annotators .Our findings from the confusion matrixes
+pinpoint
+problematic parts of the guidelines and the underlying annotation of claims
+and premises. We conduct a second annotation with refined guidelines and
+trained
+annotators on the 10 essays which received the lowest agreement initially. A
+significant
+improvement of the inter-annotator agreement shows that the annotation of
+argument
+schemes requires highly trained annotators and an accurate annotation of
+argumentative components (premises and claims).
+Author{1}{Firstname}#=%=#Elena
+Author{1}{Lastname}#=%=#Musi
+Author{1}{Email}#=%=#em3202@columbia.edu
+Author{1}{Affiliation}#=%=#Columbia University
+Author{2}{Firstname}#=%=#Debanjan
+Author{2}{Lastname}#=%=#Ghosh
+Author{2}{Email}#=%=#debanjan.ghosh@rutgers.edu
+Author{2}{Affiliation}#=%=#Rutgers University
+Author{3}{Firstname}#=%=#Smaranda
+Author{3}{Lastname}#=%=#Muresan
+Author{3}{Email}#=%=#smara@ccls.columbia.edu
+Author{3}{Affiliation}#=%=#Columbia University
+
+==========

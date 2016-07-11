@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#Towards robust cross-linguistic comparisons of phonological networks
+ShortPaperTitle#=%=#Towards robust cross-linguistic comparisons of phonological networks
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Philippa Shoemark
+JobTitle#==#
+Organization#==#University of Edinburgh
+Old College
+South Bridge
+Edinburgh
+EH8 9YL
+Abstract#==#Recent work has proposed using network science to analyze the structure of the
+mental lexicon by viewing words as nodes in a phonological network, with edges
+connecting words that differ by a single phoneme. Comparing the structure of
+phonological networks across different languages could provide insights into
+linguistic typology and the cognitive pressures that shape language
+acquisition, evolution, and processing. However, previous studies have not
+considered how statistics gathered from these networks are affected by factors
+such as lexicon size and the distribution of word lengths. We show that these
+factors can substantially affect the statistics of a phonological network and
+propose a new method for making more robust comparisons. We then analyze eight
+languages, finding many commonalities but also some qualitative differences in
+their lexicon structure.
+Author{1}{Firstname}#=%=#Philippa
+Author{1}{Lastname}#=%=#Shoemark
+Author{1}{Email}#=%=#s0938610@sms.ed.ac.uk
+Author{1}{Affiliation}#=%=#pjshoemark
+Author{2}{Firstname}#=%=#Sharon
+Author{2}{Lastname}#=%=#Goldwater
+Author{2}{Email}#=%=#sgwater@inf.ed.ac.uk
+Author{2}{Affiliation}#=%=#University of Edinburgh
+Author{3}{Firstname}#=%=#James
+Author{3}{Lastname}#=%=#Kirby
+Author{3}{Email}#=%=#j.kirby@ed.ac.uk
+Author{3}{Affiliation}#=%=#University of Edinburgh
+Author{4}{Firstname}#=%=#Rik
+Author{4}{Lastname}#=%=#Sarkar
+Author{4}{Email}#=%=#rsarkar@inf.ed.ac.uk
+Author{4}{Affiliation}#=%=#University of Edinburgh
+
+==========

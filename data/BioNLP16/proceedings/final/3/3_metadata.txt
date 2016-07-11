@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#3
+FinalPaperTitle#=%=#Identification, characterization, and grounding of gradable terms in clinical text
+ShortPaperTitle#=%=#Identification, characterization, and grounding of gradable terms in clinical text
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Chiatanya Shivade
+JobTitle#==#
+Organization#==#The Ohio State University, Columbus, OH 43210, USA.
+Abstract#==#Gradable adjectives are inherently vague and are used by clinicians to document
+medical interpretations (e.g., severe reaction, mild symptoms). We present a
+comprehensive study of gradable adjectives used in the clinical domain. We
+automatically identify gradable adjectives and demonstrate that they have a
+substantial presence in clinical text. Further, we show that there is a
+specific pattern associated with their usage, where certain medical
+concepts are more likely to be described using these adjectives than others.
+Interpretation of statements using such adjectives is a barrier in medical
+decision making. Therefore, we use a simple probabilistic model to ground their
+meaning based on their usage in context.
+Author{1}{Firstname}#=%=#Chaitanya
+Author{1}{Lastname}#=%=#Shivade
+Author{1}{Email}#=%=#shivade@cse.ohio-state.edu
+Author{1}{Affiliation}#=%=#The Ohio State University
+Author{2}{Firstname}#=%=#Marie-Catherine
+Author{2}{Lastname}#=%=#de Marneffe
+Author{2}{Email}#=%=#mcdm@ling.ohio-state.edu
+Author{2}{Affiliation}#=%=#The Ohio State University
+Author{3}{Firstname}#=%=#Eric
+Author{3}{Lastname}#=%=#Fosler-Lussier
+Author{3}{Email}#=%=#fosler@cse.ohio-state.edu
+Author{3}{Affiliation}#=%=#The Ohio State University
+Author{4}{Firstname}#=%=#Albert M.
+Author{4}{Lastname}#=%=#Lai
+Author{4}{Email}#=%=#albert.lai@osumc.edu
+Author{4}{Affiliation}#=%=#The Ohio State University
+
+==========

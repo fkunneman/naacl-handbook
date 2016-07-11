@@ -1,0 +1,19 @@
+SubmissionNumber#=%=#111
+FinalPaperTitle#=%=#Cross-lingual Pronoun Prediction with Linguistically Informed Features
+ShortPaperTitle#=%=#Cross-lingual Pronoun Prediction with Linguistically Informed Features
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Rachel Bawden
+JobTitle#==#
+Organization#==#LIMSI, CNRS
+Abstract#==#We present the LIMSI's cross-lingual pronoun prediction system for the WMT 2016
+shared task. We use high-level linguistic features with explicit coreference
+resolution and expletive detection and rely on dependency annotations and a
+morphological lexicon. We show that our few, carefully chosen features perform
+significantly better than several language model baselines and competitively
+compared to the other systems submitted.
+Author{1}{Firstname}#=%=#Rachel
+Author{1}{Lastname}#=%=#Bawden
+Author{1}{Email}#=%=#rachel.bawden@limsi.fr
+Author{1}{Affiliation}#=%=#LIMSI, CNRS, Univ. Paris-Sud, Université Paris-Saclay
+
+==========

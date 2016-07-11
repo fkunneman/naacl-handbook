@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#25
+FinalPaperTitle#=%=#DeepLife: An Entity-aware Search, Analytics and Exploration Platform for Health and Life Sciences
+ShortPaperTitle#=%=#DeepLife: An Entity-aware Search, Analytics and Exploration Platform for Health and Life Sciences
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Patrick Ernst
+JobTitle#==#
+Organization#==#Max Planck Institute for Informatic
+Campus E1 4
+66123 Saarbrücken
+Germany
+Abstract#==#Despite the abundance of biomedical literature and health discussions in online
+communities, it is often tedious to retrieve informative contents for
+health-centric information needs. Users can query scholarly work in PubMed by
+keywords and MeSH terms, and resort to Google for everything else. This demo
+paper presents the DeepLife system, to overcome the limitations of
+existing search engines for life science and health topics. DeepLife integrates
+large knowledge bases and harnesses entity linking methods, to support search
+and exploration of scientific literature, newspaper feeds, and social media, in
+terms of keywords and phrases, biomedical
+entities, and taxonomic categories. It also provides functionality for
+entity-aware text analytics over health-centric contents.
+Author{1}{Firstname}#=%=#Patrick
+Author{1}{Lastname}#=%=#Ernst
+Author{1}{Email}#=%=#pernst@mpi-inf.mpg.de
+Author{1}{Affiliation}#=%=#Max-Planck Institute for Informatics
+Author{2}{Firstname}#=%=#Amy
+Author{2}{Lastname}#=%=#Siu
+Author{2}{Email}#=%=#siu@mpi-inf.mpg.de
+Author{2}{Affiliation}#=%=#Max Planck Institute for Informatics
+Author{3}{Firstname}#=%=#Dragan
+Author{3}{Lastname}#=%=#Milchevski
+Author{3}{Email}#=%=#dmilchev@mpi-inf.mpg.de
+Author{3}{Affiliation}#=%=#Max-Planck Institute for Informatics
+Author{4}{Firstname}#=%=#Johannes
+Author{4}{Lastname}#=%=#Hoffart
+Author{4}{Email}#=%=#jhoffart@mpi-inf.mpg.de
+Author{4}{Affiliation}#=%=#Max-Planck-Institute for Informatics
+Author{5}{Firstname}#=%=#Gerhard
+Author{5}{Lastname}#=%=#Weikum
+Author{5}{Email}#=%=#weikum@mpi-inf.mpg.de
+Author{5}{Affiliation}#=%=#Max Planck Institute for Informatics
+
+==========

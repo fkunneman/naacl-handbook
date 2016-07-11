@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#136
+FinalPaperTitle#=%=#Results of the WMT16 Tuning Shared Task
+ShortPaperTitle#=%=#Results of the WMT16 Tuning Shared Task
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#XXX
+JobTitle#==#
+Organization#==#XXX
+Abstract#==#This paper presents the results of the WMT16 Tuning Shared Task. We provided
+the participants of this task with a complete machine translation system and
+asked them to tune its internal parameters (feature weights). The tuned systems
+were used to translate the test set and the outputs were manually ranked for
+translation quality. We received 4 submissions in the Czech-English and 8 in
+the English-Czech translation direction. In addition, we ran 2 baseline setups,
+tuning the parameters with standard optimizers for BLEU score.
+Author{1}{Firstname}#=%=#Bushra
+Author{1}{Lastname}#=%=#Jawaid
+Author{1}{Email}#=%=#b.jawaid@uva.nl
+Author{1}{Affiliation}#=%=#University of Amsterdam, ILLC
+Author{2}{Firstname}#=%=#Amir
+Author{2}{Lastname}#=%=#Kamran
+Author{2}{Email}#=%=#a.kamran@uva.nl
+Author{2}{Affiliation}#=%=#University of Amsterdam
+Author{3}{Firstname}#=%=#Miloš
+Author{3}{Lastname}#=%=#Stanojević
+Author{3}{Email}#=%=#milosh.stanojevic@gmail.com
+Author{3}{Affiliation}#=%=#University of Amsterdam, ILLC
+Author{4}{Firstname}#=%=#Ondřej
+Author{4}{Lastname}#=%=#Bojar
+Author{4}{Email}#=%=#bojar@ufal.mff.cuni.cz
+Author{4}{Affiliation}#=%=#Charles University in Prague, Faculty of Mathematics and Physics
+
+==========

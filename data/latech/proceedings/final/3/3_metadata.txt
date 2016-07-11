@@ -1,0 +1,22 @@
+SubmissionNumber#=%=#3
+FinalPaperTitle#=%=#Semi-automated annotation of page-based documents within the Genre and Multimodality framework
+ShortPaperTitle#=%=#Semi-automated annotation of page-based documents within the Genre and Multimodality framework
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Tuomo Hiippala
+JobTitle#==#
+Organization#==#Centre for Applied Language Studies
+University of Jyväskylä
+P.O. Box 35, 40014 Finland
+Abstract#==#This paper describes ongoing work on a tool developed for annotating document
+images for their multimodal features and compiling this information into a
+corpus. The tool leverages open source computer vision and natural language
+processing libraries to describe the content and structure of multimodal
+documents and to generate multiple layers of XML annotation. The paper
+introduces the annotation schema, describes the document processing pipeline
+and concludes with a brief description of future work.
+Author{1}{Firstname}#=%=#Tuomo
+Author{1}{Lastname}#=%=#Hiippala
+Author{1}{Email}#=%=#tuomo.hiippala@iki.fi
+Author{1}{Affiliation}#=%=#University of Jyväskylä
+
+==========

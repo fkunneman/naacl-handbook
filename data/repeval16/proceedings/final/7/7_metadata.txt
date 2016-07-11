@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Sentence Embedding Evaluation Using Pyramid Annotation
+ShortPaperTitle#=%=#Sentence Embedding Evaluation Using Pyramid Annotation
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Tal Baumel
+JobTitle#==#
+Organization#==#Ben-Gurion University
+Abstract#==#Word embedding vectors are used as input for a variety of tasks. Choosing the
+right model and features for producing such vectors is not a trivial task and
+different embedding methods can greatly affect results. In this paper we
+repurpose the "Pyramid Method" annotations used for evaluating automatic
+summarization to create a benchmark for comparing embedding models when
+identifying paraphrases of text snippets containing a single clause. We present
+a method of converting pyramid annotation files into two distinct sentence
+embedding tests. We show that our method can produce a good amount of testing
+data, analyze the quality of the testing data, perform test on several leading
+embedding methods, and finally explain the downstream usages of our task and
+its significance.
+Author{1}{Firstname}#=%=#Tal
+Author{1}{Lastname}#=%=#Baumel
+Author{1}{Email}#=%=#talbaumel@gmail.com
+Author{1}{Affiliation}#=%=#Ben-Gurion University
+Author{2}{Firstname}#=%=#Raphael
+Author{2}{Lastname}#=%=#Cohen
+Author{2}{Email}#=%=#cohenrap@bgu.ac.il
+Author{2}{Affiliation}#=%=#Ben-Gurion University
+Author{3}{Firstname}#=%=#Michael
+Author{3}{Lastname}#=%=#Elhadad
+Author{3}{Email}#=%=#michael.elhadad@gmail.com
+Author{3}{Affiliation}#=%=#Ben-Gurion University
+
+==========

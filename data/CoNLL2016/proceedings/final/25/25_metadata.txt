@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#25
+FinalPaperTitle#=%=#Identifying Temporal Orientation of Word Senses
+ShortPaperTitle#=%=#Identifying Temporal Orientation of Word Senses
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Mohammed Hasanuzzaman
+JobTitle#==#Research Assistant
+Organization#==#ADAPT Centre, School of Computing, Dublin City University, Dublin, Ireland
+Abstract#==#The ability to capture time information is essential to many natural language
+processing and information retrieval applications. Therefore, a lexical
+resource associating word senses to their temporal orientation might be crucial
+for the computational tasks aiming at the interpretation of language of time in
+texts. In this paper, we propose a semi-supervised minimum cuts strategy that
+makes use of WordNet glosses and semantic relations to supplement WordNet
+entries with temporal information. Intrinsic and extrinsic evaluations show
+that our approach outperforms prior semi-supervised non-graph classifiers.
+Author{1}{Firstname}#=%=#Mohammed
+Author{1}{Lastname}#=%=#Hasanuzzaman
+Author{1}{Email}#=%=#hasanuzzaman.im@gmail.com
+Author{1}{Affiliation}#=%=#ADAPT Centre, Dublin, Ireland
+Author{2}{Firstname}#=%=#Gaël
+Author{2}{Lastname}#=%=#Dias
+Author{2}{Email}#=%=#gael.dias@unicaen.fr
+Author{2}{Affiliation}#=%=#Université de Caen Normandie
+Author{3}{Firstname}#=%=#Stéphane
+Author{3}{Lastname}#=%=#Ferrari
+Author{3}{Email}#=%=#stephane.ferrari@unicaen.fr
+Author{3}{Affiliation}#=%=#Université de Caen Normandie
+Author{4}{Firstname}#=%=#Yann
+Author{4}{Lastname}#=%=#Mathet
+Author{4}{Email}#=%=#yann.mathet@unicaen.fr
+Author{4}{Affiliation}#=%=#Université de Caen Normandie
+Author{5}{Firstname}#=%=#Andy
+Author{5}{Lastname}#=%=#Way
+Author{5}{Email}#=%=#andy.way@adaptcentre.ie
+Author{5}{Affiliation}#=%=#ADAPT Centre, School of Computing, Dublin City University
+
+==========

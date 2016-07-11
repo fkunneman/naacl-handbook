@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#Capturing Discriminative Attributes in a Distributional Space: Task Proposal
+ShortPaperTitle#=%=#Capturing Discriminative Attributes in a Distributional Space
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Alicia Krebs
+JobTitle#==#
+Organization#==#Center for Mind and Brain Sciences (CIMeC), University of Trento, Rovereto, Italy
+Abstract#==#If lexical similarity can hardly be used reliably to assess how word vectors
+will perform on specific tasks, what other ways do we have of evaluating
+representations? We propose a new task, which consists in extracting semantic
+differences using distributional models: given two words, what is the
+difference between their meanings? We present two proof of concept datasets for
+this task and outline how it may be performed.
+Author{1}{Firstname}#=%=#Alicia
+Author{1}{Lastname}#=%=#Krebs
+Author{1}{Email}#=%=#alicia.krebs@hotmail.fr
+Author{1}{Affiliation}#=%=#University of Trento
+Author{2}{Firstname}#=%=#Denis
+Author{2}{Lastname}#=%=#Paperno
+Author{2}{Email}#=%=#denis.paperno@unitn.it
+Author{2}{Affiliation}#=%=#University of Trento
+
+==========

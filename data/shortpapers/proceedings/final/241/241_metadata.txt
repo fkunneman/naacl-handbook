@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#241
+FinalPaperTitle#=%=#Transition-based dependency parsing with topological fields
+ShortPaperTitle#=%=#Transition-based dependency parsing with topological fields
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Daniël de Kok
+JobTitle#==#
+Organization#==#Seminar für Sprachwissenschaft
+Universität Tübingen
+Wilhemstraße 19
+72072, Tu ̈bingen, Germany
+Abstract#==#The topological field model is commonly used to describe the regularities in
+German word order. In this work, we show that topological fields can be
+predicted reliably using sequence labeling and that the predicted field labels
+can improve transition-based dependency parsing.
+Author{1}{Firstname}#=%=#Daniël
+Author{1}{Lastname}#=%=#de Kok
+Author{1}{Email}#=%=#daniel.de-kok@uni-tuebingen.de
+Author{1}{Affiliation}#=%=#University of Tübingen
+Author{2}{Firstname}#=%=#Erhard
+Author{2}{Lastname}#=%=#Hinrichs
+Author{2}{Email}#=%=#erhard.hinrichs@uni-tuebingen.de
+Author{2}{Affiliation}#=%=#University of Tübingen
+
+==========

@@ -1,0 +1,54 @@
+SubmissionNumber#=%=#36
+FinalPaperTitle#=%=#Sense Embedding Learning for Word Sense Induction
+ShortPaperTitle#=%=#Sense Embedding Learning for Word Sense Induction
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Linfeng Song
+JobTitle#==#
+Organization#==#University of Rochester: Department of Computer Science, University of Rochester, Rochester, NY 14627
+IBM T.J. Watson Research Center, Yorktown Heights, NY 10598
+Abstract#==#Conventional word sense induction (WSI)
+methods usually represent each instance
+with discrete linguistic features or cooccurrence
+features, and train a model
+for each polysemous word individually.
+In this work, we propose to learn sense
+embeddings for the WSI task. In the
+training stage, our method induces several
+sense centroids (embedding) for each
+polysemous word. In the testing stage,
+our method represents each instance as a
+contextual vector, and induces its sense
+by finding the nearest sense centroid in
+the embedding space. The advantages
+of our method are (1) distributed sense
+vectors are taken as the knowledge representations
+which are trained discriminatively,
+and usually have better performance
+than traditional count-based distributional
+models, and (2) a general model
+for the whole vocabulary is jointly trained
+to induce sense centroids under the mutlitask
+learning framework. Evaluated on
+SemEval-2010 WSI dataset, our method
+outperforms all participants and most of
+the recent state-of-the-art methods. We
+further verify the two advantages by comparing
+with carefully designed baselines.
+Author{1}{Firstname}#=%=#Linfeng
+Author{1}{Lastname}#=%=#Song
+Author{1}{Email}#=%=#freesunshine0316@gmail.com
+Author{1}{Affiliation}#=%=#University of Rochester
+Author{2}{Firstname}#=%=#Zhiguo
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Email}#=%=#zgw.tomorrow@gmail.com
+Author{2}{Affiliation}#=%=#IBM Watson Research Center
+Author{3}{Firstname}#=%=#Haitao
+Author{3}{Lastname}#=%=#Mi
+Author{3}{Email}#=%=#hmi@us.ibm.com
+Author{3}{Affiliation}#=%=#IBM Watson Research Center
+Author{4}{Firstname}#=%=#Daniel
+Author{4}{Lastname}#=%=#Gildea
+Author{4}{Email}#=%=#gildea@cs.rochester.edu
+Author{4}{Affiliation}#=%=#University of Rochester
+
+==========

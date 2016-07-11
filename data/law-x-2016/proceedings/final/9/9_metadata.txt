@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#A Discourse-Annotated Corpus of Conjoined VPs
+ShortPaperTitle#=%=#A Discourse-Annotated Corpus of Conjoined VPs
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#NA
+JobTitle#==#
+Organization#==#University of Edinburgh
+School of Informatics
+Edinburgh UK EH9 8AF
+Abstract#==#English grammars indicate a variety of relations holding between conjoined VPs.
+For example, VPs conjoined by "and" evince such senses as Result, Temporal
+Sequence, and Concession. Although all these senses are ones associated with
+discourse relations, conjoined VPs have not been fully included in discourse
+annotation. Because of the value of discourse-annotated corpora for developing
+approaches to automated sense recognition, we have added their annotation to
+the Penn Discourse TreeBank. This paper describes how tokens were identified;
+how the process of span and sense annotation was modified and extended in order
+to keep the annotation of intra-sentential multi-clausal structures consistent
+with the rest of the corpus; and what the resulting corpus looks like, in terms
+of token frequency and common sense patterns.
+Author{1}{Firstname}#=%=#Bonnie
+Author{1}{Lastname}#=%=#Webber
+Author{1}{Email}#=%=#bonnie.webber@ed.ac.uk
+Author{1}{Affiliation}#=%=#University of Edinburgh
+Author{2}{Firstname}#=%=#Rashmi
+Author{2}{Lastname}#=%=#Prasad
+Author{2}{Email}#=%=#prasadr@uwm.edu
+Author{2}{Affiliation}#=%=#University of Wisconsin-Milwaukee
+Author{3}{Firstname}#=%=#Alan
+Author{3}{Lastname}#=%=#Lee
+Author{3}{Email}#=%=#aleewk@seas.upenn.edu
+Author{3}{Affiliation}#=%=#University of Pennsylvania
+Author{4}{Firstname}#=%=#Aravind
+Author{4}{Lastname}#=%=#Joshi
+Author{4}{Email}#=%=#joshi@seas.upenn.edu
+Author{4}{Affiliation}#=%=#
+
+==========

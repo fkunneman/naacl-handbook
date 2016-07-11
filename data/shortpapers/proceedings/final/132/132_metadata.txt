@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#132
+FinalPaperTitle#=%=#A Neural Network based Approach to Automatic Post-Editing
+ShortPaperTitle#=%=#A Neural Network based Approach to Automatic Post-Editing
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Santanu Pal
+JobTitle#==#
+Organization#==#Institute for Applied Linguistics and Translation and Interpreting (FR 4.6)
+University of Saarland
+Campus A2.2
+D-66123 Saarbrücken
+Abstract#==#We present a neural network based automatic post-editing (APE) system to
+improve raw machine translation (MT) output. Our neural model of APE (NNAPE) is
+based on a bidirectional recurrent neural network (RNN) model and consists of
+an encoder that encodes an MT output into a fixed-length vector from which a
+decoder provides a post-edited (PE) translation. 
+APE translations produced by NNAPE showed statistically significant
+improvements of 3.96, 2.68 and 1.35 BLEU points over the original MT,
+phrase-based APE and hierarchical APE outputs, respectively. Furthermore, human
+evaluation also revealed that the NNAPE generated PE translations are much
+better than the original MT output.
+Author{1}{Firstname}#=%=#Santanu
+Author{1}{Lastname}#=%=#Pal
+Author{1}{Email}#=%=#santanu.pal@uni-saarland.de
+Author{1}{Affiliation}#=%=#Saarland University
+Author{2}{Firstname}#=%=#Sudip Kumar
+Author{2}{Lastname}#=%=#Naskar
+Author{2}{Email}#=%=#sudip.naskar@cse.jdvu.ac.in
+Author{2}{Affiliation}#=%=#Jadavpur University
+Author{3}{Firstname}#=%=#Mihaela
+Author{3}{Lastname}#=%=#Vela
+Author{3}{Email}#=%=#m.vela@mx.uni-saarland.de
+Author{3}{Affiliation}#=%=#Saarland University
+Author{4}{Firstname}#=%=#Josef
+Author{4}{Lastname}#=%=#van Genabith
+Author{4}{Email}#=%=#josef.van_genabith@dfki.de
+Author{4}{Affiliation}#=%=#DFKI
+
+==========

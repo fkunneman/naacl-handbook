@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#425
+FinalPaperTitle#=%=#Event Nugget Detection with Forward-Backward Recurrent Neural Networks
+ShortPaperTitle#=%=#Event Nugget Detection with FBRNNs
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Reza Ghaeini
+JobTitle#==#
+Organization#==#School of Electrical Engineering and Computer Science, Oregon State University
+1148 Kelley Engineering Center, Corvallis, OR 97331-5501, USA
+Abstract#==#Traditional event detection methods heavily rely on manually engineered rich
+features. Recent deep learning approaches alleviate this problem by automatic
+feature engineering. But such efforts, like tradition methods, have so far only
+focused on single-token event mentions, whereas in practice events can also be
+a phrase. We instead use forward-backward recurrent neural networks (FBRNNs) to
+detect events that can be either words or phrases. To the best our knowledge,
+this is one of the first efforts to handle multi-word events and also the first
+attempt to use RNNs for event detection. Experimental results demonstrate that
+FBRNN is competitive with the state-of-the-art methods on the ACE 2005 and the
+Rich ERE 2015 event detection tasks.
+Author{1}{Firstname}#=%=#Reza
+Author{1}{Lastname}#=%=#Ghaeini
+Author{1}{Email}#=%=#ghaeinim@oregonstate.edu
+Author{1}{Affiliation}#=%=#Oregon State University
+Author{2}{Firstname}#=%=#Xiaoli
+Author{2}{Lastname}#=%=#Fern
+Author{2}{Email}#=%=#xfern@eecs.oregonstate.edu
+Author{2}{Affiliation}#=%=#Oregon State University
+Author{3}{Firstname}#=%=#Liang
+Author{3}{Lastname}#=%=#Huang
+Author{3}{Email}#=%=#liang.huang.sh@gmail.com
+Author{3}{Affiliation}#=%=#Oregon State University
+Author{4}{Firstname}#=%=#Prasad
+Author{4}{Lastname}#=%=#Tadepalli
+Author{4}{Email}#=%=#tadepall@eecs.oregonstate.edu
+Author{4}{Affiliation}#=%=#Oregon State University
+
+==========

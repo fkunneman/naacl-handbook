@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#35
+FinalPaperTitle#=%=#Deriving Players & Themes in the Regesta Imperii using SVMs and Neural Networks
+ShortPaperTitle#=%=#Deriving Players & Themes in the Regesta Imperii using SVMs and Neural Networks
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Juri Opitz
+JobTitle#==#
+Organization#==#
+Abstract#==#The Regesta Imperii (RI) are an important source for research in
+European-medieval history. Sources spread over many centuries of medieval
+history –mainly charters of German-Roman Emporers – are summarized as
+“Regests” and pooled in the RI. Interesting medieval demographic groups and
+players are i.a. cities, citizens or spiritual institutions (e.g. bishops or
+monasteries). Themes of historical interest are i.a. peace and war or the
+endowment of new privileges. We investigate the RI for important players and
+themes, applying state-of-the-art text classification methods from
+computational linguistics. We examine the performance of different
+classification methods in view of the linguistically very heterogeneous RI,
+including a Neural Network approach that is designed to capture complex
+interactions between players and themes.
+Author{1}{Firstname}#=%=#Juri
+Author{1}{Lastname}#=%=#Opitz
+Author{1}{Email}#=%=#opitz@cl.uni-heidelberg.de
+Author{1}{Affiliation}#=%=#Heidelberg University
+Author{2}{Firstname}#=%=#Anette
+Author{2}{Lastname}#=%=#Frank
+Author{2}{Email}#=%=#frank@cl.uni-heidelberg.de
+Author{2}{Affiliation}#=%=#Heidelberg Universiy
+
+==========

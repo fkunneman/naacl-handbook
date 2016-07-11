@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#10
+FinalPaperTitle#=%=#Random Positive-Only Projections: PPMI-Enabled Incremental Semantic Space Construction
+ShortPaperTitle#=%=#Random Positive-Only Projections: PPMI-Enabled Incremental Semantic Space Construction
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Behrang QasemiZadeh
+JobTitle#==#
+Organization#==#SFB 991, University of Duesseldorf
+Abstract#==#We introduce positive-only projection (PoP), a new algorithm for constructing
+semantic spaces and word embeddings. The PoP method employs random projections.
+Hence, it is highly scalable and computationally efficient. In contrast to
+previous methods that use random projection matrices R with the expected value
+of 0 (i.e., E(R)=0), the proposed method uses R with E(R)>0. We use Kendall's
+tau_b correlation to compute vector similarities in the resulting non-Gaussian
+spaces. Most importantly, since E(R)>0, weighting methods such as positive
+pointwise mutual information (PPMI) can be applied to PoP-constructed spaces
+after their construction for efficiently transferring PoP embeddings onto
+spaces that are discriminative for semantic similarity assessments. Our
+PoP-constructed models, combined with PPMI, achieve an average score of 0.75 in
+the MEN relatedness test, which is comparable to results obtained by
+state-of-the-art algorithms.
+Author{1}{Firstname}#=%=#Behrang
+Author{1}{Lastname}#=%=#QasemiZadeh
+Author{1}{Email}#=%=#zadeh@phil.uni-duesseldorf.de
+Author{1}{Affiliation}#=%=#Computational Linguistics Department, University of Düsseldorf
+Author{2}{Firstname}#=%=#Laura
+Author{2}{Lastname}#=%=#Kallmeyer
+Author{2}{Email}#=%=#kallmeyer@phil.hhu.de
+Author{2}{Affiliation}#=%=#Heinrich-Heine-Universität Düsseldorf
+
+==========

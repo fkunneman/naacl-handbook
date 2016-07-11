@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#Improved Semantic Representation for Domain-Specific Entities
+ShortPaperTitle#=%=#Improved Semantic Representation for Domain-Specific Entities
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#M.T.Pilehvar
+JobTitle#==#Research Associate
+Organization#==#University of Cambridge
+Abstract#==#Most existing corpus-based approaches to semantic representation suffer from
+inaccurate modeling of domain-specific lexical items which either have low
+frequencies or are non-existent in open-domain corpora. We put forward a
+technique that improves word embeddings in specific domains by first
+transforming a given lexical item to a sorted list of representative words and
+then modeling the item by combining the embeddings of these words. Our
+experiments show that the proposed technique can significantly improve some of
+the recent word embedding techniques while modeling a set of lexical items in
+the biomedical domain, i.e., phenotypes.
+Author{1}{Firstname}#=%=#Mohammad Taher
+Author{1}{Lastname}#=%=#Pilehvar
+Author{1}{Email}#=%=#mp792@cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Nigel
+Author{2}{Lastname}#=%=#Collier
+Author{2}{Email}#=%=#nhc30@cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+
+==========

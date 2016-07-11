@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#507
+FinalPaperTitle#=%=#The Value of Semantic Parse Labeling for Knowledge Base Question Answering
+ShortPaperTitle#=%=#The Value of Semantic Parse Labeling for Knowledge Base Question Answering
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Wen-tau Yih
+JobTitle#==#
+Organization#==#
+Abstract#==#We demonstrate the value of collecting semantic parse labels for knowledge base
+question answering. In particular, (1) unlike previous studies on small-scale
+datasets, we show that learning from labeled semantic parses significantly
+improves overall performance, resulting in absolute 5 point gain compared to
+learning from answers, (2) we show that with an appropriate user interface, one
+can obtain semantic parses with high accuracy and at a cost comparable or lower
+than obtaining just answers, and (3) we have created and shared the largest
+semantic-parse labeled dataset to date in order to advance research in question
+answering.
+Author{1}{Firstname}#=%=#Wen-tau
+Author{1}{Lastname}#=%=#Yih
+Author{1}{Email}#=%=#scottyih@microsoft.com
+Author{1}{Affiliation}#=%=#Microsoft Research
+Author{2}{Firstname}#=%=#Matthew
+Author{2}{Lastname}#=%=#Richardson
+Author{2}{Email}#=%=#mattri@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft Research
+Author{3}{Firstname}#=%=#Chris
+Author{3}{Lastname}#=%=#Meek
+Author{3}{Email}#=%=#meek@microsoft.com
+Author{3}{Affiliation}#=%=#Microsoft Research
+Author{4}{Firstname}#=%=#Ming-Wei
+Author{4}{Lastname}#=%=#Chang
+Author{4}{Email}#=%=#minchang@microsoft.com
+Author{4}{Affiliation}#=%=#Microsoft Research
+Author{5}{Firstname}#=%=#Jina
+Author{5}{Lastname}#=%=#Suh
+Author{5}{Email}#=%=#jinsuh@microsoft.com
+Author{5}{Affiliation}#=%=#Microsoft Research
+
+==========

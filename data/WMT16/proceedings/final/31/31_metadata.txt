@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#31
+FinalPaperTitle#=%=#WMT2016: A Hybrid Approach to Bilingual Document Alignment
+ShortPaperTitle#=%=#WMT2016: A Hybrid Approach to Bilingual Document Alignment
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Sainik Kumar Mahata
+JobTitle#==#
+Organization#==#JIS College of Engineering
+Kalyani, West Bengal. India
+Abstract#==#Large aligned corpora are required for any computer aided translation system to
+become effective. In this scenario, bilingual document alignment has gained
+utmost importance in recent days. We attempt a simple yet effective approach to
+align URLs (Uniform Resource Locator) within two documents in two languages as
+a part of WMT2016 Bilingual Document Alignment Shared Task. Our approach
+includes the processing of URLs and their embedded texts, which serves as the
+main matching criterion. In order to align the text initially, we have used
+Gale- Church algorithm, dictionary based translation and Cosine Similarity that
+in turn helps us to achieve better results in the alignment task.
+Author{1}{Firstname}#=%=#Sainik
+Author{1}{Lastname}#=%=#Mahata
+Author{1}{Email}#=%=#sainik.mahata@gmail.com
+Author{1}{Affiliation}#=%=#Jadavpur University
+Author{2}{Firstname}#=%=#Dipankar
+Author{2}{Lastname}#=%=#Das
+Author{2}{Email}#=%=#ddas@cse.jdvu.ac.in
+Author{2}{Affiliation}#=%=#Jadavpur University
+Author{3}{Firstname}#=%=#Santanu
+Author{3}{Lastname}#=%=#Pal
+Author{3}{Email}#=%=#santanu.pal.ju@gmail.com
+Author{3}{Affiliation}#=%=#Saarland University
+
+==========

@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#BAD LUC@WMT 2016: a Bilingual Document Alignment Platform Based on Lucene
+ShortPaperTitle#=%=#BAD LUC@WMT 2016: a Bilingual Document Alignment Platform Based on Lucene
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Laurent Jakubina
+JobTitle#==#
+Organization#==#
+Abstract#==#We participated in the Bilingual Document Alignment shared task of WMT 2016
+with the intent of testing plain cross-lingual information retrieval platform
+built on top of the Apache Lucene framework. We devised a number of interesting
+variants, including one that only considers the URLs of the pages, and that
+offers --- without any heuristic ---  surprisingly high performances. We
+finally submitted the output of a system that combines two informations (TEXT
+and URL) from documents and a post-treatment for an accuracy that reaches 92%
+on the development dataset distributed for the shared task.
+Author{1}{Firstname}#=%=#Laurent
+Author{1}{Lastname}#=%=#Jakubina
+Author{1}{Email}#=%=#jakubinl@iro.umontreal.ca
+Author{1}{Affiliation}#=%=#Université de Montréal
+Author{2}{Firstname}#=%=#Phillippe
+Author{2}{Lastname}#=%=#Langlais
+Author{2}{Email}#=%=#felipe@iro.umontreal.ca
+Author{2}{Affiliation}#=%=#Université de Montréal
+
+==========

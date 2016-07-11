@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#35
+FinalPaperTitle#=%=#Focus Annotation of Task-based Data: Establishing the Quality of Crowd Annotation
+ShortPaperTitle#=%=#Focus Annotation of Task-based Data: Establishing the Quality of Crowd Annotation
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Kordula De Kuthy
+JobTitle#==#
+Organization#==#University of Tübingen
+Tübingen, Germany
+Abstract#==#We explore the annotation of information structure in German and
+  compare the quality of expert annotation with crowd-sourced
+  annotation taking into account the cost of reaching crowd
+  consensus. 
+
+  Concretely, we discuss a crowd-sourcing effort annotating
+  focus in a task-based corpus of German containing reading
+  comprehension questions and answers. Against the backdrop of a gold
+  standard reference resulting from adjudicated expert annotation, we
+  evaluate a crowd sourcing experiment using majority voting to
+  determine a baseline performance. To refine the crowd-sourcing
+  setup, we introduce the Consensus Cost as a measure of agreement
+  within the crowd. We investigate the usefulness of Consensus Cost as
+  a measure of crowd annotation quality both intrinsically, in
+  relation to the expert gold standard, and extrinsically, by
+  integrating focus annotation information into a system performing
+  Short Answer Assessment taking into account the Consensus Cost.
+
+  We find that low Consensus Cost in crowd sourcing indicates high
+  quality, though high cost does not necessarily indicate low accuracy
+  but increased variability. Overall, taking Consensus Cost into
+  account improves both intrinsic and extrinsic evaluation measures.
+Author{1}{Firstname}#=%=#Kordula
+Author{1}{Lastname}#=%=#De Kuthy
+Author{1}{Email}#=%=#kdk@sfs.uni-tuebingen.de
+Author{1}{Affiliation}#=%=#SFB 833, Universität Tübingen
+Author{2}{Firstname}#=%=#Ramon
+Author{2}{Lastname}#=%=#Ziai
+Author{2}{Email}#=%=#rziai@sfs.uni-tuebingen.de
+Author{2}{Affiliation}#=%=#Universität Tübingen
+Author{3}{Firstname}#=%=#Detmar
+Author{3}{Lastname}#=%=#Meurers
+Author{3}{Email}#=%=#dm@sfs.uni-tuebingen.de
+Author{3}{Affiliation}#=%=#Universität Tübingen
+
+==========

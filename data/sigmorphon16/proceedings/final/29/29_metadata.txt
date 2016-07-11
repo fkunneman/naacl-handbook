@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#29
+FinalPaperTitle#=%=#Morphological reinflection with conditional random fields and unsupervised features
+ShortPaperTitle#=%=#Morphological reinflection with conditional random fields and unsupervised features
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Ling Liu
+JobTitle#==#
+Organization#==#University of Colorado Boulder
+Department of Linguistics
+Hellems 290
+295 UCB
+University of Colorado
+Boulder, CO 80309-0295
+Abstract#==#This paper describes our participation in the SIGMORPHON 2016 shared task on
+morphological reinflection. In the task, we use a linear-chain conditional
+random field model to learn to map sequences of input characters to sequences
+of output characters and focus on developing features that are useful for
+predicting inflectional behavior. Since the training data in the task is
+limited, we also generalize the training data by extracting, in an unsupervised
+fashion, the types of consonant-vowel sequences that trigger inflectional
+behavior, and by extending the available training data through inference of
+unlabeled morphosyntactic descriptions.
+Author{1}{Firstname}#=%=#Ling
+Author{1}{Lastname}#=%=#Liu
+Author{1}{Email}#=%=#ling.liu@colorado.edu
+Author{1}{Affiliation}#=%=#University of Colorado Boulder
+Author{2}{Firstname}#=%=#Lingshuang Jack
+Author{2}{Lastname}#=%=#Mao
+Author{2}{Email}#=%=#lima4664@colorado.edu
+Author{2}{Affiliation}#=%=#University of Colorado Boulder
+
+==========

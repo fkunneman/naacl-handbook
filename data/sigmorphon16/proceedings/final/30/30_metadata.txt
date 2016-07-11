@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#30
+FinalPaperTitle#=%=#Improving Sequence to Sequence Learning for Morphological Inflection Generation: The BIU-MIT Systems for the SIGMORPHON 2016 Shared Task for Morphological Reinflection
+ShortPaperTitle#=%=#Improving Sequence to Sequence Learning for Morphological Inflection Generation
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Roee Aharoni
+JobTitle#==#
+Organization#==#Bar Ilan University, Ramat Gan, Israel
+Abstract#==#Morphological reinflection is the task of generating a target form given a
+source form and the morpho-syntactic attributes of the target (and, optionally,
+of the source). This work presents the submission of Bar Ilan University and
+the Massachusetts Institute of Technology for the morphological reinflection
+shared task held at SIGMORPHON 2016. The submission includes two recurrent
+neural network architectures for learning morphological reinflection from
+incomplete inflection tables while using several novel ideas for this task:
+morpho-syntactic attribute embeddings, modeling the concept of templatic
+morphology, bidirectional input character representations and neural
+discriminative string transduction. The reported results for the proposed
+models over the ten languages in the shared task bring this submission to the
+second/third place (depending on the language) on all three sub-tasks out of
+eight participating teams, while training only on the Restricted category data.
+Author{1}{Firstname}#=%=#Roee
+Author{1}{Lastname}#=%=#Aharoni
+Author{1}{Email}#=%=#roee.aharoni@gmail.com
+Author{1}{Affiliation}#=%=#Bar Ilan University
+Author{2}{Firstname}#=%=#Yoav
+Author{2}{Lastname}#=%=#Goldberg
+Author{2}{Email}#=%=#yoav.goldberg@gmail.com
+Author{2}{Affiliation}#=%=#Bar Ilan University
+Author{3}{Firstname}#=%=#Yonatan
+Author{3}{Lastname}#=%=#Belinkov
+Author{3}{Email}#=%=#belinkov@mit.edu
+Author{3}{Affiliation}#=%=#MIT CSAIL
+
+==========

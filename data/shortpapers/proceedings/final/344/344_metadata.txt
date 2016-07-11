@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#344
+FinalPaperTitle#=%=#Word Alignment without NULL Words
+ShortPaperTitle#=%=#Word Alignment without NULL Words
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Wilker Aziz
+JobTitle#==#
+Organization#==#Universiteit van Amsterdam
+Abstract#==#In word alignment certain source words
+are only needed for fluency reasons and
+do not have a translation on the target side.
+Most word alignment models assume a tar-
+get NULL word from which they gener-
+ate these untranslatable source words. Hy-
+pothesising a target NULL word is not
+without problems, however. For example,
+because this NULL word has a position, it
+interferes with the distribution over align-
+ment jumps. We present a word align-
+ment model that accounts for untrans-
+latable source words by generating them
+from preceding source words. It thereby
+removes the need for a target NULL word
+and only models alignments between word
+pairs that are actually observed in the data.
+Translation experiments on English paired
+with Czech, German, French and Japanese
+show that the model outperforms its tradi-
+tional IBM counterparts in terms of BLEU
+score.
+Author{1}{Firstname}#=%=#Philip
+Author{1}{Lastname}#=%=#Schulz
+Author{1}{Email}#=%=#p.schulz@uva.nl
+Author{1}{Affiliation}#=%=#ILLC, University of Amsterdam
+Author{2}{Firstname}#=%=#Wilker
+Author{2}{Lastname}#=%=#Aziz
+Author{2}{Email}#=%=#will.aziz@gmail.com
+Author{2}{Affiliation}#=%=#University of Amsterdam
+Author{3}{Firstname}#=%=#Khalil
+Author{3}{Lastname}#=%=#Sima'an
+Author{3}{Email}#=%=#k.simaan@uva.nl
+Author{3}{Affiliation}#=%=#ILLC, University of Amsterdam
+
+==========

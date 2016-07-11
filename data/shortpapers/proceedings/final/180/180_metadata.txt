@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#180
+FinalPaperTitle#=%=#Claim Synthesis via Predicate Recycling
+ShortPaperTitle#=%=#Claim Synthesis via Predicate Recycling
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Yonatan Bilu
+JobTitle#==#
+Organization#==#IBM Haifa Research Lab
+Haifa
+Israel
+Abstract#==#Computational Argumentation has two main goals - the detection and analysis of
+arguments on the one hand, and the synthesis of arguments on the other. Much
+attention has been given to the former, but considerably less to the latter. 
+
+A key component in synthesizing arguments is the synthesis of claims. One way
+to do so is by employing argumentation mining to detect claims within an
+appropriate corpus. In general, this appears to be a hard problem. Thus, it is
+interesting to explore if - for the sake of synthesis - there may be other ways
+to generate claims.
+
+Here we explore such a method: we extract the predicate of simple,
+manually-detected, claims, and attempt to generate novel claims from them.
+Surprisingly, this simple method yields fairly good results.
+Author{1}{Firstname}#=%=#Yonatan
+Author{1}{Lastname}#=%=#Bilu
+Author{1}{Email}#=%=#yonatanb@il.ibm.com
+Author{1}{Affiliation}#=%=#IBM Research, Haifa
+Author{2}{Firstname}#=%=#Noam
+Author{2}{Lastname}#=%=#Slonim
+Author{2}{Email}#=%=#noams@il.ibm.com
+Author{2}{Affiliation}#=%=#IBM Haifa Research Lab, Haifa, Israel
+
+==========

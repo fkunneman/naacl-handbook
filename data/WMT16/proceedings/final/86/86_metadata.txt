@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#86
+FinalPaperTitle#=%=#USFD’s Phrase-level Quality Estimation Systems
+ShortPaperTitle#=%=#USFD’s Phrase-level Quality Estimation Systems
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Frederic Blain
+JobTitle#==#
+Organization#==#Department of Computer Science
+University of Sheffield
+Regent Court, 211 Portobello
+Sheffield, S1 4DP, UK
+Abstract#==#We describe the submissions of USFD team to the phrase-level QE shared task at
+the WMT-16. We test two different approaches to phrase-level QE: we enrich the
+provided set of baseline features with the information about contexts, and
+predict phrase-level scores using predictions of other levels. These approaches
+show to perform closely in terms of multiplication of F1-scores (primary
+metric), although F1-score for the individual classes differ.
+Author{1}{Firstname}#=%=#Varvara
+Author{1}{Lastname}#=%=#Logacheva
+Author{1}{Email}#=%=#varvara.logacheva@gmail.com
+Author{1}{Affiliation}#=%=#University of Sheffield
+Author{2}{Firstname}#=%=#Frédéric
+Author{2}{Lastname}#=%=#Blain
+Author{2}{Email}#=%=#f.blain@sheffield.ac.uk
+Author{2}{Affiliation}#=%=#University of Sheffield
+Author{3}{Firstname}#=%=#Lucia
+Author{3}{Lastname}#=%=#Specia
+Author{3}{Email}#=%=#l.specia@sheffield.ac.uk
+Author{3}{Affiliation}#=%=#University of Sheffield
+
+==========

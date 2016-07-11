@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#33
+FinalPaperTitle#=%=#Unsupervised Text Segmentation Using Semantic Relatedness Graphs
+ShortPaperTitle#=%=#Unsupervised Text Segmentation Using Semantic Relatedness Graphs
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Goran Glavaš
+JobTitle#==#
+Organization#==#Data and Web Science Group
+University of Mannheim
+B6 26, DE-68161 Mannheim, Germany
+Abstract#==#Segmenting text into semantically coherent fragments improves readability of
+text and facilitates tasks like text summarization and passage retrieval. In
+this paper, we present a novel unsupervised algorithm for linear text
+segmentation (TS) that exploits word embeddings and a measure of semantic
+relatedness of short texts to construct a semantic relatedness graph of the
+document. Semantically coherent segments are then derived from maximal cliques
+of the relatedness graph. The algorithm performs competitively on a standard
+synthetic dataset and outperforms the best-performing method on a real-world
+(i.e., non-artificial) dataset of political manifestos.
+Author{1}{Firstname}#=%=#Goran
+Author{1}{Lastname}#=%=#Glavaš
+Author{1}{Email}#=%=#gogo.glavas@gmail.com
+Author{1}{Affiliation}#=%=#University of Zagreb
+Author{2}{Firstname}#=%=#Federico
+Author{2}{Lastname}#=%=#Nanni
+Author{2}{Email}#=%=#federico.nanni8@unibo.it
+Author{2}{Affiliation}#=%=#University of Bologna
+Author{3}{Firstname}#=%=#Simone Paolo
+Author{3}{Lastname}#=%=#Ponzetto
+Author{3}{Email}#=%=#simone@informatik.uni-mannheim.de
+Author{3}{Affiliation}#=%=#University of Mannheim
+
+==========

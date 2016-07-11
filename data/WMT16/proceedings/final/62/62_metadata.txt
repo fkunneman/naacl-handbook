@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#62
+FinalPaperTitle#=%=#Abu-MaTran at WMT 2016 Translation Task: Deep Learning, Morphological Segmentation and Tuning on Character Sequences
+ShortPaperTitle#=%=#Abu-MaTran at WMT 2016 Translation Task: Deep Learning, Morphological Segmentation and Tuning on Character Sequences
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Víctor M. Sánchez-Cartagena
+JobTitle#==#
+Organization#==#Prompsit Language Engineering
+Av. Universitat s/n. Edifici Quorum III, E-03202 Elx, Spain
+Abstract#==#This paper presents the systems submitted by the Abu-MaTran project to the
+English-to-Finnish language pair at the WMT 2016 news translation task. We
+applied morphological segmentation and deep learning in order to address (i)
+the data scarcity problem caused by the lack of in-domain parallel data in the
+constrained task and (ii) the complex morphology of Finnish. We submitted a
+neural machine translation system, a statistical machine translation system
+reranked with a neural language model and the combination of their outputs
+tuned on character sequences. The combination and the neural system were ranked
+first and second respectively according to automatic evaluation metrics and
+tied for the first place in the human evaluation.
+Author{1}{Firstname}#=%=#Víctor M.
+Author{1}{Lastname}#=%=#Sánchez-Cartagena
+Author{1}{Email}#=%=#vmsanchez@prompsit.com
+Author{1}{Affiliation}#=%=#Prompsit Language Engineering
+Author{2}{Firstname}#=%=#Antonio
+Author{2}{Lastname}#=%=#Toral
+Author{2}{Email}#=%=#atoral@computing.dcu.ie
+Author{2}{Affiliation}#=%=#Dublin City Unversity
+
+==========

@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#31
+FinalPaperTitle#=%=#Linguistic Style Accommodation in Disagreements
+ShortPaperTitle#=%=#Linguistic Style Accommodation in Disagreements
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Raquel Fernandez
+JobTitle#==#
+Organization#==#Institute for Logic, Language and Information
+University of Amsterdam
+PO Box 94242
+1090 GE Amsterdam
+Netherlands
+Abstract#==#We investigate style accommodation in online discussions, in particular its
+interplay with content agreement and disagreement. Using a new model for
+measuring style accommodation, we find that speakers coordinate on style more
+noticeably if they disagree than if they agree, especially if they want to
+establish  rapport and possibly persuade their interlocutors.
+Author{1}{Firstname}#=%=#Elise
+Author{1}{Lastname}#=%=#van der Pol
+Author{1}{Email}#=%=#elisevanderpol@gmail.com
+Author{1}{Affiliation}#=%=#ILLC, University of Amsterdam
+Author{2}{Firstname}#=%=#Sharon
+Author{2}{Lastname}#=%=#Gieske
+Author{2}{Email}#=%=#sharongieske@gmail.com
+Author{2}{Affiliation}#=%=#ILLC, University of Amsterdam
+Author{3}{Firstname}#=%=#Raquel
+Author{3}{Lastname}#=%=#Fernandez
+Author{3}{Email}#=%=#raquel.fernandez@uva.nl
+Author{3}{Affiliation}#=%=#ILLC, University of Amsterdam
+
+==========

@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#133
+FinalPaperTitle#=%=#Findings of the WMT 2016 Bilingual Document Alignment Shared Task
+ShortPaperTitle#=%=#Findings of the WMT 2016 Bilingual Document Alignment Shared Task
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Philipp Koehn
+JobTitle#==#
+Organization#==#JHU, Baltimore, MD
+Abstract#==#This paper presents the results of the
+WMT16 Bilingual Document Alignment Shared Task. 
+We asked
+participants of this task to 
+align documents that are translations 
+of each other from crawls of web sites.
+Author{1}{Firstname}#=%=#Christian
+Author{1}{Lastname}#=%=#Buck
+Author{1}{Email}#=%=#christian.buck@lantis.de
+Author{1}{Affiliation}#=%=#University of Edinburgh
+Author{2}{Firstname}#=%=#Philipp
+Author{2}{Lastname}#=%=#Koehn
+Author{2}{Email}#=%=#phi@jhu.edu
+Author{2}{Affiliation}#=%=#Johns Hopkins University
+
+==========

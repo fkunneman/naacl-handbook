@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#98
+FinalPaperTitle#=%=#SHEF-LIUM-NN: Sentence level Quality Estimation with Neural Network Features
+ShortPaperTitle#=%=#SHEF-LIUM-NN: Sentence level Quality Estimation with Neural Network Features
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Kashif
+JobTitle#==#
+Organization#==#Kashif Shah, 
+Department of Computer Science, 
+Regent Court, 211 Portobello, Sheffield, S1 4DP, UK
+Abstract#==#This paper describes our systems for Task 1 of the WMT15 Shared Task on Quality
+Estimation. Our submissions use (i) a continuous space language model (CSLM) to
+extract sentence embeddings and cross-entropy scores, (ii) a neural network
+machine translation (NMT) model, (iii) a set of QuEst features (iv) a
+combination of features produced by QuEst and the features produced with CSLM
+and NMT. 
+
+Our primary submission achieved third position on official scoring task and
+second spot on ranking task. Another interesting finding is the good
+performance  obtained only using CSLM sentence embeddings as features  that are
+ learned in an unsupervised fashion without any additional hand-crafted
+features.
+Author{1}{Firstname}#=%=#Kashif
+Author{1}{Lastname}#=%=#Shah
+Author{1}{Email}#=%=#skashifshah@gmail.com
+Author{1}{Affiliation}#=%=#University of Sheffield
+Author{2}{Firstname}#=%=#Fethi
+Author{2}{Lastname}#=%=#Bougares
+Author{2}{Email}#=%=#fethi.bougares@lium.univ-lemans.fr
+Author{2}{Affiliation}#=%=#LIUM- University of Le Mans
+Author{3}{Firstname}#=%=#Loïc
+Author{3}{Lastname}#=%=#Barrault
+Author{3}{Email}#=%=#loic.barrault@lium.univ-lemans.fr
+Author{3}{Affiliation}#=%=#LIUM, University of Le Mans
+Author{4}{Firstname}#=%=#Lucia
+Author{4}{Lastname}#=%=#Specia
+Author{4}{Email}#=%=#l.specia@sheffield.ac.uk
+Author{4}{Affiliation}#=%=#University of Sheffield
+
+==========

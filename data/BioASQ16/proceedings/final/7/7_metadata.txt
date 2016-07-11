@@ -1,0 +1,49 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Large-Scale Semantic Indexing and Question Answering in Biomedicine
+ShortPaperTitle#=%=#Large-Scale Semantic Indexing and Question Answering in Biomedicine
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Grigorios Tsoumakas
+JobTitle#==#
+Organization#==#Aristotle University of Thessaloniki
+Abstract#==#We present the methods and approaches employed in terms of our participation in
+the 2016 version of the BioASQ challenge. For the semantic indexing task, we
+extended our successful ensemble approach of last year with additional models.
+The official results obtained so-far demonstrate a continuing consistent
+advantage of our approaches against the National Library of Medicine (NLM)
+baselines. For the question answering task, we extended our approach on factoid
+questions, while we also developed approaches for the document, concept and
+snippet retrieval sub-tasks.
+Author{1}{Firstname}#=%=#Eirini
+Author{1}{Lastname}#=%=#Papagiannopoulou
+Author{1}{Email}#=%=#epapagia@csd.auth.gr
+Author{1}{Affiliation}#=%=#Aristotle University of Thessaloniki
+Author{2}{Firstname}#=%=#Yiannis
+Author{2}{Lastname}#=%=#Papanikolaou
+Author{2}{Email}#=%=#ypapanik@csd.auth.gr
+Author{2}{Affiliation}#=%=#Aristotle University of Thessaloniki
+Author{3}{Firstname}#=%=#Dimitris
+Author{3}{Lastname}#=%=#Dimitriadis
+Author{3}{Email}#=%=#dndimitri@csd.auth.gr
+Author{3}{Affiliation}#=%=#Aristotle University of Thessaloniki
+Author{4}{Firstname}#=%=#Sakis
+Author{4}{Lastname}#=%=#Lagopoulos
+Author{4}{Email}#=%=#lathanag@csd.auth.gr
+Author{4}{Affiliation}#=%=#Aristotle University of Thessaloniki
+Author{5}{Firstname}#=%=#Grigorios
+Author{5}{Lastname}#=%=#Tsoumakas
+Author{5}{Email}#=%=#greg@csd.auth.gr
+Author{5}{Affiliation}#=%=#Aristotle University of Thessaloniki
+Author{6}{Firstname}#=%=#Manos
+Author{6}{Lastname}#=%=#Laliotis
+Author{6}{Email}#=%=#elalio@atypon.com
+Author{6}{Affiliation}#=%=#Atypon
+Author{7}{Firstname}#=%=#Nikos
+Author{7}{Lastname}#=%=#Markantonatos
+Author{7}{Email}#=%=#nikos@atypo.com
+Author{7}{Affiliation}#=%=#Atypon
+Author{8}{Firstname}#=%=#Ioannis
+Author{8}{Lastname}#=%=#Vlahavas
+Author{8}{Email}#=%=#vlahavas@csd.auth.gr
+Author{8}{Affiliation}#=%=#Aristotle University of Thessaloniki
+
+==========

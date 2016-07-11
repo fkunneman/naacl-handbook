@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#26
+FinalPaperTitle#=%=#Intrinsic Evaluation of Word Vectors Fails to Predict Extrinsic Performance
+ShortPaperTitle#=%=#Intrinsic Evaluation of Word Vectors Fails to Predict Extrinsic Performance
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Hon Wing, CHIU
+JobTitle#==#
+Organization#==#Language Technology Lab (LTL) 
+Dept. of Theoretical & Applied Linguistics 
+University of Cambridge 
+English Faculty Building, 9 West Road 
+Cambridge CB3 9DA, United Kingdom
+Abstract#==#The quality of word representations is frequently assessed using correlation
+with human judgements of word similarity. Here, we question whether such
+intrinsic evaluation can predict the merits of the representations for
+downstream tasks. We study the correlation between results on ten word
+similarity benchmarks and tagger performance on three standard sequence
+labeling tasks using a variety of word vectors induced from an unannotated
+corpus of 3.8 billion words, and demonstrate that most intrinsic evaluations
+are poor predictors of downstream performance. We argue that this issue can be
+traced in part to a failure to distinguish specific similarity from relatedness
+in intrinsic evaluation datasets. We make our evaluation tools openly available
+to facilitate further study.
+Author{1}{Firstname}#=%=#Billy
+Author{1}{Lastname}#=%=#Chiu
+Author{1}{Email}#=%=#billy1985322@gmail.com
+Author{1}{Affiliation}#=%=#Language Technology Lab, DTAL, University of Cambridge
+Author{2}{Firstname}#=%=#Anna
+Author{2}{Lastname}#=%=#Korhonen
+Author{2}{Email}#=%=#anna.korhonen@cl.cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+Author{3}{Firstname}#=%=#Sampo
+Author{3}{Lastname}#=%=#Pyysalo
+Author{3}{Email}#=%=#sampo.pyysalo@gmail.com
+Author{3}{Affiliation}#=%=#University of Cambridge
+
+==========

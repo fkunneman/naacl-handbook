@@ -1,0 +1,18 @@
+SubmissionNumber#=%=#27
+FinalPaperTitle#=%=#A Vector Model for Type-Theoretical Semantics
+ShortPaperTitle#=%=#A Vector Model for Type-Theoretical Semantics
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Konstantin Sokolov
+JobTitle#==#
+Organization#==#Department of Distributed Computing and Networking, Institute of Computer Science and Technology, Peter the Great St. Petersburg Polytechnic University, Polytechnicheskaya str., 21, 194021, Saint-Petersburg, Russia.
+Abstract#==#Vector models of distributional semantics can be viewed as a geometric
+interpretation of a fragment of dependent type theory. By extending to a bigger
+fragment to include the dependent product we achieve a significant increase in
+expressive power of vector models, which allows for an implementation of
+contextual adaptation of word meanings in the compositional setting.
+Author{1}{Firstname}#=%=#Konstantin
+Author{1}{Lastname}#=%=#Sokolov
+Author{1}{Email}#=%=#vtqveant@gmail.com
+Author{1}{Affiliation}#=%=#Peter the Great Polytechnic University
+
+==========

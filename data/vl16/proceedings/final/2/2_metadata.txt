@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#Multi30K: Multilingual English-German Image Descriptions
+ShortPaperTitle#=%=#Multi30K: Multilingual English-German Image Descriptions
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#We introduce the Multi30K dataset to stimulate multilingual multimodal
+research. Recent advances in image description have been demonstrated on
+English-language datasets almost exclusively, but image description should not
+be limited to English. This dataset extends the Flickr30K dataset with i)
+German translations created by professional translators over a subset of the
+English descriptions, and ii) descriptions crowdsourced independently of the
+original English descriptions. We outline how the data can be used for
+multilingual image description and multimodal machine translation, but we
+anticipate the data will be useful for a broader range of tasks.
+Author{1}{Firstname}#=%=#Desmond
+Author{1}{Lastname}#=%=#Elliott
+Author{1}{Email}#=%=#d.elliott@uva.nl
+Author{1}{Affiliation}#=%=#University of Amsterdam
+Author{2}{Firstname}#=%=#Stella
+Author{2}{Lastname}#=%=#Frank
+Author{2}{Email}#=%=#s.c.frank@uva.nl
+Author{2}{Affiliation}#=%=#University of Amsterdam
+Author{3}{Firstname}#=%=#Khalil
+Author{3}{Lastname}#=%=#Sima'an
+Author{3}{Email}#=%=#k.simaan@uva.nl
+Author{3}{Affiliation}#=%=#ILLC, University of Amsterdam
+Author{4}{Firstname}#=%=#Lucia
+Author{4}{Lastname}#=%=#Specia
+Author{4}{Email}#=%=#l.specia@sheffield.ac.uk
+Author{4}{Affiliation}#=%=#University of Sheffield
+
+==========

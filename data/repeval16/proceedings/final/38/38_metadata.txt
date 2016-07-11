@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#38
+FinalPaperTitle#=%=#A critique of word similarity as a method for evaluating distributional semantic models
+ShortPaperTitle#=%=#A critique of word similarity as a method for evaluating distributional semantic models
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Thomas Kober
+JobTitle#==#
+Organization#==#University of Sussex
+Department of Informatics, Chichester 1
+Brighton, BN1 9RH, United Kingdom
+Abstract#==#This paper aims to re-think the role of the word similarity task in
+distributional semantics research. We argue while it is a valuable tool, it
+should be used with care because it provides only an approximate measure of the
+quality of a distributional model. Word similarity evaluations assume there
+exists a single notion of similarity that is independent of a particular
+application. Further, the small size and low inter-annotator agreement of
+existing data sets makes it challenging to find significant differences between
+models.
+Author{1}{Firstname}#=%=#Miroslav
+Author{1}{Lastname}#=%=#Batchkarov
+Author{1}{Email}#=%=#m.batchkarov@sussex.ac.uk
+Author{1}{Affiliation}#=%=#University of Sussex
+Author{2}{Firstname}#=%=#Thomas
+Author{2}{Lastname}#=%=#Kober
+Author{2}{Email}#=%=#thk22@sussex.ac.uk
+Author{2}{Affiliation}#=%=#University of Sussex
+Author{3}{Firstname}#=%=#Jeremy
+Author{3}{Lastname}#=%=#Reffin
+Author{3}{Email}#=%=#j.p.reffin@sussex.ac.uk
+Author{3}{Affiliation}#=%=#University of Sussex
+Author{4}{Firstname}#=%=#Julie
+Author{4}{Lastname}#=%=#Weeds
+Author{4}{Email}#=%=#juliewe@sussex.ac.uk
+Author{4}{Affiliation}#=%=#University of Sussex
+Author{5}{Firstname}#=%=#David
+Author{5}{Lastname}#=%=#Weir
+Author{5}{Email}#=%=#d.j.weir@sussex.ac.uk
+Author{5}{Affiliation}#=%=#University of Sussex
+
+==========

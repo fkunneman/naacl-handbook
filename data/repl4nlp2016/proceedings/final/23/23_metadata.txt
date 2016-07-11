@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#23
+FinalPaperTitle#=%=#Multilingual Modal Sense Classification using a Convolutional Neural Network
+ShortPaperTitle#=%=#Multilingual Modal Sense Classification using a Convolutional Neural Network
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Ana Marasovic
+JobTitle#==#
+Organization#==#Research Training Group AIPHES, Department of Computational Linguistics, Heidelberg University, 69120 Heidelberg, Germany
+Abstract#==#Modal sense classification (MSC) is a special WSD task that depends on the
+meaning of the proposition in the modal's scope. We explore a CNN architecture
+for classifying modal sense in English and German. We show that CNNs are
+superior to manually designed feature-based classifiers and a standard NN
+classifier. We analyze the feature maps learned by the CNN and identify known
+and previously unattested linguistic features. We benchmark the CNN on a
+standard WSD task, where it compares favorably to models using
+sense-disambiguated target vectors.
+Author{1}{Firstname}#=%=#Ana
+Author{1}{Lastname}#=%=#Marasović
+Author{1}{Email}#=%=#marasovic@cl.uni-heidelberg.de
+Author{1}{Affiliation}#=%=#Heidelberg University
+Author{2}{Firstname}#=%=#Anette
+Author{2}{Lastname}#=%=#Frank
+Author{2}{Email}#=%=#frank@cl.uni-heidelberg.de
+Author{2}{Affiliation}#=%=#Heidelberg Universiy
+
+==========

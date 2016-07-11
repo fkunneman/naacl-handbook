@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#404
+FinalPaperTitle#=%=#Exploiting Linguistic Features for Sentence Completion
+ShortPaperTitle#=%=#Exploiting Linguistic Features for Sentence Completion
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Aubrie  M. Woods
+JobTitle#==#
+Organization#==#Carnegie Mellon University
+5000 Forbes Avenue
+Pittsburgh, PA 15213, USA
+Abstract#==#This paper presents a novel approach to automated sentence completion based on
+pointwise mutual information (PMI). Feature sets are created by fusing the
+various types of input provided to other classes of language models, ultimately
+allowing multiple sources of both local and distant information to be
+considered. Furthermore, it is shown that additional precision gains may be
+achieved by incorporating feature sets of higher-order n-grams. Experimental
+results demonstrate that the PMI model outperforms all prior models and
+establishes a new state-of-the-art result on the Microsoft Research Sentence
+Completion Challenge.
+Author{1}{Firstname}#=%=#Aubrie
+Author{1}{Lastname}#=%=#Woods
+Author{1}{Email}#=%=#amwoods@cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

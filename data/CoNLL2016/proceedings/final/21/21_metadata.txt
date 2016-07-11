@@ -1,0 +1,48 @@
+SubmissionNumber#=%=#21
+FinalPaperTitle#=%=#Entity Disambiguation by Knowledge and Text Jointly Embedding
+ShortPaperTitle#=%=#Entity Disambiguation by Knowledge and Text Jointly Embedding
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Wei Fang
+JobTitle#==#
+Organization#==#SYSU-CMU Joint Institute of Engineering, Sun Yat-Sen University
+No. 132, East Waihuan Road, Guangzhou Higher Education Mega Center, Guangzhou, 510006, P.R. China
+Abstract#==#For most entity disambiguation systems, the secret recipes are feature
+representations for mentions and entities, most of which are handcrafted
+Bag-of-Words (BoW) representations. BoW has several drawbacks: (1) It ignores
+the intrinsic meaning of words/entities; (2) It often results in high-dimension
+vector spaces and expensive computation; (3) Handcrafting representations often
+requires extensive experimental trials, lacking of a general guideline to
+guarantee its quality. In this paper, we propose a different approach named
+EDKate. We first learn low-dimensional continuous vector representations for
+entities and words by jointly embedding knowledge bases and text in the same
+vector space. Then we utilize these embeddings to design simple but effective
+features and build a two-layer disambiguation model. Extensive experiments on
+real-word data sets show that (1) The embedding-based features are very
+effective. Even a single one embedding-based feature can beat the combination
+of several BoW-based features. (2) The superiority is even more promising in a
+difficult set where the mention-to-entity prior cannot work well. (3) The
+proposed embedding method is much better than trivial implementations of some
+off-the-shelf embedding algorithms. (4) We compared our EDKate with existing
+methods/systems and the results are also positive.
+Author{1}{Firstname}#=%=#Wei
+Author{1}{Lastname}#=%=#Fang
+Author{1}{Email}#=%=#fangwei7@mail2.sysu.edu.cn
+Author{1}{Affiliation}#=%=#SYSU-CMU Joint Institute of Engineering, School of Electronics and Information Technology, Sun Yat-Sen University / SYSU-CMU Shunde International Joint Research Institute
+Author{2}{Firstname}#=%=#Jianwen
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Email}#=%=#jiazhan@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft, Redmond, WA
+Author{3}{Firstname}#=%=#Dilin
+Author{3}{Lastname}#=%=#Wang
+Author{3}{Email}#=%=#dilin.wang.gr@dartmouth.edu
+Author{3}{Affiliation}#=%=#Computer Science, Dartmouth College
+Author{4}{Firstname}#=%=#Zheng
+Author{4}{Lastname}#=%=#Chen
+Author{4}{Email}#=%=#zhengc@microsoft.com
+Author{4}{Affiliation}#=%=#Microsoft, Redmond, WA
+Author{5}{Firstname}#=%=#Ming
+Author{5}{Lastname}#=%=#Li
+Author{5}{Email}#=%=#mingli46@mail.sysu.edu.cn
+Author{5}{Affiliation}#=%=#SYSU-CMU Joint Institute of Engineering, School of Electronics and Information Technology, Sun Yat-Sen University / SYSU-CMU Shunde International Joint Research Institute
+
+==========

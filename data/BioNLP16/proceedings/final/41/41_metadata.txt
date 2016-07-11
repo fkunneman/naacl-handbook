@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#41
+FinalPaperTitle#=%=#Syntactic methods for negation detection in radiology reports in Spanish
+ShortPaperTitle#=%=#Syntactic methods for negation detection in radiology reports in Spanish
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Viviana Cotik
+JobTitle#==#
+Organization#==#Universidad de Buenos Aires
+Pabellon I, Ciudad Universitaria, Buenos Aires
+Argentina
+Abstract#==#Identification of the certainty of events is an important text mining problem.
+In particular, biomedical texts report medical conditions or findings that
+might be factual, hedged or negated. Identification of negation and its scope
+over a term of interest determines whether a finding is reported and is a
+challenging task. Not much work has been performed for Spanish in this domain. 
+
+In this work we introduce different algorithms developed to determine if a term
+of interest is under the scope of negation in radiology reports written in
+Spanish. The methods include syntactic techniques based in rules derived from
+PoS tagging patterns,             constituent tree patterns and dependency tree
+patterns,
+and an adaption of NegEx, a well known rule-based negation detection algorithm
+\cite{Chapman2001}. All methods outperform a simple dictionary lookup algorithm
+ developed as baseline. NegEx and the PoS tagging pattern method obtain the
+best results with 0.92 F1.
+Author{1}{Firstname}#=%=#Viviana
+Author{1}{Lastname}#=%=#Cotik
+Author{1}{Email}#=%=#vcotik@dc.uba.ar
+Author{1}{Affiliation}#=%=#Universidad de Buenos Aires
+Author{2}{Firstname}#=%=#Vanesa
+Author{2}{Lastname}#=%=#Stricker
+Author{2}{Email}#=%=#vanesastricker@gmail.com
+Author{2}{Affiliation}#=%=#Universidad de Buenos Aires
+Author{3}{Firstname}#=%=#Jorge
+Author{3}{Lastname}#=%=#Vivaldi
+Author{3}{Email}#=%=#jorge.vivaldi@upf.edu
+Author{3}{Affiliation}#=%=#Universitat Pompeu Fabra
+Author{4}{Firstname}#=%=#Horacio
+Author{4}{Lastname}#=%=#Rodriguez
+Author{4}{Email}#=%=#horacio@lsi.upc.edu
+Author{4}{Affiliation}#=%=#Universitat Politecnica de Catalunya
+
+==========

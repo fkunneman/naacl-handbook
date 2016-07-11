@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Annotating Spelling Errors in German Texts Produced by Primary School Children
+ShortPaperTitle#=%=#Annotating Spelling Errors in German Texts Produced by Primary School Children
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Ronja Laarmann-Quante
+JobTitle#==#
+Organization#==#Ruhr-University Bochum
+Universitätsstraße 150
+44801 Bochum
+Germany
+Abstract#==#We present a new multi-layered annotation scheme for orthographic errors in
+freely written German texts produced by primary school children. The scheme is
+closely linked to the German graphematic system and defines categories for both
+general structural word properties and error-related properties. Furthermore,
+it features multiple layers of information which can be used to evaluate an
+error. The categories can also be used to investigate properties of
+correctly-spelled words, and to compare them to the erroneous spellings. For
+representing the data, we propose LearnerXML, an XML-format, which we import in
+EXMARaLDA for manual annotation.
+Author{1}{Firstname}#=%=#Ronja
+Author{1}{Lastname}#=%=#Laarmann-Quante
+Author{1}{Email}#=%=#laarmann-quante@linguistics.rub.de
+Author{1}{Affiliation}#=%=#Ruhr-University Bochum
+Author{2}{Firstname}#=%=#Lukas
+Author{2}{Lastname}#=%=#Knichel
+Author{2}{Email}#=%=#lukas.knichel@rub.de
+Author{2}{Affiliation}#=%=#Ruhr-University Bochum
+Author{3}{Firstname}#=%=#Stefanie
+Author{3}{Lastname}#=%=#Dipper
+Author{3}{Email}#=%=#dipper@linguistics.rub.de
+Author{3}{Affiliation}#=%=#Ruhr-University Bochum
+Author{4}{Firstname}#=%=#Carina
+Author{4}{Lastname}#=%=#Betken
+Author{4}{Email}#=%=#carina.betken@rub.de
+Author{4}{Affiliation}#=%=#Ruhr-University Bochum
+
+==========

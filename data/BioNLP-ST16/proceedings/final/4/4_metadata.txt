@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#SeeDev Binary Event Extraction using SVMs and a Rich Feature Set
+ShortPaperTitle#=%=#SeeDev Binary Event Extraction using SVMs and a Rich Feature Set
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Nagesh C Panyam
+JobTitle#==#
+Organization#==#University of Melbourne. Melbourne, Australia.
+Abstract#==#This paper describes the system details and results of the participation of the
+team from the University of Melbourne in the SeeDev binary event extraction of
+BioNLP-Shared Task 2016. This task addresses the extraction of genetic and
+molecular mechanisms that regulate plant seed development from the natural
+language text of the published literature. In our submission, we developed a
+system using a support vector machine classifier with linear kernel powered by
+a rich set of features. Our system achieved an F1-score of 36.4%.
+Author{1}{Firstname}#=%=#Nagesh
+Author{1}{Lastname}#=%=#C. Panyam
+Author{1}{Email}#=%=#npanyam@student.unimelb.edu.au
+Author{1}{Affiliation}#=%=#University of Melbourne
+Author{2}{Firstname}#=%=#Gitansh
+Author{2}{Lastname}#=%=#Khirbat
+Author{2}{Email}#=%=#g.k.khirbat@ieee.org
+Author{2}{Affiliation}#=%=#The University of Melbourne
+Author{3}{Firstname}#=%=#Karin
+Author{3}{Lastname}#=%=#Verspoor
+Author{3}{Email}#=%=#karin.verspoor@unimelb.edu.au
+Author{3}{Affiliation}#=%=#The University of Melbourne
+Author{4}{Firstname}#=%=#Trevor
+Author{4}{Lastname}#=%=#Cohn
+Author{4}{Email}#=%=#tcohn@unimelb.edu.au
+Author{4}{Affiliation}#=%=#University of Melbourne
+Author{5}{Firstname}#=%=#Kotagiri
+Author{5}{Lastname}#=%=#Ramamohanarao
+Author{5}{Email}#=%=#kotagiri@unimelb.edu.au
+Author{5}{Affiliation}#=%=#University of Melbourne
+
+==========

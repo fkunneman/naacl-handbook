@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#Using the Web and Social Media as Corpora for Monitoring the Spread of Neologisms. The case of 'rapefugee', 'rapeugee', and 'rapugee'.
+ShortPaperTitle#=%=#Using the Web and Social Media as Corpora for Monitoring the Spread of Neologisms.
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Quirin Würschinger
+JobTitle#==#
+Organization#==#LMU Munich
+Geschwister-Scholl-Platz 1
+80539 Munich
+Germany
+Abstract#==#This paper employs both a web-as-corpus and a Twitter-as-corpus approach to
+present a longitudinal case study of the establishment of three recently
+coined, synonymous neologisms: 'rapefugee', 'rapeugee' and 'rapugee'. We
+describe the retrieval and processing of the web and Twitter data and discuss
+the dynamics of the competition between the three forms within and across both
+datasets based on quantitative summaries of the results. The results show that
+various language-external events boost the usage of the terms both on the web
+and on Twitter, with the latter typically ahead of the former by some days.
+Beside absolute frequencies, we distinguish between several special usages of
+the target words and their effects on the establishment process. For the web
+corpus, we examine target words appearing in the title of websites and
+metalinguistic usages; for the Twitter corpus, we examine hashtag uses and
+retweets. We find that the use of hashtags and retweets significantly affects
+the spread of the neologisms both on Twitter and on the web.
+Author{1}{Firstname}#=%=#Quirin
+Author{1}{Lastname}#=%=#Würschinger
+Author{1}{Email}#=%=#q.wuerschinger@anglistik.uni-muenchen.de
+Author{1}{Affiliation}#=%=#Ludwig-Maximilians-University Munich
+Author{2}{Firstname}#=%=#Mohammad Fazleh
+Author{2}{Lastname}#=%=#Elahi
+Author{2}{Email}#=%=#Fazleh.Elahi@anglistik.uni-muenchen.de
+Author{2}{Affiliation}#=%=#Ludwig-Maximilians-University Munich
+Author{3}{Firstname}#=%=#Desislava
+Author{3}{Lastname}#=%=#Zhekova
+Author{3}{Email}#=%=#desi@cis.uni-muenchen.de
+Author{3}{Affiliation}#=%=#Ludwig-Maximilians-University Munich
+Author{4}{Firstname}#=%=#Hans-Jörg
+Author{4}{Lastname}#=%=#Schmid
+Author{4}{Email}#=%=#hans-joerg.schmid@anglistik.uni-muenchen.de
+Author{4}{Affiliation}#=%=#Ludwig-Maximilians-University Munich
+
+==========

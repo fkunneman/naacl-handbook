@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Applying Neural Networks to English-Chinese Named Entity Transliteration
+ShortPaperTitle#=%=#Applying Neural Networks to English-Chinese Named Entity Transliteration
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Yan Shao
+JobTitle#==#
+Organization#==#Department of Linguistic and Philology
+Uppsala University 
+Engelska parken, Thunbergsv. 3 H
+Abstract#==#This paper presents the machine transliteration systems that we employ for our
+participation in the NEWS 2016 machine transliteration shared task. Based on
+the prevalent deep learning models developed for general sequence processing
+tasks, we use convolutional neural networks to extract character level
+information from the transliteration units and stack a simple recurrent neural
+network on top for sequence processing. The systems are applied to the standard
+runs for both English to Chinese and Chinese to English transliteration tasks.
+Our systems achieve competitive results according to the official evaluation.
+Author{1}{Firstname}#=%=#Yan
+Author{1}{Lastname}#=%=#Shao
+Author{1}{Email}#=%=#yan.shao@lingfil.uu.se
+Author{1}{Affiliation}#=%=#Uppsala University
+Author{2}{Firstname}#=%=#Joakim
+Author{2}{Lastname}#=%=#Nivre
+Author{2}{Email}#=%=#joakim.nivre@lingfil.uu.se
+Author{2}{Affiliation}#=%=#Uppsala University
+
+==========

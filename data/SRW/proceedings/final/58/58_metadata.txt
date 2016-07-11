@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#58
+FinalPaperTitle#=%=#Building a Corpus for Japanese Wikification with Fine-Grained Entity Classes
+ShortPaperTitle#=%=#Building a Corpus for Japanese Wikification with Fine-Grained Entity Classes
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Koji Matsuda
+JobTitle#==#
+Organization#==#Tohoku University, 6-6-05 Aramakiaza-Aoba, Aoba-ku, Sendai, 980-8579, Japan
+Abstract#==#In this research, we build a Wikification corpus for advancing Japanese Entity 
+Linking. This corpus consists of 340 Japanese newspaper articles with 25,675
+entity mentions. All entity mentions are labeled by a fine-grained semantic
+classes (200 classes), and 19,121 mentions were successfully linked to Japanese
+Wikipedia articles. Even with the fine-grained semantic classes, we found it
+hard to define the target of entity linking annotations and to utilize the
+fine-grained semantic classes to improve the accuracy of entity linking.
+Author{1}{Firstname}#=%=#Davaajav
+Author{1}{Lastname}#=%=#Jargalsaikhan
+Author{1}{Email}#=%=#davaajav@ecei.tohoku.ac.jp
+Author{1}{Affiliation}#=%=#Tohoku University
+Author{2}{Firstname}#=%=#Naoaki
+Author{2}{Lastname}#=%=#Okazaki
+Author{2}{Email}#=%=#okazaki@ecei.tohoku.ac.jp
+Author{2}{Affiliation}#=%=#Tohoku University
+Author{3}{Firstname}#=%=#Koji
+Author{3}{Lastname}#=%=#Matsuda
+Author{3}{Email}#=%=#matsuda@ecei.tohoku.ac.jp
+Author{3}{Affiliation}#=%=#Tohoku University
+Author{4}{Firstname}#=%=#Kentaro
+Author{4}{Lastname}#=%=#Inui
+Author{4}{Email}#=%=#inui@ecei.tohoku.ac.jp
+Author{4}{Affiliation}#=%=#Tohoku University
+
+==========

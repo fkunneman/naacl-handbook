@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#37
+FinalPaperTitle#=%=#A Joint Model for Word Embedding and Word Morphology
+ShortPaperTitle#=%=#A Joint Model for Word Embedding and Word Morphology
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Kris Cao
+JobTitle#==#
+Organization#==#University of Cambridge
+Cambridge
+UK
+Abstract#==#This paper presents a joint model for performing unsupervised morphological
+analysis on words, and learning a character-level composition function from
+morphemes to word embeddings. Our model splits individual words into segments,
+and weights each segment according to its ability to predict context words. Our
+morphological analysis is comparable to dedicated morphological analyzers at
+the task of morpheme boundary recovery, and also performs better than
+word-based embedding models at the task of syntactic analogy answering.
+Finally, we show that incorporating morphology explicitly into character-level
+models helps them produce embeddings for unseen words which correlate better
+with human judgments.
+Author{1}{Firstname}#=%=#Kris
+Author{1}{Lastname}#=%=#Cao
+Author{1}{Email}#=%=#kc391@cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Marek
+Author{2}{Lastname}#=%=#Rei
+Author{2}{Email}#=%=#marek.rei@cl.cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+
+==========

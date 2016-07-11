@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#Genre classification for a corpus of academic webpages
+ShortPaperTitle#=%=#Genre classification for a corpus of academic webpages
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Erika Dalan
+JobTitle#==#
+Organization#==#
+Abstract#==#In this paper we report our analysis of the similarities between webpages that
+are crawled from European academic websites, and comparison of their
+distribution in terms of the English language variety (native English vs
+English as a lingua franca) and their language family (based on the country's
+official language).  After building a corpus of university webpages, we
+selected a set of relevant descriptors that can represent their text types
+using the framework of the Functional Text Dimensions. Manual annotation of a
+random sample of academic pages provides the basis for classifying the
+remaining texts on each dimension.  Reliable thresholds are then determined in
+order to evaluate precision and assess the distribution of text types by each
+dimension, with the ultimate goal of analysing language features over English
+varieties and language families.
+Author{1}{Firstname}#=%=#Erika
+Author{1}{Lastname}#=%=#Dalan
+Author{1}{Email}#=%=#erika.dalan@unibo.it
+Author{1}{Affiliation}#=%=#University of Bologna
+Author{2}{Firstname}#=%=#Serge
+Author{2}{Lastname}#=%=#Sharoff
+Author{2}{Email}#=%=#s.sharoff@leeds.ac.uk
+Author{2}{Affiliation}#=%=#University of Leeds
+
+==========

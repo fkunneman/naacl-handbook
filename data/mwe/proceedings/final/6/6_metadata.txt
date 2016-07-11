@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#Graph-based Clustering of Synonym Senses for German Particle Verbs
+ShortPaperTitle#=%=#Graph-based Clustering of Synonym Senses for German Particle Verbs
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Sabine Schulte im Walde
+JobTitle#==#
+Organization#==#University of Stuttgart, Pfaffenwaldring 5B, 70569 Stuttgart, Germany
+Abstract#==#In this paper, we address the automatic induction of synonym
+  paraphrases for the empirically challenging class of German particle
+  verbs. Similarly to Cocos and Callison-Burch (2016), we incorporate
+  a graph-based clustering approach for word sense discrimination into
+  an existing paraphrase extraction system, (i) to improve the
+  precision of synonym identification and ranking, and (ii) to enlarge
+  the diversity of synonym senses. Our approach significantly improves
+  over the standard system, but does not outperform an extended
+  baseline integrating a simple distributional similarity measure.
+Author{1}{Firstname}#=%=#Moritz
+Author{1}{Lastname}#=%=#Wittmann
+Author{1}{Email}#=%=#moritzwittmann@gmail.com
+Author{1}{Affiliation}#=%=#Universität Stuttgart
+Author{2}{Firstname}#=%=#Marion
+Author{2}{Lastname}#=%=#Weller-Di Marco
+Author{2}{Email}#=%=#wellermn@ims.uni-stuttgart.de
+Author{2}{Affiliation}#=%=#Universität Stuttgart
+Author{3}{Firstname}#=%=#Sabine
+Author{3}{Lastname}#=%=#Schulte im Walde
+Author{3}{Email}#=%=#schulte@ims.uni-stuttgart.de
+Author{3}{Affiliation}#=%=#University of Stuttgart
+
+==========

@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#51
+FinalPaperTitle#=%=#Implicit Semantic Roles in a Multilingual Setting
+ShortPaperTitle#=%=#Implicit Semantic Roles in a Multilingual Setting
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Jennifer Sikos
+JobTitle#==#
+Organization#==#Department of Computational Linguistics
+Heidelberg University
+Abstract#==#Extending semantic role labeling (SRL) to detect and recover non-local
+arguments continues to be a challenge. Our work is the first to address the
+detection of implicit roles from a multilingual perspective. We map
+predicate-argument structures across English and German sentences, and we
+develop a classifier that distinguishes implicit arguments from other
+translation shifts. Using a combination of alignment statistics and linguistic
+features, we achieve a precision of 0.68 despite a limited training set, which
+is a significant gain over the majority baseline. Our approach does not rely on
+pre-existing knowledge bases and is extendible to any language pair with
+parallel data and dependency parses.
+Author{1}{Firstname}#=%=#Jennifer
+Author{1}{Lastname}#=%=#Sikos
+Author{1}{Email}#=%=#jen.sikos@gmail.com
+Author{1}{Affiliation}#=%=#University of Heidelberg
+Author{2}{Firstname}#=%=#Yannick
+Author{2}{Lastname}#=%=#Versley
+Author{2}{Email}#=%=#versley@cl.uni-heidelberg.de
+Author{2}{Affiliation}#=%=#University of Heidelberg
+Author{3}{Firstname}#=%=#Anette
+Author{3}{Lastname}#=%=#Frank
+Author{3}{Email}#=%=#frank@cl.uni-heidelberg.de
+Author{3}{Affiliation}#=%=#Heidelberg Universiy
+
+==========

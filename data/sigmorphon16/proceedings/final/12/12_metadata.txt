@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#A Multilinear Approach to the Unsupervised Learning of Morphology
+ShortPaperTitle#=%=#A Multilinear Approach to the Unsupervised Learning of Morphology
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Anthony Meyer
+JobTitle#==#Student
+Organization#==#Indiana University
+107 S Indiana Ave
+Bloomington, IN 47405
+Abstract#==#We present a novel approach to the unsupervised learning of morphology.  In
+particular, we use a Multiple Cause Mixture Model (MCMM), a type of autoencoder
+network consisting of two node layers---hidden and surface---and a matrix of
+weights connecting hidden nodes to surface nodes. We show that an MCMM shares
+crucial graphical properties with autosegmental morphology. We
+argue on the basis of this graphical similarity that our approach is
+theoretically sound. Experiment results on Hebrew data show that this
+theoretical soundness bears out in practice.
+Author{1}{Firstname}#=%=#Anthony
+Author{1}{Lastname}#=%=#Meyer
+Author{1}{Email}#=%=#antmeyer@indiana.edu
+Author{1}{Affiliation}#=%=#Indiana University
+Author{2}{Firstname}#=%=#Markus
+Author{2}{Lastname}#=%=#Dickinson
+Author{2}{Email}#=%=#md7@indiana.edu
+Author{2}{Affiliation}#=%=#Indiana University
+
+==========

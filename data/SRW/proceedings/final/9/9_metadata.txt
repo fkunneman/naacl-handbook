@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#Controlled and Balanced Dataset for Japanese Lexical Simplification
+ShortPaperTitle#=%=#Controlled and Balanced Dataset for Japanese Lexical Simplification
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Tomonori Kodaira
+JobTitle#==#
+Organization#==#Name: Tokyo Metropolitan University
+Address: 6-6 Asahigaoka, Hino-shi, Tokyo, Japan 191-0065
+Abstract#==#We propose a new dataset for evaluating a Japanese lexical simplification
+method. 
+Previous datasets have several deficiencies. 
+All of them substitute only a single target word, and some of them extract
+sentences only from newswire corpus. 
+In addition, most of these datasets do not allow ties and integrate
+simplification ranking from all the annotators without considering the quality.
+
+In contrast, our dataset has the following advantages: 
+(1) It is the first controlled and balanced dataset for Japanese lexical
+simplification with high correlation with human judgement and (2) the
+consistency of the simplification ranking is improved by allowing candidates to
+have ties and by considering the reliability of annotators.
+Author{1}{Firstname}#=%=#Tomonori
+Author{1}{Lastname}#=%=#Kodaira
+Author{1}{Email}#=%=#sympho-ny@hotmail.co.jp
+Author{1}{Affiliation}#=%=#Tokyo Metropolitan University
+Author{2}{Firstname}#=%=#Tomoyuki
+Author{2}{Lastname}#=%=#Kajiwara
+Author{2}{Email}#=%=#kajiwara-tomoyuki@ed.tmu.ac.jp
+Author{2}{Affiliation}#=%=#Tokyo Metropolitan University
+Author{3}{Firstname}#=%=#Mamoru
+Author{3}{Lastname}#=%=#Komachi
+Author{3}{Email}#=%=#komachi@tmu.ac.jp
+Author{3}{Affiliation}#=%=#Tokyo Metropolitan University
+
+==========

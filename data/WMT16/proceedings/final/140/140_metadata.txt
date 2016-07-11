@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#140
+FinalPaperTitle#=%=#YODA System for WMT16 Shared Task: Bilingual Document Alignment
+ShortPaperTitle#=%=#YODA System for WMT16 Shared Task: Bilingual Document Alignment
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#XXX
+JobTitle#==#
+Organization#==#XXX
+Abstract#==#In this paper, we address the task of automatically aligning/detecting the
+bilingual
+documents that are translations of each other from a single web-domain as part
+of
+WMT 2016. 1 Given the large amounts of data available in each web-domain, a
+brute force approach like finding similarities between every possible pair is a
+computationally
+expensive operation. Therefore, we start with a simple approach on matching
+just the web page urls after some pre-processing to reduce the number of
+possible pairings to a small extent. This simple approach obtained a recall of
+50% and the exact matches from this approach
+are removed from further consideration. We built on top of this using an n-gram
+based approach that uses the partial English translations of French web pages
+and achieved a recall of 93.71% on the training pairs provided. We also outline
+an IR-based approach that uses both content and the meta data of each web page
+url, thereby obtaining a recall of 56.31%. Our
+final submission to this shared task using n-gram based approach achieved a
+recall of 93.92%.
+Author{1}{Firstname}#=%=#Aswarth Abhilash
+Author{1}{Lastname}#=%=#Dara
+Author{1}{Email}#=%=#adara@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Yiu-Chang
+Author{2}{Lastname}#=%=#Lin
+Author{2}{Email}#=%=#yiuchanl@cs.cmu.edu
+Author{2}{Affiliation}#=%=#
+
+==========

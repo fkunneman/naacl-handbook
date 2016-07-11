@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#16
+FinalPaperTitle#=%=#Intrinsic Evaluations of Word Embeddings: What Can We Do Better?
+ShortPaperTitle#=%=#Intrinsic Evaluations of Word Embeddings: What Can We Do Better?
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Gladkova
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper presents an analysis of existing methods for the intrinsic
+evaluation of word embeddings. We show that the main methodological premise of
+such evaluations is ``interpretability" of word embeddings: a ``good" embedding
+produces results that make sense in terms of traditional linguistic categories.
+This approach is not only of limited practical use, but also fails to do
+justice to the strengths of distributional meaning representations. We argue
+for a shift from abstract ratings of word embedding ``quality" to exploration
+of their strengths and weaknesses.
+Author{1}{Firstname}#=%=#Anna
+Author{1}{Lastname}#=%=#Gladkova
+Author{1}{Email}#=%=#anna.gld@gmail.com
+Author{1}{Affiliation}#=%=#University of Tokyo
+Author{2}{Firstname}#=%=#Aleksandr
+Author{2}{Lastname}#=%=#Drozd
+Author{2}{Email}#=%=#alexander.drozd@gmail.com
+Author{2}{Affiliation}#=%=#Tokyo Institute of Technology
+
+==========

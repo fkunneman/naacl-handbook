@@ -1,0 +1,19 @@
+SubmissionNumber#=%=#15
+FinalPaperTitle#=%=#MMFeat: A Toolkit for Extracting Multi-Modal Features
+ShortPaperTitle#=%=#MMFeat: A Toolkit for Extracting Multi-Modal Features
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Douwe Kiela
+JobTitle#==#
+Organization#==#
+Abstract#==#Research at the intersection of language and other modalities, most notably
+vision, is becoming increasingly important in our field. We introduce a toolkit
+that can be used to obtain feature representations for visual as well as
+auditory information. MMFEAT is an easy-to-use Python toolkit, which has been
+developed with the purpose of making non-linguistic modalities more accessible
+to natural language processing researchers.
+Author{1}{Firstname}#=%=#Douwe
+Author{1}{Lastname}#=%=#Kiela
+Author{1}{Email}#=%=#douwe.kiela@cl.cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge Computer Laboratory
+
+==========

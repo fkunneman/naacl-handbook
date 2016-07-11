@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#114
+FinalPaperTitle#=%=#Phrase Table Pruning via Submodular Function Maximization
+ShortPaperTitle#=%=#Phrase Table Pruning via Submodular Function Maximization
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Masaaki Nishino
+JobTitle#==#Researcher
+Organization#==#NTT Communication Science Laboratories, NTT Corporation
+2-4 Hikaridai, Seika-cho, Soraku-gun, Kyoto, 619-0237, Japan
+Abstract#==#Phrase table pruning is the act of removing phrase pairs from a
+phrase table to make it smaller, ideally removing the least useful
+phrases first.
+ We propose a phrase table pruning method that formulates the task as a
+ submodular function maximization problem,
+ and solves it by using a greedy heuristic algorithm. 
+ The proposed method can scale with input size              and long phrases, and
+ experiments show that it achieves higher BLEU scores than
+ state-of-the-art pruning methods.
+Author{1}{Firstname}#=%=#Masaaki
+Author{1}{Lastname}#=%=#Nishino
+Author{1}{Email}#=%=#nishino.masaaki@lab.ntt.co.jp
+Author{1}{Affiliation}#=%=#NTT Communication Science Laboratories
+Author{2}{Firstname}#=%=#Jun
+Author{2}{Lastname}#=%=#Suzuki
+Author{2}{Email}#=%=#suzuki.jun@lab.ntt.co.jp
+Author{2}{Affiliation}#=%=#NTT CS Lab.
+Author{3}{Firstname}#=%=#Masaaki
+Author{3}{Lastname}#=%=#Nagata
+Author{3}{Email}#=%=#nagata.masaaki@lab.ntt.co.jp
+Author{3}{Affiliation}#=%=#+81-774-93-5235
+
+==========

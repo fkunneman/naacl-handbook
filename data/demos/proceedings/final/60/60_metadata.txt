@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#60
+FinalPaperTitle#=%=#MUSEEC: A Multilingual Text Summarization Tool
+ShortPaperTitle#=%=#MUSEEC: A Multilingual Text Summarization Tool
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Marina Litvak
+JobTitle#==#
+Organization#==#Shamoon College of Engineering and Ben-Gurion University of the Negev, Israel
+Abstract#==#The MUSEEC (MUltilingual SEntence Extraction and Compression) summarization
+tool implements several extractive summarization techniques – at the level of
+complete and compressed sentences – that can be applied, with some minor
+adaptations, to documents in multiple languages.
+The current version of MUSEEC provides the following summarization methods:
+(1) MUSE – a supervised summarizer, based on a genetic algorithm (GA),
+that ranks document sentences and extracts top–ranking sentences into a
+summary, (2) POLY – an unsupervised summarizer, based on linear programming
+(LP), that selects the best extract of document sentences, and (3) WECOM – an
+unsupervised extension of POLY that compiles a document summary from compressed
+sentences. In this paper, we provide an overview of MUSEEC methods
+and its architecture in general.
+Author{1}{Firstname}#=%=#Marina
+Author{1}{Lastname}#=%=#Litvak
+Author{1}{Email}#=%=#marinal@sce.ac.il
+Author{1}{Affiliation}#=%=#Shamoon College of Engineering
+Author{2}{Firstname}#=%=#Natalia
+Author{2}{Lastname}#=%=#Vanetik
+Author{2}{Email}#=%=#natalyav@sce.ac.il
+Author{2}{Affiliation}#=%=#Shamoon College of engineering
+Author{3}{Firstname}#=%=#Mark
+Author{3}{Lastname}#=%=#Last
+Author{3}{Email}#=%=#mlast@bgu.ac.il
+Author{3}{Affiliation}#=%=#Ben-Gurion University of the Negev
+Author{4}{Firstname}#=%=#Elena
+Author{4}{Lastname}#=%=#Churkin
+Author{4}{Email}#=%=#elena.chk@gmail.com
+Author{4}{Affiliation}#=%=#Shamoon College of Engineering
+
+==========

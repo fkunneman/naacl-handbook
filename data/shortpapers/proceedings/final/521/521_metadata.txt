@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#521
+FinalPaperTitle#=%=#Incremental Parsing with Minimal Features Using Bi-Directional LSTM
+ShortPaperTitle#=%=#Incremental Parsing with Minimal Features Using Bi-Directional LSTM
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#James Cross
+JobTitle#==#
+Organization#==#Oregon State University
+Corvallis, OR USA
+Abstract#==#Recently, neural network approaches for parsing have largely automated the
+combination of individual features,  but still rely on atomic features created
+from human linguistic intuition, 
+and potentially omitting important global context. To further reduce feature
+engineering, we use bi-directional LSTM sentence representations and model a
+parser state with only three sentence positions, which allows the model to
+automatically identify important aspects of the entire sentence. This model
+achieves state-of-the-art results among greedy dependency parsers for English.
+We also introduce a novel transition system for constituency parsing which does
+not require binarization, and together with the above architecture, achieves
+state-of-the-art results among greedy parsers for both English and Chinese.
+Author{1}{Firstname}#=%=#James
+Author{1}{Lastname}#=%=#Cross
+Author{1}{Email}#=%=#james.henry.cross.iii@gmail.com
+Author{1}{Affiliation}#=%=#Oregon State University
+Author{2}{Firstname}#=%=#Liang
+Author{2}{Lastname}#=%=#Huang
+Author{2}{Email}#=%=#liang.huang.sh@gmail.com
+Author{2}{Affiliation}#=%=#City University of New York (CUNY)
+
+==========

@@ -1,0 +1,247 @@
+%
+% File ACL2016.tex
+%
+
+\documentclass[11pt]{article}
+\usepackage{acl2016}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{listings}
+\usepackage[implicit=false,hidelinks]{hyperref}
+
+\aclfinalcopy % Uncomment this line for the final submission
+%\def\aclpaperid{***} %  Enter the acl Paper ID here
+
+% To expand the titlebox for more authors, uncomment
+% below and set accordingly.
+% \addtolength\titlebox{.5in}    
+
+\title{{\sc MMFeat}: A Toolkit for Extracting Multi-Modal Features}
+
+\author{Douwe Kiela\\
+	    Computer Laboratory\\
+	    University of Cambridge\\
+	    {\tt douwe.kiela@cl.cam.ac.uk}
+%	  \And
+%	Stephen Clark\\
+%  	Computer Laboratory\\
+%  	University of Cambridge\\
+%	  {\tt stephen.clark@cl.cam.ac.uk}
+}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Research at the intersection of language and other modalities, most notably vision, is becoming increasingly important in natural language processing. We introduce a toolkit that can be used to obtain feature representations for visual and auditory information. {\sc MMFeat} is an easy-to-use Python toolkit, which has been developed with the purpose of making non-linguistic modalities more accessible to natural language processing researchers.
+\end{abstract}
+
+\section{Introduction}
+
+Distributional models are built on the assumption that the meaning of a word is represented as a distribution over others \cite{Turney:2010jair,Clark:2015book}, which implies that they suffer from the grounding problem \cite{Harnad:1990}. That is, they do not account for the fact that human semantic knowledge is grounded in the perceptual system \cite{Louwerse:2011tcs}. There has been a lot of interest within the Natural Language Processing community for making use of extra-linguistic perceptual information, much of it in a subfield called multi-modal semantics. Such multi-modal models outperform language-only models on a range of tasks, including modelling semantic similarity and relatedness \cite{Bruni:2014jair,Silberer:2014acl}, improving lexical entailment \cite{Kiela:2015acl-entailment}, predicting compositionality \cite{Roller:2013emnlp}, bilingual lexicon induction \cite{Bergsma:2011ijcai} and metaphor identification \cite{Shutova:2016naacl}. Although most of this work has relied on vision for the perceptual input, recent approaches have also used auditory \cite{Lopopolo:2015iwcs,Kiela:2015emnlpa} and even olfactory \cite{Kiela:2015acl} information.
+
+In this demonstration paper, we describe {\sc MMFeat}, a Python toolkit that makes it easy to obtain images and sound files and extract visual or auditory features from them. The toolkit includes two standalone command-line tools that do not require any knowledge of the Python programming language: one that can be used for automatically obtaining files from a variety of sources, including Google, Bing and FreeSound (\emph{miner.py}); and one that can be used for extracting different types of features from directories of data files (\emph{extract.py}). In addition, the package comes with code for manipulating multi-modal spaces and several demos to illustrate the wide range of applications. The toolkit is open source under the BSD license and available at \url{https://github.com/douwekiela/mmfeat}.
+
+\section{Background}
+
+\subsection{Bag of multi-modal words}
+
+Although it is possible to ground distributional semantics in perception using e.g. co-occurrence patterns of image tags \cite{Baroni:2008ijl} or surrogates of human semantic knowledge such as feature norms \cite{Andrews:2009pr}, the \emph{de facto} method for grounding representations in perception has relied on processing raw image data \cite{Baroni:2016compass}. The traditional method for obtaining visual representations \cite{Feng:2010naacl,Leong:2011ijcnlp,Bruni:2011gems} has been to apply the bag-of-visual-words (BoVW) approach \cite{Sivic:2003iccv}. The method can be described as follows:
+
+\begin{enumerate}
+\item obtain relevant images for a word or set of words;
+\vspace{-10pt}
+\item for each image, get local feature descriptors;
+\vspace{-10pt}
+\item cluster feature descriptors with k-means to find the centroids, a.k.a. the ``visual words'';
+\vspace{-10pt}
+\item quantize the local descriptors by comparing them to the cluster centroids; and
+\vspace{-10pt}
+\item combine relevant image representations into an overall visual representation for a word.
+\end{enumerate}
+
+The local feature descriptors in step (2) tend to be variants of the dense scale-invariant feature transform (SIFT) algorithm \cite{Lowe:2004ijcv}, where an image is laid out as a dense grid and feature descriptors are computed for each keypoint.
+
+A similar method has recently been applied to the auditory modality \cite{Lopopolo:2015iwcs,Kiela:2015emnlpa}, using sound files from FreeSound \cite{Font:2013acm}. Bag-of-audio-words (BoAW) uses mel-frequency cepstral coefficients (MFCCs) \cite{o1987speech} for the local descriptors, although other local frame representations may also be used. In MFCC, frequency bands are spaced along the mel scale \cite{Stevens:1937}, which has the advantage that it approximates human auditory perception more closely than e.g. linearly-spaced frequency bands.
+
+\subsection{Convolutional neural networks}
+
+In computer vision, the BoVW method has been superseded by deep convolutional neural networks (CNNs) \cite{LeCun:1998cnn,Krizhevsky:2012nips}. \newcite{Kiela:2014emnlp} showed that such networks learn high-quality representations that can successfully be transfered to natural language processing tasks. Their method works as follows:
+
+\begin{enumerate}
+\item obtain relevant images for a word or set of words;
+\vspace{-10pt}
+\item for each image, do a forward pass through a CNN trained on an image recognition task and extract the pre-softmax layer;
+\vspace{-10pt}
+\item combine relevant image representations into an overall visual representation for a word.
+\end{enumerate}
+
+\noindent They used the pre-softmax layer (referred to as FC7) from a CNN trained by \newcite{Oquab:2014cvpr}, which was an adaptation of the well-known CNN by \newcite{Krizhevsky:2012nips} that played a key role in the deep learning revolution in computer vision \cite{Razavian:2014cnn,LeCun:2015nature}. Such CNN-derived representations perform much better than BoVW features and have since been used in a variety of NLP applications \cite{Kiela:2015emnlp-bli,Lazaridou:2015nips,Shutova:2016naacl,Bulat:2016naacl}.
+
+\subsection{Related work}
+
+The process for obtaining perceptual representations thus involves three distinct steps: obtaining files relevant to words or phrases, obtaining representations for the files, and aggregating these into visual or auditory representations. To our knowledge, this is the first toolkit that spans this entire process. There are libraries that cover some of these steps. Notably, VSEM \cite{Bruni:2013vsem} is a Matlab library for visual semantics representation that implements BoVW and useful functionality for manipulating visual representations. DISSECT \cite{Dinu:2013dissect} is a toolkit for distributional compositional semantics that makes it easy to work with (textual) distributional spaces. \newcite{Lopopolo:2015iwcs} have also released their code for obtaning BoAW representations\footnote{https://github.com/evanmiltenburg/soundmodels-iwcs}.
+
+\section{MMFeat Overview}
+
+The MMFeat toolkit is written in Python. There are two command-line tools (described below) for obtaining files and extracting representations that do not require any knowledge of Python. The Python interface maintains a modular structure and contains the following modules:
+
+\begin{itemize}
+\item mmfeat.miner
+\vspace{-10pt}
+\item mmfeat.bow
+\vspace{-10pt}
+\item mmfeat.cnn
+\vspace{-10pt}
+\item mmfeat.space
+\end{itemize}
+
+\noindent Source files (images or sounds) can be obtained with the \emph{miner} module, although this is not a requirement: it is straightforward to build an index of a data directory that matches words or phrases with relevant files. The miner module automatically generates this index, a Python dictionary mapping labels to lists of filenames, which is stored as a Python pickle file \emph{index.pkl} in the data directory. The index is used by the \emph{bow} and \emph{cnn} modules, which together form the core of the package for obtaining perceptual representations. The \emph{space} package allows for the manipulation and combination of multi-modal spaces.
+
+\paragraph{miner} Three data sources are currently supported: Google Images\footnote{https://images.google.com} (GoogleMiner), Bing Images\footnote{https://www.bing.com/images} (BingMiner) and FreeSound\footnote{https://www.freesound.org} (FreeSoundMiner). All three of them require API keys, which can be obtained online and are stored in the \emph{miner.yaml} settings file in the root folder.
+
+\paragraph{bow} The bag-of-words methods are contained in this module. BoVW and BoAW are accessible through the mmfeat.bow.vw and mmfeat.bow.aw modules respectively, through the BoVW and BoAW classes. These classes obtain feature descriptors and perform clustering and quantization through a standard set of methods. BoVW uses dense SIFT for its local feature descriptors; BoAW uses MFCC. The modules also contain an interface for loading local feature descriptors from Matlab, allowing for simple integraton with e.g. VLFeat\footnote{http://www.vlfeat.org}. The centroids obtained by the clustering (sometimes also called the ``codebook'') are stored in the data directory for re-use at a later stage.
+
+\paragraph{cnn} The CNN module uses Python bindings to the Caffe deep learning framework \cite{Jia:2014mm}. It supports the pre-trained reference adaptation of AlexNet \cite{Krizhevsky:2012nips}, GoogLeNet \cite{Szegedy:2015cvpr} and VGGNet \cite{Simonyan:2015iclr}. The interface is identical to the \emph{bow} interface.
+
+\paragraph{space} An additional module is provided for making it easy to manipulate perceptual representations. The module contains methods for aggregating image or sound file representations into visual or auditory representations; combining perceptual representations with textual representations into multi-modal ones; computing nearest neighbors and similarity scores; and calculating Spearman $\rho_s$ correlation scores relative to human similarity and relatedness judgments.
+
+\subsection{Dependencies}
+
+MMFeat has the following dependencies: \emph{scipy}, \emph{scikit-learn} and \emph{numpy}. These are standard Python libraries that are easy to install using your favorite package manager. The BoAW module additionally requires \emph{librosa}\footnote{https://github.com/bmcfee/librosa} to obtain MFCC descriptors. The CNN module requires Caffe\footnote{http://caffe.berkeleyvision.org}. It is recommended to make use of Caffe's GPU support, if available, for increased processing speeds. More detailed installation instructions are provided in the readme file online and in the documentation of the respective projects.
+
+\section{Tools}
+
+MMFeat comes with two easy-to-use command-line tools for those unfamiliar with the Python programming language.
+
+\subsection{Mining: \emph{miner.py}}
+
+The \emph{miner.py} tool takes three arguments: the data source (bing, google or freesound), a query file that contains a line-by-line list of queries, and a data directory to store the mined image or sound files in. Its usage is as follows:
+
+\begin{small}
+\begin{verbatim}
+miner.py {bing,google,freesound} \
+   query_file data_dir [-n int]
+\end{verbatim}
+\end{small}
+
+\noindent The -n option can be used to specify the number of images to download per query. The following examples show how to use the tool to get 10 images from Bing and 100 sound files from FreeSound for the queries ``dog'' and ``cat'':
+
+\begin{small}
+\begin{verbatim}
+$ echo -e "dog\ncat" > queries.txt
+$ python miner.py -n 10 bing \
+   queries.txt ./img_data_dir
+$ python miner.py -n 100 freesound \
+   queries.txt ./sound_data_dir
+\end{verbatim}
+\end{small}
+
+\subsection{Feature extraction: \emph{extract.py}}
+
+The \emph{extract.py} tool takes three arguments: the type of model to apply (boaw, bovw or cnn), the data directory where relevant files and the index are stored, and the output file where the representations are written to. Its usage is as follows:
+
+\begin{small}
+\begin{verbatim}
+extract.py [-k int] [-c string] \
+   [-o {pickle,json,csv}] [-s float] \
+   [-m {vgg,alexnet,googlenet}] \
+   {boaw,bovw,cnn} data_dir out_file
+\end{verbatim}
+\end{small}
+
+\noindent The -k option sets the number of clusters to use in the bag of words methods (the $k$ in k-means). The -c option allows for pointing to an existing codebook, if available. The -s option allows for subsampling the number of files to use for the clustering process (which can require significant amounts of memory) and is in the range 0-1. The tool can output representation in Python pickle, JSON and CSV formats. The following examples show how the three models can easily be applied:
+
+\begin{small}
+\begin{verbatim}
+python extract.py -k 100 -s 0.1 bovw \
+   ./img_data_dir ./output_vectors.pkl
+python extract.py -gpu -o json cnn \
+   ./img_data_dir ./output_vectors.json
+python extract.py -k 300 -s 0.5 -o csv \
+   boaw ./sound_data_dir ./out_vecs.csv
+\end{verbatim}
+\end{small}
+
+\section{Getting Started}
+
+The command-line tools mirror the Python interface, which allows for more fine-grained control over the process. In what follows, we walk through an example illustrating the process. The code should be self-explanatory.
+
+\paragraph{Mining} The first step is to mine some images from Google Images:
+
+\begin{small}
+\begin{verbatim}
+datadir = '/path/to/data'
+words = ['dog', 'cat']
+n_images = 10
+
+from mmfeat.miner import *
+
+miner = GoogleMiner(datadir, \
+          '/path/to/miner.yaml')
+miner.getResults(words, n_images)
+miner.save()
+\end{verbatim}
+\end{small}
+
+\paragraph{Applying models} We then apply both the BoVW and CNN models, in a manner familiar to scikit-learn users, by calling the fit() method:
+
+\begin{small}
+\begin{verbatim}
+from mmfeat.bow import *
+from mmfeat.cnn import *
+
+b = BoVW(k=100, subsample=0.1)
+c = CNN(modelType='alexnet', gpu=True)
+b.load(data_dir)
+b.fit()
+c.load(data_dir)
+c.fit()
+\end{verbatim}
+\end{small}
+
+\paragraph{Building the space} We subsequently construct the aggregated space of visual representations and print these to the screen:
+
+\begin{small}
+\begin{verbatim}
+from mmfeat.space import *
+
+for lkp in [b.toLookup(), c.toLookup()]:
+    vs = AggSpace(lkp, 'mean')
+    print vs.space
+\end{verbatim}
+\end{small}
+
+\noindent These short examples are meant to show how one can straightforwardly obtain perceptual representations that can be applied in a wide variety of experiments.
+
+\section{Demos}
+
+To illustrate the range of possible applications, the toolkit comes with a set of demonstrations of its usage. The following demos are available:
+
+\paragraph{1-Similarity and relatedness} The demo downloads images for the concepts in the well-known MEN \cite{Bruni:2012acl} and SimLex-999 \cite{Hill:2014arxiv} datasets, obtains CNN-derived visual representations and calculates the Spearman $\rho_s$ correlations for textual, visual and multi-modal representations.
+
+\paragraph{2-ESP game} To illustrate that it is not necessary to mine images or sound files and that an existing data directory can be used, this demo builds an index for the ESP Game dataset \cite{von2004labeling} and obtains and stores CNN representations for future use in other applications.
+
+\paragraph{3-Matlab interface} To show that local feature descriptors from Matlab can be used, this demo contains Matlab code (\emph{run\_dsift.m}) that uses VLFeat to obtain descriptors, which are then used in the BoVW model to obtain visual representations.
+
+\paragraph{4-Instrument clustering} The demo downloads sound files from FreeSound for a set of instruments and applies BoAW. The mean auditory representations are clustered and the cluster assignments are reported to the screen, showing similar instruments in similar clusters.
+
+\paragraph{5-Image dispersion} This demo obtains images for the concepts of \emph{elephant} and \emph{happiness} and applies BoVW. It then shows that the former has a lower image dispersion score and is consequently more concrete than the latter, as described in \newcite{Kiela:2014acl}.
+
+\section{Conclusions}
+
+The field of natural language processing has broadened in scope to address increasingly challenging tasks. While the core NLP tasks will remain predominantly focused on linguistic input, it is important to address the fact that humans acquire and apply language in perceptually rich environments. Moving towards human-level AI will require the integration and modeling of multiple modalities beyond language.
+
+Advances in multi-modal semantics show how textual information can fruitfully be combined with other modalities, opening up many avenues for further exploration. Some NLP researchers may consider non-textual modalities challenging or outside of their area of expertise. We hope that this toolkit enables them in carrying out research that uses extra-linguistic input.
+
+\section*{Acknowledgments}
+
+The author was supported by EPSRC grant EP/I037512/1 and would like to thank Anita Ver\"o, Stephen Clark and the reviewers for helpful suggestions.
+
+\bibliography{references}
+\bibliographystyle{acl2016}
+
+\end{document}

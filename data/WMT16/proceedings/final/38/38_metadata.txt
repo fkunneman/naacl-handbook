@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#38
+FinalPaperTitle#=%=#Fast and highly parallelizable phrase table for statistical machine translation
+ShortPaperTitle#=%=#Fast and highly parallelizable phrase table for statistical machine translation
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Nikolay Bogoychev
+JobTitle#==#
+Organization#==#The University of Edinburgh, Informatics Forum, 10 Crichton St, Edinburgh, Midlothian EH8 9AB, United Kingdom
+Abstract#==#Speed of access is a very important property for phrase tables in phrase based
+statistical machine translation as they are queried many times per sentence. 
+  In this paper we present a new standalone phrase table, optimized for query
+speed and memory locality. The phrase table is cache free and can optionally
+incorporate a reordering table within. We are able to achieve two times faster
+decoding by using our phrase table in the Moses decoder in place of the current
+state-of-the-art phrase table solution without sacrificing translation quality.
+Using a new, experimental version of Moses we are able to achieve 10 times
+faster decoding using our novel phrase table.
+Author{1}{Firstname}#=%=#Nikolay
+Author{1}{Lastname}#=%=#Bogoychev
+Author{1}{Email}#=%=#n.bogoych@ed.ac.uk
+Author{1}{Affiliation}#=%=#The University of Edinburgh
+Author{2}{Firstname}#=%=#Hieu
+Author{2}{Lastname}#=%=#Hoang
+Author{2}{Email}#=%=#hieuhoang@gmail.com
+Author{2}{Affiliation}#=%=#University of Edinburgh
+
+==========

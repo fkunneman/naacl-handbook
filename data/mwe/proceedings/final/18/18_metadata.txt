@@ -1,0 +1,47 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#Learning Paraphrasing for Multiword Expressions
+ShortPaperTitle#=%=#Learning Paraphrasing for Multiword Expressions
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Seid Muhie Yimam
+JobTitle#==#
+Organization#==#Technische Universität Darmstadt
+Fachbereich Informatik
+Fachgebiet Sprachtechnologie / Language Technology 
+Hochschulstr. 10
+64289 Darmstadt 
+Deutschland
+Abstract#==#In this paper, we  investigate the impact of context for the paraphrase ranking
+task, comparing and quantifying results for multiword expressions and single
+words. We focus on systematic integration of existing paraphrase resources to
+produce paraphrase candidates and later ask human annotators to judge
+paraphrasability in context. 
+
+We first conduct a paraphrase-scoring annotation task with and without context
+for targets that are i) single- and multi-word expressions ii) verbs and nouns.
+We quantify how differently annotators score paraphrases when context
+information is provided. Furthermore, we report on experiments with automatic
+paraphrase ranking. If we regard the problem as a binary classification
+task, we obtain an F1--score of 81.56% and 79.87% for multiword expressions
+and single words resp. using kNN classifier. Approaching the problem as a
+learning-to-rank task, we attain MAP scores up to 87.14%  and 91.58% for
+multiword expressions and single words resp.  using LambdaMART, thus yielding
+high-quality contextualized paraphrased selection. Further, we provide the
+first dataset with paraphrase judgments for multiword targets in context.
+Author{1}{Firstname}#=%=#Seid Muhie
+Author{1}{Lastname}#=%=#Yimam
+Author{1}{Email}#=%=#seidymam@gmail.com
+Author{1}{Affiliation}#=%=#TU Darmstadt, Language Technology
+Author{2}{Firstname}#=%=#Héctor
+Author{2}{Lastname}#=%=#Martínez Alonso
+Author{2}{Email}#=%=#hector.martinez-alonso@inria.fr
+Author{2}{Affiliation}#=%=#University of Paris 7 - INRIA
+Author{3}{Firstname}#=%=#Martin
+Author{3}{Lastname}#=%=#Riedl
+Author{3}{Email}#=%=#riedl@cs.tu-darmstadt.de
+Author{3}{Affiliation}#=%=#TU Darmstadt
+Author{4}{Firstname}#=%=#Chris
+Author{4}{Lastname}#=%=#Biemann
+Author{4}{Email}#=%=#biem@cs.tu-darmstadt.de
+Author{4}{Affiliation}#=%=#TU Darmstadt
+
+==========

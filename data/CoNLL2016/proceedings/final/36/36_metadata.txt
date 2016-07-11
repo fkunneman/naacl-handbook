@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#36
+FinalPaperTitle#=%=#Substring-based unsupervised transliteration with phonetic and contextual knowledge
+ShortPaperTitle#=%=#Substring-based unsupervised transliteration with phonetic and contextual knowledge
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Anoop Kunchukuttan
+JobTitle#==#
+Organization#==#Indian Institute of Technology Bombay
+Powai
+Mumbai - 400076
+India
+Abstract#==#We propose an unsupervised approach for substring-based transliteration which
+incorporates two new sources of knowledge in the learning process: (i) context
+by learning substring mappings, as opposed to single character mappings, and
+(ii) phonetic features which capture cross-lingual character similarity via
+prior distributions. 
+
+Our approach is a two-stage iterative, boot-strapping solution, which vastly
+outperforms Ravi and Knight (2009)'s state-of-the-art unsupervised
+transliteration method and outperforms a rule-based baseline by up to 50% for
+top-1 accuracy on multiple language pairs. We show that substring-based models
+are superior to character-based models, and observe that their top-10 accuracy
+is comparable to the top-1 accuracy of supervised systems. 
+
+Our method only requires a phonemic representation of the words. This is
+possible for many language-script combinations which have a high
+grapheme-to-phoneme correspondence e.g. scripts of Indian languages derived
+from the Brahmi script. Hence, Indian languages were the focus of our
+experiments. For other languages, a grapheme-to-phoneme converter would be
+required.
+Author{1}{Firstname}#=%=#Anoop
+Author{1}{Lastname}#=%=#Kunchukuttan
+Author{1}{Email}#=%=#anoopk@cse.iitb.ac.in
+Author{1}{Affiliation}#=%=#IIT Bombay
+Author{2}{Firstname}#=%=#Pushpak
+Author{2}{Lastname}#=%=#Bhattacharyya
+Author{2}{Email}#=%=#pushpakbh@gmail.com
+Author{2}{Affiliation}#=%=#CSE Department, IIT Bombay
+Author{3}{Firstname}#=%=#Mitesh M.
+Author{3}{Lastname}#=%=#Khapra
+Author{3}{Email}#=%=#khapra.mitesh@gmail.com
+Author{3}{Affiliation}#=%=#IBM Research India
+
+==========

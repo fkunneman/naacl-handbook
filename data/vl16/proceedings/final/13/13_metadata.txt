@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#Text2voronoi: An Image-driven Approach to Differential Diagnosis
+ShortPaperTitle#=%=#Text2voronoi: An Image-driven Approach to Differential Diagnosis
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Tolga Uslu
+JobTitle#==#
+Organization#==#Goethe University Frankfurt
+Abstract#==#Differential diagnosis aims at distinguishing between diseases causing similar
+symptoms. This is exemplified by epilepsies and dissociative disorders.
+Recently, it has been shown that linguistic features of physician-patient talks
+allow for differentiating between these two diseases. Since this method relies
+on trained linguists, it is not suitable for daily use. In this paper, we
+introduce a novel approach, called text2voronoi, for utilizing the paradigm of
+text visualization to reconstruct differential diagnosis as a task of text
+categorization. In line with current research on linguistic differential
+diagnosis, we explore linguistic characteristics of physician-patient talks to
+span our feature space. However, unlike standard approaches to categorization,
+we do not use linguistic feature spaces directly, but explore visual features
+derived from the talks’ pictorial representations. That is, we provide an
+approach to image-driven differential diagnosis. By example of 24 talks of
+epileptics and dissociatively disordered patients, we show that our approach
+outperforms its counterpart based on the bag-of-words model.
+Author{1}{Firstname}#=%=#Alexander
+Author{1}{Lastname}#=%=#Mehler
+Author{1}{Email}#=%=#mehler@em.uni-frankfurt.de
+Author{1}{Affiliation}#=%=#Goethe-University Frankfurt am Main
+Author{2}{Firstname}#=%=#Tolga
+Author{2}{Lastname}#=%=#Uslu
+Author{2}{Email}#=%=#uslu@em.uni-frankfurt.de
+Author{2}{Affiliation}#=%=#Goethe University of Frankfurt
+Author{3}{Firstname}#=%=#Wahed
+Author{3}{Lastname}#=%=#Hemati
+Author{3}{Email}#=%=#hemati@em.uni-frankfurt.de
+Author{3}{Affiliation}#=%=#Goethe-Universität
+
+==========

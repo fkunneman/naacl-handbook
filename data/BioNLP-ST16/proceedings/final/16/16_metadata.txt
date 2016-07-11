@@ -1,0 +1,50 @@
+SubmissionNumber#=%=#16
+FinalPaperTitle#=%=#Overview of the Bacteria Biotope Task at BioNLP Shared Task 2016
+ShortPaperTitle#=%=#Overview of the Bacteria Biotope Task at BioNLP Shared Task 2016
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Louise Deleger
+JobTitle#==#
+Organization#==#INRA
+Domaine de Vilvert
+78350 Jouy-en-Josas
+FRANCE
+Abstract#==#This paper presents the Bacteria Biotope task of the BioNLP Shared Task 2016,
+which follows the previous 2013 and 2011 editions. The task focuses on the
+extraction of the locations (biotopes and geographical places) of bacteria from
+PubMed abstracts and the characterization of bacteria and their associated
+habitats with respect to reference knowledge sources (NCBI taxonomy,
+OntoBiotope ontology). The task is motivated by the importance of the knowledge
+on bacteria habitats for fundamental research and applications in microbiology.
+The paper describes the different proposed subtasks, the corpus
+characteristics, the challenge organization, and the evaluation metrics. We
+also provide an analysis of the results obtained by participants.
+Author{1}{Firstname}#=%=#Louise
+Author{1}{Lastname}#=%=#Deléger
+Author{1}{Email}#=%=#louise.deleger@jouy.inra.fr
+Author{1}{Affiliation}#=%=#INRA
+Author{2}{Firstname}#=%=#Robert
+Author{2}{Lastname}#=%=#Bossy
+Author{2}{Email}#=%=#robert.bossy@jouy.inra.fr
+Author{2}{Affiliation}#=%=#Instiut National de la Recherche Agronomique
+Author{3}{Firstname}#=%=#Estelle
+Author{3}{Lastname}#=%=#Chaix
+Author{3}{Email}#=%=#estelle.chaix@jouy.inra.fr
+Author{3}{Affiliation}#=%=#INRA
+Author{4}{Firstname}#=%=#Mouhamadou
+Author{4}{Lastname}#=%=#Ba
+Author{4}{Email}#=%=#Mouhamadou.Ba@jouy.inra.fr
+Author{4}{Affiliation}#=%=#INRA
+Author{5}{Firstname}#=%=#Arnaud
+Author{5}{Lastname}#=%=#Ferré
+Author{5}{Email}#=%=#Arnaud.Ferre@jouy.inra.fr
+Author{5}{Affiliation}#=%=#INRA
+Author{6}{Firstname}#=%=#Philippe
+Author{6}{Lastname}#=%=#Bessières
+Author{6}{Email}#=%=#philippe.bessieres@jouy.inra.fr
+Author{6}{Affiliation}#=%=#INRA
+Author{7}{Firstname}#=%=#Claire
+Author{7}{Lastname}#=%=#Nédellec
+Author{7}{Email}#=%=#claire.nedellec@jouy.inra.fr
+Author{7}{Affiliation}#=%=#INRA
+
+==========

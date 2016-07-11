@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#Towards a Formal Representation of Components of German Compounds
+ShortPaperTitle#=%=#Towards a Formal Representation of Components of German Compounds
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Thierry Declerck
+JobTitle#==#
+Organization#==#DFKI GmbH
+Stuhlsatzenhausweg, 3
+D-66123 Saarbrücken
+Abstract#==#This paper presents an approach for the formal representation 
+of components in German compounds. 
+We assume that such a formal representation 
+will support the segmentation and analysis of unseen compounds that
+feature components already seen in other compounds. 
+An extensive language resource that explicitly 
+codes components of compounds is GermaNet, a lexical semantic network for
+German. We summarize the GermaNet approach to the description of compounds,
+discussing some of its shortcomings. 
+Our proposed extension of this representation 
+builds on the lemon lexicon model for ontologies,
+established by the W3C Ontology Lexicon Community Group.
+Author{1}{Firstname}#=%=#Thierry
+Author{1}{Lastname}#=%=#Declerck
+Author{1}{Email}#=%=#declerck@dfki.de
+Author{1}{Affiliation}#=%=#DFKI GmbH
+Author{2}{Firstname}#=%=#Piroska
+Author{2}{Lastname}#=%=#Lendvai
+Author{2}{Email}#=%=#piroska.r@gmail.com
+Author{2}{Affiliation}#=%=#Dept. of Computational Linguistics, Saarland University
+
+==========

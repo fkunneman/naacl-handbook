@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#54
+FinalPaperTitle#=%=#CharacTer: Translation Edit Rate on Character Level
+ShortPaperTitle#=%=#CharacTer: Translation Edit Rate on Character Level
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Weiyue Wang
+JobTitle#==#
+Organization#==#Human Language Technology and Pattern Recognition, Computer Science Department
+RWTH Aachen University
+52056 Aachen
+Germany
+Abstract#==#Recently, the capability of character-level evaluation measures for machine
+translation output has been confirmed by several metrics. This work proposes
+translation edit rate on character level (CharacTer), which calculates the
+character level edit distance while performing the shift edit on word level.
+The novel metric shows high system-level correlation with human rankings,
+especially for morphologically rich languages. It outperforms the strong CHRF
+by up to 7% correlation on different metric tasks. In addition, we apply the
+hypothesis sentence length for normalizing the edit distance in CharacTer,
+which also provides significant improvements compared to using the reference
+sentence length.
+Author{1}{Firstname}#=%=#Weiyue
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#weiyue.wang@rwth-aachen.de
+Author{1}{Affiliation}#=%=#RWTH Aachen University
+Author{2}{Firstname}#=%=#Jan-Thorsten
+Author{2}{Lastname}#=%=#Peter
+Author{2}{Email}#=%=#peter@cs.rwth-aachen.de
+Author{2}{Affiliation}#=%=#RWTH Aachen University
+Author{3}{Firstname}#=%=#Hendrik
+Author{3}{Lastname}#=%=#Rosendahl
+Author{3}{Email}#=%=#hendrik.rosendahl@rwth-aachen.de
+Author{3}{Affiliation}#=%=#rosendahl
+Author{4}{Firstname}#=%=#Hermann
+Author{4}{Lastname}#=%=#Ney
+Author{4}{Email}#=%=#ney@cs.rwth-aachen.de
+Author{4}{Affiliation}#=%=#RWTH Aachen University
+
+==========

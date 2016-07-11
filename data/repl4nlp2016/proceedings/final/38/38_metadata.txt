@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#38
+FinalPaperTitle#=%=#Towards Generalizable Sentence Embeddings
+ShortPaperTitle#=%=#Towards Generalizable Sentence Embeddings
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Eleni Triantafillou
+JobTitle#==#
+Organization#==#University of Toronto
+Abstract#==#In this work, we evaluate different sentence encoders with emphasis on
+examining their embedding spaces. Specifically, we hypothesize that a
+"high-quality" embedding aids in generalization, promoting transfer learning as
+well as zero-shot and one-shot learning. To investigate this, we modify
+Skipthought vectors to learn a more generalizable space by exploiting a small
+amount of supervision. The aim is to introduce an additional notion of
+similarity in the embeddings, rendering the vectors informative for different
+tasks requiring less "adaptation". Our embeddings capture human intuition on
+similarity favorably that competing models, while we also show positive
+indications of transfer from the task of natural language inference to
+paraphrase detection and paraphrase ranking. Further, our model's behaviour on
+paraphrase detection when trained with an increasing amount of labelled data is
+indicative of a generalizable model. Finally, we support our hypothesis on
+generalizability of our embeddings through inspection of their statistics.
+Author{1}{Firstname}#=%=#Eleni
+Author{1}{Lastname}#=%=#Triantafillou
+Author{1}{Email}#=%=#eleni@cs.toronto.edu
+Author{1}{Affiliation}#=%=#University of Toronto
+Author{2}{Firstname}#=%=#Jamie Ryan
+Author{2}{Lastname}#=%=#Kiros
+Author{2}{Email}#=%=#rkiros@cs.toronto.edu
+Author{2}{Affiliation}#=%=#University of Toronto
+Author{3}{Firstname}#=%=#Raquel
+Author{3}{Lastname}#=%=#Urtasun
+Author{3}{Email}#=%=#urtasun@cs.toronto.edu
+Author{3}{Affiliation}#=%=#University of Toronto
+Author{4}{Firstname}#=%=#Richard
+Author{4}{Lastname}#=%=#Zemel
+Author{4}{Email}#=%=#zemel@cs.toronto.edu
+Author{4}{Affiliation}#=%=#University of Toronto
+
+==========

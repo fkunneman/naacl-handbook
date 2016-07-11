@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#1
+FinalPaperTitle#=%=#Letter Sequence Labeling for Compound Splitting
+ShortPaperTitle#=%=#Letter Sequence Labeling for Compound Splitting
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Jianqiang Ma
+JobTitle#==#
+Organization#==#SFB 833
+University of Tübingen
+Nauklerstraße 35
+72074 Tübingen
+Germany
+Abstract#==#For languages such as German where compounds occur frequently and are written
+as single tokens, a wide variety of NLP applications benefits from recognizing
+and splitting compounds. As the traditional word frequency-based approach to
+compound splitting has several drawbacks, this paper introduces a letter
+sequence labeling approach, which can utilize rich word form features to build
+discriminative learning models that are optimized for splitting. Experiments
+show that the proposed method significantly outperforms state-of-the-art
+compound splitters.
+Author{1}{Firstname}#=%=#Jianqiang
+Author{1}{Lastname}#=%=#Ma
+Author{1}{Email}#=%=#majianchiang@gmail.com
+Author{1}{Affiliation}#=%=#University of Tübingen
+Author{2}{Firstname}#=%=#Verena
+Author{2}{Lastname}#=%=#Henrich
+Author{2}{Email}#=%=#verenahenrich+cl@gmail.com
+Author{2}{Affiliation}#=%=#IBM Germany Research & Development GmbH
+Author{3}{Firstname}#=%=#Erhard
+Author{3}{Lastname}#=%=#Hinrichs
+Author{3}{Email}#=%=#erhard.hinrichs@uni-tuebingen.de
+Author{3}{Affiliation}#=%=#University of Tübingen
+
+==========

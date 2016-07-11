@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#29
+FinalPaperTitle#=%=#Arabizi Identification in Twitter Data
+ShortPaperTitle#=%=#Arabizi Identification in Twitter Data
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Taha Tobaili
+JobTitle#==#
+Organization#==#Knowledge Media Institute
+The Open University, UK
+Abstract#==#Arab users sometimes tend to express their natural dialectal Arabic voice in
+text using a Latin script on social media. This form of transliterated Arabic
+is called Arabizi. Extracting sentiment from Arabizi is considered complicated
+for the following reasons: 
+
+1. Arabizi is dialectal, differing among regions. 
+2. Arabizi users do not follow a unified orthography nor grammar. 
+3. To the best of our knowledge, there are no public lexical resources to
+process this data.
+
+Several researchers who worked on sentiment analysis for Arabic filtered
+Arabizi from their datasets. As this data might contain valuable information,
+we first investigate how frequent is Arabizi on Twitter to show the amount of
+Arabizi data being filtered out.
+
+Second we study which methods could be used to create Arabizi identification
+tools. We believe that identifying Arabizi from multilingual data brings us a
+step forward towards  analysing sentiment from Arabic social media.
+Author{1}{Firstname}#=%=#Taha
+Author{1}{Lastname}#=%=#Tobaili
+Author{1}{Email}#=%=#taha.tobaili@open.ac.uk
+Author{1}{Affiliation}#=%=#The Open University
+
+==========

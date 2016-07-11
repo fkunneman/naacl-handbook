@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Cross-language Projection of Dependency Trees with Constrained Partial Parsing for Tree-to-Tree Machine Translation
+ShortPaperTitle#=%=#Cross-language Projection for Tree-to-Tree Machine Translation
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Chenhui Chu
+JobTitle#==#
+Organization#==#Japan Science and Technology Agency
+5-3, Yonbancho, Chiyoda-ku, 102-8666 Tokyo, Japan
+Abstract#==#Tree-to-tree machine translation (MT) that utilizes syntactic parse trees on
+both source and target
+sides suffers from the non-isomorphism of the parse trees due to parsing errors
+and the difference of
+annotation criterion between the two languages. In this paper, we present a
+method that projects dependency
+parse trees from the language side that has a high quality parser, to the side
+that has a low quality parser,
+to improve the isomorphism of the parse trees. We first project a part of the
+dependencies with high
+confidence to make a partial parse tree, and then complement the remaining
+dependencies with
+partial parsing constrained by the already projected dependencies. MT
+experiments verify the
+effectiveness of our proposed method.
+Author{1}{Firstname}#=%=#Yu
+Author{1}{Lastname}#=%=#Shen
+Author{1}{Email}#=%=#shen-yu@nlp.ist.i.kyoto-u.ac.jp
+Author{1}{Affiliation}#=%=#Kyoto University
+Author{2}{Firstname}#=%=#Chenhui
+Author{2}{Lastname}#=%=#Chu
+Author{2}{Email}#=%=#chu@pa.jst.jp
+Author{2}{Affiliation}#=%=#Japan Science and Technology Agency
+Author{3}{Firstname}#=%=#Fabien
+Author{3}{Lastname}#=%=#Cromieres
+Author{3}{Email}#=%=#fabien@pa.jst.jp
+Author{3}{Affiliation}#=%=#Japan Science and Technology Agency
+Author{4}{Firstname}#=%=#Sadao
+Author{4}{Lastname}#=%=#Kurohashi
+Author{4}{Email}#=%=#kuro@i.kyoto-u.ac.jp
+Author{4}{Affiliation}#=%=#Kyoto University
+
+==========

@@ -1,0 +1,19 @@
+SubmissionNumber#=%=#25
+FinalPaperTitle#=%=#Evaluating embeddings on dictionary-based similarity
+ShortPaperTitle#=%=#Evaluating embeddings on dictionary-based similarity
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Andras Kornai
+JobTitle#==#
+Organization#==#Hungarian Academy of Sciences Institute for Computer Science (MTA SZTAKI) H-1111 Budapest Kende u 13-17
+Abstract#==#We propose a method for evaluating embeddings against dictionaries with tens or
+hundreds of thousands of entries, covering the entire gamut of the vocabulary.
+Author{1}{Firstname}#=%=#Judit
+Author{1}{Lastname}#=%=#Ács
+Author{1}{Email}#=%=#judit@sch.bme.hu
+Author{1}{Affiliation}#=%=#Budapest University of Technology and Economics, Hungarian Academy of Sciences
+Author{2}{Firstname}#=%=#Andras
+Author{2}{Lastname}#=%=#Kornai
+Author{2}{Email}#=%=#andras@kornai.com
+Author{2}{Affiliation}#=%=#HAS Computer and Automation Research Institute
+
+==========

@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#60
+FinalPaperTitle#=%=#A Personalized Markov Clustering and Deep Learning Approach for Arabic Text Categorization
+ShortPaperTitle#=%=#A Personalized Markov Clustering and Deep Learning Approach for Arabic Text Categorization
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Vasu Jindal
+JobTitle#==#Undergraduate Student
+Organization#==#Vasu Jindal
+University of Texas at Dallas, Richardson, TX, USA 75080
+Abstract#==#Text categorization is an important task in current natural language processing
+pipelines. However, most works in this area are focused on Western languages
+ignoring other Semitic languages like Arabic. These languages are of immense
+political and social importance necessitating robust categorization techniques.
+In this paper, we present a novel three-stage technique to efficiently classify
+Arabic documents into different categories based on the words they contain. We
+leverage the significance of root-words in Arabic and incorporate a combination
+of Markov clustering and Deep Belief networks to classify Arabic words into
+separate groups (clusters). Our approach is tested on two public datasets
+giving a F-Measure of 91\%.
+Author{1}{Firstname}#=%=#Vasu
+Author{1}{Lastname}#=%=#Jindal
+Author{1}{Email}#=%=#vasu.jindal@utdallas.edu
+Author{1}{Affiliation}#=%=#University of Texas at Dallas
+
+==========

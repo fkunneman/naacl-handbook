@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#Adaptive Importance Sampling from Finite State Automata
+ShortPaperTitle#=%=#Adaptive Importance Sampling from Finite State Automata
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Christoph Teichmann
+JobTitle#==#
+Organization#==#Department of Linguistics
+University of Potsdam
+Karl-Liebknecht-Str. 24-25
+D-14476 Potsdam, Germany
+Abstract#==#We present a general importance sampling technique for approximating expected
+values based on samples from probabilistic finite tree automata. The algorithm
+uses the samples it produces to adapt rule probabilities for the automaton in
+order to improve sample quality.
+Author{1}{Firstname}#=%=#Christoph
+Author{1}{Lastname}#=%=#Teichmann
+Author{1}{Email}#=%=#christoph.teichmann@uni-potsdam.de
+Author{1}{Affiliation}#=%=#University of Potsdam
+Author{2}{Firstname}#=%=#Kasimir
+Author{2}{Lastname}#=%=#Wansing
+Author{2}{Email}#=%=#kasimir.wansing@googlemail.com
+Author{2}{Affiliation}#=%=#Leipzig University
+Author{3}{Firstname}#=%=#Alexander
+Author{3}{Lastname}#=%=#Koller
+Author{3}{Email}#=%=#koller@ling.uni-potsdam.de
+Author{3}{Affiliation}#=%=#University of Potsdam
+
+==========

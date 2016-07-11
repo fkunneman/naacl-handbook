@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Regulating Orthography-Phonology Relationship for English to Thai Transliteration
+ShortPaperTitle#=%=#Regulating Orthography-Phonology Relationship for English to Thai Transliteration
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Nguyen Binh Minh
+JobTitle#==#Research Assistant
+Organization#==#National University of Singapore
+Abstract#==#In this paper, we discuss our endeavors for the Named Entities Workshop (NEWS)
+2016 transliteration shared task, where we focus on English to Thai
+transliteration. The alignment between Thai orthography and phonology is not
+always monotonous, but few transliteration systems take this into account. In
+our proposed system, we exploit phonological knowledge to resolve problematic
+instances where the monotonous alignment assumption breaks down. We achieve a
+29% relative improvement over the baseline system for the NEWS 2016
+transliteration shared task.
+Author{1}{Firstname}#=%=#Binh Minh
+Author{1}{Lastname}#=%=#Nguyen
+Author{1}{Email}#=%=#nguyen.binh.minh92@u.nus.edu
+Author{1}{Affiliation}#=%=#National University of Singapore, Singapore
+Author{2}{Firstname}#=%=#Hoang Gia
+Author{2}{Lastname}#=%=#Ngo
+Author{2}{Email}#=%=#ngohgia@u.nus.edu
+Author{2}{Affiliation}#=%=#National University of Singapore, Singapore
+Author{3}{Firstname}#=%=#Nancy F.
+Author{3}{Lastname}#=%=#Chen
+Author{3}{Email}#=%=#nfychen@i2r.a-star.edu.sg
+Author{3}{Affiliation}#=%=#Institute for Infocomm Research, Singapore
+
+==========

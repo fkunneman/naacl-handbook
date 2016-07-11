@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#Neural Attention Model for Classification of Sentences that Support Promoting/Suppressing Relationship
+ShortPaperTitle#=%=#Neural Attention Model for Classification of Sentences that Support Promoting/Suppressing Relationship
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Yuta Koreeda
+JobTitle#==#
+Organization#==#Hitachi, Ltd.
+1-280, Higashi-Koigakubo, Kokubunji-shi, Tokyo 185-8601, Japan
+Abstract#==#Evidences that support a claim "a subject phrase promotes or suppresses a
+value" help in making a rational decision.
+We aim to construct a model that can classify if a particular evidence supports
+a claim of a promoting/suppressing relationship given an arbitrary
+subject-value pair.
+In this paper, we propose a recurrent neural network (RNN) with an attention
+model to classify such evidences.
+We incorporated a word embedding technique in an attention model such that our
+method generalizes for never-encountered subjects and value phrases.
+Benchmarks showed that the method outperforms conventional methods in evidence
+classification tasks.
+Author{1}{Firstname}#=%=#Yuta
+Author{1}{Lastname}#=%=#Koreeda
+Author{1}{Email}#=%=#yuta.koreeda.pb@hitachi.com
+Author{1}{Affiliation}#=%=#Research & Development Group, Hitachi, Ltd.
+Author{2}{Firstname}#=%=#Toshihiko
+Author{2}{Lastname}#=%=#Yanase
+Author{2}{Email}#=%=#toshihiko.yanase.gm@hitachi.com
+Author{2}{Affiliation}#=%=#Research & Development Group, Hitachi, Ltd.
+Author{3}{Firstname}#=%=#Kohsuke
+Author{3}{Lastname}#=%=#Yanai
+Author{3}{Email}#=%=#kohsuke.yanai.cs@hitachi.com
+Author{3}{Affiliation}#=%=#Hitachi
+Author{4}{Firstname}#=%=#Misa
+Author{4}{Lastname}#=%=#Sato
+Author{4}{Email}#=%=#misa.sato.mw@hitachi.com
+Author{4}{Affiliation}#=%=#Hitachi, Ltd.
+Author{5}{Firstname}#=%=#Yoshiki
+Author{5}{Lastname}#=%=#Niwa
+Author{5}{Email}#=%=#yoshiki.niwa.tx@hitachi.com
+Author{5}{Affiliation}#=%=#Research & Development Group, Hitachi, Ltd.
+
+==========

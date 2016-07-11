@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#1
+FinalPaperTitle#=%=#Natural Language Descriptions of Human Activities Scenes: Corpus Generation and Analysis
+ShortPaperTitle#=%=#Natural Language Descriptions of Human Activities Scenes: Corpus Generation and Analysis
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Nouf Al Harbi
+JobTitle#==#PhD Student
+Organization#==#University of Sheffield, Western Bank, Sheffield, South Yorkshire S10 2TN
+Abstract#==#There has been continuous growth in the volume and ubiquity of video material.
+It has become essential to define video semantics in order to aid the
+searchability and retrieval of this data. Although the method of annotating
+this data with keywords is relatively well researched, the quality can be
+improved through describing videos with natural language. We are exploring
+approaches to generating natural language descriptions of interrelations
+between human activities in a video stream. This paper focuses on creation of a
+dataset that can be used for development and evaluation. To this end a corpus
+of video clips, manually selected from the Hollywood2 dataset, and their
+natural language descriptions has been generated. Analysis of the hand
+annotation presents insights into human interests and thoughts. Such resource
+can be used to evaluate automatic natural language generation systems for
+video.
+Author{1}{Firstname}#=%=#Nouf
+Author{1}{Lastname}#=%=#Alharbi
+Author{1}{Email}#=%=#nmalharbi1@sheffield.ac.uk
+Author{1}{Affiliation}#=%=#University of Sheffield
+Author{2}{Firstname}#=%=#Yoshihiko
+Author{2}{Lastname}#=%=#Gotoh
+Author{2}{Email}#=%=#y.gotoh@dcs.shef.ac.uk
+Author{2}{Affiliation}#=%=#University of Sheffield
+
+==========

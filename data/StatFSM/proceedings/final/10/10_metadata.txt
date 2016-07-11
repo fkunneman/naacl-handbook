@@ -1,0 +1,22 @@
+SubmissionNumber#=%=#10
+FinalPaperTitle#=%=#Transition-based dependency parsing as latent-variable constituent parsing
+ShortPaperTitle#=%=#Transition-based dependency parsing as latent-variable constituent parsing
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Mark-Jan Nederhof
+JobTitle#==#
+Organization#==#School of Computer Science
+University of St Andrews
+North Haugh, St Andrews, Fife
+KY16 9SX
+United Kingdom
+Abstract#==#We provide a theoretical argument that a common form of projective
+transition-based dependency parsing is less powerful than constituent parsing
+using latent variables.  The argument is a proof that, under reasonable
+assumptions, a transition-based dependency parser can be converted to a
+latent-variable context-free grammar producing equivalent structures.
+Author{1}{Firstname}#=%=#Mark-Jan
+Author{1}{Lastname}#=%=#Nederhof
+Author{1}{Email}#=%=#mn31@st-andrews.ac.uk
+Author{1}{Affiliation}#=%=#University of St Andrews
+
+==========

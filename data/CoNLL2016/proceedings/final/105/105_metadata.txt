@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#105
+FinalPaperTitle#=%=#Beyond Prefix-Based Interactive Translation Prediction
+ShortPaperTitle#=%=#Beyond Prefix-Based Interactive Translation Prediction
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Jesús González-Rubio
+JobTitle#==#
+Organization#==#WebInterpret Inc.
+Abstract#==#Current automatic machine translation systems require heavy human proof-reading
+to produce high-quality translations. We present a new interactive machine
+translation approach aimed at providing a natural collaboration between humans
+and translation systems. As such, we grant the user complete freedom to
+validate and correct any part of the translations suggested by the system. Our
+approach is then designed according to the requirements placed by this
+unrestricted proof-reading protocol. In particular, the ability of the system
+to suggest new translations coherent with the set of potentially disjoint
+translation segments validated by the user.
+
+We evaluate our approach in a user-simulated setting where reference
+translations are considered the output desired by a human expert. Results show
+important reductions in the number of edits in comparison to decoupled
+post-editing and conventional prefix-based interactive translation prediction.
+Additionally, we provide evidence that it can also reduce the cognitive
+overload reported for interactive translation systems in previous user studies.
+Author{1}{Firstname}#=%=#Jesús
+Author{1}{Lastname}#=%=#González-Rubio
+Author{1}{Email}#=%=#jegonzalez@dsic.upv.es
+Author{1}{Affiliation}#=%=#Universitat Politècnica de València
+Author{2}{Firstname}#=%=#Daniel
+Author{2}{Lastname}#=%=#Ortiz Martinez
+Author{2}{Email}#=%=#daormar2@gmail.com
+Author{2}{Affiliation}#=%=#Webinterpret
+Author{3}{Firstname}#=%=#Francisco
+Author{3}{Lastname}#=%=#Casacuberta
+Author{3}{Email}#=%=#fcn@prhlt.upv.es
+Author{3}{Affiliation}#=%=#Universitat Politecnica de Valencia
+Author{4}{Firstname}#=%=#Jose Miguel
+Author{4}{Lastname}#=%=#Benedi Ruiz
+Author{4}{Email}#=%=#jbenedi@prhlt.upv.es
+Author{4}{Affiliation}#=%=#Universitat Politecnica de Valencia
+
+==========

@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#Improving Reliability of Word Similarity Evaluation by Redesigning Annotation Task and Performance Measure
+ShortPaperTitle#=%=#Improving Reliability of Word Similarity Evaluation by Redesigning Annotation Task and Performance Measure
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Oded Avraham
+JobTitle#==#
+Organization#==#Bar-Ilan University
+Ramat-Gan, Israel
+Abstract#==#We suggest a new method for creating and
+using gold-standard datasets for word similarity
+evaluation. Our goal is to improve
+the reliability of the evaluation, and we do
+this by redesigning the annotation task to
+achieve higher inter-rater agreement, and
+by defining a performance measure which
+takes the reliability of each annotation decision
+in the dataset into account.
+Author{1}{Firstname}#=%=#Oded
+Author{1}{Lastname}#=%=#Avraham
+Author{1}{Email}#=%=#oavraham1@gmail.com
+Author{1}{Affiliation}#=%=#Bar-Ilan University
+Author{2}{Firstname}#=%=#Yoav
+Author{2}{Lastname}#=%=#Goldberg
+Author{2}{Email}#=%=#yoav.goldberg@gmail.com
+Author{2}{Affiliation}#=%=#Bar Ilan University
+
+==========

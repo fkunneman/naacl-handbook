@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#Metaphor as a Medium for Emotion: An Empirical Study
+ShortPaperTitle#=%=#Metaphor as a Medium for Emotion: An Empirical Study
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#NA
+JobTitle#==#
+Organization#==#
+Abstract#==#It is generally believed that a metaphor tends to have a stronger emotional
+impact than a literal statement; however, there is no quantitative study
+establishing the extent to which this is true.
+  Further, the mechanisms through which metaphors convey emotions are
+  not well understood. We present the first data-driven study comparing
+  the emotionality of metaphorical expressions with that
+  of their literal counterparts. Our results indicate that metaphorical usages
+  are, on average, significantly more emotional than literal usages.
+ We also show that this emotional content is not simply transferred from the
+source domain into the target, but rather is a result of meaning composition
+and interaction of the two domains in the metaphor.
+Author{1}{Firstname}#=%=#Saif
+Author{1}{Lastname}#=%=#Mohammad
+Author{1}{Email}#=%=#saif.mohammad@nrc-cnrc.gc.ca
+Author{1}{Affiliation}#=%=#NRC
+Author{2}{Firstname}#=%=#Ekaterina
+Author{2}{Lastname}#=%=#Shutova
+Author{2}{Email}#=%=#es407@cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+Author{3}{Firstname}#=%=#Peter
+Author{3}{Lastname}#=%=#Turney
+Author{3}{Email}#=%=#peter.turney@gmail.com
+Author{3}{Affiliation}#=%=#Allen Institute for Artificial Intelligence
+
+==========

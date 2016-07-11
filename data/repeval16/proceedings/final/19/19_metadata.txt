@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#A Proposal for Linguistic Similarity Datasets Based on Commonality Lists
+ShortPaperTitle#=%=#A Proposal for Linguistic Similarity Datasets Based on Commonality Lists
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Dmitrijs Milajevs
+JobTitle#==#
+Organization#==#QMUL
+Abstract#==#Similarity is a core notion that is used in psychology and two branches of
+linguistics: theoretical and computational. The similarity datasets that come
+from the two fields differ in design: psychological datasets are focused around
+a certain topic such as fruit names, while linguistic datasets contain words
+from various categories. The later makes humans assign low similarity scores to
+the words that have nothing in common and to the words that have contrast in
+meaning, making similarity scores ambiguous. In this work we discuss the
+similarity collection procedure for a multi-category dataset that avoids score
+ambiguity and suggest changes to the evaluation procedure to reflect the
+insights of psychological literature for word, phrase and sentence similarity.
+We suggest to ask humans to provide a list of commonalities and differences
+instead of numerical similarity scores and employ the structure of human
+judgements beyond pairwise similarity for model evaluation. We believe that the
+proposed approach will give rise to datasets that test meaning representation
+models more thoroughly with respect to the human treatment of similarity.
+Author{1}{Firstname}#=%=#Dmitrijs
+Author{1}{Lastname}#=%=#Milajevs
+Author{1}{Email}#=%=#d.milajevs@qmul.ac.uk
+Author{1}{Affiliation}#=%=#Queen Mary University of London
+Author{2}{Firstname}#=%=#Sascha
+Author{2}{Lastname}#=%=#Griffiths
+Author{2}{Email}#=%=#sascha.griffiths@qmul.ac.uk
+Author{2}{Affiliation}#=%=#Queen Mary University of London
+
+==========

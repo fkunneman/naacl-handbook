@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#16
+FinalPaperTitle#=%=#Detecting Visually Relevant Sentences for Fine-Grained Classification
+ShortPaperTitle#=%=#Detecting Visually Relevant Sentences for Fine-Grained Classification
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Olivia Winn
+JobTitle#==#
+Organization#==#Columbia University
+Abstract#==#Detecting discriminative semantic attributes from text which correlate with
+image features is one of the main challenges of zero-shot learning for
+fine-grained image classification. Particularly, using full-length encyclopedic
+articles as textual descriptions has had
+limited success, one reason being that such documents contain many non-visual
+or unrelated sentences. We propose a method to automatically extract visually
+relevant sentences from Wikipedia documents. Our model, based on a
+convolutional neural network, is robustly tested through ground truth labeling
+obtained via Amazon Mechanical Turk, achieving %83.40\% precision, 80.13\%
+recall, and 81.73\% F1 measure.
+Author{1}{Firstname}#=%=#Olivia
+Author{1}{Lastname}#=%=#Winn
+Author{1}{Email}#=%=#olivia@cs.columbia.edu
+Author{1}{Affiliation}#=%=#Columbia University
+Author{2}{Firstname}#=%=#Madhavan Kavanur
+Author{2}{Lastname}#=%=#Kidambi
+Author{2}{Email}#=%=#mk3700@columbia.edu
+Author{2}{Affiliation}#=%=#Columbia Univ, CS Department
+Author{3}{Firstname}#=%=#Smaranda
+Author{3}{Lastname}#=%=#Muresan
+Author{3}{Email}#=%=#smara@ccls.columbia.edu
+Author{3}{Affiliation}#=%=#Columbia University
+
+==========

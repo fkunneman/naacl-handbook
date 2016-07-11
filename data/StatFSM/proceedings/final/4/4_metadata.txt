@@ -1,0 +1,21 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Equivalences between Ranked and Unranked Weighted Tree Automata via Binarization
+ShortPaperTitle#=%=#Equivalences between Ranked and Unranked Weighted Tree Automata via Binarization
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Toni Dietze
+JobTitle#==#
+Organization#==#Faculty of Computer Science
+Technische Universität Dresden
+01062 Dresden, Germany
+Abstract#==#Encoding unranked trees to binary trees, henceforth called binarization, is an
+important method to deal with unranked trees. For each of three binarizations
+we show that weighted (ranked) tree automata together with the binarization are
+equivalent to weighted unranked tree automata; even in the probabilistic case.
+This allows to easily adapt training methods for weighted (ranked) tree
+automata to weighted unranked tree automata.
+Author{1}{Firstname}#=%=#Toni
+Author{1}{Lastname}#=%=#Dietze
+Author{1}{Email}#=%=#toni.dietze@tu-dresden.de
+Author{1}{Affiliation}#=%=#Technische Universität Dresden
+
+==========

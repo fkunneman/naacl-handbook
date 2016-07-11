@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#137
+FinalPaperTitle#=%=#DOCAL - Vicomtech's Participation in the WMT16 Shared Task on Bilingual Document Alignment
+ShortPaperTitle#=%=#DOCAL - Vicomtech's Participation in the WMT16 Shared Task on Bilingual Document Alignment
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Thierry Etchegoyhen
+JobTitle#==#
+Organization#==#Vicomtech-IK4
+Paseo Mikeletegi 57
+Parque Científico y Tecnológico de Gipuzkoa
+20009 Donostia/San Sebastián
+España
+Abstract#==#This article presents the DOCAL system
+for document alignment, which took part
+in the WMT 2016 shared task on bilingual
+document alignment. The system is
+meant to offer a portable solution for varied
+document alignment scenarios, from
+parallel to comparable corpora, with minimal
+deployment effort. Its main goal is to
+provide an optimal balance between alignment
+precision and recall using minimal
+resources and adaptation across alignment
+scenarios. We describe and discuss the
+performance of the system in the recalloriented
+shared task.
+Author{1}{Firstname}#=%=#Andoni
+Author{1}{Lastname}#=%=#Azpeitia
+Author{1}{Email}#=%=#aazpeitia@vicomtech.org
+Author{1}{Affiliation}#=%=#Vicomtech-IK4
+Author{2}{Firstname}#=%=#Thierry
+Author{2}{Lastname}#=%=#Etchegoyhen
+Author{2}{Email}#=%=#tetchegoyhen@vicomtech.org
+Author{2}{Affiliation}#=%=#Vicomtech-IK4
+
+==========

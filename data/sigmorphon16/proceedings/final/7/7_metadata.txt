@@ -1,0 +1,48 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Inferring Morphotactics from Interlinear Glossed Text: Combining Clustering and Precision Grammars
+ShortPaperTitle#=%=#Inferring Morphotactics from Interlinear Glossed Text: Combining Clustering and Precision Grammars
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Olga Zamaraeva
+JobTitle#==#
+Organization#==#
+Abstract#==#In this paper I present a k-means clustering approach 
+  to inferring morphological
+  position classes (morphotactics)
+  from Interlinear Glossed Text (IGT), data collections available for 
+  some endangered and low-resource languages.
+  While the experiment is not restricted to low-resource
+  languages,
+  they are meant to be the targeted domain.
+  Specifically my approach is meant to be 
+  for field linguists who do not necessarily
+  know how many position classes there are
+  in the language they work with and what
+  the position classes are, but have the expertise
+  to evaluate different hypotheses.
+  It builds on an existing approach (Wax,2014), 
+but replaces the core heuristic
+  with a clustering algorithm. 
+  The results mainly illustrate two points.
+  First, they are largely negative,
+  which shows that the baseline algorithm (summarized in the paper)
+  uses a very predictive feature to determine whether affixes
+  belong to the same position class, namely edge overlap in the affix graph. 
+  At the same time, unlike the baseline method that relies entirely on a single
+feature,
+  k-means clustering can account for different features and helps discover
+  more morphological phenomena, e.g. circumfixation.
+  I conclude that unsupervised learning algorithms such as 
+  k-means clustering can in principle be used
+  for morphotactics inference, though the
+  algorithm should probably weigh certain features
+  more than others. Most importantly, I conclude that
+  clustering is a promising approach for diverse
+  morphotactics and as such it 
+  can facilitate
+  linguistic analysis of field languages.
+Author{1}{Firstname}#=%=#Olga
+Author{1}{Lastname}#=%=#Zamaraeva
+Author{1}{Email}#=%=#olzama@uw.edu
+Author{1}{Affiliation}#=%=#University of Washington
+
+==========

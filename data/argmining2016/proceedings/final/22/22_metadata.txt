@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#22
+FinalPaperTitle#=%=#Scrutable Feature Sets for Stance Classification
+ShortPaperTitle#=%=#Scrutable Feature Sets for Stance Classification
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Advaith Siddharthan
+JobTitle#==#
+Organization#==#University of Aberdeen
+Abstract#==#This paper describes and evaluates a novel feature set for stance
+classification of argumentative texts; i.e. deciding whether a post by a user
+is for or against the issue being debated. We model the debate both as attitude
+bearing  features, including a set of automatically acquired `topic terms'
+associated with a Distributional Lexical Model (DLM) that captures the
+writer’s attitude towards the topic term, and as dependency features that
+represent the points being made in the debate. The stance of the text towards
+the issue being debated is then learnt in a supervised framework as a function
+of these features. The main advantage of our feature set is that it is
+scrutable: The reasons for a classification can be explained to a human user in
+natural language. We also report that our method outperforms previous
+approaches to stance classification as well as a range of baselines based on
+sentiment analysis and topic-sentiment analysis.
+Author{1}{Firstname}#=%=#Angrosh
+Author{1}{Lastname}#=%=#Mandya
+Author{1}{Email}#=%=#angroshmandya@abdn.ac.uk
+Author{1}{Affiliation}#=%=#
+Author{2}{Firstname}#=%=#Advaith
+Author{2}{Lastname}#=%=#Siddharthan
+Author{2}{Email}#=%=#advaith@abdn.ac.uk
+Author{2}{Affiliation}#=%=#University of Aberdeen
+Author{3}{Firstname}#=%=#Adam
+Author{3}{Lastname}#=%=#Wyner
+Author{3}{Email}#=%=#azwyner@abdn.ac.uk
+Author{3}{Affiliation}#=%=#University of Aberdeen
+
+==========

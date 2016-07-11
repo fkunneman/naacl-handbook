@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#46
+FinalPaperTitle#=%=#Sparsifying Word Representations for Deep Unordered Sentence Modeling
+ShortPaperTitle#=%=#Sparsifying Word Representations for Deep Unordered Sentence Modeling
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Prasanna Sattigeri
+JobTitle#==#
+Organization#==#IBM T. J. Watson Research Center Yorktown Heights, NY USA
+Abstract#==#Sparsity often leads to efficient and interpretable representations for data.
+In this paper, we introduce an architecture to infer the appropriate sparsity
+pattern for the word embeddings while learning the sentence composition in a
+deep network. The proposed approach produces competitive results in sentiment
+and topic classification tasks with high degree of sparsity. It is
+computationally cheaper to compute sparse word representations than existing
+approaches. The imposed sparsity is directly controlled by the task considered
+and leads to more interpretability.
+Author{1}{Firstname}#=%=#Prasanna
+Author{1}{Lastname}#=%=#Sattigeri
+Author{1}{Email}#=%=#pronics2004@gmail.com
+Author{1}{Affiliation}#=%=#IBM Research
+Author{2}{Firstname}#=%=#Jayaraman
+Author{2}{Lastname}#=%=#J. Thiagarajan
+Author{2}{Email}#=%=#jayaramanthi1@llnl.gov
+Author{2}{Affiliation}#=%=#Lawrence Livermore National Labs
+
+==========

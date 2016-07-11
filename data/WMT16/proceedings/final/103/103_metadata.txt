@@ -1,0 +1,48 @@
+SubmissionNumber#=%=#103
+FinalPaperTitle#=%=#JU-USAAR: A Domain Adaptive MT System
+ShortPaperTitle#=%=#JU-USAAR: A Domain Adaptive MT System
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Santanu Pal
+JobTitle#==#
+Organization#==#Santanu Pal
+Institute for Applied Linguistics and Translation and Interpreting (FR 4.6)
+University of Saarland
+Campus A2.2, Room 1:25
+D-66123 Saarbrücken, Germany
+Abstract#==#This paper presents the JU-USAAR English--German domain adaptive machine
+translation (MT) system submitted to the IT domain translation task organized
+in WMT-2016 . 
+Our system brings improvements over the in-domain baseline system by
+incorporating out-domain knowledge. We applied two methodologies to accelerate
+the performance of our in-domain MT system: (i) additional training material
+extraction from out-domain data using data selection method, and (ii) language
+model and translation model adaptation through interpolation.  
+Our primary submission obtained a BLEU score of 34.5 (14.5 absolute and 72.5%
+relative improvements over baseline) and a TER score of 54.0 (14.7 absolute and
+21.4% relative improvements over baseline).
+Author{1}{Firstname}#=%=#Koushik
+Author{1}{Lastname}#=%=#Pahari
+Author{1}{Email}#=%=#pahari.koushik@gmail.com
+Author{1}{Affiliation}#=%=#Indian Institute of Engineering Science and Technology
+Author{2}{Firstname}#=%=#Alapan
+Author{2}{Lastname}#=%=#Kuila
+Author{2}{Email}#=%=#alapan.cse@gmail.com
+Author{2}{Affiliation}#=%=#Jadavpur University
+Author{3}{Firstname}#=%=#Santanu
+Author{3}{Lastname}#=%=#Pal
+Author{3}{Email}#=%=#santanu.pal@uni-saarland.de
+Author{3}{Affiliation}#=%=#Saarland University
+Author{4}{Firstname}#=%=#Sudip Kumar
+Author{4}{Lastname}#=%=#Naskar
+Author{4}{Email}#=%=#sudip.naskar@cse.jdvu.ac.in
+Author{4}{Affiliation}#=%=#Jadavpur University
+Author{5}{Firstname}#=%=#Sivaji
+Author{5}{Lastname}#=%=#Bandyopadhyay
+Author{5}{Email}#=%=#sivaji_cse_ju@yahoo.com
+Author{5}{Affiliation}#=%=#JADAVPUR UNIVERSITY
+Author{6}{Firstname}#=%=#Josef
+Author{6}{Lastname}#=%=#van Genabith
+Author{6}{Email}#=%=#josef.van_genabith@dfki.de
+Author{6}{Affiliation}#=%=#DFKI
+
+==========

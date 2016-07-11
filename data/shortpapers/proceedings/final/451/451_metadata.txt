@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#451
+FinalPaperTitle#=%=#Nonparametric Spherical Topic Modeling with Word Embeddings
+ShortPaperTitle#=%=#Nonparametric Spherical Topic Modeling with Word Embeddings
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Ardavan Saeedi
+JobTitle#==#
+Organization#==#MIT - 77 Massachusetts Avenue - Cambridge - MA - US
+Abstract#==#Traditional topic models do not account for semantic regularities in language. 
+Recent distributional representations of words exhibit semantic consistency
+over directional metrics such as cosine similarity. 
+However, neither categorical nor Gaussian observational distributions used in
+existing topic models are appropriate to leverage such correlations.
+In this paper, we propose to use the von Mises-Fisher distribution to model the
+density of words over a unit sphere. Such a representation is well-suited for
+directional data. We use a Hierarchical Dirichlet Process for our base topic
+model and propose an efficient inference algorithm based on Stochastic
+Variational Inference. This model enables us to naturally exploit the semantic
+structures of word embeddings while flexibly discovering the number of topics.
+Experiments demonstrate that our method outperforms three competitive
+approaches in terms of topic coherence on two different text corpora while
+offering efficient inference.
+Author{1}{Firstname}#=%=#Kayhan
+Author{1}{Lastname}#=%=#Batmanghelich
+Author{1}{Email}#=%=#kayhan@mit.edu
+Author{1}{Affiliation}#=%=#MIT
+Author{2}{Firstname}#=%=#Ardavan
+Author{2}{Lastname}#=%=#Saeedi
+Author{2}{Email}#=%=#ardavans@mit.edu
+Author{2}{Affiliation}#=%=#MIT
+Author{3}{Firstname}#=%=#Karthik
+Author{3}{Lastname}#=%=#Narasimhan
+Author{3}{Email}#=%=#karthikn@csail.mit.edu
+Author{3}{Affiliation}#=%=#CSAIL, MIT
+Author{4}{Firstname}#=%=#Sam
+Author{4}{Lastname}#=%=#Gershman
+Author{4}{Email}#=%=#gershman@fas.harvard.edu
+Author{4}{Affiliation}#=%=#Harvard
+
+==========

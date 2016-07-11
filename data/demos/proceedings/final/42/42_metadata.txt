@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#42
+FinalPaperTitle#=%=#GoWvis: A Web Application for Graph-of-Words-based Text Visualization and Summarization
+ShortPaperTitle#=%=#GoWvis: A Web Application for Graph-of-Words-based Text Visualization and Summarization
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Antoine Tixier
+JobTitle#==#
+Organization#==#Ecole Polytechnique, Palaiseau, France
+Abstract#==#We introduce GoWvis, an interactive web application that represents any piece
+of text inputted by the user as a graph-of-words and leverages graph degeneracy
+and community detection to generate an extractive summary (keyphrases and
+sentences) of the inputted text in an unsupervised fashion. The entire analysis
+can be fully customized via the tuning of many text preprocessing, graph
+building, and graph mining parameters. Our system is thus well suited to
+educational purposes, exploration and early research experiments. The new
+summarization strategy we propose also shows promise.
+Author{1}{Firstname}#=%=#Antoine
+Author{1}{Lastname}#=%=#Tixier
+Author{1}{Email}#=%=#antoine.tixier-1@colorado.edu
+Author{1}{Affiliation}#=%=#Ecole Polytechnique, Palaiseau, France
+Author{2}{Firstname}#=%=#Konstantinos
+Author{2}{Lastname}#=%=#Skianis
+Author{2}{Email}#=%=#kskianis@lix.polytechnique.fr
+Author{2}{Affiliation}#=%=#Ecole Polytechnique, Palaiseau, France
+Author{3}{Firstname}#=%=#Michalis
+Author{3}{Lastname}#=%=#Vazirgiannis
+Author{3}{Email}#=%=#michalis.vazirgiannis@gmail.com
+Author{3}{Affiliation}#=%=#Ecole Polytechnique, Palaiseau, France
+
+==========

@@ -1,0 +1,39 @@
+* Friday, August 12, 2016
++ 09:00--09:15 Opening Remarks
++ 09:15--10:00 Analysis Track
+26   # Intrinsic Evaluation of Word Vectors Fails to Predict Extrinsic Performance
+38   # A critique of word similarity as a method for evaluating distributional semantic models
+22   # Issues in evaluating semantic spaces using word analogies
++ 10:00--10:20 Proposal Track 1
+36   # Evaluating Word Embeddings Using a Representative Suite of Practical Tasks
+37   # Story Cloze Evaluator: Vector Space Representation Evaluation by Predicting What Happens Next
++ 10:20--10:45 Coffee Break
++ 10:45--12:30 Poster Session
++ 10:45--11:00 Lightning Talks
+11   # Problems With Evaluation of Word Embeddings Using Word Similarity Tasks
+16   # Intrinsic Evaluations of Word Embeddings: What Can We Do Better?
+5   # Find the word that does not belong: A Framework for an Intrinsic Evaluation of Word Vector Representations
+9   # Capturing Discriminative Attributes in a Distributional Space: Task Proposal
+17   # An Improved Crowdsourcing Based Evaluation Technique for Word Embedding Methods
+21   # Evaluation of acoustic word embeddings
+23   # Evaluating Embeddings using Syntax-based Classification Tasks as a Proxy for Parser Performance
+24   # Evaluating vector space models using human semantic priming results
+25   # Evaluating embeddings on dictionary-based similarity
+28   # Evaluating multi-sense embeddings for semantic resolution monolingually and in word translation
+31   # Subsumption Preservation as a Comparative Measure for Evaluating Sense-Directed Embeddings
+33   # Evaluating Informal-Domain Word Representations With UrbanDictionary
+35   # Thematic fit evaluation: an aspect of selectional preferences
++ 12:30--14:00 Lunch Break
++ 14:00--15:30 Proposal Track 2: Word Representations
+14   # Improving Reliability of Word Similarity Evaluation by Redesigning Annotation Task and Performance Measure
+13   # Correlation-based Intrinsic Evaluation of Word Vector Representations
+6   # Evaluating word embeddings with fMRI and eye-tracking
+39   # Defining Words with Words: Beyond the Distributional Hypothesis
++ 15:30--16:00 Coffee Break
++ 16:00--17:30 Proposal Track 3: Contextualized Representations
+19   # A Proposal for Linguistic Similarity Datasets Based on Commonality Lists
+32   # Probing for semantic evidence of composition by means of simple classification tasks
+27   # SLEDDED: A Proposed Dataset of Event Descriptions for Evaluating Phrase Representations
+7   # Sentence Embedding Evaluation Using Pyramid Annotation
++ 17:30--18:15 Open Discussion
++ 18:15--18:30 Best Proposal Awards

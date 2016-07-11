@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#57
+FinalPaperTitle#=%=#QA-It: Classifying Non-Referential It for Question Answer Pairs
+ShortPaperTitle#=%=#QA-It: Classifying Non-Referential It for Question Answer Pairs
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Timothy Lee
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper introduces a new corpus, QA-It, for the classification of
+non-referential it. Our dataset is unique in a sense that it is annotated on
+question answer pairs collected from multiple genres, useful for developing
+advanced QA systems. Our annotation scheme makes clear distinctions between 4
+types of it, providing guidelines for many erroneous cases. Several statistical
+models are built for the classification of it, showing encouraging results. To
+the best of our knowledge, this is the first time that such a corpus is created
+for question answering.
+Author{1}{Firstname}#=%=#Timothy
+Author{1}{Lastname}#=%=#Lee
+Author{1}{Email}#=%=#leetdh1028@gmail.com
+Author{1}{Affiliation}#=%=#Emory University
+Author{2}{Firstname}#=%=#Alex
+Author{2}{Lastname}#=%=#Lutz
+Author{2}{Email}#=%=#93alexlutz@gmail.com
+Author{2}{Affiliation}#=%=#Emory University
+Author{3}{Firstname}#=%=#Jinho D.
+Author{3}{Lastname}#=%=#Choi
+Author{3}{Email}#=%=#jinho.choi@emory.edu
+Author{3}{Affiliation}#=%=#Emory University
+
+==========

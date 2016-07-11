@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#25
+FinalPaperTitle#=%=#Extracting Case Law Sentences for Argumentation about the Meaning of Statutory Terms
+ShortPaperTitle#=%=#Extracting Case Law Sentences for Argumentation about the Meaning of Statutory Terms
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Jaromir Savelka
+JobTitle#==#
+Organization#==#University of Pittsburgh, 4200 Fifth Avenue, Pittsburgh, PA 15260, USA
+Abstract#==#Legal argumentation often centers on the interpretation and understanding of
+terminology. Statutory texts are known for a frequent use of vague terms that
+are difficult to understand. Arguments about the meaning of statutory terms are
+an inseparable part of applying statutory law to a specific factual context. In
+this work we investigate the possibility of supporting this type of
+argumentation by automatic extraction of sentences that deal with the meaning
+of a term. We focus on case law because court decisions often contain sentences
+elaborating on the meaning of one or more terms. We show that human annotators
+can reasonably agree on the usefulness of a sentence for an argument about the
+meaning (interpretive usefulness) of a specific statutory term (kappa>0.66). We
+specify a list of features that could be used to predict the interpretive
+usefulness of a sentence automatically. We work with off-the-shelf
+classification algorithms to confirm the hypothesis (accuracy>0.69).
+Author{1}{Firstname}#=%=#Jaromir
+Author{1}{Lastname}#=%=#Savelka
+Author{1}{Email}#=%=#jas438@pitt.edu
+Author{1}{Affiliation}#=%=#University of Pittsburgh
+Author{2}{Firstname}#=%=#Kevin D.
+Author{2}{Lastname}#=%=#Ashley
+Author{2}{Email}#=%=#ashley@pitt.edu
+Author{2}{Affiliation}#=%=#University of Pittsburgh
+
+==========

@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#On the Correspondence between Compositional Matrix-Space Models of Language and Weighted Automata
+ShortPaperTitle#=%=#On the Correspondence between Compositional Matrix-Space Models of Language and Weighted Automata
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Shima Asaadi
+JobTitle#==#
+Organization#==#
+Abstract#==#Compositional matrix-space models of language were recently proposed for the
+task of meaning representation of complex text structures in natural language
+processing. These models have been shown to be a theoretically elegant way to
+model compositionality in natural language. However, in practical cases,
+appropriate methods are required to learn such models by automatically
+acquiring the necessary token-to-matrix assignments. In this paper, we
+introduce graded matrix grammars of natural language, a variant of the matrix
+grammars proposed by \newcite{Rudolph:2010}, and show a close correspondence
+between this matrix-space model and weighted finite automata. We conclude that
+the problem of learning compositional matrix-space models can be mapped to the
+problem of learning weighted finite automata over the real numbers.
+Author{1}{Firstname}#=%=#Shima
+Author{1}{Lastname}#=%=#Asaadi
+Author{1}{Email}#=%=#shima.asaadi@tu-dresden.de
+Author{1}{Affiliation}#=%=#Technische Universität Dresden (Technical University of Dresden)
+Author{2}{Firstname}#=%=#Sebastian
+Author{2}{Lastname}#=%=#Rudolph
+Author{2}{Email}#=%=#sebastian.rudolph@tu-dresden.de
+Author{2}{Affiliation}#=%=#Technische Universität Dresden
+
+==========

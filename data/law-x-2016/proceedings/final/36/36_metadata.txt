@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#36
+FinalPaperTitle#=%=#Part of Speech Annotation of a Turkish-German Code-Switching Corpus
+ShortPaperTitle#=%=#Part of Speech Annotation of a Turkish-German Code-Switching Corpus
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Ozlem Cetinoglu
+JobTitle#==#
+Organization#==#Ozlem Cetinoglu
+IMS, University of Stuttgart
+Germany
+Abstract#==#In this paper we describe our efforts on POS annotation of a code-switching
+corpus created from Turkish-German tweets. We use Universal Dependencies (UD)
+POS tags as our tag set. While the German parts of the corpus employ UD
+specifications, for the Turkish parts we propose annotation guidelines that
+adopt UD's language-general rules when it is applicable and adapt its
+principles to Turkish-specific phenomena when it is not. The resulting corpus
+has POS annotation of 1029 tweets, which is aligned with existing language
+identification annotation.
+Author{1}{Firstname}#=%=#Özlem
+Author{1}{Lastname}#=%=#Çetinoğlu
+Author{1}{Email}#=%=#ozlem@ims.uni-stuttgart.de
+Author{1}{Affiliation}#=%=#IMS, University of Stuttgart
+Author{2}{Firstname}#=%=#Çağrı
+Author{2}{Lastname}#=%=#Çöltekin
+Author{2}{Email}#=%=#ccoltekin@sfs.uni-tuebingen.de
+Author{2}{Affiliation}#=%=#University of Tübingen
+
+==========

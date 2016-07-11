@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#23
+FinalPaperTitle#=%=#Argumentative texts and clause types
+ShortPaperTitle#=%=#Argumentative texts and clause types
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Alexis Palmer
+JobTitle#==#
+Organization#==#Department of Computational Linguistics
+Heidelberg University
+In Neuenheimer Feld 325
+69120 Heidelberg, Germany
+Abstract#==#Argumentative texts have been thoroughly analyzed for their argumentative
+structure, and recent efforts aim at their automatic classification. This work
+investigates linguistic properties of argumentative texts and text passages in
+terms of their semantic clause types. We annotate argumentative texts with
+Situation Entity (SE) classes, which combine notions from lexical aspect
+(states, events) with genericity and habituality of clauses.
+We analyse the correlation of SE classes with argumentative text genres,
+components of argument structures, and some functions of those components.
+Our analysis reveals interesting relations between the distribution of SE types
+and the  argumentative text genre, compared to other genres like fiction or
+report. We also see tendencies in the correlations between argument components
+(such as premises and conclusions) and SE types, as well as between
+argumentative functions (such as support and rebuttal) and SE types.
+The observed tendencies can be deployed for automatic recognition and
+fine-grained classification of argumentative text passages.
+Author{1}{Firstname}#=%=#Maria
+Author{1}{Lastname}#=%=#Becker
+Author{1}{Email}#=%=#mbecker@cl.uni-heidelberg.de
+Author{1}{Affiliation}#=%=#University of Heidelberg/IDS Mannheim
+Author{2}{Firstname}#=%=#Alexis
+Author{2}{Lastname}#=%=#Palmer
+Author{2}{Email}#=%=#palmer@cl.uni-heidelberg.de
+Author{2}{Affiliation}#=%=#Heidelberg University
+Author{3}{Firstname}#=%=#Anette
+Author{3}{Lastname}#=%=#Frank
+Author{3}{Email}#=%=#frank@cl.uni-heidelberg.de
+Author{3}{Affiliation}#=%=#Heidelberg Universiy
+
+==========

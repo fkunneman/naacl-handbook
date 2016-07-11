@@ -1,0 +1,47 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#How Do Cultural Differences Impact the Quality of Sarcasm Annotation?: A Case Study of Indian Annotators and American Text
+ShortPaperTitle#=%=#How Do Cultural Differences Impact the Quality of Sarcasm Annotation?
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Aditya Joshi
+JobTitle#==#
+Organization#==#IITB-Monash Research Academy,
+IIT Bombay,
+Mumbai, India.
+400076
+Abstract#==#Sarcasm annotation extends beyond linguistic expertise, and often involves
+cultural context. This paper presents our first-of-its-kind study that deals
+with impact of cultural differences on the quality of sarcasm annotation. For
+this study, we consider the case of American text and Indian annotators. For
+two sarcasm-labeled datasets of American tweets and discussion forum posts that
+have been annotated by American annotators, we obtain annotations from Indian
+annotators. Our Indian annotators agree with each other more than their
+American counterparts, and face difficulties in case of unfamiliar situations
+and named entities.  However, these difficulties in sarcasm annotation result
+in statistically insignificant degradation in sarcasm classification.
+We also show that these disagreements between annotators can be predicted using
+textual properties. Although the current study is limited to two annotators and
+one culture pair, our paper opens up a novel direction in evaluation of the
+quality of sarcasm annotation, and the impact of this quality on sarcasm
+classification.
+Author{1}{Firstname}#=%=#Aditya
+Author{1}{Lastname}#=%=#Joshi
+Author{1}{Email}#=%=#adityaj@cse.iitb.ac.in
+Author{1}{Affiliation}#=%=#IITB-Monash Research Academy
+Author{2}{Firstname}#=%=#Pushpak
+Author{2}{Lastname}#=%=#Bhattacharyya
+Author{2}{Email}#=%=#pushpakbh@gmail.com
+Author{2}{Affiliation}#=%=#CSE Department, IIT Bombay
+Author{3}{Firstname}#=%=#Mark
+Author{3}{Lastname}#=%=#Carman
+Author{3}{Email}#=%=#mark.carman@monash.edu
+Author{3}{Affiliation}#=%=#Monash University
+Author{4}{Firstname}#=%=#Jaya
+Author{4}{Lastname}#=%=#Saraswati
+Author{4}{Email}#=%=#jaya.saraswati@gmail.com
+Author{4}{Affiliation}#=%=#IIT Bombay
+Author{5}{Firstname}#=%=#Rajita
+Author{5}{Lastname}#=%=#Shukla
+Author{5}{Email}#=%=#rajita.shukla38@gmail.com
+Author{5}{Affiliation}#=%=#IIT Bombay
+
+==========

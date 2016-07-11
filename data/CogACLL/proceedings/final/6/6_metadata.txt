@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#Modelling the informativeness and timing of non-verbal cues in parent-child interaction
+ShortPaperTitle#=%=#Modelling the informativeness and timing of non-verbal cues in parent-child interaction
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Robert Östling
+JobTitle#==#
+Organization#==#Department of Modern Language, University of Helsinki.
+PL 24 (Unionsgatan 40)
+00014 Helsingfors, Finland
+Abstract#==#How do infants learn the meanings of their first words? This study investigates
+the informativeness and temporal dynamics of non-verbal cues that signal the
+speaker's referent in a model of early word--referent mapping. To measure the
+information provided by such cues, a supervised classifier is trained on
+information extracted from a multimodally annotated corpus of 18 videos of
+parent--child interaction with three children aged 7 to 33 months.
+Contradicting previous research, we find that gaze is the single most
+informative cue, and we show that this finding can be attributed to our
+fine-grained temporal annotation. We also find that offsetting the timing of
+the non-verbal cues reduces accuracy, especially if the offset is negative.
+This is in line with previous research, and suggests that synchrony between
+verbal and non-verbal cues is important if they are to be perceived as causally
+related.
+Author{1}{Firstname}#=%=#Kristina
+Author{1}{Lastname}#=%=#Nilsson Björkenstam
+Author{1}{Email}#=%=#kristina.nilsson@ling.su.se
+Author{1}{Affiliation}#=%=#Stockholm University
+Author{2}{Firstname}#=%=#Mats
+Author{2}{Lastname}#=%=#Wirén
+Author{2}{Email}#=%=#mats.wiren@ling.su.se
+Author{2}{Affiliation}#=%=#Department of Linguistics, Stockholm University
+Author{3}{Firstname}#=%=#Robert
+Author{3}{Lastname}#=%=#Östling
+Author{3}{Email}#=%=#robert.ostling@helsinki.fi
+Author{3}{Affiliation}#=%=#Department of Modern Languages, University of Helsinki
+
+==========

@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#66
+FinalPaperTitle#=%=#Feature Exploration for Cross-Lingual Pronoun Prediction
+ShortPaperTitle#=%=#Feature Exploration for Cross-Lingual Pronoun Prediction
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Sara Stymne
+JobTitle#==#
+Organization#==#Uppsala universitet
+Institutionen för lingvistik och filologi
+BOX 635
+SE-75126 Uppsala
+Sweden
+Abstract#==#We explore a large number of features for cross-lingual pronoun prediction for
+translation between English and German/French. We find that features related
+to German/French are more informative than features related to English,
+regardless of the translation direction. Our most useful features are local
+context, dependency head features, and source pronouns. We also find that it is
+sometimes more successful to employ a 2-step procedure that first makes a
+binary choice between pronouns and other, then classifies pronouns. For the
+pronoun/other distinction POS n-grams were very useful.
+Author{1}{Firstname}#=%=#Sara
+Author{1}{Lastname}#=%=#Stymne
+Author{1}{Email}#=%=#sara.stymne@lingfil.uu.se
+Author{1}{Affiliation}#=%=#Uppsala University
+
+==========

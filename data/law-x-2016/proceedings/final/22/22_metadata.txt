@@ -1,0 +1,48 @@
+SubmissionNumber#=%=#22
+FinalPaperTitle#=%=#Comparison of Annotating Methods for Named Entity Corpora
+ShortPaperTitle#=%=#Comparison of Annotating Methods for Named Entity Corpora
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Kanako Komiya
+JobTitle#==#
+Organization#==#Ibaraki University
+4-12-1 Nakanarusawa, Hitachi, Ibaraki, 316-8511 Japan
+Abstract#==#We compared two methods to annotate a corpus via non-expert annotators for
+named entity (NE) recognition task, which are 
+(1) revising the results of the existing NE recognizer and (2) annotating NEs
+only by hand.  
+We investigated the annotation time, the degrees of agreement, and the
+performances based on the gold standard. 
+As we have two annotators for one file of each method, we evaluated the two
+performances, which are 
+the averaged performances over the two annotators and the performances deeming
+the annotations correct when either of them is correct.  
+The experiments revealed that the semi-automatic annotation was faster and
+showed higher agreements and performances on average.  
+However they also indicated that sometimes fully manual annotation should be
+used for some texts whose genres are far from its training data.  
+In addition, the experiments using the annotated corpora via semi-automatic and
+fully manual annotation indicated that 
+the F-measures sometimes could be better for some texts when we used manual
+annotation than when we used semi-automatic annotation.
+Author{1}{Firstname}#=%=#Kanako
+Author{1}{Lastname}#=%=#Komiya
+Author{1}{Email}#=%=#kanako.komiya.nlp@vc.ibaraki.ac.jp
+Author{1}{Affiliation}#=%=#Ibaraki Univ.
+Author{2}{Firstname}#=%=#Masaya
+Author{2}{Lastname}#=%=#Suzuki
+Author{2}{Email}#=%=#13T4038A@vc.ibaraki.ac.jp
+Author{2}{Affiliation}#=%=#Ibaraki Univ.
+Author{3}{Firstname}#=%=#Tomoya
+Author{3}{Lastname}#=%=#Iwakura
+Author{3}{Email}#=%=#iwakura.tomoya@jp.fujitsu.com
+Author{3}{Affiliation}#=%=#Fujitsu Laboratories Ltd.
+Author{4}{Firstname}#=%=#Minoru
+Author{4}{Lastname}#=%=#Sasaki
+Author{4}{Email}#=%=#msasaki@mx.ibaraki.ac.jp
+Author{4}{Affiliation}#=%=#Ibaraki University
+Author{5}{Firstname}#=%=#Hiroyuki
+Author{5}{Lastname}#=%=#Shinnou
+Author{5}{Email}#=%=#hiroyuki.shinnou.0828@vc.ibaraki.ac.jp
+Author{5}{Affiliation}#=%=#Ibaraki University
+
+==========

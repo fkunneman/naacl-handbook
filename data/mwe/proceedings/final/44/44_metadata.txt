@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#44
+FinalPaperTitle#=%=#A Word Embedding Approach to Identifying Verb-Noun Idiomatic Combinations
+ShortPaperTitle#=%=#A Word Embedding Approach to Identifying Verb-Noun Idiomatic Combinations
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Paul Cook
+JobTitle#==#Assistant Professor
+Organization#==#University of New Brunswick
+Fredericton, NB E3B 5A3 Canada
+Abstract#==#Verb-noun idiomatic combinations (VNICs) are idioms consisting of a verb with a
+noun in its direct object position. Usages of these expressions can be
+ambiguous between an idiomatic usage and a literal combination. In this paper
+we propose supervised and unsupervised approaches, based on word embeddings, to
+identifying token instances of VNICs. Our proposed supervised and unsupervised
+approaches perform better than the supervised and unsupervised approaches of
+Fazly et
+al. (2009), respectively.
+Author{1}{Firstname}#=%=#Waseem
+Author{1}{Lastname}#=%=#Gharbieh
+Author{1}{Email}#=%=#waseem.gharbieh@unb.ca
+Author{1}{Affiliation}#=%=#University of New Brunswick
+Author{2}{Firstname}#=%=#Virendra
+Author{2}{Lastname}#=%=#Bhavsar
+Author{2}{Email}#=%=#bhavsar@unb.ca
+Author{2}{Affiliation}#=%=#University of New Brunswick
+Author{3}{Firstname}#=%=#Paul
+Author{3}{Lastname}#=%=#Cook
+Author{3}{Email}#=%=#paul.cook@unb.ca
+Author{3}{Affiliation}#=%=#University of New Brunswick
+
+==========

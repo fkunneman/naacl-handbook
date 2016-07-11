@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#45
+FinalPaperTitle#=%=#Leveraging VerbNet to build Corpus-Specific Verb Clusters
+ShortPaperTitle#=%=#Leveraging VerbNet to build Corpus-Specific Verb Clusters
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Daniel Peterson
+JobTitle#==#
+Organization#==#University of Colorado
+Boulder, CO 80309
+Abstract#==#In this paper, we aim to close the gap from extensive, human-built semantic
+resources and corpus-driven unsupervised models. The particular resource
+explored here is VerbNet, whose organizing principle is that semantics and
+syntax are linked. To capture patterns of usage that can augment knowledge
+resources like VerbNet, we expand a Dirichlet process mixture model to predict
+a
+VerbNet class for each sense of each verb, allowing us to incorporate annotated
+VerbNet data to guide the clustering process. The resulting clusters align more
+closely to hand-curated syntactic/semantic groupings than any previous models,
+and can be adapted to new domains since they require only corpus counts.
+Author{1}{Firstname}#=%=#Daniel
+Author{1}{Lastname}#=%=#Peterson
+Author{1}{Email}#=%=#danielwyde@gmail.com
+Author{1}{Affiliation}#=%=#University of Colorado
+Author{2}{Firstname}#=%=#Jordan
+Author{2}{Lastname}#=%=#Boyd-Graber
+Author{2}{Email}#=%=#jordan.boyd.graber@colorado.edu
+Author{2}{Affiliation}#=%=#University of Colorado
+Author{3}{Firstname}#=%=#Martha
+Author{3}{Lastname}#=%=#Palmer
+Author{3}{Email}#=%=#martha.palmer@colorado.edu
+Author{3}{Affiliation}#=%=#University of Colorado
+Author{4}{Firstname}#=%=#Daisuke
+Author{4}{Lastname}#=%=#Kawahara
+Author{4}{Email}#=%=#dk@i.kyoto-u.ac.jp
+Author{4}{Affiliation}#=%=#Kyoto University
+
+==========

@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#34
+FinalPaperTitle#=%=#Learning Embeddings to lexicalise RDF Properties
+ShortPaperTitle#=%=#Learning Embeddings to lexicalise RDF Properties
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Laura Perez
+JobTitle#==#
+Organization#==#
+Abstract#==#A difficult task when generating text from  knowledge bases (KB) consists in
+finding appropriate lexicalisations for KB symbols. We present an approach for
+lexicalising knowledge base relations and apply it to DBPedia data. Our model
+learns low-dimensional embeddings of words and RDF resources and uses these
+representations to score RDF properties against candidate lexicalisations.
+Training our model using (i) pairs of RDF triples and automatically generated
+verbalisations of these triples and (ii) pairs of paraphrases extracted from
+various resources, yields competitive results on DBPedia data.
+Author{1}{Firstname}#=%=#Laura
+Author{1}{Lastname}#=%=#Perez-Beltrachini
+Author{1}{Email}#=%=#laura.perez@loria.fr
+Author{1}{Affiliation}#=%=#CNRS/LORIA
+Author{2}{Firstname}#=%=#Claire
+Author{2}{Lastname}#=%=#Gardent
+Author{2}{Email}#=%=#claire.gardent@loria.fr
+Author{2}{Affiliation}#=%=#CNRS/LORIA, Nancy
+
+==========

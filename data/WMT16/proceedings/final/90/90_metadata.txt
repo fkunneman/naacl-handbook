@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#90
+FinalPaperTitle#=%=#Data Selection for IT Texts using Paragraph Vector
+ShortPaperTitle#=%=#Data Selection for IT Texts using Paragraph Vector
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Duma Mirela-Stefania
+JobTitle#==#
+Organization#==#Universität Hamburg
+Department Informatik
+Natural Language Systems Division
+Vogt-Kölln-Straße 30
+D-22527 Hamburg
+Abstract#==#This paper presents an overview of the system submitted by the University of
+Hamburg to the IT domain shared translation task as part of the ACL 2016 First
+Conference of Machine Translation (WMT 2016). We have chosen data selection as
+a domain adaptation method. The filtering of the general  domain data makes use
+of paragraph vectors as a novel approach for scoring the sentences. Experiments
+were conducted for English-German under the constrained condition.
+Author{1}{Firstname}#=%=#Mirela-Stefania
+Author{1}{Lastname}#=%=#Duma
+Author{1}{Email}#=%=#mduma@informatik.uni-hamburg.de
+Author{1}{Affiliation}#=%=#University of Hamburg
+Author{2}{Firstname}#=%=#Wolfgang
+Author{2}{Lastname}#=%=#Menzel
+Author{2}{Email}#=%=#menzel@informatik.uni-hamburg.de
+Author{2}{Affiliation}#=%=#University of Hamburg
+
+==========

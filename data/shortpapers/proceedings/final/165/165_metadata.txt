@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#165
+FinalPaperTitle#=%=#Don't Count, Predict! An Automatic Approach to Learning Sentiment Lexicons for Short Text
+ShortPaperTitle#=%=#Don't Count, Predict! An Automatic Approach to Learning Sentiment Lexicons for Short Text
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Duy Tin Vo
+JobTitle#==#PhD Candidate
+Organization#==#Singapore University of Technology and Design
+08 Somapah Road Singapore 487372
+Abstract#==#We describe an efficient neural network method to automatically learn sentiment
+lexicons without relying on any manual resources. The method takes inspiration
+from the NRC method, which gives the best results in SemEval13 by leveraging
+emoticons in large tweets, using the PMI between words and tweet sentiments to
+define the sentiment attributes of words. We show that better lexicons can be
+learned by using them to predict the tweet sentiment labels. By using a very
+simple neural network, our method is fast and can take advantage of the same
+data volume as the NRC method. Experiments show that our lexicons give
+significantly better accuracies on multiple languages compared to the current
+best methods.
+Author{1}{Firstname}#=%=#Duy Tin
+Author{1}{Lastname}#=%=#Vo
+Author{1}{Email}#=%=#duytin_vo@mymail.sutd.edu.sg
+Author{1}{Affiliation}#=%=#Singapore University of Technology and Design
+Author{2}{Firstname}#=%=#Yue
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Email}#=%=#yue_zhang@sutd.edu.sg
+Author{2}{Affiliation}#=%=#Singapore University of Technology and Design
+
+==========

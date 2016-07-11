@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Constructing a Japanese Basic Named Entity Corpus of Various Genres
+ShortPaperTitle#=%=#Constructing a Japanese Basic Named Entity Corpus of Various Genres
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Tomoya Iwakura
+JobTitle#==#
+Organization#==#Fujitsu Laboratories Ltd.
+1-1, Kamikodanaka 4-chome, Nakahara-ku, Kawasaki 211-8588, Japan
+Abstract#==#This paper introduces a Japanese Named Entity (NE) corpus of various genres. We
+annotated 136 documents in the Balanced Corpus of Contemporary Written Japanese
+with the eight types of NE tags defined by Information Retrieval and Extraction
+Exercise. The NE corpus consists of six types of genres of documents such as
+blogs, magazines, white papers, and so on, and the corpus contains 2,464 NE
+tags in
+total.
+Author{1}{Firstname}#=%=#Tomoya
+Author{1}{Lastname}#=%=#Iwakura
+Author{1}{Email}#=%=#iwakura.tomoya@jp.fujitsu.com
+Author{1}{Affiliation}#=%=#Fujitsu Laboratories Ltd.
+Author{2}{Firstname}#=%=#Kanako
+Author{2}{Lastname}#=%=#Komiya
+Author{2}{Email}#=%=#kanako.komiya.nlp@vc.ibaraki.ac.jp
+Author{2}{Affiliation}#=%=#Ibaraki Univ.
+Author{3}{Firstname}#=%=#Ryuichi
+Author{3}{Lastname}#=%=#Tachibana
+Author{3}{Email}#=%=#ryuu0614@gmail.com
+Author{3}{Affiliation}#=%=#Commerce Link Inc.
+
+==========

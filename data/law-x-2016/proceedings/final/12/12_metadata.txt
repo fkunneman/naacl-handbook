@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Supersense tagging with inter-annotator disagreement
+ShortPaperTitle#=%=#Supersense tagging with inter-annotator disagreement
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Martinez Alonso, Hector
+JobTitle#==#
+Organization#==#Alpage - University of Paris 7 Diderot
+bâtiment Olympe de Gouges
+rue Albert Einstein, 75013
+ Paris (France)
+Abstract#==#Linguistic annotation is the backbone behind any successful approach in Natural
+Language Processing (NLP), because annotated corpora are necessary to train and
+evaluate natural language processing applications. Thus, a lot of effort is put
+into obtaining high-agreement annotated datasets. Recent research has shown
+that 
+annotator disagreement carries actual signal for regularizing NLP models. 
+However, prior work focused on part of speech tagging and on a single language.
+We take this further by examining a semantic task (supersense tagging) and the
+cross-language scenario. In particular, we examine how reliable disagreement is
+for sense annotation and we gauge in a preliminary study whether disagreements
+transfer across languages.
+Author{1}{Firstname}#=%=#Héctor
+Author{1}{Lastname}#=%=#Martínez Alonso
+Author{1}{Email}#=%=#hector.martinez-alonso@inria.fr
+Author{1}{Affiliation}#=%=#University of Paris 7 - INRIA
+Author{2}{Firstname}#=%=#Anders
+Author{2}{Lastname}#=%=#Johannsen
+Author{2}{Email}#=%=#anders@johannsen.com
+Author{2}{Affiliation}#=%=#Apple Inc
+Author{3}{Firstname}#=%=#Barbara
+Author{3}{Lastname}#=%=#Plank
+Author{3}{Email}#=%=#bplank@gmail.com
+Author{3}{Affiliation}#=%=#University of Groningen
+
+==========

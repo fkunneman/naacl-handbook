@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#10
+FinalPaperTitle#=%=#Morphotactics as Tier-Based Strictly Local Dependencies
+ShortPaperTitle#=%=#Morphotactics as Tier-Based Strictly Local Dependencies
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Thomas Graf
+JobTitle#==#
+Organization#==#Stony Brook University
+Department of Linguistics
+Stony Brook, NY 11794
+Abstract#==#It is commonly accepted that morphological dependencies are finite-state in
+nature. We argue that the upper bound on morphological expressivity is much
+lower. Drawing on technical results from computational phonology, we show that
+a variety of morphotactic phenomena are tier-based strictly local and do not
+fall into weaker subclasses such as the strictly local or strictly piecewise
+languages. Since the tier-based strictly local languages are learnable in the
+limit from positive texts, this marks a first important step towards general
+machine learning algorithms for morphology. Furthermore, the limitation to
+tier-based strictly local languages explains typological gaps that are puzzling
+from a purely linguistic perspective.
+Author{1}{Firstname}#=%=#Alëna
+Author{1}{Lastname}#=%=#Aksënova
+Author{1}{Email}#=%=#alena.aksenova@stonybrook.edu
+Author{1}{Affiliation}#=%=#Stony Brook University
+Author{2}{Firstname}#=%=#Thomas
+Author{2}{Lastname}#=%=#Graf
+Author{2}{Email}#=%=#softconf@thomasgraf.net
+Author{2}{Affiliation}#=%=#Stony Brook University
+Author{3}{Firstname}#=%=#Sedigheh
+Author{3}{Lastname}#=%=#Moradi
+Author{3}{Email}#=%=#sedigheh.moradi@stonybrook.edu
+Author{3}{Affiliation}#=%=#Stony Brook University
+
+==========

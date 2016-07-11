@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#43
+FinalPaperTitle#=%=#A Two-stage Approach for Extending Event Detection to New Types via Neural Networks
+ShortPaperTitle#=%=#A Two-stage Approach for Extending Event Detection to New Types via Neural Networks
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Thien Huu Nguyen
+JobTitle#==#
+Organization#==#New York University
+25 West Fourth Street
+New York, NY 10012
+Abstract#==#We study the event detection problem in the new type extension setting. In
+particular, our task involves identifying the event instances of a target type
+that is only specified by a small set of seed instances in text. We want to
+exploit the large amount of training data available for the other event types
+to improve the performance of this task. We compare the convolutional neural
+network model and the feature-based method in this type extension setting to
+investigate their effectiveness. In addition, we propose a two-stage training
+algorithm for neural networks that effectively transfers knowledge from the
+other event types to the target type. The experimental results show that the
+proposed algorithm outperforms strong baselines for this task.
+Author{1}{Firstname}#=%=#Thien Huu
+Author{1}{Lastname}#=%=#Nguyen
+Author{1}{Email}#=%=#thien@cs.nyu.edu
+Author{1}{Affiliation}#=%=#New York University
+Author{2}{Firstname}#=%=#Lisheng
+Author{2}{Lastname}#=%=#Fu
+Author{2}{Email}#=%=#lisheng@cs.nyu.edu
+Author{2}{Affiliation}#=%=#New York University
+Author{3}{Firstname}#=%=#Kyunghyun
+Author{3}{Lastname}#=%=#Cho
+Author{3}{Email}#=%=#kyunghyun.cho@nyu.edu
+Author{3}{Affiliation}#=%=#New York University
+Author{4}{Firstname}#=%=#Ralph
+Author{4}{Lastname}#=%=#Grishman
+Author{4}{Email}#=%=#grishman@cs.nyu.edu
+Author{4}{Affiliation}#=%=#New York University
+
+==========

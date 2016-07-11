@@ -1,0 +1,52 @@
+SubmissionNumber#=%=#15
+FinalPaperTitle#=%=#EmpiriST: AIPHES - Robust Tokenization and POS-Tagging for Different Genres
+ShortPaperTitle#=%=#EmpiriST: AIPHES - Robust Tokenization and POS-Tagging for Different Genres
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Steffen Remus
+JobTitle#==#
+Organization#==#Techinische Universität Darmstadt, Fachbereich 20 
+Hochschulstraße 10 
+64289 Darmstadt
+Germany
+Abstract#==#We present our system used for the AIPHES team submission in the context of the
+EmpiriST shared task on “Auto- matic Linguistic Annotation of
+Computer-Mediated Communication / Social Media”. Our system is based on a
+rule-based tokenizer and a machine learning sequence labelling POS tagger using
+a variety of features. We show that the system is robust across the two tested
+genres: German computer mediated communication (CMC) and general German web
+data (WEB). We achieve the second rank in three of four scenarios. Also, the
+presented systems are freely available as open source components.
+Author{1}{Firstname}#=%=#Steffen
+Author{1}{Lastname}#=%=#Remus
+Author{1}{Email}#=%=#remus@cs.tu-darmstadt.de
+Author{1}{Affiliation}#=%=#TU Darmstadt
+Author{2}{Firstname}#=%=#Gerold
+Author{2}{Lastname}#=%=#Hintz
+Author{2}{Email}#=%=#gerold.hintz@googlemail.com
+Author{2}{Affiliation}#=%=#Technical University Darmstadt
+Author{3}{Firstname}#=%=#Chris
+Author{3}{Lastname}#=%=#Biemann
+Author{3}{Email}#=%=#biem@cs.tu-darmstadt.de
+Author{3}{Affiliation}#=%=#TU Darmstadt
+Author{4}{Firstname}#=%=#Christian M.
+Author{4}{Lastname}#=%=#Meyer
+Author{4}{Email}#=%=#meyer@ukp.informatik.tu-darmstadt.de
+Author{4}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+Author{5}{Firstname}#=%=#Darina
+Author{5}{Lastname}#=%=#Benikova
+Author{5}{Email}#=%=#darina.benikova@gmail.com
+Author{5}{Affiliation}#=%=#TU Darmstadt
+Author{6}{Firstname}#=%=#Judith
+Author{6}{Lastname}#=%=#Eckle-Kohler
+Author{6}{Email}#=%=#eckle-kohler@ukp.informatik.tu-darmstadt.de
+Author{6}{Affiliation}#=%=#Technische Universität Darmstadt
+Author{7}{Firstname}#=%=#Margot
+Author{7}{Lastname}#=%=#Mieskes
+Author{7}{Email}#=%=#mieskesm@gmail.com
+Author{7}{Affiliation}#=%=#University of Applied Sciences, Darmstadt
+Author{8}{Firstname}#=%=#Thomas
+Author{8}{Lastname}#=%=#Arnold
+Author{8}{Email}#=%=#arnold@aiphes.tu-darmstadt.de
+Author{8}{Affiliation}#=%=#TU Darmstadt
+
+==========

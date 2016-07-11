@@ -1,0 +1,604 @@
+%
+% File acl2016.tex
+%
+%% Based on the style files for ACL-2015, with some improvements
+%%  taken from the NAACL-2016 style
+%% Based on the style files for ACL-2014, which were, in turn,
+%% Based on the style files for ACL-2013, which were, in turn,
+%% Based on the style files for ACL-2012, which were, in turn,
+%% based on the style files for ACL-2011, which were, in turn,
+%% based on the style files for ACL-2010, which were, in turn,
+%% based on the style files for ACL-IJCNLP-2009, which were, in turn,
+%% based on the style files for EACL-2009 and IJCNLP-2008...
+
+%% Based on the style files for EACL 2006 by
+%%e.agirre@ehu.es or Sergi.Balari@uab.es
+%% and that of ACL 08 by Joakim Nivre and Noah Smith
+
+\documentclass[11pt]{article}
+\usepackage{acl2016}
+\usepackage{times}
+\usepackage{url}
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{xspace}
+\usepackage{booktabs,multirow}
+\usepackage{pgf-pie}
+\usepackage{fixme}
+\usepackage{todonotes}
+
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+
+\aclfinalcopy % Uncomment this line for the final submission
+%\def\aclpaperid{***} %  Enter the acl Paper ID here
+
+%\setlength\titlebox{5cm}
+% You can expand the titlebox if you need extra space
+% to show all the authors. Please do not make the titlebox
+% smaller than 5cm (the original size); we will check this
+% in the camera-ready version and ask you to change it back.
+
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+%%%
+\newcommand{\ncode}{\textsc{Ncode}\xspace}
+\newcommand{\soul}{\textsc{SOUL}\xspace}
+\newcommand{\moses}{\textsc{Moses}\xspace}
+\newcommand{\mgiza}{\textsc{Mgiza}\xspace}
+\newcommand{\ngram}{\mbox{$n$-gram}\xspace}
+\newcommand{\nbest}{\mbox{$n$-best}\xspace}
+\newcommand{\bleu}{\textsc{BLEU}\xspace}
+\newcommand{\falign}{\texttt{fast\_align}\xspace}
+\newcommand{\ml}{\texttt{ML}\xspace}
+\newcommand{\lmplz}{\texttt{lmplz}\xspace}
+\newcommand{\kbmira}{\texttt{kb-mira}\xspace}
+\newcommand{\xenc}{\texttt{XenC}\xspace}
+%%%
+
+\title{LIMSI@WMT'16: Machine Translation of News}
+
+
+\author{
+Alexandre Allauzen$^{1}$,
+Lauriane Aufrant$^{1,2}$,
+Franck Burlot$^{1}$,
+Elena Knyazeva$^{1}$,\\
+\textbf{Oph\'{e}lie Lacroix$^{1}$,
+Thomas Lavergne$^{1}$,
+Guillaume Wisniewski$^{1}$,
+Fran\c{c}ois Yvon$^{1}$}\\
+$^1$LIMSI, CNRS, Univ. Paris-Sud, Universit\'{e} Paris Saclay, 91~403 Orsay, France\\
+$^2$ DGA, 60 boulevard du G\'{e}n\'{e}ral Martial Valin, 75~509 Paris, France\\
+ {\tt firstname.lastname@limsi.fr}}
+
+\date{}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+  This paper describes LIMSI's submissions to the shared WMT'16 task
+  ``Translation of News''. We report results for Romanian-English in both
+  directions, for English to Russian, as well as preliminary
+  experiments on reordering to translate from English into German.
+  Our submissions use mainly
+  \ncode{} and \moses along with continuous space models in a
+  post-processing step. The main novelties of this year's
+  participation are the following:
+  for the translation into Russian and Romanian, we have attempted
+  to extend the output of the decoder with morphological variations
+  and to use a CRF model to rescore this new search space; as for the
+  translation into German, we have been experimenting with source-side
+  pre-ordering based on a dependency structure allowing permutations
+  in order to reproduce the target word order.
+\end{abstract}
+
+
+\section{Introduction}
+
+This paper documents LIMSI's  participation to the shared task of machine
+translation of news for three language pairs: English to Russian,
+Romanian-English in both directions and English to German. The reported
+experiments are mainly related to two challenging domains: inflection
+prediction and word order in morphologically rich languages.
+
+In our systems translating from English into Romanian and Russian, 
+we have attempted to address the difficulties that go along with translating
+into morphologically reach languages. First, a baseline system
+outputs sentences in which we reconsider the choices previously made
+for inflected words by generating their full paradigm.
+Second, a CRF model is expected to make better choices than
+the translation system.
+
+For English to German, experiments are reported on the pre-ordering
+of the source sentence. Using the dependency structure of the sentence,
+the model predicts permutations of source words that lead to an order
+that is as close as possible to the right order in the target language.
+
+
+\section{System Overview}
+\label{sec:sys}
+
+Our experiments mainly use
+\ncode{},\footnote{\url{http://ncode.limsi.fr}} an open source
+implementation of the \ngram{} approach, as well as
+\moses\footnote{\url{http://www.statmt.org/moses/}} for some
+contrastive experiments. For more details about these toolkits, the
+reader can refer to~\cite{koehn07Moses} for \moses{} and
+to~\cite{Crego11ncode} for \ncode.
+
+\subsection{Data pre-processing and word alignments}
+
+All the English and Russian data have been cleaned by normalizing
+character encoding. 
+
+Tokenization for English text relies on in-house text processing
+tools~\cite{Dechelotte08limsi}.  For the Russian corpora, we used the
+\texttt{TreeTagger} tokenizer.  For Romanian, we developed and used
+\texttt{tokro}, a rule-based tokenizer. After normalization of diacritics, it
+repeatedly applies 3 rules: (a) word splitting on slashes, except for
+url addresses, (b) isolation of punctuation characters from a
+predefined set (including quotes, parentheses and ellipses as triple
+dots) adjoined at the beginning or end of words (considering a few
+exceptions like 'Dr.'  or 'etc.') and (c) clitic tokenization on
+hyphens, notably for 'nu', 'd\u{a}', '\unichar{537}i' and unstressed
+personal pronouns. The hyphen is kept on the clitic token. Multi-word
+expressions are not joined into a single token.
+
+The parallel corpora were tagged and lemmatized using \texttt{TreeTagger}~\cite{Schmid94treetagger} for
+English and Russian~\cite{Sharoff11}. The same pre-processing was obtained for Romanian with
+the TTL tagger and lemmatizer~\cite{Tufis_racai}.
+Having noticed many sentence alignment errors and out-of-domain parts in
+the Russian common-crawl parallel corpus, we have used a bilingual
+sentence aligner\footnote{\emph{Bilingual Sentence Aligner}, available at \url{http://research.microsoft.com/apps/catalog/}}
+and proceeded to a domain adaptation filtering using the same procedure as 
+for monolingual data (see section~\ref{ssec:lm}).
+As a result, one third of the initial corpus has been removed.
+Apart from the russian wiki-headlines corpus, the systems presented
+below used all the parallel data provided by the shared task.
+
+Word alignments were trained according to IBM model 4, using \mgiza.
+
+\subsection{Language modelling and domain adaptation}
+\label{ssec:lm}
+
+Various English, Romanian and Russian language models (LM)
+were trained on the in-domain monolingual corpora,
+a subset of the common-crawl corpora and the relevant side of the parallel corpora (for
+English, the English side of the Czech-English parallel
+data was used). We trained 4-gram LMs, pruning all
+singletons with \lmplz \cite{Heafield11kenlm}.
+
+In addition to in-domain monolingual data, a considerable amount
+of out-of-domain data was provided this year, gathered in the common-crawl
+corpora. Instead of directly training an LM on these corpora, we extracted from them
+in-domain sentences using the Moore-Lewis \cite{Moore2010} filtering method,
+more specifically its implementation in \xenc \cite{Rousseau13}. As a result,
+the common-crawl sub-corpora we have used contained about 200M sentences for Romanian
+and 300M for Russian and English.
+Finally, we perform a linear interpolation of these models,
+using the SRILM toolkit \cite{stolcke02:sae}.
+
+\subsection{\ncode}
+\label{ssec:ncode}
+
+\ncode implements the bilingual n-gram approach to SMT
+\cite{casacuberta04,crego06reorder,Marino06}
+that is closely related to the standard phrase-based approach
+\cite{zens02:pbs}.  In this framework, the translation is divided
+into two steps. To translate a source sentence \textbf{f} into
+a target sentence \textbf{e}, the source sentence is first
+reordered according to a set of rewriting rules so as to reproduce the
+target word order. This generates a word lattice containing
+the most promising source permutations, which is then translated.
+Since the translation step is monotonic, the peculiarity of this approach
+is to rely on the n-gram assumption to decompose the joint probability
+of a sentence pair in a sequence of bilingual units called tuples.
+
+\[
+e^{*} = \argmax_{\textbf{e},\textbf{a}} \sum_{k=1}^K \lambda_k f_k(\textbf{f}, \textbf{e}, \textbf{a})
+\]
+
+where $K$ feature functions ($f_k$) are weighted by a set of
+coefficients ($\lambda_k$) and \textbf{a} denotes the set of hidden
+variables corresponding to the reordering and segmentation of the
+source sentence. Along with the n-gram translation models and target
+n-gram language models, 13 conventional features are combined: 4 {\it
+  lexicon models} similar to the ones used in standard phrase-based
+systems; 6 {\it lexicalized reordering models}
+\cite{Tillmann04,Crego11ncode} aimed at predicting the orientation of
+the next translation unit; a ``weak'' distance-based {\it distortion
+  model}; and finally a {\it word-bonus model} and a {\it tuple-bonus
+  model} which compensate for the system preference for short
+translations.  Features are estimated during the training phase.
+Training source sentences are first reordered so as to match the
+target word order by unfolding the word alignments
+\cite{Crego06Improving}.  Tuples are then extracted in such a way that
+a unique segmentation of the bilingual corpus is achieved
+\cite{Marino06} and n-gram translation models are then estimated over
+the training corpus composed of tuple sequences made of surface forms
+or POS tags.  Reordering rules are automatically learned during the
+unfolding procedure and are built using part-of-speech (POS), rather
+than surface word forms, to increase their generalization power
+\cite{Crego06Improving}.
+
+
+\subsection{Continuous-space models}
+\label{ssec:soul}
+
+Neural networks, working on top of conventional $n$-gram back-off
+language models, have been introduced
+in~\cite{Bengio03NNLM,Schwenk06CSLM} as a potential means to improve
+conventional language models.  More recently, these techniques have
+been applied to statistical machine translation in order to estimate
+continuous-space translation models
+(CTMs)~\cite{Schwenk07Smooth,Le12continuous,Devlin14fast}.
+
+As in our previous
+participations~\cite{Le12limsi,Allauzen13limsi,Pecheux14wmt,Marie15LIMSI},
+we take advantage of the proposal of~\cite{Le12continuous}. Using a
+specific neural network architecture, the \textit{Structured OUtput
+  Layer} (\soul), it becomes possible to estimate $n$-gram models that
+use large output vocabulary, thereby making the training of large
+neural network language models feasible both for target language
+models~\cite{Le11Soul} and translation
+models~\cite{Le12continuous}. Moreover, the peculiar parameterization
+of continuous models allows us to consider longer dependencies than
+the one used by conventional $n$-gram models (e.g. $n=10$ instead of
+$n=4$). Initialization is an important issue when optimizing neural
+networks.  For CTMs, a solution consists in pre-training monolingual
+\ngram models. Their parameters are then used to initialize bilingual
+models.
+
+Given the computational cost of computing \ngram{} probabilities with
+neural network models, a solution is to resort to a two-pass approach:
+the first pass uses a conventional system to produce a $k$-best list
+(the $k$ most likely hypotheses); in the second pass, probabilities
+are computed by continuous-space models for each hypothesis and added
+as new features.  For this year evaluation, we used the following
+models: one continuous target language model and four CTMs as
+described in~\cite{Le12continuous}. 
+
+For English to Russian and Romanian to English, the models have the
+same architecture:
+\begin{itemize}
+\item words are projected into a 500-dimensional vector space; % conterminous space ?
+\item the feed-forward architecture includes two hidden layers of
+  size $1000$ and $500$;
+\item the non-linearity is a sigmoid function;
+\end{itemize}
+All models are trained for 20 epochs, then the selection relies on
+the perplexity measured on a validation set. For CTMs, the validation
+sets are sampled from the parallel training data.
+
+\section{Experiments}
+\label{sec:exp}
+For all our experiments, the MT systems are tuned using the \kbmira
+algorithm~\cite{cherry2012batch} implemented in \moses, including the
+reranking step.  POS tagging is performed using the
+\texttt{TreeTagger}~\cite{Schmid94treetagger} for English and Russian
+\cite{Sharoff11}, and TTL \cite{Tufis_racai} for Romanian.
+
+\subsection{Development and test sets}
+
+Since only one development set was provided for Romanian, we split the
+given development set into two equal parts: newsdev-2016/1 and newsdev-2016/2.
+The first part was used as development set while the second part was our
+internal test set.
+
+The Russian development and test sets we have used consisted in shuffled
+sentences from newstest 2012, 2013 and 2014. Tests were also performed on
+newstest-2015.
+
+% \subsection{Reranking}
+
+% The N-best reranking steps uses the following feature sets to find a better hypothesis among the 1,000-best hypotheses of the decoder:
+% \begin{itemize}
+% \item \textbf{IBM1}: IBM1 features~\cite{Hildebrand08combinationof};
+% \item \textbf{POSLM}: 6-gram Witten-Bell smoothed POS LM trained with SRILM on all the monolingual news-discussions corpus;
+% \item \textbf{\soul}: Five features, one monolingual target language
+%   model and 4 translation models, see section~\ref{ssec:soul} for details;
+% \item \textbf{TagRatio}: ratio of translation hypothesis by number of source tokens tagged as verb, noun or adjective;
+% \item \textbf{WPP}: count-based word posterior probability~\cite{Ueffing:2007:WCE:1245134.1245137};
+% \end{itemize}
+
+\subsection{Hidden-CRF for inflection prediction}
+
+In morphologically rich languages, each single lemma corresponds to
+a large number of word forms that are not all observed
+in the training data. A traditional statistical translation
+system can not generate a non-observed form. On the other hand,
+even if a form has been seen at training time, it might be hard
+to use it in a relevant way if its frequency is low, which is
+a common phenomena, since the number of singletons in Romanian and Russian
+corpora is a lot higher than in English corpora. In such a situation,
+surface heuristics are less reliable.
+
+In order to address this limitation, we tried to extend the output of the
+decoder with morphological variations of nouns, pronouns and adjectives.
+Therefore, for each word in the output baring one of these PoS-tags,
+we introduced all forms in the paradigm as possible alternatives.
+The paradigm generation was performed for Russian using pymorphy, a dictionary
+implemented as a Python module.\footnote{\url{http://pymorphy.readthedocs.io/}}
+For Romanian, we used the crawled (thus sparse) lexicon introduced in \cite{capitaine_aufranescu}.
+
+%Since we had no such ressources for Romanian, we have crawled
+%as many word forms as possible from the Wiktionary \footnote{Romanian and
+%English versions: \url{https://ro.wiktionary.org}, \url{https://en.wiktionary.org}.}
+%and obtained a sparse dictionary.
+
+Once the outputs were extended, we used a CRF model to rescore this new search space. The CRF can
+use the features of the MT decoder, but can also include morphological
+or syntactic features in order to estimate output scores, even for words
+that were not observed in the training data.
+
+In the Russian experiment, oracle scores show that a maximum gain of 6.3 \bleu points can be obtained if
+the extension is performed on the full search space and 2.3 \bleu points on
+300-best output of the \ncode decoder. The full search space, while being
+more promising, proved to be too large to be handled by the CRF, so the
+following experiments were performed on the 300-best output.
+
+In order to train this model, we split the parallel data in two
+parts. The first (largest) part was used to train the translation
+system baseline. The second part was used for the training of the
+hidden CRF. First, the source side was translated with the baseline
+system, then the resulting output was extended (paradigm generation).
+References were obtained by searching for oracle translations in the augmented
+output. Models were trained using in-house implementation of hidden CRF \cite{lavergne13crf}
+and used features from the decoder as well as additional ones: unigram
+and bigram of words and POS-tags; number, gender and case of the forms and of the
+surrounding ones; and information about nearest prepositions and verbs.
+
+
+\subsection{Experimental results}
+
+The experimental results were not conclusive, as, in the best configuration for Russian
+our model achieved the same results as the baseline and slightly worsened
+the \ncode\hspace{-0.6mm}+\soul system (see Table~\ref{table:results-ruen}).
+
+
+\begin{table}[th]
+\begin{center}
+\scalebox{0.81}{
+\begin{tabular}{lcc}
+
+\toprule System & \moses & \ncode \\
+\midrule
+Baseline & 22.91 & 23.05 \\
+Baseline + \soul & & 23.75 \\
+\midrule
+Baseline + Hidden-CRF & & 23.03 \\
+Baseline + \soul + Hidden-CRF & & 23.46 \\
+\bottomrule
+\end{tabular}
+}
+\caption{Results (\bleu) for English-Russian with \ncode and \moses on the official test.}
+\label{table:results-ruen}
+ \end{center}
+\end{table}
+
+
+\begin{table}[th]
+\begin{center}
+\scalebox{0.81}{
+\begin{tabular}{cccc}
+
+\toprule & System & \moses & \ncode \\
+\midrule
+\multirow{2}{*}{En-Ro} & Baseline & 23.98 & 24.15 \\
+& Baseline + Hidden-CRF & & 23.68 \\
+\midrule
+\multirow{2}{*}{Ro-En} & Baseline & 30.41 & 29.90 \\
+& Baseline + \soul & & 30.60 \\
+\bottomrule
+
+\end{tabular}
+}
+\caption{Results (\bleu) for English:Romanian with \ncode and \moses on the official test.}
+\label{table:results-roen}
+ \end{center}
+\end{table}
+
+
+As for Romanian (Table~\ref{table:results-roen}), our model performed worse than for Russian. We assume
+that this must be partly due to the sparsity of the lexicon
+used for Romanian, with which we only generated partial paradigms, as
+opposed to full paradigms for Russian.
+
+\subsection{Reordering experiments for English to German}
+\label{sec:reordering}
+
+\ncode{} translates a sentence by
+first re-ordering the source sentence and then monotonically decoding
+it. Reorderings of the source sentence are compactly encoded in a
+permutation lattice generated by iteratively applying POS-based reordering rules
+extracted from the parallel data.
+
+In this year's WMT evaluation campaign we investigated ways to improve the
+re-ordering step by re-implementing the approach proposed by
+\cite{lerner2013source}. This approach aims at taking advantage of the
+dependency structure of the source sentence to predict a permutation
+of the source words that is as close as possible to a correct
+syntactic word order in the target language: starting from the root of
+the dependency tree a classifier is used to recursively predict the
+order of a node and all its children.  More precisely, for a
+family\footnote{Following~\cite{lerner2013source}, we call family a
+  head in a dependency tree and all its children.} of size~$n$, a
+multiclass classifier is used to select the best ordering of this
+family among its $n!$ permutations. A different classifier is trained
+for each possible family size.
+
+% ----------------------
+
+\paragraph{Predicting the best re-ordering} These experiments were
+only performed for English to German translation.  The source
+sentences were PoS-tagged and dependency parsed using the
+\textsc{MateParser}~\cite{bohnet12joint} trained on the UDT~v2.0. The
+parallel source and target sentences were aligned in both directions
+with \textsc{FastAlign}~\cite{Dyer13asimple} and these alignments were
+merged with the intersection heuristic.\footnote{Preliminary
+  experiments with the gdfa heuristic showed that the symmetrization
+  heuristic has no impact on the quality of the predicted
+  pre-ordering.}
+
+The training set used to learn the classifiers is generated as follows:
+during a depth-first traversal of each source sentence, an example is extracted from a node
+if each child of this node is aligned with exactly one word in the
+target sentence. In this case, it is possible, by following the
+alignment links, to extract the order of the family members in the
+target language. An example is therefore a permutation of $n$ members
+(1 head and its $n-1$ children).
+
+In practice, we did not extract training examples from families having
+more than 8 members\footnote{Families with more than 8 members account
+  for less than 0.5\% of the extracted examples.} and train 7
+classifiers (one binary classifier for the family made of a head and a
+single dependent and 6~multi-class classifiers able to discriminate
+between up to 5\,040 classes). Our experiments used
+\textsc{Vowpal Wabbit}, a very efficient implementation of the logistic
+regression capable to handle a large number of output
+classes.\footnote{\url{http://hunch.net/~vw/}.} The features used for
+training are the same as those proposed by \cite{lerner2013source}:
+word forms, PoS-tags, relative positions of the head, children, their
+siblings and the gaps between them, etc.
+
+\paragraph{Building permutation lattices}
+
+In order to mitigate the impact of errouneously predicted word preorderings, we propose to build
+lattices of permutations rather than using just one reordering
+of the source sentence. This lattice includes the two best predicted permutations
+\emph{at each node}.
+
+It is built as follows: starting from an
+automaton with a single arc between the initial state and the final
+state labeled with the \textsc{Root} token, each arc is successively
+substituted by two automata describing two possible re-orderings of
+the token $t$ corresponding to this arc label and its children in the
+dependency tree. Each of these automata has $n + 1$ arcs corresponding
+to the $n$ children of $t$ in the dependency tree and $t$ itself that
+appear in the predicted order. The weight of the first arc is defined
+as the probability predicted by the classifier; all other arcs have a
+weight of 0.
+
+\paragraph{MT experiments}
+\label{par:mt-experiments}
+We report preliminary results for pre-ordering.  All the source side
+of training data is reordered using the method described above.
+Then, the reordered source side, along with the target side, are
+considered as the new parallel training data on which a new \ncode
+system is trained (including new word alignment, tuple
+extraction,~...). For tuning and test steps, the learned classifiers
+are used to generate a permutation lattice that will be decoded.
+
+In the following experiments, we use only news-commentary and
+Europarl datasets as parallel training data; the development and 
+test sets are, respectively, newstest-2014 and newstest-2015. 
+
+\begin{table}[htb]
+  \centering
+  \begin{tabular}{lrr}
+    \toprule
+    \multicolumn{3}{c}{\textbf{Baseline system}}\\
+    \midrule
+ &dev&test \\
+    \cmidrule{2-3}
+    rule-based &19.4 &18.5 \\ 
+    \midrule
+   \multicolumn{3}{c}{\textbf{Dependency-based pre-ordering}}\\
+    \midrule
+ &dev&test \\
+    \cmidrule{2-3}
+    1-best &18.5 &17.7 \\
+    2-best &18.2 &17.2 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Translation results for pre-ordering on the English to
+    German translation task}
+  \label{tab:preord-smt}
+\end{table}
+
+These preliminary experiments show a significant decrease in \bleu
+score which deserves closer investigations. This performance drop is
+more important when more reordering paths (``2-best'' in
+Table~\ref{tab:preord-smt}) are proposed to the MT system. A similar
+trend was also observed when using a dependency-based model only to
+predict the reordering lattices for a system trained on raw data and
+without the pre-ordering step.
+
+As shown in Table~\ref{tab:stats}, in a large majority of cases the
+members of a family have the same order in the source and in the target
+languages, a trend that is probably amplified by our instance extraction strategy.
+Dealing with skewed classes is a challenging problem
+in machine learning and it is not surprising that the performance of the
+classifier is rather low for the minority classes (see results in
+Table~\ref{tab:stats}). It is interesting
+to note that the standard rule-based approach does not suffer from the class
+imbalance problem as all re-orderings observed in the training data
+are considered without taking into account their probability.
+
+\begin{table*}[t]
+\centering
+\begin{tabular}{ccccc}
+\toprule
+ size & \% mono. & prec. & prec. mono. & prec. non-mono. \\ \midrule
+2   &  85.6  &  88.2  &  97.6  &  31.5  \\
+3   &  71.3  &  79.0  &  95.5  &  37.6  \\
+4   &  62.0  &  74.3  &  95.9  &  38.8  \\
+5   &  51.8  &  68.4  &  91.8  &  43.2  \\
+6   &  41.9  &  53.4  &  81.8  &  32.8  \\
+7   &  46.2  &  14.7  &  18.3  &  11.6  \\
+8   &  25.0  &   7.5  &  12.1  &   6.0  \\ 
+\bottomrule
+\end{tabular}
+\caption{\% of family that have the same order in English and German
+  (\% mono.), overall prediction performance (prec.) as well as
+  precision for monotonic and non-monotonic
+  reordering. \label{tab:stats}}
+\end{table*}
+
+\section{Discussion and Conclusion}
+
+This paper described LIMSI's submission to the shared WMT'16 task
+``Translation of News''. We reported results for English-Romanian
+in both directions and for English into Russian, as well as English
+into German for which we have investigated pre-ordering of the source
+sentence. Our
+submissions used \ncode and \moses along with continuous space
+translation models in a post-processing step. Most of our efforts
+this year were dedicated to the main difficulties of morphologically
+rich languages: word order and inflection prediction.
+
+For the translation from English into Romanian and Russian, the
+generation of the paradigm of inflectional words and choice of the
+right word form using a CRF did not give any improvement over the
+baseline in our experimental conditions. The reason may be due to the fact that we did not only expect that the
+CRF would make a better choice than the baseline system regarding
+word inflection, we also assumed that these morphological predictions
+would help to make right decisions regarding lexical choices and word order.
+This was our motivation to run such a decoding extension over
+the n-best hypotheses made by the baseline system: the CRF is
+then supposed to make decisions that go beyond word inflection,
+since it returns a single best translation.
+Presumably, the resulting search space turned
+out to be too complex for our CRF model to make relevant choices. We plan in the nearest
+future to address this issue by exploring a way to rely on the CRF
+for inflection prediction only.
+
+We finally reiterate our past observations that
+continuous space translation models used in a
+post-processing step always yielded significant
+improvements across the board.
+
+\section{Acknowledgments}
+
+We would like to thank the anonymous reviewers for their helpful comments and suggestions. 
+This work has been partly funded by the European Union’s Horizon 2020 research
+and innovation programme under grant agreement No. 645452 (QT21).
+
+\bibliographystyle{acl2016}
+\bibliography{biblio}
+
+
+
+
+\end{document}

@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Identifying First Episodes of Psychosis in Psychiatric Patient Records using Machine Learning
+ShortPaperTitle#=%=#Identifying First Episodes of Psychosis
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Genevieve Gorrell
+JobTitle#==#
+Organization#==#University of Sheffield, UK.
+Abstract#==#Natural language processing is being pressed into use to facilitate the
+selection of cases for medical research in electronic health record databases,
+though study inclusion criteria may be complex, and the linguistic cues
+indicating eligibility may be subtle. Finding cases of first episode psychosis
+raised a number of problems for automated approaches, providing an opportunity
+to explore how machine learning technologies might be used to overcome them. A
+system was delivered that achieved an AUC of 0.85, enabling 95% of relevant
+cases to be identified whilst halving the work required in manually reviewing
+cases. The techniques that made this possible are presented.
+Author{1}{Firstname}#=%=#Genevieve
+Author{1}{Lastname}#=%=#Gorrell
+Author{1}{Email}#=%=#g.gorrell@sheffield.ac.uk
+Author{1}{Affiliation}#=%=#University of Sheffield
+Author{2}{Firstname}#=%=#Sherifat
+Author{2}{Lastname}#=%=#Oduola
+Author{2}{Email}#=%=#sherifat.oduola@kcl.ac.uk
+Author{2}{Affiliation}#=%=#King's College London
+Author{3}{Firstname}#=%=#Angus
+Author{3}{Lastname}#=%=#Roberts
+Author{3}{Email}#=%=#angus.roberts@sheffield.ac.uk
+Author{3}{Affiliation}#=%=#University of Sheffield
+Author{4}{Firstname}#=%=#Tom
+Author{4}{Lastname}#=%=#Craig
+Author{4}{Email}#=%=#tom.craig@iop.kcl.ac.uk
+Author{4}{Affiliation}#=%=#King's College London
+Author{5}{Firstname}#=%=#Craig
+Author{5}{Lastname}#=%=#Morgan
+Author{5}{Email}#=%=#craig.morgan@kcl.ac.uk
+Author{5}{Affiliation}#=%=#King's College London
+Author{6}{Firstname}#=%=#Rob
+Author{6}{Lastname}#=%=#Stewart
+Author{6}{Email}#=%=#robert.stewart@kcl.ac.uk
+Author{6}{Affiliation}#=%=#King's College London
+
+==========

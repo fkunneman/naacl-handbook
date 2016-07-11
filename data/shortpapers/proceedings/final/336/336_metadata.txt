@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#336
+FinalPaperTitle#=%=#Machine Translation Evaluation Meets Community Question Answering
+ShortPaperTitle#=%=#Machine Translation Evaluation Meets Community Question Answering
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Preslav Nakov
+JobTitle#==#
+Organization#==#Arabic Language Technologies Research Group Qatar Computing Research Institute, HBKU
+Abstract#==#We explore the applicability of machine translation evaluation (MTE) methods to
+a very different problem: answer ranking in community Question Answering. In
+particular, we adopt a pairwise neural network (NN) architecture, which
+incorporates MTE features, as well as rich syntactic and semantic embeddings,
+and which efficiently models complex non-linear interactions. The evaluation
+results show state-of-the-art performance, with sizeable contribution from both
+the MTE features and from the pairwise NN architecture.
+Author{1}{Firstname}#=%=#Francisco
+Author{1}{Lastname}#=%=#Guzmán
+Author{1}{Email}#=%=#fguzman@qf.org.qa
+Author{1}{Affiliation}#=%=#Qatar Computing Research Institute
+Author{2}{Firstname}#=%=#Lluís
+Author{2}{Lastname}#=%=#Màrquez
+Author{2}{Email}#=%=#lluism@lsi.upc.edu
+Author{2}{Affiliation}#=%=#Qatar Computing Research Institute
+Author{3}{Firstname}#=%=#Preslav
+Author{3}{Lastname}#=%=#Nakov
+Author{3}{Email}#=%=#preslav.nakov@gmail.com
+Author{3}{Affiliation}#=%=#Qatar Computing Research Institute, HBKU
+
+==========

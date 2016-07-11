@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Predicting the Direction of Derivation in English Conversion
+ShortPaperTitle#=%=#Predicting the Direction of Derivation in English Conversion
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Sebastian Pado
+JobTitle#==#
+Organization#==#IMS, Universität Stuttgart, Pfaffenwaldring 5b, 70569 Stuttgart, Germany
+Abstract#==#Conversion is a word formation operation that changes the grammatical category
+of a word in the absence of overt morphology. Conversion is extremely
+productive in English (e.g., tunnel, talk). This paper investigates whether
+distributional information can be used to predict the diachronic direction of
+conversion for homophonous noun–verb pairs. We aim to predict, for example,
+that tunnel was used as a noun prior to its use as a verb. We test two
+hypotheses: (1) that derived forms are less frequent than their bases, and (2)
+that derived forms are more semantically specific than their bases, as
+approximated by information theoretic measures. We find that hypothesis (1)
+holds for N-to-V conversion, while hypothesis (2) holds for V-to-N conversion.
+We achieve the best overall account of the historical data by taking both
+frequency and semantic specificity into account. These results provide a new
+perspective on linguistic theories regarding the semantic specificity of
+derivational morphemes, and on the morphosyntactic status of conversion.
+Author{1}{Firstname}#=%=#Max
+Author{1}{Lastname}#=%=#Kisselew
+Author{1}{Email}#=%=#max.kisselew@ims.uni-stuttgart.de
+Author{1}{Affiliation}#=%=#University of Stuttgart
+Author{2}{Firstname}#=%=#Laura
+Author{2}{Lastname}#=%=#Rimell
+Author{2}{Email}#=%=#laura.rimell@cl.cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+Author{3}{Firstname}#=%=#Alexis
+Author{3}{Lastname}#=%=#Palmer
+Author{3}{Email}#=%=#palmer@cl.uni-heidelberg.de
+Author{3}{Affiliation}#=%=#Heidelberg University
+Author{4}{Firstname}#=%=#Sebastian
+Author{4}{Lastname}#=%=#Padó
+Author{4}{Email}#=%=#pado@ims.uni-stuttgart.de
+Author{4}{Affiliation}#=%=#Stuttgart University
+
+==========

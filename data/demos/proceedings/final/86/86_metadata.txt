@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#86
+FinalPaperTitle#=%=#My Science Tutor—Learning Science with a Conversational Virtual Tutor
+ShortPaperTitle#=%=#My Science Tutor—Learning Science with a Conversational Virtual Tutor
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Sameer Pradhan
+JobTitle#==#
+Organization#==#Boulder Learning Inc.,
+2960 Center Green Ct # 200, 
+Boulder, CO 80301
+Abstract#==#Boulder Learning has developed and evaluated a conversational multimedia
+virtual tutor for elementary school science. The operating principles for the
+tutor are grounded on research from education and cognitive science. This
+virtual science tutor is unique in that it engages children in spoken dialogs
+in which they learn to construct explanations of science phenomena presented in
+illustrations, animations and interactive simulations. Summative evaluations
+indicate that students are highly engaged in the tutoring sessions, and achieve
+learning outcomes equivalent to expert human tutors. Tutorials are developed
+through a process of recording and annotating data from sessions with students,
+and then updating tutor models. In initial evaluations, My Science Tutor (MyST)
+has been shown to produce significant learning gains with effect size d=0.53
+compared to controls. It is enthusiastically supported by students and
+teachers. Teachers report that it is feasible to integrate into their
+curriculum.
+Author{1}{Firstname}#=%=#Sameer
+Author{1}{Lastname}#=%=#Pradhan
+Author{1}{Email}#=%=#pradhan@cemantix.org
+Author{1}{Affiliation}#=%=#cemantix.org
+Author{2}{Firstname}#=%=#Ron
+Author{2}{Lastname}#=%=#Cole
+Author{2}{Email}#=%=#rcole@boulderlearning.com
+Author{2}{Affiliation}#=%=#Boulder Learning, Inc.
+Author{3}{Firstname}#=%=#Wayne
+Author{3}{Lastname}#=%=#Ward
+Author{3}{Email}#=%=#wward@boulderlearning.com
+Author{3}{Affiliation}#=%=#Boulder Learning, Inc.
+
+==========

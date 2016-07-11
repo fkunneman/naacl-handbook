@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#43
+FinalPaperTitle#=%=#Phrase Generalization: a Corpus Study in Multi-Document Abstracts and Original News Alignments
+ShortPaperTitle#=%=#Phrase Generalization in Abstracts-News Aligments
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Ariani Di Felippo
+JobTitle#==#
+Organization#==#Federal University of São Carlos
+Rod. Washington Luis, km 235 (SP-310) São Carlos, SP 13565-905, Brazil
+Abstract#==#Content can be expressed at different lev- els of specificity, varying the
+amount of detail presented to the reader. The need to transform specific
+content into more general form naturally arises in summarization, where people
+and machines need to convey the gist of a text within im- posed space
+constraints. Completely re- moving sentences and phrases is one way to reduce
+the level of detail. The bulk of work on summarization content selection and
+compression deal with these tasks. In this paper, we present a cor- pus study
+on a more subtle and under- studied phenomenon: noun phrase generalization.
+Based on multi-document news and abstract alignments at the phrase level, we
+arrive at a five category classification scheme and find that the most common
+category requires semantic interpretation and inference. The others rely on
+lexical substitution or deletion of details from the original expression. We
+provide a system- atic analysis, elucidating the capabilities needed for
+automating the generation of more general or more specific references.
+Author{1}{Firstname}#=%=#Ariani
+Author{1}{Lastname}#=%=#Di-Felippo
+Author{1}{Email}#=%=#arianidf@gmail.com
+Author{1}{Affiliation}#=%=#Ufscar
+Author{2}{Firstname}#=%=#Ani
+Author{2}{Lastname}#=%=#Nenkova
+Author{2}{Email}#=%=#nenkova@seas.upenn.edu
+Author{2}{Affiliation}#=%=#UPenn
+
+==========

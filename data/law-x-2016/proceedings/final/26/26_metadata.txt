@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#26
+FinalPaperTitle#=%=#Different Flavors of GUM: Evaluating Genre and Sentence Type Effects on Multilayer Corpus Annotation Quality
+ShortPaperTitle#=%=#Different Flavors of GUM
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Amir Zeldes
+JobTitle#==#
+Organization#==#Georgetown University
+Abstract#==#Genre and domain are well known covariates of both manual and automatic
+annotation quality. Comparatively less is known about the effect of sentence
+types, such as imperatives, questions or fragments, and how they interact with
+text type effects. Using mixed effects models, we evaluate the relative
+influence of genre and sentence types on automatic and manual annotation
+quality for three related tasks in English data: POS tagging, dependency
+parsing and coreference resolution. For the latter task, we also develop a new
+metric for the evaluation of individual regions of coreference annotation. Our
+results show that while there are substantial differences between manual and
+automatic annotation in each task, sentence type is generally more important
+than genre in predicting errors within our data.
+Author{1}{Firstname}#=%=#Amir
+Author{1}{Lastname}#=%=#Zeldes
+Author{1}{Email}#=%=#amir.zeldes@georgetown.edu
+Author{1}{Affiliation}#=%=#Georgetown University
+Author{2}{Firstname}#=%=#Dan
+Author{2}{Lastname}#=%=#Simonson
+Author{2}{Email}#=%=#des62@georgetown.edu
+Author{2}{Affiliation}#=%=#Georgetown University
+
+==========

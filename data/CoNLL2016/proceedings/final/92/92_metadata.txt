@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#92
+FinalPaperTitle#=%=#Neighborhood Mixture Model for Knowledge Base Completion
+ShortPaperTitle#=%=#Neighborhood Mixture Model for Knowledge Base Completion
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Dat Quoc Nguyen
+JobTitle#==#
+Organization#==#Department of Computing, Macquarie University, Sydney, Australia
+Abstract#==#Knowledge bases are useful resources for many natural language processing
+tasks, however, they are far from complete. In this paper, we define a novel
+entity representation as a mixture of its neighborhood in the knowledge base
+and apply this technique on TransE-a well-known embedding model for knowledge
+base completion. Experimental results show that the neighborhood information
+significantly helps to improve the results of the TransE, leading to better
+performance than obtained by other state-of-the-art embedding models on three
+benchmark datasets for triple classification, entity prediction and relation
+prediction tasks.
+Author{1}{Firstname}#=%=#Dat Quoc
+Author{1}{Lastname}#=%=#Nguyen
+Author{1}{Email}#=%=#dat.nguyen@students.mq.edu.au
+Author{1}{Affiliation}#=%=#Macquarie University
+Author{2}{Firstname}#=%=#Kairit
+Author{2}{Lastname}#=%=#Sirts
+Author{2}{Email}#=%=#kairit.sirts@mq.edu.au
+Author{2}{Affiliation}#=%=#Macquarie University
+Author{3}{Firstname}#=%=#Lizhen
+Author{3}{Lastname}#=%=#Qu
+Author{3}{Email}#=%=#lizhen.qu@nicta.com.au
+Author{3}{Affiliation}#=%=#NICTA, Australia
+Author{4}{Firstname}#=%=#Mark
+Author{4}{Lastname}#=%=#Johnson
+Author{4}{Email}#=%=#mark.johnson@mq.edu.au
+Author{4}{Affiliation}#=%=#Macquarie University
+
+==========

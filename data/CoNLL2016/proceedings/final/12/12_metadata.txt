@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Learning when to trust distant supervision: An application to low-resource POS tagging using cross-lingual projection
+ShortPaperTitle#=%=#Learning when to trust distant supervision: An application to low-resource POS tagging using cross-lingual projection
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Meng Fang
+JobTitle#==#Research fellow
+Organization#==#Department of Computing and Information Systems, The University of Melbourne,
+Parkville 3010 VIC Australia
+Abstract#==#Cross lingual projection of linguistic annotation suffers from many sources of
+bias and noise, leading to unreliable annotations that cannot be used directly.
+In this paper, we introduce a novel approach to sequence tagging that learns to
+correct the errors from cross-lingual projection using an explicit debiasing
+layer. This is framed as joint learning over two corpora, one tagged with gold
+standard and the other with projected tags. We evaluated with only 1,000 tokens
+tagged with gold standard tags, along with more plentiful parallel data. Our
+system equals or exceeds the state-of-the-art on eight simulated low-resource
+settings, as well as two real low-resource languages, Malagasy and Kinyarwanda.
+Author{1}{Firstname}#=%=#Meng
+Author{1}{Lastname}#=%=#Fang
+Author{1}{Email}#=%=#meng.fang@unimelb.edu.au
+Author{1}{Affiliation}#=%=#The University of Melbourne
+Author{2}{Firstname}#=%=#Trevor
+Author{2}{Lastname}#=%=#Cohn
+Author{2}{Email}#=%=#tcohn@unimelb.edu.au
+Author{2}{Affiliation}#=%=#University of Melbourne
+
+==========

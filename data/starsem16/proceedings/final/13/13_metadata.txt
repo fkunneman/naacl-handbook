@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#You and me... in a vector space: modelling individual speakers with distributional semantics
+ShortPaperTitle#=%=#Modelling individual speakers with distributional semantics
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Aurelie Herbelot
+JobTitle#==#
+Organization#==#University of Trento
+Abstract#==#The linguistic experiences of a person are an important part of their
+individuality. In this paper, we show that people can be modelled as vectors in
+a semantic space, using their personal interaction with specific language data.
+We also demonstrate that these vectors can be taken as representative of 'the
+kind of person' they are.  We build over 4000 speaker-dependent subcorpora
+using logs of Wikipedia edits, which are then used to build distributional
+vectors that represent individual speakers. We show that such 'person vectors'
+are informative to others, and they influence basic patterns of communication
+like the choice of one's interlocutor in conversation. Tested on an
+information-seeking scenario, where natural language questions must be answered
+by addressing the most relevant individuals in a community, our system
+outperforms a standard information retrieval algorithm by a considerable
+margin.
+Author{1}{Firstname}#=%=#Aurélie
+Author{1}{Lastname}#=%=#Herbelot
+Author{1}{Email}#=%=#aurelie.herbelot@cantab.net
+Author{1}{Affiliation}#=%=#University of Trento
+Author{2}{Firstname}#=%=#Behrang
+Author{2}{Lastname}#=%=#QasemiZadeh
+Author{2}{Email}#=%=#zadeh@phil.uni-duesseldorf.de
+Author{2}{Affiliation}#=%=#Computational Linguistics Department, University of Düsseldorf
+
+==========

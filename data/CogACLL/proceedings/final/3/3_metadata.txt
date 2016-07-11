@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#3
+FinalPaperTitle#=%=#Learning Phone Embeddings for Word Segmentation of Child-Directed Speech
+ShortPaperTitle#=%=#Learning Phone Embeddings for Word Segmentation of Child-Directed Speech
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Jianqiang Ma
+JobTitle#==#
+Organization#==#Department Linguistics,
+University of Tuebingen,
+Wilhelmstr. 19-23
+72074 Tübingen, Germany
+Abstract#==#This paper presents a novel model that learns and exploits embeddings of phone
+ngrams for word segmentation in child language acquisition. Embedding-based
+models are evaluated on a phonemi cally transcribed corpus of child-directed
+speech, in comparison with their symbolic counterparts using the common
+learning framework and features. Results show that learning embeddings
+significantly improves performance. We make use of extensive visualization to
+understand what the model has learned. We show that the learned embeddings are
+informative for both word segmentation and phonology in general.
+Author{1}{Firstname}#=%=#Jianqiang
+Author{1}{Lastname}#=%=#Ma
+Author{1}{Email}#=%=#majianchiang@gmail.com
+Author{1}{Affiliation}#=%=#University of Tübingen
+Author{2}{Firstname}#=%=#Çağrı
+Author{2}{Lastname}#=%=#Çöltekin
+Author{2}{Email}#=%=#ccoltekin@sfs.uni-tuebingen.de
+Author{2}{Affiliation}#=%=#University of Tübingen
+Author{3}{Firstname}#=%=#Erhard
+Author{3}{Lastname}#=%=#Hinrichs
+Author{3}{Email}#=%=#erhard.hinrichs@uni-tuebingen.de
+Author{3}{Affiliation}#=%=#University of Tübingen
+
+==========

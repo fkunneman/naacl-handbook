@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#113
+FinalPaperTitle#=%=#Word Clustering Approach to Bilingual Document Alignment (WMT 2016 Shared Task)
+ShortPaperTitle#=%=#Word Clustering Approach to Bilingual Document Alignment
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Dmitry Khristich
+JobTitle#==#
+Organization#==#Yandex LLC
+16 Leo Tolstoy St., Moscow 119021, Russia
+Abstract#==#Our participation in Bilingual Document
+Alignment shared task at WMT16 focuses
+on building a language-independent, scalable
+system for aligning documents based
+on content as opposed to using webpage
+meta information. The resulting system
+is capable of producing scored n-best lists
+of candidate pages and can therefore be
+adapted to tasks where either precision or
+recall is maximized. We conduct a series
+of experiments that show the effectiveness
+of the system without any specific tuning.
+Author{1}{Firstname}#=%=#Vadim
+Author{1}{Lastname}#=%=#Shchukin
+Author{1}{Email}#=%=#rj42@yandex-team.ru
+Author{1}{Affiliation}#=%=#Yandex School of Data Analysis, Yandex
+Author{2}{Firstname}#=%=#Dmitry
+Author{2}{Lastname}#=%=#Khristich
+Author{2}{Email}#=%=#khristich@yandex-team.ru
+Author{2}{Affiliation}#=%=#Yandex
+Author{3}{Firstname}#=%=#Irina
+Author{3}{Lastname}#=%=#Galinskaya
+Author{3}{Email}#=%=#galinskaya@yandex-team.ru
+Author{3}{Affiliation}#=%=#Yandex
+
+==========

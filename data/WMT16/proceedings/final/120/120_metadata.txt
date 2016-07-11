@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#120
+FinalPaperTitle#=%=#Edinburgh's Statistical Machine Translation Systems for WMT16
+ShortPaperTitle#=%=#Edinburgh's Statistical Machine Translation Systems for WMT16
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Philip Williams
+JobTitle#==#
+Organization#==#University of Edinburgh
+Abstract#==#This paper describes the University of Edinburgh's phrase-based and
+syntax-based submissions to the shared translation tasks of the ACL 2016 First
+Conference on Machine Translation (WMT16).
+We submitted five phrase-based and five syntax-based systems for the news task,
+plus one phrase-based system for the biomedical task.
+Author{1}{Firstname}#=%=#Philip
+Author{1}{Lastname}#=%=#Williams
+Author{1}{Email}#=%=#pwillia4@inf.ed.ac.uk
+Author{1}{Affiliation}#=%=#University of Edinburgh
+Author{2}{Firstname}#=%=#Rico
+Author{2}{Lastname}#=%=#Sennrich
+Author{2}{Email}#=%=#rico.sennrich@ed.ac.uk
+Author{2}{Affiliation}#=%=#University of Edinburgh
+Author{3}{Firstname}#=%=#Maria
+Author{3}{Lastname}#=%=#Nadejde
+Author{3}{Email}#=%=#maria.nadejde@gmail.com
+Author{3}{Affiliation}#=%=#University of Edinburgh
+Author{4}{Firstname}#=%=#Matthias
+Author{4}{Lastname}#=%=#Huck
+Author{4}{Email}#=%=#mhuck@cis.lmu.de
+Author{4}{Affiliation}#=%=#LMU Munich
+Author{5}{Firstname}#=%=#Barry
+Author{5}{Lastname}#=%=#Haddow
+Author{5}{Email}#=%=#bhaddow@inf.ed.ac.uk
+Author{5}{Affiliation}#=%=#University of Edinburgh
+Author{6}{Firstname}#=%=#Ondřej
+Author{6}{Lastname}#=%=#Bojar
+Author{6}{Email}#=%=#bojar@ufal.mff.cuni.cz
+Author{6}{Affiliation}#=%=#Charles University in Prague, Faculty of Mathematics and Physics
+
+==========

@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#479
+FinalPaperTitle#=%=#Hunting for Troll Comments in News Community Forums
+ShortPaperTitle#=%=#Hunting for Troll Comments in News Community Forums
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Preslav Nakov
+JobTitle#==#
+Organization#==#Qatar Computing Research Institute 
+Hamad bin Khalifa University
+Abstract#==#There are different definitions of what a troll is. Certainly, a troll can be
+somebody who teases people to make them angry, or somebody who offends people,
+or somebody who wants to dominate any single discussion, or somebody who tries
+to manipulate people’s opinion (sometimes for money), etc. The last
+definition is the one that dominates the public discourse in Bulgaria and
+Eastern Europe, and this is our focus in this paper.
+
+In our work, we examine two types of opinion manipulation trolls: paid trolls
+that have been revealed from leaked "reputation management contracts" and
+"mentioned trolls" that have been called such by several different people. We
+show that these definitions are sensible: we build two classifiers that can
+distinguish a post by such a paid troll from one by a non-troll with 81-82%
+accuracy; the same classifier also achieves 81-82% accuracy on so called
+mentioned troll vs. non-troll posts.
+Author{1}{Firstname}#=%=#Todor
+Author{1}{Lastname}#=%=#Mihaylov
+Author{1}{Email}#=%=#tbmihailov@gmail.com
+Author{1}{Affiliation}#=%=#Heidelberg University
+Author{2}{Firstname}#=%=#Preslav
+Author{2}{Lastname}#=%=#Nakov
+Author{2}{Email}#=%=#preslav.nakov@gmail.com
+Author{2}{Affiliation}#=%=#Qatar Computing Research Institute, HBKU
+
+==========

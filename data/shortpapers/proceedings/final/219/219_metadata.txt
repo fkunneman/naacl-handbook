@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#219
+FinalPaperTitle#=%=#Transductive Adaptation of Black Box Predictions
+ShortPaperTitle#=%=#Transductive Adaptation of Black Box Predictions
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Stéphane Clinchant
+JobTitle#==#
+Organization#==#Xerox Research Centre Europe
+6 chemin de Maupertuis , 38240 Meylan, FRANCE
+Abstract#==#Access to data is critical to any machine learning component aimed at training
+an accurate predictive model. In reality, data is often a subject of technical
+and legal constraints. Data may contain sensitive topics and data owners are
+often reluctant to share them.
+Instead of access to data, they make available decision making procedures to
+enable predictions on new data.
+Under the black box classifier constraint, we build an effective domain
+adaptation technique which
+adapts classifier predictions in a transductive setting. We run experiments on
+text categorization datasets and show that significant 
+gains can be achieved, especially in the unsupervised case where no labels are
+available in the target domain.
+Author{1}{Firstname}#=%=#Stephane
+Author{1}{Lastname}#=%=#Clinchant
+Author{1}{Email}#=%=#stephane.clinchant@xrce.xerox.com
+Author{1}{Affiliation}#=%=#Xerox Research Centre Europe
+Author{2}{Firstname}#=%=#Boris
+Author{2}{Lastname}#=%=#Chidlovskii
+Author{2}{Email}#=%=#boris.chidlovskii@xrce.xerox.com
+Author{2}{Affiliation}#=%=#Xerox Research Centre Europe
+Author{3}{Firstname}#=%=#Gabriela
+Author{3}{Lastname}#=%=#Csurka
+Author{3}{Email}#=%=#gabriela.csurka@xrce.xerox.com
+Author{3}{Affiliation}#=%=#Xerox Research Centre Europe
+
+==========

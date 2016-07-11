@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Contextual stance classification of opinions: A step towards enthymeme reconstruction in online reviews
+ShortPaperTitle#=%=#Contextual stance classification of opinions: A step towards enthymeme reconstruction in online reviews
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Pavithra Rajendran
+JobTitle#==#
+Organization#==#University of Liverpool
+Abstract#==#Enthymemes, that are arguments with missing premises, are common in natural
+language text. They pose a challenge for the field of argument mining, which
+aims to extract arguments from such text. If we can detect whether a premise is
+missing in an argument, then we can either fill the missing premise from
+similar/related arguments, or discard such enthymemes altogether and focus on
+arguments with premises. In this paper, we draw a connection between explicit
+vs. implicit opinion classification in reviews, and detecting arguments from
+enthymemes. For this purpose, we train a binary classifier to detect explicit
+vs. implicit opinions using a manually labelled dataset. Experimental results
+show that the proposed method can discriminate explicit opinions from implicit
+ones, thereby providing encouraging first step towards enthymeme detection in  
+natural language texts.
+Author{1}{Firstname}#=%=#Pavithra
+Author{1}{Lastname}#=%=#Rajendran
+Author{1}{Email}#=%=#pavithra.rajendran@liverpool.ac.uk
+Author{1}{Affiliation}#=%=#University of Liverpool
+Author{2}{Firstname}#=%=#Danushka
+Author{2}{Lastname}#=%=#Bollegala
+Author{2}{Email}#=%=#danushka.bollegala@liverpool.ac.uk
+Author{2}{Affiliation}#=%=#University of Liverpool
+Author{3}{Firstname}#=%=#Simon
+Author{3}{Lastname}#=%=#Parsons
+Author{3}{Email}#=%=#simon.parsons@kcl.ac.uk
+Author{3}{Affiliation}#=%=#Kings College London
+
+==========

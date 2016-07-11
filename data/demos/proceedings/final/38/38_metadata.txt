@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#38
+FinalPaperTitle#=%=#JEDI: Joint Entity and Relation Detection using Type Inference
+ShortPaperTitle#=%=#JEDI: Joint Entity and Relation Detection using Type Inference
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Johannes Kirschnick
+JobTitle#==#
+Organization#==#
+Abstract#==#Freebase contains entities and relation information but is highly incomplete.  
+Relevant information is ubiquitous in web text, but extraction deems
+challenging.
+
+We present JEDI, an automated system to jointly extract typed named entities
+and Freebase relations using dependency pattern from text. An innovative method
+for constraint solving on entity types of multiple
+relations is used to disambiguate pattern.
+
+The high precision in the evaluation supports our claim that we can detect
+entities and relations together, alleviating the need to train a custom
+classifier for an entity type.
+
+A Demonstrator as well as the source code is available at
+jedi.textmining.tu-berlin.de
+Author{1}{Firstname}#=%=#Johannes
+Author{1}{Lastname}#=%=#Kirschnick
+Author{1}{Email}#=%=#johannes.kirschnick@dfki.de
+Author{1}{Affiliation}#=%=#DFKI
+Author{2}{Firstname}#=%=#Holmer
+Author{2}{Lastname}#=%=#Hemsen
+Author{2}{Email}#=%=#holmer.hemsen@dfki.de
+Author{2}{Affiliation}#=%=#DFKI
+Author{3}{Firstname}#=%=#Volker
+Author{3}{Lastname}#=%=#Markl
+Author{3}{Email}#=%=#volker.markl@tu-berlin.de
+Author{3}{Affiliation}#=%=#TU Berlin
+
+==========

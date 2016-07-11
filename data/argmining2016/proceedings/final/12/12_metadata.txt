@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Expert Stance Graphs for Computational Argumentation
+ShortPaperTitle#=%=#Expert Stance Graphs for Computational Argumentation
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Roy Bar-Haim
+JobTitle#==#
+Organization#==#IBM Research - Haifa
+IBM R&D Labs in Israel 
+Haifa University Campus, Mount Carmel, 
+Haifa, 3498825 
+Israel
+Abstract#==#We describe the construction of an Expert Stance Graph, a novel, large-scale
+knowledge resource that encodes the stance of more than 100,000 experts towards
+a variety of controversial topics. We suggest that this graph may be valuable
+for various fundamental tasks in computational argumentation. Experts and
+topics in our graph are Wikipedia entries. Both automatic and semi-automatic
+methods for building the graph are explored, and manual assessment validates
+the high accuracy of the resulting graph.
+Author{1}{Firstname}#=%=#Orith
+Author{1}{Lastname}#=%=#Toledo-Ronen
+Author{1}{Email}#=%=#oritht@il.ibm.com
+Author{1}{Affiliation}#=%=#IBM Research
+Author{2}{Firstname}#=%=#Roy
+Author{2}{Lastname}#=%=#Bar-Haim
+Author{2}{Email}#=%=#roybar@il.ibm.com
+Author{2}{Affiliation}#=%=#IBM Research
+Author{3}{Firstname}#=%=#Noam
+Author{3}{Lastname}#=%=#Slonim
+Author{3}{Email}#=%=#noams@il.ibm.com
+Author{3}{Affiliation}#=%=#IBM Research
+
+==========

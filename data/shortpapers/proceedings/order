@@ -1,0 +1,97 @@
+12   # Machine Comprehension using Rich Semantic Representations
+20   # Cross-Lingual Word Representations via Spectral Graph Embeddings
+31   # Improved Parsing for Argument-Clusters Coordination
+40   # Using mention accessibility to improve coreference resolution
+52   # An Open Web Platform for Rule-Based Speech-to-Sign Translation
+68   # Word Embedding Calculus in Meaningful Ultradense Subspaces
+72   # Single-Model Encoder-Decoder with Explicit Morphological Representation for Reinflection
+74   # Attention-Based Bidirectional Long Short-Term Memory Networks for Relation Classification
+85   # Vocabulary Manipulation for Neural Machine Translation
+96   # Using Sequence Similarity Networks to Identify Partial Cognates in Multilingual Wordlists
+97   # A Novel Measure for Coherence in Statistical Topic Models
+102   # Hawkes Processes for Continuous Time Sequence Classification: an Application to Rumour Stance Classification in Twitter
+103   # Domain Specific Named Entity Recognition Referring to the Real World by Deep Neural Networks
+109   # Unsupervised morph segmentation and statistical language models for vocabulary expansion
+114   # Phrase Table Pruning via Submodular Function Maximization
+119   # A Latent Concept Topic Model for Robust Topic Inference Using Word Embeddings
+126   # Detecting Mild Cognitive Impairment by Exploiting Linguistic Information from Transcripts
+127   # Specifying and Annotating Reduced Argument Span Via QA-SRL
+130   # A Language-Independent Neural Network for Event Detection
+132   # A Neural Network based Approach to Automatic Post-Editing
+137   # Science Question Answering using Instructional Materials
+159   # Implicit Polarity and Implicit Aspect Recognition in Opinion Mining
+165   # Don't Count, Predict! An Automatic Approach to Learning Sentiment Lexicons for Short Text
+166   # Incorporating Relational Knowledge into Word Representations using Subspace Regularization
+176   # Dimensional Sentiment Analysis Using a Regional CNN-LSTM Model
+180   # Claim Synthesis via Predicate Recycling
+193   # One model, two languages: training bilingual parsers with harmonized treebanks
+195   # Phrase-Level Combination of SMT and TM Using Constrained Word Lattice
+208   # On the Linearity of Semantic Change: Investigating Meaning Variation via Dynamic Graph Models
+218   # A Domain Adaptation Regularization for Denoising Autoencoders
+219   # Transductive Adaptation of Black Box Predictions
+241   # Transition-based dependency parsing with topological fields
+242   # Improving Statistical Machine Translation Performance by Oracle-BLEU Model Re-estimation
+243   # Is "Universal Syntax" Universally Useful for Learning Distributed Word Representations?
+245   # Simple PPDB: A Paraphrase Database for Simplification
+246   # Deep Neural Networks for Syntactic Parsing of Morphologically Rich Languages
+254   # Exponentially Decaying Bag-of-Words Input Features for Feed-Forward Neural Network in Statistical Machine Translation
+256   # Automatic Semantic Classification of German Preposition Types: Comparing Hard and Soft Clustering Approaches across Features
+261   # Integrating Distributional Lexical Contrast into Word Embeddings for Antonym-Synonym Distinction
+279   # The Enemy in Your Own Camp: How Well Can We Detect Statistically-Generated Fake Reviews ___ An Adversarial Study
+280   # The Social Impact of Natural Language Processing
+283   # Empty element recovery by spinal parser operations
+286   # Syntactically Guided Neural Machine Translation
+287   # Joint Word Segmentation and Phonetic Category Induction
+297   # Learning Multiview Embeddings of Twitter Users
+299   # How Naked is the Naked Truth? A Multilingual Lexicon of Nominal Compound Compositionality
+301   # Metrics for Evaluation of Word-level Machine Translation Quality Estimation
+303   # Character-based Neural Machine Translation
+311   # Semantics-Driven Recognition of Collocations Using Word Embeddings
+312   # Text Simplification as Tree Labeling
+313   # Cross-lingual projection for class-based language models
+314   # Deep multi-task learning with low level tasks supervised at lower layers
+316   # Multi-Modal Representations for Improved Bilingual Lexicon Learning
+317   # Convergence of Syntactic Complexity in Conversation
+318   # Natural Language Generation enhances human decision-making with uncertain information
+322   # Improving Named Entity Recognition for Chinese Social Media with Word Segmentation Representation Learning
+323   # Very quaffable and great fun: Applying NLP to wine reviews
+327   # The red one!: On learning to refer to things based on discriminative properties
+329   # An Unsupervised Method for Automatic Translation Memory Cleaning
+336   # Machine Translation Evaluation Meets Community Question Answering
+340   # Semantic classifications for detection of verb metaphors
+344   # Word Alignment without NULL Words
+352   # Reference Bias in Monolingual Machine Translation Evaluation
+356   # Annotating Relation Inference in Context via Question Answering
+358   # Matrix Factorization using Window Sampling and Negative Sampling for Improved Word Representations
+363   # Leveraging Lexical Resources for Learning Entity Embeddings in Multi-Relational Data
+365   # Improving Argument Overlap for Proposition-Based Summarisation
+367   # An Entity-Focused Approach to Generating Company Descriptions
+371   # Joint part-of-speech and dependency projection from multiple sources
+384   # Multilingual Part-of-Speech Tagging with Bidirectional Long Short-Term Memory Models and Auxiliary Loss
+388   # Word Embeddings with Limited Memory
+391   # Recognizing Salient Entities in Shopping Queries
+392   # Multiplicative Representations for Unsupervised Semantic Role Induction
+395   # Natural Language Inference by Tree-Based Convolution and Heuristic Matching
+399   # Modelling the Interpretation of Discourse Connectives by Bayesian Pragmatics
+404   # Exploiting Linguistic Features for Sentence Completion
+413   # Weakly Supervised Part-of-speech Tagging Using Eye-tracking Data
+417   # Bootstrapped Text-level Named Entity Recognition for Literature
+422   # Coarse-grained Argumentation Features for Scoring Persuasive Essays
+425   # Event Nugget Detection with Forward-Backward Recurrent Neural Networks
+430   # Sequence-to-Sequence Generation for Spoken Dialogue via Deep Syntax Trees and Strings
+438   # Tweet2Vec: Character-Based Distributed Representations for Social Media
+444   # Dependency-based Gated Recursive Neural Network for Chinese Word Segmentation
+447   # Which Tumblr Post Should I Read Next?
+451   # Nonparametric Spherical Topic Modeling with Word Embeddings
+461   # Learning Monolingual Compositional Representations via Bilingual Supervision
+470   # Finding Optimists and Pessimists on Twitter
+471   # Exploring Stylistic Variation with Age and Income on Twitter
+473   # A Fast Approach for Semantic Similar Short Texts Retrieval
+479   # Hunting for Troll Comments in News Community Forums
+487   # Is This Post Persuasive? Ranking Argumentative Comments in Online Forum
+498   # IBC-C: A Dataset for Armed Conflict Analysis
+507   # The Value of Semantic Parse Labeling for Knowledge Base Question Answering
+521   # Incremental Parsing with Minimal Features Using Bi-Directional LSTM
+523   # User Embedding for Scholarly Microblog Recommendation
+528   # Scalable Semi-Supervised Query Classification Using Matrix Sketching
+529   # Improving cross-domain n-gram language modelling with skipgrams

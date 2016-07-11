@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#139
+FinalPaperTitle#=%=#PROMT Translation Systems for WMT 2016 Translation Tasks
+ShortPaperTitle#=%=#PROMT Translation Systems for WMT 2016 Translation Tasks
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#XXX
+JobTitle#==#XXX
+Organization#==#
+Abstract#==#This paper provides an overview of the PROMT submissions for the WMT16 Shared
+Translation Tasks. We participated in seven language pairs with three different
+system configurations (rule-based, statistical and hybrid). We describe the
+architecture of the three configurations. We show that fast and accurate
+customization of the rule-based system can increase the
+BLEU scores significantly.
+Author{1}{Firstname}#=%=#Alexander
+Author{1}{Lastname}#=%=#Molchanov
+Author{1}{Email}#=%=#alexander.molchanov@promt.ru
+Author{1}{Affiliation}#=%=#PROMT LLC
+Author{2}{Firstname}#=%=#Fedor
+Author{2}{Lastname}#=%=#Bykov
+Author{2}{Email}#=%=#Fedor.Bykov@promt.ru
+Author{2}{Affiliation}#=%=#PROMT LLC
+
+==========

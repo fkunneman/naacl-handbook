@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#245
+FinalPaperTitle#=%=#Simple PPDB: A Paraphrase Database for Simplification
+ShortPaperTitle#=%=#Simple PPDB: A Paraphrase Database for Simplification
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Ellie Pavlick
+JobTitle#==#
+Organization#==#University of Pennsylvania
+3330 Walnut Street
+Levine Hall
+Philadelphia, PA 19104-6309
+Abstract#==#We release the Simple Paraphrase Database, a subset of of the Paraphrase
+Database (PPDB) adapted for the task of text simplification. We train a
+supervised model to associate simplification scores with each phrase pair,
+producing rankings competitive with state-of-the-art lexical simplification
+models. Our new simplification database contains 4.5 million paraphrase rules,
+making it the largest available resource for lexical simplification.
+Author{1}{Firstname}#=%=#Ellie
+Author{1}{Lastname}#=%=#Pavlick
+Author{1}{Email}#=%=#elliepavlick@gmail.com
+Author{1}{Affiliation}#=%=#University of Pennsylvania
+Author{2}{Firstname}#=%=#Chris
+Author{2}{Lastname}#=%=#Callison-Burch
+Author{2}{Email}#=%=#ccb@upenn.edu
+Author{2}{Affiliation}#=%=#University of Pennsylvania
+
+==========
