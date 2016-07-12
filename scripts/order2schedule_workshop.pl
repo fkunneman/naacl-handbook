@@ -75,7 +75,7 @@ while (my $line = <STDIN>) {
     print"\\vspace{1ex}\n";
     print "\\item[] {\\bfseries $header}\n";
   }
-  elsif ($line =~ /^([0-9]+)\s+($tspanpat)?\s*\#/i)
+  elsif ($line =~ /^([0-9]+)\s+($tspanpat)?\s*\#?/i)
   {
     my $paper_id  = $1;
     my $time = $2;
