@@ -1,56 +1,56 @@
-W1, SemEval
-9th International Workshop on Semantic Evaluations.
-Preslav Nakov, Torsten Zesch
+W1, WMT16
+First Conference on Machine Translation
+Barry Haddow, Philipp Koehn, Ondrej Bojar, Matthias Huck, Christian Federmann, Christof Monz, Matt Post, Lucia Specia
 
-W2, ArgMining
-2nd Workshop on Argumentation Mining
-Claire Cardie, Nancy Green, Iryna Gurevych, Graeme Hirst, Diane Litman, Smaranda Muresan, Georgios Petasis, Manfred Stede, Marilyn Walker, Janyce Wiebe
+W2, repl4nlp2016
+1st Workshop on Representation Learning for NLP 
+Phil Blunsom, Kyunghyun Cho, Shay Cohen, Edward Grefenstette, Karl Moritz Hermann, Laura Rimell, Jason Weston, and Scott Wen- tau Yih
 
-W3, BEA
-The 10th Workshop on Innovative Use of NLP for Building Educational Applications
-Joel Tetreault, Jill Burstein, Claudia Leacock
+W3, law-x-2016
+SIGANN's Linguistic Annotation Workshop
+Nancy Ide, Adam Meyers, Katrin Tomanek, Annemarie Friedrich
 
-W4, CLFL
-Fourth Workshop on Computational Linguistics for Literature
-Anna Feldman, Anna Kazantseva, Stan Szpakowicz
+W4, mwe
+12th Workshop on Multiword Expressions
+Valia Kordoni, Markus Egg, Kostadin Cholakov, Preslav Nakov, Stella Markantonatou
 
-W5, CMCL
-Cognitive Modeling and Computational Linguistics
-Timothy J. O’Donnell, Marten van Schijndel
+W5, CogACLL
+7th Workshop on Cognitive Aspects of Computational Language Learning
+Anna Korhonen, Alessandro Lenci, Thierry Poibeau, Aline Villavicencio
 
-W6, Event
-The 3rd Workshop on EVENTS: Definition, Detection, Coreference, and Representation
-Eduard Hovy, Teruko Mitamura, Martha Palmer
+W6, sigmorphon16
+14th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology
+Micha Elsner, Sandra Kuebler
 
-W7, MWE
-The 11th Workshop on Multiword Expressions.
-Valia Kordoni, Markus Egg, Kostadin Cholakov, Stella Markantonatou, Shuly Wintner
+W7, latech
+10th SIGHUM Workshop on Language Technology for Cultural Heritage, Social Sciences, and Humanities
+Nils Reiter, Beatrice Alex, Kalliopi A. Zervanou
 
-W8, SSST
-Ninth Workshop on Syntax, Semantics and Structure in Statistical Translation
-Dekai Wu, Marine Carpuat, Eneko Agirre, Nora Aranberri
+W8, vl16
+5th Workshop on Vision and Language
+Anya Belz, Katerina Pastra, Erkut Erdem, Krystian Mikolajczyk
 
-W9, CLPsych
-Computational Linguistics and Clinical Psychology — From Linguistic Signal to Clinical Reality
-Margaret Mitchell, Glen Coppersmith, Kristy Hollingshead
+W9, BioNLP16
+15th Workshop on Biomedical Natural Language Processing
+Kevin B. Cohen, Dina Demner Fushman, Sophia Ananiadou, Jun-ichi Tsujii
 
-W10, ExProM
-Extra-Propositional Aspects of Meaning in Computational Linguistics
-Eduardo Blanco, Roser Morante, Caroline Sporleder
+W10, StatFSM
+SIGFSM Workshop on Statistical NLP and Weighted Automata
+Bryan Jurish, Andreas Maletti, Uwe Springmann, and Kay-Michael Würzner
 
-W11, LAW
-The 9th Linguistic Annotation Workshop
-Adam Meyers, Ines Rehbein, Heike Zinsmeister
+W11, repeval16
+1st Workshop on Evaluating Vector-Space Representations for NLP
+Omer Levy, Felix Hill, Roi Reichart, Kyunghyun Cho, Anna Korhonen, Yoav Goldberg, and Antoine Bordes
 
-W12, Metaphor
-The Third Workshop on Metaphor in NLP
-Ekaterina Shutova, Beata Beigman Klebanov, Patricia Lichtenstein
+W12, WAC-X
+10th Web as Corpus Workshop
+Paul C. Cook, Stefan Evert, Roland Schäfer, Egon Stemle
 
-W13, SocialNLP
-Third International Workshop on Natural Language Processing for Social Media
-Shou-De Lin, Lun-Wei Ku, Cheng-Te Li, Erik Cambria
+W13, NEWS2016
+6th NEWS Named Entities Workshop
+Rafael E. Banchs, Min Zhang, Haizhou Li, A Kumaran
 
-W14, VSM–NLP
-Vector Space Modeling for NLP
-Phil Blunsom, Shay Cohen, Paramveer Dhillon, Percy Liang
+W14, argmining2016
+3rd Workshop on Argument Mining
+Chris Reed, Kevin Ashley, Claire Cardie, Nancy Green, Iryna Gurevych, Diane Litman, Georgios Petasis, Noam Slonim, Vern Walker
 
