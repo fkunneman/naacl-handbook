@@ -412,6 +412,9 @@ Directories:
   `content/workshops/papers.bib`. This is included in the main
   `handbook.tex` so that you can cite the workshop chairs and title automatically.
 
+  You currently have to do this manually, but this could be created automatically from
+  the "meta" file in each proceedings subdirectory (grep ^chairs from each of those files).
+
 - Next, fill in the tutorials manually, editing
   `content/tutorials/tutorials-001.tex` and so on. Also edit the tutorial
   overview page in `content/tutorials/tutorials-overview.tex`.

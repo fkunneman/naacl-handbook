@@ -9,6 +9,6 @@ for name in $(cat input/conferences.txt); do
   cd data/$x
   wget -N --no-check-certificate $url
   lastfile=$(ls -r1 *.tgz | tail -n1)
-  tar --exclude '*.pdf' --exclude '*gz' --exclude '*zip' -xzvf $lastfile proceedings/order proceedings/final 
+  tar --exclude '*.pdf' --exclude '*gz' --exclude '*zip' -xzvf $lastfile proceedings/order proceedings/final proceedings/meta
   cd -
 done
