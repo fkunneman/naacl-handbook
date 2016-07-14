@@ -1,19 +1,19 @@
 * Friday, August 12, 2016
-= Welcome and keynote # %chair1 Andreas Maletti %aff1 Universität Stuttgart, Germany
+= 09:00--10:30 Welcome and keynote # %chair1 Andreas Maletti %aff1 Universität Stuttgart, Germany
 ! 09:00--09:30 Opening %by Organizers
 ! 09:30--10:30 Probabilistic Models of Related Strings %by Jason Eisner
-+ 10:30--11:00 Morning break
-= Weighted tree automata # %chair1 Kay-Michael Würzner %aff1 Berlin-Brandenburg Academy of Sciences and Humanities, Germany
+= 10:30--11:00 Morning break
+= 11:00--12:30 Weighted tree automata # %chair1 Kay-Michael Würzner %aff1 Berlin-Brandenburg Academy of Sciences and Humanities, Germany
 4 11:00--11:30  # Equivalences between Ranked and Unranked Weighted Tree Automata via Binarization
 8 11:30--12:00  # Adaptive Importance Sampling from Finite State Automata
 10 12:00--12:30  # Transition-based dependency parsing as latent-variable constituent parsing
-+ 12:30--14:00 Lunch break
-= Weighted finite-state transducers # %chair1 Andreas Maletti %aff1 Universität Stuttgart, Germany
+= 12:30--14:00 Lunch break
+= 14:00--15:30 Weighted finite-state transducers # %chair1 Andreas Maletti %aff1 Universität Stuttgart, Germany
 5 14:00--14:30  # Distributed representation and estimation of WFST-based n-gram models
 13 14:30--15:00  # Learning Transducer Models for Morphological Analysis from Example Inflections
 3 15:00--15:30  # Data-Driven Spelling Correction using Weighted Finite-State Methods
-+ 15:30--16:00 Afternoon break
-= Various weighted automata # %chair1 Bryan Jurish %aff1 Berlin-Brandenburg Academy of Sciences and Humanities, Germany
+= 15:30--16:00 Afternoon break
+= 16:00--17:30 Various weighted automata # %chair1 Bryan Jurish %aff1 Berlin-Brandenburg Academy of Sciences and Humanities, Germany
 2 16:00--16:30  # EM-Training for Weighted Aligned Hypergraph Bimorphisms
 11 16:30--17:00  # On the Correspondence between Compositional Matrix-Space Models of Language and Weighted Automata
 12 17:00--17:30  # Pynini: A Python library for weighted finite-state grammar compilation

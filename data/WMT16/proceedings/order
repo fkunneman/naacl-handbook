@@ -7,7 +7,7 @@
 #   additional items, format: + TIME DESCRIPTION
 * Thursday, August 11, 2016
 + 8:45--9:00 Opening Remarks
-= Session 1: Shared Tasks Overview Presentations I
+= 9:00--10:30 Session 1: Shared Tasks Overview Presentations I
 ! 9:00--9:20 Shared Task: News Translation
 134 # Bojar: Findings of the 2016 Conferenc...
 ! 9:20--9:35 Shared Task: IT-Domain Translation
@@ -17,9 +17,9 @@
 ! 10:10--10:30 Shared Task: Tuning 
 136  # Jawaid: Results of the WMT16 Tuning Sh...
 
-+ 10:30--11:00 Coffee Break
++ 10:30-11:00 Coffee Break
 
-= Session 2: Shared Tasks Poster Session I
+= 11:00--12:30 Session 2: Shared Tasks Poster Session I
 ! 11:00--12:30 Shared Task: News Translation
 110 # Allauzen: LIMSI$@$WMT’16: Machine Tran...
 118 # Bekta\c{s}: T\"{U}BİTAK SMT System Submis...
@@ -73,12 +73,12 @@
 
 + 12:30--14:00 Lunch
 
-= Session 3: Invited Talk
+= 14:00--15:30 Session 3: Invited Talk
 ! 14:00--15:30 Spence Green (Lilt): Interactive Machine Translation: From Research to Practice
 
 + 15:30--16:00 Coffee Break
 
-= Session 4: Research Papers on Linguistic Modelling
+= 16:00--17:40 Session 4: Research Papers on Linguistic Modelling
 11 16:00--16:20 # Shen: Cross-language Projection of D...
 13 16:20--16:40 # Luong: Improving Pronoun Translation ...
 18 16:40--17:00 # Ramm: Modeling verbal inflection for...
@@ -87,7 +87,7 @@
 
 
 * Friday, August 12, 2016
-= Session 5: Shared Tasks Overview Presentations II
+= 9:00--10:30 Session 5: Shared Tasks Overview Presentations II
 ! 9:00--9:20 Shared Task: Cross-Lingual Pronoun Prediction
 131 # Pronoun
 ! 9:20--9:40 Shared Task: Multimodal Machine Translation and Cross-Lingual Image Description
@@ -97,9 +97,9 @@
 ! 9:55--10:10 Shared Task: Automatic Post-Editing
 ! 10:10--10:30 Shared Task: Quality Estimation
 
-+ 10:30--11:00 Coffee Break
++ 10:30-11:00 Coffee Break
 
-= Session 6: Shared Tasks Poster Session II
+= 11:00--12:30 Session 6: Shared Tasks Poster Session II
 ! 11:00--12:30 Shared Task: Cross-Lingual Pronoun Prediction
 111 # Bawden: Cross-lingual Pronoun Predicti...
 81 # Dabre: The Kyoto University Cross-Lin...
@@ -157,7 +157,7 @@
 
 + 12:30--14:00 Lunch
 
-= Session 7: Research Papers on Neural Translation
+= 14:00--15:20 Session 7: Research Papers on Neural Translation
 43 14:00--14:20 # Alkhouli: Alignment-Based Neural Machine...
 25 14:20--14:40 # Legrand: Neural Network-based Word Alig...
 27 14:40--15:00 # Niehues: Using Factored Word Representa...
@@ -165,7 +165,7 @@
 
 + 15:30--16:00 Coffee Break
 
-= Session 8: Research Papers on Translation Models
+= 16:00--17:20 Session 8: Research Papers on Translation Models
 5 16:00--16:20 # Braune: A Framework for Discriminative...
 38 16:00--16:40 # Bogoychev: Fast and highly parallelizable...
 47 16:00--17:00 # Kim: A Comparative Study on Vocabul...

@@ -1,26 +1,26 @@
 * Friday, August 12, 2016
 + 09:00--09:10 Welcome
-= Session I
+= 09:10--10:30 Session I
 5 09:10--09:30  # ___What Is Your Evidence?___ A Study of Controversial Topics on Social Media
 27 09:30--09:50  # Summarizing Multi-Party Argumentative Conversations in Reader Comment on News
 23 09:50--10:10  # Argumentative texts and clause types
 11 10:10--10:30  # Contextual stance classification of opinions: A step towards enthymeme reconstruction in online reviews
 + 10:30--11:00 Coffee break
-= Session II
+= 11:00--12:30 Session II
 20 11:00--11:20  # The CASS Technique for Evaluating the Performance of Argument Mining
 25 11:20--11:40  # Extracting Case Law Sentences for Argumentation about the Meaning of Statutory Terms
 22 11:40--12:00  # Scrutable Feature Sets for Stance Classification
 7 12:00--12:15  # Argumentation: Content, Structure, and Relationship with Essay Quality
 2 12:15--12:30  # Neural Attention Model for Classification of Sentences that Support Promoting/Suppressing Relationship
 + 12:30--14:00 Lunch
-= Session III
+= 14:00--15:30 Session III
 19 14:00--14:20  # Towards Feasible Guidelines for the Annotation of Argument Schemes
 18 14:20--14:40  # Identifying Argument Components through TextRank
 29 14:40--15:00  # Rhetorical structure and argumentation structure in monologue text
 1 15:00--15:15  # Recognizing the Absence of Opposing Arguments in Persuasive Essays
 12 15:15--15:30  # Expert Stance Graphs for Computational Argumentation
 + 15:30--16:00 Coffee break
-= Session IV - Debating Technologies and the Unshared Task Panel
+= 16:00--17:30 Session IV - Debating Technologies and the Unshared Task Panel
 31 16:00--16:20  # Fill the Gap! Analyzing Implicit Premises between Claims from Online Debates
 10 16:20--16:40  # Summarising the points made in online political debates
 6 16:40--17:00  # What to Do with an Airport? Mining Arguments in the German Online Participation Project Tempelhofer Feld
@@ -29,4 +29,4 @@
 9   # Unshared Task at the 3rd Workshop on Argument Mining: Perspective Based Local Agreement and Disagreement in Online Debate
 14   # A Preliminary Study of Disputation Behavior in Online Debating Forum
 + 17:25--17:30 Closing Remarks
-+ 17:30--17:45 Close
++ 17:30 Close

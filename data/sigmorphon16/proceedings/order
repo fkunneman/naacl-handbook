@@ -1,10 +1,10 @@
 * Thursday, August 11, 2016
-= Phonetics
+= 9:00--9:30 Phonetics
 14 09:00--09:30  # Mining linguistic tone patterns with symbolic representation
 ! 09:30--10:30 Invited Talk %by Colin Wilson
 + 10:30--11:00 Coffee Break
 35 11:00--11:30  # The SIGMORPHON 2016 Shared Task___Morphological Reinflection
-+ 11:30--12:30 Shared task poster session
+= 11:30--12:30 Shared task poster session
 25   # Morphological reinflection with convolutional neural networks
 26   # EHU at the SIGMORPHON 2016 Shared Task. A Simple Proposal: Grapheme-to-Phoneme for Inflection
 28   # Morphological Reinflection via Discriminative String Transduction
@@ -15,17 +15,17 @@
 33   # MED: The LMU System for the SIGMORPHON 2016 Shared Task on Morphological Reinflection
 34   # The Columbia University - New York University Abu Dhabi SIGMORPHON 2016 Morphological Reinflection Shared Task Submission
 + 12:00--14:00 Lunch Break
-+ 14:00--15:00 Workshop poster session
+= 14:00--15:00 Workshop poster session
 1   # Letter Sequence Labeling for Compound Splitting
 2   # Automatic Detection of Intra-Word Code-Switching
 3   # Read my points: Effect of animation type when speech-reading from EMA data
 4   # Predicting the Direction of Derivation in English Conversion
 9   # Morphological Segmentation Can Improve Syllabification
 18   # Towards a Formal Representation of Components of German Compounds
-= Phonology
+= 15:00--15:30 Phonology
 8 15:00--15:30  # Towards robust cross-linguistic comparisons of phonological networks
 + 15:30--16:00 Coffee Break
-= Morphology
+= 16:00--17:30 Morphology
 10 16:00--16:30  # Morphotactics as Tier-Based Strictly Local Dependencies
 12 16:30--17:00  # A Multilinear Approach to the Unsupervised Learning of Morphology
 7 17:00--17:30  # Inferring Morphotactics from Interlinear Glossed Text: Combining Clustering and Precision Grammars

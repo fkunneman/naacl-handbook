@@ -1,22 +1,22 @@
-! Welcome Message and Workshop Presentation by the organizing team
-= Research Papers I
+= 9:00--9:10 Welcome Message and Workshop Presentation by the organizing team
+= 9:10--10:30 Research Papers I
 8 9:10--9:40  # Leveraging Entity Linking and Related Language Projection to Improve Name Transliteration
 13 9:40--10:10  # Multi-source named entity typing for social media
 14 10:10--10:30  # Evaluating and Combining Name Entity Recognition Systems
-+ 10:30--11:00 Coffee Break
-= Research Papers II
+= 10:30--11:00 Coffee Break
+= 11:00--12:30 Research Papers II
 6 11:00--11:30  # German NER with a Multilingual Rule Based Information Extraction System: Analysis and Issues
 10 11:30--12:00  # Spanish NER with Word Representations and Conditional Random Fields
 11 12:00--12:30  # Constructing a Japanese Basic Named Entity Corpus of Various Genres
-+ 12:30--14:30 Lunch Break
-! 14:30--15:30 Keynote Speech
+= 12:30--14:30 Lunch Break
+= 14:30--15:30 Keynote Speech
 19 14:30--15:30  # Linguistic Issues in the Machine Transliteration of Chinese, Japanese and Arabic Names
-+ 15:30--16:00 Coffee  Break
-= Shared Task on Name Entity Transliteration
+= 15:30--16:00 Coffee  Break
+= 16:00--17:20 Shared Task on Name Entity Transliteration
 20 16:00--16:10  # Whitepaper of NEWS 2016 Shared Task on Machine Transliteration
 16 16:00--16:10  # Report of NEWS 2016 Machine Transliteration Shared Task
 4 16:10--16:30  # Applying Neural Networks to English-Chinese Named Entity Transliteration
 5 16:30--16:50  # Target-Bidirectional Neural Models for Machine Transliteration
 7 16:50--17:10  # Regulating Orthography-Phonology Relationship for English to Thai Transliteration
 3 17:10--17:20  # Moses-based official baseline for NEWS 2016
-+ 17:20--17:30 Closing Remarks
+= 17:20--17:30 Closing Remarks

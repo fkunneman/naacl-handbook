@@ -1,15 +1,24 @@
-12 # Automatic Classification by Topic Domain for Meta Data Generation, Web Corpus Evaluation, and Corpus Comparison
-10 # Efficient construction of metadata-enhanced web corpora
-17 # Topically-focused Blog Corpora for Multiple Languages
-20 # The Challenges and Joys of Analysing Ongoing Language Change in Web-based Corpora: a Case Study
-14 # Using the Web and Social Media as Corpora for Monitoring the Spread of Neologisms. The case of 'rapefugee', 'rapeugee', and 'rapugee'.
-3   # Babler - Data Collection from the Web to Support Speech Recognition and Keyword Search
-11 # A Global Analysis of Emoji Usage
-13 # Genre classification for a corpus of academic webpages
-21 # On Bias-free Crawling and Representative Web Corpora
-22 # EmpiriST 2015: A Shared Task on the Automatic Linguistic Annotation of Computer-Mediated Communication, Social Media and Web Corpora
-4   # SoMaJo: State-of-the-art tokenization for German web and social media texts
-2   # UdS-(retrain|distributional|surface): Improving POS Tagging for OOV Words in German CMC and Web Data
-15 # EmpiriST: AIPHES - Robust Tokenization and POS-Tagging for Different Genres
-16 # bot.zen - A simple PoS tagger, trained for German CMC and Web data bot.zen @ EmpiriST 2015 - A minimally-deep learning PoS-tagger (trained for German CMC and Web data)
-5   # LTL-UDE @ EmpiriST 2015: Tokenization and PoS Tagging of Social Media Text
+= 9:30--10:30 WAC-X Morning Session
++ 9:30--9:40 Welcome and Introduction
+12 9:40--10:00  # Automatic Classification by Topic Domain for Meta Data Generation, Web Corpus Evaluation, and Corpus Comparison
+10 10:00--10:30  # Efficient construction of metadata-enhanced web corpora
+= 11:00--12:30 WAC-X Noon Session
+17 11:00--11:30  # Topically-focused Blog Corpora for Multiple Languages
+20 11:30--12:00  # The Challenges and Joys of Analysing Ongoing Language Change in Web-based Corpora: a Case Study
+14 12:00--12:30  # Using the Web and Social Media as Corpora for Monitoring the Spread of Neologisms. The case of 'rapefugee', 'rapeugee', and 'rapugee'.
+= 13:30--14:30 EmpiriST Session
+22 13:30--13:50  # EmpiriST 2015: A Shared Task on the Automatic Linguistic Annotation of Computer-Mediated Communication and Web Corpora
+4 13:50--14:10  # SoMaJo: State-of-the-art tokenization for German web and social media texts
+2 14:10--14:30  # UdS-(retrain|distributional|surface): Improving POS Tagging for OOV Words in German CMC and Web Data
+= 14:30--15:10 WAC-X and EmpiriST Teaser Talks
+3 14:30--14:35  # Babler - Data Collection from the Web to Support Speech Recognition and Keyword Search
+11 14:35--14:40  # A Global Analysis of Emoji Usage
+13 14:40--14:45  # Genre classification for a corpus of academic webpages
+21 14:45--14:50  # On Bias-free Crawling and Representative Web Corpora
+15 14:55--15:00  # EmpiriST: AIPHES - Robust Tokenization and POS-Tagging for Different Genres
+16 15:00--15:05  # bot.zen @ EmpiriST 2015 - A minimally-deep learning PoS-tagger (trained for German CMC and Web data)
+5 15:05--15:10  # LTL-UDE @ EmpiriST 2015: Tokenization and PoS Tagging of Social Media Text
+= 15:10--16:30 WAC-X and EmpiriST Poster Session
+= 16:30--18:30 Discussion Session
++ 16:30--17:30 WAC-X and EmpiriST Closing Discussion
++ 17:30--18:30 Panel Discussion: Corpora, open science, and copyright reforms

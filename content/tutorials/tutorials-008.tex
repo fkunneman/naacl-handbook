@@ -1,29 +1,44 @@
 \begin{bio}
-{\bfseries Yue Zhang} is an Assistant Professor at Singapore University of Technology and Design (SUTD). Before joining SUTD in 2012, he worked as a postdoctoral research associate at University of Cambridge. He received his PhD and MSc degrees from University of Oxford, and undergraduate degree from Tsinghua University, China. Dr Zhang’s research interest includes natural language parsing, natural language generation, machine translation and machine learning.
+{\bfseries Miriam R. L. Petruck} received her PhD in Linguistics from the University of California, Berkeley. A key member of the team developing FrameNet almost since the project's founding, her research interests include semantics, knowledge base development, grammar and lexis, lexical semantics, Frame Semantics and Construction Grammar.
 
-{\bfseries Meishan Zhang} is a fifth-year PHD candidate at Research Center for Social Computing and Information Retrieval, Harbin Institute of Technology, China (HIT-SCIR). His research interest includes Chinese morphological and syntactic parsing, semantic representation and parsing, joint modeling and machine learning.
-
-{\bfseries Ting Liu} is a professor at HIT-SCIR. His research interest includes
-social computing, information retrieval and natural language
-processing.
-\index{Liu, Ting}
-\index{Zhang, Meishan}
-\index{Zhang, Yue}
+{\bfseries Ellen K. Dodge} received her PhD in Linguistics from the University of California, Berkeley. Since 2000, she has worked in ICSI's AI Group, first as part of the Neural Theory of Language project, and also FrameNet. She is the primary linguist continuing to develop Embodied Construction Grammar. Since 2012, she has worked on MetaNet, developing formal representations of frame and metaphor networks, as well as automatic methods to identify and analyze metaphors in text.
 \end{bio}
 
-\begin{tutorial}{Incremental Structured Prediction Using a Global Learning and Beam-Search Framework}
-  {Yue Zhang (SUTD), Meishan Zhang (HIT-SCIR), Ting Liu (HIT-SCIR)}
-  {Sunday, June 22, 2014, 2:00 -- 5:30pm}
+\begin{tutorial}
+  {MetaNet: Repository, Identification System, and Applications}
+  {tutorial-008}
+%{Miriam R. L. Petruck and Ellen K. Dodge}
+  {\daydateyear, \tutorialafternoontime}
   {\TutLocH}
 
-In the past decade, statistical machine translation (SMT) has been advanced from word-based SMT to phrase- and syntax-based SMT. Although this advancement produces significant improvements in BLEU scores, crucial meaning errors and lack of cross-sentence connections at discourse level still hurt the quality of SMT-generated translations. More recently, we have witnessed two active movements in SMT research: one towards combining semantics and SMT in attempt to generate not only grammatical but also meaning-preserved translations, and the other towards exploring discourse knowledge for document-level machine translation in order to capture inter-sentence dependencies.
+The ubiquity of metaphor in language (Lakoff and Johnson 1980) has served as impetus for cognitive linguistic approaches to the study of language, mind, and the study of mind (e.g. Thibodeau \& Boroditsky 2011). While native speakers use metaphor naturally and easily, the treatment and interpretation of metaphor in computational systems remains challenging because such systems have not succeeded in developing ways to recognize the semantic elements that define metaphor. This tutorial demonstrates MetaNet's frame-based semantic analyses, and their informing of MetaNet's automatic metaphor identification system. Participants will gain a complete understanding of the theoretical basis and the practical workings of MetaNet, and acquire relevant information about the Frame Semantics basis of that knowledge base and the way that FrameNet handles the widespread phenomenon of metaphor in language. The tutorial is geared to researchers and practitioners of language technology, not necessarily experts in metaphor analysis or knowledgeable about either FrameNet or MetaNet, but who are interested in natural language processing tasks that involve automatic metaphor processing, or could benefit from exposure to tools and resources that support frame-based deep semantic, analyses of language, including metaphor as a widespread phenomenon in human language. \\
+ 
+%Tutorial Outline \\
 
-The emergence of semantic SMT are due to the combination of two factors: the necessity of semantic modeling in SMT and the renewed interest of designing models tailored to relevant NLP/SMT applications in the semantics community. The former is represented by recent numerous studies on exploring word sense disambiguation, semantic role labeling, bilingual semantic representations as well as semantic evaluation for SMT. The latter is reflected in CoNLL shared tasks, SemEval and SenEval exercises in recent years.
+%Part I: Background to FrameNet and the FrameNet Constructicon 
+%\begin{enumerate}[label=(\alph*)]
+%  \item Frame Semantics and FrameNet
+%  \item Construction Grammar and the FrameNet Constructicon
+%  \item FrameNet treatment of metaphor
+%\end{enumerate}
 
-The need of capturing cross-sentence dependencies for document-level SMT triggers the resurgent interest of modeling translation from the perspective of discourse. Discourse phenomena, such as coherent relations, discourse topics, lexical cohesion that are beyond the scope of conventional sentence-level n-grams, have been recently considered and explored in the context of SMT.
+%Part II: Overview of MetaNet
+%\begin{enumerate}[label=(\alph*)]
+%  \item Conceptual Metaphor Theory
+%  \item The MetaNet Repository
+%  \item The Metaphor Identification System 
+%\end{enumerate}
 
-This tutorial aims at providing a timely and combined introduction of such recent work along these two trends as discourse is inherently connected with semantics. The tutorial has three parts. The first part critically reviews the phrase- and syntax-based SMT. The second part is devoted to the lines of research oriented to semantic SMT, including a brief introduction of semantics, lexical and shallow semantics tailored to SMT, semantic representations in SMT, semantically motivated evaluation as well as advanced topics on deep semantic learning for SMT. The third part is dedicated to recent work on SMT with discourse, including a brief review on discourse studies from linguistics and computational viewpoints, discourse research from monolingual to multilingual, discourse-based SMT and a few advanced topics.
+%Part III: Applications
+%\begin{enumerate}[label=(\alph*)]
+%  \item Metaphor Identification and Analysis
+%  \item Multilinguality
+%  \item Information Extraction
 
-The tutorial is targeted for researchers in the SMT, semantics and discourse communities. In particular, the expected audience comes from two groups: 1) Researchers and students in the SMT community who want to design cutting-edge models and algorithms for semantic SMT with various semantic knowledge and representations, and who would like to advance SMT from sentence-by-sentence translation to document-level translation with discourse information; 2) Researchers and students from the semantics and discourse community who are interested in developing models and methods and adapting them to SMT.
+%Part IV: Challenges and Opportunities
+%\begin{enumerate}[label=(\alph*)]
+%  \item Integrating FrameNet and MetaNet
+%  \item Further system development of MetaNet
+%\end{enumerate}
 
 \end{tutorial}

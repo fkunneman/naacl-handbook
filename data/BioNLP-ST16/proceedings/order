@@ -1,21 +1,20 @@
 * Saturday, August 13, 2016
-+ 14:00--14:15 Overview of BioNLP-ST
+= 14:00--14:15 Overview of BioNLP-ST
 15   # Overview of the Regulatory Network of Plant Seed Development (SeeDev) Task at the BioNLP Shared Task 2016.
 16   # Overview of the Bacteria Biotope Task at BioNLP Shared Task 2016
 17   # Refactoring the Genia Event Extraction Shared Task Toward a General Framework for IE-Driven KB Development
-= BioNLP-ST participant session 1
+= 14:15--15:30 BioNLP-ST participant session 1
 6 14:15--14:30  # LitWay, Discriminative Extraction for Different Bio-Events
 5 14:30--14:45  # VERSE: Event and Relation Extraction in the BioNLP 2016 Shared Task
 1 14:45--15:00  # A dictionary- and rule-based system for identification of bacteria and habitats in text
 12 15:00--15:15  # Ontology-Based Categorization of Bacteria and Habitat Entities using Information Retrieval Techniques
 2 15:15--15:30  # Identification of Mentions and Relations between Bacteria and Biotope from PubMed Abstracts
-+ 15:30--16:00 Coffee break
-= BioNLP-ST participant session 2
+= 15:30--16:00 Coffee break
+= 16:00--17:00 BioNLP-ST participant session 2
 11 16:00--16:15  # Deep Learning with Minimal Training Data: TurkuNLP Entry in the BioNLP Shared Task 2016
 4 16:15--16:30  # SeeDev Binary Event Extraction using SVMs and a Rich Feature Set
 7 16:30--16:45  # Extraction of Regulatory Events using Kernel-based Classifiers and Distant Supervision
 8 16:45--17:00  # DUTIR in BioNLP-ST 2016: Utilizing Convolutional Network and Distributed Representation to Extract Complicate Relations
-+ 17:00--17:30 Closing session
-* Friday, August 12, 2016
-= Poster session
+= 17:00--17:30 Closing session
+* Poster
 18   # Extracting Biomedical Event Using Feature Selection and Word Representation

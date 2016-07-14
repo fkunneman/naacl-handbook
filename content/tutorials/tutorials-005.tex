@@ -1,97 +1,23 @@
 \begin{bio}
-  {\bfseries Scott Wen-tau Yih} is a Researcher in the Machine
-  Learning Group at Microsoft Research Redmond. His research interests
-  include natural language processing, machine learning and
-  information retrieval. Yih received his Ph.D. in computer science at
-  the University of Illinois at Urbana-Champaign. His work on joint
-  inference using integer linear programming (ILP) [Roth \& Yih, 2004]
-  helped the UIUC team win the CoNLL-05 shared task on semantic role
-  labeling, and the approach has been widely adopted in the NLP
-  community. After joining MSR in 2005, he has worked on email spam
-  filtering, keyword extraction and search \& ad relevance. His recent
-  work focuses on continuous semantic representations using neural
-  networks and matrix/tensor decomposition methods, with applications
-  in lexical semantics, knowledge base embedding and question
-  answering. Yih received the best paper award from CoNLL-2011 and has
-  served as area chairs (HLT-NAACL-12, ACL-14) and program co-chairs
-  (CEAS-09, CoNLL-14) in recent years.
+  {\bfseries Thang Luong} is currently a 5th-year PhD student in the Stanford NLP group under Prof. Christopher Manning. In the past, he has published papers on various different NLP-related areas such as digital library, machine translation, speech recognition, parsing, psycholinguistics, and word embedding learning. Recently, his main interest shifts towards the area of deep learning using sequence to sequence models to tackle various NLP problems, especially neural machine translation. He has built state-of-the-art (academically) neural machine translation systems both at Google and at Stanford.
 
-  {\bfseries Xiaodong He} is a Researcher of Microsoft Research,
-  Redmond, WA, USA. He is also an Affiliate Professor in Electrical
-  Engineering at the University of Washington, Seattle, WA, USA. His
-  research interests include deep learning, information retrieval,
-  natural language understanding, machine translation, and speech
-  recognition. Dr. He has published a book and more than 70 technical
-  papers in these areas, and has given tutorials at international
-  conferences in these fields. In benchmark evaluations, he and his
-  colleagues have developed entries that obtained No. 1 place in the
-  2008 NIST Machine Translation Evaluation (NIST MT) and the 2011
-  International Workshop on Spoken Language Translation Evaluation
-  (IWSLT), both in Chinese-English translation, respectively. He
-  serves as Associate Editor of IEEE Signal Processing Magazine and
-  IEEE Signal Processing Letters, as Guest Editors of IEEE TASLP for
-  the Special Issue on Continuous-space and related methods in natural
-  language processing, and Area Chair of NAACL2015. He also served as
-  GE for several IEEE Journals, and served in organizing committees
-  and program committees of major speech and language processing
-  conferences in the past. He is a senior member of IEEE and a member
-  of ACL. 
+  {\bfseries Kyunghyun Cho} is an assistant professor in the Department of Computer Science and the Center for Data Science at New York University. He has worked in deep learning for natural language processing, language translation, image captioning, and a variety of other subjects including the core methods of deep learning. He completed a post-doctoral fellowship at the Montreal Institute for Learning Algorithms. He earned a Ph.D and an M.Sc (with distinction) from the Aalto University School of Science, and a B.Sc in Computer Science from the Korea Advanced Institute of Science and Technology.
 
-  {\bfseries Jianfeng Gao} is a Principal Researcher of Microsoft
-  Research, Redmond, WA, USA. His research interests include Web
-  search and information retrieval, natural language processing and
-  statistical machine learning. Dr. Gao is the primary contributor of
-  several key modeling technologies that help significantly boost the
-  relevance of the Bing search engine. His research has also been
-  applied to other MS products including Windows, Office and Ads. In
-  benchmark evaluations, he and his colleagues have developed entries
-  that obtained No. 1 place in the 2008 NIST Machine Translation
-  Evaluation in Chinese-English translation. He was Associate Editor
-  of ACM Trans on Asian Language Information Processing, (2007 to
-  2010), and was Member of the editorial board of Computational
-  Linguistics (2006 – 2008). He also served as area chairs for
-  ACL-IJCNLP2015, SIGIR2015, SIGIR2014, IJCAI2013, ACL2012, EMNLP2010,
-  ACL-IJCNLP 2009, etc. Dr.\ Gao recently joined Deep Learning
-  Technology Center at MSR-NExT, working on Enterprise Intelligence.
+  {\bfseries Christopher Manning} is a professor of computer science and linguistics at Stanford University. He works on software that can intelligently process, understand, and generate human language material.  He is a leader in applying Deep Learning to Natural Language Processing, including exploring Tree Recursive Neural Networks, sentiment analysis, neural network dependency parsing, the GloVe model of word vectors, neural machine translation, and deep language understanding.  Manning is an ACM Fellow, a AAAI Fellow, and an ACL Fellow, and has coauthored leading textbooks on statistical natural language processing and information retrieval. He is a member of the Stanford NLP group (@stanfordnlp).
 \end{bio}
 
 \begin{tutorial}
-  {Deep Learning and Continuous Representations for NLP}
-  {tutorial-final-009}
+  {Neural Machine Translation}
+  {tutorial-005}
+%{Thang Luong, Kyunghyun Cho and Christopher D. Manning}
   {\daydateyear, \tutorialafternoontime}
   {\TutLocE}
 
-Deep learning techniques have demonstrated tremendous success in the
-speech and language processing community in recent years, establishing
-new state-of-the-art performance in speech recognition, language
-modeling, and have shown great potential for many other natural
-language processing tasks. The focus of this tutorial is to provide an
-extensive overview on recent deep learning approaches to problems in
-language or text processing, with particular emphasis on important
-real-world applications including language understanding, semantic
-representation modeling, question answering and semantic parsing, etc.
+Neural Machine Translation (NMT) is a simple new architecture for getting machines to learn to translate. Despite being relatively new (Kalchbrenner and Blunsom, 2013; Cho et al., 2014; Sutskever et al., 2014), NMT has already shown promising results, achieving state-of-the-art performances for various language pairs (Luong et al, 2015a; Jean et al, 2015; Luong et al, 2015b; Sennrich et al., 2016; Luong and Manning, 2016). While many of these NMT papers were presented to the ACL community, research and practice of NMT are only at their beginning stage. This tutorial would be a great opportunity for the whole community of machine translation and natural language processing to learn more about a very promising new approach to MT. This tutorial has four parts. 
 
-In this tutorial, we will first survey the latest deep learning
-technology, presenting both theoretical and practical perspectives
-that are most relevant to our topic. We plan to cover common methods
-of deep neural networks and more advanced methods of recurrent,
-recursive, stacking and convolutional networks. In addition, we will
-introduce recently proposed continuous-space representations for both
-semantic word embedding and knowledge base embedding, which are
-modeled by either matrix/tensor decomposition or neural networks.
+In the first part, we start with an overview of MT approaches, including: (a) traditional methods that have been dominant over the past twenty years and (b) recent hybrid models with the use of neural network components. From these, we motivate why an end-to-end approach like neural machine translation is needed. The second part introduces a basic instance of NMT. We start out with a discussion of recurrent neural networks, including the back-propagation-through-time algorithm and stochastic gradient descent optimizers, as these are the foundation on which NMT builds. We then describe in detail the basic sequence-to-sequence architecture of NMT (Cho et al., 2014; Sutskever et al., 2014), the maximum likelihood training approach, and a simple beam-search decoder to produce translations.
 
-Next, we will review general problems and tasks in text/language
-processing, and underline the distinct properties that differentiate
-language processing from other tasks such as speech and image object
-recognition. More importantly, we highlight the general issues of
-natural language processing, and elaborate on how new deep learning
-technologies are proposed and fundamentally address these issues. We
-then place particular emphasis on several important applications,
-including (1) machine translation, (2) semantic information retrieval
-and (3) semantic parsing and question answering. For each task, we
-will discuss what particular architectures of deep learning models are
-suitable given the nature of the task, and how learning can be
-performed efficiently and effectively using end-to-end optimization
-strategies.
+The third part of our tutorial describes techniques to build state-of-the-art NMT. We start with approaches to extend the vocabulary coverage of NMT (Luong et al., 2015a; Jean et al., 2015; Chitnis and DeNero, 2015). We then introduce the idea of jointly learning both translations and alignments through an attention mechanism (Bahdanau et al., 2015); other variants of attention (Luong et al., 2015b; Tu et al., 2016) are discussed too. We describe a recent trend in NMT, that is to translate at the sub-word level (Chung et al., 2016; Luong and Manning, 2016; Sennrich et al., 2016), so that language variations can be effectively handled. We then give tips on training and testing NMT systems such as batching and ensembling. In the final part of the tutorial, we briefly describe promising approaches, such as (a) how to combine multiple tasks to help translation (Dong et al., 2015; Luong et al., 2016; Firat et al., 2016; Zoph and Knight, 2016) and (b) how to utilize monolingual corpora (Sennrich et al., 2016). Lastly, we conclude with challenges remained to be solved for future NMT.
 
+PS: we would also like to acknowledge the very first paper by Forcada and \~{N}eco (1997) on sequence-to-sequence models for translation!
 \end{tutorial}

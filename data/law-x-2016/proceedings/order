@@ -1,3 +1,26 @@
+* Thursday, August 11, 2016
+
+= Session 1: Opening and Invited Talk
+! 09:00--09:10 Opening Remarks
+! 09:10--10:05 Invited talk: Assessing the Consistency and Use of "Common Sense" and Dependency Annotations (Marie-Catherine de Marneffe) 
+44 10:05--10:30 # Generating Disambiguating Paraphrases for Structurally Ambiguous Sentences. Manjuan Duan, Ethan Hill and Michael White
+
++ 10:30--11:00 Coffee Break
+
+= Session 2: Dependency Annotation and Discourse
+37 11:00--11:25 # Dependency Annotation Choices
+40 11:25--11:50 # Conversion from Paninian Karakas to Universal Dependencies for Hindi Dependency Treebank
+26 11:50--12:15 # Different Flavors of GUM: Evaluating Genre and Sentence Type Effects on Multilayer Corpus Annotation Quality
+46 12:15--12:40 # Annotating the discourse and dialogue structure of SMS message conversations
+
++ 12:40--14:00 Lunch Break
+
+= Session 3: Evaluation of Agreement (Special Theme)
+31 14:00--14:25 # Evaluating Inter-Annotator Agreement on Historical Spelling Normalization
+16 14:25--14:50 # Filling in the Blanks in Understanding Discourse Adverbials: Consistency, Conflict, and Context-Dependence in a Crowdsourced Elicitation Task
+
++ 14:50--15:05 Poster boasters
++ 15:05--16:00 Session 4: Poster Presentations  
 4   # Building a Cross-document Event-Event Relation Corpus
 5   # Annotating the Little Prince with Chinese AMRs
 8   # Converting SynTagRus Dependency Treebank into Penn Treebank Style
@@ -6,16 +29,18 @@
 12   # Supersense tagging with inter-annotator disagreement
 16   # Filling in the Blanks in Understanding Discourse Adverbials: Consistency, Conflict, and Context-Dependence in a Crowdsourced Elicitation Task
 22   # Comparison of Annotating Methods for Named Entity Corpora
-26   # Different Flavors of GUM: Evaluating Genre and Sentence Type Effects on Multilayer Corpus Annotation Quality
 27   # Addressing Annotation Complexity: The Case of Annotating Ideological Perspective in Egyptian Social Media
 31   # Evaluating Inter-Annotator Agreement on Historical Spelling Normalization
 34   # A Corpus of Preposition Supersenses
 35   # Focus Annotation of Task-based Data: Establishing the Quality of Crowd Annotation
 36   # Part of Speech Annotation of a Turkish-German Code-Switching Corpus
-37   # Dependency Annotation Choices: Assessing Theoretical and Practical Issues of Universal Dependencies
-40   # Conversion from Paninian Karakas to Universal Dependencies for Hindi Dependency Treebank
 43   # Phrase Generalization: a Corpus Study in Multi-Document Abstracts and Original News Alignments
 44   # Generating Disambiguating Paraphrases for Structurally Ambiguous Sentences
 45   # Applying Universal Dependency to the Arapaho Language
-46   # Annotating the discourse and dialogue structure of SMS message conversations
 48   # Creating a Novel Geolocation Corpus from Historical Texts
++ 15:30--16:00 Poster presentations and coffee
+
+! 16:00--16:30 Invited tutorial: How Item-Response Models Can Help us Take the Headache out of Annotation Projects (Dirk Hovy)
+! 16:30--17:15 Discussion
+
++ 17:15--17:30 Closing remarks: 10 years of LAW 
