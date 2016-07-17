@@ -108,6 +108,63 @@
     >{\centering\arraybackslash}p{.25\w}|@{}}%
 }{\end{longtable}}
 
+\newenvironment{FiveTrackSchedule}{
+\settowidth{\en}{--}
+\setlength{\w}{\linewidth}%
+\settowidth{\tsl}{$\,$}
+\addtolength{\w}{-2\tsl}%
+\settowidth{\tsl}{00:00am}
+\addtolength{\tsl}{2ex}
+\addtolength{\w}{-2\tsl}%
+\addtolength{\w}{-2\tabcolsep}%
+\addtolength{\w}{-1\en}%
+\addtolength{\w}{-1cm}%
+\renewcommand{\arraystretch}{1.1}
+%\setlength{\tmplen}{\tabcolsep}
+%\addtolength{\tmplen}{-.5\arrayrulewidth}
+\begin{longtable}{@{}|%
+    >{\raggedleft}p{\tsl}%
+    @{$\,$}%
+    p{1\en}%
+    @{$\,$}%
+    >{\raggedright}%
+    p{\tsl}|%
+    >{\centering\arraybackslash}p{.20\w}|%
+    >{\centering\arraybackslash}p{.20\w}|%
+    >{\centering\arraybackslash}p{.20\w}|%
+    >{\centering\arraybackslash}p{.20\w}|%
+    >{\centering\arraybackslash}p{.20\w}|@{}}%
+}{\end{longtable}}
+
+\newenvironment{SixTrackSchedule}{
+\settowidth{\en}{--}
+\setlength{\w}{\linewidth}%
+\settowidth{\tsl}{$\,$}
+\addtolength{\w}{-2\tsl}%
+\settowidth{\tsl}{00:00am}
+\addtolength{\tsl}{2ex}
+\addtolength{\w}{-2\tsl}%
+\addtolength{\w}{-2\tabcolsep}%
+\addtolength{\w}{-1\en}%
+\addtolength{\w}{-1cm}%
+\renewcommand{\arraystretch}{1.1}
+%\setlength{\tmplen}{\tabcolsep}
+%\addtolength{\tmplen}{-.5\arrayrulewidth}
+\begin{longtable}{@{}|%
+    >{\raggedleft}p{\tsl}%
+    @{$\,$}%
+    p{1\en}%
+    @{$\,$}%
+    >{\raggedright}%
+    p{\tsl}|%
+    >{\centering\arraybackslash}p{.166\w}|%
+    >{\centering\arraybackslash}p{.166\w}|%
+    >{\centering\arraybackslash}p{.166\w}|%
+    >{\centering\arraybackslash}p{.166\w}|%
+    >{\centering\arraybackslash}p{.166\w}|%
+    >{\centering\arraybackslash}p{.166\w}|@{}}%
+}{\end{longtable}}
+
 %%%%%%%%%%% BreakTime Macro %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\BreakTime}[4]{%
 % adds a gray background to a break or a break-style event
@@ -471,12 +528,40 @@ Human Language Technologies}\par
   \begin{center}
     \righthyphenmin2
     \sloppy
-    \begin{tabular}{>{\RaggedRight}p{0.8in}|>{\RaggedRight}p{0.8in}|>{\RaggedRight}p{0.8in}|>{\RaggedRight}p{0.8in}|>{\RaggedRight}p{0.8in}}
+    \begin{longtable}{>{\RaggedRight}p{0.8in}|>{\RaggedRight}p{0.8in}|>{\RaggedRight}p{0.8in}|>{\RaggedRight}p{0.8in}|>{\RaggedRight}p{0.8in}}
       \bf Track A & \bf Track B & \bf Track C & \bf Track D & \bf Track E \\
       \it #3 & \it #4 & \it #5 & \it #6 & \it #7 \\
       \TrackALoc & \TrackBLoc & \TrackCLoc & \TrackDLoc & \TrackELoc \\
       \hline\hline}
-{\end{tabular}\end{center}}
+{\end{longtable}\end{center}}
+
+\newenvironment{SixSessionOverview}[8]{
+  \section[#1]{#1 Overview -- #2}
+  \setheaders{#1}{#2}
+  \begin{center}
+    \righthyphenmin2
+    \sloppy
+    \begin{longtable}{>{\RaggedRight}p{0.67in}|>{\RaggedRight}p{0.67in}|>{\RaggedRight}p{0.67in}|>{\RaggedRight}p{0.67in}|>{\RaggedRight}p{0.67in}|>{\RaggedRight}p{0.67in}}
+      \bf Track A & \bf Track B & \bf Track C & \bf Track D & \bf Track E & \bf Track F \\
+      \it #3 & \it #4 & \it #5 & \it #6 & \it #7 & \it #8 \\
+      \TrackALoc & \TrackBLoc & \TrackCLoc & \TrackDLoc & \TrackELoc & \TrackFLoc \\
+      \hline\hline}
+{\end{longtable}\end{center}}
+
+\newenvironment{SevenSessionOverview}[9]{
+  \section[#1]{#1 Overview -- #2}
+  \setheaders{#1}{#2}
+  \begin{center}
+    \righthyphenmin2
+    \sloppy
+%    \begin{tabular}{>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}}
+    \begin{longtable}{>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}}
+      \bf Track A & \bf Track B & \bf Track C & \bf Track D & \bf Track E & \bf Track F & \bf Track G \\
+      \it #3 & \it #4 & \it #5 & \it #6 & \it #7 & \it #8 & \it #9 \\
+      \TrackALoc & \TrackBLoc & \TrackCLoc & \TrackDLoc & \TrackELoc & \TrackFLoc & \TrackGLoc \\
+      \hline\hline}
+%{\end{tabular}\end{center}}
+{\end{longtable}\end{center}}
 
 \newenvironment{ThreeSessionOverview}[5]{
   \section[#1]{#1 Overview -- #2}
@@ -492,8 +577,22 @@ Human Language Technologies}\par
       \hline\hline}
 {\hline\end{tabular}\end{center}}
 
+\newenvironment{TwoSessionOverview}[4]{
+  \section[#1]{#1 Overview -- #2}
+  \setheaders{#1}{#2}
+  \begin{center}
+    \righthyphenmin2
+    \sloppy
+    \begin{tabular}{|>{\RaggedRight}p{2.0in}|>{\RaggedRight}p{2.0in}|}
+      \hline
+      \bf Track A & \bf Track B \\\hline
+      \it #3 & \it #4 \\
+      \TrackALoc & \TrackBLoc \\
+      \hline\hline}
+{\hline\end{tabular}\end{center}}
+
 \newcommand{\daydate}{DAY, DATE}
 \newcommand{\daydateyear}{DAY, DATE, YEAR}
 \newcommand{\setdaydateyear}[3]{
-  \renewcommand{\daydateyear}{#1, #2, #3\xspace}
-  \renewcommand{\daydate}{#1, #2\xspace}}
+\renewcommand{\daydateyear}{#1, #2, #3\xspace}
+\renewcommand{\daydate}{#1, #2\xspace}}

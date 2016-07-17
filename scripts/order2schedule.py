@@ -19,6 +19,7 @@ import re, os
 import sys, csv
 import argparse
 from handbook import *
+from datetime import datetime, timedelta
 from collections import defaultdict
 
 PARSER = argparse.ArgumentParser(description="Generate schedules for *ACL handbooks")
@@ -51,16 +52,16 @@ def time_max(a, b):
 
 # List of dates
 dates = []
-schedule = defaultdict(defaultdict)
+schedule = defaultdict(lambda : defaultdict(list))
 sessions = defaultdict()
 session_times = defaultdict()
 
 for file in args.order_files:
-    subconf_name = file.split('/')[1]
     for line in open(file):
+        subconf_name = file.split('/')[1]
         line = line.rstrip()
 
-        # print "LINE", line
+        #print "LINE", line
 
         if line.startswith('*'):
             # This sets the day
@@ -88,20 +89,60 @@ for file in args.order_files:
                 title = rest.split(' ', 1)
             else:
                 title = rest
+            
+  #          print 'TITLE', title
+            if re.search('\d+/TACL', title[-1]):
+                subconf_name = 'tacl'           
+   #             print 'SETTING SUBCONF TO TACL'
+#            elif re.search('\d+/short', title[-1]:
+#                subconf_name = 'short'
 
             if not sessions.has_key(session_name):
                 sessions[session_name] = Session("= %s %s" % (timerange, session_name), (day, date, year))
 
+    
             sessions[session_name].add_paper(Paper(line, subconf_name))
+
+#for s in sessions.keys():
+#    print 'Session', sessions[s].date #, sessions[s].desc, sessions[s].chair 
+#    for p in sessions[s].papers:
+#        print 'Paper', p.id, p.time
+#quit()
 
 # Take all the sessions and place them at their time
 for session in sorted(sessions.keys()):
     day, date, year = sessions[session].date
-    timerange = sessions[session].time
+    papers = sessions[session].papers
+    try:
+        times_start = [datetime.strptime(p.time[:5], '%H:%M') for p in papers]
+        times_end = [datetime.strptime(p.time[7:], '%H:%M') for p in papers]
+        timestart = min(times_start).strftime('%I:%M')
+        timeend = max(times_end).strftime('%I:%M')
+        timerange = timestart + '--' + timeend
+        
+        print(timerange)
+    except:
+        print 'error timerange'
+        continue
+
+    timeranges = schedule[(day, date, year)].keys()
+    if timerange in schedule[(day, date, year)].keys():
+        schedule[(day, date, year)][timerange].append(sessions[session])
+    else: # might be paper missing
+        timestarts = [x[:5] for x in timeranges]
+        timeends = [x[7:] for x in timeranges]
+        if timestart in timestarts:
+            timeend = timeranges[timestarts.index(timestart)][7:]
+            timerange = timestart + '--' + timeend
+        elif timeend in timeends:
+            timestart = timeranges[timeends.index(timeend)][:5]
+            timerange = timestart + '--' + timeend
+        schedule[(day, date, year)][timerange].append(sessions[session])
+ #timerange = min(times)[:7] + maxsessions[session].time
 #    print >> sys.stderr, "SESSION", session, day, date, year, timerange
-    if not schedule[(day, date, year)].has_key(timerange):
-        schedule[(day, date, year)][timerange] = []
-    schedule[(day, date, year)][timerange].append(sessions[session])
+#    if not schedule[(day, date, year)].has_key(timerange):
+ #       schedule[(day, date, year)][timerange] = []
+  #  schedule[(day, date, year)][timerange].append(sessions[session])
 
 def sort_times(a, b):
     ahour, amin = a[0].split('--')[0].split(':')
@@ -125,16 +166,19 @@ def minus12(time):
 # Now iterate through the combined schedule, printing, printing, printing.
 # Write a file for each date. This file can then be imported and, if desired, manually edited.
 for date in dates:
+    print 'Date', date
     day, num, year = date
     for timerange, events in sorted(schedule[date].iteritems(), cmp=sort_times):
         start, stop = timerange.split('--')
 
+        #print('Events', timerange, events, dir(events))
         if not isinstance(events, list):
             continue
 
         parallel_sessions = filter(lambda x: isinstance(x, Session) and not x.poster, events)
         poster_sessions = filter(lambda x: isinstance(x, Session) and x.poster, events)
 
+        #print(len(parallel_sessions))
         # PARALLEL SESSIONS
 
         # Print the Session overview (single-page at-a-glance grid)
@@ -147,22 +191,56 @@ for date in dates:
             
             print >>out, '\\clearpage'
             print >>out, '\\setheaders{Session %s}{\\daydateyear}' % (session_num)
-            print >>out, '\\begin{ThreeSessionOverview}{Session %s}{\daydateyear}' % (session_num)
-            # print the session overview
+            
+            st = datetime(2016,8,7,int(start[:2]), int(start[3:])) # start time
+            if len(parallel_sessions) == 2:
+                out1 = '\\begin{TwoSessionOverview}{Session %s}{\daydateyear}' % (session_num)
+                out2 = '\\end{TwoSessionOverview}\n'
+            elif len(parallel_sessions) == 3:
+                out1 = '\\begin{ThreeSessionOverview}{Session %s}{\daydateyear}' % (session_num)
+                out2 = '\\end{ThreeSessionOverview}\n'
+            elif len(parallel_sessions) == 5:
+                out1 = '\\begin{SessionOverview}{Session %s}{\daydateyear}' % (session_num)
+                out2 = '\\end{SessionOverview}\n'
+            elif len(parallel_sessions) == 6:
+                out1 = '\\begin{SixSessionOverview}{Session %s}{\daydateyear}' % (session_num)
+                out2 = '\\end{SixSessionOverview}\n'                
+            elif len(parallel_sessions) == 7:
+                out1 = '\\begin{SevenSessionOverview}{Session %s}{\daydateyear}' % (session_num)
+                out2 = '\\end{SevenSessionOverview}\n'
+            
+            print >>out, out1
+                # print the session overview
             for session in parallel_sessions:
                 print >>out, '  {%s}' % (session.desc)
                 times = [minus12(p.time.split('--')[0]) for p in parallel_sessions[0].papers]
 
-            num_papers = len(parallel_sessions[0].papers)
+            num_papers = max([len(x.papers) for x in parallel_sessions])
             for paper_num in range(num_papers):
                 if paper_num > 0:
                     print >>out, '  \\hline'
-                print >>out, '  \\marginnote{\\rotatebox{90}{%s}}[2mm]' % (times[paper_num])
-                papers = [session.papers[paper_num] for session in parallel_sessions]
-                print >>out, ' ', ' & '.join(['\\papertableentry{%s}' % (p.id) for p in papers])
+                t = times[paper_num]
+                if len(t.split(':')[0]) == 1:
+                    t = '0' + t
+                print >>out, '  \\marginnote{\\rotatebox{90}{%s}}[2mm]' % (t)
+                    
+                    #print 'paper_num', num_papers, paper_num
+                papers = []
+                print 'TIMES T', times, t
+                #st_str = st.strftime('%H:%M')
+                for session in parallel_sessions:
+                    ts = [datetime.strptime(p.time[:5], '%H:%M').strftime('%02I:%02M') for p in session.papers]
+ #                   print 'TS', ts, t
+                    if t in ts:
+                        p = session.papers[ts.index(t)]
+  #                      print 'T and ID', t, p.id
+                        papers.append('\\papertableentry{%s}' % (p.id))
+                    else:
+                        papers.append('')
+                print >>out, ' ', ' & '.join(papers)
                 print >>out, '  \\\\'
 
-            print >>out, '\\end{ThreeSessionOverview}\n'
+            print >>out, out2
 
             # Now print the papers in each of the sessions
             # Print the papers

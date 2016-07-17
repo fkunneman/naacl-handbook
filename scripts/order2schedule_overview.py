@@ -17,6 +17,7 @@ import re, os
 import sys, csv
 import argparse
 from handbook import *
+from datetime import datetime
 from collections import defaultdict
 
 PARSER = argparse.ArgumentParser(description="Generate overview schedules for *ACL handbooks")
@@ -48,7 +49,7 @@ def time_max(a, b):
 
 # List of dates
 dates = []
-schedule = defaultdict(defaultdict)
+schedule = defaultdict(lambda : defaultdict(list))
 sessions = defaultdict()
 session_times = defaultdict()
 
@@ -78,14 +79,50 @@ for line in sys.stdin:
             schedule[(day, date, year)][timerange] = []
         schedule[(day, date, year)][timerange].append(title)
 
+    elif re.match(r'^\d+', line) is not None:
+        id, rest = line.split(' ', 1)
+        if re.match(r'^\d+:\d+-+\d+:\d+', rest) is not None:
+            title = rest.split(' ', 1)
+        else:
+            #title = rest
+            continue
+
+        print(session_name)
+        if not sessions.has_key(session_name):
+            sessions[session_name] = Session("= %s %s" % (timerange, session_name), (day, date, year))
+
+        sessions[session_name].add_paper(Paper(line, 'papers'))
+
+# Take all the sessions and place them at their time
 # Take all the sessions and place them at their time
 for session in sorted(sessions.keys()):
     day, date, year = sessions[session].date
-    timerange = sessions[session].time
-#    print >> sys.stderr, "SESSION", session, day, date, year, timerange
-    if not schedule[(day, date, year)].has_key(timerange):
-        schedule[(day, date, year)][timerange] = []
-    schedule[(day, date, year)][timerange].append(sessions[session])
+    papers = sessions[session].papers
+    #print len(papers)
+    try:
+        times_start = [datetime.strptime(p.time[:5], '%H:%M') for p in papers]
+        times_end = [datetime.strptime(p.time[7:], '%H:%M') for p in papers]
+        timestart = min(times_start).strftime('%H:%M') 
+        timeend = max(times_end).strftime('%H:%M')
+        timerange = timestart + '--' + timeend
+        #print(timerange)
+    except:
+        print 'error timerange'
+        continue
+    
+    timeranges = schedule[(day, date, year)].keys()
+    if timerange in schedule[(day, date, year)].keys():
+        schedule[(day, date, year)][timerange].append(sessions[session])
+    else: # might be paper missing
+        timestarts = [x[:5] for x in timeranges]
+        timeends = [x[7:] for x in timeranges]
+        if timestart in timestarts:
+            timeend = timeranges[timestarts.index(timestart)][7:]
+            timerange = timestart + '--' + timeend
+        elif timeend in timeends:
+            timestart = timeranges[timeends.index(timeend)][:5]
+            timerange = timestart + '--' + timeend
+        schedule[(day, date, year)][timerange].append(sessions[session])
 
 def sort_times(a, b):
     ahour, amin = a[0].split('--')[0].split(':')
@@ -111,24 +148,31 @@ for date in dates:
     print >>out, '\\section*{Overview}'
     print >>out, '\\renewcommand{\\arraystretch}{1.2}'
     print >>out, '\\begin{SingleTrackSchedule}'
-    for timerange, events in sorted(schedule[date].iteritems(), cmp=sort_times):
+    for x in schedule[date].iteritems():
+        print date, 'X', x
+    for timerange, events in sorted(schedule[date].iteritems(), cmp=sort_times):        
         start, stop = timerange.split('--')
+        if stop[-1] == ':':
+            stop = stop[:-1]
+        print('start stop', date, start, stop, len(events))
 
-        if len(events) >= 3:
+        if len(events) >= 2:
+            print 'Parallel', len(events)
             # Parallel sessions (assume there are at least 3)
             sessions = [x for x in events]
 
             # turn "Session 9A" to "Session 9"
+            print(sessions[0])
             title = 'Session %s' % (sessions[0].num)
             num_parallel_sessions = len(sessions)
             rooms = ['\emph{\Track%cLoc}' % (chr(65+x)) for x in range(num_parallel_sessions)]
             # column width in inches
             width = 3.3 / num_parallel_sessions
             print >>out, '  %s & -- & %s &' % (minus12(start), minus12(stop))
-            print >>out, '  \\begin{tabular}{|%s|}' % ('|'.join(['p{%.1fin}' % width for x in range(num_parallel_sessions)]))
+            print >>out, '  \\begin{tabular}{|%s|}' % ('|'.join(['p{%.11fin}' % width for x in range(num_parallel_sessions)]))
             print >>out, '    \\multicolumn{%d}{l}{{\\bfseries %s}}\\\\\\hline' % (num_parallel_sessions,title)
             print >>out, ' & '.join([session.desc for session in sessions]), '\\\\'
-            print >>out, ' & '.join(rooms), '\\\\'
+            #print >>out, ' & '.join(rooms), '\\\\'
             print >>out, '  \\hline\\end{tabular} \\\\'
 
         else:
@@ -136,7 +180,10 @@ for date in dates:
             for event in events:
                 # A regular event
                 print >>out, '  %s & -- & %s &' % (minus12(start), minus12(stop))
-                loc = event.split(' ')[0].capitalize()
+                try:
+                    loc = event.split(' ')[0].capitalize()
+                except:
+                    loc = 'locA'
                 print >>out, '  {\\bfseries %s} \\hfill \emph{\\%sLoc}' % (event, loc)
                 print >>out, '  \\\\'
 

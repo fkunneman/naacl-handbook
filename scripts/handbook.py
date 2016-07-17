@@ -33,6 +33,7 @@ def latex_escape(str):
 class Paper:
     def __init__(self, line, subconf):
         self.id, rest = line.split(' ', 1)
+#        print 'Paper', line, '---------', self.id, '--------------', rest
         if re.match(r'^\d+', rest) is not None:
             self.time, comment = rest.split(' ', 1)
             self.poster = False
@@ -41,11 +42,18 @@ class Paper:
             self.poster = True
             comment = rest
 
-        if self.id.find('/') != -1:
+        if self.id.find('/') != -1: # short
             tokens = self.id.split('/')
             self.id = '%s-%s' % (tokens[1].lower(), threedigits(tokens[0]))
+        elif re.search('\d+/TACL', rest): # tacl
+            papernum = rest.split('#')[1].split('/')[0].strip()
+            self.id = '%s-%s' % (subconf, threedigits(papernum))
+#            self.id = '%s-%s' % ('papers', threedigits('587'))
+#            print 'TACL', self.id
         else:
             self.id = '%s-%s' % (subconf, threedigits(self.id))
+
+#        print subconf, self.id
             
     def __str__(self):
         return "%s %s" % (id, time)

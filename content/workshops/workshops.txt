@@ -4,7 +4,7 @@ Barry Haddow, Philipp Koehn, Ondrej Bojar, Matthias Huck, Christian Federmann, C
 
 W2, repl4nlp2016
 1st Workshop on Representation Learning for NLP 
-Phil Blunsom, Kyunghyun Cho, Shay Cohen, Edward Grefenstette, Karl Moritz Hermann, Laura Rimell, Jason Weston, and Scott Wen- tau Yih
+Phil Blunsom, Kyunghyun Cho, Shay Cohen, Edward Grefenstette, Karl Moritz Hermann, Laura Rimell, Jason Weston, and Scott Wen-tau Yih
 
 W3, law-x-2016
 SIGANN's Linguistic Annotation Workshop
