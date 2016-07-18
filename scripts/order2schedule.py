@@ -221,9 +221,7 @@ for date in dates:
             print >>out, '\\newpage'
             print >>out, '\\section*{Parallel Session %s}' % (session_num)
             for i, session in enumerate(parallel_sessions):
-                chair = session.chair()
-                print >>out, '{\\bfseries\\large %s: %s}\\\\' % (session.name, session.desc)
-                print >>out, '\\Track%cLoc\\hfill\\sessionchair{%s}{%s}' % (chr(i + 65),chair[0],chair[1])
+                print >>out, '\par\centerline{\\bfseries\\large %s: %s}\\vspace{1em}\par\\\\' % (session.name, session.desc)
                 for paper in session.papers:
                     print >>out, '\\paperabstract{\\day}{%s}{}{}{%s}' % (paper.time, paper.id)
                 print >>out, '\\clearpage'
