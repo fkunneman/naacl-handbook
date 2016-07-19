@@ -104,8 +104,8 @@ for session in sorted(sessions.keys()):
     if sessions[session].time == 'Session': # parallel session
         times_start = [datetime.strptime(p.time[:5], '%H:%M') for p in papers]
         times_end = [datetime.strptime(p.time[7:], '%H:%M') for p in papers]
-        timestart = min(times_start).strftime('%I:%M')
-        timeend = max(times_end).strftime('%I:%M')
+        timestart = min(times_start).strftime('%H:%M')
+        timeend = max(times_end).strftime('%H:%M')
         timerange = timestart + '--' + timeend
         
         timeranges = schedule[(day, date, year)].keys()
@@ -171,7 +171,6 @@ for date in dates:
             print >>out, '\\setheaders{Session %s}{\\daydateyear}' % (session_num)
 
             print len(parallel_sessions), len(poster_sessions)            
-            st = datetime(2016,8,7,int(start[:2]), int(start[3:])) # start time
             if len(parallel_sessions) == 2:
                 out1 = '\\begin{TwoSessionOverview}{Session %s}{\daydateyear}' % (session_num)
                 out2 = '\\end{TwoSessionOverview}\n'
@@ -192,7 +191,7 @@ for date in dates:
                 # print the session overview
             for session in parallel_sessions:
                 print >>out, '  {%s}' % (session.desc)
-                times = [minus12(p.time.split('--')[0]) for p in parallel_sessions[0].papers]
+                times = [p.time.split('--')[0] for p in parallel_sessions[0].papers]
 
             num_papers = max([len(x.papers) for x in parallel_sessions])
             for paper_num in range(num_papers):
@@ -205,10 +204,13 @@ for date in dates:
                     
                 papers = []
                 for session in parallel_sessions:
-                    ts = [datetime.strptime(p.time[:5], '%H:%M').strftime('%02I:%02M') for p in session.papers]
+                    ts = [datetime.strptime(p.time[:5], '%H:%M').strftime('%H:%M') for p in session.papers]
                     if t in ts:
                         p = session.papers[ts.index(t)]
-                        papers.append('\\papertableentry{%s}' % (p.id))
+                        if len(parallel_sessions) >= 6:                    
+                            papers.append('\\papertableentrysmall{%s}' % (p.id))
+                        else:
+                            papers.append('\\papertableentry{%s}' % (p.id))
                     else:
                         papers.append('')
                 print >>out, ' ', ' & '.join(papers)
@@ -221,7 +223,7 @@ for date in dates:
             print >>out, '\\newpage'
             print >>out, '\\section*{Parallel Session %s}' % (session_num)
             for i, session in enumerate(parallel_sessions):
-                print >>out, '\par\centerline{\\bfseries\\large %s: %s}\\vspace{1em}\par\\\\' % (session.name, session.desc)
+                print >>out, '\par\centerline{\\bfseries\\large %s: %s}\\vspace{1em}\\par' % (session.name, session.desc)
                 for paper in session.papers:
                     print >>out, '\\paperabstract{\\day}{%s}{}{}{%s}' % (paper.time, paper.id)
                 print >>out, '\\clearpage'

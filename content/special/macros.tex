@@ -514,6 +514,10 @@ Human Language Technologies}\par
 \newcommand{\sessionchair}[2]{
   \emph{Chair: #1 #2}\par\index{#2, #1}}
 
+\newcommand\clipstring[2][3cm]{%
+  \clipbox{0pt 0pt {\width-#1} 0pt}{#2}%
+  }
+
 \newcommand{\papertitleandauthor}[1]{
   {\bfseries \papertitle{#1}}\\
   \paperauthor{\citefullauthornames{#1}}}
@@ -522,18 +526,22 @@ Human Language Technologies}\par
   {\papertitle{#1}}\newline
   {\paperauthor{\citeauthorslastnamesonly{#1}}}}
 
+\newcommand{\papertableentrysmall}[1]{
+  {\truncate{5cm}{\papertitle{#1}}}\newline
+  {\paperauthor{\citeauthorslastnamesonly{#1}}}}
+      
 \newenvironment{SessionOverview}[7]{
   \section[#1]{#1 Overview -- #2}
   \setheaders{#1}{#2}
   \begin{center}
     \righthyphenmin2
     \sloppy
-    \begin{longtable}{>{\RaggedRight}p{0.8in}|>{\RaggedRight}p{0.8in}|>{\RaggedRight}p{0.8in}|>{\RaggedRight}p{0.8in}|>{\RaggedRight}p{0.8in}}
+    \begin{tabular}{>{\RaggedRight}p{0.8in}|>{\RaggedRight}p{0.8in}|>{\RaggedRight}p{0.8in}|>{\RaggedRight}p{0.8in}|>{\RaggedRight}p{0.8in}}
       \bf Track A & \bf Track B & \bf Track C & \bf Track D & \bf Track E \\
       \it #3 & \it #4 & \it #5 & \it #6 & \it #7 \\
       \TrackALoc & \TrackBLoc & \TrackCLoc & \TrackDLoc & \TrackELoc \\
       \hline\hline}
-{\end{longtable}\end{center}}
+{\end{tabular}\end{center}}
 
 \newenvironment{SixSessionOverview}[8]{
   \section[#1]{#1 Overview -- #2}
@@ -541,27 +549,27 @@ Human Language Technologies}\par
   \begin{center}
     \righthyphenmin2
     \sloppy
-    \begin{longtable}{>{\RaggedRight}p{0.67in}|>{\RaggedRight}p{0.67in}|>{\RaggedRight}p{0.67in}|>{\RaggedRight}p{0.67in}|>{\RaggedRight}p{0.67in}|>{\RaggedRight}p{0.67in}}
+    \begin{tabular}{>{\RaggedRight}p{0.67in}|>{\RaggedRight}p{0.67in}|>{\RaggedRight}p{0.67in}|>{\RaggedRight}p{0.67in}|>{\RaggedRight}p{0.67in}|>{\RaggedRight}p{0.67in}}
       \bf Track A & \bf Track B & \bf Track C & \bf Track D & \bf Track E & \bf Track F \\
       \it #3 & \it #4 & \it #5 & \it #6 & \it #7 & \it #8 \\
       \TrackALoc & \TrackBLoc & \TrackCLoc & \TrackDLoc & \TrackELoc & \TrackFLoc \\
       \hline\hline}
-{\end{longtable}\end{center}}
+{\end{tabular}\end{center}}
 
 \newenvironment{SevenSessionOverview}[9]{
   \section[#1]{#1 Overview -- #2}
   \setheaders{#1}{#2}
-  \begin{center}
+  \begin{adjustwidth}{-1.0cm}{}
     \righthyphenmin2
     \sloppy
-%    \begin{tabular}{>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}}
-    \begin{longtable}{>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}}
+    \begin{tabular}{>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}}
+%    \begin{longtable}{>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}}
       \bf Track A & \bf Track B & \bf Track C & \bf Track D & \bf Track E & \bf Track F & \bf Track G \\
       \it #3 & \it #4 & \it #5 & \it #6 & \it #7 & \it #8 & \it #9 \\
       \TrackALoc & \TrackBLoc & \TrackCLoc & \TrackDLoc & \TrackELoc & \TrackFLoc & \TrackGLoc \\
       \hline\hline}
-%{\end{tabular}\end{center}}
-{\end{longtable}\end{center}}
+{\end{tabular}\end{adjustwidth}}
+%{\end{longtable}\end{center}}
 
 \newenvironment{ThreeSessionOverview}[5]{
   \section[#1]{#1 Overview -- #2}

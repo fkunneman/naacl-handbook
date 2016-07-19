@@ -87,7 +87,6 @@ for line in sys.stdin:
             #title = rest
             continue
 
-        print(session_name)
         if not sessions.has_key(session_name):
             sessions[session_name] = Session("= %s %s" % (timerange, session_name), (day, date, year))
 
@@ -148,8 +147,6 @@ for date in dates:
     print >>out, '\\section*{Overview}'
     print >>out, '\\renewcommand{\\arraystretch}{1.2}'
     print >>out, '\\begin{SingleTrackSchedule}'
-    for x in schedule[date].iteritems():
-        print date, 'X', x
     for timerange, events in sorted(schedule[date].iteritems(), cmp=sort_times):        
         start, stop = timerange.split('--')
         if stop[-1] == ':':
@@ -168,7 +165,7 @@ for date in dates:
             rooms = ['\emph{\Track%cLoc}' % (chr(65+x)) for x in range(num_parallel_sessions)]
             # column width in inches
             width = 3.3 / num_parallel_sessions
-            print >>out, '  %s & -- & %s &' % (minus12(start), minus12(stop))
+            print >>out, '  %s & -- & %s &' % (start, stop)
             print >>out, '  \\begin{tabular}{|%s|}' % ('|'.join(['p{%.11fin}' % width for x in range(num_parallel_sessions)]))
             print >>out, '    \\multicolumn{%d}{l}{{\\bfseries %s}}\\\\\\hline' % (num_parallel_sessions,title)
             print >>out, ' & '.join([session.desc for session in sessions]), '\\\\'
@@ -179,7 +176,7 @@ for date in dates:
 
             for event in events:
                 # A regular event
-                print >>out, '  %s & -- & %s &' % (minus12(start), minus12(stop))
+                print >>out, '  %s & -- & %s &' % (start, stop)
                 try:
                     loc = event.split(' ')[0].capitalize()
                 except:
