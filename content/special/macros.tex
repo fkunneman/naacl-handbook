@@ -264,7 +264,7 @@
   \printnames[fullauthornames]{labelname}%
 }{\multicitedelim}{\usebibmacro{postnote}}
                      
-\DeclareFieldFormat[inproceedings]{citetitle}{#1}
+%\DeclareFieldFormat[inproceedings]{citetitle}{#1}
 
 \newcommand{\paperauthor}[1]{{\em #1}}
 \newcommand{\papertitle}[1]{\citetitle{#1}}
@@ -499,7 +499,7 @@ Human Language Technologies}\par
     \end{Large}
     {\itshape \tutorialauthors{#2}}\vspace{1em}\par
     #3 \vspace{1em}\\
-    #4
+    Venue: #4
   \end{center}}
 
 \newcounter{TutorialCounter}
@@ -514,21 +514,47 @@ Human Language Technologies}\par
 \newcommand{\sessionchair}[2]{
   \emph{Chair: #1 #2}\par\index{#2, #1}}
 
-\newcommand\clipstring[2][3cm]{%
-  \clipbox{0pt 0pt {\width-#1} 0pt}{#2}%
-  }
+%\newcommand\clipstring[2][3cm]{%
+%  \clipbox{0pt 0pt {\width-#1} 0pt}{#2}%
+%  }
+
+\def\truncthreshold{5}
 
 \newcommand{\papertitleandauthor}[1]{
   {\bfseries \papertitle{#1}}\\
   \paperauthor{\citefullauthornames{#1}}}
 
+\newcommand{\trun}[2] {
+\stringlength[q]{#1}%
+\def\mythresh{#2}%
+\ifnum\theresult>\mythresh%
+\substring{#1}{1}{#2}\ldots%
+\else%
+#1%
+\fi
+}
+
 \newcommand{\papertableentry}[1]{
+  %{\papertitle{#1}}}
   {\papertitle{#1}}\newline
   {\paperauthor{\citeauthorslastnamesonly{#1}}}}
 
-\newcommand{\papertableentrysmall}[1]{
-  {\truncate{5cm}{\papertitle{#1}}}\newline
+\newcommand{\papertableentryauthors}[1]{
+  \small
+  %{\papertitle{#1}}}
+  {\papertitle{#1}}\newline
   {\paperauthor{\citeauthorslastnamesonly{#1}}}}
+
+
+\newcommand\clipstring[2][3cm]{%
+  \clipbox{0pt 0pt {\dimexpr\width-#1\relax} 0pt}{#2}%
+}
+
+\newcommand{\papertableentrysmall}[1]{
+  \small
+  %{\clipstring{\papertitle{#1}}}\newline
+  {\papertitle{#1}}}
+  %{\paperauthor{\citeauthorslastnamesonly{#1}}}}
       
 \newenvironment{SessionOverview}[7]{
   \section[#1]{#1 Overview -- #2}
@@ -546,20 +572,25 @@ Human Language Technologies}\par
 \newenvironment{SixSessionOverview}[8]{
   \section[#1]{#1 Overview -- #2}
   \setheaders{#1}{#2}
+  %\begin{adjustwidth}{-0.5cm}{}
   \begin{center}
     \righthyphenmin2
     \sloppy
+%    \begin{longtable}{>{\RaggedRight}p{0.67in}|>{\RaggedRight}p{0.67in}|>{\RaggedRight}p{0.67in}|>{\RaggedRight}p{0.67in}|>{\RaggedRight}p{0.67in}|>{\RaggedRight}p{0.67in}}
     \begin{tabular}{>{\RaggedRight}p{0.67in}|>{\RaggedRight}p{0.67in}|>{\RaggedRight}p{0.67in}|>{\RaggedRight}p{0.67in}|>{\RaggedRight}p{0.67in}|>{\RaggedRight}p{0.67in}}
       \bf Track A & \bf Track B & \bf Track C & \bf Track D & \bf Track E & \bf Track F \\
       \it #3 & \it #4 & \it #5 & \it #6 & \it #7 & \it #8 \\
       \TrackALoc & \TrackBLoc & \TrackCLoc & \TrackDLoc & \TrackELoc & \TrackFLoc \\
       \hline\hline}
+%{\end{longtable}\end{center}}
+%{\end{tabular}\end{adjustwidth}}
 {\end{tabular}\end{center}}
 
 \newenvironment{SevenSessionOverview}[9]{
   \section[#1]{#1 Overview -- #2}
   \setheaders{#1}{#2}
-  \begin{adjustwidth}{-1.0cm}{}
+%  \begin{adjustwidth}{-1.1cm}{}
+  \begin{center}
     \righthyphenmin2
     \sloppy
     \begin{tabular}{>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}|>{\RaggedRight}p{0.57in}}
@@ -568,8 +599,9 @@ Human Language Technologies}\par
       \it #3 & \it #4 & \it #5 & \it #6 & \it #7 & \it #8 & \it #9 \\
       \TrackALoc & \TrackBLoc & \TrackCLoc & \TrackDLoc & \TrackELoc & \TrackFLoc & \TrackGLoc \\
       \hline\hline}
-{\end{tabular}\end{adjustwidth}}
-%{\end{longtable}\end{center}}
+%{\end{tabular}\end{adjustwidth}}
+{\end{tabular}\end{center}}
+%{\end{longtable}\end{adjustwidth}}
 
 \newenvironment{ThreeSessionOverview}[5]{
   \section[#1]{#1 Overview -- #2}

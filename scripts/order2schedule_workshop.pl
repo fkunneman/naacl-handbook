@@ -86,7 +86,7 @@ while (my $line = <STDIN>) {
     push @t, $4 if $4;
     my $endsat   = scalar(@t) ? pop @t : "\$\\bullet\$";
     my $startsat = scalar(@t) ? pop @t : "";
-    $time =~ s/(\d+):(\d+)/minus12($1,$2)/eg;
+    $time =~ "$1:$2";
     print sprintf("\\item[$time] \\wspaperentry{$conf_part-%03d}\n", $paper_id);
   }
   else

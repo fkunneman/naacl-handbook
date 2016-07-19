@@ -5,6 +5,7 @@
 \usepackage{xspace}
 \usepackage[breakwords]{truncate}
 \usepackage{changepage}
+\usepackage{stringstrings}
 
 \usepackage{packages/combelow}
 \usepackage{packages/newunicodechar}
@@ -74,6 +75,8 @@
 % Special bib for the workshops
 \bibliography{content/workshops/papers.bib}
 
+\DeclareFieldFormat[inproceedings]{citetitle}{\trun{#1}{250}}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
@@ -92,7 +95,7 @@
 \cleardoublepage
 \thispagestyle{empty}
 \vspace*{6in}
-\noindent\emph{Cover design by ...}\\
+%\noindent\emph{Cover design by ...}\\
 \noindent\emph{Handbook assembled by Florian Kunneman}\\
 \emph{Printing by Omnipress of Madison, Wisconsin}
 
@@ -142,6 +145,7 @@
 \clearpage%{\thispagestyle{emptyheader}\cleardoublepage}
 \setheaders{}{}
 
+\input{content/fmatter/venue_info.tex}
 %\input{content/meal-info.tex}
 \clearpage
 
@@ -152,8 +156,8 @@
 
 %% Welcome reception %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%% \addcontentsline{toc}{chapter}{Welcome Reception: \daydate, 6:00pm}
-%\input{content/tutorials/welcome_reception}
+ \addcontentsline{toc}{chapter}{Welcome Reception: \daydate, 18:00}
+ \input{content/tutorials/welcome_reception}
 
 %% MAIN CONFERENCE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

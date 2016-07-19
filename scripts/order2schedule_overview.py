@@ -169,7 +169,7 @@ for date in dates:
             print >>out, '  \\begin{tabular}{|%s|}' % ('|'.join(['p{%.11fin}' % width for x in range(num_parallel_sessions)]))
             print >>out, '    \\multicolumn{%d}{l}{{\\bfseries %s}}\\\\\\hline' % (num_parallel_sessions,title)
             print >>out, ' & '.join([session.desc for session in sessions]), '\\\\'
-            #print >>out, ' & '.join(rooms), '\\\\'
+            print >>out, ' & '.join(rooms), '\\\\'
             print >>out, '  \\hline\\end{tabular} \\\\'
 
         else:
